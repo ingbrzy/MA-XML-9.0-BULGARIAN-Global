@@ -847,7 +847,6 @@
   <string name="view_by_gallery_tip">MIUI Галерия</string>
   <string name="view_face_album">Покажи албума</string>
   <string name="view_queuing_status">Проверка на статуса</string>
-  <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
   <string name="welcome_to_micloud">Добре дошли в Mi Cloud.</string>
   <string name="welcome_to_slim">Добре дошли в умаления албум.</string>
   <string name="where_is_barcode">Къде е QR кода?</string>

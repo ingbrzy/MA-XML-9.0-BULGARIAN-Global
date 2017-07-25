@@ -666,7 +666,6 @@
   <string name="miprofile_contact_header">Контакти с контактни карти</string>
   <string name="miprofile_contact_meaasge">Локални контакти</string>
   <string name="miprofile_contact_verifying">Проверка</string>
-  <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
   <string name="miprofile_edit_title">Редакция на профила</string>
   <string name="miprofile_error_accept_self">Не може да обмените вашата собствена контактна карта</string>
   <string name="miprofile_error_no_miaccount">Впишете се с вашия Mi профил</string>
