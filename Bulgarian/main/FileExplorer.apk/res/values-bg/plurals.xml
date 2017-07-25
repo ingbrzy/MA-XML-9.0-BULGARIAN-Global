@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_files_confirm">
+        <item quantity="other">Изтриване на %1$d файла</item>
+        <item quantity="one">Изтриване на %1$d файл</item>
+    </plurals>
+    <plurals name="delete_folders_confirm">
+        <item quantity="other">" и %1$d папки?"</item>
+        <item quantity="one">" и %1$d папка?"</item>
+    </plurals>
+    <plurals name="directory_item_count">
+        <item quantity="other">%d елемента</item>
+        <item quantity="one">%d елемент</item>
+    </plurals>
+    <plurals name="numSelectedFile">
+        <item quantity="other">%1$d избрани</item>
+        <item quantity="one">%1$d избран</item>
+    </plurals>
+    <plurals name="items_picture">
+        <item quantity="other"> (%1$d елементи)</item>
+        <item quantity="one"> (%1$d елемент)</item>
+    </plurals>
+    <plurals name="file_count">
+        <item quantity="other"> %1$d елементи</item>
+        <item quantity="one"> %1$d елемент</item>
+    </plurals>
+    <plurals name="search_head_hint_app">
+        <item quantity="other">Файлове (%2$d) от прил. %1$s</item>
+        <item quantity="one">Файл (%2$d) от прил. %1$s</item>
+    </plurals>
+    <plurals name="search_head_hint_file">
+        <item quantity="other">Файлове %1$s (%2$d)</item>
+        <item quantity="one">Файл %1$s (%2$d)</item>
+    </plurals>
+    <plurals name="search_head_hint_tag">
+        <item quantity="other">Файлове %1$s (%2$d)</item>
+        <item quantity="one">Файл %1$s (%2$d)</item>
+    </plurals>
+    <plurals name="mins_ago">
+        <item quantity="other">Преди %1$d минути</item>
+        <item quantity="one">Преди %1$d минута</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">Преди %1$d часа</item>
+        <item quantity="one">Преди %1$d час</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">Преди %1$d дни</item>
+        <item quantity="one">Преди %1$d ден</item>
+    </plurals>
+    <plurals name="found_new_files">
+        <item quantity="other">Открити нови файлове: %1$d</item>
+        <item quantity="one">Открити нови файлове: %1$d</item>
+    </plurals>
+    <plurals name="backup_message_wechat_video">
+        <item quantity="other">%1$d WeChat временни видеоклипове ще бъдат почистени, искате ли да им направите рез. копие?</item>
+        <item quantity="one">%1$d WeChat временен видеоклип ще бъде почистен, искате ли да му направите рез. копие?</item>
+    </plurals>
+    <plurals name="remote_video_update">
+        <item quantity="other">Намерени %1$s нови видеоклипове</item>
+        <item quantity="one">Намерен %1$s нов видеоклип</item>
+    </plurals>
+    <plurals name="video_ad_download_tip">
+        <item quantity="other"> Изтеглени</item>
+        <item quantity="one">Изтеглени</item>
+    </plurals>
+    <plurals name="video_play_num">
+        <item quantity="other">%1$s гледания</item>
+        <item quantity="one">%1$s гледане</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">&lt;font color=#fc7050>%d&lt;/font> клипа</item>
+        <item quantity="one">&lt;font color=#fc7050>%d&lt;/font> клип</item>
+    </plurals>
+    <plurals name="number_of_comment_flow">
+        <item quantity="other">%1$s коментари</item>
+        <item quantity="one">%1$s коментар</item>
+    </plurals>
+    <plurals name="user_sign_limt">
+        <item quantity="other">Може да въведете до %d символа</item>
+        <item quantity="one">Може да въведете до %d символ</item>
+    </plurals>
+    <plurals name="video_items">
+        <item quantity="other">%1$d елемента</item>
+        <item quantity="one">%1$d елемент</item>
+    </plurals>
+    <plurals name="original_user_days">
+        <item quantity="other">• &lt;font color=#fc7050>%1$d&lt;/font> дни</item>
+        <item quantity="one">• &lt;font color=#fc7050>%1$d&lt;/font> ден</item>
+    </plurals>
+    <plurals name="original_user_play_1">
+        <item quantity="other">• Качихте &lt;font color=#fc7050>%1$s&lt;/font> клипа.</item>
+        <item quantity="one">• Качихте &lt;font color=#fc7050>%1$s&lt;/font> клип.</item>
+    </plurals>
+    <plurals name="original_user_play_2">
+        <item quantity="other">Направихте &lt;font color=#fc7050>%1$s&lt;/font> човека щастлив!</item>
+        <item quantity="one">Направихте &lt;font color=#fc7050>%1$s&lt;/font> човек щастлив!</item>
+    </plurals>
+    <plurals name="original_user_fans">
+        <item quantity="other">• Имате &lt;font color=#fc7050>%1$s&lt;/font> последователи!</item>
+        <item quantity="one">• Имате &lt;font color=#fc7050>%1$s&lt;/font> последовател!</item>
+    </plurals>
+    <plurals name="video_publish_watchable_hint">
+        <item quantity="other">Трябва да имате %1$d повече последователи, за да повишите статуса си</item>
+        <item quantity="one">Трябва да имате %1$d повече последователи, за да повишите статуса си</item>
+    </plurals>
+    <plurals name="follow_count">
+        <item quantity="other">&lt;font color=#fc7050>%d&lt;/font> последователи</item>
+        <item quantity="one">&lt;font color=#fc7050>%d&lt;/font> последовател</item>
+    </plurals>
+    <plurals name="gems">
+        <item quantity="other">%1$s диаманти</item>
+        <item quantity="one">%1$s диаманта</item>
+    </plurals>
+    <plurals name="more_gems">
+        <item quantity="other">Съберете още &lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font> диаманта, за да участвате в томболата.</item>
+        <item quantity="one">Съберете още &lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font> диамант, за да участвате в томболата.</item>
+    </plurals>
+    <plurals name="clockin_days">
+        <item quantity="other">Проверено %1$s дни поред</item>
+        <item quantity="one">Проверено %1$s ден поред</item>
+    </plurals>
+    <plurals name="clockin_new_chip">
+        <item quantity="other">Вие получихте &lt;font color=#faea47>&lt;b>%d&lt;/b>&lt;/font> точки</item>
+        <item quantity="one">Вие получихте &lt;font color=#faea47>&lt;b>%d&lt;/b>&lt;/font> точка</item>
+    </plurals>
+    <plurals name="clockin_day_count">
+        <item quantity="other">Отбелязани сте в %1$s дни наред вече, продължавайте!</item>
+        <item quantity="one">Отбелязани сте в %1$s ден наред вече, продължавайте!</item>
+    </plurals>
+    <plurals name="total_topic_num">
+        <item quantity="other">%1$s теми</item>
+        <item quantity="one">%1$s тема</item>
+    </plurals>
+    <plurals name="total_user_num">
+        <item quantity="other">%1$s човека</item>
+        <item quantity="one">%1$s човек</item>
+    </plurals>
+</resources>

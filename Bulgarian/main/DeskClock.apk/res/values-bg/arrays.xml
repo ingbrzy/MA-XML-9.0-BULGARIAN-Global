@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_in_furture">
+        <item>Будилник след по-малко от минута</item>
+        <item>Будилник след %1$s</item>
+        <item>Будилник след %2$s</item>
+        <item>Будилник след %1$s %2$s</item>
+        <item>Будилник след %3$s</item>
+        <item>Будилник след %1$s %3$s</item>
+        <item>Будилник след %2$s %3$s</item>
+        <item>Будилник след %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="days">
+        <item>Вчера</item>
+        <item>Днес</item>
+        <item>Утре</item>
+    </string-array>
+    <string-array name="alarm_repeat_type">
+        <item>Веднъж</item>
+        <item>Ежедневно</item>
+        <item>Работни дни (в Китай)</item>
+        <item>Почивни дни (в Китай)</item>
+        <item>Понеделник-Петък</item>
+        <item>По избор</item>
+    </string-array>
+    <string-array name="alarm_repeat_type_no_workdays">
+        <item>Веднъж</item>
+        <item>Ежедневно</item>
+        <item>Понеделник-Петък</item>
+        <item>По избор</item>
+    </string-array>
+    <string-array name="aqi_value">
+        <item>Приятно</item>
+        <item>Задоволително</item>
+        <item>Замърсено</item>
+        <item>Лошо</item>
+        <item>Много лошо</item>
+        <item>Смразяващо</item>
+    </string-array>
+    <string-array name="weather_tips_value">
+        <item>Намаляване на външните влияния</item>
+        <item>Пътищата са хлъзгави</item>
+        <item>Възможни са силни бури, бъдете внимателни!</item>
+        <item>Въздухът е замърсен, носете маска!</item>
+        <item>Вземете си чадър, ако излизате навън</item>
+        <item>Бъдете внимателни на пътя</item>
+        <item>Приближава пясъчна буря, носете маска!</item>
+        <item>Желаем ви приятен ден!</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>Будилникът e настроен за след по-малко от минута.</item>
+        <item>Будилникът е настроен за след %1$s.</item>
+        <item>Будилникът е настроен за след %2$s.</item>
+        <item>Будилникът е настроен за след %1$s и %2$s.</item>
+        <item>Будилникът е настроен за след %3$s.</item>
+        <item>Будилникът е настроен за след %1$s и %3$s.</item>
+        <item>Будилникът е настроен за след %2$s и %3$s.</item>
+        <item>Алармата ще се изключи в %1$s %2$s и %3$s.</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>1 минута</item>
+        <item>5 минути</item>
+        <item>10 минути</item>
+        <item>15 минути</item>
+        <item>20 минути</item>
+        <item>25 минути</item>
+        <item>30 минути</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>Изключено</item>
+        <item>1 минута</item>
+        <item>5 минути</item>
+        <item>10 минути</item>
+        <item>15 минути</item>
+        <item>20 минути</item>
+        <item>25 минути</item>
+        <item>30 минути</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Няма</item>
+        <item>Отлагане</item>
+        <item>Изключване</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

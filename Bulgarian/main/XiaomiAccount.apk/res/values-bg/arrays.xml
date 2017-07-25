@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="account_user_gender_name">
+        <item>Мъж</item>
+        <item>Жена</item>
+    </string-array>
+    <string-array name="education">
+        <item>Гимназия</item>
+        <item>Начално училище</item>
+        <item>Университет</item>
+        <item>Професионална гимназия</item>
+        <item>Бакалавър</item>
+        <item>Магистърска степен</item>
+        <item>Докторска степен</item>
+    </string-array>
+    <string-array name="income">
+        <item>&lt; 2000</item>
+        <item>2001~4000</item>
+        <item>4001~6000</item>
+        <item>6001~8000</item>
+        <item>8001~12000</item>
+        <item>> 12000</item>
+    </string-array>
+</resources>

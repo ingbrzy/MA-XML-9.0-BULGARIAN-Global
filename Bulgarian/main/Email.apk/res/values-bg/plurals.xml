@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="actionbar_unread_messages">
+        <item quantity="other">"%1$d  нови съобщения"</item>
+        <item quantity="one">"%1$d  ново съобщение"</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Архивиране на кореспонденциите %1$d?</item>
+        <item quantity="one">Архивиране на кореспонденцията %1$d?</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Премахване на кореспонденциите %1$d?</item>
+        <item quantity="one">Премахване на кореспонденцията %1$d?</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation_with_sub">
+        <item quantity="other">Коеспонденциите съдържат много съобщения, да ги изтрия ли?</item>
+        <item quantity="one">Коеспонденцията съдържа много съобщения, да я изтрия ли?</item>
+    </plurals>
+    <plurals name="contact_num_selected">
+        <item quantity="other">Избрани са %d елемента</item>
+        <item quantity="one">Избран е %d елемент</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">Архивиране на кореспонденциите %1$d.</item>
+        <item quantity="one">Архивиране на кореспонденцията %1$d.</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">Премахнати кореспонденции %1$d.</item>
+        <item quantity="one">Премахната кореспонденция %1$d.</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Променени са папките</item>
+        <item quantity="one">Променена е папката.</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">Игнорирайте кореспонденциите %1$d.</item>
+        <item quantity="one">Игнорирайте кореспонденцията %1$d.</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">Премахнете кореспонденциите %1$d от важни.</item>
+        <item quantity="one">Премахнете кореспонденцията %1$d от важни.</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">Премахнете кореспонденциите %1$d от спама</item>
+        <item quantity="one">Премахнете кореспонденцията %1$d от спама</item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <item quantity="other">Докладвайте кореспонденциите %1$d като измама.</item>
+        <item quantity="one">Докладвайте кореспонденцията %1$d като измама.</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">Докладвайте кореспонденциите %1$d като спам.</item>
+        <item quantity="one">Докладвайте кореспонденцията %1$d като спам.</item>
+    </plurals>
+    <plurals name="day">
+        <item quantity="other">%d дни</item>
+        <item quantity="one">%d ден</item>
+    </plurals>
+    <plurals name="day_after">
+        <item quantity="other">След %d дни</item>
+        <item quantity="one">След %d ден</item>
+    </plurals>
+    <plurals name="day_before">
+        <item quantity="other">Преди %d дни</item>
+        <item quantity="one">Преди %d ден</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Чернови</item>
+        <item quantity="one">Чернова</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$d ще бъдат изтрити завинаги.</item>
+        <item quantity="one">%1$d ще бъде изтрито завинаги.</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">%d месеца</item>
+        <item quantity="one">%d месец</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">Преместване на кореспонденциите %1$d</item>
+        <item quantity="one">Преместване на кореспонденцията %1$d</item>
+    </plurals>
+    <plurals name="new_incoming_messages_many">
+        <item quantity="other">"%1$d  нови съобщения"</item>
+        <item quantity="one">"%1$d  ново съобщение"</item>
+    </plurals>
+    <plurals name="num_selected">
+        <item quantity="other">Избрани са %d елемента</item>
+        <item quantity="one">Избран е %d елемент</item>
+    </plurals>
+    <plurals name="show_messages_read">
+        <item quantity="other">"%1$d  стари съобщения"</item>
+        <item quantity="one">"%1$d  старо съобщение"</item>
+    </plurals>
+</resources>

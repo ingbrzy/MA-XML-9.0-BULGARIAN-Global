@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ac_mode_array">
+        <item>Охлаждане</item>
+        <item>Отопление</item>
+        <item>Изсушаване</item>
+        <item>Вентилация</item>
+    </string-array>
+    <string-array name="answer">
+        <item>Вашето устройство може да се сдвои само с Mi ТВ, Mi Box, и вероятно няколко още устройства с Андроид, използващи Wi-Fi.</item>
+        <item>Уверете се, че сте избрали подходящия модел климатик в процеса на сдвояване. Следвайте инструкциите на вашето устройство, докато сдвояването не приключи успешно.</item>
+        <item>Не. В момента можете да използвате Mi 4, Mi 4c и Redmi Note 2 като IR дистанционни.</item>
+    </string-array>
+    <string-array name="epg_week_tab">
+        <item>Нд</item>
+        <item>Пон</item>
+        <item>Вто</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+    </string-array>
+    <string-array name="question">
+        <item>Защо моят телефон продължава да търси безжични устройства?</item>
+        <item>Защо мога само да включа моя климатик, но не мога да го изключа?</item>
+        <item>Мога ли да използвам Mi 3, Mi 2 и Redmi като IR дистанционно?</item>
+    </string-array>
+</resources>
