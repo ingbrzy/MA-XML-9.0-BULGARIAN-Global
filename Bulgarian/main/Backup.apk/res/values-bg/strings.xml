@@ -85,7 +85,6 @@
   <string name="delete_backup_title">Изтриване на архив</string>
   <string name="delete_failed_backup_confirm">Резервното копие е повредено, не може да се възстанови</string>
   <string name="deselect_all">Размаркирай всички</string>
-  <string name="digit_percent">%</string>
   <string name="dir_date_format">yyyyMMdd_HHmmss</string>
   <string name="disable_encrypt_title">Изключване на шифроването</string>
   <string name="enable_encrypt">Включване</string>

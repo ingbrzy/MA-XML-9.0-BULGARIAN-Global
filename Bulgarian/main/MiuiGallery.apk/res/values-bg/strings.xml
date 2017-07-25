@@ -550,7 +550,6 @@
   <string name="people_jump_failed">Изчакайте, докато снимките с хора се синхронизират с Mi Облак и опитайте отново</string>
   <string name="people_page_label">Лице</string>
   <string name="people_page_unname">Неизвестно</string>
-  <string name="percent_sign">%</string>
   <string name="pet_album_display_name">Домашни любимци</string>
   <string name="petabyteShort">ПБ</string>
   <string name="photo">Снимка</string>
@@ -661,8 +660,6 @@
   <string name="search_title_people">Хора</string>
   <string name="search_title_recommend">Препоръчвани</string>
   <string name="search_title_tag">Обекти</string>
-  <string name="search_transition_element_icon">search_icon</string>
-  <string name="search_transition_element_input">search_input</string>
   <string name="secret_album_card_description">Най-доброто място за всички ваши малки тайни</string>
   <string name="secret_album_card_title">Изпробвайте скрития албум</string>
   <string name="secret_album_display_name">Скрит албум</string>

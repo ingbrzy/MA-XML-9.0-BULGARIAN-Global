@@ -861,8 +861,6 @@
   <string name="path_wipe_data">Системни приложения/Контакти/Подреждане на контакти/Изчисти данните</string>
   <string name="payphone">Обществен телефон</string>
   <string name="people">Контакти</string>
-  <string name="percent_sign">%</string>
-  <string name="percentage">%s%%</string>
   <string name="phoneLabelsGroup">Телефон</string>
   <string name="phone_info_divider">" ｜ "</string>
   <string name="phone_number_too_long_toast">Номерът е твърде дълъг</string>
