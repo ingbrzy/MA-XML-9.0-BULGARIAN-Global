@@ -50,11 +50,4 @@
         <item>Плаващ прах</item>
         <item>Мараня</item>
     </string-array>
-    <string-array name="editing_mode_entries">
-        <item>Теми</item>
-        <item>Джаджи</item>
-        <item>Тапет</item>
-        <item>Ефекти</item>
-        <item>Оформление</item>
-    </string-array>
 </resources>
