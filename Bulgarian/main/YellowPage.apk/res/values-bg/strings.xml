@@ -367,6 +367,7 @@
   <string name="quick_yellow_page_tab_phones">Телефон</string>
   <string name="recharge_actual_price">цена:</string>
   <string name="recharge_charge_range">Цена: RMB %1$s-%2$s</string>
+  <string name="recharge_charge_value">Цена: RMB %s</string>
   <string name="recharge_follow_name">Вземи пакет</string>
   <string name="recharge_history">история на препоръките</string>
   <string name="recharge_history_empty">Празно</string>

@@ -182,6 +182,11 @@
   <string name="michat_wait_for_a_moment">Моля изчакайте, помощта е на път!</string>
   <string name="michat_webview_title">Преглед на подробности</string>
   <string name="min_error">Вашият %1$s трябва да е по-дълъг.</string>
+  <string name="mobile_data_note_dialog_cancel">Изчакване за Wi-Fi връзка</string>
+  <string name="mobile_data_note_dialog_confirm">Качване</string>
+  <string name="mobile_data_note_dialog_content">Използването на мобилни данни за качване на логове може да бъде причина за допълнително таксуване от вашия оператор.</string>
+  <string name="mobile_data_note_dialog_content_with_file_size">За качване на тези логове ще са необходими %sМБ от мобилните данни.</string>
+  <string name="mobile_data_note_dialog_title">Предупреждение за използв. на данни</string>
   <string name="modem_tool_log">Снемане на лог от модема</string>
   <string name="modem_tool_log_start">Старт</string>
   <string name="modem_tool_log_start_toast">Записване на регистъра на модема в %s</string>

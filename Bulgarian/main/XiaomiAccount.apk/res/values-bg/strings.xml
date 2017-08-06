@@ -149,7 +149,9 @@
   <string name="mipay">Плащане</string>
   <string name="mipay_balance">Баланс</string>
   <string name="mipay_bank_card">Банкова карта</string>
+  <string name="mipay_identitiy_no">няма</string>
   <string name="mipay_identity">Проверка на самоличността</string>
+  <string name="mipay_indentity_done">готово</string>
   <string name="mipay_others">Друго</string>
   <string name="mipay_transit_card">Карта за пътуване</string>
   <string name="multi_user_not_show_sync_activity_message_1">"Looks like you're using your Default space Mi Account."</string>

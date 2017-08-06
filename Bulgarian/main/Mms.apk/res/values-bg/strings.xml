@@ -191,7 +191,7 @@
   <string name="group_resend_message">Повт. изпращане (%d)</string>
   <string name="guild_add_attachments">Натиснете за добавяне на емотикони и друго съдържание</string>
   <string name="guild_add_recipients">Чукнете, за да добавите получатели от контакти</string>
-  <string name="guild_msim_switcher">Чукнете за смяна на СИМ картите</string>
+  <string name="guild_msim_switcher">Чукнете за смяна на SIM картите</string>
   <string name="has_invalid_recipient">&lt;%1$s&gt; невалидни получатели;</string>
   <string name="hidden_sender_address">Скрит адрес на изпращача</string>
   <string name="hold_to_talk">Задръж и говори</string>
@@ -286,10 +286,10 @@
   <string name="mx_activate_error_title">Неуспешно активиране</string>
   <string name="mx_activate_hint_malformed_info">За повторно активиране на Mi съобщение трябва да изпратите sms. Може да бъдете таксувани за изходящо съобщение от доставчика ви.</string>
   <string name="mx_activate_hint_server">За повторно активиране на Mi съобщение трябва да изпратите sms. Може да бъдете таксувани за изходящо съобщение от доставчика ви.</string>
-  <string name="mx_activate_hint_sim_change">За повторно активиране на Mi съобщение трябва да изпратите sms. Може да бъдете таксувани за изходящо съобщение от доставчика ви.</string>
+  <string name="mx_activate_hint_sim_change">За повторно активиране на Mi съобщение трябва да изпратите SMS. Може да бъдете таксувани за изходящо съобщение от доставчика ви.</string>
   <string name="mx_activate_int_hint_malformed_info">Изходящ международен SMS ще бъде изпратен за повторното активиране на услугата Mi Съобщение. Вашият доставчик ще ви таксува за това.</string>
   <string name="mx_activate_int_hint_server">Изходящ международен SMS ще бъде изпратен за повторното активиране на услугата Mi Съобщение. Вашият доставчик ще ви таксува за това.</string>
-  <string name="mx_activate_int_hint_sim_change">Изглежда, че сте разменили СИМ - картите. Ще бъде изпратен SMS за повторно активиране на Mi съобщение. Вашият доставчик ще ви таксува за това.</string>
+  <string name="mx_activate_int_hint_sim_change">Изглежда, че сте разменили SIM картите. Ще бъде изпратен SMS за повторно активиране на Mi съобщение. Вашият доставчик ще ви таксува за това.</string>
   <string name="mx_activate_network_allow_notice">Тази услуга се нуждае от достъп до мобилни данни, за да работи нормално.</string>
   <string name="mx_activate_status_desc_activating_now">Активиране</string>
   <string name="mx_activate_status_desc_check_net_connection">Няма връзка с интернет</string>

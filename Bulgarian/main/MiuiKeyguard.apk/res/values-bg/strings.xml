@@ -63,10 +63,13 @@
   <string name="keyguard_charging_info_tip_text4">Не използвайте вашето устройство активно по време на зареждане, за да избегнете прегряване.</string>
   <string name="keyguard_charging_info_tip_text5">Зареждането на батерията може да отнеме повече време от обичайното, ако е по-топла от нормалното.</string>
   <string name="keyguard_charging_info_tip_text6">Изключете екрана и оставете вашето устройство да се охлади за известно време.</string>
+  <string name="keyguard_left_bankcard">Mi плащане</string>
+  <string name="keyguard_left_buscard">Карта за пътуване</string>
+  <string name="keyguard_left_remotecentral">Mi Дистанционно</string>
+  <string name="keyguard_left_smarthome">Mi семейство</string>
   <string name="keyguard_quick_charging_info_click_to_detail">Бързо зареждане. Чукнете за подробности.</string>
   <string name="keyguard_quickly_charging_info_charging_text">Бързо зареждане…</string>
   <string name="keyguard_torch_cover_text">За да остане фенерчето включено, натиснете бутон Захр.</string>
-  <string name="left_action_default_hint_text">Mi Remote</string>
   <string name="lock_screen_date">EEEE, dd MMMM</string>
   <string name="lock_screen_date_12">EEEE, d MMMM</string>
   <string name="lock_wallpaper_enter">Въвеждане</string>
@@ -82,8 +85,8 @@
  Опитайте отново след %d секунди."</string>
   <string name="lockscreen_failed_attempts_now_wiping">Направихте опит да отключите устройството неправилно %d пъти. Сега ще бъдат възстановени стандартните му фабрични настройки.</string>
   <string name="miui_keyguard_ble_unlock_succeed_msg">Отключено с Mi Band</string>
-  <string name="open_camera_hint_text">Плъзнете наляво, за да отворите %s</string>
-  <string name="open_remote_center_hint_text">Плъзнете надясно, за да отворите %s</string>
+  <string name="open_camera_hint_text">Плъзнете наляво, за да отворите камерата</string>
+  <string name="open_remote_center_hint_text">Swipe right to open mi remote</string>
   <string name="phone_locked_foget_password">Забравена парола?</string>
   <string name="phone_locked_foget_password_content">"Вие можете да се регистрирате на i.mi.com използвайки Mi Профил, който е свързан с това устройство и да изчистите всички данни. Това ще изтрие всякаква информация, запаметена на устройството. След това вие може да го рестартирате и да възстановите контактите, съобщенията, снимките и други елементи от Mi Облак. 
 

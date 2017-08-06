@@ -392,6 +392,7 @@
   <string name="contactUpdateSuccess">Контактът в SIM картата е актуализиран</string>
   <string name="contactdeleteFailed">Неуспешно изтриване на контакт от SIM картата</string>
   <string name="contactdeleteSuccess">Контактът от SIM картата е изтрит</string>
+  <string name="content_description_menu_button">Меню</string>
   <string name="convert_to_fbe_warning">"Делът с данни ще се преобразува към шифроване на ниво файл.
  Предупреждение: Всичките ви данни ще се изтрият!
  Тази функция е в алфа версия и може да не работи правилно.
@@ -431,6 +432,9 @@
   <string name="debug_view_attributes">Актив. на инспектирането на атрибутите за преглед</string>
   <string name="default_notification_description">Стандартен звук (%1$s)</string>
   <string name="default_preference_summary">&lt;Не е зададено&gt;</string>
+  <string name="default_preference_summary_domain_address">&lt;Не е зададено&gt;</string>
+  <string name="default_preference_summary_password">&lt;Не е зададено&gt;</string>
+  <string name="default_preference_summary_username">&lt;Не е зададено&gt;</string>
   <string name="default_sim_setting">SIM карта по подразбиране:</string>
   <string name="delete">Изтриване</string>
   <string name="deleteAllSimEntries">Изтрий всички контакти от SIM карта</string>
@@ -455,6 +459,8 @@
   <string name="description_image_button_two">две</string>
   <string name="description_image_button_zero">нула</string>
   <string name="description_voicemail_button">гласова поща</string>
+  <string name="dev_logpersist_clear_warning_message">Когато спрем да извършваме наблюдения посредством програмата за трайно записване в регистрационни файлове, трябва да изтрием съхраняваните на устройството ви данни от нея.</string>
+  <string name="dev_logpersist_clear_warning_title">Да се изчистят ли трайно съхраняваните регистрационни данни?</string>
   <string name="dev_settings_warning_message">Тези настройки са предназначени само за програмиране. Те могат да доведат до прекъсване на работата или неправилно функциониране на устройството ви и приложенията в него.</string>
   <string name="dev_settings_warning_title">Да се разрешат ли настройките за програмиране?</string>
   <string name="development_settings_enable">Активиране на опциите за програмисти</string>
@@ -565,7 +571,7 @@
   <string name="enhanced_4g_lte_mode_on_failed">Не може да се включи VoLTE.</string>
   <string name="enhanced_4g_lte_mode_summary">Ползване на LTE услуги за подобряване на гласовите и др. комуникации (препоръч.)</string>
   <string name="enhanced_4g_lte_mode_title">Подобрен режим с 4G LTE</string>
-  <string name="enhanced_4g_lte_mode_title_variant">Advanced Calling</string>
+  <string name="enhanced_4g_lte_mode_title_variant">Допълнителни настройки за разговори</string>
   <string name="enterName">Име</string>
   <string name="enterNumber">Телефонен номер</string>
   <string name="enter_callbarring_password">Въведете парола за забрана на повиквания (4 цифри)</string>
@@ -669,7 +675,7 @@
   <string name="incall_error_out_of_service_wfc">Не е налице клетъчна мрежа. Свържете се с безжична, за да осъществите обаждане.</string>
   <string name="incall_error_power_off">Първо изключете самолетния режим, за да може да осъществите обаждане.</string>
   <string name="incall_error_power_off_wfc">Изключете самолетния режим или се свържете с безжична мрежа, за да осъществите обаждане.</string>
-  <string name="incall_error_promote_wfc">Enable Wi-Fi calling to make a call.</string>
+  <string name="incall_error_promote_wfc">Активирайте Wi-Fi позвъняване за да може да провеждате разговори.</string>
   <string name="incall_error_sim_deactive">SIM картата не е активна</string>
   <string name="incall_error_supp_service_conference">Не могат да се правят конферентни обаждания.</string>
   <string name="incall_error_supp_service_hangup">Не може да приемете обаждането.</string>
@@ -757,7 +763,6 @@
   <string name="lafs_enable">Разписанията на местните полети са активирани</string>
   <string name="launch_defaults_none">Няма зададени стандартни настройки</string>
   <string name="launch_defaults_some">Зададени са някои стандартни настройки</string>
-  <string name="legacy_dhcp_client_summary">Използване на клиентската програма за DHCP от Lollipop вместо новата програма на Android.</string>
   <string name="list_language_dtitle">Езици</string>
   <string name="list_language_summary">Избор на език за новините</string>
   <string name="list_language_title">Език</string>
@@ -1301,9 +1306,42 @@
   <string name="screen_zoom_summary_large">Голямо</string>
   <string name="screen_zoom_summary_small">Малко</string>
   <string name="screen_zoom_summary_very_large">По-голямо</string>
+  <string name="search_answer_state_setting_title">@string/answer_state_setting_title</string>
   <string name="search_antispam_setting">Списък на блокирани номера</string>
   <string name="search_app_name">Телефон;Запис на разговори;Пренасочване на разговори;пренасочване;Изчакване на повикване;Списък за блокиране;Код на държавата;Код на областта;Кодове на държави;Кодове на области;Запис на обаждания;Запис на обаждане;Номератор;Обаждане;Обаждания;Телефония;VoIP;VoLTE;Пропуснато обаждане;Пропуснати обаждания;SIP;T9;IP телефония;FDN</string>
+  <string name="search_auto_answer_pref_title">@string/auto_answer_pref_title</string>
+  <string name="search_auto_retry_mode_title">@string/auto_retry_mode_title</string>
+  <string name="search_autoip_phone">@string/autoip_phone</string>
+  <string name="search_call_background_setting">@string/call_background_setting</string>
+  <string name="search_call_forwarding_settings">@string/call_forwarding_settings</string>
+  <string name="search_call_record_auto_title">@string/call_record_auto_title</string>
+  <string name="search_call_record_setting">@string/call_record_setting</string>
+  <string name="search_call_recording_notification_toggle_title">@string/call_recording_notification_toggle_title</string>
+  <string name="search_call_waiting_title">@string/call_waiting_title</string>
+  <string name="search_call_waiting_tone_title">@string/call_waiting_tone_title</string>
+  <string name="search_caller_id_title">@string/caller_id_title</string>
+  <string name="search_cloud_antispam_title">@string/cloud_antispam_title</string>
+  <string name="search_connect_disconnect_vibrate_title">@string/connect_disconnect_vibrate_title</string>
+  <string name="search_crescendo_ringer_title">@string/crescendo_ringer_title</string>
+  <string name="search_dtmf_tones_title">@string/dtmf_tones_title</string>
+  <string name="search_enable_antispam_strange_title">@string/enable_antispam_strange_title</string>
+  <string name="search_enable_proximity_title">@string/enable_proximity_title</string>
+  <string name="search_fdn">@string/fdn</string>
+  <string name="search_flash_when_ring_title">@string/flash_when_ring_title</string>
+  <string name="search_handon_ringer_title">@string/handon_ringer_title</string>
+  <string name="search_missed_call_notify_times_title">@string/missed_call_notify_times_title</string>
   <string name="search_networks">Търсене на мрежи</string>
+  <string name="search_preference_dial_pad_touch_tone_title">@string/preference_dial_pad_touch_tone_title</string>
+  <string name="search_preference_telocation_title">@string/preference_telocation_title</string>
+  <string name="search_reject_via_sms">@string/reject_via_sms</string>
+  <string name="search_sip_settings">@string/sip_settings</string>
+  <string name="search_t9_indexing_method_title">@string/t9_indexing_method_title</string>
+  <string name="search_telocation_auto_country_code">@string/telocation_auto_country_code</string>
+  <string name="search_telocation_contacts_countrycode">@string/telocation_contacts_countrycode</string>
+  <string name="search_telocation_custom_location_title">@string/telocation_custom_location_title</string>
+  <string name="search_telocation_enable_title">@string/telocation_enable_title</string>
+  <string name="search_turnover_mute_title">@string/turnover_mute_title</string>
+  <string name="search_voicemail_settings">@string/voicemail_settings</string>
   <string name="selectContact">Изберете контакт</string>
   <string name="select_application">Избиране на приложение</string>
   <string name="select_automatically">Да се избира автоматично</string>
@@ -1311,6 +1349,8 @@
   <string name="select_continue">Продължете</string>
   <string name="select_logd_size_dialog_title">Размер на един рег. буфер: Избор</string>
   <string name="select_logd_size_title">Размери на регистрац. буфери</string>
+  <string name="select_logpersist_dialog_title">Изберете кои регистрационни буфери да се съхраняват за постоянно на устройството</string>
+  <string name="select_logpersist_title">Рег. данни да се съхр. трайно на у-вото</string>
   <string name="select_ok">OК</string>
   <string name="select_one_sim_title">Да се използва само SIM %1$d</string>
   <string name="select_sim_hint">Не може да използвате SIM %2$d, докато SIM %1$d е в употреба.</string>
@@ -1333,8 +1373,6 @@
   <string name="settings_label">Настройки на мрежата</string>
   <string name="show_all_anrs">Всички нереагиращи прил.</string>
   <string name="show_all_anrs_summary">Диалог. прозорец „НП“ за приложения на заден план</string>
-  <string name="show_cpu_usage">Употреба на процесора</string>
-  <string name="show_cpu_usage_summary">Наслагване на екрана показва употр. на процесора</string>
   <string name="show_hw_layers_updates">Актуал. на слоевете на хардуера</string>
   <string name="show_hw_layers_updates_summary">Примигв. на слоевете на хардуера в зелено при актуал.</string>
   <string name="show_hw_screen_updates">Показв. на актуал. на изгледа от GPU</string>
@@ -1604,7 +1642,7 @@
   <string name="volte_provision_notification_activate">Активирай</string>
   <string name="volte_provision_text">VoLTE обажданията предлагат по-добро качество от обикновените. Да се изпрати ли SMS за активиране?</string>
   <string name="volte_provision_title">Активиране на VoLTE обаждания</string>
-  <string name="volte_switch_not_support_summary">VoLTE обажданията не се поддържат за СИМ карти, които са само за мобилни данни.</string>
+  <string name="volte_switch_not_support_summary">VoLTE обажданията не се поддържат за SIM карти, които са само за мобилни данни.</string>
   <string name="volte_switch_summary">Използвайте VoLTE за подобряване на качеството на гласа и видеото.</string>
   <string name="volte_switch_title">VoLTE активирано</string>
   <string name="vpn_settings_not_available">Настройките за виртуална частна мрежа (VPN) не са налице за този потребител</string>
@@ -1629,7 +1667,7 @@
   <string name="wifi_calling_preference_title">Предпочитания за Wi-Fi обаждания</string>
   <string name="wifi_calling_select_call_assistant">Избор на асистент за обаждания</string>
   <string name="wifi_calling_select_call_assistant_summary">Управление на мрежите, използвани за обаждания с</string>
-  <string name="wifi_calling_settings_key">button_wifi_calling_settings_key</string>
+  <string name="wifi_calling_settings_key">настройка на бутон за WiFi обаждания</string>
   <string name="wifi_calling_summary">Включете Wi-Fi обаждания и изберете Wi-Fi мрежи в предпочитания</string>
   <string name="wifi_calling_title">Обаждания през Wi-Fi</string>
   <string name="wifi_calling_use_call_assistant">Използвай асистента за обаждания</string>
@@ -1642,7 +1680,8 @@
   <string name="wifi_display_certification">Безжичен дисплей</string>
   <string name="wifi_display_certification_summary">Показване на опциите за сертифициране на безжичния дисплей</string>
   <string name="wifi_fail_to_scan">Не може да се сканира за мрежи</string>
-  <string name="wifi_no_internet">Не е открит достъп до интернет. Няма да се свърже отново автоматично.</string>
+  <string name="wifi_no_internet">Няма достъп до интернет.</string>
+  <string name="wifi_no_internet_no_reconnect">Не е открит достъп до интернет. Връзката няма да се възобнови автоматично.</string>
   <string name="wifi_not_in_range">Извън обхват</string>
   <string name="wifi_only">Само Wi-Fi</string>
   <string name="wifi_pref_none">Не са зададени предпочитания</string>

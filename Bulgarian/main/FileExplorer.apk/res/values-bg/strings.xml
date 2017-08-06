@@ -69,7 +69,7 @@
   <string name="category_file">Файлове</string>
   <string name="category_files">Файлове</string>
   <string name="category_installed_app">Инсталирани приложения</string>
-  <string name="category_midrive">MiDrive</string>
+  <string name="category_midrive">Mi Диск</string>
   <string name="category_music">Музика</string>
   <string name="category_other">Други</string>
   <string name="category_photo">Снимки</string>
@@ -124,7 +124,7 @@
   <string name="data_consumption_checkbox_hint">Не показвай отново</string>
   <string name="data_consumption_confirm">ОК</string>
   <string name="data_consumption_message">Приложението се нуждае от връзка към интернет чрез Wi-Fi, за да работи нормално.</string>
-  <string name="data_consumption_message1">Videos and Stickers needs to connect to the internet using Wi-Fi to work normally.</string>
+  <string name="data_consumption_message1">Видео и Стикери се нуждаят от връзка с интернет чрез Wi-Fi, за да работят нормално.</string>
   <string name="data_consumption_title">Свързване към интернет</string>
   <string name="decompress_cancel">Отказ</string>
   <string name="decompress_confirm">Ще разархивирате ли?</string>
@@ -548,7 +548,7 @@
   <string name="server_control_advanced_settings">Разширени настройки</string>
   <string name="server_control_charset">Кодиране при пренос</string>
   <string name="server_control_settings">Настройка</string>
-  <string name="server_error">Sever error, try again later. (Error %s)</string>
+  <string name="server_error">Грешка в сървъра, опитайте отново по-късно. (Грешка %s)</string>
   <string name="set_pattern">Паролата беше успешно променена</string>
   <string name="set_pattern_btn">Настройка на защитата</string>
   <string name="set_pattern_msg">Настройте паролата отново. Паролата за защита на личните данни може да се използва и за снимките и съобщенията.</string>

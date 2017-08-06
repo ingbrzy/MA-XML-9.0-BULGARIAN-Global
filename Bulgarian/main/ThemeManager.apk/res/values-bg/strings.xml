@@ -107,7 +107,7 @@
   <string name="lockscreen_wallpaper">Заключен екран</string>
   <string name="lockstyle_personal_settings">Персонализиране</string>
   <string name="mi_wallpaper">Mi-тапет</string>
-  <string name="multi_sim_ringtone_settings_dialog_message">Тона на звънене е приложен за двете СИМ карти.</string>
+  <string name="multi_sim_ringtone_settings_dialog_message">Тона на звънене е приложен за двете SIM карти.</string>
   <string name="multi_sim_ringtone_settings_dialog_ok">Получаване</string>
   <string name="multi_sim_ringtone_settings_dialog_remind_never">Не показвай повече</string>
   <string name="multi_sim_ringtone_settings_dialog_title">Грешка при съвместимостта</string>
@@ -116,8 +116,10 @@
   <string name="my_gifts_received">Получени</string>
   <string name="no_data">Няма връзка с мрежа</string>
   <string name="online_no_network">Мрежата е недостъпна</string>
+  <string name="online_precust_dreams">Сънища</string>
+  <string name="online_precust_midnight">Полунощ</string>
   <string name="online_search_hint">Търсене на информация онлайн</string>
-  <string name="present_local_themes">Изтеглени</string>
+  <string name="present_local_themes">Мои източници</string>
   <string name="present_online_themes">Онлайн</string>
   <string name="provision_default_theme_title">По подразбиране</string>
   <string name="provision_loading_tips">Един момент…</string>

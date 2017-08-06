@@ -84,7 +84,7 @@
         <item>Активен е режим \"Производителност\"</item>
     </string-array>
     <string-array name="thermal_summaries">
-        <item>The current temperature control mode, the temperature of experience is preferred</item>
-        <item>The current performance model, performance experience is preferred, temperatures could rise</item>
+        <item>Текущ режим по подразбиране</item>
+        <item>Текущ режим производителност</item>
     </string-array>
 </resources>

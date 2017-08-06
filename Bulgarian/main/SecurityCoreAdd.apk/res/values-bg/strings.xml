@@ -213,6 +213,7 @@
   <string name="start_new_fingerprint_tips">\"Use Second space fingerprint to enter Second space from Lock screen\"</string>
   <string name="start_setting_guide_desc_title">Има няколко неща за настройка</string>
   <string name="summary_switch_apps_settings">Избор на прилж. използвани в Текущо пространство</string>
+  <string name="support_desc">Услугите за безопасност са предоставени от Graphite</string>
   <string name="sure_to_use">Потвърди</string>
   <string name="switchDataSummary">Преместване на елементи между пространствата</string>
   <string name="switch_apps_settings">Настройки на прил.</string>

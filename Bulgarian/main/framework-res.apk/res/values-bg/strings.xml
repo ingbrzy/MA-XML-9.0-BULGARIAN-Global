@@ -76,7 +76,7 @@
   <string name="android_upgrading_complete">Зареждането завършва.</string>
   <string name="android_upgrading_fstrim">Хранилището се оптимизира.</string>
   <string name="android_upgrading_notification_body">Някои приложения може да не работят правилно, докато надстройването не завърши</string>
-  <string name="android_upgrading_notification_title">Android се надстройва</string>
+  <string name="android_upgrading_notification_title">Актуализацията на Android приключва…</string>
   <string name="android_upgrading_starting_apps">Приложенията се стартират.</string>
   <string name="android_upgrading_title">Android се надстройва...</string>
   <string name="anr_activity_application">%2$s не реагира</string>
@@ -88,6 +88,7 @@
   <string name="app_not_found">Няма намерено приложение за извършване на това действие</string>
   <string name="app_running_notification_text">Докоснете за още информация или за да спрете приложението.</string>
   <string name="app_running_notification_title">%1$s се изпълнява</string>
+  <string name="app_upgrading_toast">%1$s се надстройва…</string>
   <string name="audit_safemode_notification">Възстановете фабричните настройки на това устройство, за да го използвате без ограничения</string>
   <string name="audit_safemode_notification_details">Докоснете, за да научите повече.</string>
   <string name="autofill_address_name_separator">" "</string>
@@ -123,7 +124,6 @@
   <string name="bugreport_title">Сигнал за програмна грешка</string>
   <string name="byteShort">Б</string>
   <string name="cancel">Отказ</string>
-  <string name="candidates_style">&lt;u&gt;&amp;#1082;&amp;#1072;&amp;#1085;&amp;#1076;&amp;#1080;&amp;#1076;&amp;#1072;&amp;#1090;&amp;#1080;&lt;/u&gt;</string>
   <string name="capability_desc_canControlMagnification">Управление на нивото на мащаба и позиционирането на дисплея.</string>
   <string name="capability_desc_canPerformGestures">Можете да докосвате, да прекарвате пръст, да събирате пръсти и да извършвате други жестове.</string>
   <string name="capability_desc_canRequestEnhancedWebAccessibility">Скриптовете може да бъдат инсталирани, за да направят съдържанието от приложенията по-достъпно.</string>
@@ -158,6 +158,7 @@
   <string name="close_button_text">Затваряне</string>
   <string name="common_name">Общо име:</string>
   <string name="condition_provider_service_binding_label">Доставчик на условия</string>
+  <string name="conference_call">Конферентно обаждане</string>
   <string name="contentServiceSync">Синхронизиране</string>
   <string name="contentServiceSyncNotificationTitle">Синхронизиране</string>
   <string name="contentServiceTooManyDeletesNotificationDesc">Изтриванията за %s са твърде много.</string>
@@ -183,7 +184,7 @@
   <string name="data_usage_restricted_body">Докоснете и премахнете огранич.</string>
   <string name="data_usage_restricted_title">Ограничени данни на заден план</string>
   <string name="data_usage_warning_body">Пренос и настройки: Докоснете за преглед.</string>
-  <string name="data_usage_warning_title">Предупрежд. за ползване на данни</string>
+  <string name="data_usage_warning_title">Сигнал за преноса на данни</string>
   <string name="data_usage_wifi_limit_snoozed_title">Превишен лимит на Wi-Fi данните</string>
   <string name="data_usage_wifi_limit_title">Достигнат лимит за Wi-Fi данните</string>
   <string name="date_and_time" formatted="false">%H:%M:%S %d.%m.%Y</string>
@@ -213,6 +214,12 @@
   <string name="delete">Изтриване</string>
   <string name="deleteText">Изтриване</string>
   <string name="deleted_key">Изтрихте %1$s</string>
+  <string name="demo_restarting_message">Устройството се нулира…</string>
+  <string name="demo_starting_message">Демонстрацията се стартира…</string>
+  <string name="demo_user_inactivity_timeout_countdown">Ще загубите всички промени и демонстрацията ще започне отново след %1$s секунди…</string>
+  <string name="demo_user_inactivity_timeout_left_button">Отказ</string>
+  <string name="demo_user_inactivity_timeout_right_button">Нулиране сега</string>
+  <string name="demo_user_inactivity_timeout_title">Да се нулира ли устройството?</string>
   <string name="deny">Отказване</string>
   <string name="description_target_unlock_tablet">Прокарайте пръст, за да отключите.</string>
   <string name="dial_number_using">"Набиране
@@ -342,6 +349,7 @@
   <string name="gigabyteShort">ГБ</string>
   <string name="global_action_assist">Помощ</string>
   <string name="global_action_bug_report">Сигнал за програмна грешка</string>
+  <string name="global_action_emergency">Спешно обаждане</string>
   <string name="global_action_lock">Заключване на екрана</string>
   <string name="global_action_lockdown">Заключване сега</string>
   <string name="global_action_power_off">Изключване</string>
@@ -581,6 +589,7 @@
   <string name="lockscreen_sim_unlock_progress_dialog_message">SIM картата се отключва...</string>
   <string name="lockscreen_sound_off_label">Изключване на звука</string>
   <string name="lockscreen_sound_on_label">Включване на звука</string>
+  <string name="lockscreen_storage_locked">Отключете за достъп до всички функции и данни</string>
   <string name="lockscreen_too_many_failed_attempts_countdown">Опитайте отново след %d секунди.</string>
   <string name="lockscreen_too_many_failed_attempts_dialog_message">"Начертахте неправилно фигурата си за отключване %1$d пъти. 
 
@@ -721,6 +730,10 @@
   <string name="needPuk2">Въведете PUK2, за да отблокирате SIM картата.</string>
   <string name="negative_duration">-%1$s</string>
   <string name="network_available_sign_in">Вход в мрежата</string>
+  <string name="network_switch_metered">Превключи се към %1$s</string>
+  <string name="network_switch_metered_detail">Устройството използва %1$s, когато %2$s няма достъп до интернет. Възможно е да бъдете таксувани.</string>
+  <string name="network_switch_metered_toast">Превключи се от %1$s към %2$s</string>
+  <string name="network_switch_type_name_unknown">неизвестен тип мрежа</string>
   <string name="new_app_action">Стартиране на %1$s</string>
   <string name="new_app_description">Спиране на старото приложение без запазване.</string>
   <string name="new_sms_notification_content">Преглед в приложението за SMS</string>
@@ -1066,6 +1079,7 @@
   <string name="reboot_to_update_title">Системна актуализация на Android</string>
   <string name="recent_tasks_title">Скорошни</string>
   <string name="redo">Възстановяване</string>
+  <string name="region_picker_section_all">Всички региони</string>
   <string name="relationTypeAssistant">Асистент</string>
   <string name="relationTypeBrother">Брат</string>
   <string name="relationTypeChild">Дете</string>
@@ -1085,6 +1099,8 @@
   <string name="replace">Замяна...</string>
   <string name="report">Подаване на сигнал</string>
   <string name="reset">Повторно задаване</string>
+  <string name="reset_retail_demo_mode_text">Докоснете, за да нулирате устройството</string>
+  <string name="reset_retail_demo_mode_title">Да се нулира ли устройството?</string>
   <string name="restr_pin_confirm_pin">Потвърждаване на новия ПИН код</string>
   <string name="restr_pin_create_pin">Създаване на ПИН код за промяна на ограниченията</string>
   <string name="restr_pin_enter_admin_pin">Въведете ПИН кода на администратор</string>
@@ -1300,9 +1316,10 @@
   <string name="volume_notification">Сила на звука при известие</string>
   <string name="volume_ringtone">Сила на звука при звънене</string>
   <string name="volume_unknown">Сила на звука</string>
-  <string name="vpn_lockdown_config">Докоснете, за да конфигурирате</string>
+  <string name="vpn_lockdown_config">Докоснете, за да настроите</string>
   <string name="vpn_lockdown_connected">Установена е връзка с винаги включената виртуална частна мрежа (VPN)</string>
   <string name="vpn_lockdown_connecting">Установява се връзка с винаги включената виртуална частна мрежа (VPN)…</string>
+  <string name="vpn_lockdown_disconnected">Няма връзка с винаги включената виртуална частна мрежа (VPN)</string>
   <string name="vpn_lockdown_error">Грешка във винаги включената виртуална частна мрежа (VPN)</string>
   <string name="vpn_text">Докоснете за управление на мрежата.</string>
   <string name="vpn_text_long">Свързана с/ъс %s. Докоснете, за да управлявате мрежата.</string>

@@ -118,6 +118,7 @@
   <string name="confirm_enable_oem_unlock_title">Да се разреши ли отключване от OEM?</string>
   <string name="connected_via_passpoint">Установена е връзка през „%1$s“</string>
   <string name="connected_via_wfa">Установена е връзка чрез помощника за Wi-Fi</string>
+  <string name="content_description_menu_button">Меню</string>
   <string name="convert_to_fbe_warning">"Делът с данни ще се преобразува към шифроване на ниво файл.
  Предупреждение: Всичките ви данни ще се изтрият!
  Тази функция е в алфа версия и може да не работи правилно.
@@ -150,6 +151,8 @@
   <string name="debug_networking_category">Мрежи</string>
   <string name="debug_view_attributes">Актив. на инспектирането на атрибутите за преглед</string>
   <string name="default_permission_description">извършване на неизвестно действие</string>
+  <string name="dev_logpersist_clear_warning_message">Когато спрем да извършваме наблюдения посредством програмата за трайно записване в регистрационни файлове, трябва да изтрием съхраняваните на устройството ви данни от нея.</string>
+  <string name="dev_logpersist_clear_warning_title">Да се изчистят ли трайно съхраняваните регистрационни данни?</string>
   <string name="dev_settings_warning_message">Тези настройки са предназначени само за програмиране. Те могат да доведат до прекъсване на работата или неправилно функциониране на устройството ви и приложенията в него.</string>
   <string name="dev_settings_warning_title">Да се разрешат ли настройките за програмиране?</string>
   <string name="development_settings_enable">Активиране на опциите за програмисти</string>
@@ -259,7 +262,6 @@
   <string name="lb_search_bar_hint_with_title">Търсете в/ъв %1$s</string>
   <string name="lb_search_bar_hint_with_title_speech">Говорете, за да търсите във: %1$s</string>
   <string name="lb_time_separator">:</string>
-  <string name="legacy_dhcp_client_summary">Използване на клиентската програма за DHCP от Lollipop вместо новата програма на Android.</string>
   <string name="loading">Зарежда се…</string>
   <string name="local_backup_password_summary_change">Докоснете, за да промените или премахнете паролата за пълни резервни копия на настолния компютър</string>
   <string name="local_backup_password_summary_none">Понастоящем пълните резервни копия за настолен компютър не са защитени</string>
@@ -305,7 +307,7 @@
   <string name="permission_review_warning_title_template_update">Приложението %1$s е актуализирано. Искате ли да разрешите на %1$s достъп до следните неща?</string>
   <string name="permission_summary_enforced_by_policy">Наложено чрез правило</string>
   <string name="permission_title">Разрешения за %1$s</string>
-  <string name="permission_warning_template">Да се разреши ли на &lt;b&gt;%1$s&lt;/b&gt; следното действие: %2$s?</string>
+  <string name="permission_warning_template">Разрешаване на &lt;b&gt;%1$s&lt;/b&gt; да %2$s?</string>
   <string name="picture_color_mode">Цветови режим за снимките</string>
   <string name="picture_color_mode_desc">Използване на sRGB</string>
   <string name="pointer_location">Mестопол. на показалеца</string>
@@ -341,10 +343,13 @@
   <string name="screen_zoom_summary_large">Голямо</string>
   <string name="screen_zoom_summary_small">Малко</string>
   <string name="screen_zoom_summary_very_large">По-голямо</string>
+  <string name="search_menu_title">Търсене</string>
   <string name="security_settings_desc">Да се разреши на това приложение следното:</string>
   <string name="select_application">Избиране на приложение</string>
   <string name="select_logd_size_dialog_title">Размер на един рег. буфер: Избор</string>
   <string name="select_logd_size_title">Размери на регистрац. буфери</string>
+  <string name="select_logpersist_dialog_title">Изберете кои регистрационни буфери да се съхраняват за постоянно на устройството</string>
+  <string name="select_logpersist_title">Рег. данни да се съхр. трайно на у-вото</string>
   <string name="select_usb_configuration_dialog_title">Избиране на конфигурация за USB</string>
   <string name="select_usb_configuration_title">Избиране на конфигурация за USB</string>
   <string name="select_webview_provider_dialog_title">Задаване на внедряването на WebView</string>
@@ -353,8 +358,6 @@
   <string name="settings">Настройки</string>
   <string name="show_all_anrs">Всички нереагиращи прил.</string>
   <string name="show_all_anrs_summary">Диалог. прозорец „НП“ за приложения на заден план</string>
-  <string name="show_cpu_usage">Употреба на процесора</string>
-  <string name="show_cpu_usage_summary">Наслагване на екрана показва употр. на процесора</string>
   <string name="show_hw_layers_updates">Актуал. на слоевете на хардуера</string>
   <string name="show_hw_layers_updates_summary">Примигв. на слоевете на хардуера в зелено при актуал.</string>
   <string name="show_hw_screen_updates">Показв. на актуал. на изгледа от GPU</string>
@@ -448,7 +451,8 @@
   <string name="wifi_display_certification">Безжичен дисплей</string>
   <string name="wifi_display_certification_summary">Показване на опциите за сертифициране на безжичния дисплей</string>
   <string name="wifi_fail_to_scan">Не може да се сканира за мрежи</string>
-  <string name="wifi_no_internet">Не е открит достъп до интернет. Няма да се свърже отново автоматично.</string>
+  <string name="wifi_no_internet">Няма достъп до интернет.</string>
+  <string name="wifi_no_internet_no_reconnect">Не е открит достъп до интернет. Връзката няма да се възобнови автоматично.</string>
   <string name="wifi_not_in_range">Извън обхват</string>
   <string name="wifi_remembered">Запазено</string>
   <string name="wifi_security_none">Няма</string>

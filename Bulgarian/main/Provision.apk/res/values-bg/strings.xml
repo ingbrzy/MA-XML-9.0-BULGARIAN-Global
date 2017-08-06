@@ -7,7 +7,7 @@
   <string name="cm_terms_content">За по-качествено обслужване мобилният Ви оператор, с Вашето съгласие, може да събира и качва на своите сървъри лична информация за това, как използвате устройството си, в кои клетъчни и безжични WiFi мрежи се регистрирате, какво търсите като тематика в Интернет. Тази информация ще се използва само за създаване на статистика и предлагане на персонализирано съдържание за вас. Информацията няма да бъде предоставяна на трети страни или за идентификация на вас самия.</string>
   <string name="cm_terms_title">Условия за ползване на мобилния оператор</string>
   <string name="congratulation_label">Насладете се на новият си телефон :)</string>
-  <string name="congratulation_title">All set</string>
+  <string name="congratulation_title">Поздравления!!</string>
   <string name="content_description_complete">Готово</string>
   <string name="content_description_language_picker">Изберете език</string>
   <string name="content_description_miui_version">MIUI 8</string>
@@ -20,6 +20,7 @@
   <string name="enable_accessibility_dialog_message">Включихте TalkBack, като натиснахте с два пръста екрана за повече от 10 секунди. TalkBack е разработен за слепи хора. Ако сте включили по случайност тази програма, натиснете бутона Отказ и после докоснете два пъти екрана.</string>
   <string name="enable_accessibility_dialog_negative_btn">Отказ</string>
   <string name="enable_accessibility_dialog_positive_btn">OК</string>
+  <string name="fail_to_generate_qr_code">Fail to generate QR code, please reenter this page.</string>
   <string name="ime_privacy_policy">Правила за поверителност за избраната клавиатура</string>
   <string name="ime_privacy_policy_no_network">Вашият телефон не е свързан с интернет. Вижте информацията на адрес: %s</string>
   <string name="input_method_category">Избиране на метод за въвеждане по подразбиране, който ще използвате при въвеждане на текст в имейли, бележки и др. Запомнете, че можете да си инсталирате клавиатури от трети страни по-късно.</string>
@@ -38,8 +39,6 @@
   <string name="other_settings_auto_update_summary">MIUI ще избере най-подходящото време за да инсталира актуализациите.</string>
   <string name="other_settings_location">Местоположение</string>
   <string name="other_settings_location_summary">Позволява приложенията да определят точното ви местоположение.</string>
-  <string name="other_settings_mifg_online_content">Сменящи се тапети</string>
-  <string name="other_settings_mifg_online_content_summary">Позволете на Сменящи се тапети да се свърже с интернет за да изтегли нови изображения.</string>
   <string name="other_settings_upload_debug_log_summary">Информацията, която събираме, ще се използва за откриване и анализиране на проблеми в системата и може да съдържа лична информация. Данните обаче няма да се използват за да бъдете идентифицирани лично.</string>
   <string name="other_settings_upload_debug_log_title">Изпращай диагностични данни автоматично</string>
   <string name="other_settings_user_experience">Потребителски отзиви</string>
@@ -47,7 +46,8 @@
   <string name="pref_title_data_slot">Предпочитана SIM карта за данни</string>
   <string name="pref_title_voice_slot">Предпочитана SIM карта за глас</string>
   <string name="privacy_policy">Правила за поверителност</string>
-  <string name="provision_inputmethod_policy_description">\" Преглед на избраната клавиатура \"</string>
+  <string name="provision_inputmethod_policy_description">"
+Вижте Политиката за сигурност на избраната клавиатура."</string>
   <string name="provision_inputmethod_policy_description1">Правила за поверителност</string>
   <string name="setting_locale">Задаване на регион…</string>
   <string name="shut_down">Изключване</string>
@@ -64,6 +64,8 @@
 
 Вие трябва да се съгласите с потребителското споразумение, преди да използвате MIUI. При активирането Mi услугите, Открий устройството, системен компонент MSA и данни за статистика, ще се свържат към Интернет и ще изискат вашето местоположение."</string>
   <string name="title_fingerprint">Добавете пръстов отпечатък</string>
+  <string name="two_dimensional_code_scan">QR code scan</string>
   <string name="user_agreement">Потребителско споразумение</string>
+  <string name="user_strayed_warning">The page is designed for factory test, Click back button to exit.</string>
   <string name="welcome">Добре дошли в</string>
 </resources>

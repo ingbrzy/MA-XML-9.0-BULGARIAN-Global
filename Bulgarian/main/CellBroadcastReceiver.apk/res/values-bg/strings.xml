@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="alert_reminder_interval_title">Напомняне за сигнал</string>
-  <string name="alert_sound_duration_title">Продълж. на звука на сигнала</string>
   <string name="app_label">Клетъчни излъчвания</string>
   <string name="button_cancel">Отказ</string>
   <string name="button_delete">Изтриване</string>

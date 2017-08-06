@@ -50,6 +50,11 @@
         <item>След изход от приложението</item>
         <item>1 мин. след изход от прил.</item>
     </string-array>
+    <string-array name="lock_mode_value">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
     <string-array name="sort_type">
         <item>Състояние</item>
         <item>Име на приложение</item>
@@ -65,6 +70,18 @@
         <item>Сортиране по използване на хранилището</item>
         <item>Сортиране по употреба на данни</item>
         <item>Сортиране по употреба на батерията</item>
+    </string-array>
+    <string-array name="key_app_info">
+        <item>източник на инсталиране</item>
+        <item>час на инсталиране</item>
+        <item>източник на актуализиране</item>
+        <item>час на актуализиране</item>
+    </string-array>
+    <string-array name="title_app_info">
+        <item>Източник на инсталиране</item>
+        <item>Час на инсталиране</item>
+        <item>Източник на последната актуализация</item>
+        <item>Час на последната актуализация</item>
     </string-array>
     <string-array name="sms_report_type">
         <item>Използвани данни</item>

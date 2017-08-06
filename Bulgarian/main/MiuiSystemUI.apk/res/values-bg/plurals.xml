@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="status_bar_accessibility_recent_apps">
-        <item quantity="other">%d посл. изпол. прилож</item>
-        <item quantity="one">1 посл. изпол. прилож</item>
+        <item quantity="other">%d посл. използвани прилж</item>
+        <item quantity="one">%d посл. използвано прилж</item>
     </plurals>
     <plurals name="accessibility_recent_task_enter">
-        <item quantity="other">Последно използвани, налични прилож: %d.</item>
-        <item quantity="one">Последно използвани, налично прилож: 1.</item>
+        <item quantity="other">Последно използвани, налични прилж: %d.</item>
+        <item quantity="one">Последно използвани, налично прилж:%d.</item>
     </plurals>
     <plurals name="accessibility_recent_task_first_enter_tips">
-        <item quantity="other">Последно използвани, налични прилож: %d. Плъзнете нагоре за да ги премахнете или плъзнете надолу, за да ги заключите.</item>
-        <item quantity="one">Последно използвани, налично прилож: 1. Плъзнете нагоре за да го премахнете или плъзнете надолу, за да го заключите.</item>
+        <item quantity="other">Последно използвани, налични прилж: %d. Плъзнете нагоре за да ги премахнете или плъзнете надолу, за да ги заключите.</item>
+        <item quantity="one">Последно използвани, налично прилж: %d. Плъзнете нагоре за да го премахнете или плъзнете надолу, за да го заключите.</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
         <item quantity="other">%1$d превключватели над лентата са активни</item>
-        <item quantity="one">1 превключвател над лентата е активен</item>
+        <item quantity="one">%1$d превключвател над лентата е активен</item>
     </plurals>
     <plurals name="disable_notification_confirm_title">
         <item quantity="other">Скрий известията от %d прил.?</item>
@@ -22,10 +22,14 @@
     </plurals>
     <plurals name="block_record_notification_more_text">
         <item quantity="other">Скрити известия от %1$s &amp; %2$d приложения.</item>
-        <item quantity="one">Скрити известия от %1$s &amp; 1 приложение.</item>
+        <item quantity="one">Скрити известия от %1$s &amp; %2$d приложение.</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Ясно</item>
         <item quantity="one">Слънчево</item>
+    </plurals>
+    <plurals name="fold_tips_title">
+        <item quantity="other">%d notifications are fold</item>
+        <item quantity="one">%d notification is fold</item>
     </plurals>
 </resources>

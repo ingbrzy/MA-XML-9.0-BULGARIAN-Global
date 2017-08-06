@@ -60,6 +60,18 @@
         <item>Рег. буфер – 4 МБ</item>
         <item>Рег. буфер – 16 МБ</item>
     </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Изкл.</item>
+        <item>Всички</item>
+        <item>Вс. без радио</item>
+        <item>само ядрото</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Изкл.</item>
+        <item>Всички регистрационни буфери</item>
+        <item>Всички регистрационни буфери освен тези за радиото</item>
+        <item>само регистрационния буфер на ядрото</item>
+    </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Анимацията е изключена</item>
         <item>Скала на анимацията .5x</item>
@@ -169,6 +181,11 @@
         <item>LTE/CDMA</item>
         <item>LTE/GSM/UMTS</item>
     </string-array>
+    <string-array name="preferred_network_mode_values_world_mode">
+        <item>10</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
     <string-array name="clir_display_values">
         <item>Мрежа по подразбиране</item>
         <item>Скриване на номера</item>
@@ -208,6 +225,15 @@
         <item>китайски</item>
         <item>иврит</item>
     </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
     <string-array name="cdma_system_select_choices">
         <item>Само „Начало“</item>
         <item>Автоматично</item>
@@ -215,6 +241,10 @@
     <string-array name="cdma_subscription_choices">
         <item>RUIM/SIM</item>
         <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
     </string-array>
     <string-array name="tty_mode_entries">
         <item>TTY е изкл.</item>

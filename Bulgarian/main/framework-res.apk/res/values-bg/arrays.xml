@@ -55,4 +55,11 @@
         <item>Друг</item>
         <item>По избор</item>
     </string-array>
+    <string-array name="network_switch_type_name">
+        <item>мобилни данни</item>
+        <item>Wi-Fi</item>
+        <item>Bluetooth</item>
+        <item>Ethernet</item>
+        <item>виртуална частна мрежа (VPN)</item>
+    </string-array>
 </resources>

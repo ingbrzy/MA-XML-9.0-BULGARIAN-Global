@@ -4,6 +4,7 @@
   <string name="add_frequent_phrases">Добавяне на чести фрази</string>
   <string name="all_call_livetalk_enable">Use top-up packages for domestic and international calls</string>
   <string name="all_call_livetalk_remain_mins">Minutes remaining: %1$s domestic | %2$s international</string>
+  <string name="always">Винаги</string>
   <string name="alwaysUsePrompt">Запомни този избор</string>
   <string name="apply_password_action">Задаване на парола</string>
   <string name="apply_password_confirm_dlg_msg">Да се изисква ли парола за %s?</string>
@@ -28,10 +29,13 @@
   <string name="call_record_sample_prefix_miui">Разговор</string>
   <string name="caller_info_name_delimiter">" или "</string>
   <string name="cancel_action">Отказ</string>
+  <string name="close">Изкл</string>
   <string name="configure_input_methods">Метод на въвеждане</string>
   <string name="copy">Копирай</string>
   <string name="cut">Изрежи</string>
   <string name="default_name">Стандартно</string>
+  <string name="description_title">Тих режим</string>
+  <string name="eighthours">8 часа</string>
   <string name="enable_livetalk_summary">Само за Китай</string>
   <string name="enable_livetalk_title">Заредете сега</string>
   <string name="fc_dialog_body">Да се изпрати ли доклад за грешка до Mi за анализ? Този доклад може да съдържа лична информация. Вашият доклад ще се използва за премахване на грешката и никога няма да се споделя с комерсиална цел.</string>
@@ -42,6 +46,7 @@
   <string name="fm_record_smaple_prefix_miui">FM запис</string>
   <string name="force_exit_message">Приложението \"%1$s\" е затворено</string>
   <string name="force_exit_skip_message">%1$s не може да се затвори,тъй като се използва от системата.</string>
+  <string name="fourhours">2 часа</string>
   <string name="fp_nav_center_action_choose_dlg_msg">Можете да се върнете в начален екран с леко докосване на бутон Начало. Можете да включите или изключите тази функция от Настройки &gt; Допълнителни настройки &gt; Бутони &gt; Докоснете бутон Начало за връщане в начален екран.</string>
   <string name="fp_nav_center_action_choose_dlg_negative_btn_text">No thanks</string>
   <string name="fp_nav_center_action_choose_dlg_positive_btn_text">Включи</string>
@@ -75,6 +80,7 @@
   <string name="memory_clear_nothing_result">RAM паметта е оптимизирана</string>
   <string name="memory_clear_result">%1$sБ почистени</string>
   <string name="miui_upgrading_notification_title">Системата зарежда, някои услуги може да не работят</string>
+  <string name="onehour">30 минути</string>
   <string name="package_delete_confirm_step_1">Изтриване %s?</string>
   <string name="package_delete_confirm_step_2">Изтриването на това приложение може да доведе до нестабилност на вашата система.</string>
   <string name="package_delete_confirm_step_3">След като изтриете приложението, няма да можете да го отворите.</string>
@@ -87,6 +93,7 @@
   <string name="reboot_info_auto_boot">Телефона ви ще се включи в %s според графика за авт. включване</string>
   <string name="reboot_info_shutdown_alarm">Следваща аларма: %s</string>
   <string name="reboot_progress">Рестартира се…</string>
+  <string name="remain">Остават:%s</string>
   <string name="replace">Замени</string>
   <string name="resource_select">Изберете</string>
   <string name="screen_button_notification_text">"Натиснете 'Начало'+'Захр.' за включване."</string>
@@ -113,10 +120,14 @@
   <string name="set_password_title">Задаване на парола</string>
   <string name="shutdown_confirm_title">Вашият телефон ще се изключи.</string>
   <string name="shutdown_progress">Изключва се…</string>
+  <string name="silence_mode">Тих режим</string>
   <string name="sim_added_reboot_confirm">Рестарт</string>
   <string name="sim_added_reboot_title">SIM картата ще бъде активна след рестартиране на устройството ви.</string>
   <string name="softap_notifif_summary">%d свързани</string>
   <string name="softap_notifif_title">Хотспотът \"%s\" е активен</string>
+  <string name="standard">Без звук</string>
+  <string name="standard_description">[Silent] Заглушаване на всички звуци за входящи повиквания и известия</string>
+  <string name="standard_title">Без звук..</string>
   <string name="start_security_permission_verify_text">Потвърди разрешението с твоя Ми акаунт</string>
   <string name="status_bar_toggle_auto_brightness">Яркост</string>
   <string name="status_bar_toggle_battery_saver">Икономия на батерията</string>
@@ -142,10 +153,14 @@
   <string name="status_bar_toggle_wifi">Wi-Fi</string>
   <string name="status_bar_toggle_wifi_ap">Wi-Fi VPN</string>
   <string name="subinfo_default_name">SIM %d</string>
+  <string name="total">Режим Не безпокойте</string>
+  <string name="total_description">[DND] Заглушаване на звуците и изключване на вибрацията за всички, освен Будилника</string>
+  <string name="total_title">Не Безпокойте..</string>
   <string name="translation_more">Повече</string>
   <string name="translation_query_error">Няма резултати</string>
   <string name="translation_query_error_network">Не може да се получи информация, проверете мрежовите настройки и опитайте отново</string>
   <string name="turn_off">Изключване</string>
+  <string name="twohours">1 час</string>
   <string name="unknown_caller">Неизвестен</string>
   <string name="user_switching_dialog_text">Switching…</string>
   <string name="xspace_resolver_activity_title">Изберете приложение</string>

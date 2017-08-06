@@ -31,6 +31,7 @@
   <string name="config_suggest_description">Използване на различни настройки за икономия за всяко приложение</string>
   <string name="config_suggest_suffix_title">MIUI Икономия на батерия (препоръчва се)</string>
   <string name="config_suggest_title">Предложения</string>
+  <string name="confirm">Потвърди</string>
   <string name="disable_hide_mode">Изключи MIUI Икономия на батерия</string>
   <string name="disable_hide_mode_warning">Изключването на MIUI Икономия на батерия може да предизвика повече разход на енергия</string>
   <string name="disabled">Изкл.</string>
@@ -49,6 +50,7 @@
   <string name="hide_system_app">Скрий системните приложения</string>
   <string name="high">Производителност</string>
   <string name="hints_loading_text">Един момент…</string>
+  <string name="important_warning">Внимание</string>
   <string name="invalid_size_value">Размера на пакета не може да се получи.</string>
   <string name="location_disable_description">Използване във фонов режим за кратък период на услугите за местоположение, след това забраняване</string>
   <string name="location_disable_title">Забранено</string>
@@ -173,14 +175,13 @@
   <string name="set_lcd_mode">Режим на екрана</string>
   <string name="settings_safetylegal_activity_loading">Един момент…</string>
   <string name="show_system_app">Покажи системните приложения</string>
-  <string name="sleep_config_enhance_description">Разходът на енергия ще бъде оптимизиран през нощта</string>
+  <string name="sleep_config_enhance_description">predict user sleep time by machine learning, whithin the sleep time, we may clear some background apps, restrict to use NFC, KeyGauard Notification, Sync, Bluetooth, GPS, mobile and wifi data, etc.</string>
   <string name="sleep_config_enhance_title">Икономия в режим на готовност</string>
   <string name="still">Снимка</string>
   <string name="ui">Стандарт</string>
   <string name="user_define_mode">Име</string>
   <string name="vip_feedback">Вип обратна връзка</string>
-  <string name="vip_feedback_apply">Задай Вип обратна връзка</string>
-  <string name="vip_feedback_apply_msg">Моля, свържете се с vip-feedback-system@xiaomi.com за Вип обратна връзка</string>
   <string name="vip_feedback_enable">Включи Вип обратна връзка</string>
   <string name="warm_configure">Warm control configure</string>
+  <string name="warm_performance_tip">При работа на пълна мощност, телефонът ще се нагрее повече, отколкото в режим по подразбиране</string>
 </resources>

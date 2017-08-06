@@ -56,4 +56,12 @@
         <item quantity="other">%d записи в списък блокирани</item>
         <item quantity="one">%d запис в списък блокирани</item>
     </plurals>
+    <plurals name="micloud_main_resume_sync_hour">
+        <item quantity="other">Продължи синхронизирането след %d часа</item>
+        <item quantity="one">Продължи синхронизирането след %d час</item>
+    </plurals>
+    <plurals name="micloud_main_resume_sync_min">
+        <item quantity="other">Продължи синхронизирането след %d минути</item>
+        <item quantity="one">Продължи синхронизирането след %d минута</item>
+    </plurals>
 </resources>

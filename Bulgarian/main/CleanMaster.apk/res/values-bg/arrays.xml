@@ -62,10 +62,6 @@
         <item>На всеки 15 дни</item>
         <item>На всеки 30 дни</item>
     </string-array>
-    <string-array name="scan_engine">
-        <item>Clean Master</item>
-        <item>Tencent</item>
-    </string-array>
     <string-array name="wechat_menu_delete">
         <item>Изчистване</item>
     </string-array>
@@ -75,5 +71,9 @@
     <string-array name="wechat_menu_delete_whitelist_view">
         <item>Изчистване</item>
         <item>Преглед</item>
+    </string-array>
+    <string-array name="scan_engine">
+        <item>Clean Master</item>
+        <item>Tencent</item>
     </string-array>
 </resources>

@@ -37,7 +37,10 @@
   <string name="album_jump_failed">Изчакайте, докато албумите се синхронизират с Mi Облак и опитайте отново</string>
   <string name="album_member">Членове на албума %s</string>
   <string name="album_name">Име на албума</string>
+  <string name="album_name_locations">Местоположения</string>
+  <string name="album_name_people">Хора</string>
   <string name="album_name_recent_discovery">Скорошни</string>
+  <string name="album_name_tags">Тагове</string>
   <string name="album_others_share_baby_info_format">Бебе албум от %s</string>
   <string name="album_others_share_info_format">От %s</string>
   <string name="album_owner_share">Мои споделени</string>
@@ -303,6 +306,7 @@
   <string name="empty_recommend_back">Обратно</string>
   <string name="empty_recommend_face_page_view">Няма повече препоръки</string>
   <string name="empty_relation">Името на групата не може да е празно</string>
+  <string name="empty_title_no_photos">Няма снимки или видео</string>
   <string name="enable_auto_upload_tip">Да се включи ли синхр с Ми Облак за този албум?</string>
   <string name="enable_auto_upload_title">Включване на Синхр. с Mi Cloud</string>
   <string name="enable_cloud_for_sharing">Необходимо е да активирате облачните албуми за преглед на споделените снимки.</string>
@@ -334,7 +338,7 @@
   <string name="face_album_detecting_tip">Един момент…</string>
   <string name="face_album_empty">Празно</string>
   <string name="face_album_empty_syncing">Синхр. на данни</string>
-  <string name="face_album_empty_syncing_when_connect_wifi">Данните за албуми с лица ще бъдат синхр. само по Wi-Fi</string>
+  <string name="face_album_empty_syncing_when_connect_wifi">Свържете се с интернет, за да синхронизирате информацията</string>
   <string name="face_album_long_tap_tip">За избиране на много хора или промяна на групови настройки, натиснете и задръжте профилната снимка</string>
   <string name="face_album_new_name_hint">Ново име</string>
   <string name="face_album_not_named">Без име</string>
@@ -393,7 +397,7 @@
   <string name="has_invalid_recipient">Невалидни получатели: %1$s</string>
   <string name="have_known">Разбрах</string>
   <string name="hidden_album_display_name">Скрит албум</string>
-  <string name="home_page_empty">Празно</string>
+  <string name="home_page_empty_action">Направи снимка</string>
   <string name="home_page_label">Снимка</string>
   <string name="how_to_set_relation">Дълго натискане на албум за задаване на група</string>
   <string name="hybrid_check_network">Мрежови настройки</string>
@@ -547,9 +551,13 @@
   <string name="other_album">Други албуми</string>
   <string name="other_settings">Допълнителни настройки</string>
   <string name="owner_album_subtitle">Споделено с %1$s потребители</string>
+  <string name="people_album_empty_title">Photos can be sorted by people in them</string>
   <string name="people_jump_failed">Изчакайте, докато снимките с хора се синхронизират с Mi Облак и опитайте отново</string>
+  <string name="people_mark_mode_title">Изберете \"%s\"</string>
+  <string name="people_mark_mode_title_no_mark_name">Изберете човек</string>
   <string name="people_page_label">Лице</string>
   <string name="people_page_unname">Неизвестно</string>
+  <string name="percent_sign">%</string>
   <string name="pet_album_display_name">Домашни любимци</string>
   <string name="petabyteShort">ПБ</string>
   <string name="photo">Снимка</string>
@@ -573,6 +581,7 @@
   <string name="picker_title_format">Може да изберете %d снимки</string>
   <string name="picker_title_selection_format">%d избрани</string>
   <string name="picker_title_unlimit">Изберете снимка</string>
+  <string name="places_album_empty_title">Снимките могат да бъдат сортирани по място на заснемане</string>
   <string name="preparing_data">Момент…</string>
   <string name="projection_checkbox_text">Запомняне на този дисплей</string>
   <string name="projection_device_connection_failed">Неуспешно свързване към проекционното устройство</string>
@@ -588,6 +597,7 @@
   <string name="publish_succeeded">Албумът е публикуван</string>
   <string name="publishing">Публикува се…</string>
   <string name="quotation">\"%s\"</string>
+  <string name="recent_album_empty_title">Няма скоро добавени нови снимки</string>
   <string name="recommanded_face_abandon_tip">Премахнато от предложения</string>
   <string name="recommanded_face_added_tip">Добавено към \"%s\"</string>
   <string name="recovery_merge">Обедини</string>
@@ -634,7 +644,6 @@
   <string name="scan_barcode_guide">За да видите QR кода на албума, натиснете иконата за споделяне в горният десен ъгъл.</string>
   <string name="scan_barcode_to_join">Сканирайте QR кода, за да се присъедините към албума.</string>
   <string name="scan_qr_code_buttom_text">Сканирайте QR кода, за да видите този албум.</string>
-  <string name="search_album_jump_failed">Изчакайте, докато албумите се синхронизират с Mi Облак и опитайте отново</string>
   <string name="search_backup_full_screen">Включване на синхронизацията с Mi Cloud, за откриване на повече обекти и хора</string>
   <string name="search_backup_now">Включи</string>
   <string name="search_backup_sub_title">Включване за откриване на още изображения</string>
@@ -650,16 +659,26 @@
   <string name="search_login_sub_title">Вписване за откриване на повече снимки</string>
   <string name="search_login_title">Mi Профил</string>
   <string name="search_login_title_full_screen">Вписване с вашия Mi профил, за откриване на повече обекти и хора</string>
-  <string name="search_people_jump_failed">Изчакайте синхронизацията да завърши и опитайте отново</string>
+  <string name="search_net_error">Грешка в мрежата. Свържете се с друга мрежа и опитайте отново.</string>
+  <string name="search_request_open">Станете член на Бета-тийма</string>
   <string name="search_result_empty">Не може да се открие нищо</string>
   <string name="search_retry">Оптитайте отново</string>
+  <string name="search_select_network">Избор на мрежа</string>
   <string name="search_set_network_connection">Настройки на мрежата</string>
+  <string name="search_setting_sub_title">Подобрено търсене на изображения</string>
+  <string name="search_setting_sub_title_open">Одобрено. Изчакайте малко, преди да започнете.</string>
+  <string name="search_setting_title">Намерете снимки в Галерия</string>
+  <string name="search_syncing">Синхронизират се данни, върнете се след малко</string>
+  <string name="search_title_album">Албум</string>
   <string name="search_title_history">Хронология на търсенията</string>
   <string name="search_title_location">Местоположения</string>
   <string name="search_title_others">Всички резултати</string>
   <string name="search_title_people">Хора</string>
   <string name="search_title_recommend">Препоръчвани</string>
+  <string name="search_title_suggestion">Предложения</string>
   <string name="search_title_tag">Обекти</string>
+  <string name="search_transition_element_icon">search_icon</string>
+  <string name="search_transition_element_input">search_input</string>
   <string name="secret_album_card_description">Най-доброто място за всички ваши малки тайни</string>
   <string name="secret_album_card_title">Изпробвайте скрития албум</string>
   <string name="secret_album_display_name">Скрит албум</string>
@@ -692,6 +711,7 @@
   <string name="set_face_image">Задаване на ново лице</string>
   <string name="set_group">Задаване на група</string>
   <string name="set_wallpaper_get_image_failed">Изображението не може да се изтегли, опитайте по-късно</string>
+  <string name="setup_network_connection">Настройки на мрежата</string>
   <string name="share">Сподели</string>
   <string name="share_album">Сподели албум</string>
   <string name="share_album_needs_auto_upload_tip">Не може да изключите архивирането за споделените албуми</string>
@@ -747,6 +767,7 @@
   <string name="text_append_hint">Въведете текст</string>
   <string name="text_append_style">Балони</string>
   <string name="text_append_transparent">Непрозрачност</string>
+  <string name="things_album_empty_title">Photos can be sorted by objects in them</string>
   <string name="tip_capture_location">Локация:</string>
   <string name="tip_capture_params">EXIF данни:</string>
   <string name="tip_capture_time">Заснето на:</string>
@@ -844,6 +865,7 @@
   <string name="view_by_gallery_tip">MIUI Галерия</string>
   <string name="view_face_album">Покажи албума</string>
   <string name="view_queuing_status">Проверка на статуса</string>
+  <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
   <string name="welcome_to_micloud">Добре дошли в Mi Cloud.</string>
   <string name="welcome_to_slim">Добре дошли в умаления албум.</string>
   <string name="where_is_barcode">Къде е QR кода?</string>
