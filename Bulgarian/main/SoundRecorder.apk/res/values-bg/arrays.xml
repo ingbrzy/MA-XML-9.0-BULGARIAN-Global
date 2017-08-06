@@ -19,12 +19,6 @@
         <item>Интервю</item>
         <item>HD</item>
     </string-array>
-    <string-array name="record_scenes_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-    </string-array>
     <string-array name="record_scenes_summaries">
         <item>Записване на музика с по-добро качество</item>
         <item>Доближете микрофона за по-добро качество на звука</item>
@@ -41,11 +35,6 @@
         <item>Високо</item>
         <item>Стандартно</item>
         <item>Ниско</item>
-    </string-array>
-    <string-array name="record_quality_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
     </string-array>
     <string-array name="record_quality_summaries">
         <item>MP3, ~192kbit/s, ~90МБ/ч</item>

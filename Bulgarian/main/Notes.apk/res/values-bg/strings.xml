@@ -129,7 +129,6 @@
   <string name="search_label">Търсене на бележки</string>
   <string name="search_path_notes">Системни приложения/Бележки</string>
   <string name="search_setting_description">Търсене на текст в бележки</string>
-  <string name="search_title_notes">@string/app_name</string>
   <string name="select_account_prompt">Активирайте синхронизиране на бележки</string>
   <string name="set_alarm_description">Настрой будилник</string>
   <string name="sina_share_fail">Неуспешно изпращане</string>

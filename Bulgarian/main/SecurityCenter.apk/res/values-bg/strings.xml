@@ -442,7 +442,6 @@
   <string name="card_main_private_space_summary">Използвайте Второ пространство все едно имате две устройства</string>
   <string name="card_main_private_space_title">Второ работно място</string>
   <string name="card_main_sectool_title">Инструменти</string>
-  <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
   <string name="card_main_speeddetail_title">Скорост на връзката</string>
   <string name="card_main_speeddetailt_summary">Скорост на връзката за отделни приложения</string>
   <string name="card_main_xspace_action">Създаване</string>
