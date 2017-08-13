@@ -441,7 +441,6 @@
   <string name="card_main_private_space_summary">Използвайте Второ пространство все едно имате две устройства</string>
   <string name="card_main_private_space_title">Второ работно място</string>
   <string name="card_main_sectool_title">Инструменти</string>
-  <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
   <string name="card_main_xspace_action">Създаване</string>
   <string name="card_main_xspace_summary">Създайте два профила за всяко приложение</string>
   <string name="card_main_xspace_title">Клонирани приложения</string>

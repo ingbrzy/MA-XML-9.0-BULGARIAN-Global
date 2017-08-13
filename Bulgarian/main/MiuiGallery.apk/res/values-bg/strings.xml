@@ -557,7 +557,6 @@
   <string name="people_mark_mode_title_no_mark_name">Изберете човек</string>
   <string name="people_page_label">Лице</string>
   <string name="people_page_unname">Неизвестно</string>
-  <string name="percent_sign">%</string>
   <string name="pet_album_display_name">Домашни любимци</string>
   <string name="petabyteShort">ПБ</string>
   <string name="photo">Снимка</string>
@@ -677,8 +676,6 @@
   <string name="search_title_recommend">Препоръчвани</string>
   <string name="search_title_suggestion">Предложения</string>
   <string name="search_title_tag">Обекти</string>
-  <string name="search_transition_element_icon">search_icon</string>
-  <string name="search_transition_element_input">search_input</string>
   <string name="secret_album_card_description">Най-доброто място за всички ваши малки тайни</string>
   <string name="secret_album_card_title">Изпробвайте скрития албум</string>
   <string name="secret_album_display_name">Скрит албум</string>
@@ -865,7 +862,6 @@
   <string name="view_by_gallery_tip">MIUI Галерия</string>
   <string name="view_face_album">Покажи албума</string>
   <string name="view_queuing_status">Проверка на статуса</string>
-  <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
   <string name="welcome_to_micloud">Добре дошли в Mi Cloud.</string>
   <string name="welcome_to_slim">Добре дошли в умаления албум.</string>
   <string name="where_is_barcode">Къде е QR кода?</string>

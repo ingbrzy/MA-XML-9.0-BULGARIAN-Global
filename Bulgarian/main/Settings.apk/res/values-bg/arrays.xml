@@ -149,17 +149,6 @@
         <item>Екстремно бърза</item>
         <item>Скорострелна</item>
     </string-array>
-    <string-array name="tts_rate_values">
-        <item>60</item>
-        <item>80</item>
-        <item>100</item>
-        <item>150</item>
-        <item>200</item>
-        <item>250</item>
-        <item>300</item>
-        <item>350</item>
-        <item>400</item>
-    </string-array>
     <string-array name="color_mode_names">
         <item>Резониращ</item>
         <item>Естествен</item>
@@ -601,18 +590,9 @@
         <item>Предпочита се клетъчна мрежа</item>
         <item>Само Wi-Fi</item>
     </string-array>
-    <string-array name="wifi_calling_mode_values">
-        <item>2</item>
-        <item>1</item>
-        <item>0</item>
-    </string-array>
     <string-array name="wifi_calling_mode_choices_without_wifi_only">
         <item>Предпочита се Wi-Fi</item>
         <item>Предпочита се клетъчна мрежа</item>
-    </string-array>
-    <string-array name="wifi_calling_mode_values_without_wifi_only">
-        <item>2</item>
-        <item>1</item>
     </string-array>
     <string-array name="haptic_feedback_level_texts">
         <item>Изключено</item>
@@ -733,14 +713,6 @@
         <item>@string/msd_install_retry_connect</item>
         <item>Преинсталирайте MiPhoneManager.</item>
     </string-array>
-    <string-array name="msd_pc_system_retry_vista">
-        <item>@string/msd_install_retry_connect</item>
-    </string-array>
-    <string-array name="msd_pc_system_retry_mac">
-        <item>@string/msd_install_retry_reinstall_mac</item>
-        <item>@string/msd_install_retry_connect</item>
-        <item>@string/msd_install_retry_reinstall</item>
-    </string-array>
     <string-array name="msd_pc_system_retry_linux">
         <item>Инсталирайте инструмент: sudo aptitude install mtpfs libfuse-dev libmad0-dev</item>
         <item>Създайте директория: mkdir /media/mtp</item>
@@ -801,19 +773,10 @@
         <item>comtible mode</item>
         <item>high mode</item>
     </string-array>
-    <string-array name="connect_mode_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
     <string-array name="traffic_balance_entries">
         <item>затвори</item>
         <item>нормален режим</item>
         <item>краен режим</item>
-    </string-array>
-    <string-array name="traffic_balance_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
     <string-array name="preferred_app_entries">
         <item>Launcher</item>
@@ -848,16 +811,6 @@
         <item>Средно</item>
         <item>Високо</item>
     </string-array>
-    <string-array name="whetstone_level_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-    <string-array name="agps_network_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
     <string-array name="agps_network_entries">
         <item>Домашна мрежа</item>
         <item>Всички мрежи</item>
@@ -866,18 +819,9 @@
         <item>MSB</item>
         <item>MSA</item>
     </string-array>
-    <string-array name="agps_apn_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
     <string-array name="agps_apn_entries">
         <item>CMWAP</item>
         <item>CMNET</item>
-    </string-array>
-    <string-array name="agps_reset_type_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
     <string-array name="agps_reset_type_entries">
         <item>ГОРЕЩ</item>
@@ -888,11 +832,6 @@
         <item>4.5 инча</item>
         <item>4.0 инча</item>
         <item>3.5 инча</item>
-    </string-array>
-    <string-array name="handy_mode_size_value_entries">
-        <item>4.5</item>
-        <item>4.0</item>
-        <item>3.5</item>
     </string-array>
     <string-array name="lock_screen_secure_after_timeout_entries">
         <item>Веднага</item>
@@ -990,11 +929,6 @@
     <string-array name="screen_button_style">
         <item>За левичари</item>
         <item>За десничари</item>
-    </string-array>
-    <string-array name="screen_resolution_format">
-        <item>@string/screen_resolution_ultrahigh_format</item>
-        <item>@string/screen_resolution_high_format</item>
-        <item>@string/screen_resolution_normal_format</item>
     </string-array>
     <string-array name="edge_touch_volume_action">
         <item>Кликнете за регулиране, двоен клик за много силно</item>
@@ -1292,14 +1226,6 @@
         <item>Тегусигалпа</item>
         <item>Парамарибо</item>
         <item>Кито</item>
-    </string-array>
-    <string-array name="silent_entries">
-        <item>@string/standard</item>
-        <item>@string/total</item>
-    </string-array>
-    <string-array name="silent_values">
-        <item>1</item>
-        <item>3</item>
     </string-array>
     <string-array name="alarm_repeat_type">
         <item>Всеки ден</item>
