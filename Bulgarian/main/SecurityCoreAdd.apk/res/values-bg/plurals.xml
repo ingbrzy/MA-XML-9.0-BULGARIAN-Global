@@ -12,4 +12,8 @@
         <item quantity="other">Второ пространство: %d известия</item>
         <item quantity="one">Второ пространство: %d известие</item>
     </plurals>
+    <plurals name="search_app_count_txt_na">
+        <item quantity="other">Търсене на %d прилж</item>
+        <item quantity="one">Търсене на %d прилж</item>
+    </plurals>
 </resources>

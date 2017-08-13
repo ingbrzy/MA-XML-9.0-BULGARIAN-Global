@@ -346,10 +346,23 @@
   <string name="privacy_search_desc">История на търсенията</string>
   <string name="privacy_search_type">Google търсене</string>
   <string name="promotion">Избор на редакторите</string>
+  <string name="qq_cache_files">QQ кеш</string>
+  <string name="qq_clean">QQ почистване</string>
+  <string name="qq_clean_exit_confirm_msg">Спиране на сканирането и излизане?</string>
+  <string name="qq_data_type_cache">QQ кеш</string>
+  <string name="qq_data_type_cache_desc">Може да възстановите тези файлове, след като се свържете с интернет.</string>
+  <string name="qq_data_type_chat">История на чата</string>
+  <string name="qq_data_type_chat_desc">Няма да можете да възстановите историята на чата.</string>
+  <string name="qq_data_type_normal">Отпадъци</string>
+  <string name="qq_data_type_normal_clean_tips">Това са технически файлове. Изтриването им няма да повлияе на използването на устройството.</string>
+  <string name="qq_data_type_normal_desc">Изтриването им няма да повлияе на използването на устройството.</string>
+  <string name="qq_data_type_other">Други</string>
+  <string name="qq_data_type_other_desc">Бъдете внимателни, може да не успеете да възстановите файловете след тяхното изтриване.</string>
   <string name="recommend_news">Получавайте препоръки</string>
   <string name="recommend_the_following">Направете следните действия, за да получите повече от вашето устройство</string>
   <string name="recommended">Препоръчани</string>
   <string name="resutl_function_deep_clean_summary">" "&lt;Data&gt;&amp;lt;font color=#ff0000 &amp;gt;%1$s&amp;lt;/font&amp;gt; &amp;#1086;&amp;#1097;&amp;#1077; &amp;#1092;&amp;#1072;&amp;#1081;&amp;#1083;&amp;#1086;&amp;#1074;&amp;#1077; &amp;#1084;&amp;#1086;&amp;#1075;&amp;#1072;&amp;#1090; &amp;#1076;&amp;#1072; &amp;#1073;&amp;#1098;&amp;#1076;&amp;#1072;&amp;#1090; &amp;#1087;&amp;#1086;&amp;#1095;&amp;#1080;&amp;#1089;&amp;#1090;&amp;#1077;&amp;#1085;&amp;#1080;. &amp;#1054;&amp;#1089;&amp;#1074;&amp;#1086;&amp;#1073;&amp;#1086;&amp;#1076;&amp;#1077;&amp;#1090;&amp;#1077; &amp;#1087;&amp;#1086;&amp;#1074;&amp;#1077;&amp;#1095;&amp;#1077; &amp;#1084;&amp;#1103;&amp;#1089;&amp;#1090;&amp;#1086;.;&lt;/Data&gt;" "</string>
+  <string name="resutl_function_qq_clean_summary">" "&lt;Data&gt;&amp;#1042;&amp;#1080;&amp;#1077; &amp;#1084;&amp;#1086;&amp;#1078;&amp;#1077;&amp;#1090;&amp;#1077; &amp;#1076;&amp;#1072; &amp;#1080;&amp;#1079;&amp;#1095;&amp;#1080;&amp;#1089;&amp;#1090;&amp;#1080;&amp;#1090;&amp;#1077; &amp;lt;font color=#ff0000 &amp;gt;%1$s&amp;lt;/font&amp;gt; &amp;#1086;&amp;#1090; &amp;#1082;&amp;#1077;&amp;#1096;&amp;#1072;, &amp;#1089;&amp;#1098;&amp;#1079;&amp;#1076;&amp;#1072;&amp;#1076;&amp;#1077;&amp;#1085; &amp;#1086;&amp;#1090; QQ;&lt;/Data&gt;" "</string>
   <string name="resutl_function_wechat_clean_summary">" "&lt;Data&gt;&amp;lt;font color=#ff0000 &amp;gt;%1$s&amp;lt;/font&amp;gt; of WeChat &amp;#1082;&amp;#1077;&amp;#1096;. &amp;#1054;&amp;#1089;&amp;#1074;&amp;#1086;&amp;#1073;&amp;#1086;&amp;#1076;&amp;#1077;&amp;#1090;&amp;#1077; &amp;#1087;&amp;#1086;&amp;#1074;&amp;#1077;&amp;#1095;&amp;#1077; &amp;#1084;&amp;#1103;&amp;#1089;&amp;#1090;&amp;#1086;.;&lt;/Data&gt;" "</string>
   <string name="sc_allow_network_dialog_button">Приемам</string>
   <string name="sc_allow_network_dialog_message">Приемате ли приложението да се свързва с интернет за получаване на актуализации?</string>
@@ -436,10 +449,7 @@
   <string name="wechat_chat_data_type_normal_desc">Изтриването им няма да повлияе на използването на устройството.</string>
   <string name="wechat_chat_data_type_other">Други</string>
   <string name="wechat_chat_data_type_other_desc">Бъдете внимателни, може да не успеете да възстановите файловете след тяхното изтриване.</string>
-  <string name="wechat_chat_files">История на чатовете</string>
   <string name="wechat_clean">Wechat чистач</string>
-  <string name="wechat_clean_downloads">Получени файлове</string>
-  <string name="wechat_clean_downloads_desc">Файлове, получени през WeChat</string>
   <string name="wechat_clean_exit_confirm">Изход?</string>
   <string name="wechat_clean_exit_confirm_msg">Спиране на сканирането и излизане?</string>
   <string name="wechat_clean_stop_confirm">Спиране на сканирането?</string>
@@ -454,7 +464,8 @@
   <string name="wechat_copying_video_dialog_title">Експортиране към Галерия</string>
   <string name="wechat_copying_video_empty">Няма видеофайлове за експортиране</string>
   <string name="wechat_copying_video_success">Успешно експортиране</string>
-  <string name="wechat_normal_files">Кошче</string>
+  <string name="wechat_qq_chat_files">История на чата</string>
+  <string name="wechat_qq_normal_files">Отпадъци</string>
   <string name="white_list_ad_header">Непотребни файлове: %d</string>
   <string name="white_list_apk_header">Инсталационни файлове: %d</string>
   <string name="white_list_cache_header">Кеш: %d</string>

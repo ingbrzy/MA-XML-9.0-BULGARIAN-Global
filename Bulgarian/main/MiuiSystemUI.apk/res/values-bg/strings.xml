@@ -33,7 +33,7 @@
   <string name="accessibility_desc_recent_apps">Преглед.</string>
   <string name="accessibility_display_daltonizer_preference_subtitle">Тази функция е експериментална и може да окаже влияние на производителността.</string>
   <string name="accessibility_display_daltonizer_preference_title">Корекция на цветовете</string>
-  <string name="accessibility_divider">Split-screen divider</string>
+  <string name="accessibility_divider">Разделител на екрана</string>
   <string name="accessibility_home">Начало</string>
   <string name="accessibility_ime_switch_button">Смяна на метода за въвеждане.</string>
   <string name="accessibility_managed_profile">Служебнен профил</string>
@@ -119,7 +119,7 @@
   <string name="bluetooth_connected_no_map">Свързан (без достъп до съобщения)</string>
   <string name="bluetooth_connecting">Свързване…</string>
   <string name="bluetooth_disable_absolute_volume">Изключване на максималния звук</string>
-  <string name="bluetooth_disable_absolute_volume_summary">Disable absolute volume for Bluetooth in case of volume issues with remote devices, such as unacceptably loud volume or inability to control it.</string>
+  <string name="bluetooth_disable_absolute_volume_summary">Забраняване на Bluetooth максимална сила на звука, за да предотвратите проблеми с дистанционно управлявани устройства.</string>
   <string name="bluetooth_disconnected">Не е свързан</string>
   <string name="bluetooth_disconnecting">Прекъсване…</string>
   <string name="bluetooth_dun_profile_summary_connected">Свързан с DUN Сървър</string>
@@ -184,7 +184,7 @@
   <string name="chooseUsbActivity">Избор на приложение за USB усторйството</string>
   <string name="choose_profile">Изберете профил</string>
   <string name="clear_adb_keys">Отмяна на достъпа до Отстр. USB грешки</string>
-  <string name="click_to_return_multi_window">Click to return Multi Window Mode</string>
+  <string name="click_to_return_multi_window">Чукнете, за да се върнете в режим Разделен екран</string>
   <string name="confirm_enable_oem_unlock_text">ПРЕДУПРЕЖДЕНИЕ: Функциите за защита на устройството няма да работят, докато настройките са включени.</string>
   <string name="confirm_enable_oem_unlock_title">Разрешавате ли Отключване чрез оборудването на производителя?</string>
   <string name="connected_via_passpoint">Свързан чрез %1$s</string>
@@ -225,12 +225,12 @@ If ако включите отново мобилните данни, може 
   <string name="debug_layout_summary">Показване на границите на клипа, полетата и др.</string>
   <string name="debug_monitoring_category">Наблюдение</string>
   <string name="debug_networking_category">Мрежа</string>
-  <string name="debug_view_attributes">Enable viewing attributes</string>
+  <string name="debug_view_attributes">Включете проверката на атрибути</string>
   <string name="demo_mode">Режим Демонстрация</string>
   <string name="description_direction_left">Плъзнете нагоре за %s.</string>
   <string name="description_direction_up">Плъзнете нагоре за %s.</string>
   <string name="description_target_search">Търсене</string>
-  <string name="dev_settings_warning_message">These settings are intended for developers only. Enabling these features may make your device and the apps on it misbehave or cause errors.</string>
+  <string name="dev_settings_warning_message">Само за програмисти. Промяната в тези настройки може да предизвика срив в работата на устройството ви и инсталираните приложения.</string>
   <string name="dev_settings_warning_title">Разрешаване на настройките за програмиране?</string>
   <string name="development_settings_enable">Активирайте Опции на програмиста</string>
   <string name="development_settings_not_available">Настройките за програмиране не са налице за този потребител</string>
@@ -239,7 +239,7 @@ If ако включите отново мобилните данни, може 
   <string name="disable_notification_summary">Никога не показвай известията от това приложение.</string>
   <string name="disable_notification_title">Блокиране на известията</string>
   <string name="disable_overlays">Изкл на хардуерно преизчертаване</string>
-  <string name="disable_overlays_summary">Винаги използвай CPU за изграждане на екрана</string>
+  <string name="disable_overlays_summary">Винаги използвай CPU за рендериране на екрана</string>
   <string name="disabled_by_admin">Деактивирано от администратор</string>
   <string name="disabled_by_admin_summary_text">Контролирано от администратора</string>
   <string name="dismount_storage">Само зареждане</string>
@@ -394,17 +394,6 @@ If ако включите отново мобилните данни, може 
   <string name="picture_color_mode_desc">Използване на sRGB</string>
   <string name="pointer_location">Позициониране на местоположението</string>
   <string name="pointer_location_summary">Показване на информация за докосванията на екрана</string>
-  <string name="power_charging">%1$s - %2$s</string>
-  <string name="power_charging_duration">%1$s - %2$s до завършване</string>
-  <string name="power_charging_duration_ac">%1$s - %2$s до завършване на AC</string>
-  <string name="power_charging_duration_ac_short">%1$s - %2$s</string>
-  <string name="power_charging_duration_short">%1$s - %2$s</string>
-  <string name="power_charging_duration_usb">%1$s - %2$s до завършване чрез USB</string>
-  <string name="power_charging_duration_usb_short">%1$s - %2$s</string>
-  <string name="power_charging_duration_wireless">%1$s - %2$s до завършване чрез безжичн връзка</string>
-  <string name="power_charging_duration_wireless_short">%1$s - %2$s</string>
-  <string name="power_discharging_duration">%1$s - приблизително %2$s е изминало</string>
-  <string name="power_discharging_duration_short">%1$s - %2$s е изминало</string>
   <string name="power_remaining_duration_only">Приблизително %1$s е изминало</string>
   <string name="power_remaining_duration_only_short">%1$s е изминало</string>
   <string name="process_kernel_label">Android операционна система</string>
@@ -417,7 +406,7 @@ If ако включите отново мобилните данни, може 
   <string name="quick_settings_wifi_detail_empty_text">Няма налични Wi-Fi мрежи</string>
   <string name="quick_settings_wifi_label">Wi-Fi</string>
   <string name="quick_settings_wifi_nearby">Изберете мрежа</string>
-  <string name="recent_dock_tip">Click to choose application</string>
+  <string name="recent_dock_tip">Чукнете, за да да изберете приложение</string>
   <string name="recent_task_app_info_text">Информация</string>
   <string name="recent_task_cleaning">Изчистване на прилож…</string>
   <string name="recent_task_lock_text">Заключи</string>
@@ -427,16 +416,16 @@ If ако включите отново мобилните данни, може 
   <string name="recents_drag_hint_message">Изтеглете тук за да използвате разделен екран</string>
   <string name="recents_empty_message">Няма скорошни елементи</string>
   <string name="recents_empty_message_dismissed_all">Вие изчистихте всичко</string>
-  <string name="recents_empty_message_multi_window">Please go home to open an application</string>
-  <string name="recents_exit_multi_window_mode">Exit SplitScreenMode</string>
+  <string name="recents_empty_message_multi_window">Моля, върнете се в началото за да отворите приложението</string>
+  <string name="recents_exit_multi_window_mode">Изход от режим Разделен екран</string>
   <string name="recents_incompatible_app_message">Приложението не поддържа режим разделен екран</string>
   <string name="recents_launch_disabled_message">%s е изключено в режим безопасност.</string>
   <string name="recents_launch_error_message">Не може да се стартира %s.</string>
-  <string name="recents_lock_to_app_button_label">screen pinning</string>
-  <string name="recents_multi_window_mode">SplitScreenMode</string>
-  <string name="recents_multistack_add_stack_dialog_split_custom">Split Custom</string>
-  <string name="recents_multistack_add_stack_dialog_split_horizontal">Split Horizontal</string>
-  <string name="recents_multistack_add_stack_dialog_split_vertical">Split Vertical</string>
+  <string name="recents_lock_to_app_button_label">фиксиране на екрана</string>
+  <string name="recents_multi_window_mode">Режим Разделен екран</string>
+  <string name="recents_multistack_add_stack_dialog_split_custom">Лична настройка</string>
+  <string name="recents_multistack_add_stack_dialog_split_horizontal">Разделен по хоризонтал</string>
+  <string name="recents_multistack_add_stack_dialog_split_vertical">Разделен по вертикал</string>
   <string name="recents_search_bar_label">търсене</string>
   <string name="recents_stack_action_button_label">Изчисти всичко</string>
   <string name="reject_call">Отхвърляне</string>
@@ -466,7 +455,7 @@ If ако включите отново мобилните данни, може 
   <string name="screenshot_dlg_cancel">Отказ</string>
   <string name="screenshot_dlg_delete_button">Изтрий</string>
   <string name="screenshot_edit">Редактиране</string>
-  <string name="screenshot_failed_text">"Can't take screenshot due to limited storage space or the app forbid that."</string>
+  <string name="screenshot_failed_text">Не може да се направи снимка на екрана поради малко място в хранилището или забрана от приложение.</string>
   <string name="screenshot_insert_failed">Не може да се зареди снимката на екрана, моля направете нова или я вижте в албум Снимки на екрана в Галерия</string>
   <string name="screenshot_long_screenshot">Дълга</string>
   <string name="screenshot_saved_text">Докоснете, за да видите екранната снимка.</string>
@@ -477,7 +466,7 @@ If ако включите отново мобилните данни, може 
   <string name="screenshot_send">Изпрати</string>
   <string name="select_application">Изберете приложение</string>
   <string name="select_logd_size_dialog_title">Изберете размер на буфериране за логове</string>
-  <string name="select_logd_size_title">Log buffer sizes</string>
+  <string name="select_logd_size_title">Размер на на буфериране на лога</string>
   <string name="select_usb_configuration_dialog_title">Избор на USB конфигурация</string>
   <string name="select_usb_configuration_title">Избор на USB конфигурация</string>
   <string name="select_webview_provider_dialog_title">Настройка на внедряването на WebView</string>
@@ -495,7 +484,7 @@ If ако включите отново мобилните данни, може 
   <string name="show_demo_mode">Покажи режим Демонстрация</string>
   <string name="show_hw_layers_updates">Показв актуал сл. на хардуера</string>
   <string name="show_hw_layers_updates_summary">Примигв. на слоевете на хардуера в зелено при актуал</string>
-  <string name="show_hw_screen_updates">Показв на CPU начертаване</string>
+  <string name="show_hw_screen_updates">Показв на CPU рендериране</string>
   <string name="show_hw_screen_updates_summary">Примигв на прозорци, в които видеото е рендерирано от CPU</string>
   <string name="show_non_rect_clip">Отстраняване на грешки при неправоъг. изрязване на полета</string>
   <string name="show_screen_updates">Покажи обновяване за повърхността на екрана</string>
@@ -633,7 +622,7 @@ d MMMM"</string>
   <string name="weather_description_no_aqi">%1$s</string>
   <string name="weather_publish_time">Актуализирано %1$s</string>
   <string name="wifi_aggressive_handover">Автом. Wi‑Fi към моб. предаване на данни</string>
-  <string name="wifi_aggressive_handover_summary">When enabled, connection will switch to mobile data more actively, when Wi‑Fi signal is low.</string>
+  <string name="wifi_aggressive_handover_summary">Принудително превключване към мобилна мрежа, ако Wi-Fi сигналът е слаб.</string>
   <string name="wifi_allow_scan_with_traffic">Винаги позволявай сканиране в роуминг за Wi‑Fi</string>
   <string name="wifi_allow_scan_with_traffic_summary">Разрешаване/Забраняване на сканирането в роуминг чрез Wi‑Fi, базирано на реализирания трафик.</string>
   <string name="wifi_connected_no_internet">Свързан, няма интернет</string>
@@ -652,9 +641,11 @@ d MMMM"</string>
   <string name="wifi_security_eap">802.1x EAP</string>
   <string name="wifi_security_none">Няма</string>
   <string name="wifi_security_passpoint">Passpoint</string>
+  <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
   <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
   <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
   <string name="wifi_security_short_eap">802.1x</string>
+  <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
   <string name="wifi_security_short_wep">WEP</string>
   <string name="wifi_security_short_wpa">WPA</string>
   <string name="wifi_security_short_wpa2">WPA2</string>
@@ -664,6 +655,6 @@ d MMMM"</string>
   <string name="wifi_security_wpa2">WPA2 PSK</string>
   <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
   <string name="wifi_verbose_logging">Активирай Wi‑Fi разширено регистр</string>
-  <string name="wifi_verbose_logging_summary">Increase Wi‑Fi logging level, show RSSI for every SSID in the list of Wi‑Finetworks.</string>
+  <string name="wifi_verbose_logging_summary">При избор на Wi‑Fi укажете в в журнала RSSI за всяко SSID.</string>
   <string name="window_animation_scale_title">Скала на анимацията на прозорец</string>
 </resources>

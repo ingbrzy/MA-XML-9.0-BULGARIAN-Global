@@ -25,6 +25,7 @@
   <string name="input_password_after_boot_msg">За да отключите вашето устройство, въведете паролата си</string>
   <string name="input_password_after_boot_msg_can_not_switch_when_calling">Не може да се превключва между пространства по време на обаждане</string>
   <string name="input_password_after_boot_msg_must_enter_owner_space">Трябва да влезете в Основно работно място след рестарт на устройството</string>
+  <string name="input_password_handle_sdcard_fs">进入分身前需要在开发者选项中关闭“模拟SD卡优化”</string>
   <string name="input_password_hint_text">Въведете парола</string>
   <string name="input_pattern_hint_text">Начертайте фигурата си за отключване</string>
   <string name="input_pin_code">Въведи PIN</string>
@@ -86,7 +87,7 @@
   <string name="lockscreen_failed_attempts_now_wiping">Направихте опит да отключите устройството неправилно %d пъти. Сега ще бъдат възстановени стандартните му фабрични настройки.</string>
   <string name="miui_keyguard_ble_unlock_succeed_msg">Отключено с Mi Band</string>
   <string name="open_camera_hint_text">Плъзнете наляво, за да отворите камерата</string>
-  <string name="open_remote_center_hint_text">Swipe right to open mi remote</string>
+  <string name="open_remote_center_hint_text">Плъзнете надясно, за да отворите Mi Дистанционно</string>
   <string name="phone_locked_foget_password">Забравена парола?</string>
   <string name="phone_locked_foget_password_content">"Вие можете да се регистрирате на i.mi.com използвайки Mi Профил, който е свързан с това устройство и да изчистите всички данни. Това ще изтрие всякаква информация, запаметена на устройството. След това вие може да го рестартирате и да възстановите контактите, съобщенията, снимките и други елементи от Mi Облак. 
 

@@ -20,7 +20,7 @@
   <string name="enable_accessibility_dialog_message">Включихте TalkBack, като натиснахте с два пръста екрана за повече от 10 секунди. TalkBack е разработен за слепи хора. Ако сте включили по случайност тази програма, натиснете бутона Отказ и после докоснете два пъти екрана.</string>
   <string name="enable_accessibility_dialog_negative_btn">Отказ</string>
   <string name="enable_accessibility_dialog_positive_btn">OК</string>
-  <string name="fail_to_generate_qr_code">Fail to generate QR code, please reenter this page.</string>
+  <string name="fail_to_generate_qr_code">Неуспешно генериране на QR код, моля влезте в страницата отново.</string>
   <string name="ime_privacy_policy">Правила за поверителност за избраната клавиатура</string>
   <string name="ime_privacy_policy_no_network">Вашият телефон не е свързан с интернет. Вижте информацията на адрес: %s</string>
   <string name="input_method_category">Избиране на метод за въвеждане по подразбиране, който ще използвате при въвеждане на текст в имейли, бележки и др. Запомнете, че можете да си инсталирате клавиатури от трети страни по-късно.</string>
@@ -64,8 +64,8 @@
 
 Вие трябва да се съгласите с потребителското споразумение, преди да използвате MIUI. При активирането Mi услугите, Открий устройството, системен компонент MSA и данни за статистика, ще се свържат към Интернет и ще изискат вашето местоположение."</string>
   <string name="title_fingerprint">Добавете пръстов отпечатък</string>
-  <string name="two_dimensional_code_scan">QR code scan</string>
+  <string name="two_dimensional_code_scan">Сканиране на QR код</string>
   <string name="user_agreement">Потребителско споразумение</string>
-  <string name="user_strayed_warning">The page is designed for factory test, Click back button to exit.</string>
+  <string name="user_strayed_warning">Страницата е проектирана за връщане на фабрични настройки, чукнете бутон Назад за изход.</string>
   <string name="welcome">Добре дошли в</string>
 </resources>

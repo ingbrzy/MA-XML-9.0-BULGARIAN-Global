@@ -88,6 +88,7 @@
   <string name="call_radio">Набери радиотелефон</string>
   <string name="call_record_setting_miui">Настройки за запис</string>
   <string name="call_settings">Настройки</string>
+  <string name="call_settings_primary_user_only">Само основният потребител може да променя настройките за обаждане.</string>
   <string name="call_sim1_description">SIM 1</string>
   <string name="call_sim1_menu_title">Набери чрез SIM 1</string>
   <string name="call_sim2_description">SIM 2</string>
@@ -667,6 +668,7 @@
   <string name="miprofile_contact_header">Контакти с контактни карти</string>
   <string name="miprofile_contact_meaasge">Локални контакти</string>
   <string name="miprofile_contact_verifying">Проверка</string>
+  <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
   <string name="miprofile_edit_title">Редакция на профила</string>
   <string name="miprofile_error_accept_self">Не може да обмените вашата собствена контактна карта</string>
   <string name="miprofile_error_no_miaccount">Впишете се с вашия Mi профил</string>
@@ -862,6 +864,8 @@
   <string name="path_wipe_data">Системни приложения/Контакти/Подреждане на контакти/Изчисти данните</string>
   <string name="payphone">Обществен телефон</string>
   <string name="people">Контакти</string>
+  <string name="percent_sign">%</string>
+  <string name="percentage">%s%%</string>
   <string name="phoneLabelsGroup">Телефон</string>
   <string name="phone_info_divider">" ｜ "</string>
   <string name="phone_number_too_long_toast">Номерът е твърде дълъг</string>
@@ -930,7 +934,7 @@
   <string name="preference_phone_more_title">Разширени настройки на телефон</string>
   <string name="preference_remove_duplicate">Обединяване на дубликати</string>
   <string name="preference_show_yellowpage_tab_description">Затварянето на раздел Жълти страници ще предизвика неправилна работа на приложението</string>
-  <string name="preference_show_yellowpage_tab_title">Показване на раздел Жълти страници</string>
+  <string name="preference_show_yellowpage_tab_title">Показване на Жълти страници</string>
   <string name="preference_simple_mode_description">Показване на снимки и други контактни данни в списъка</string>
   <string name="preference_simple_mode_title">Показване на снимки и данни</string>
   <string name="preference_smart_group_company_summary">Групиране на контакти по информация за фирма</string>
@@ -1172,10 +1176,12 @@
   <string name="type_outgoing">Изходящо обаждане</string>
   <string name="type_voicemail">Гласова поща</string>
   <string name="unable_get_device_id">Неуспешно взимане на IMEI</string>
+  <string name="unfold_all">разгъни всички</string>
   <string name="unknow_phone_number_call_failed">Не може да се обадите на неизвестен номер</string>
   <string name="unknow_phone_number_mms_failed">Не може да изпратите съобщ. до неизвестен номер</string>
   <string name="unknown">Неизвестно</string>
   <string name="unknown_contact_name">Неизвестен контакт</string>
+  <string name="unknown_details_new_contact">Нов контакт</string>
   <string name="update_sim_contact_photo_toast">Не може да се задават профилни снимки на контакти от SIM-картата</string>
   <string name="upgrade_in_progress">Списъкът с контакти се обновява...</string>
   <string name="upgrade_out_of_memory">"Контактите са в процес на обновяване. 

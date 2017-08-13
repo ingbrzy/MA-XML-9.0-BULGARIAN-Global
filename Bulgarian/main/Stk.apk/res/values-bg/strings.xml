@@ -7,12 +7,12 @@
   <string name="button_ok">OК</string>
   <string name="button_yes">Да</string>
   <string name="default_call_setup_msg">Повикване…</string>
-  <string name="default_close_channel_msg">Channel Closed</string>
-  <string name="default_open_channel_msg">Open Channel?</string>
-  <string name="default_receive_data_msg">Receiving Data</string>
-  <string name="default_send_data_msg">Sending Data</string>
-  <string name="default_setup_call_msg">Call being setup</string>
-  <string name="default_tone_dialog_msg">Playing Tone</string>
+  <string name="default_close_channel_msg">Каналът е затворен</string>
+  <string name="default_open_channel_msg">Отваряне на канала?</string>
+  <string name="default_receive_data_msg">Получаване на данни</string>
+  <string name="default_send_data_msg">Изпращане на данни</string>
+  <string name="default_setup_call_msg">Настройки на изчакващо повикване</string>
+  <string name="default_tone_dialog_msg">Тон на позвъняване</string>
   <string name="digits">Знаци (0-9, *, #, +)</string>
   <string name="disable_app">Изключено</string>
   <string name="enable_app">Включено</string>
@@ -28,6 +28,6 @@
   <string name="stk_dialog_accept">Да</string>
   <string name="stk_dialog_reject">Не</string>
   <string name="stk_dialog_title">Инструменти на SIM картата</string>
-  <string name="stk_intent_permission">Allow STK Intents</string>
+  <string name="stk_intent_permission">Позволяване на STK</string>
   <string name="stk_no_service">Услугата не е достъпна</string>
 </resources>

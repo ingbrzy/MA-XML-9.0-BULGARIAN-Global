@@ -197,7 +197,7 @@
   <string name="cloud_guide_welcome_title">Mi Cloud</string>
   <string name="cloud_screenshots_display_name">Екранни снимки</string>
   <string name="cloud_settings">Резервно копие на Галерия</string>
-  <string name="cloud_storage_extend">Extend cloud space</string>
+  <string name="cloud_storage_extend">Разширено място в Mi Облак</string>
   <string name="cloud_storage_ok_append_desc">Достъпни: %s</string>
   <string name="cloud_storage_ok_desc">Мястото в облака е %s</string>
   <string name="cloud_storage_ok_title">Достатъчно място в Mi Cloud</string>
@@ -551,12 +551,13 @@
   <string name="other_album">Други албуми</string>
   <string name="other_settings">Допълнителни настройки</string>
   <string name="owner_album_subtitle">Споделено с %1$s потребители</string>
-  <string name="people_album_empty_title">Photos can be sorted by people in them</string>
+  <string name="people_album_empty_title">Снимките могат да бъдат сортирани по хората, които са на тях</string>
   <string name="people_jump_failed">Изчакайте, докато снимките с хора се синхронизират с Mi Облак и опитайте отново</string>
   <string name="people_mark_mode_title">Изберете \"%s\"</string>
   <string name="people_mark_mode_title_no_mark_name">Изберете човек</string>
   <string name="people_page_label">Лице</string>
   <string name="people_page_unname">Неизвестно</string>
+  <string name="percent_sign">%</string>
   <string name="pet_album_display_name">Домашни любимци</string>
   <string name="petabyteShort">ПБ</string>
   <string name="photo">Снимка</string>
@@ -676,6 +677,8 @@
   <string name="search_title_recommend">Препоръчвани</string>
   <string name="search_title_suggestion">Предложения</string>
   <string name="search_title_tag">Обекти</string>
+  <string name="search_transition_element_icon">search_icon</string>
+  <string name="search_transition_element_input">search_input</string>
   <string name="secret_album_card_description">Най-доброто място за всички ваши малки тайни</string>
   <string name="secret_album_card_title">Изпробвайте скрития албум</string>
   <string name="secret_album_display_name">Скрит албум</string>
@@ -764,7 +767,7 @@
   <string name="text_append_hint">Въведете текст</string>
   <string name="text_append_style">Балони</string>
   <string name="text_append_transparent">Непрозрачност</string>
-  <string name="things_album_empty_title">Photos can be sorted by objects in them</string>
+  <string name="things_album_empty_title">Снимките могат да бъдат сортирани по обектите, които са на тях</string>
   <string name="tip_capture_location">Локация:</string>
   <string name="tip_capture_params">EXIF данни:</string>
   <string name="tip_capture_time">Заснето на:</string>
@@ -862,6 +865,7 @@
   <string name="view_by_gallery_tip">MIUI Галерия</string>
   <string name="view_face_album">Покажи албума</string>
   <string name="view_queuing_status">Проверка на статуса</string>
+  <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
   <string name="welcome_to_micloud">Добре дошли в Mi Cloud.</string>
   <string name="welcome_to_slim">Добре дошли в умаления албум.</string>
   <string name="where_is_barcode">Къде е QR кода?</string>

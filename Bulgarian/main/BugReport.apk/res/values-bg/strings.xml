@@ -8,7 +8,7 @@
   <string name="app_name">Обратна връзка</string>
   <string name="btn_send">Изпрати</string>
   <string name="bugreport_dialog_not_show_again">Не показвай отново</string>
-  <string name="bugreport_dialog_submit_content">Твоят отзив може да съдържа поверителна информация.</string>
+  <string name="bugreport_dialog_submit_content">Вашият отзив може да съдържа лична информация и местоположението ви.</string>
   <string name="bugreport_dump_complete_notification_summary">Чукнете за преглед.</string>
   <string name="bugreport_dump_complete_notification_title">Докладът е създаден</string>
   <string name="bugreport_dump_start_notification_summary">Отнема около минута.</string>
@@ -254,7 +254,7 @@
   <string name="section_screenshot">Екранна снимка</string>
   <string name="submit_dialog_cancel">Отказ</string>
   <string name="submit_dialog_confirm">Изпрати</string>
-  <string name="submit_dialog_content">Вашият отзив с прикачените файлове и записи ще бъде изпратен на сървърите на MIUI. Може да съдържа поверителна информация.</string>
+  <string name="submit_dialog_content">Вашият отзив с прикачените файлове и записи ще бъде изпратен на сървърите на MIUI. Може да съдържа лична информация и вашето местоположение.</string>
   <string name="submit_dialog_title">Изпращане на доклад до Mi</string>
   <string name="submit_feedback_info_failed">Не може да се изпрати доклад</string>
   <string name="suggestion_description">Надявам се да добавите функцията Х, защото…</string>

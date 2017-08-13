@@ -80,7 +80,7 @@
         <item></item>
     </string-array>
     <string-array name="thermal_entries">
-        <item>Default warm control mode</item>
+        <item>Контрол на температурата по подразбиране</item>
         <item>Активен е режим \"Производителност\"</item>
     </string-array>
     <string-array name="thermal_summaries">

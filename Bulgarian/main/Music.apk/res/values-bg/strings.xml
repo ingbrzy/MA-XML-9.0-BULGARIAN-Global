@@ -72,7 +72,7 @@
   <string name="asset_sync_network_unavailable_alert_title">Не може да се свърже с мрежата</string>
   <string name="asset_sync_power_alert_message">Свържете зарядното устройство за да архивирате песни.</string>
   <string name="asset_sync_power_alert_title">Слаба батерия</string>
-  <string name="atmd_music">Ultimate</string>
+  <string name="atmd_music">Максимално</string>
   <string name="audio_picker_title">Изберете песен</string>
   <string name="auth_activity_title">Xunlei Профил</string>
   <string name="auto_download_in_wifi">Няма интернет връзка</string>
@@ -826,8 +826,8 @@
   <string name="talkback_mode_repeat_shuffle">Режим повторение на случайни</string>
   <string name="talkback_more">Още менюта</string>
   <string name="talkback_next">Следваща песен</string>
-  <string name="talkback_nowplaying_bar">Play Bar</string>
-  <string name="talkback_nowplaying_circle">Play Circle</string>
+  <string name="talkback_nowplaying_bar">Възпроизв. бар</string>
+  <string name="talkback_nowplaying_circle">Възпроизвеждане в кръг</string>
   <string name="talkback_play">Пусни/пауза</string>
   <string name="talkback_pre">Предишна песен</string>
   <string name="talkback_progress">Лентов индикатор</string>

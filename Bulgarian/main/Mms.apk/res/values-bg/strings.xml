@@ -248,7 +248,7 @@
   <string name="message_number">Тел. номер:</string>
   <string name="message_pending">Изпращане...</string>
   <string name="message_queued">В момента не можете да изпратите съобщението. Ще бъде изпратено след като услугата е достъпна.</string>
-  <string name="message_queued_second_space">"Can't send your message right now. Please open data network."</string>
+  <string name="message_queued_second_space">Не може да се изпрати съобщението. Моля, включете данните на мрежата.</string>
   <string name="message_readed">Прочетено</string>
   <string name="message_received">Доставено</string>
   <string name="message_rejected">Отхвърлено</string>
