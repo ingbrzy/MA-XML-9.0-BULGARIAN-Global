@@ -14,9 +14,7 @@
   <string name="dialog_data_limit_button1">Изчакване за Wi-Fi връзка</string>
   <string name="dialog_data_limit_button2">Изтегли сега</string>
   <string name="dialog_data_limit_msg1">%s от мобилните данни ще бъдат използвани за да се изтегли този файл. Да се изтегли ли сега?</string>
-  <string name="dialog_data_limit_msg2">@string/dialog_tip_limit</string>
   <string name="dialog_data_limit_msg3">Промяна на лимита</string>
-  <string name="dialog_data_limit_sel_title">@string/dialog_tip_limit</string>
   <string name="dialog_data_limit_title">Предупреждение за използв. на данни</string>
   <string name="dialog_insufficient_space_on_cache">Няма достатъчно място във вътрешното хранилище за изтегляния</string>
   <string name="dialog_insufficient_space_on_external">Няма достатъчно място във външното хранилище</string>
