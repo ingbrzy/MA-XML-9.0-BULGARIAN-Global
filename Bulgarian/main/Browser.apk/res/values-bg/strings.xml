@@ -167,6 +167,7 @@
   <string name="color_picker_dialog_title">Изберете цвят</string>
   <string name="color_picker_hue">Оттенък</string>
   <string name="color_picker_saturation">Наситеност</string>
+  <string name="color_picker_value">Стойност</string>
   <string name="comment_app_menu">Коментар</string>
   <string name="comment_description">Коментар</string>
   <string name="comment_hint">Коментар</string>
@@ -478,6 +479,8 @@
   <string name="miuichromium_error_page_suggestion_check_wifi_proxy" formatted="false">(WiFi) Проверете вашите %s1настройки на прокси%s2.</string>
   <string name="miuichromium_error_page_suggestion_clear_cache" formatted="false">Почистете кеша (%s1Настройки%s2 - Изчисти данни).</string>
   <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies" formatted="false">Почистете кеша и бисквитките (%s1Настройки%s2 - Изчистване на данни, вашата информация може бъде загубена).</string>
+  <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies_no_invoke">Изчисти кеша и бисквитките (вашата информация за профила може да бъде изтрита).</string>
+  <string name="miuichromium_error_page_suggestion_clear_cache_no_invoke">Изчисти кеша.</string>
   <string name="miuichromium_error_page_suggestion_connect_and_retry">Презаредете отново, след като се свържете с интернет</string>
   <string name="miuichromium_error_page_suggestion_contact_admin">Свържете се с вашия системен администратор.</string>
   <string name="miuichromium_error_page_suggestion_correct_url">Проверете адреса, който сте въвели и опитайте отново, използвайки правилен URL.</string>
@@ -657,6 +660,7 @@
   <string name="pull_to_refresh_pull_label">Дръпнете за опресняване…</string>
   <string name="pull_to_refresh_release_label">Отпуснете за опресняване</string>
   <string name="qr_code_title">QR код</string>
+  <string name="qr_description">Сканиране на QR код</string>
   <string name="quicklink_bookmark_save">Запиши в</string>
   <string name="quicklink_cannot_save_url">Този адрес не може да се добави.</string>
   <string name="quicklink_folder_text">Топ Приложения</string>
@@ -755,8 +759,8 @@
   <string name="send_comment_title">Коментар</string>
   <string name="senddesktop">Desktop</string>
   <string name="sendstartpage">Startpage</string>
-  <string name="share_image_text">Вижте какво намерих!</string>
-  <string name="share_page_text">Вижте какво намерих: %1$s | %2$s</string>
+  <string name="share_image_text">Вижте какво споделих! @MIUI</string>
+  <string name="share_page_text">Вижте какво споделих: %1$s @MIUI| %2$s</string>
   <string name="show_check_security_url_check_tip_dialog_description">Браузър трябва да се свърже с интернет, за да работи нормално. За да подобрите сигурността, получите още необходими препоръки и доставчици на услуги за времето, разрешете на Браузър да вземе уеб-адресите, които сте посещавали и достъп до вашето местоположение.</string>
   <string name="show_check_security_url_check_tip_dialog_description_international">Браузър се нуждае от достъп до интернет, за да работи нормално. За да подобрите сигурността, получите още необходими препоръки и доставчици на услуги за времето, разрешете на Браузър да вземе уеб-адресите, които сте посещавали и достъп до вашето местоположение.</string>
   <string name="show_security_tip_dialog_title">Условия на ползване</string>
@@ -766,12 +770,13 @@
   <string name="skip_current_version">Пропусни тази версия</string>
   <string name="snapshot">Локално</string>
   <string name="snapshot_failed">Неуспешно запазване на страницата</string>
-  <string name="snapshot_successed">Страницата е запазена успешно</string>
+  <string name="snapshot_successed">Отваряне на Отметки/Хронология-&gt;LOCAL за да видите страницата</string>
   <string name="ssl_bad_clock_date_settings">Задаване на дата</string>
   <string name="ssl_bad_clock_warning" formatted="false">Не може да се създаде сигурна връзка към %s1 защото датата и часа на вашето устройство (%s2) са грешни.</string>
   <string name="ssl_certificate">Сертификат за сигурност</string>
   <string name="ssl_certificate_is_valid">Този сертификат е валиден.</string>
   <string name="ssl_continue">Продължи</string>
+  <string name="ssl_date_error_warnings_header">Сертификатът на тази страница не е валиден или е изтекъл. Съветваме ви да затворите страницата. \"</string>
   <string name="ssl_date_invalid">Този сертификат е с невалидна дата.</string>
   <string name="ssl_expired">Този сертификат е изтекъл.</string>
   <string name="ssl_go_back">Назад</string>
@@ -904,6 +909,7 @@
   <string name="view_document_downloaded_files">Преглед на изтеглянията</string>
   <string name="voice_check_network">Проверете мрежовите настройки и опитайте отново.</string>
   <string name="voice_connect_network">Не можах да се свържа с мрежа.</string>
+  <string name="voice_description">Гласово търсене</string>
   <string name="voice_network_connection">Услугата Гласово търсене се нуждае от връзка с интернет, за да работи нормално.</string>
   <string name="voice_search_permission">Услугата Гласово търсене се нуждае от достъп до Микрофон, за да работи нормално.</string>
   <string name="voice_semantic_analysis">Браузърът ще анализира значението, след като се свържете.</string>

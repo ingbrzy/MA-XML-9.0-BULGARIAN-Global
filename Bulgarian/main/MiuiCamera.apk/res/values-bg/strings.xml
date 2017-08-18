@@ -105,6 +105,7 @@
   <string name="pref_camera_autoexposure_entry_frameaverage">Средно по кадри</string>
   <string name="pref_camera_autoexposure_entry_spotmetering">Точка</string>
   <string name="pref_camera_autoexposure_title">Изберете режим на експониране</string>
+  <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
   <string name="pref_camera_beautify_entry_high">Високо</string>
   <string name="pref_camera_beautify_entry_low">Ниско</string>
   <string name="pref_camera_beautify_entry_normal">Средно</string>
@@ -229,6 +230,7 @@
   <string name="pref_camera_picturesize_entry_4208x3120">13M(4208x3120)</string>
   <string name="pref_camera_picturesize_entry_fullscreen">Широкоекранно 16:9</string>
   <string name="pref_camera_picturesize_entry_standard">Стандартно 4:3</string>
+  <string name="pref_camera_picturesize_entry_widescreen">@string/pref_camera_picturesize_entry_fullscreen</string>
   <string name="pref_camera_picturesize_title_simple_mode">Размер на снимка</string>
   <string name="pref_camera_portrait_mode_entry_off">Режим Портрет е изключен</string>
   <string name="pref_camera_portrait_mode_entry_on">Режим Портрет е включен</string>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="account_info">Моят профил</string>
+  <string name="account_info">Аз</string>
   <string name="account_name_not_login">Вписване</string>
   <string name="account_unactivated">Профилът не е активиран</string>
   <string name="ad_app_download_start">Стартиране на изтегляне…</string>
@@ -24,6 +24,11 @@
   <string name="both_all_apply_failured">Тапетът не може да се приложи</string>
   <string name="both_all_apply_success">Тапетът е приложен успешно</string>
   <string name="browser_local_resource">Съхранени на устройството</string>
+  <string name="can_not_apply">Не може да се приложи</string>
+  <string name="card_data_request_error">Заявката за мобилни данни изтече, моля опитайте отново по-късно</string>
+  <string name="card_loading">Зареждане...</string>
+  <string name="card_no_network">Няма мрежа, моля, свържете се и опитайте отново</string>
+  <string name="card_retry">Повторно</string>
   <string name="change_host_hint">Смяна на host</string>
   <string name="change_wallpaper">Смяна на тапета</string>
   <string name="close">Затвори</string>
@@ -52,6 +57,7 @@
   <string name="fail_to_add_account">Неуспешно добавяне на профил</string>
   <string name="favorite_list">Любими</string>
   <string name="favorite_list_format">Любими %1$s</string>
+  <string name="find_more_wallpapers">Намери още</string>
   <string name="gift_anonymous">Анонимно</string>
   <string name="gift_operation_fail_dlg_abandon">Отказ</string>
   <string name="gift_operation_fail_dlg_retry">Нов опит</string>
@@ -86,14 +92,21 @@
   <string name="gift_used">Изпратено</string>
   <string name="home_apply_failured">Тапетът не може да се приложи</string>
   <string name="home_apply_success">Тапетът на начален екран е приложен</string>
-  <string name="incompatible_dialog_message">Тази тема не е напълно съвместима с MIUI 8. Някои елементи може да не се виждат коректно.</string>
+  <string name="in_the_end">Няма повече</string>
+  <string name="incompatible_dialog_message">Тази тема не е напълно съвместима с MIUI 9. Някои елементи може да не се показват правилно.</string>
   <string name="incompatible_dialog_ok">Разбрах</string>
   <string name="incompatible_dialog_title">Грешка при съвместимостта</string>
   <string name="is_setting_wallpaper_message">Тапетът се задава…</string>
+  <string name="item_resource_audio_divider">│</string>
+  <string name="item_resource_audio_optional_alarm_ring">звънене на будилника</string>
+  <string name="item_resource_audio_optional_color_ring">пъстро звънене</string>
+  <string name="item_resource_audio_optional_notification_ring">мелодия за уведомление</string>
+  <string name="item_resource_audio_optional_phone_ring">телефонно звънене</string>
   <string name="live_wallpaper">Динамични тапети</string>
   <string name="loading">Зареждане...</string>
   <string name="loading_resource_detail_fail">Неуспешно зареждане на детайли!</string>
   <string name="loading_resource_detail_info">Зареждане...</string>
+  <string name="local_photos">Локални снимки</string>
   <string name="local_resouce_creator_name">Автор: %1$s</string>
   <string name="lockscreen_apply_failured">Тапетът не може да се приложи</string>
   <string name="lockscreen_apply_failured_but_home_apply_success">Тапетът е приложен за начален екран, но не може да се използва за заключен екран.</string>
@@ -128,6 +141,7 @@
   <string name="purchased_list">Закупени теми</string>
   <string name="purchased_list_current">MIUI 8</string>
   <string name="purchased_list_legacy">Изтеглени теми</string>
+  <string name="recently_used">Последно използвани</string>
   <string name="reload">Опитайте отново</string>
   <string name="resource_account_abnormal_state">Грешка в профила. Опитайте отново по-късно.</string>
   <string name="resource_account_fail_to_add">Неуспешно добавяне на профил!</string>
@@ -265,6 +279,10 @@
   <string name="resource_ranking">Популярни</string>
   <string name="resource_ranking_free">Безплатни</string>
   <string name="resource_ranking_purchase">Платени</string>
+  <string name="resource_ring_ranking_list_divider">-</string>
+  <string name="resource_ring_ranking_list_rank_1">1</string>
+  <string name="resource_ring_ranking_list_rank_2">2</string>
+  <string name="resource_ring_ranking_list_rank_3">3</string>
   <string name="resource_ringtone_default">Мелодии</string>
   <string name="resource_ringtone_playing_error">грешка при възпроизвеждане</string>
   <string name="resource_ringtone_volume_mute">Звъненето е заглушено</string>
@@ -320,11 +338,13 @@
   <string name="resource_user_know">OK</string>
   <string name="resource_waiting_download">Изчакване...</string>
   <string name="resource_waiting_pause">Пауза</string>
+  <string name="ringtone_set_success">Успешно настроено</string>
   <string name="sdcard_not_mounted_dialog_message">\"Поставете SD карта. \"</string>
   <string name="sdcard_not_mounted_dialog_title">Не е открита SD карта</string>
   <string name="search_hint_header_text">Горещи думи</string>
   <string name="selected_resource_file_invalid">Избраният файл не може да се използва</string>
   <string name="settings">Настройки</string>
+  <string name="system_precust">Предварителна обработка</string>
   <string name="the_picture_is_not_support">Форматът не се поддържа</string>
   <string name="the_picture_is_too_small">Изображението е прекалено малко</string>
   <string name="theme_apply_audio_dialog_item_alarm">Аларма</string>
@@ -397,7 +417,7 @@
   <string name="theme_user_agreement_content3">" и "</string>
   <string name="theme_user_agreement_content4">Политика на поверителност</string>
   <string name="theme_user_agreement_content5">.</string>
-  <string name="theme_user_agreement_exit">Изход</string>
+  <string name="theme_user_agreement_exit">Несъгласие</string>
   <string name="theme_user_agreement_remind_again">Показване на известие за усл. на ползване</string>
   <string name="theme_user_agreement_remind_never">Не показвай отново</string>
   <string name="theme_user_agreement_remind_summary">Показване на известие за условията на ползване. Настройката се активира след рестартиране на устройството.</string>
@@ -414,7 +434,7 @@
   <string name="uid_change_dialog_message">Вие изтрихте актуализациите. Рестартирайте устройството, за да може да използвате темите.</string>
   <string name="uid_change_dialog_ok">Разбрах</string>
   <string name="uid_change_dialog_title">Рестартирай устройството</string>
-  <string name="wallpaper_auto_change_title">Заключен екран</string>
+  <string name="wallpaper_apply">Приложи</string>
   <string name="wallpaper_crop">Подрежи</string>
   <string name="wallpaper_decoded_error">Тапетът не може да се зареди</string>
   <string name="wallpaper_scroll_type_tips">Сменящи се тапети</string>
@@ -422,8 +442,8 @@
   <string name="wallpaper_set_as_destop">Начален екран</string>
   <string name="wallpaper_set_as_lockscreen">Задай за заключен екран</string>
   <string name="wallpaper_settings">Настройки на тапетите</string>
-  <string name="wallpaper_settings_change_wallpaper">Смени</string>
-  <string name="wallpaper_settings_desktop_text">Начален екран</string>
-  <string name="wallpaper_settings_lockscreen_text">Заключен екран</string>
+  <string name="wallpaper_settings_loading_text">Зареждане</string>
+  <string name="wallpaper_settings_no_history">Няма хронология</string>
+  <string name="wallpaper_settings_pad_more_page_title">Още тапети</string>
   <string name="wallpaper_settings_page_title">Тапети</string>
 </resources>

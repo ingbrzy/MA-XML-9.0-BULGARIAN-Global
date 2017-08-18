@@ -251,6 +251,7 @@ If ако включите отново мобилните данни, може 
   <string name="dlg_error_title">Операцията през USB не бе успешна</string>
   <string name="dlg_ok">ОК</string>
   <string name="dock_forced_resizable">Приложението може да не работи в режим разделен екран.</string>
+  <string name="dock_keyguard_locked_failed_to_dock_text">Защитата на клавиатурата не поддържа режим Много прозорци, излезте от този режим сега.</string>
   <string name="dock_non_resizeble_failed_to_dock_text">Приложението не поддържа режим разделен екран</string>
   <string name="drive_mode_tip">Режим шофиране е активиран - Шофирайте внимателно</string>
   <string name="enable_adb">Отстр. USB грешки</string>
@@ -641,9 +642,11 @@ d MMMM"</string>
   <string name="wifi_security_eap">802.1x EAP</string>
   <string name="wifi_security_none">Няма</string>
   <string name="wifi_security_passpoint">Passpoint</string>
+  <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
   <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
   <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
   <string name="wifi_security_short_eap">802.1x</string>
+  <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
   <string name="wifi_security_short_wep">WEP</string>
   <string name="wifi_security_short_wpa">WPA</string>
   <string name="wifi_security_short_wpa2">WPA2</string>

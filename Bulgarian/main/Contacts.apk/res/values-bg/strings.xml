@@ -668,6 +668,7 @@
   <string name="miprofile_contact_header">Контакти с контактни карти</string>
   <string name="miprofile_contact_meaasge">Локални контакти</string>
   <string name="miprofile_contact_verifying">Проверка</string>
+  <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
   <string name="miprofile_edit_title">Редакция на профила</string>
   <string name="miprofile_error_accept_self">Не може да обмените вашата собствена контактна карта</string>
   <string name="miprofile_error_no_miaccount">Впишете се с вашия Mi профил</string>
@@ -863,6 +864,8 @@
   <string name="path_wipe_data">Системни приложения/Контакти/Подреждане на контакти/Изчисти данните</string>
   <string name="payphone">Обществен телефон</string>
   <string name="people">Контакти</string>
+  <string name="percent_sign">%</string>
+  <string name="percentage">%s%%</string>
   <string name="phoneLabelsGroup">Телефон</string>
   <string name="phone_info_divider">" ｜ "</string>
   <string name="phone_number_too_long_toast">Номерът е твърде дълъг</string>
@@ -1142,6 +1145,10 @@
   <string name="strequentList">Любими</string>
   <string name="success_message_import_from_account">Успешно импортиране</string>
   <string name="summary_kind_title">Инфо:</string>
+  <string name="t9_search_empty_create_contact">Нов контакт</string>
+  <string name="t9_search_empty_edit_contact">Добави към контакт</string>
+  <string name="t9_search_empty_send_sms">Изпрати съобщение</string>
+  <string name="t9_search_empty_video_call">Видео разговор</string>
   <string name="t9_search_guide_pinyin_title1">Бързо търсене на контакти по букви</string>
   <string name="t9_search_guide_pinyin_title2">Въведете \"8\" и \"8\" за търсене на \"&lt;font fgcolor=""&gt;&amp;#1044;&lt;/font&gt;&amp;#1080;&amp;#1084;&amp;#1086; &lt;font fgcolor=""&gt;&amp;#1043;&lt;/font&gt;&amp;#1102;&amp;#1076;&amp;#1078;&amp;#1077;&amp;#1085;&amp;#1086;&amp;#1074;\"</string>
   <string name="t9_search_guide_zhuyin_title1">Бързо търсене на контакти по букви</string>

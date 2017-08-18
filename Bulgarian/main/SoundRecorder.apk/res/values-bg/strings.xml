@@ -38,7 +38,7 @@
   <string name="error_filename_too_long">Името на файла е твърде дълго</string>
   <string name="error_sdcard_access">Няма достъп до външното или вътрешното място за съхранение</string>
   <string name="error_sdcard_unmounted">SD картата е демонтирана, моля поставете SD карта</string>
-  <string name="export_to_note">Експортирай към бележки</string>
+  <string name="export_to_note">Експорт</string>
   <string name="head_set_tip_dialog_msg">Разкачете слушалките си, за да можете да запишете звуци със специфично съдържание (напр. Музика, Гласове).</string>
   <string name="head_set_tip_dialog_ok">Направено</string>
   <string name="head_set_tip_dialog_title">Използвай вградения микрофон</string>

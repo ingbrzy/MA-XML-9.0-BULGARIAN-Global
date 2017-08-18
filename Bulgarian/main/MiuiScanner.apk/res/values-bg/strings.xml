@@ -44,6 +44,7 @@
   <string name="document_ocr_result_title">Снимка на документа</string>
   <string name="document_ocr_tip_msg">Разпознаване…</string>
   <string name="document_recognize_fail_tip">Не може да се разпознае документ</string>
+  <string name="document_recognize_null_tip">Няма файлове тип Документи</string>
   <string name="document_rectify">Коригиране</string>
   <string name="document_rectify_tip_msg">Коригира се…</string>
   <string name="document_save_succeed_tip">Документът е запазен в %1$s</string>

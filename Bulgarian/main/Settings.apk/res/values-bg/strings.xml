@@ -2084,9 +2084,9 @@
   <string name="lock_screen_notifications_interstitial_title_profile">Известия от потр. профил</string>
   <string name="lock_screen_notifications_summary_disable">Да не се показват известията</string>
   <string name="lock_screen_notifications_summary_disable_profile">Без показване на служебните известия</string>
-  <string name="lock_screen_notifications_summary_hide">Скриване на деликатното съдържание в известията</string>
+  <string name="lock_screen_notifications_summary_hide">Покажи всички уведомления, но скрий тяхното съдържание</string>
   <string name="lock_screen_notifications_summary_hide_profile">Скриване на деликатното съдърж. на служ. известия</string>
-  <string name="lock_screen_notifications_summary_show">Цялото съдържание от известията</string>
+  <string name="lock_screen_notifications_summary_show">Покажи всички уведомления и тяхното съдържание</string>
   <string name="lock_screen_notifications_summary_show_profile">Показване на цялото съдържание на служ. известия</string>
   <string name="lock_screen_notifications_title">Върху заключения екран</string>
   <string name="lock_screen_secure_after_timeout_immediately_summary">Изисква се незабавно парола.</string>
@@ -2211,6 +2211,7 @@
   <string name="lockscreen_glogin_checking_password">Проверка…</string>
   <string name="lockscreen_glogin_password_hint">Парола</string>
   <string name="lockscreen_glogin_submit_button">Вход</string>
+  <string name="lockscreen_magazine">Сменящи се тапети</string>
   <string name="lockscreen_magazine_title">Сменящи се тапети</string>
   <string name="lockscreen_remote_input">Предотвратяване на въвеждането на отговори или друг текст в известията, когато устройството е заключено</string>
   <string name="login_account_dialog_message">Впишете се с вашия Mi профил, за да включите синхронизацията с Mi Cloud.</string>
@@ -2224,6 +2225,7 @@
   <string name="man_add_application">Добави приложения за авт. стартиране</string>
   <string name="manage_device_admin">Администратори на устройството</string>
   <string name="manage_device_admin_summary">Преглед или деактивиране на администраторите на устройството</string>
+  <string name="manage_fakecell_settings">Защита от фалшиви базови станции</string>
   <string name="manage_fingerprint_text">Управление на пръстовите отпечатъци</string>
   <string name="manage_mobile_plan_title">Мобилен план</string>
   <string name="manage_notification_access_summary_zero">Приложенията не могат да четат известията</string>
@@ -2567,6 +2569,8 @@
   <string name="no_updates_warning2">Спокойно, ще ви известим ако има актуализация.</string>
   <string name="no_vr_listeners">Никое инсталирано приложение не е заявило да се изпълнява като помощна услуга за виртуална реалност.</string>
   <string name="noise_suppression">Потискане на шума</string>
+  <string name="normal">Нормално</string>
+  <string name="normal_info">Цялата сила на звука е нормална</string>
   <string name="normal_smartcover_title">Непрозрачен преден капак</string>
   <string name="not_battery_optimizing">Оптимизирането на батерията не се използва</string>
   <string name="not_installed">Не е инсталир. за потребителя</string>
@@ -2908,6 +2912,7 @@
   <string name="privacy_factory_reset_dlg_title">Архивирайте вашите данни</string>
   <string name="privacy_file">Файлове</string>
   <string name="privacy_gallery">Снимки</string>
+  <string name="privacy_header_text_less_than_half">Много малко място за това приложение. Преместете разделителя по-нататък.</string>
   <string name="privacy_mms">Съобщения</string>
   <string name="privacy_mode_dialog_message">Обаждания, бележки, снимки, съобщения и настройки на лаунчера ще бъдат скрити от потребителя</string>
   <string name="privacy_mode_dialog_title">Режим Гост</string>
@@ -3100,7 +3105,6 @@
   <string name="remove_managed_profile_label">Премахв. на служебния потр. профил</string>
   <string name="repeat">Повторение</string>
   <string name="repeat_call">Повтарящо се напомняне за обаждане</string>
-  <string name="repeat_call_info">В Тих режим, ако от един абонат има две повиквания за 15 минути, се разрешава изскачащо известие</string>
   <string name="repeat_title">Повтаряне</string>
   <string name="reset_aaid">Нулирай идентификатора на реклами</string>
   <string name="reset_app_preferences">Нулиране</string>
@@ -3710,10 +3714,11 @@
   <string name="shut_down_find_device_network_failure_content">Открий устройството не може да се изключи. Уверете се, че сте свързани кън интернет.</string>
   <string name="shut_down_find_device_network_failure_title">Няма връзка с мрежата</string>
   <string name="shuting_down_find_device">Включва се Открий устройството…</string>
+  <string name="silent_duration">Продължителност</string>
   <string name="silent_mode">Тих режим</string>
   <string name="silent_mode_title">Тих режим</string>
   <string name="silent_off">Изключи</string>
-  <string name="silent_settings">Тих режим</string>
+  <string name="silent_settings">Без звук/Не безпокойте</string>
   <string name="silent_standard">Без звук</string>
   <string name="silent_time">Времетраене на Тих режим</string>
   <string name="silent_total">Режим Не безпокойте</string>
@@ -3889,6 +3894,8 @@
   <string name="status_bar_settings_style">Известия и подредба на превключвателите</string>
   <string name="status_bar_settings_toggle_collapse_after_clicked">Свиване при докосване</string>
   <string name="status_bar_settings_toggle_position">Позиция на превключвателите</string>
+  <string name="status_bar_settings_user_fold">Папка с уведомления</string>
+  <string name="status_bar_settings_user_fold_summary">Всички маловажни известия ще бъдат показвани в отделна папка</string>
   <string name="status_bar_style_list">Комбинирано</string>
   <string name="status_bar_style_page">Разделено</string>
   <string name="status_bt_address">Адрес на Bluetooth</string>
@@ -4230,6 +4237,13 @@
   <string name="turn_off_keyguard_password_with_fingerprint_confirm_msg_delete">След като изключите паролата за Заключен екран, записаните пръстови отпечатъци ще бъдат изтрити. Вие няма да можете да отключвате вашето устройство, използвайки пръстов отпечатък.</string>
   <string name="turn_off_security_lock">Деактивирай заключването</string>
   <string name="turn_on_keyguard_password">Включете паролата за Закл. екран</string>
+  <string name="turn_on_keyguard_password_alert">Запомнете вашата парола. Ако я забравите, няма да можете да я възстановите.</string>
+  <string name="turn_on_keyguard_password_alert_choose">Запомнете вашата парола. Ако я забравите, ще трябва да изтриете всички данни от вашето устройство, преди да зададете нова.</string>
+  <string name="turn_on_keyguard_password_alert_foget_cacel">Не сега</string>
+  <string name="turn_on_keyguard_password_alert_foget_ok">Разбрах</string>
+  <string name="turn_on_keyguard_password_alert_foget_ok_time">Разбрах(%dсек)</string>
+  <string name="turn_on_keyguard_password_alert_forget_content">Запомнете вашата парола за Заключен екран. Ако я забравите, ще трябва да изтриете всички данни от устройството си, включително снимки и контакти, и след това да зададете нова парола.</string>
+  <string name="turn_on_keyguard_password_alert_forget_title">Ако я забравите, няма да можете да я възстановите.</string>
   <string name="turn_on_security_lock">Добавяне на парола за сигурност</string>
   <string name="turn_update_keyguard_password_wait_dialog">Промяна на паролата</string>
   <string name="twohours">1 час</string>
@@ -4900,9 +4914,11 @@
   <string name="wifi_security_eap">802.1x EAP</string>
   <string name="wifi_security_none">Няма</string>
   <string name="wifi_security_passpoint">Passpoint</string>
+  <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
   <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
   <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
   <string name="wifi_security_short_eap">802.1x</string>
+  <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
   <string name="wifi_security_short_wep">WEP</string>
   <string name="wifi_security_short_wpa">WPA</string>
   <string name="wifi_security_short_wpa2">WPA2</string>

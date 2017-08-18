@@ -109,9 +109,6 @@
   <string name="cancel_running_download">Отмени</string>
   <string name="change_download_quality">Променете качеството на изтегляне</string>
   <string name="channel_list_fragment_title">FM</string>
-  <string name="chinese_female">Китайски певици</string>
-  <string name="chinese_group">Китайски групи</string>
-  <string name="chinese_male">Китайски певци</string>
   <string name="choose_download_quality">Изберете качество на изтегляне</string>
   <string name="choose_stream_quality">Изберете качество на стрийма</string>
   <string name="click_modify">Чукнете за промяна на текста</string>
@@ -124,8 +121,6 @@
   <string name="cloud_loading_message">Търсене на песни…</string>
   <string name="cloud_music">Песни в Mi Облак</string>
   <string name="cloud_settings">Настройки за синхрон</string>
-  <string name="cloud_space_full">Няма място в хранилището</string>
-  <string name="cloud_space_full_message">Няма повече място в Mi облачна услуга за добавяне на още песни. За да вземете още място, надстройте вашия Mi профил.</string>
   <string name="cloud_state_cloud_space_full">Няма достатъчно място в Mi Облак, архивирането е на пауза</string>
   <string name="cloud_state_low_power">Свържете зарядното устройство, за да продължите архивирането</string>
   <string name="cloud_state_network_data">Няма открити Wi-Fi мрежи, архивирането е на пауза</string>
@@ -209,7 +204,6 @@
   <string name="disable_auto_payment_success_message">Автоматичното подновяване е спряно. Когато Вашият абонамент изтече, можете отново да го пуснете.</string>
   <string name="disallow_add_to_fm">Не можете да добавите песни към FM радио.</string>
   <string name="disallow_add_to_personal_radio">Personal radio is read only</string>
-  <string name="do_not_remind_again">Не показвай отново</string>
   <string name="doc_filter">Док.</string>
   <string name="done">Готово</string>
   <string name="download">Изтегляне</string>
@@ -303,9 +297,6 @@
   <string name="enable_auto_payment_success">Автоматично подновяване</string>
   <string name="enable_auto_payment_success_message">Включвано автоматично подновяване. Следващото плащане трябва да е на %s.</string>
   <string name="enabled">Активирано</string>
-  <string name="english_female">Европейски и американски певици</string>
-  <string name="english_group">Европейски и американски групи</string>
-  <string name="english_male">Европейски и американски певци</string>
   <string name="enter_garbage_clean">Почисти вътрешната памет.</string>
   <string name="eq_auto">По избор</string>
   <string name="eq_blues">Блус</string>
@@ -342,7 +333,6 @@
   <string name="favorites">Любими</string>
   <string name="favourite_music_left_half">За добавяне на песни към плейлиста, докоснете</string>
   <string name="favourite_music_right_half">иконата Любими вдясно от името на песента</string>
-  <string name="female_artist">Певици</string>
   <string name="file_not_found">Файлът не съществува</string>
   <string name="filter_by_duration">Филтриране по продължителност</string>
   <string name="filter_by_duration_format">%2$dмин %5$2dсек</string>
@@ -398,7 +388,6 @@
   <string name="global_search_title_movie">Музика от филми</string>
   <string name="global_search_title_prenatal">Музика преди сътворението</string>
   <string name="global_search_title_radar">Разпознаване на музика</string>
-  <string name="group_artist">Групи</string>
   <string name="handle_later">Не сега</string>
   <string name="higher_quality_music">Музика с високо качество</string>
   <string name="higher_quality_music_summary">Слушайте и изтегляйте музика с високо качество</string>
@@ -424,9 +413,6 @@
   <string name="is_loading_data">Песните се зареждат...</string>
   <string name="is_scanning">Сканираа се, моля изчакайте.</string>
   <string name="is_scanning_support_online">Сканира се, моля изчакайте или изберете музика от таба онлайн.</string>
-  <string name="japan_korea_female">Японски и корейски певици</string>
-  <string name="japan_korea_group">Японски и корейски групи</string>
-  <string name="japan_korea_male">Японски и корейски певци</string>
   <string name="keep_queued_download">Запомни</string>
   <string name="ktv_playlist">Моят KTV</string>
   <string name="latest_song">История на пусканите песни (%d)</string>
@@ -458,7 +444,6 @@
   <string name="lyric_is_empty">Текстът е празен или недостъпен!</string>
   <string name="lyric_open_other_connect">Изтегляне на текста чрез мобилни данни</string>
   <string name="lyric_setting">Настройки за текст</string>
-  <string name="male_artist">Мъже</string>
   <string name="manager_cloud_space">Управление на хранилището в Mi Облак</string>
   <string name="media_filter">Медия</string>
   <string name="menu_all_task_pause">Всички на пауза</string>
@@ -564,7 +549,6 @@
   <string name="no_song_downloaded">" Няма връзка със сървъра"</string>
   <string name="normal_quality">Добро</string>
   <string name="not_login">Не сте вписан</string>
-  <string name="not_now">Не сега</string>
   <string name="not_selected">Изберете песен</string>
   <string name="notif_text_engine_off">Xunlei ускорител е изкл.</string>
   <string name="notif_text_engine_on">Ускорява се...</string>
@@ -883,7 +867,6 @@
   <string name="upgrade">Надстройка:</string>
   <string name="upgrade_force">Прекратяваме нашите стрийминг услуги поради проблеми с авторските права. Актуализирайте до последната версия на приложението Музика, за да слушате музика с високо качество.</string>
   <string name="upgrade_immediate">Актуализиране</string>
-  <string name="upgrade_membership">Вземете още място за съхранение.</string>
   <string name="upgrade_music">Обновете приложението Музика</string>
   <string name="upgrade_music_message">Обновяването приключи. Рестартирайте програмата.</string>
   <string name="upgrade_nobeta">Прекратяваме нашите текущи стрийминг услуги поради проблеми с авторските права. Съжаляваме за неудобството.</string>
