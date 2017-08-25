@@ -901,7 +901,6 @@
   <string name="clear_failed_dlg_title">Изчистване на данни</string>
   <string name="clear_uri_btn_text">Премахване на достъпа</string>
   <string name="clear_user_data_text">Изчистване на данни</string>
-  <string name="close_gesture">Затваряйте с жест</string>
   <string name="close_install_and_connect">Не, благодаря</string>
   <string name="close_miui_optimization_title">Изкл. на MIUI оптимизация</string>
   <string name="close_miui_optimization_warning_message">Устройството ви ще се рестартира, за да приложи промяната. Забележка: Изключването на тази функция ще доведе до съществени промени в потребителския интерфейс.</string>
@@ -1750,7 +1749,6 @@
   <string name="google_backup_enable">Вкл. на рез. копия</string>
   <string name="google_backup_section_title">Google архив и нулиране</string>
   <string name="google_title">Google</string>
-  <string name="got_it">Разбрах</string>
   <string name="gsm_to_wifi_connect_type_title">Мобилни-&gt;Wi-Fi</string>
   <string name="handy_mode">Ползване с една ръка</string>
   <string name="handy_mode_enable">Режим с една ръка</string>
@@ -1787,8 +1785,6 @@
   <string name="heavy_weight_stop_description">Това приложение не може да се спре безопасно. Ако го направите, може да загубите част от текущата си работа.</string>
   <string name="help_feedback_label">Помощ&amp; поддръжка</string>
   <string name="help_label">Помощ и отзиви</string>
-  <string name="hide">Скрий</string>
-  <string name="hide_screen_button">Скрий екранните бутони</string>
   <string name="high_performance_notif_summary">Батерията ще се изразходва по-бързо от обичайното.</string>
   <string name="high_performance_notif_title">Активен е режим \"Производителност\"</string>
   <string name="high_performance_title">Изглежда правите Benchmark тест. Задайте режим \"Производителност\" за най-добри резултати.</string>
@@ -2015,22 +2011,22 @@
   <string name="location_agps_apn_choose_dialog_title">Типове APN</string>
   <string name="location_agps_apn_summary">Изберете предпочитания тип APN</string>
   <string name="location_agps_apn_type">Типове APN</string>
-  <string name="location_agps_params_settings_title">AGPS настройки</string>
+  <string name="location_agps_params_settings_title">A-GPS настройки</string>
   <string name="location_agps_pref_apn_title">Предпочитана APN</string>
   <string name="location_agps_pref_network_title">Предпочитана мрежа</string>
   <string name="location_agps_pref_reset_type_title">Предпочитан тип нулиране</string>
   <string name="location_agps_pref_si_title">Предпочитан режим</string>
   <string name="location_agps_register_network_type">Тип достъп до мрежа</string>
-  <string name="location_agps_register_network_type_dialog_summary">Избиране на мрежа</string>
-  <string name="location_agps_register_network_type_dialog_title">Избор на мрежа</string>
+  <string name="location_agps_register_network_type_dialog_summary">Избор на мрежа</string>
+  <string name="location_agps_register_network_type_dialog_title">Използване на A-GPS</string>
   <string name="location_agps_register_network_type_summary">Изберете мрежа, за да разрешите AGPS...</string>
   <string name="location_agps_reset_type">Нулиране на типовете</string>
   <string name="location_agps_reset_type_choose_dialog_title">Всички типове стартиране</string>
   <string name="location_agps_reset_type_summary">Изберете предпочитания тип нулиране</string>
   <string name="location_agps_roaming_help">Предупреждение: Избирането на ВСИЧКИ МРЕЖИ при активиране на AGPS може да доведе до телефонни такси в режим на роуминг!</string>
-  <string name="location_agps_si_mode">Режим AGPS SI</string>
-  <string name="location_agps_si_mode_dialog_title">AGPS метод</string>
-  <string name="location_agps_si_mode_summary">Изберете предпочитан AGPS метод</string>
+  <string name="location_agps_si_mode">Режим A-GPS SI</string>
+  <string name="location_agps_si_mode_dialog_title">A-GPS метод</string>
+  <string name="location_agps_si_mode_summary">Изберете предпочитан A-GPS метод</string>
   <string name="location_agps_supl_server_addr">Адрес на сървъра</string>
   <string name="location_agps_supl_server_port">Порт на сървъра</string>
   <string name="location_agps_supl_settings">SUPL настройки</string>
@@ -2158,11 +2154,11 @@
   <string name="lockpassword_password_too_short">Паролата трябва да е поне %d знака</string>
   <string name="lockpassword_pattern_set_toast">Фигурата е зададена</string>
   <string name="lockpassword_pin_contains_non_digits">ПИН кодът трябва да съдържа само цифри от 0 до 9.</string>
-  <string name="lockpassword_pin_fixed_length">PIN кодът трябва да е с %d цифри</string>
+  <string name="lockpassword_pin_fixed_length">PIN кодът трябва да е %d цифри</string>
   <string name="lockpassword_pin_no_sequential_digits">Възходящите, низходящите и повтарящите се поредици цифри са забранени</string>
   <string name="lockpassword_pin_recently_used">Администраторът на устройството не разрешава използването на скорошен ПИН.</string>
   <string name="lockpassword_pin_set_toast">PIN кодът е зададен</string>
-  <string name="lockpassword_pin_too_long">ПИН-ът може да съдържа до %d цифри</string>
+  <string name="lockpassword_pin_too_long">ПИН кодът трябва да е по-малко от %d цифри.Ако прекъснете връзката</string>
   <string name="lockpassword_pin_too_short">ПИН кодът трябва да е поне %d цифри</string>
   <string name="lockpassword_strong_auth_required_reason_restart_device_password">След рестартирането на устройството трябва да въведете паролата за него, за да продължите.</string>
   <string name="lockpassword_strong_auth_required_reason_restart_device_pattern">След рестартирането на устройството трябва да начертаете фигурата за него, за да продължите.</string>
@@ -2203,8 +2199,7 @@
   <string name="lockpattern_settings_require_pattern_before_startup_summary">Изискване на фигура при стартиране на устройството ви. Докато то е изключено, няма да получавате обаждания, съобщения и известия, нито ще чувате будилници.</string>
   <string name="lockpattern_settings_require_pin_before_startup_summary">Изискване на ПИН код при стартиране на устройството ви. Докато то е изключено, няма да получавате обаждания, съобщения и известия, нито ще чувате будилници.</string>
   <string name="lockpattern_settings_title">Фигура за отключване</string>
-  <string name="lockpattern_too_many_failed_confirmation_attempts">Твърде много неправилни опити. Опитайте отново след %dсекунди.</string>
-  <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Изчакайте %d секунди и опитайте пак.</string>
+  <string name="lockpattern_too_many_failed_confirmation_attempts">Твърде много неправилни опити. Опитайте отново след %d секунди.</string>
   <string name="lockpattern_too_many_failed_confirmation_attempts_header">Твърде много неуспешни опити</string>
   <string name="lockpattern_tutorial_cancel_label">Отказ</string>
   <string name="lockpattern_tutorial_continue_label">Напред</string>
@@ -2286,6 +2281,7 @@
   <string name="master_clear_progress_title">Изтрива се</string>
   <string name="master_clear_summary">Изтрива всички данни на устройството</string>
   <string name="master_clear_title">Възст. на фабричните настройки</string>
+  <string name="max_aspect_settings_all_app_display_loading">Момент…</string>
   <string name="max_cpu10_info">"Десетядрен Max "</string>
   <string name="max_cpu2_info">Двуядрен процесор</string>
   <string name="max_cpu4_info">"Четириядрен Max "</string>
@@ -3043,7 +3039,7 @@
   <string name="radioInfo_service_out">Не работи</string>
   <string name="radioInfo_unknown">Неизвестно</string>
   <string name="radio_controls_summary">Управлява Wi-Fi, Bluetooth, самолетен режим, мобилни и VPN мрежи</string>
-  <string name="radio_controls_title">Повече</string>
+  <string name="radio_controls_title">Още</string>
   <string name="radio_info_asdiv_switch_label">ASDiv Статус:</string>
   <string name="radio_info_band_mode_label">Избиране на радиодиапазон</string>
   <string name="radio_info_call_redirect_label">Пренасочване на обаждането:</string>
@@ -3143,6 +3139,7 @@
   <string name="restore_default_apn_completed">Възстановяването на стандартните настройките за името на точката за достъп (APN) завърши.</string>
   <string name="restr_pin_enter_admin_pin">Въведете администраторския ПИН код</string>
   <string name="restrict_background_blacklisted">Данните на заден план са изключени</string>
+  <string name="restrict_max_aspect_ratio_title">Препоръчва се изключване на максимални пропорции</string>
   <string name="restriction_bluetooth_config_summary">Разрешаване на промяна на сдвояванията и настройките на Bluetooth</string>
   <string name="restriction_bluetooth_config_title">Bluetooth</string>
   <string name="restriction_location_enable_summary">Разрешаване на приложенията да използват информация за местоположението ви</string>
@@ -3203,8 +3200,6 @@
   <string name="saved_wifi">Управление на запазените мрежи</string>
   <string name="saved_wifi_delete">Изтрий</string>
   <string name="screen">Екран</string>
-  <string name="screen_button">Екранни бутони</string>
-  <string name="screen_button_tips">Плъзнете надолу, за да скриете екранните бутони</string>
   <string name="screen_cells_config_title">Схема на Начален екран</string>
   <string name="screen_color_and_optimize">Цветове и контраст</string>
   <string name="screen_color_and_optimize_disabled">В режим за четене не може да се настройва цветова температура</string>
@@ -3220,6 +3215,8 @@
   <string name="screen_key_press">Натискане на бутоните</string>
   <string name="screen_key_press_action">Стартиране на действие</string>
   <string name="screen_locking_sounds_title">При заключване на екрана</string>
+  <string name="screen_max_aspect_ratio_desc">Кои от приложенията могат да се показват на цял екран</string>
+  <string name="screen_max_aspect_ratio_title">Настройки на пропорции на екрана</string>
   <string name="screen_monochrome_mode_apps_loading">Момент…</string>
   <string name="screen_monochrome_mode_apps_title">Използване на режим Черно-бяло</string>
   <string name="screen_monochrome_mode_global_summary">Използване на Черно-бял режим за всички приложения</string>
@@ -3854,9 +3851,9 @@
   <string name="status_bar_app_enable_message">Значки</string>
   <string name="status_bar_key_position_custom">Промяна на позициите на бутоните</string>
   <string name="status_bar_notification_info_overflow">999+</string>
-  <string name="status_bar_screen_button_desc">Плъзнете надолу, за да скриете екранните бутони</string>
+  <string name="status_bar_screen_button_force_immersive_desc">Плъзнете отдолу нагоре по екрана за да се покажат софтуерните бутони</string>
   <string name="status_bar_screen_button_key">Виртуални бутони</string>
-  <string name="status_bar_screen_button_key_can_hide">Екранните бутони могат да се скрият</string>
+  <string name="status_bar_screen_button_key_force_immersive">Скрий софтуерните бутони</string>
   <string name="status_bar_screen_key_back">Назад</string>
   <string name="status_bar_screen_key_home">Начало</string>
   <string name="status_bar_screen_key_menu">Меню</string>
@@ -4062,6 +4059,7 @@
   <string name="storageuse_settings_title">Употреба на хранилището</string>
   <string name="strict_mode">Активиране на ограничен режим</string>
   <string name="strict_mode_summary">Примигване на екрана когато се използват продължително приложенията при основни операции</string>
+  <string name="suggest_unrestrict_max_aspect_ratio_title">Препоръчва се включване на максимални пропорции</string>
   <string name="suggested_fingerprint_lock_settings_summary">Отключване с отпечатъка ви</string>
   <string name="suggested_lock_settings_summary">Защитете устройството си</string>
   <string name="suggested_lock_settings_title">Заключване на екрана</string>
@@ -4076,8 +4074,6 @@
   <string name="supl_not_set">&lt;Не е зададено&gt;</string>
   <string name="sure_sync_now">Синхр на елементите сега?</string>
   <string name="suspend_gesture_enabled">Разклатете телефона за да изключите екрана</string>
-  <string name="suspension_ball_enable">Пряк пък към бързото меню</string>
-  <string name="suspension_ball_enable_desc">Включвайте и изключвайте бързото меню от прекия път</string>
   <string name="suw_back_button_label">Назад</string>
   <string name="suw_more_button_label">Още</string>
   <string name="suw_next_button_label">Напред</string>
@@ -4328,6 +4324,7 @@
   <string name="unlock_set_unlock_summary">Моля, включете заключването на екрана, преди да изберете метода му</string>
   <string name="unlock_setup_wizard_fingerprint_details">След като сте настроили заключване на екрана, можете да настроите и отпечатъка си от „Настройки“ &gt; „Сигурност“.</string>
   <string name="unmount_inform_text">USB хранилището ще бъде спряно.</string>
+  <string name="unrestrict_max_aspect_ratio_title">Поддържа се максимална пропорция</string>
   <string name="unrestricted_app_summary">Пълен достъп до данните при вкл. Икономия на данни</string>
   <string name="unrestricted_app_title">Неограничен пренос на данни</string>
   <string name="unrestricted_data_saver">Неограничен достъп до данни</string>
@@ -4544,7 +4541,7 @@
   <string name="virtual_sim_title">Роуминг мрежа за данни</string>
   <string name="virus_scan">Антивирус</string>
   <string name="virus_scan_app_continue">Продължи сканирането</string>
-  <string name="virus_scan_app_find_risk">Подозрителни: %d, препоръчително е да ги деинсталирате веднага.</string>
+  <string name="virus_scan_app_find_risk">%d опасности са намерени</string>
   <string name="virus_scan_app_finish">Затвори</string>
   <string name="virus_scan_app_force_stop">Пауза на сканирането</string>
   <string name="virus_scan_app_is_stop_scan">Искате ли да спрете Антивирус?</string>
@@ -4914,9 +4911,11 @@
   <string name="wifi_security_eap">802.1x EAP</string>
   <string name="wifi_security_none">Няма</string>
   <string name="wifi_security_passpoint">Passpoint</string>
+  <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
   <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
   <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
   <string name="wifi_security_short_eap">802.1x</string>
+  <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
   <string name="wifi_security_short_wep">WEP</string>
   <string name="wifi_security_short_wpa">WPA</string>
   <string name="wifi_security_short_wpa2">WPA2</string>
@@ -4977,7 +4976,7 @@
   <string name="wifi_share_connect">Свързване</string>
   <string name="wifi_share_connected_summary">Вие сте свързани към публична Wi-Fi мрежа, споделена от друг потребител с MIUI</string>
   <string name="wifi_share_connected_title">Свързани към Wi-Fi мрежа, споделена от MIUI</string>
-  <string name="wifi_share_count">Вие споделяте %d мрежи</string>
+  <string name="wifi_share_count">Споделени са %d мрежи</string>
   <string name="wifi_share_current_network">Настояща мрежа</string>
   <string name="wifi_share_know">OK</string>
   <string name="wifi_share_list_empty">Няма публични Wi-Fi мрежи</string>

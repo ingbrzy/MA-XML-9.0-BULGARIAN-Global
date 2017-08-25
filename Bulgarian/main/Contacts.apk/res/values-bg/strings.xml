@@ -471,7 +471,6 @@
   <string name="force_touch_miprofile">Контактна карта</string>
   <string name="force_touch_new_contact">Нов контакт</string>
   <string name="foundTooManyContacts">Открити са повече от %d.</string>
-  <string name="fraud_more_indemnity">Още</string>
   <string name="frequentList">Често използвани</string>
   <string name="from_account_format">%1$s</string>
   <string name="full_name">Име</string>
@@ -668,6 +667,7 @@
   <string name="miprofile_contact_header">Контакти с контактни карти</string>
   <string name="miprofile_contact_meaasge">Локални контакти</string>
   <string name="miprofile_contact_verifying">Проверка</string>
+  <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
   <string name="miprofile_edit_title">Редакция на профила</string>
   <string name="miprofile_error_accept_self">Не може да обмените вашата собствена контактна карта</string>
   <string name="miprofile_error_no_miaccount">Впишете се с вашия Mi профил</string>
@@ -863,6 +863,8 @@
   <string name="path_wipe_data">Системни приложения/Контакти/Подреждане на контакти/Изчисти данните</string>
   <string name="payphone">Обществен телефон</string>
   <string name="people">Контакти</string>
+  <string name="percent_sign">%</string>
+  <string name="percentage">%s%%</string>
   <string name="phoneLabelsGroup">Телефон</string>
   <string name="phone_info_divider">" ｜ "</string>
   <string name="phone_number_too_long_toast">Номерът е твърде дълъг</string>
@@ -1041,7 +1043,8 @@
   <string name="search_wipe_data">Подреждане;Контакти</string>
   <string name="searching_vcard_message">Търсене на визитки в паметта…</string>
   <string name="select_all">Избери всички</string>
-  <string name="select_done">Няма повече за избиране</string>
+  <string name="select_all_exceed">Не избирайте повече от %1$d, не може да изберете всички</string>
+  <string name="select_exceed">Не избирайте повече от %1$d</string>
   <string name="select_groups">Избери групи</string>
   <string name="select_none">Нищо не е избрано, операцията е невалидна</string>
   <string name="select_show_contacts">Показване на контакти</string>
@@ -1074,8 +1077,6 @@
   <string name="sim_capacity_content" formatted="false">Общо%d използвано | %d used</string>
   <string name="sim_card_no_free_space_message">Няма достатъчно свободна памет</string>
   <string name="sim_card_no_free_space_title">SIM картата е пълна!</string>
-  <string name="sim_contact_dropdown_menu_deselect_all_miui">Размаркирай всички</string>
-  <string name="sim_contact_dropdown_menu_select_all_miui">Избери всички</string>
   <string name="sim_contact_existing">Вече съществува такъв SIM контакт.</string>
   <string name="sim_contact_invalid">Невалиден SIM контакт</string>
   <string name="sim_contact_search_error">Възникна грешка при търсене на контакти на SIM карта</string>
@@ -1152,8 +1153,6 @@
   <string name="t9_search_guide_zhuyin_title2">Въведете \"5\" и \"6\" за търсене на \"&lt;font fgcolor=""&gt;&amp;#1058;&lt;/font&gt;&amp;#1086;&amp;#1076;&amp;#1086;&amp;#1088; &lt;font fgcolor=""&gt;&amp;#1052;&lt;/font&gt;&amp;#1083;&amp;#1072;&amp;#1076;&amp;#1077;&amp;#1085;&amp;#1086;&amp;#1074;\"</string>
   <string name="take_new_photo">Направи нова снимка</string>
   <string name="take_photo">Направи снимка</string>
-  <string name="telecom_fraud_insurance">Застраховка от измами</string>
-  <string name="telecom_fraud_insurance_description">10,000 CNY insurance | Exclusive Xiaomi offer | 9.9 CNY per year</string>
   <string name="titleJoinContactDataWith">Обедини контакти</string>
   <string name="title_other_devices">Други налични устройства</string>
   <string name="title_paired_devices">Сдвоени устройства</string>

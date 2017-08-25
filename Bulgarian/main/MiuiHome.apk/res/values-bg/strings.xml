@@ -82,7 +82,6 @@
   <string name="failed_to_delete_temporary">Изтриването неуспeшно. Моля, опитайте отново.</string>
   <string name="failed_to_drop">Неуспешно преместване!</string>
   <string name="failed_to_drop_widget_invalid">Невалидна джаджа</string>
-  <string name="failed_to_drop_widget_nospace">Няма достатъчно място на екрана!</string>
   <string name="failed_to_load_image">Изображението не може да се зареди</string>
   <string name="folder_name">Папка</string>
   <string name="frame_load_failed">Зареждането на фоторамката не успя!</string>
@@ -177,6 +176,7 @@
   <string name="mtzgadget_missing_text">Вече не се поддържа, добавете отново</string>
   <string name="multi_selecting_tips">За да преместите някое приложение задръжте пръст върху иконата му и го завлачете до местоназначението</string>
   <string name="no_detail_page">Няма страница с подробности</string>
+  <string name="no_space_toast">Няма място</string>
   <string name="normal_wallpaper">Тапет</string>
   <string name="notification_installed">Инсталацията е успешна</string>
   <string name="notification_open_button">Отвори</string>

@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="add_vm_number_str">Добавяне на номер</string>
   <string name="alert_dialog_dismiss">Отхвърляне</string>
   <string name="alert_dialog_no">Не</string>
   <string name="alert_dialog_yes">Да</string>
@@ -174,8 +173,6 @@
   <string name="no_balance_title">Недостатъчно средства</string>
   <string name="no_call_back_message">Времето за изчакване на връзка е прекалено дълго. Превключване на нормално обаждане, което може да бъде таксувано от вашия оператор.</string>
   <string name="no_call_back_title">Внимание</string>
-  <string name="no_vm_number">Липсващ номер на гласова поща</string>
-  <string name="no_vm_number_msg">На SIM картата няма съхранен номер за гласова поща.</string>
   <string name="non_ivr_menu_collapse_menu">Свий менюто</string>
   <string name="non_ivr_menu_view_menu">Покажи менюто</string>
   <string name="not_activate_sim_card_content">Потвърдете вашата SIM карта, преди да използвате пакети с презареждане. Можете да направите нормално повикване, което ще се таксува от вашия оператор.</string>

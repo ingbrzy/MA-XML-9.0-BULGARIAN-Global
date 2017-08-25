@@ -55,6 +55,7 @@
   <string name="feedback_choose_module">Избери елемент</string>
   <string name="feedback_choose_module_hint">Необходимо</string>
   <string name="feedback_collect_log_failed">Не може да се получат логовете</string>
+  <string name="feedback_contact_info_hint">Тел номер/Имейл</string>
   <string name="feedback_continue">Продължете с обратната връзка</string>
   <string name="feedback_description">Описание</string>
   <string name="feedback_description_bugreport_hint">В някой случай () моя телефон има проблеми ().</string>
@@ -196,6 +197,7 @@
   <string name="module_data">Хранилище &amp; Дублирани приложения</string>
   <string name="module_desktop">Начален екран &amp; настройки</string>
   <string name="module_finance">Финанси &amp; Mi Портфейл</string>
+  <string name="module_google_apps">Google приложения</string>
   <string name="module_item_less">Скриване</string>
   <string name="module_item_more">Повече</string>
   <string name="module_medias">Медия</string>

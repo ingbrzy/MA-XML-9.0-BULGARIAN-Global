@@ -47,6 +47,8 @@
   <string name="game_setting">Настройки за видео игри</string>
   <string name="gamebooster_network_dialog_message">Позволявате ли на Оптимизация да се свърже с мрежата, за да използва всички услуги за ускоряване на игрите?</string>
   <string name="gamebooster_network_dialog_title">Някои услуги не са достъпни</string>
+  <string name="gb_alipays_can_not_complete">"Can't complete payment. Install to continue."</string>
+  <string name="gb_weixinpay_can_not_complete">"Can't complete payment. Install to continue."</string>
   <string name="get_sys_info">Заявка за информация…</string>
   <string name="gs_anto_clean_memory_whitelist">Изключения</string>
   <string name="gs_app_back_self_start">Икономия на батерия</string>

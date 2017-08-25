@@ -94,6 +94,7 @@
   <string name="bugreport_in_power">Пряк път за сигнал за програмна грешка</string>
   <string name="bugreport_in_power_summary">В менюто за захранване да се показва бутон за подаване на сигнал за програмна грешка</string>
   <string name="button_convert_fbe">Изтриване и преобразуване…</string>
+  <string name="callFailed_simError">SIM card error</string>
   <string name="can_not_dial_vt_while_voice_prompt">Не може да се осъществи видео обаждане, докато е активно гласово обаждане</string>
   <string name="can_not_dial_while_vt_prompt">Не може да избирате, докато трае видео обаждането</string>
   <string name="category_personal">Лични</string>
@@ -105,6 +106,7 @@
   <string name="charge_length_format">Преди %1$s</string>
   <string name="choose_profile">Избиране на потр. профил</string>
   <string name="clear_adb_keys">Отмяна на упълномощ. за отстр. на грешки през USB</string>
+  <string name="close">Close</string>
   <string name="confirm_enable_oem_unlock_text">ПРЕДУПРЕЖДЕНИЕ: Функциите за защита на устройството няма да работят, докато следната настройка е включена.</string>
   <string name="confirm_enable_oem_unlock_title">Да се разреши ли отключване от OEM?</string>
   <string name="connected_via_passpoint">Установена е връзка през „%1$s“</string>
@@ -189,6 +191,8 @@
   <string name="inactive_app_inactive_summary">Неактивно. Докоснете, за да превключите.</string>
   <string name="inactive_apps_title">Неактивни приложения</string>
   <string name="incall_error_call_failed">Обаждането не е изпратено.</string>
+  <string name="incall_error_power_off">Turn off airplane mode to make a call.</string>
+  <string name="incall_error_supp_service_unknown">"This service isn't supported."</string>
   <string name="keep_screen_on">Да остане активен</string>
   <string name="keep_screen_on_summary">Екранът никога няма да е в спящ режим при зареждане</string>
   <string name="launch_defaults_none">Няма зададени стандартни настройки</string>

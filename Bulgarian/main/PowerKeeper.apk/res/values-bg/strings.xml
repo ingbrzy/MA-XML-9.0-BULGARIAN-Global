@@ -45,7 +45,7 @@
   <string name="enable_hide_mode">Включи MIUI Икономия на батерия</string>
   <string name="error_filename_too_long">Въведеното от вас име е твърде дълго.</string>
   <string name="extreme_power_config_mode_category">Свръх икономия на батерията</string>
-  <string name="extreme_power_config_mode_desc">Включването на тази услуга ще изключи синхронизирането, Bluetooth, GPS, NFC, режим двойно почукване, осветлението на бутоните, събуждане на екрана за уведомления, мигащ лед индикатор и Икономия на батерия ще бъде поставена на максимален режим</string>
+  <string name="extreme_power_config_mode_desc">Включването на тази услуга ще изключи синхронизирането, Bluetooth, GPS, NFC, режим двойно почукване, осветлението на бутоните, събуждане на екрана за уведомления, мигащата светлинна индикация, а Икономия на батерия ще бъде поставена на максимален режим</string>
   <string name="extreme_power_config_mode_title">Режим Свръх икономия на батерия</string>
   <string name="failure">неуспешно</string>
   <string name="foreground_change">Изпълнява се на преден план</string>

@@ -157,8 +157,8 @@
         <item quantity="one">%d приложение има разрешение за автоматично стартиране</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
-        <item quantity="other">PIN кодът трябва да е с %d цифри</item>
-        <item quantity="one">PIN кодът трябва да е %d цифра</item>
+        <item quantity="other">PIN must be %d digits</item>
+        <item quantity="one">PIN must be %d digit</item>
     </plurals>
     <plurals name="wifi_share_count">
         <item quantity="other">Споделени са %d мрежи</item>
@@ -191,5 +191,25 @@
     <plurals name="auto_disable_screenbuttons_disabled_header_title">
         <item quantity="other">Никога не деактивирай за %d прил.</item>
         <item quantity="one">Никога не деактивирай за 1 прил.</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short">
+        <item quantity="other">PIN must be %d digits long</item>
+        <item quantity="one">PIN must be %d digit long</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long">
+        <item quantity="other">PIN can contain up to %d digits</item>
+        <item quantity="one">PIN can contain up to %d digit</item>
+    </plurals>
+    <plurals name="lockpattern_recording_incorrect_too_short">
+        <item quantity="other">Connect at least %d dots. Try again.</item>
+        <item quantity="one">Connect at least %d dot. Try again.</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts">
+        <item quantity="other">Too many incorrect attempts. Try again in %d seconds.</item>
+        <item quantity="one">Too many incorrect attempt. Try again in %d second.</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">Wait for %d seconds and try again.</item>
+        <item quantity="one">Wait for %d second and try again.</item>
     </plurals>
 </resources>

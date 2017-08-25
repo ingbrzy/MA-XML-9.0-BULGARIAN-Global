@@ -244,6 +244,7 @@
   <string name="apps_list_header_title_sms_access">Ограничаване на достъпа до кодове за потвърждение</string>
   <string name="auto_atsk_condition_battery_level_text_down">При достигане на батерията до %s</string>
   <string name="auto_atsk_condition_battery_level_text_up">При зареждане на батерията до %s</string>
+  <string name="auto_clean_close">Автоматичното почистване е изкл</string>
   <string name="auto_handle_title">Оптимизирай автоматично</string>
   <string name="auto_import_games">Поставете вашите игри на едно място</string>
   <string name="auto_task_condition_choose_battery_level_down">При достигане на пределния режим на батерията</string>
@@ -345,6 +346,7 @@
   <string name="battery_status_unknown">Неизвестна грешка</string>
   <string name="battery_temperature_title">Температура</string>
   <string name="begin_date">Дата за нулиране на сметката</string>
+  <string name="best_booster_status">Скоростта за игри е възможно най-добрата сега.</string>
   <string name="bind_xiaomi_account_cancel">Отмени</string>
   <string name="bind_xiaomi_account_confirm">Добави</string>
   <string name="bind_xiaomi_account_dialog_summery">Ще добавите Mi профил %s. Ако си забравите паролата, ще можете да използвате този профил, за да я смените. Профилът ще бъде премахнат автоматично, ако излезете.</string>
@@ -422,11 +424,13 @@
   <string name="card_main_applock_summary">Защити личните обекти с App lock</string>
   <string name="card_main_applock_title">App lock</string>
   <string name="card_main_deepclean_action">Изчистване</string>
+  <string name="card_main_deepclean_qq_title">QQ почистване</string>
   <string name="card_main_deepclean_summary">Изтрийте файловете от които нямате нужда</string>
   <string name="card_main_deepclean_title">Разширено почистване</string>
   <string name="card_main_deepclean_wechat_action">Изчистване</string>
   <string name="card_main_deepclean_wechat_summary">Изчистете кеша на WeChat, за да освободите място</string>
   <string name="card_main_deepclean_wechat_title">WeChat кеш</string>
+  <string name="card_main_gamebooster_title">Ускорител на игри</string>
   <string name="card_main_hbassistant_summary">Използвайте този инструмент, за да улавяте обкръжените по-бързо</string>
   <string name="card_main_hbassistant_title">Помощник за обкръжени в червено</string>
   <string name="card_main_monthreport_action">Покажи</string>
@@ -441,6 +445,7 @@
   <string name="card_main_private_space_summary">Използвайте Второ пространство все едно имате две устройства</string>
   <string name="card_main_private_space_title">Второ работно място</string>
   <string name="card_main_sectool_title">Инструменти</string>
+  <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
   <string name="card_main_xspace_action">Създаване</string>
   <string name="card_main_xspace_summary">Създайте два профила за всяко приложение</string>
   <string name="card_main_xspace_title">Клонирани приложения</string>
@@ -581,6 +586,7 @@
   <string name="dlg_white_antispam_message">Да се добави ли този номер към списъка с изключения?</string>
   <string name="dns_exception_summary">Настройкита за DNS на рутера ви са недостъпни.</string>
   <string name="dns_exception_title">Проверка на DNS настройките</string>
+  <string name="do_clean">Почистване…</string>
   <string name="domestic_roaming_setting">Вътрешен роуминг</string>
   <string name="dont_bore">Не позволявайте на бутоните и известията да ви отвличат вниманието</string>
   <string name="dont_bore_text">Заглушава уведомленията и изключва бутоните, за да не се разсейвате по време на игра</string>
@@ -648,6 +654,8 @@
   <string name="forget_password_button_text">&lt;u&gt;&amp;#1047;&amp;#1072;&amp;#1073;&amp;#1088;&amp;#1072;&amp;#1074;&amp;#1077;&amp;#1085;&amp;#1072; &amp;#1087;&amp;#1072;&amp;#1088;&amp;#1086;&amp;#1083;&amp;#1072;&lt;/u&gt;</string>
   <string name="forget_password_button_text_normal">Забравена парола</string>
   <string name="forget_pattern">&lt;u&gt;&amp;#1047;&amp;#1072;&amp;#1073;&amp;#1088;&amp;#1072;&amp;#1074;&amp;#1077;&amp;#1085;&amp;#1072; &amp;#1087;&amp;#1072;&amp;#1088;&amp;#1086;&amp;#1083;&amp;#1072;&lt;/u&gt;</string>
+  <string name="free_send_net_booster">Безплатен Мрежов ускорител</string>
+  <string name="free_send_net_booster_tip">Насладете се на гладка игра с безплатния Мрежов ускорител.</string>
   <string name="free_time_traffic">Лимит за данни при слаб трафик</string>
   <string name="free_time_traffic_hint">Въведете лимит за данни при слаб трафик</string>
   <string name="free_time_traffic_settings">Настройки на лимит при слаб трафик</string>
@@ -677,7 +685,7 @@
   <string name="gigabyteShort">ГБ</string>
   <string name="go_to">Продължи</string>
   <string name="go_to_setting_fingerprint">Настройки</string>
-  <string name="google_base_app_install_choice">\"%s\" изисква Google Service Framework, за да работи нормално, да се изтегли ли и инсталира сега?</string>
+  <string name="google_base_app_install_choice">\"%s\" изисква услугата Google Service Framework, за да работи нормално, да се изтегли ли и инсталира сега?</string>
   <string name="gs_anto_clean_memory_whitelist">Изключения</string>
   <string name="gs_app_back_self_start">Икономия на батерия</string>
   <string name="gs_auto_clean_memory">Изчисти кеша</string>
@@ -750,6 +758,7 @@
   <string name="item_dev_mode">Опции на програмиста</string>
   <string name="item_install_monitor">Контрол на инсталиране</string>
   <string name="item_mms">Филтър за нежелани съобщения</string>
+  <string name="item_system_auto_download">Авт. изтегляне на актуализации</string>
   <string name="item_usb_debug">Отстр. USB грешки</string>
   <string name="item_virus_lib">Автоматично актуализиране на вирусните дефиниции</string>
   <string name="keywords_antispam">Списък блокирани;Блокиране;Черен списък;Измамници;Продавачи;Агенти;Списък блокирани обаждания;Списък блокирани съобщения;Списък с блокирани съобщения;SMS списък блокирани;списък блокирани;черен списък;списък блокирани;списък блокирани;измами;блокиран контакт;блокирани контакти</string>
@@ -908,6 +917,7 @@
   <string name="memory_clean_running_process_title">Наблюдавани приложения (%d)</string>
   <string name="memory_cleaned_memory_info">Достъпна памет</string>
   <string name="memory_cleaned_memory_up">Ускорение на скоростта</string>
+  <string name="memory_clear_unused">Изчисти кеша (%s)</string>
   <string name="menu_add">Добави</string>
   <string name="menu_bl_call_log">Покажи блокираните обаждания</string>
   <string name="menu_bl_remove">Деблокирай</string>
@@ -950,6 +960,7 @@
   <string name="menu_text_networkassistants_unit_gb">ГБ</string>
   <string name="menu_text_networkassistants_unit_kb">КБ</string>
   <string name="menu_text_networkassistants_unit_mb">МБ</string>
+  <string name="menu_text_optimize_manage">Подобрете скоростта</string>
   <string name="menu_text_power_manager">Батерия</string>
   <string name="menu_text_power_percent_title">Батерия %s</string>
   <string name="menu_text_power_percent_title_default">Батерия</string>
@@ -964,7 +975,16 @@
   <string name="monitor_requests_from_pc">Управление на инсталирането на приложения през USB</string>
   <string name="more_game">Още игри</string>
   <string name="name">Име</string>
+  <string name="net_booster">Network speed boost</string>
+  <string name="net_booster_expire_notification">Network speed boost session is about to end</string>
+  <string name="net_booster_expire_notification_tip">%d d remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</string>
+  <string name="net_booster_overdue_notification">Сесията на Мрежовия ускорител е към края си</string>
+  <string name="net_booster_overdue_notification_tip">Network speed boost session will end soon. Renew the session?</string>
+  <string name="net_booster_tip">Включете Подобряване скоростта на мрежата за да направите Wi-Fi връзката по-стабилна и да намалите закъснението при мрежов отговор.</string>
+  <string name="net_booster_title">Подобряване скоростта на мрежата</string>
+  <string name="net_boosting">Ускоряване…</string>
   <string name="net_delay_title">Закъснение</string>
+  <string name="net_overdue">Сесията приключи</string>
   <string name="network_blocked_connected_open_wifi">Свързан към публична мрежа</string>
   <string name="network_blocked_notification_summary">Тест на мрежата</string>
   <string name="network_blocked_switch_wifi">Сменете мрежата</string>
@@ -1367,6 +1387,7 @@
   <string name="reach_daily_limit_value_body">Ограничете използването на мобилни данни.</string>
   <string name="reach_daily_limit_value_title">Достигнахте дневният си лимит за данни</string>
   <string name="read_all_sms">Прочети всички</string>
+  <string name="receive_now">Получаване</string>
   <string name="recently_reject_message">Отхвърлени инсталации на %1$s и %2$d други прил.</string>
   <string name="recently_reject_message_one">Отхвърлени %1$s заявки за инсталиране</string>
   <string name="recommend_news">Получавайте препоръки</string>
@@ -1374,8 +1395,10 @@
   <string name="reject_all">Ограничи всички</string>
   <string name="reject_countdown">Откажи (%d)</string>
   <string name="reject_usb_install">Отказано инсталиране на следните приложения през USB</string>
+  <string name="release_meminfo">Освободени %dМБ</string>
   <string name="release_memory">Изчисти кеша</string>
   <string name="renew_ip">Нов опит</string>
+  <string name="renew_now">Поднови</string>
   <string name="repair">Поправи</string>
   <string name="repair_loading_text">Един момент…</string>
   <string name="repeated_marked_number_summary">Не блокирай второ обаждане от същия номер, ако е до 3 минути след първото</string>
@@ -1693,6 +1716,8 @@
   <string name="tab_blacklist">Списък блокирани</string>
   <string name="tab_block_log_unKnowNumber">Частен номер</string>
   <string name="tab_call">Обаждания</string>
+  <string name="tab_gift">Подаръци</string>
+  <string name="tab_guide">Упътване</string>
   <string name="tab_sms">SMS</string>
   <string name="tab_title">Списък блокирани</string>
   <string name="tc_diagnostic_all_error_notification_summary">Чукнете, за да докладвате грешка</string>
@@ -1784,6 +1809,7 @@
   <string name="title_app_lock_disable">Заключване на прил.</string>
   <string name="title_app_update">Налични са актуализации</string>
   <string name="title_auto_update">Авт. обновяване</string>
+  <string name="title_chain_start">Ограничи верижното стартиране</string>
   <string name="title_cleaner_cloudscan">Сканирай кошчето на облачното хранилище</string>
   <string name="title_cloud_account">Впишете се в Mi профила си</string>
   <string name="title_cloud_service">Mi Cloud е изкл.</string>
@@ -1792,8 +1818,11 @@
   <string name="title_cmcc_app_check">Проверката не е завършила</string>
   <string name="title_consume_power_rank">Употреба на батерия</string>
   <string name="title_data_flow">Използване на мобилни данни</string>
+  <string name="title_data_flow_monitor">Мониторът за данни е вкл</string>
+  <string name="title_dev_model_off">Опциите на програмиста са изкл</string>
   <string name="title_dev_no">Опции на програмиста: вкл.</string>
   <string name="title_dev_yes">Опции на програмиста: изкл.</string>
+  <string name="title_device_not_root">Руут достъпът е отказан</string>
   <string name="title_find_device">Намери устройството</string>
   <string name="title_flow_notification">Стат. за изп. данни са скрити</string>
   <string name="title_flow_purchase">Купи допълнителни Мб</string>
@@ -1801,17 +1830,20 @@
   <string name="title_flow_verify">Инф. за използваните данни от оператора</string>
   <string name="title_flow_verify_failed">Не може да се настрои за 5 дни на ред</string>
   <string name="title_garbage_clean">Размерът на кеша на приложението достигна %s</string>
+  <string name="title_garbage_less">Кешът на приложенията е малък</string>
   <string name="title_garbage_lib">Актуализирайте дефинициите за ненужни файлове</string>
   <string name="title_install_virus_no">Контролът при инсталиране е изключен</string>
   <string name="title_install_virus_yes">Контролът при инсталиране е включен</string>
   <string name="title_limit_traffic_per_day">Дневен лимит за данни</string>
   <string name="title_mifi_insurance">Удължена гаранция</string>
   <string name="title_miui_update">Налична е актуализация</string>
+  <string name="title_miui_update_latest">MIUI е актуална версия</string>
   <string name="title_mms_no">Филтрирането на съобщения е изключено</string>
   <string name="title_mms_yes">Филтрирането на съобщения е включено</string>
   <string name="title_network_switch">Мрежа</string>
   <string name="title_of_app_manage">Приложения</string>
   <string name="title_of_auto_launch_manage">Автоматично стартиране</string>
+  <string name="title_payment_protection">Плащанията са защитени</string>
   <string name="title_payment_risk">Открит е риск за парична измама</string>
   <string name="title_permission_no">Монитора на разрешения е изключен</string>
   <string name="title_permission_root">Root достъп</string>
@@ -1819,6 +1851,7 @@
   <string name="title_power_optimizer">Спест. на батерия е изкл.</string>
   <string name="title_realname_verify">Проверка на самоличността</string>
   <string name="title_show_notification">Джаджа в лентата с известия</string>
+  <string name="title_system_auto_download">Актуализациите ще се изтеглят автоматично</string>
   <string name="title_telecom_operator">Автоматични настройки</string>
   <string name="title_usb_no">Отстр. USB грешки е включено</string>
   <string name="title_usb_yes">Отстр. USB грешки е изключено</string>
@@ -1949,7 +1982,12 @@
   <string name="wifi_item_title_encryption">Wi-Fi шифроване</string>
   <string name="wifi_item_title_fake">Засичане на фалшиво Wi-Fi</string>
   <string name="wifi_network_blocked_notification_title">Няма връзка с интернет</string>
+  <string name="wifi_optizition_loading">Включване на Xunyou мрежов ускорител…</string>
+  <string name="wifi_optizition_tip">Включете Подобряване скоростта на мрежата за да направите Wi-Fi връзката по-стабилна. Ще бъдат изразходвани малък обем мобилни данни за целта.</string>
+  <string name="wifi_optizition_title">Подобряване на Wi-Fi скоростта</string>
   <string name="wl_no_whitelist">Няма изключения.</string>
+  <string name="wlan_booster">Подобряване на Wi-Fi скоростта</string>
   <string name="wlan_change_protection_detail">Не превключвай автоматично на Wi-Fi, когато има налична връзка към мрежа за мобилни данни</string>
   <string name="wlan_change_protection_title">Не допускай превключване на мрежи</string>
+  <string name="xunyou_pay_webview">Xunyou services</string>
 </resources>

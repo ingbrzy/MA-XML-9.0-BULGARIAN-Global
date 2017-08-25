@@ -19,9 +19,7 @@
   <string name="fingerprint_try_again_text">Опитай отново</string>
   <string name="forget_password_string">Забравена парола</string>
   <string name="incorrect_pincode">Неправилен PIN код</string>
-  <string name="incorrect_pincode_remaining_attempts">Невалиден PIN код, %d опита остават</string>
   <string name="incorrect_pukcode">Неправилен PUK код</string>
-  <string name="incorrect_pukcode_remaining_attempts">Невалиден PUK код, %d опита остават</string>
   <string name="input_password_after_boot_msg">За да отключите вашето устройство, въведете паролата си</string>
   <string name="input_password_after_boot_msg_can_not_switch_when_calling">Не може да се превключва между пространства по време на обаждане</string>
   <string name="input_password_after_boot_msg_must_enter_owner_space">Трябва да влезете в Основно работно място след рестарт на устройството</string>
@@ -35,24 +33,15 @@
   <string name="invalid_sim_puk_hint">PUK кодът трябва да е поне с 8 цифри</string>
   <string name="keyguard_charging_info_battery_temperature_text">Температура на батерията</string>
   <string name="keyguard_charging_info_battery_used_time_text">На батерия</string>
-  <string name="keyguard_charging_info_charging_full_need_hour_time__text">Остават %d часа докато се зареди</string>
-  <string name="keyguard_charging_info_charging_full_need_min_time__text">Остават %d мин докато се зареди</string>
-  <string name="keyguard_charging_info_charging_full_need_time__text" formatted="false">Остават %d ч %d мин докато се зареди</string>
   <string name="keyguard_charging_info_charging_text">Зареждане</string>
   <string name="keyguard_charging_info_charging_voltage_text">Волтаж</string>
   <string name="keyguard_charging_info_click_to_detail">Покажи подробности</string>
-  <string name="keyguard_charging_info_could_use_hour_time_text">Остават %d ч</string>
-  <string name="keyguard_charging_info_could_use_min_time_text">Остават %d мин</string>
-  <string name="keyguard_charging_info_could_use_time_text" formatted="false">Остават %d ч %d мин</string>
   <string name="keyguard_charging_info_current_now_text">Набл. в реално вр</string>
   <string name="keyguard_charging_info_data_c">%s℃</string>
   <string name="keyguard_charging_info_data_ma">%smA</string>
   <string name="keyguard_charging_info_data_percent">%s%%</string>
   <string name="keyguard_charging_info_data_v">%sV</string>
-  <string name="keyguard_charging_info_drained_hour_time_format">%d ч</string>
-  <string name="keyguard_charging_info_drained_min_time_format">%d мин</string>
   <string name="keyguard_charging_info_drained_power_percent_text">Изразходени</string>
-  <string name="keyguard_charging_info_drained_time_format" formatted="false">%d ч %d мин</string>
   <string name="keyguard_charging_info_finished_charging_text">Напълно заредена</string>
   <string name="keyguard_charging_info_last_charge_time">M/d H:mm</string>
   <string name="keyguard_charging_info_last_charge_today_time">Днес%s</string>
@@ -98,8 +87,6 @@
   <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data&gt;&amp;#1048;&amp;#1079;&amp;#1073;&amp;#1077;&amp;#1088;&amp;#1077;&amp;#1090;&amp;#1077; &amp;lt;font color=#a5220e&amp;gt;\"Wipe &amp;amp;amp; Reset\"&amp;lt;/font&amp;gt; &amp;#1080; &amp;#1080;&amp;#1079;&amp;#1095;&amp;#1072;&amp;#1082;&amp;#1072;&amp;#1081;&amp;#1090;&amp;#1077;, &amp;#1076;&amp;#1086;&amp;#1082;&amp;#1072;&amp;#1090;&amp;#1086; &amp;#1091;&amp;#1089;&amp;#1090;&amp;#1088;&amp;#1086;&amp;#1081;&amp;#1089;&amp;#1090;&amp;#1074;&amp;#1086;&amp;#1090;&amp;#1086; &amp;#1089;&amp;#1077; &amp;#1088;&amp;#1077;&amp;#1089;&amp;#1090;&amp;#1072;&amp;#1088;&amp;#1090;&amp;#1080;&amp;#1088;&amp;#1072;.;&lt;/Data&gt;</string>
   <string name="phone_locked_forget_password_suggesstions_title">Как да изтрия данните?</string>
   <string name="phone_locked_string">Устройството е заключено</string>
-  <string name="phone_locked_timeout_minutes_string">Опитайте отново след %d минути</string>
-  <string name="phone_locked_timeout_seconds_string">Опитайте отново след %d секунди</string>
   <string name="unlock_string">Отключи</string>
   <string name="unlocking_sim_card">Отключване на SIM картата</string>
   <string name="unlockscreen_low_battery">Свържете зарядното устройство</string>

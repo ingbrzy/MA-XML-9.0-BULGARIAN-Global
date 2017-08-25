@@ -140,6 +140,10 @@
         <item quantity="other">Защитени %d от приложенията</item>
         <item quantity="one">Защитено %d от приложението</item>
     </plurals>
+    <plurals name="title_virus_clean">
+        <item quantity="other">Почистени %d вируса</item>
+        <item quantity="one">Почистен %d вирус</item>
+    </plurals>
     <plurals name="hints_auto_start_enable_title">
         <item quantity="other">%d прил. имат право на автостарт</item>
         <item quantity="one">%d прил. има право на автостарт</item>
