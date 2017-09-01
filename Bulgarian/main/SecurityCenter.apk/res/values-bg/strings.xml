@@ -352,6 +352,7 @@
     <string name="firewall_network_restrict_notify_message">Чукнете за промяна на настройките.</string>
     <string name="firewall_restrict_android_dialog_title">Внимание</string>
     <string name="firewall_restrict_android_dialog_content">За да може устройството ви да работи нормално, няколко системни за Android приложения все още ще се свързват с интернет. Тези приложения ще използват мобилни данни и може да генерират малки такси към вашия оператор.</string>
+    <string name="background_restrict_app_dialog_message">Ограничаването на достъпа до мрежата на заден план ще направи невъзможна нормалната работа на приложенията, получаването на съобщения, изтеглянето на всякакво съдържание и т. н. Да се ограничи ли въпреки това?</string>
     <string name="firewall_allow_network">Позволено</string>
     <string name="firewall_network_allow">Позволено е на %1$s да използва %2$s връзка</string>
     <string name="search_result_text">Не може да се открият приложения</string>
@@ -796,10 +797,16 @@
     <string name="firewall_allow_all">Разреши на приложенията да се свързват, използвайки следния начин</string>
     <string name="firewall_restrict_all">Ограничи приложенията да се свързват, използвайки следния начин</string>
     <string name="firewall_partial">Разреши на някои приложения да се свързват, използвайки следния начин</string>
-    <string name="exception_titile">Бъг в асистента за мрежи</string>
-    <string name="exception_notify_message">Некоректна работа на мобилната мрежа. Препоръчва се рестартиране за възстановяване</string>
-    <string name="exception_dialog_message">Текущата статистика на мрежовия модул показа некоректна работа. Да се рестартира ли устройството сега, за да се оправи този проблем?</string>
-    <string name="exception_dialog_ok_button">Незабавно нулиране</string>
+    <string name="exception_titile">Настъпи грешка</string>
+    <string name="exception_notify_message">Не може да се пресметне статистиката на мобилните данни, поради грешка. Рестартирайте за да възстановите.</string>
+    <string name="exception_dialog_message">Употребата на мобилни данни не може да се пресметне, поради грешка. Без правилно изчисляване на изразходваните мобилни данни, Оптимизация няма да може да наблюдава тяхната употреба. Да се рестартира ли устройството, за да се възстанови тази услуга?</string>
+    <string name="exception_dialog_ok_button">Рестарт</string>
+    <string name="sms_detail_fragment_title_traffic">Оставащи мобилни данни</string>
+    <string name="sms_detail_fragment_title_bill">Оставащ кредит</string>
+    <string name="menu_report">Докладвай грешка</string>
+    <string name="menu_charge_traffic">Купете мобилни данни</string>
+    <string name="menu_charge_bill">Попълване на баланса</string>
+    <string name="privacy_dialog_message">Когато се свържете с интернет, това съобщение, заедно с информация за оператора, ще бъде криптирано и качено на Mi сървърите. Тази информация ще ни помогне да подобрим услугата за наблюдение на мобилни данни.</string>
     <string name="optimize_manage_title">Подобрете скоростта</string>
     <string name="cpu_usage_android_system">Система Андроид</string>
     <string name="cpu_usage_process_run_time_little_time">По-малко от минута</string>
@@ -1610,6 +1617,7 @@
     <string name="card_main_deepclean_wechat_action">Изчистване</string>
     <string name="card_main_sectool_title">Инструменти</string>
     <string name="card_main_monthreport_action">Покажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Диагностика на мрежата</string>
     <string name="card_main_netcheck_summary">Диагностика на мрежата за проблеми при свързването</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -1664,6 +1672,7 @@
     <string name="toast_lockscreen_glogin_empty_password">Изисква се парола</string>
     <string name="lockscreen_glogin_checking_password">Проверка…</string>
     <string name="passwordIncorrect">Неправилно име или парола</string>
+    <string name="access_control_app_is_launching">Приложението стартира</string>
     <string name="access_control_need_to_unlock_nofingerprint">Въведете парола за отключване</string>
     <string name="access_control_failed_need_to_unlock_nofingerprint">Изисква се парола за достъп до приложението</string>
     <string name="access_control_fingerprint_not_identified_msg">Отпечатъкът не може да се разпознае.</string>
@@ -1875,6 +1884,7 @@
     <string name="app_manager_copy_pkg_to_clip">Копирано в Клипборда</string>
     <string name="app_manager_show_all_apps">Покажи всички прилж</string>
     <string name="app_manager_hide_system_server">Скрий системните процеси</string>
+    <string name="app_manager_back">Назад</string>
     <string name="ad_btn_default_text">Научете повече</string>
     <string name="open_activity_err">Приложението не е открито</string>
     <string name="low_memory_warning_dialog_title">Няма достатъчно място в хранилището</string>
@@ -1969,8 +1979,8 @@
     <string name="net_overdue">Сесията приключи</string>
     <string name="renew_now">Поднови</string>
     <string name="receive_now">Получаване</string>
-    <string name="net_booster">Network speed boost</string>
-    <string name="wlan_booster">Подобряване на Wi-Fi скоростта</string>
+    <string name="net_booster">Подобряване скоростта на мрежата</string>
+    <string name="wlan_booster">Оптимизиране на Wi-Fi</string>
     <string name="tab_gift">Подаръци</string>
     <string name="tab_guide">Упътване</string>
     <string name="release_meminfo">Освободени %dМБ</string>
@@ -1985,8 +1995,8 @@
     <string name="free_send_net_booster">Безплатен Мрежов ускорител</string>
     <string name="free_send_net_booster_tip">Насладете се на гладка игра с безплатния Мрежов ускорител.</string>
     <string name="net_booster_overdue_notification">Сесията на Мрежовия ускорител е към края си</string>
-    <string name="net_booster_overdue_notification_tip">Network speed boost session will end soon. Renew the session?</string>
-    <string name="net_booster_expire_notification">Network speed boost session is about to end</string>
-    <string name="net_booster_expire_notification_tip">%d d remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</string>
-    <string name="xunyou_pay_webview">Xunyou services</string>
+    <string name="net_booster_overdue_notification_tip">Сесията на Мрежовия ускорител ще приключи скоро. Да се поднови ли?</string>
+    <string name="net_booster_expire_notification">Сесията на Мрежовия ускорител е към края си</string>
+    <string name="net_booster_expire_notification_tip">%d д остава, преди Мрежов ускорител да приключи своята сесия. Подновете я сега, за да се предпазите от проблеми със скоростта.</string>
+    <string name="xunyou_pay_webview">Xunyou услуги</string>
 </resources>

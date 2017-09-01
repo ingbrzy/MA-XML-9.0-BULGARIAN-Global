@@ -223,6 +223,7 @@
     <string name="file_uploading">Качва се…</string>
     <string name="new_backup">Рез. копие</string>
     <string name="restore_backup">Възстанови</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Един момент…</string>
     <string name="state_mounting">Достъп до хранилището на рутера…</string>
     <string name="abort_backup_confirm">Резервното копие не е завършено! Да спре ли въпреки това?</string>
@@ -343,4 +344,9 @@
     <string name="user_notice_message">Някои функции се нуждаят от интернет връзка, за да работят нормално.</string>
     <string name="user_notice_declaration_ignore">Не показвай отново</string>
     <string name="total_size">, %s</string>
+    <string name="btn_got_it">Направено</string>
+    <string name="backup_security_tips_title">Архивирането може да не работи</string>
+    <string name="backup_security_tips_message">Някои приложения може да не могат да бъдат архивирани и възстановявани.</string>
+    <string name="trans_security_tips_title">Mi Трансфер съвместимост</string>
+    <string name="trans_security_tips_message">Някои приложения може да не поддържат Mi Трансфер.</string>
 </resources>

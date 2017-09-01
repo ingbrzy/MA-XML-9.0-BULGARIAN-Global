@@ -359,8 +359,8 @@
     <string name="can_not_dial_vt_while_voice_prompt">Не може да се осъществи видео обаждане, докато е активно гласово обаждане</string>
     <string name="voice_dial_out">Гласово обаждане</string>
     <string name="notification_AllMissedCallTitle">Всички пропуснати повиквания</string>
-    <string name="close">Close</string>
-    <string name="callFailed_simError">SIM card error</string>
-    <string name="incall_error_supp_service_unknown">"This service isn't supported."</string>
-    <string name="incall_error_power_off">Turn off airplane mode to make a call.</string>
+    <string name="close">Затвори</string>
+    <string name="callFailed_simError">Грешка в SIM картата</string>
+    <string name="incall_error_supp_service_unknown">Неподдържана услуга.</string>
+    <string name="incall_error_power_off">Първо изключете самолетния режим, за да може да се обадите.</string>
 </resources>

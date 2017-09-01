@@ -601,6 +601,7 @@
     <string name="welcome_to_slim">Добре дошли в умаления албум.</string>
     <string name="slim_introduce">Замяна на локалните снимки/видео с пълна резолюция с оптимизирани копия, след като са архивирани в Mi Cloud. Снимките с пълна резолюция остават запазени в Mi Cloud. Това може да спести повече от 90% място за съхранение(Изисква се Mi-профил).</string>
     <string name="slim_introduce_with_specific_size">Замяна на локалните снимки/видео на пълна резолюция с оптимизирани копия, след като са архивирани в Mi Cloud. Снимките с пълна резолюция остават запазени в Mi Cloud. Това може да спести %1$s(Изисква се Mi профил).</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="auto_backup_introduce">Архивирайте снимки и видео автоматично(Изисква се Mi профил)</string>
     <string name="next">Напред</string>
     <string name="login_and_enable_service">Влезте в профила си и използвайте MiCloud.</string>
@@ -677,6 +678,7 @@
     <string name="cloud_storage_ok_append_desc">Достъпни: %s</string>
     <string name="cloud_storage_warn_title">Няма достатъчно място в Mi Cloud хранилището</string>
     <string name="cloud_storage_warn_desc">VIP абонаментза допълнително място</string>
+    <string name="percent_sign">%</string>
     <string name="cloud_storage_extend">Разширено място в Mi Облак</string>
     <string name="user_agreement2">Условия за ползване</string>
     <string name="user_agreement4">Политика на поверителност</string>
@@ -784,6 +786,8 @@
     <string name="search_setting_sub_title">Подобрено търсене на изображения</string>
     <string name="search_setting_sub_title_open">Приложено. Изчакайте малко преди да започнете.</string>
     <string name="search_request_open">Станете член на Бета-тийма</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_icon">search_icon</string>
     <string name="grant_permission_title">Разреши достъп</string>
     <string name="grant_permission_text">"Галерия се нуждае от достъп до 
 %s

@@ -153,7 +153,7 @@
     <string name="standard_title">Без звук..</string>
     <string name="total_title">Не Безпокойте..</string>
     <string name="description_title">Тих режим</string>
-    <string name="standard_description">[Silent] Заглушаване на всички звуци за входящи повиквания и известия</string>
+    <string name="standard_description">[Без звук] Заглуши звука за входящи повиквания и уведомления</string>
     <string name="total_description">[DND] Заглушаване на звуците и изключване на вибрацията за всички, освен Будилника</string>
     <string name="close">Изкл</string>
     <string name="always">Винаги</string>
@@ -164,9 +164,12 @@
     <string name="remain">Остават:%s</string>
     <string name="configure_input_methods">Метод на въвеждане</string>
     <string name="miui_upgrading_notification_title">Системата зарежда, някои услуги може да не работят</string>
-    <string name="miui_screen_ratio_hint">Screen ratio issues</string>
-    <string name="miui_screen_ratio_hint_message">This app is allowed to run in the fullscreen mode which may cause it to be displayed incorrectly. You can change this in Settings > Advanced settings > Buttons.</string>
-    <string name="miui_screen_ratio_hint_dont_show_again">"Don't show again"</string>
-    <string name="miui_screen_ratio_hint_ok">OK</string>
-    <string name="miui_screen_ratio_hint_go_to_settings">Go to Settings</string>
+    <string name="miui_screen_ratio_hint">Проблеми с пропорциите на екрана</string>
+    <string name="miui_screen_ratio_hint_message">На това приложение е разрешено да стартира в режим цял екран, което може да бъде причина то да се показва неправилно. Вие можете да промените това в Настройки > Допълнителни настройки > Бутони.</string>
+    <string name="miui_screen_ratio_hint_dont_show_again">Не показвай отново</string>
+    <string name="miui_screen_ratio_hint_ok">OК</string>
+    <string name="miui_screen_ratio_hint_go_to_settings">Отидете в Настройки</string>
+    <string name="switching_tv">Превключване…</string>
+    <string name="switch_desc_tv">Две пространства. Едно устройство.</string>
+    <string name="switch_brand_desc_tv">Услугите за безопасност са предоставени от Graphite</string>
 </resources>

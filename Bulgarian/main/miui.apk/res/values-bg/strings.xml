@@ -589,4 +589,5 @@
     <string name="search_mode_button_back_description">назад</string>
     <string name="actionbar_immersion_button_more_description">още</string>
     <string name="actionbar_button_up_description">назад</string>
+    <string name="clearable_edittext_clear_description">изчистване</string>
 </resources>

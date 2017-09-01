@@ -21,39 +21,39 @@
         <item quantity="one">%d ново известие</item>
     </plurals>
     <plurals name="keyguard_charging_info_charging_full_need_min_time__text">
-        <item quantity="other">About %d mins until full​</item>
-        <item quantity="one">About %d min until full​</item>
+        <item quantity="other">Остават %d мин докато се зареди</item>
+        <item quantity="one">Остава %d мин докато се зареди</item>
     </plurals>
     <plurals name="keyguard_charging_info_charging_full_need_hour_time__text">
-        <item quantity="other">About %d hrs until full</item>
-        <item quantity="one">About %d hr until full</item>
+        <item quantity="other">Остават %d часа докато се зареди</item>
+        <item quantity="one">Остава %d час докато се зареди</item>
     </plurals>
     <plurals name="keyguard_charging_info_charging_full_need_time__text">
-        <item quantity="other">About %1$d hrs %2$d mins until full</item>
-        <item quantity="one">About %1$d hr %2$d min until full</item>
+        <item quantity="other">Остават %1$d ч %2$d мин докато се зареди</item>
+        <item quantity="one">Остава %1$d ч %2$d мин докато се зареди</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_min_time_text">
-        <item quantity="other">About %d mins left</item>
-        <item quantity="one">About %d min left</item>
+        <item quantity="other">Остават %d мин</item>
+        <item quantity="one">Остава %d мин</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_hour_time_text">
-        <item quantity="other">About %d hrs left</item>
-        <item quantity="one">About %d hr left</item>
+        <item quantity="other">Остават %d ч</item>
+        <item quantity="one">Остава %d ч</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_time_text">
-        <item quantity="other">About %1$d hrs %2$d mins left</item>
-        <item quantity="one">About %1$d hr %2$d min left</item>
+        <item quantity="other">Остават %1$d ч %2$d мин</item>
+        <item quantity="one">Остава %1$d ч %2$d мин</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_hour_time_format">
-        <item quantity="other">%d hrs</item>
-        <item quantity="one">%d hr</item>
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_min_time_format">
-        <item quantity="other">%d mins</item>
-        <item quantity="one">%d min</item>
+        <item quantity="other">%d мин</item>
+        <item quantity="one">%d мин</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_time_format">
-        <item quantity="other">%1$d hrs %2$d mins</item>
-        <item quantity="one">%1$d hr %2$d min</item>
+        <item quantity="other">%1$d ч %2$d мин</item>
+        <item quantity="one">%1$d ч %2$d мин</item>
     </plurals>
 </resources>

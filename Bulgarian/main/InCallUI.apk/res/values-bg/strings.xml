@@ -126,6 +126,7 @@
     <string name="unlock_phone">Отключване на устройството</string>
     <string name="remind_unlock_message">Вашето устройство е заключено. \"%s\" ще бъде достъпно след като го отключите. Отключване сега?</string>
     <string name="user_locked_prompt">Отключете устройството за достъп до контактите.</string>
+    <string name="package_not_available">\"%s\" не е достъпен</string>
     <string name="select_voice_call_sim">Изберете SIM карта</string>
     <string name="msim_select_default_time_left">(%d сек.)</string>
     <string name="select_sim_hint">Не може да използвате SIM %2$d, докато SIM %1$d е в употреба.</string>
@@ -229,6 +230,9 @@
     <string name="dialpad_seven">7</string>
     <string name="dialpad_eight">8</string>
     <string name="dialpad_nine">9</string>
+    <string name="no_vm_number">Липсващ номер на гласова поща</string>
+    <string name="no_vm_number_msg">На SIM картата няма съхранен номер за гласова поща.</string>
+    <string name="add_vm_number_str">Добави номер</string>
     <string name="alert_dialog_yes">Да</string>
     <string name="alert_dialog_no">Не</string>
     <string name="alert_dialog_dismiss">Отхвърляне</string>
@@ -236,7 +240,7 @@
     <string name="call_record_button_label">Запис %s</string>
     <string name="livetalk_left_minute">остават %s мин.</string>
     <string name="call_self">Не можете да се обадите на собствения си номер.</string>
+    <string name="cancel_call">Затвори</string>
     <string name="dial_with_gsm_phone">Нормално обаждане</string>
     <string name="purchase_now">Вземи пакет</string>
-    <string name="cancel_call">Затвори</string>
 </resources>

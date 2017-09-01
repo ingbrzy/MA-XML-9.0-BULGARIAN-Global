@@ -6,13 +6,13 @@
     <string name="explain_send_sms_permission_msg">За да включи %s, Рамка на услугите на Xiaomi ще изпрати SMS, за да потвърди вашия телефонен номер. Ще бъдете таксувани по стандартната тарифа за SMS.</string>
     <string name="explain_send_sms_permission_button">Потвърждаване</string>
     <string name="activate_phone_failed_notif_title">SIM картата не може да се активира</string>
-    <string name="activate_phone_failed_notif_title_msim">SIM %s не може да се активира</string>
+    <string name="activate_phone_failed_notif_title_msim">Не може да се активира SIM карта %d</string>
     <string name="activate_phone_success_notif_title">SIM картата е активирана</string>
-    <string name="activate_phone_success_notif_title_msim">SIM карта %s е активирана</string>
+    <string name="activate_phone_success_notif_title_msim">SIM картата %d е активирана</string>
     <string name="activate_phone_cancel_notif_title">Активирането на SIM картата е отменено</string>
-    <string name="activate_phone_cancel_notif_title_msim">Активирането на SIM карта %s е отменено</string>
+    <string name="activate_phone_cancel_notif_title_msim">Активирането на SIM карта %d е отменено</string>
     <string name="activate_status_title_activating">Активиране на SIM картата…</string>
-    <string name="activate_status_title_activating_msim">Активиране на SIM карта %s…</string>
+    <string name="activate_status_title_activating_msim">Активиране на SIM карта %d…</string>
     <string name="activate_auto_sms_notification_title">Активиране на SIM карта</string>
     <string name="activate_auto_sms_notification_desc_2_cards">Изпратен е SMS от SIM карта %s за активиране на \"Открий устройството\"</string>
     <string name="activate_auto_sms_notification_desc_1_card">Изпратен е SMS за активиране на \"Открий устройството\"</string>
@@ -109,4 +109,11 @@
     <string name="activate_history_multisim_success_overview">SIM картата е активирана %2$d успешно. Активацията е изискана от %1$s\".</string>
     <string name="activate_history_multisim_canceled_overview">SIM картата %2$d не е активирана. Активацията е изискана от %1$s\".</string>
     <string name="activate_history_sms">Беше изпратен SMS по време на активацията.</string>
+    <string name="phone_verify_title">Съгласете се%1$s да потвърди моя телефонен номер</string>
+    <string name="phone_verify_text">%1$s няма да използва вашия телефонен номер, само ще бъде потвърден дали съвпада。</string>
+    <string name="phone_verify_processing">потвърждаване…</string>
+    <string name="phone_get_title">Съгласете се%1$s да получи вашия телефонен номер</string>
+    <string name="phone_get_text">Съгласен ли сте %1$s да използва вашия телефонен номер：%2$s</string>
+    <string name="phone_get_processing">получаване…</string>
+    <string name="agree">Съгласен</string>
 </resources>

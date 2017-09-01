@@ -268,8 +268,10 @@
     <string name="screen_locked_toast">Оформлението за начален екран е заключено</string>
     <string name="widget_quick_function">Бързи функции</string>
     <string name="menu_trans_effect">Ефект смяна на екрани</string>
+    <string name="menu_default_screen_preview">Настройки на екрана по подразбиране</string>
     <string name="menu_cell_setting">Настройки на екран</string>
     <string name="menu_auto_fill">Автом. запълване</string>
     <string name="menu_lock">Заключен екран</string>
     <string name="menu_more">Още</string>
+    <string name="default_screen_preview_title">Настройки на екрана по подразбиране</string>
 </resources>

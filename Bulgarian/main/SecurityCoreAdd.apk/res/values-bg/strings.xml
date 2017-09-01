@@ -273,11 +273,11 @@
     <string name="can_not_switch_when_calling">Не може да се превключва между пространства по време на обаждане</string>
     <string name="can_not_delete_when_calling">Не може да се изтриват пространства по време на обаждане</string>
     <string name="support_desc">Услугите за безопасност са предоставени от Graphite</string>
-    <string name="sdcardfs_dialog_message">Преди да влезете в профила си, вие трябва да изключите \"Виртуална оптимизация на карта с памет\" в менюто Опции на програмиста</string>
-    <string name="do_not_ask">不再询问</string>
-    <string name="gpg_message">双开游戏需要依赖谷歌游戏中心应用,是否同步双开谷歌游戏中心应用</string>
-    <string name="gpg_title">双开谷歌游戏中心</string>
-    <string name="gms_message">双开该应用需要依赖谷歌服务,是否同步双开谷歌服务</string>
-    <string name="gms_title">双开谷歌服务</string>
-    <string name="gms_open_button">开启</string>
+    <string name="sdcardfs_dialog_message">Изключете Оптимизация на карта с памет в меню Опции за програмиста, преди да влезете във второ пространство.</string>
+    <string name="do_not_ask">Не питай повече</string>
+    <string name="gpg_message">Създаването на клонирани игри изисква работа с Google Play Игри. Да клонирам ли приложението Google Play Игри?</string>
+    <string name="gpg_title">Клониране на Google Play Игри</string>
+    <string name="gms_message">Клонирането на приложения изисква работа с Услуги за Google. Да ги клонирам ли?</string>
+    <string name="gms_title">Включете услугите за Google</string>
+    <string name="gms_open_button">Включи</string>
 </resources>

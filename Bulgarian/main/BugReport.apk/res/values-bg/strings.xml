@@ -210,7 +210,9 @@
     <string name="feedback_title">Заглавие</string>
     <string name="feedback_description">Описание</string>
     <string name="feedback_select_images">Добави снимка</string>
+    <string name="feedback_delete_images">Изтрий изображенията</string>
     <string name="feedback_select_upload_log">Добави логове</string>
+    <string name="feedback_select_modem_log">Добави логове от модем</string>
     <string name="feedback_select_suggestion">Предложения</string>
     <string name="feedback_select_problem">Проблеми</string>
     <string name="feedback_choose_module">Избери елемент</string>
@@ -293,9 +295,11 @@
     <string name="module_search">Търсене</string>
     <string name="module_google_apps">Google приложения</string>
     <string name="feedback_submit_hint">Докладвайте проблемите в системата по всяко време, когато ги установите, за да ни помогнете да ги оправим.</string>
+    <string name="feedback_submit_hint_gone">Затворено съобщение</string>
     <string name="toast_post_deleted">Темата не съществува, изтрита е или редактирана.</string>
     <string name="toast_log_not_exists">Исканите данни са били изтрити или не съществуват</string>
     <string name="toast_pic_not_exists">Кешираното изображение беше изтрито</string>
+    <string name="toast_screenshot_too_large">Не може да се качи файл по-голям от 10МБ.</string>
     <string name="title_bbs_feedback_main">Научете повече за Mi телефоните</string>
     <string name="title_customer_service">Обслужване на клиенти</string>
 </resources>

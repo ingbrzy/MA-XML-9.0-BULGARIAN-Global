@@ -130,6 +130,6 @@
     <string name="fastboot_locked_answer_3">Трябва да използвате инструмента за отключване на сайта на MIUI. За да отключим устройството, ние трябва да сме сигурни, че то е ваша собственост. Ето защо трябва да влезете с вашия Mi Профил и да включите услугата Открий устройството.</string>
     <string name="fastboot_unlock_web_title">Отидете на официалния сайт на MIUI, за да вземете инструмента за отключване.</string>
     <string name="fastboot_unlock_web_home">https://unlock.update.miui.com</string>
-    <string name="gb_weixinpay_can_not_complete">"Can't complete payment. Install to continue."</string>
-    <string name="gb_alipays_can_not_complete">"Can't complete payment. Install to continue."</string>
+    <string name="gb_weixinpay_can_not_complete">Плащането не можа да завърши. Инсталирайте за да продължите.</string>
+    <string name="gb_alipays_can_not_complete">Плащането не можа да завърши. Инсталирайте за да продължите.</string>
 </resources>
