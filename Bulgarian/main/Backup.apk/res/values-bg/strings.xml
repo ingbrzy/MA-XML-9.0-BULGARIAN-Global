@@ -223,7 +223,6 @@
     <string name="file_uploading">Качва се…</string>
     <string name="new_backup">Рез. копие</string>
     <string name="restore_backup">Възстанови</string>
-    <string name="digit_percent">%</string>
     <string name="state_waiting">Един момент…</string>
     <string name="state_mounting">Достъп до хранилището на рутера…</string>
     <string name="abort_backup_confirm">Резервното копие не е завършено! Да спре ли въпреки това?</string>
