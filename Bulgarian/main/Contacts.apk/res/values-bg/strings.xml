@@ -309,7 +309,6 @@
     <string name="vcard_export_will_start_message">%s ще бъде експортирана скоро.</string>
     <string name="vcard_export_request_rejected_message">Експортирането на визитка се провали, моля опитайте по-късно.</string>
     <string name="vcard_unknown_filename">контакт</string>
-    <string name="percentage">%s%%</string>
     <string name="confirm_export_title">Ще експортирате ли контактите?</string>
     <string name="confirm_export_message">Вашият списък с контакти ще бъде експортиран във файла: %s.</string>
     <string name="exporting_contact_failed_title">Неуспешно експортиране</string>
@@ -690,7 +689,6 @@
     <string name="miprofile_alertdialog_message">Името ще се показва, когато запитвате за обмяна на контактни карти.</string>
     <string name="miprofile_alertdialog_edit">Въведете име</string>
     <string name="miprofile_switch_off_alertdialog_message">Няма да имате възможност за размяна на контактни карти с други хора. Вашите контакти няма да могат да виждат вашето профилно видео.</string>
-    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_bind_account_alertdialog_title">Добавяне на тел. номер</string>
     <string name="miprofile_bind_account_alertdialog_message">Трябва да добавите номера на това устройство във вашия Mi профил, за да използвате тази функция.</string>
     <string name="miprofile_bind_account_alertdialog_positive">Добави номер</string>
@@ -1061,7 +1059,6 @@
     <string name="device_import_local_account">Локален профил</string>
     <string name="import_name">име</string>
     <string name="import_percent">0%</string>
-    <string name="percent_sign">%</string>
     <string name="ret_sign">"
 "</string>
     <string name="checkhint">Проверете на другият телефон</string>
