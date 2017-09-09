@@ -9,8 +9,8 @@
         <item quantity="one">%d прилж може да показва известия</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
-        <item quantity="other">%1$d превключватели над лентата са активни</item>
-        <item quantity="one">%1$d превключвател над лентата е активен</item>
+        <item quantity="other">%1$d превключватели ще стоят в Лента с известия</item>
+        <item quantity="one">%1$d превключвател ще стои в Лента с известия</item>
     </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">Вече сте на %1$d стъпки от това, да бъдете програмист.</item>

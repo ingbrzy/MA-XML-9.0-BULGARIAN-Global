@@ -67,7 +67,7 @@
     <string name="card_title_threeway_call">Тристранно повикване</string>
     <string name="card_title_incoming_call">Вх. обаждане</string>
     <string name="card_title_answering">Отговор на обаждане</string>
-    <string name="card_title_answering_fail">Не можа да се отговори на обаждането, опитайте отново.</string>
+    <string name="card_title_answering_time_out">Не можа да се отговори на обаждането, опитайте отново.</string>
     <string name="card_title_call_ended">Обаждането завърши</string>
     <string name="card_title_on_hold">Задържане на обаждането</string>
     <string name="card_title_hanging_up">Приключване на разговора</string>
@@ -179,10 +179,6 @@
     <string name="do_not_ask">Не показвай отново</string>
     <string name="time_left_livetalk">(%dс)</string>
     <string name="can_not_call_oneself">Не може да се извърши повикване.</string>
-    <string name="jeejen_answer_call_text">Отговор на обаждане</string>
-    <string name="jeejen_reject_call_text">Откажи обаждането</string>
-    <string name="jeejen_end_call_text">Прекрати обаждането</string>
-    <string name="jeejen_toggle_dialpad_text">Клавиатура</string>
     <string name="miprofile_stranger_card">Карта на непознат</string>
     <string name="card_title_video_call_paused">Видеообаждането е на пауза.</string>
     <string name="card_title_incoming_conference_call">Входящо конферентно обаждане.</string>
@@ -238,9 +234,9 @@
     <string name="alert_dialog_dismiss">Отхвърляне</string>
     <string name="contactPhoto">Снимка на контакт</string>
     <string name="call_record_button_label">Запис %s</string>
-    <string name="livetalk_left_minute">остават %s мин.</string>
     <string name="call_self">Не можете да се обадите на собствения си номер.</string>
     <string name="cancel_call">Затвори</string>
     <string name="dial_with_gsm_phone">Нормално обаждане</string>
+    <string name="livetalk_left_minute">остават %s мин.</string>
     <string name="purchase_now">Вземи пакет</string>
 </resources>

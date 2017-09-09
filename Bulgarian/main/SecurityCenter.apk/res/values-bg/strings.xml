@@ -261,7 +261,7 @@
     <string name="note">Бележка</string>
     <string name="antispam_xpace_text">Превключете към Първо пространство, за да настроите списък с блокирани</string>
     <string name="antispam_mode_details">подробности от режим заглушаване</string>
-    <string name="st_share_settings">Използвай настройки на СИМ 1</string>
+    <string name="st_share_settings">Използвай настройки на SIM 1</string>
     <string name="st_msg_settings">Блокиране по SMS</string>
     <string name="st_msg_intercept_contacts">Блокирай SMS от контакти</string>
     <string name="st_msg_stranger_group">Блокирай SMS от непознати</string>
@@ -1130,6 +1130,7 @@
     <string name="button_text_update_now">Актуализирай</string>
     <string name="button_text_fix_now">Поправи</string>
     <string name="button_text_open_now">Отвори</string>
+    <string name="button_text_forbid_now">Забрани</string>
     <string name="button_text_disconnect_now">Прекъсни</string>
     <string name="apps_item_sms_reset_button_text">Възстанови по подразбиране</string>
     <string name="apps_item_sms_title">Стандартни настройки за съобщения</string>
@@ -1559,6 +1560,11 @@
     <string name="virus_auto_update_engine">Авто обновяване: %s</string>
     <string name="hints_scan_danger_result">Открит е риск, поправете сега</string>
     <string name="ss_activity_main_support_text">С подкрепата на %s</string>
+    <string name="hints_virus_app_summary">%s (прил.)</string>
+    <string name="hints_virus_apk_summary">%s (apk)</string>
+    <string name="hints_risk_name_title">Риск:</string>
+    <string name="hints_risk_descx_title">Описание:</string>
+    <string name="button_text_clear">Почисти</string>
     <string name="toast_removed_from_virus_white_list">Преместено от Изключенията. Елемента ще бъде сканиран следващият път.</string>
     <string name="long_click_dialog_title">Предупреждение</string>
     <string name="long_click_dialog_summary">Запазвайте резултатите в списък за да ги добавите в Изключения</string>
@@ -1617,6 +1623,7 @@
     <string name="card_main_deepclean_wechat_action">Изчистване</string>
     <string name="card_main_sectool_title">Инструменти</string>
     <string name="card_main_monthreport_action">Покажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Диагностика на мрежата</string>
     <string name="card_main_netcheck_summary">Диагностика на мрежата за проблеми при свързването</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -1996,6 +2003,6 @@
     <string name="net_booster_overdue_notification">Сесията на Мрежовия ускорител е към края си</string>
     <string name="net_booster_overdue_notification_tip">Сесията на Мрежовия ускорител ще приключи скоро. Да се поднови ли?</string>
     <string name="net_booster_expire_notification">Сесията на Мрежовия ускорител е към края си</string>
-    <string name="net_booster_expire_notification_tip">%d д остава, преди Мрежов ускорител да приключи своята сесия. Подновете я сега, за да се предпазите от проблеми със скоростта.</string>
     <string name="xunyou_pay_webview">Xunyou услуги</string>
+    <string name="net_booster_expire_notification_tip">%d д остава, преди Мрежов ускорител да приключи своята сесия. Подновете я сега, за да се предпазите от проблеми със скоростта.</string>
 </resources>

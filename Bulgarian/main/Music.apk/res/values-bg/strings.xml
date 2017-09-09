@@ -210,7 +210,7 @@ Tap %s за да започнете това изтегляне трябва д�
     <string name="playback_failed_no_title_by_bad_file">Песента не може да бъде възпроизведена, форматът не се поддържа или файла не същестува.</string>
     <string name="streamloadingtext">Свързване към %s</string>
     <string name="toast_new_playlist_name_too_long">Името на списъка е твърде дълго</string>
-    <string name="toast_new_playlist_name_no_enter">изтрито съдържание</string>
+    <string name="toast_new_playlist_name_no_enter">Не може да се започне нов абзац</string>
     <string name="error_title">Грешка при синхронизация</string>
     <string name="error_unauthorized">Синхронизацията е изключена поради твърде много опити за влизане.</string>
     <string name="error_forbidden">Синхронизацията е изключена поради проблеми с вашия Mi профил.</string>
@@ -831,7 +831,7 @@ Tap %s за да започнете това изтегляне трябва д�
     <string name="favorites">Любими</string>
     <string name="talkback_radar">Разпознаване на музика</string>
     <string name="talkback_search">Търси</string>
-    <string name="talkback_play">Пусни/пауза</string>
+    <string name="talkback_play">Пусни/Пауза</string>
     <string name="talkback_next">Следваща песен</string>
     <string name="talkback_pre">Предишна песен</string>
     <string name="talkback_download">Изтегли</string>
@@ -845,8 +845,8 @@ Tap %s за да започнете това изтегляне трябва д�
     <string name="talkback_favorite">Харесайте тази песен</string>
     <string name="talkback_progress">Лентов индикатор</string>
     <string name="talkback_back">Назад</string>
-    <string name="talkback_nowplaying_circle">Възпроизвеждане в кръг</string>
-    <string name="talkback_nowplaying_bar">Възпроизв. бар</string>
+    <string name="talkback_nowplaying_circle">Възпроизв. в кръг</string>
+    <string name="talkback_nowplaying_bar">Възпроизв. в бар</string>
     <string name="cloud_music">Песни в Mi Облак</string>
     <string name="backup_immediate">Архивиране</string>
     <string name="backup_song_title">Изберете песни за архивиране</string>

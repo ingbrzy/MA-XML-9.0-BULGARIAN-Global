@@ -7,6 +7,7 @@
     <string name="passport_login_title">Вписване във вашия Mi профил</string>
     <string name="passport_login">Вписване</string>
     <string name="passport_relogin">Ново вписване</string>
+    <string name="passport_instant_login">Влезте</string>
     <string name="passport_skip_login">Пропусни</string>
     <string name="passport_skip_setup_account_title">Пропускане</string>
     <string name="passport_skip_setup_account_msg">Може да настроите вашият Mi профил по-късно от \"Настройки\".</string>
@@ -81,7 +82,7 @@
     <string name="passport_delete_account">Отписване</string>
     <string name="passport_vcode_notification_title">Проверката при вписването ви не е завършила</string>
     <string name="passport_account_name">Профил: %1$s</string>
-    <string name="passport_account_hint_text">Електронна поща, Телефонен номер или Mi Профил ID</string>
+    <string name="passport_account_hint_text">Електронна поща, телефонен номер или Mi Профил ID</string>
     <string name="passport_email_or_id_hint_text">Имейл адрес или ID на MI профил</string>
     <string name="passport_phone_num_hint_text">Телефонен номер</string>
     <string name="passport_input_password_hint">Въведете парола</string>
@@ -118,7 +119,7 @@
     <string name="passport_trying_read_verify_code_sms">Кодът за проверка се получава…</string>
     <string name="passport_adding_account">Добавяне на профил…</string>
     <string name="passport_sending_vcode">Изпращане на код…</string>
-    <string name="passport_getting_activator_phone">Получаване на инф. за СИМ…</string>
+    <string name="passport_getting_activator_phone">Получаване на инф. за SIM…</string>
     <string name="passport_verifying_activator_phone">Потвърждава се сигурността на телефона…</string>
     <string name="passport_querying_phone_info">Заявка на инф. за профил…</string>
     <string name="passport_area_code_title">Код на държава</string>
@@ -170,13 +171,18 @@
     <string name="passport_registered_phone_num">Телефон: %s</string>
     <string name="passport_quick_login">Вписване</string>
     <string name="passport_error_verify_activator_phone_title">Телефонният номер не беше потвърден</string>
-    <string name="passport_error_verify_activator_phone_message">Уверете се, че вашата СИМ карта е активна и телефонът ви е свързан с интернет.</string>
+    <string name="passport_error_verify_activator_phone_message">Уверете се, че вашата SIM карта е активна и телефонът ви е свързан с интернет.</string>
     <string name="passport_error_no_password_user">Не сте задали все още парола. Впишете се със SMS.</string>
     <string name="passport_phone_ticket_login">Вписване със SMS</string>
     <string name="passport_account_set_password">Задайте парола</string>
     <string name="passport_account_set_password_title">Задайте парола</string>
     <string name="passport_account_set_password_prompt">Използване на паролата за следващото вписване във вашия профил.</string>
     <string name="passport_set">Задай</string>
+    <string name="passport_user_reg_region">Държава/Регион</string>
+    <string name="passport_user_id_notice">Ид парола: %s</string>
+    <string name="passport_user_reg_region_warning">Няма да можете да променяте вашите страна/регион, след като веднъж сте създали профила си</string>
+    <string name="passport_sync_account_data">Синхронизиране на данните в профила ви</string>
+    <string name="passport_sync_account_data_failed_warning">Данните за профила Ви няма да се запомнят и ще бъдат записани само с идентификационен номер на паролата. Ако използвате имейла си за вход, моля, изчакайте няколко минути</string>
     <string name="search_app_name">Mi Профил</string>
     <string name="search_mi_account">Mi Профил</string>
     <string name="search_mi_account_key_words">Mi Облак,Настройки на профил,Mi Плащане, Отписване</string>
@@ -303,8 +309,9 @@
     <string name="account_xiaomi_service">Услуги</string>
     <string name="cloud_service">Облачни услуги</string>
     <string name="vip_account_settings">VIP Настройки</string>
-    <string name="vip_more_info">Допълнителна инф за VIP</string>
     <string name="xiao_mi_vip">Mi VIP</string>
+    <string name="mi_vip_info">Виж ВИП права</string>
+    <string name="vip_settings_info">Настройка на ВИП информация</string>
     <string name="loading_micloud_sync_data">Зарежда се…</string>
     <string name="activity_not_found_notice">Не може да се открие приложението</string>
     <string name="scan_barcode_title">За да се впишете в Mi профила си, сканирайте QR кодът</string>
@@ -418,4 +425,5 @@
     <string name="account_token_expired_title">Оторизацията е неуспешна</string>
     <string name="account_token_expired_msg">"Кодът за потвърждение е изтекъл, започнете отново или се отпишете от 
  Вашия профил ИД: %s"</string>
+    <string name="bind_safe_phone_msg">Добави сигурен телефонен номер за следващо вписване</string>
 </resources>

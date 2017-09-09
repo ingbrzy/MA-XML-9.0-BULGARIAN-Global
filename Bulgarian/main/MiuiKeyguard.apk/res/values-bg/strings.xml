@@ -21,7 +21,7 @@
     <string name="phone_locked_foget_password_mehod_back">Назад</string>
     <string name="phone_locked_foget_password_method_next">Следващ</string>
     <string name="phone_locked_forget_password_suggesstions_title">Как да изтрия данните?</string>
-    <string name="phone_locked_forget_password_suggesstion_one_content"><Data>Изключете устройството, натиснете и задръжте &lt;font color=#a5220e>бутон Захранване &lt;/font> и бутон &lt;font color=#a5220e>Усилване на звука &lt;/font>едновременно, докато не видите.;</Data></string>
+    <string name="phone_locked_forget_password_suggesstion_one_content"><Data>Изключете устройството, натиснете и задръжте &lt;font color=#a5220e>бутон Захранване &lt;/font> и бутон &lt;font color=#a5220e>Усилване на звука &lt;/font>едновременно, докато не видите логото на Mi.;</Data></string>
     <string name="phone_locked_forget_password_suggesstion_two_content"><Data>Изберете &lt;font color=#a5220e>\"Wipe &amp;amp; Reset\"&lt;/font> и изчакайте, докато устройството се рестартира.;</Data></string>
     <string name="phone_locked_foget_password_ok">Разбрах</string>
     <string name="lockscreen_access_pattern_start">Фигурата е започната</string>
@@ -57,7 +57,7 @@
     <string name="input_password_after_boot_msg">За да отключите вашето устройство, въведете паролата си</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">Трябва да влезете в Основно работно място след рестарт на устройството</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Не може да се превключва между пространства по време на обаждане</string>
-    <string name="input_password_handle_sdcard_fs">Преди да влезете в профила си, вие трябва да изключите \"Виртуална оптимизация на карта с памет\" в менюто Опции на програмиста</string>
+    <string name="input_password_handle_sdcard_fs">Изключете Оптимизация на карта с памет, преди да използвате Второ пространство.</string>
     <string name="accessibility_enter_lock_wallpaper">Чукнете, за да отворите Wallpaper Carousel</string>
     <string name="lock_wallpaper_learn_more">Още</string>
     <string name="lock_wallpaper_enter">Въвеждане</string>

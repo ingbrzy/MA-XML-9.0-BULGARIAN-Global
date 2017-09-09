@@ -61,11 +61,13 @@
     <string name="cancel_button">Отказ</string>
     <string name="list_empty_text">Празно</string>
     <string name="xspace_label">Клонирани приложения</string>
+    <string name="xspace_setting_label">Настройки на клонирани приложения</string>
+    <string name="xspace_account">Профил в клонирани приложения</string>
     <string name="declare_dialog_title">За клонираните приложения</string>
     <string name="xspace_loading_msg">Зареждане на приложения…</string>
     <string name="xspace_header">Клонирани приложения</string>
     <string name="xspace_introduce">Препоръчани</string>
-    <string name="xspace_description">Клонирайте приложения, за да ги използвате отделно. Клонираните приложения ще имат свои собствени икони.</string>
+    <string name="xspace_description">Клонирането ще създаде копие на приложението на началния екран, като двете приложения ще се изпълняват самостоятелно. Ще са необходими и инсталирани услуги на Google за безпроблемна работа</string>
     <string name="xspace_chocie">Други прил.</string>
     <string name="xspace_creating">Клониране на прил.…</string>
     <string name="xspace_installing">Инсталиране…</string>
@@ -280,4 +282,24 @@
     <string name="gms_message">Клонирането на приложения изисква работа с Услуги за Google. Да ги клонирам ли?</string>
     <string name="gms_title">Включете услугите за Google</string>
     <string name="gms_open_button">Включи</string>
+    <string name="create_second_space">Успешно създадено</string>
+    <string name="set_space_password">Задай парола</string>
+    <string name="set_space_finger">Задай пръстов отпечатък</string>
+    <string name="guide_start_text">Две работни места. Едно устройство.</string>
+    <string name="guide_start_ads_text">Напълно ново ниво на сигурност</string>
+    <string name="skip">Пропусни</string>
+    <string name="input_space_password">Задай сега</string>
+    <string name="input_space_finger">Задай сега</string>
+    <string name="space_finger_sub_text">Задай пръстов отпечатък за второ работно място</string>
+    <string name="set_space_finger_sub_text_suc">Успешно зададен пръстов отпечатък</string>
+    <string name="show_noti_from_owner">Уведомления от другото работно място</string>
+    <string name="show_noti_from_owner_detail">Получаване на уведомления в текущото работно място, когато те идват от другото</string>
+    <string name="show_noti_quick_switch_icon">Пряк път в лентата с известия</string>
+    <string name="show_noti_quick_switch_icon_detail">Покажи пряк път за превключване между работните места в лентата с известия</string>
+    <string name="show_decktop_quick_switch_icon">Пряк път на началния екран</string>
+    <string name="show_decktop_quick_switch_icon_detail">Покажи пряк път за превключване между работните места на началния екран в Основното работно място</string>
+    <string name="has_created_second_space">"Може да отворите Второто работно място сега.
+ Едно устройство. Две места."</string>
+    <string name="privacy_password_fingerprint_dialog_title">Сканирайте отпечатъка си</string>
+    <string name="privacy_password_fingerprint_dialog_message">Поставете пръста си върху сензора</string>
 </resources>

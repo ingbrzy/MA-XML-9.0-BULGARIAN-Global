@@ -47,9 +47,9 @@
     <string name="activate_popup_title_manual">Активиране на %s</string>
     <string name="activate_popup_desc_sim_card">Ще бъде изпратено SMS съобщение за активиране на %s. Таксува се според абонаментния ви план.</string>
     <string name="activate_popup_desc_intl_sim_card">Ще бъде изпратено международно SMS съобщение за активиране на %s. Таксува се според абонаментния ви план.</string>
-    <string name="activate_popup_desc_mixed_sim_cards">Ще бъдат изпратени 1 обикновено и 1 международно Sms съобщение за активиране на %s. Таксуват се според абонаментния ви план.</string>
-    <string name="activate_popup_desc_2_sim_cards">Ще бъдат изпратени 2 Sms съобщения за активиране на %s. Таксуват се според абонаментния ви план.</string>
-    <string name="activate_popup_desc_2_intl_sim_cards">Ще бъдат изпратени 2 международни Sms съобщения за активиране на %s. Таксуват се според абонаментния ви план.</string>
+    <string name="activate_popup_desc_mixed_sim_cards">Ще бъдат изпратени 1 обикновено и 1 международно SMS съобщение за активиране на %s. Таксуват се според абонаментния ви план.</string>
+    <string name="activate_popup_desc_2_sim_cards">Ще бъдат изпратени 2 SMS съобщения за активиране на %s. Таксуват се според абонаментния ви план.</string>
+    <string name="activate_popup_desc_2_intl_sim_cards">Ще бъдат изпратени 2 международни SMS съобщения за активиране на %s. Таксуват се според абонаментния ви план.</string>
     <string name="activate_popup_desc_sim_card_downlink">За активиране на %s, въведете вашият телефонен номер.</string>
     <string name="activate_popup_desc_find_device_postfix">SMS за активиране може да бъде изпратен след като смените SIM картите.</string>
     <string name="activate_popup_title_new_sim_card">Повторно активиране на %s</string>

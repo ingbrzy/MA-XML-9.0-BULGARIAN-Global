@@ -399,7 +399,7 @@
     <string name="incompatible_dialog_message">Тази тема не е напълно съвместима с MIUI 9. Някои елементи може да не се показват правилно.</string>
     <string name="incompatible_dialog_ok">Разбрах</string>
     <string name="multi_sim_ringtone_settings_dialog_title">Грешка при съвместимостта</string>
-    <string name="multi_sim_ringtone_settings_dialog_message">Тона на звънене е приложен за двете SIM карти.</string>
+    <string name="multi_sim_ringtone_settings_dialog_message">Тонът на звънене е приложен за двете SIM карти.</string>
     <string name="multi_sim_ringtone_settings_dialog_remind_never">Не показвай повече</string>
     <string name="multi_sim_ringtone_settings_dialog_ok">Получаване</string>
     <string name="uid_change_dialog_title">Рестартирай устройството</string>

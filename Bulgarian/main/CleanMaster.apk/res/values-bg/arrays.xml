@@ -13,7 +13,7 @@
         <item>Размер</item>
     </string-array>
     <string-array name="auto_clean_time">
-        <item>Всеки ден</item>
+        <item>Ежедневно</item>
         <item>На всеки 3 дни</item>
         <item>На всеки 7 дни</item>
         <item>На всеки 15 дни</item>
@@ -25,8 +25,8 @@
         <item>1ГБ</item>
     </string-array>
     <string-array name="auto_process_mode">
-        <item>Уведомяване преди почистване</item>
-        <item>Почистване на заден план</item>
-        <item>Покажи уведомление след почистване</item>
+        <item>Запитване</item>
+        <item>Изчисти</item>
+        <item>Изчисти и уведоми</item>
     </string-array>
 </resources>

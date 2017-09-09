@@ -91,7 +91,7 @@
     <string name="sort_by_abc">Подреди по име</string>
     <string name="encryption">Кодиране</string>
     <string name="failed_to_drop">Неуспешно преместване!</string>
-    <string name="no_space_toast">Няма място</string>
+    <string name="no_space_toast">Няма достатъчно място</string>
     <string name="failed_to_drop_widget_invalid">Невалидна джаджа</string>
     <string name="failed_to_delete_temporary">Изтриването неуспeшно. Моля, опитайте отново.</string>
     <string name="confirm_btn_label">OК</string>
@@ -267,11 +267,11 @@
     <string name="toast_screen_icons_misplaced">Възстановено от други източници, някои икони може да разместени или липсват</string>
     <string name="screen_locked_toast">Оформлението за начален екран е заключено</string>
     <string name="widget_quick_function">Бързи функции</string>
-    <string name="menu_trans_effect">Ефект смяна на екрани</string>
-    <string name="menu_default_screen_preview">Настройки на екрана по подразбиране</string>
-    <string name="menu_cell_setting">Настройки на екран</string>
-    <string name="menu_auto_fill">Автом. запълване</string>
-    <string name="menu_lock">Заключен екран</string>
+    <string name="menu_trans_effect">Ефекти преход на екрани</string>
+    <string name="menu_default_screen_preview">Задай екран по подразбиране</string>
+    <string name="menu_cell_setting">Оформление на Начален екран</string>
+    <string name="menu_auto_fill">Запълване на празните клетки</string>
+    <string name="menu_lock">Оформление на Заключен екран</string>
     <string name="menu_more">Още</string>
-    <string name="default_screen_preview_title">Настройки на екрана по подразбиране</string>
+    <string name="default_screen_preview_title">Докоснете за да зададете като начален екран</string>
 </resources>

@@ -439,6 +439,7 @@
     <string name="gmail_web_login_go">OK</string>
     <string name="gmail_web_login_required_message">Влезте в Gmail</string>
     <string name="header_category_account">Профили</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">Обратна връзка</string>
     <string name="header_label_general_preferences">Общи настройки</string>
     <string name="help_and_info">Помощ</string>
@@ -778,8 +779,10 @@ Try a different inbox."</string>
     <string name="recognize_hotel_other_money">Other expenses %1$s</string>
     <string name="recognize_hotel_reverse_date">Check in before %1$s:%2$s %3$s</string>
     <string name="recognize_hotel_room_type">Room</string>
+    <string name="recognize_hotel_room_type_value">%1$s × %2$s</string>
     <string name="recognize_hotel_title">Hotel booking</string>
     <string name="recognize_hotel_user_names">Guest</string>
+    <string name="recognize_hotel_user_names_value">%1$s+%2$s</string>
     <string name="recognize_setting_title">Travel settings</string>
     <string name="recognize_ticket_air_notification_content">Enjoy your flight!</string>
     <string name="recognize_ticket_air_notification_title">Flight %3$s (%1$s/%2$s) will take off soon. Double check your flight info.</string>

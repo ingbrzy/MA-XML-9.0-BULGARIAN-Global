@@ -173,7 +173,7 @@
     <string name="deselect_all">Размаркирай всички</string>
     <string name="reverse_all">Изчисти всички</string>
     <string name="refresh">Опресни</string>
-    <string name="cloud_item_info_summary">" (Локално: %1$s | Mi Cloud: %2$s)"</string>
+    <string name="cloud_item_info_summary">" (Локално: %1$s | Mi Облак: %2$s)"</string>
     <string name="total_num">%d елементи,</string>
     <string name="cloud_restore_guide">За да възстановите потребителските данни за %s, натиснете Възстановяване</string>
     <string name="import_from_xiaomi_account_hint1">\"1.\u0009Изтеглете приложението MiTalk и се впишете. \u0009http://www.miliao.com 2.\u0009Отидете на MiTalk Settings и изберете ”Back up contacts to Mi Account”\"</string>
@@ -223,6 +223,7 @@
     <string name="file_uploading">Качва се…</string>
     <string name="new_backup">Рез. копие</string>
     <string name="restore_backup">Възстанови</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Един момент…</string>
     <string name="state_mounting">Достъп до хранилището на рутера…</string>
     <string name="abort_backup_confirm">Резервното копие не е завършено! Да спре ли въпреки това?</string>
