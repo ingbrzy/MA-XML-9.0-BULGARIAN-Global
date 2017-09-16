@@ -6,7 +6,6 @@
     <string name="sina_token_expired_warning">Акаунтът Ви във Weibo е изтекъл. Добавете го отново.</string>
     <string name="sina_token_invalid_warning">Акаунтът Ви във Weibo е невалиден, добавете го отново.</string>
     <string name="sina_share_fail_content_repeat">Вече сте споделили това.</string>
-    <string name="search_title_notes">@string/app_name</string>
     <string name="search_keyword_notes">Бележки;Напомняне</string>
     <string name="search_path_notes">Системни приложения/Бележки</string>
     <string name="dlg_move_message">Преместване…</string>
