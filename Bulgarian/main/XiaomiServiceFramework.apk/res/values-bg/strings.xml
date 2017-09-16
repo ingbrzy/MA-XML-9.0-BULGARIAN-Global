@@ -4,7 +4,7 @@
     <string name="xmsf_activate_info">XMSF информация за активиране</string>
     <string name="error_device_id_title">Не може да се получи ID на устройството</string>
     <string name="error_device_id_message">"Невалидно ID на устройството: %s
-ID на устройството трябва да бъде валиден IMEI или MAC адрес. Без него някои от функциите на Mi Профил и Mi Облак няма да са достъпни."</string>
+ID на устройството трябва да бъде валиден IMEI или MAC адрес. Без него някои от функциите на Mi профил и Mi Облак няма да са достъпни."</string>
     <string name="accept">ОК</string>
     <string name="xiaomi_cloud_service">Mi Cloud</string>
     <string name="sync_notification_title_format">Синхронизира се: %1$s</string>

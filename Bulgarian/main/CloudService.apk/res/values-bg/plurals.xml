@@ -29,7 +29,7 @@
         <item quantity="one">%d снимка</item>
     </plurals>
     <plurals name="dirty_callog_count">
-        <item quantity="other">%d записани хронология на обаждания</item>
+        <item quantity="other">%d записани хронологии на обаждания</item>
         <item quantity="one">%d записана история на обаждане</item>
     </plurals>
     <plurals name="dirty_wlan_count">

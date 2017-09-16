@@ -188,7 +188,6 @@
     <string name="global_actions">Опции на телефона</string>
     <string name="global_action_lock">Заключване на екрана</string>
     <string name="global_action_power_off">Изключване</string>
-    <string name="global_action_emergency">Спешно обаждане</string>
     <string name="global_action_bug_report">Сигнал за програмна грешка</string>
     <string name="bugreport_title">Сигнал за програмна грешка</string>
     <string name="bugreport_message">По този начин ще се събере информация за текущото състояние на устройството ви, която да се изпрати като имейл съобщение. След стартирането на процеса ще мине известно време, докато сигналът за програмна грешка бъде готов за подаване. Моля, имайте търпение.</string>
@@ -550,7 +549,6 @@
     <string name="lockscreen_pattern_correct">Правилно!</string>
     <string name="lockscreen_pattern_wrong">Опитайте отново</string>
     <string name="lockscreen_password_wrong">Опитайте отново</string>
-    <string name="lockscreen_storage_locked">Отключете за достъп до всички функции и данни</string>
     <string name="faceunlock_multiple_failures">Максималният брой опити за отключване с лице е надвишен</string>
     <string name="lockscreen_missing_sim_message_short">Няма SIM карта</string>
     <string name="lockscreen_missing_sim_message">В телефона няма SIM карта.</string>
@@ -802,9 +800,8 @@
     <string name="android_upgrading_title">Android се надстройва...</string>
     <string name="android_start_title">Android се стартира…</string>
     <string name="android_upgrading_fstrim">Хранилището се оптимизира.</string>
-    <string name="android_upgrading_notification_title">Актуализацията на Android приключва…</string>
+    <string name="android_upgrading_notification_title">Android се надстройва</string>
     <string name="android_upgrading_notification_body">Някои приложения може да не работят правилно, докато надстройването не завърши</string>
-    <string name="app_upgrading_toast">%1$s се надстройва…</string>
     <string name="android_upgrading_apk">Оптимизира се приложение %1$d от %2$d.</string>
     <string name="android_preparing_apk">%1$s се подготвя.</string>
     <string name="android_upgrading_starting_apps">Приложенията се стартират.</string>
@@ -845,10 +842,6 @@
     <string name="network_available_sign_in">Вход в мрежата</string>
     <string name="wifi_no_internet">Wi-Fi мрежата няма достъп до интернет</string>
     <string name="wifi_no_internet_detailed">Докоснете за опции</string>
-    <string name="network_switch_metered">Превключи се към %1$s</string>
-    <string name="network_switch_metered_detail">Устройството използва %1$s, когато %2$s няма достъп до интернет. Възможно е да бъдете таксувани.</string>
-    <string name="network_switch_metered_toast">Превключи се от %1$s към %2$s</string>
-    <string name="network_switch_type_name_unknown">неизвестен тип мрежа</string>
     <string name="wifi_watchdog_network_disabled">Не можа да се свърже с Wi-Fi</string>
     <string name="wifi_watchdog_network_disabled_detailed">" има лоша връзка с интернет."</string>
     <string name="wifi_connect_alert_title">Да се разреши ли връзката?</string>
@@ -924,6 +917,7 @@
     <string name="select_keyboard_layout_notification_message">Докоснете, за да изберете език и подредба</string>
     <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="candidates_style"><u>кандидати</u></string>
     <string name="ext_media_checking_notification_title">%s: Подготвя се</string>
     <string name="ext_media_checking_notification_message">Проверява се за грешки</string>
     <string name="ext_media_new_notification_message">Открито е ново хранилище (%s)</string>
@@ -1005,9 +999,8 @@
     <string name="vpn_text_long">Свързана с/ъс %s. Докоснете, за да управлявате мрежата.</string>
     <string name="vpn_lockdown_connecting">Установява се връзка с винаги включената виртуална частна мрежа (VPN)…</string>
     <string name="vpn_lockdown_connected">Установена е връзка с винаги включената виртуална частна мрежа (VPN)</string>
-    <string name="vpn_lockdown_disconnected">Няма връзка с винаги включената виртуална частна мрежа (VPN)</string>
     <string name="vpn_lockdown_error">Грешка във винаги включената виртуална частна мрежа (VPN)</string>
-    <string name="vpn_lockdown_config">Докоснете, за да настроите</string>
+    <string name="vpn_lockdown_config">Докоснете, за да конфигурирате</string>
     <string name="upload_file">Избор на файл</string>
     <string name="no_file_chosen">Няма избран файл</string>
     <string name="reset">Повторно задаване</string>
@@ -1086,7 +1079,7 @@
     <string name="storage_usb_drive_label">USB устройство от %s</string>
     <string name="storage_usb">USB хранилище</string>
     <string name="extract_edit_menu_button">Редактиране</string>
-    <string name="data_usage_warning_title">Сигнал за преноса на данни</string>
+    <string name="data_usage_warning_title">Предупрежд. за ползване на данни</string>
     <string name="data_usage_warning_body">Пренос и настройки: Докоснете за преглед.</string>
     <string name="data_usage_3g_limit_title">Достигнат лимит за 2G/3G данните</string>
     <string name="data_usage_4g_limit_title">Достигнат лимит за 4G данните</string>
@@ -1370,7 +1363,6 @@
     <string name="search_language_hint">Въведете име на език</string>
     <string name="language_picker_section_suggested">Предложени</string>
     <string name="language_picker_section_all">Всички езици</string>
-    <string name="region_picker_section_all">Всички региони</string>
     <string name="locale_search_menu">Търсене</string>
     <string name="work_mode_off_title">Работният режим е ИЗКЛЮЧЕН</string>
     <string name="work_mode_off_message">Разрешаване на функционирането на служебния потребителски профил, включително приложенията, синхронизирането на заден план и свързаните функции.</string>
@@ -1388,18 +1380,9 @@
     <string name="unpin_target">Освобождаване</string>
     <string name="app_info">Информация за приложението</string>
     <string name="negative_duration">-%1$s</string>
-    <string name="reset_retail_demo_mode_title">Да се нулира ли устройството?</string>
-    <string name="reset_retail_demo_mode_text">Докоснете, за да нулирате устройството</string>
-    <string name="demo_starting_message">Демонстрацията се стартира…</string>
-    <string name="demo_restarting_message">Устройството се нулира…</string>
-    <string name="demo_user_inactivity_timeout_title">Да се нулира ли устройството?</string>
-    <string name="demo_user_inactivity_timeout_countdown">Ще загубите всички промени и демонстрацията ще започне отново след %1$s секунди…</string>
-    <string name="demo_user_inactivity_timeout_left_button">Отказ</string>
-    <string name="demo_user_inactivity_timeout_right_button">Нулиране сега</string>
     <string name="audit_safemode_notification">Възстановете фабричните настройки на това устройство, за да го използвате без ограничения</string>
     <string name="audit_safemode_notification_details">Докоснете, за да научите повече.</string>
     <string name="suspended_widget_accessibility">%1$s: Деактивирано</string>
-    <string name="conference_call">Конферентно обаждане</string>
     <string name="lock_to_app_toast_accessible">За да освободите този екран, докоснете и задръжте бутона „Общ преглед“.</string>
     <string name="lock_to_app_description">\"Фиксирането на екрана заключва дисплея в един изглед. За да го освободите, докоснете и задръжте едновременно бутона за връщане назад и този за общ преглед.\"</string>
     <string name="lock_to_app_description_accessible">\"Фиксирането на екрана заключва дисплея в един изглед. За да го освободите, докоснете и задръжте бутона за общ преглед.\"</string>

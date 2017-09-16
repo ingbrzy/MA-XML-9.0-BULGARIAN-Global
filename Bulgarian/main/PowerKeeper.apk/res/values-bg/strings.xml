@@ -122,7 +122,7 @@
     <string name="config_scenario_policies_title">Варианти</string>
     <string name="scenario_policies_summary">Икономия на батерия се настройва към избрания вариант</string>
     <string name="sleep_config_enhance_title">Икономия в режим на готовност</string>
-    <string name="sleep_config_enhance_description">за да предскажем времето за сън, учейки се от използването на устройството, ние може да спрем работата на някои приложения и да ограничим използването на NFC, Защита на клавиатурата-уведомления, Синхронизиране, Bluetooth, GPS, мобилни данни и Wi-Fi.</string>
+    <string name="sleep_config_enhance_description">за да предскажем времето за сън, учейки се от използването на устройството, ние може да спрем работата на някои приложения и да ограничим използването на NFC, Защита на клавиатурата-известия, Синхронизиране, Bluetooth, GPS, мобилни данни и Wi-Fi.</string>
     <string name="scenario_policies_warmcontrol">Контрол на температурата</string>
     <string name="warm_configure">Настройки Контрол на температурата</string>
     <string name="important_warning">Внимание</string>
@@ -142,7 +142,7 @@
     <string name="power_config_ultimate_unlock_already">Всички менюта са отключени</string>
     <string name="extreme_power_config_mode_category">Свръх икономия на батерията</string>
     <string name="extreme_power_config_mode_title">Режим Свръх икономия на батерия</string>
-    <string name="extreme_power_config_mode_desc">Включването на тази услуга ще изключи синхронизирането, Bluetooth, GPS, NFC, режим двойно почукване, осветлението на бутоните, събуждане на екрана за уведомления, мигащата светлинна индикация, а Икономия на батерия ще бъде поставена на максимален режим</string>
+    <string name="extreme_power_config_mode_desc">Включването на тази услуга ще изключи синхронизирането, Bluetooth, GPS, NFC, режим двойно почукване, осветлението на бутоните, събуждане на екрана за известия, мигащата светлинна индикация, а Икономия на батерия ще бъде поставена на максимален режим</string>
     <string name="empty_title_apps_container_list">Няма приложения</string>
     <string name="hints_loading_text">Един момент…</string>
     <string name="config_mode_title">Настройки за работа на заден план</string>

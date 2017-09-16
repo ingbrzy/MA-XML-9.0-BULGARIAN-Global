@@ -7,7 +7,6 @@
     <string name="passport_login_title">Вписване във вашия Mi профил</string>
     <string name="passport_login">Вписване</string>
     <string name="passport_relogin">Ново вписване</string>
-    <string name="passport_instant_login">Влезте</string>
     <string name="passport_skip_login">Пропусни</string>
     <string name="passport_skip_setup_account_title">Пропускане</string>
     <string name="passport_skip_setup_account_msg">Може да настроите вашият Mi профил по-късно от \"Настройки\".</string>
@@ -82,7 +81,7 @@
     <string name="passport_delete_account">Отписване</string>
     <string name="passport_vcode_notification_title">Проверката при вписването ви не е завършила</string>
     <string name="passport_account_name">Профил: %1$s</string>
-    <string name="passport_account_hint_text">Електронна поща, телефонен номер или Mi Профил ID</string>
+    <string name="passport_account_hint_text">Електронна поща, телефонен номер или Mi профил ID</string>
     <string name="passport_email_or_id_hint_text">Имейл адрес или ID на MI профил</string>
     <string name="passport_phone_num_hint_text">Телефонен номер</string>
     <string name="passport_input_password_hint">Въведете парола</string>
@@ -109,6 +108,9 @@
     <string name="passport_completed">Завършване</string>
     <string name="passport_verify">Проверка</string>
     <string name="passport_restart">Започнете отначало</string>
+    <string name="passport_yes">Да</string>
+    <string name="passport_no">Не</string>
+    <string name="passport_continue">Продължи</string>
     <string name="passport_loading">Зарежда се…</string>
     <string name="passport_reging">Създава се профил…</string>
     <string name="passport_checking_account">Проверка на паролата…</string>
@@ -160,8 +162,8 @@
     <string name="passport_message_dialog_title">SMS с кодове за потвърждаване</string>
     <string name="passport_trust_device">Добави това устройство към потвърдените</string>
     <string name="passport_barcode_add_account_prompt">За да добавите профила, сканирайте QR кодът отново след като се впишете.</string>
-    <string name="passport_quick_register_notice"><u>Нямате Mi Профил? Направете си сега.</u></string>
-    <string name="passport_password_phone_login">Вписване с Mi Профил</string>
+    <string name="passport_quick_register_notice"><u>Нямате Mi профил? Направете си сега.</u></string>
+    <string name="passport_password_phone_login">Вписване с Mi профил</string>
     <string name="passport_login_other_account">Друг профил</string>
     <string name="passport_reg_new_account">Създайте профил</string>
     <string name="passport_select_the_login_account">Изберете профил за вписване</string>
@@ -174,20 +176,27 @@
     <string name="passport_error_verify_activator_phone_message">Уверете се, че вашата SIM карта е активна и телефонът ви е свързан с интернет.</string>
     <string name="passport_error_no_password_user">Не сте задали все още парола. Впишете се със SMS.</string>
     <string name="passport_phone_ticket_login">Вписване със SMS</string>
+    <string name="passport_quick_register">Регистриране</string>
     <string name="passport_account_set_password">Задайте парола</string>
     <string name="passport_account_set_password_title">Задайте парола</string>
     <string name="passport_account_set_password_prompt">Използване на паролата за следващото вписване във вашия профил.</string>
     <string name="passport_set">Задай</string>
+    <string name="passport_set_password_no_phone_msg">Добавете вашия телефонен номер за да защитите профила си.</string>
     <string name="passport_user_reg_region">Държава/Регион</string>
-    <string name="passport_user_id_notice">Ид парола: %s</string>
-    <string name="passport_user_reg_region_warning">Няма да можете да променяте вашите страна/регион, след като веднъж сте създали профила си</string>
-    <string name="passport_sync_account_data">Синхронизиране на данните в профила ви</string>
-    <string name="passport_sync_account_data_failed_warning">Данните за профила Ви няма да се запомнят и ще бъдат записани само с идентификационен номер на паролата. Ако използвате имейла си за вход, моля, изчакайте няколко минути</string>
+    <string name="passport_user_id_notice">Вашият Mi Профил ID е %s.</string>
+    <string name="passport_user_reg_region_warning">Няма да можете да променяте вашите страна/регион, след като веднъж сте създали профила си.</string>
+    <string name="passport_sync_account_data">Синхронизира се информация за профила…</string>
+    <string name="passport_sync_account_data_failed_warning">Вашият профил ще започне да се синхронизира сега, вие можете да се впишете, използвайки Mi Профил ID. Ако искате да се впишете в профила си, използвайки вашия телефонен номер или имейл, изчакайте докато информацията се синхронизира напълно.</string>
+    <string name="passport_confirm_recycle_account_msg">%s &lt;font color=Red>Внимание&lt;/font>Да се използва ли същата парола за този профил？</string>
+    <string name="passport_login_recycle_account_yes">Да</string>
+    <string name="passport_login_recycle_account_no">Не</string>
+    <string name="passport_reg_recycle_account_yes">Да</string>
+    <string name="passport_reg_recycle_account_no">Не</string>
     <string name="search_app_name">Mi Профил</string>
     <string name="search_mi_account">Mi Профил</string>
     <string name="search_mi_account_key_words">Mi Облак,Настройки на профил,Mi Плащане, Отписване</string>
     <string name="search_mi_account_desc">Mi Профил</string>
-    <string name="search_mi_account_path">Настройки/Mi Профил</string>
+    <string name="search_mi_account_path">Настройки/Mi профил</string>
     <string name="search_user_detail">Лична информация</string>
     <string name="search_user_detail_top_key_words">Лична информация, Промяна на профилната снимка, Промяна на потребителското име, Промяна на псевдоним, Промяна на дата на раждане, Промяна на пол</string>
     <string name="search_user_detail_bottom_key_words">Промяна на доход, Промяна на образование, Промяна на местоположение, Промяна на регион</string>
@@ -272,7 +281,7 @@
     <string name="confirm_phone_number_dialog_title">Потвърждаване на тел. номер</string>
     <string name="confirm_bundled_phone_dialog_title">Потвърждаване на асоцииран тел. номер</string>
     <string name="confirm_phone_number_dialog_message">Ще бъде изпратен код за проверка до: %s.</string>
-    <string name="confirm_unbundled_phone_dialog_message">Номерът %1$s е свързан с %2$s Mi Профил. Той няма повече да се отнася до Mi Профил %3$s ако продължите. Продължаване?</string>
+    <string name="confirm_unbundled_phone_dialog_message">Номерът %1$s е свързан с Mi Профил %2$s. Той няма повече да се отнася до Mi профил %3$s ако продължите. Продължаване?</string>
     <string name="change_phone_number">Промяна на телефонен номер</string>
     <string name="change_email_address">Промяна на имейл адрес</string>
     <string name="checking_phone_num_availible">Проверка на телефона…</string>
@@ -287,7 +296,7 @@
     <string name="restart_action">Рестарт</string>
     <string name="error_dup_binded_email">Този имейл адрес вече е свързан към друг Mi профил.</string>
     <string name="error_invalid_bind_address">Въведеният от вас имейл адрес е невалиден.</string>
-    <string name="get_phone_bind_exceed_limit">Вие сте свързали повече от 3 Mi Профила с този телефонен номер. Не можете да добавяте нови профили.</string>
+    <string name="get_phone_bind_exceed_limit">Вие сте свързали повече от 3 Mi профила с този телефонен номер. Не можете да добавяте нови профили.</string>
     <string name="just_a_second">Един момент…</string>
     <string name="get_phone_verifycode_exceed_limit">На този телефонен номер бяха изпратени прекалено много кодове за проверка. Опитайте отново след 24 часа.</string>
     <string name="mi_account_identity_title">Проверка на идентичността ви</string>
@@ -305,13 +314,14 @@
     <string name="update_email_address_dialog_message">Необходимо е да потвърдите самоличността си, преди да обновите имейл.</string>
     <string name="account_user_details">Потребителски данни</string>
     <string name="account_security">Сигурност на профила</string>
+    <string name="account_mibi_center">Mi Кредити</string>
     <string name="account_mipay_info">Mi плащане</string>
     <string name="account_xiaomi_service">Услуги</string>
     <string name="cloud_service">Облачни услуги</string>
     <string name="vip_account_settings">VIP Настройки</string>
     <string name="xiao_mi_vip">Mi VIP</string>
-    <string name="mi_vip_info">Виж ВИП права</string>
-    <string name="vip_settings_info">Настройка на ВИП информация</string>
+    <string name="mi_vip_info">Покажи предимствата</string>
+    <string name="vip_settings_info">VIP настройки</string>
     <string name="loading_micloud_sync_data">Зарежда се…</string>
     <string name="activity_not_found_notice">Не може да се открие приложението</string>
     <string name="scan_barcode_title">За да се впишете в Mi профила си, сканирайте QR кодът</string>
@@ -381,9 +391,9 @@
     <string name="verify_phone_prompt">Изберете номера за потвърждаване</string>
     <string name="sms_send_success">Изпрати</string>
     <string name="auth_fail_warning">Сесията е изтекла, опитайте по-късно</string>
-    <string name="find_device_message">Това устройство е заключено, изпратете съобщение на: %1$s, обадете се на номер: %2$s.</string>
-    <string name="find_device_owner_phone">Това устройство е заключено, обадете се на номер: %1$s.</string>
-    <string name="find_device_prompt_message">Това устройство е заключено, изпратете съобщение на:%1$s.</string>
+    <string name="find_device_message">Устройството е заключено. Съобщение: %1$s. Обаждане %2$s.</string>
+    <string name="find_device_owner_phone">Устройството е заключено. Обаждане %1$s.</string>
+    <string name="find_device_prompt_message">Устройството е заключено. Съобщение: %1$s.</string>
     <string name="find_device_activate_account">Активиране на профил</string>
     <string name="login_check_find_device">Получаване на оптимизация по сигурността…</string>
     <string name="unlock_help_notice">"Помощ:
@@ -399,7 +409,7 @@
     <string name="oauth_get_scopes_failed">Не може да се получи информация за профила</string>
     <string name="oauth_scopes_intro">&lt;font color=#%1$s>%2$s&lt;/font> ще получи следните разрешения:&lt;br> &lt;br> %3$s</string>
     <string name="guest_account_label">Mi профил за посетители</string>
-    <string name="push_notification_title">Регистрирали сте се с вашия Mi Профил от непознато устройство</string>
+    <string name="push_notification_title">Регистрирали сте се с вашия Mi профил от непознато устройство</string>
     <string name="push_notification_content">Получава се код за проверка</string>
     <string name="push_notify_dialog_title">Потвърждение на профила</string>
     <string name="push_notify_dialog_message">Непознато устройство е използвано за вписване във вашия Mi профил. Въведете код за потвърждение от това устройство. Ако не сте били вие, веднага сменете паролата на профила си. Не предоставяйте кода за потвърждение на други хора.</string>
@@ -425,5 +435,5 @@
     <string name="account_token_expired_title">Оторизацията е неуспешна</string>
     <string name="account_token_expired_msg">"Кодът за потвърждение е изтекъл, започнете отново или се отпишете от 
  Вашия профил ИД: %s"</string>
-    <string name="bind_safe_phone_msg">Добави сигурен телефонен номер за следващо вписване</string>
+    <string name="bind_safe_phone_msg">Добавете вашия номер за да може да се впишете в Mi Профила си следващия път.</string>
 </resources>

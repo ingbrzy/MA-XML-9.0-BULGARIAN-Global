@@ -57,7 +57,7 @@
     <string name="input_password_after_boot_msg">За да отключите вашето устройство, въведете паролата си</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">Трябва да влезете в Основно работно място след рестарт на устройството</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Не може да се превключва между пространства по време на обаждане</string>
-    <string name="input_password_handle_sdcard_fs">Изключете Оптимизация на карта с памет, преди да използвате Второ пространство.</string>
+    <string name="input_password_handle_sdcard_fs">Изключете Оптимизация на SD карта, преди да използвате Второ пространство.</string>
     <string name="accessibility_enter_lock_wallpaper">Чукнете, за да отворите Wallpaper Carousel</string>
     <string name="lock_wallpaper_learn_more">Още</string>
     <string name="lock_wallpaper_enter">Въвеждане</string>
@@ -111,7 +111,7 @@
     <string name="face_data_manage_delete">Изтриване на лицевите данни?</string>
     <string name="face_data_manage_delete_sure">Няма да можете да отключите устройството си с вашите лицеви данни, след като ги изтриете.</string>
     <string name="face_unlock_by_notification_screen_on_title">Разрешете отключването с лице при включване на екрана</string>
-    <string name="face_unlock_by_notification_screen_on_msg">Вие можете да отключвате устройството, използвайки лицеви данни, всеки път, когато екранът светне за входящи уведомления. Това може да изразходи батерията по-бързо.</string>
+    <string name="face_unlock_by_notification_screen_on_msg">Вие можете да отключвате устройството, използвайки лицеви данни, всеки път, когато екранът светне за входящи известия. Това може да изразходи батерията по-бързо.</string>
     <string name="face_unlock_not_found">Не сте разпознат</string>
     <string name="face_unlock_adjust_distance">Уверете се, че разстоянието между вашето лице и устройство е оптимално.</string>
     <string name="face_unlock_close_screen">Приближете се към екрана</string>

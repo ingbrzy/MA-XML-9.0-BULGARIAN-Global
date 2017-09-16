@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Няма</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -72,7 +74,7 @@
     <string name="bluetooth_pairing_decline">Отказ</string>
     <string name="bluetooth_pairing_will_share_phonebook">Сдвояването разрешава достъп до вашите контакти и история на повиквания, когато е свързан.</string>
     <string name="bluetooth_pairing_error_message">Неуспешно сдвояване с %1$s.</string>
-    <string name="bluetooth_pairing_pin_error_message">Неуспешно сдвояване с %1$s защото не са въведени правилни ПИН или парола.</string>
+    <string name="bluetooth_pairing_pin_error_message">Неуспешно сдвояване с %1$s защото не са въведени правилни PIN или парола.</string>
     <string name="bluetooth_pairing_device_down_error_message">Няма отговор от %1$s.</string>
     <string name="bluetooth_pairing_rejected_error_message">Сдвояването е отхвърлено от %1$s.</string>
     <string name="accessibility_wifi_off">WiFi е изключен.</string>
@@ -475,7 +477,7 @@ d MMMM"</string>
     <string name="usb_mtp_text">Файлове</string>
     <string name="usb_notification_mtp_ticker_text">Връзка през USB (MTP)</string>
     <string name="usb_notification_ptp_ticker_text">Връзка през USB (PTP)</string>
-    <string name="user_guide_for_notification">Плъзнете надолу, за да отворите панела с уведомления</string>
+    <string name="user_guide_for_notification">Плъзнете надолу, за да отворите лентата с известия</string>
     <string name="user_guide_for_toggle">Списъкът с превключвателите може да бъде преглеждан и хоризонтално</string>
     <string name="user_guide_for_toggle_list">Управление на превключвателите</string>
     <string name="activate_usb_title">Активиране на USB</string>
@@ -646,6 +648,9 @@ d MMMM"</string>
     <string name="quick_settings_bluetooth_label">Bluetooth</string>
     <string name="quick_settings_bluetooth_detail_empty_text">Няма налични сдвоени устройства</string>
     <string name="accessibility_ime_switch_button">Смяна на метода за въвеждане.</string>
+    <string name="accessibility_settings">Настройки</string>
+    <string name="accessibility_search_scanner">Скенер</string>
+    <string name="accessibility_brightness_slider">Плъзгач за Яркост</string>
     <string name="click_to_return_multi_window">Чукнете за да се върнете в Разделен екран</string>
     <string name="recent_dock_tip">Чукнете за избор на приложения</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">Разделен екран не се поддържа върху Заключен екран.</string>
@@ -654,6 +659,6 @@ d MMMM"</string>
     <string name="as_unimportant">Маловажно</string>
     <string name="unimportant_title">Маловажно</string>
     <string name="unimportant_desc">Всички маловажни известия ще бъдат показвани в отделна папка.</string>
-    <string name="important_desc">Всички важни известия ще бъдат показвани в Панела за уведомления.</string>
+    <string name="important_desc">Всички важни известия ще бъдат показвани в лентата с известия.</string>
     <string name="cancel">Отказ</string>
 </resources>

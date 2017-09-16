@@ -8,8 +8,7 @@
     <string name="wifi_disabled_wifi_failure">Неуспешна връзка с Wi-Fi</string>
     <string name="wifi_disabled_password_failure">Проблем при удостоверяването</string>
     <string name="wifi_not_in_range">Извън обхват</string>
-    <string name="wifi_no_internet_no_reconnect">Не е открит достъп до интернет. Връзката няма да се възобнови автоматично.</string>
-    <string name="wifi_no_internet">Няма достъп до интернет.</string>
+    <string name="wifi_no_internet">Не е открит достъп до интернет. Няма да се свърже отново автоматично.</string>
     <string name="saved_network">Запазено от %1$s</string>
     <string name="connected_via_wfa">Установена е връзка чрез помощника за Wi-Fi</string>
     <string name="connected_via_passpoint">Установена е връзка през „%1$s“</string>
@@ -145,15 +144,12 @@
     <string name="wifi_allow_scan_with_traffic_summary">Разрешаване/забраняване на сканирането за роуминг на Wi-Fi въз основа на посочения в интерфейса обем на трафика на данни</string>
     <string name="select_logd_size_title">Размери на регистрац. буфери</string>
     <string name="select_logd_size_dialog_title">Размер на един рег. буфер: Избор</string>
-    <string name="dev_logpersist_clear_warning_title">Да се изчистят ли трайно съхраняваните регистрационни данни?</string>
-    <string name="dev_logpersist_clear_warning_message">Когато спрем да извършваме наблюдения посредством програмата за трайно записване в регистрационни файлове, трябва да изтрием съхраняваните на устройството ви данни от нея.</string>
-    <string name="select_logpersist_title">Рег. данни да се съхр. трайно на у-вото</string>
-    <string name="select_logpersist_dialog_title">Изберете кои регистрационни буфери да се съхраняват за постоянно на устройството</string>
     <string name="select_usb_configuration_title">Избиране на конфигурация за USB</string>
     <string name="select_usb_configuration_dialog_title">Избиране на конфигурация за USB</string>
     <string name="allow_mock_location">Разрешаване на измислени местоположения</string>
     <string name="allow_mock_location_summary">Разрешаване на измислени местоположения</string>
     <string name="debug_view_attributes">Актив. на инспектирането на атрибутите за преглед</string>
+    <string name="legacy_dhcp_client_summary">Използване на клиентската програма за DHCP от Lollipop вместо новата програма на Android.</string>
     <string name="mobile_data_always_on_summary">Мобилните данни са активни винаги – дори когато функцията за Wi‑Fi е включена (за бързо превключване между мрежите).</string>
     <string name="adb_warning_title">Разрешаване на отстраняването на грешки през USB?</string>
     <string name="adb_warning_message">Отстраняването на грешки през USB е предназначено само за програмни цели. Използвайте го за копиране на данни между компютъра и устройството си, за инсталиране на приложения на устройството си без известяване и за четене на регистрационни данни.</string>
@@ -203,6 +199,8 @@
     <string name="debug_layout_summary">Показв. на границите на изрязване, полетата и др.</string>
     <string name="force_rtl_layout_all_locales">Принуд. оформл. отдясно наляво</string>
     <string name="force_rtl_layout_all_locales_summary">Принуд. оформл. на екрана отдясно наляво за вс. локали</string>
+    <string name="show_cpu_usage">Употреба на процесора</string>
+    <string name="show_cpu_usage_summary">Наслагване на екрана показва употр. на процесора</string>
     <string name="force_hw_ui">Принудително изобразяване</string>
     <string name="force_hw_ui_summary">Принуд. използв. на GPU за двуизмерно начертаване</string>
     <string name="force_msaa">Задаване на 4x MSAA</string>
@@ -286,7 +284,6 @@
     <string name="screen_zoom_summary_extremely_large">Най-голямо</string>
     <string name="screen_zoom_summary_custom">Персонализирано (%d)</string>
     <string name="help_feedback_label">Помощ и отзиви</string>
-    <string name="content_description_menu_button">Меню</string>
     <string name="app_name">Инсталираща програма за пакети</string>
     <string name="next">Напред</string>
     <string name="install">Инсталиране</string>
@@ -354,7 +351,7 @@
     <string name="grant_dialog_button_deny">Отказване</string>
     <string name="grant_dialog_button_deny_anyway">Отказване въпреки това</string>
     <string name="current_permission_template">%1$s от %2$s</string>
-    <string name="permission_warning_template">Разрешаване на &lt;b>%1$s&lt;/b> да %2$s?</string>
+    <string name="permission_warning_template">Да се разреши ли на &lt;b>%1$s&lt;/b> следното действие: %2$s?</string>
     <string name="grant_dialog_button_allow">Разрешаване</string>
     <string name="app_permissions_breadcrumb">Приложения</string>
     <string name="app_permissions">Разрешения за приложения</string>
@@ -410,7 +407,6 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="abc_capital_on">ВКЛ.</string>
     <string name="abc_capital_off">ИЗКЛ.</string>
-    <string name="search_menu_title">Търсене</string>
     <string name="lb_navigation_menu_contentDescription">Меню за навигация</string>
     <string name="orb_search_action">Действие за търсене</string>
     <string name="lb_search_bar_hint">Търсете</string>

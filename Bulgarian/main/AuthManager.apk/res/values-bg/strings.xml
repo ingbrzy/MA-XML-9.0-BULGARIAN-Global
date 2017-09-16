@@ -94,6 +94,7 @@
     <string name="location_settings">Настройки за местоположения</string>
     <string name="location_warning">%1$s е доставчик на данни за местоположението. Достъпа до местоположението може да се промени от настройките.</string>
     <string name="permission_warning_template">Разрешавате ли %1$s на %2$s ?</string>
+    <string name="permission_warning_template_ask">Да разреша ли на %1$s следните права?</string>
     <string name="screen_overlay_title">Засечено е наслагване на екрана</string>
     <string name="screen_overlay_message">За да промените настройката за разешението, първо трябва да изключите наслагването на екрана в Настройки > Приложения</string>
     <string name="screen_overlay_button">Отваряне на настройки</string>

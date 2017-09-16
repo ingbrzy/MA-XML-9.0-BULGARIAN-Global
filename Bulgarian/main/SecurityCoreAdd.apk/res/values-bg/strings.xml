@@ -61,13 +61,15 @@
     <string name="cancel_button">Отказ</string>
     <string name="list_empty_text">Празно</string>
     <string name="xspace_label">Клонирани приложения</string>
-    <string name="xspace_setting_label">Настройки на клонирани приложения</string>
-    <string name="xspace_account">Профил в клонирани приложения</string>
+    <string name="xspace_setting_label">Настройки за клонирани приложения</string>
+    <string name="xspace_account">Профили за клонирани приложения</string>
     <string name="declare_dialog_title">За клонираните приложения</string>
     <string name="xspace_loading_msg">Зареждане на приложения…</string>
     <string name="xspace_header">Клонирани приложения</string>
     <string name="xspace_introduce">Препоръчани</string>
-    <string name="xspace_description">Клонирането ще създаде копие на приложението на началния екран, като двете приложения ще се изпълняват самостоятелно. Ще са необходими и инсталирани услуги на Google за безпроблемна работа</string>
+    <string name="xspace_description">"Клонираните приложения са копия, които могат да се използват отделно с различен профил.
+
+Някои клонирани приложения изискват наличието на Google Services Framework. В тези случаи е необходимо да се клонира и Google Services Framework."</string>
     <string name="xspace_chocie">Други прил.</string>
     <string name="xspace_creating">Клониране на прил.…</string>
     <string name="xspace_installing">Инсталиране…</string>
@@ -264,7 +266,7 @@
     <string name="other">Други</string>
     <string name="airspace_users_full">Не може да се създадат повече Работни места</string>
     <string name="same_qr_code_title">%s вече съществува</string>
-    <string name="same_qr_code_des">Изглежда, че това работно място вече съществува. Можете да използвате основния екран или прекия път в полето за уведомяване, за да отидете там. Влизане сега?</string>
+    <string name="same_qr_code_des">Изглежда, че това работно място вече съществува. Можете да използвате основния екран или прекия път в лентата за известия, за да отидете там. Влизане сега?</string>
     <string name="same_qr_code_enter_space">Влезте в Работното място</string>
     <string name="same_qr_code_create_space">Създайте друго</string>
     <string name="not_support_air_space">Тази услуга не се поддържа от вашия телефон</string>
@@ -275,7 +277,7 @@
     <string name="can_not_switch_when_calling">Не може да се превключва между пространства по време на обаждане</string>
     <string name="can_not_delete_when_calling">Не може да се изтриват пространства по време на обаждане</string>
     <string name="support_desc">Услугите за безопасност са предоставени от Graphite</string>
-    <string name="sdcardfs_dialog_message">Изключете Оптимизация на карта с памет в меню Опции за програмиста, преди да влезете във второ пространство.</string>
+    <string name="sdcardfs_dialog_message">Изключете Оптимизация на SD карта в меню Опции за програмиста, преди да влезете във второ пространство.</string>
     <string name="do_not_ask">Не питай повече</string>
     <string name="gpg_message">Създаването на клонирани игри изисква работа с Google Play Игри. Да клонирам ли приложението Google Play Игри?</string>
     <string name="gpg_title">Клониране на Google Play Игри</string>
@@ -292,14 +294,14 @@
     <string name="input_space_finger">Задай сега</string>
     <string name="space_finger_sub_text">Задай пръстов отпечатък за второ работно място</string>
     <string name="set_space_finger_sub_text_suc">Успешно зададен пръстов отпечатък</string>
-    <string name="show_noti_from_owner">Уведомления от другото работно място</string>
-    <string name="show_noti_from_owner_detail">Получаване на уведомления в текущото работно място, когато те идват от другото</string>
+    <string name="show_noti_from_owner">Известия от другото работно място</string>
+    <string name="show_noti_from_owner_detail">Получаване на известия в текущото работно място, когато те идват от другото</string>
     <string name="show_noti_quick_switch_icon">Пряк път в лентата с известия</string>
     <string name="show_noti_quick_switch_icon_detail">Покажи пряк път за превключване между работните места в лентата с известия</string>
     <string name="show_decktop_quick_switch_icon">Пряк път на началния екран</string>
     <string name="show_decktop_quick_switch_icon_detail">Покажи пряк път за превключване между работните места на началния екран в Основното работно място</string>
-    <string name="has_created_second_space">"Може да отворите Второто работно място сега.
- Едно устройство. Две места."</string>
+    <string name="has_created_second_space">"Вие може отворите Второ работно място сега. 
+ две места, едно устройство."</string>
     <string name="privacy_password_fingerprint_dialog_title">Сканирайте отпечатъка си</string>
     <string name="privacy_password_fingerprint_dialog_message">Поставете пръста си върху сензора</string>
 </resources>

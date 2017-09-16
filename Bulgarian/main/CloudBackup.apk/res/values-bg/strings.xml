@@ -13,7 +13,7 @@
     <string name="cloud_app_restore_app_and_data">Задайте вашето устройство</string>
     <string name="cloud_app_restore_data">Личните данни и инсталираните по-рано приложения автоматично ще се появят на вашето устройство</string>
     <string name="cloud_app_dont_restore">Задай като ново устройство</string>
-    <string name="cloud_app_restore_wifi_prompt">За да възстановявате рез. копие от Mi Cloud, трябва да сте свързани към Wi-Fi мрежа.</string>
+    <string name="cloud_app_restore_wifi_prompt">Възстановяване от резервно копие в Mi Облак.</string>
     <string name="cloud_backup_detail_state">Рез. копие в Mi Cloud</string>
     <string name="cloud_backup_detail_state_summary">Приложения, начални екрани и системни настройки</string>
     <string name="cloud_backup_detail_frequence">Резервно копие по график</string>
@@ -121,4 +121,5 @@
     <string name="btn_skip">Пропусни тази стъпка</string>
     <string name="can_not_restore_in_lite_mode">Не може да се възстанови в Лесен режим</string>
     <string name="can_not_backup_in_lite_mode">Не може да се архивира в Лесен режим</string>
+    <string name="restore_data_title">Възстановяване на данни</string>
 </resources>

@@ -66,8 +66,8 @@
     <string name="card_title_video_conf_call">Видеоконферентен разговор</string>
     <string name="card_title_threeway_call">Тристранно повикване</string>
     <string name="card_title_incoming_call">Вх. обаждане</string>
-    <string name="card_title_answering">Отговор на обаждане</string>
-    <string name="card_title_answering_time_out">Не можа да се отговори на обаждането, опитайте отново.</string>
+    <string name="card_title_answering">Отговор на повикване</string>
+    <string name="card_title_answering_time_out">Не можа да се отговори на повикването, опитайте отново.</string>
     <string name="card_title_call_ended">Обаждането завърши</string>
     <string name="card_title_on_hold">Задържане на обаждането</string>
     <string name="card_title_hanging_up">Приключване на разговора</string>

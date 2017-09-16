@@ -272,4 +272,8 @@
         <item quantity="other">Не могат да се добавят %d игри</item>
         <item quantity="one">Не може да се добави %d игра</item>
     </plurals>
+    <plurals name="net_booster_expire_notification_tip">
+        <item quantity="other">%d дни остават, преди Мрежов ускорител да приключи своята сесия. Подновете я сега, за да се предпазите от проблеми със скоростта.</item>
+        <item quantity="one">%d ден остава, преди Мрежов ускорител да приключи своята сесия. Подновете я сега, за да се предпазите от проблеми със скоростта.</item>
+    </plurals>
 </resources>

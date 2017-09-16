@@ -71,13 +71,14 @@
 
 По всяко време можете да включите или изключите услугата от Настройки.
 \""</string>
-    <string name="sync_dspt_entrance_provision">"Синхронизиране на вашите снимки, контакти и съобщения, както и локализиране на устройството ви от всеки браузър на %s. "</string>
+    <string name="sync_dspt_entrance_provision">"Mi Облак ви помага да синхронизирате снимки, контакти и др. между вашите устройства. Вие може да имате достъп до тези неща от всеки един браузър на %s. "</string>
     <string name="sync_dspt_entrance_provision_2">Научете повече</string>
     <string name="sync_dspt_entrance_provision_confirm_close">Не използвай</string>
     <string name="sync_dspt_entrance_provision_confirm_open">Използвай Mi Cloud</string>
     <string name="sync_dspt_entrance_provision_confirm_title">Да не се ли използва Mi Cloud?</string>
     <string name="sync_dspt_entrance_provision_confirm_content">Вградените MIUI приложения се нуждаят от Mi Cloud за архивиране на вашите снимки, контакти, бележки и др. Mi Cloud е безплатен и готов за употреба.</string>
     <string name="sync_dspt_entrance_provision_skip">Прескочи тази стъпка</string>
+    <string name="sync_dspt_entrance_provision_network">Това приложение се нуждае от достъп до интернет, за да работи нормално. Синхронизирането може да ви свърже с мобилни данни и да включи Wi-Fi.</string>
     <string name="find_device_dspt_provision">Ако загубите устройството си, можете да отидете на %s, за да го локализирате, заключите или нулирате. Функцията се управлява от Настройки.</string>
     <string name="find_device_dspt_provision_2">i.mi.com</string>
     <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
@@ -122,8 +123,8 @@
     <string name="enable_find_device_success">Открий устройството е вкл.</string>
     <string name="activate_find_device_success">Намери устройството беше активирано.</string>
     <string name="disable_find_device_success">Открий устройството е изкл.</string>
-    <string name="find_device_pref_alert_title">Запомняне на вашите Mi Профил ID и парола</string>
-    <string name="find_device_pref_alert_content">Намери устройството е свързана с вашия Mi Профил услуга. Необходимо е да зададете парола или въведете паролата, която сте задали. Уверете се, че помните вашите потребителско име и парола за Mi Профил. Изходящо съобщение ще бъде изпратено за активация на тази услуга. Вашият оператор ще ви таксува за това допълнително. Когато смените вашата SIM карта, съобщението ще бъде изпратено автоматично отново за активация на тази услуга.</string>
+    <string name="find_device_pref_alert_title">Запомняне на вашите Mi профил ID и парола</string>
+    <string name="find_device_pref_alert_content">Намери устройството е свързана с вашия Mi профил услуга. Необходимо е да зададете парола или въведете паролата, която сте задали. Уверете се, че помните вашите потребителско име и парола за Mi профил. Изходящо съобщение ще бъде изпратено за активация на тази услуга. Вашият оператор ще ви таксува за това допълнително. Когато смените вашата SIM карта, съобщението ще бъде изпратено автоматично отново за активация на тази услуга.</string>
     <string name="find_device_pref_alert_positive">OК</string>
     <string name="find_device_pref_alert_negtive">Не, благодаря</string>
     <string name="enable_find_device_error">Не може да се включи \"Открий устройството\". %1$s</string>
@@ -408,7 +409,7 @@
     <string name="micloud_main_title_sync_on_wifi">Изп. на Wi-Fi</string>
     <string name="micloud_main_title_sync_off">Изкл. синхр.</string>
     <string name="micloud_main_title_master_sync_off">Авт. синхр. е изкл.</string>
-    <string name="micloud_main_message_master_sync_off">Настройката за автоматично синхр. е в панела за уведомления.</string>
+    <string name="micloud_main_message_master_sync_off">Настройката за автоматично синхр. е в лентата с известия.</string>
     <string name="micloud_main_error_network_disallowed">Моля, осигурете права за достъп до Интернет.</string>
     <string name="micloud_main_error_activated_fail">Моля, активирайте SIM картата си.</string>
     <string name="micloud_main_error_permission_limit">Моля, одобрете достъпа до базата с данни на Mi Облак.</string>
@@ -489,7 +490,7 @@
     <string name="micloud_find_device_finish">Готово</string>
     <string name="micloud_find_device_guide_micloud">Включване на Синхр. с Mi Cloud</string>
     <string name="micloud_find_device_guide_micloud_sub_content">Синхронизиране на контакти, снимки, бележки и др. с Mi Cloud</string>
-    <string name="micloud_find_device_guide_fail_reopen">Можете да включите Намери устройство в своя Mi Профил - Mi Облак</string>
+    <string name="micloud_find_device_guide_fail_reopen">Можете да включите Намери устройство в своя Mi профил - Mi Облак</string>
     <string name="micloud_find_device_guide_fail_sub_net">Проверете връзката си и опитайте отново.</string>
     <string name="micloud_find_device_guide_fail_sub_timeout">Времето за свързване изтече. Опитайте отново по-късно.</string>
     <string name="micloud_find_device_guide_noti_title">Включване на Открий устройството</string>
@@ -500,8 +501,8 @@
     <string name="micloud_find_device_guide_noti_content_by_app_change_zfb">Your Alipay data will be safe even if you lose your device</string>
     <string name="micloud_find_device_guide_noti_title_by_app_change_qq">QQ recommends you to turn on Find device</string>
     <string name="micloud_find_device_guide_noti_content_by_app_change_qq">Your QQ data will be safe even if you lose your device</string>
-    <string name="micloud_find_device_guide_alert_title">Запомняне на вашите Mi Профил ID и парола</string>
-    <string name="micloud_find_device_guide_alert_content">Намери устройство е свързана с вашия Mi Профил услуга. Необходимо е да зададете парола или въведете паролата, която сте задали. Уверете се, че помните вашите потребителско име и парола в Mi Профил.</string>
+    <string name="micloud_find_device_guide_alert_title">Запомняне на вашите Mi профил ID и парола</string>
+    <string name="micloud_find_device_guide_alert_content">Намери устройство е свързана с вашия Mi профил услуга. Необходимо е да зададете парола или въведете паролата, която сте задали. Уверете се, че помните вашите потребителско име и парола в Mi профил.</string>
     <string name="micloud_find_device_guide_alert_positive">OК</string>
     <string name="micloud_find_device_guide_alert_negtive">Не, благодаря</string>
     <string name="micloud_find_device_guide_alert_negtive_activate">Не, благодаря</string>

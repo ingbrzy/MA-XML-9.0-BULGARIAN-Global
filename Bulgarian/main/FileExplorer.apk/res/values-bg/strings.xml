@@ -199,7 +199,7 @@
     <string name="port_range">Портът трябва да бъде между 1024–65535</string>
     <string name="file_name_invalid">Имената на файловете не може да съдържат следните символи: /\\:*?&amp;lt;&amp;gt;</string>
     <string name="rename_alert">Ако промените разширението на файла, може да не успеете да го отворите.</string>
-    <string name="rename_alert2">Ако промените разширението, файлът няма да може да се отвори</string>
+    <string name="rename_alert2">Файлът ще бъде скрит след като промените разширението му.</string>
     <string name="search_file_type_picture">Снимки</string>
     <string name="search_file_type_video">Видео</string>
     <string name="search_file_type_music">Музика</string>
@@ -247,7 +247,7 @@
     <string name="app_name_midrop">Mi Drop</string>
     <string name="data_consumption_title">Свързване към интернет</string>
     <string name="data_consumption_message">Приложението се нуждае от връзка към интернет чрез Wi-Fi, за да работи нормално.</string>
-    <string name="data_consumption_message1">Видео и Стикери се нуждаят от връзка с интернет чрез Wi-Fi, за да работят нормално.</string>
+    <string name="data_consumption_message1">Приложението Файлове се нуждае от достъп до интернет за да направи популярните видеоклипове и стикери достъпни.</string>
     <string name="data_consumption_checkbox_hint">Не показвай отново</string>
     <string name="data_consumption_confirm">ОК</string>
     <string name="data_consumption_cancel">Изход</string>
@@ -291,8 +291,8 @@
     <string name="network_spent_reminding_title">Известие за мобилни данни</string>
     <string name="network_spent_reminding">Отварянето на тази страница изисква трафик от мобилните ви данни.</string>
     <string name="shared_sticker_use_tip_title">Как да използвате стикери</string>
-    <string name="shared_sticker_use_tip">"Може да изпратите стикерите, които са запазени в WeChat, също както изпращате изображения.
-(GIFs могат да бъдат добавени като потребителски стикери във WeChat)."</string>
+    <string name="shared_sticker_use_tip">"Може да изпратите стикерите, които са запазени в WeChat, също както изпращате изображения. (
+GIFs могат да бъдат добавени като потребителски стикери във WeChat)."</string>
     <string name="shared_sticker_page_no_file">Няма връзка с мрежата. Проверете интернет-настройките и опитайте отново</string>
     <string name="shared_sticker_network_permission_tip">Няма връзка с мрежата. Проверете интернет-настройките и опитайте отново</string>
     <string name="transfer_private_data">Преместване на частни файлове от SD картата…</string>
@@ -409,7 +409,7 @@
     <string name="enable_documentsui">Първо включете %s от Настройки - Инсталирани приложения</string>
     <string name="not_installed_documentsui">DocumentsUI не е инсталиран</string>
     <string name="title_enable_documentsui">Включете DocumentsUI</string>
-    <string name="server_error">Грешка в сървъра, опитайте отново по-късно. (Грешка %s)</string>
+    <string name="server_error">Грешка в сървъра. Опитайте по-късно (Error %s).</string>
     <string name="network_not_available">Няма връзка с мрежи</string>
     <string name="request_timeout">Времето за изчакване на мрежова връзка изтече.</string>
     <string name="login_expired">Сесията ви изтече. Моля, впишете се отново.</string>

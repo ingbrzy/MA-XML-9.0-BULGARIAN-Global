@@ -7,6 +7,7 @@
     <string name="addBlackList">Добави към блокирани</string>
     <string name="add_attachment">Добави прик. файлове</string>
     <string name="add_contact">Добави контакт</string>
+    <string name="add_miui_contact">Mi Карта</string>
     <string name="add_music">Добави музика</string>
     <string name="add_number_to_sender">Добави номер към %s</string>
     <string name="add_picture">Добави снимка</string>
@@ -372,7 +373,7 @@
     <string name="pref_delivery_ringtone">Звук за доставено съобщение</string>
     <string name="pref_edit_smsc_address">Номер на SMS-център</string>
     <string name="pref_forward_title">Препращане</string>
-    <string name="pref_hide_verification_code_summary">Автоматично скриване на данни за сигурност в уведомленията за съобщение на заключен екран</string>
+    <string name="pref_hide_verification_code_summary">Автоматично скриване на данни за сигурност в известията за съобщение на заключен екран</string>
     <string name="pref_messages_to_save">Задай броя на съобщения за запазване в кореспонденцията</string>
     <string name="pref_mms_settings_title">Настройки на съобщения (MMS)</string>
     <string name="pref_msg_trash_bin_title">Наскоро изтрити съобщения</string>
@@ -385,8 +386,10 @@
     <string name="pref_show_sms_template_in_summary">Автоматично засичане на OTP в SMS съобщенията</string>
     <string name="pref_show_sms_template_summary">Включете смарт функциите на Mi Message - копиране на кодове, проверка на сметката и т.н.</string>
     <string name="pref_smart_messages_settings">Тарикатски съобщения</string>
+    <string name="pref_sms_storage_title">Хранилище</string>
     <string name="pref_sms_theme_title">Настройки на теми</string>
     <string name="pref_summary_allow_si_sl_push">Позволете получаване на WAP Push съобщения (SI/SL)</string>
+    <string name="pref_summary_auto_delete">Изтрий старите съобщения, когато е достигнат лимита</string>
     <string name="pref_summary_delete_limit">Брой съобщения в кореспонденция: %1$s</string>
     <string name="pref_summary_delivery_reports">Показване на статуса за доставка на изпратените съобщения</string>
     <string name="pref_summary_delivery_ringtone">Получаване на звуково известие за изпратено съобщение.</string>
@@ -404,6 +407,7 @@
     <string name="pref_system_title">Система</string>
     <string name="pref_title_about_smart_sms">Всичко за партньорите на облачни съобщения</string>
     <string name="pref_title_allow_si_sl_push">Разреши WAP push</string>
+    <string name="pref_title_auto_delete">Изтрий старите съобщения</string>
     <string name="pref_title_card_format">Формат на визитките</string>
     <string name="pref_title_delivery_reports">Потвърждения за доставка</string>
     <string name="pref_title_fwd_sender_info">Кой препраща</string>
@@ -412,6 +416,8 @@
     <string name="pref_title_mms_auto_retrieval">Зареждане на съобщения</string>
     <string name="pref_title_mms_delete">Максимално количество MMS</string>
     <string name="pref_title_mms_read_reports">Доклад за прочитане на MMS</string>
+    <string name="pref_title_mms_retrieval_during_international_roaming">Изтегли съдържанието на MMS в международен роуминг</string>
+    <string name="pref_title_mms_retrieval_during_national_roaming">Изтегли съдържанието на MMS в национален роуминг</string>
     <string name="pref_title_mms_retrieval_during_roaming">Зареждане при роуминг</string>
     <string name="pref_title_mms_validity_period">Период на валидност на MMS</string>
     <string name="pref_title_notification_body_enabled">Показване на съобщенията на закл. екран</string>

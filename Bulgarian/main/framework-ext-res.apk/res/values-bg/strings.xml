@@ -151,7 +151,7 @@
     <string name="standard_title">Без звук</string>
     <string name="total_title">Режим Не безпокойте</string>
     <string name="description_title">Тих режим</string>
-    <string name="standard_description">Заглуши звука за входящи повиквания и уведомления</string>
+    <string name="standard_description">Заглуши звука за входящи повиквания и известия</string>
     <string name="total_description">Заглушаване на звуците и изключване на вибрацията за всички, освен Будилника</string>
     <string name="close">Изкл</string>
     <string name="always">Винаги</string>

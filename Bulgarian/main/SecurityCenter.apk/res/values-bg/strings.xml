@@ -3,8 +3,8 @@
     <string name="fw_blocked">Списък блокирани</string>
     <string name="fw_blocked_count">"Блокирани "</string>
     <string name="fw_blocked_join">" и "</string>
-    <string name="tab_title">Списък блокирани</string>
-    <string name="tab_blacklist">Списък блокирани</string>
+    <string name="tab_title">Списък с блокирани</string>
+    <string name="tab_blacklist">Списък с блокирани</string>
     <string name="tab_sms">SMS</string>
     <string name="tab_call">Обаждания</string>
     <string name="bl_no_block_call">Няма блокирани обаждания.</string>
@@ -22,12 +22,12 @@
     <string name="two_address_choose_hint">%1$s и %2$s</string>
     <string name="one_address_choose_hint">%s1</string>
     <string name="marked_by_user">"Маркирахте като "</string>
-    <string name="dlg_black_antispam_message">Да се добави ли този номер към списъка с блокирани?</string>
+    <string name="dlg_black_antispam_message">Да добавя ли този номер в списъка с блокирани?</string>
     <string name="dlg_white_antispam_message">Да се добави ли този номер към списъка с изключения?</string>
-    <string name="dlg_black_address_antispam_message">Да се добави ли региона към списъка с блокирани?</string>
+    <string name="dlg_black_address_antispam_message">Да добавя ли този регион в списъка с блокирани?</string>
     <string name="dlg_white_address_antispam_message">Да се добави ли региона към списъка с изключения?</string>
     <string name="dlg_white_antispam_hint">Изключения</string>
-    <string name="dlg_black_antispam_hint">Списък блокирани</string>
+    <string name="dlg_black_antispam_hint">Списък с блокирани</string>
     <string name="dlg_clear_all_sms">Изтриване на блокирани съобщения?</string>
     <string name="dlg_clear_all_call">Да се изтрият ли блокираните обаждания?</string>
     <string name="dlg_clear_current_sms">Да се изтрият ли всички блокирани съобщения от избрания номер?</string>
@@ -36,13 +36,13 @@
     <string name="dlg_clear_current_ok">Почисти</string>
     <string name="dlg_no_block">Да се деблокира ли този номер и да се върне обратно в списъка с обаждания?</string>
     <string name="dlg_no_block_ok">Деблокирай</string>
-    <string name="dlg_add_blacklist_title">Добави към блокирани</string>
+    <string name="dlg_add_blacklist_title">Добави към списъка с блокирани</string>
     <string name="dlg_add_blacklist">Да се блокира ли този номер?</string>
-    <string name="dlg_remove_blacklist">Да се изтрие ли този номер от списък с блокирани?</string>
+    <string name="dlg_remove_blacklist">Да изтрия ли този номер от списък с блокирани?</string>
     <string name="dlg_remove_whitelist_title">Премахни</string>
     <string name="dlg_remove_blacklist_title">Премахни</string>
     <string name="dlg_remove_whitelist">Да се премахнат ли от изключенията тези номера?</string>
-    <string name="dlg_remove_address_blacklist">Да се премахне ли региона от списъка с блокирани?</string>
+    <string name="dlg_remove_address_blacklist">Да премахна ли този регион от списък с блокирани?</string>
     <string name="dlg_remove_address_whitelist">Да се премахне ли региона от изключенията?</string>
     <string name="dlg_remove_ok">Премахни</string>
     <string name="dlg_import_blacklist">Добавяне…</string>
@@ -73,7 +73,7 @@
     <string name="st_filter_keywords_setting_summary1">Съобщенията от непознати номера, които съдържат думите от този списък ще бъдат блокирани.</string>
     <string name="st_filter_keywords_setting_summary2">"
 (Използвайте запетая, за да разделите думите)"</string>
-    <string name="label_callwait">Уведомяваме за изчакване на повикване</string>
+    <string name="label_callwait">Известие за изчакване на повикване</string>
     <string name="open_callwait">Вкл</string>
     <string name="close_callwait">Изкл</string>
     <string name="st_hint_add_phonenumber">Въведете телефонен номер</string>
@@ -84,15 +84,15 @@
     <string name="Phonepass">Приемане на обаждания</string>
     <string name="st_message_SMS_AntiSpam">Блокиране на съобщения</string>
     <string name="st_message_phone_AntiSpam">Блокиране на обаждания</string>
-    <string name="st_title_addblacklist">Добави към блокирани</string>
-    <string name="st_title_editblacklist">Редактирай блокирани</string>
+    <string name="st_title_addblacklist">Добави към списъка с блокирани</string>
+    <string name="st_title_editblacklist">Редактирай списък блокирани</string>
     <string name="st_title_addwhitelist">Добавяне към изключения</string>
     <string name="st_title_editwhitelist">Редактирай изключения</string>
-    <string name="st_title_man_head_addblacklist">Добави префикса на номера към блокирани</string>
-    <string name="st_title_man_addblacklist">Добави номера към блокирани</string>
+    <string name="st_title_man_head_addblacklist">Добави префикса на номера към списък с блокирани</string>
+    <string name="st_title_man_addblacklist">Добави номера към списък с блокирани</string>
     <string name="st_title_man_head_addwhitelist">Добави префикса на номера към изключения</string>
     <string name="st_title_man_addwhitelist">Добави номера към изключения</string>
-    <string name="st_title_man_editblacklist">Изберете регион за добавяне към блокирани</string>
+    <string name="st_title_man_editblacklist">Изберете регион за добавяне към списък с блокирани</string>
     <string name="st_title_man_editwhitelist">Изберете регион за добавяне към изключения</string>
     <string name="st_title_back_sound_choose">Звук при блокиране</string>
     <string name="st_title_back_sound_busy">Заето</string>
@@ -100,7 +100,7 @@
     <string name="st_title_back_sound_closed">Телефонът е изключен</string>
     <string name="st_title_back_sound_stop">Номерът е извън обхват</string>
     <string name="st_title_call_wait_setting">Изчакващо обаждане</string>
-    <string name="st_title_call_wait">Уведомяваме за изчакване на повикване</string>
+    <string name="st_title_call_wait">Известие за изчакване на повикване</string>
     <string name="st_title_sim_card">%1$s-SIM %2$s</string>
     <string name="st_title_not_sim">Празно</string>
     <string name="st_sum_call_wait">Звукът при блокиране може да се чува и при сигнал заето за входящи обаждания.</string>
@@ -212,13 +212,13 @@
     <string name="note_call_none">Няма обаждания</string>
     <string name="block_message_number">Съобщения: &lt;font color=#5fab1b>%d&lt;/font></string>
     <string name="block_phone_number">Обаждания: &lt;font color=#5fab1b>%d&lt;/font></string>
-    <string name="info_antispam_close">Антиспам е изкл</string>
+    <string name="info_antispam_close">Списъкът с блокирани е изключен</string>
     <string name="mark_fraud">Блокиране на докладвани измами</string>
     <string name="mark_agent">Блокиране на докладвани агенции</string>
     <string name="mark_sell">Блокиране на докладвани телемаркети</string>
     <string name="mark_harass">Блокиране на докладвани досадници</string>
     <string name="mark_number_info">Понякога тези обаждания могат да бъдат полезни (например когато си търсите квартира). Блокирайте само номерата, от които не искате да получавате обаждания.</string>
-    <string name="dlg_title_not_open_stranger_identify">Идентификация на обаждане</string>
+    <string name="dlg_title_not_open_stranger_identify">Идентф на обаждане</string>
     <string name="dlg_message_not_open_stranger_identify">За да включите тази услуга, отидете в Настройки > Телефон.</string>
     <string name="button_to_setting">Настройки</string>
     <string name="special_number_group">Блокиране на докладваните номера</string>
@@ -244,7 +244,7 @@
     <string name="mark_number_agent">Агент</string>
     <string name="mark_number_sell">Телемаркет</string>
     <string name="mark_number_harass">Тормоз</string>
-    <string name="antispam_notification_setting_title">Уведомления</string>
+    <string name="antispam_notification_setting_title">Известия</string>
     <string name="antispam_notificaiton_type_show_all">Всички номера</string>
     <string name="antispam_notificaiton_type_show_except_blacklist">Не-блокирани номера</string>
     <string name="antispam_notificaiton_type_show_none">Никога</string>
@@ -260,7 +260,7 @@
     <string name="address">Адрес</string>
     <string name="note">Бележка</string>
     <string name="antispam_xpace_text">Превключете към Първо пространство, за да настроите списък с блокирани</string>
-    <string name="antispam_mode_details">подробности от режим заглушаване</string>
+    <string name="antispam_mode_details">Подробности за списък с блокирани</string>
     <string name="st_share_settings">Използвай настройки на SIM 1</string>
     <string name="st_msg_settings">Блокиране по SMS</string>
     <string name="st_msg_intercept_contacts">Блокирай SMS от контакти</string>
@@ -353,7 +353,7 @@
     <string name="firewall_restrict_android_dialog_title">Внимание</string>
     <string name="firewall_restrict_android_dialog_content">За да може устройството ви да работи нормално, няколко системни за Android приложения все още ще се свързват с интернет. Тези приложения ще използват мобилни данни и може да генерират малки такси към вашия оператор.</string>
     <string name="background_restrict_app_dialog_message">Ограничаването на достъпа до мрежата на заден план ще направи невъзможна нормалната работа на приложенията, получаването на съобщения, изтеглянето на всякакво съдържание и т. н. Да се ограничи ли въпреки това?</string>
-    <string name="firewall_allow_network">Позволено</string>
+    <string name="firewall_allow_network">Приеми</string>
     <string name="firewall_network_allow">Позволено е на %1$s да използва %2$s връзка</string>
     <string name="search_result_text">Не може да се открият приложения</string>
     <string name="firewall_mobile_dialog_message">Инсталираното приложение няма да може да се свърже с интернет чрез мобилни данни, когато те са изключени.</string>
@@ -413,7 +413,6 @@
     <string name="adjust_traffic_carrier_summary_oneweek_before">Обновено преди седмица</string>
     <string name="adjust_traffic_carrier_summary_more_oneweek_before">Обновено преди повече от седмица</string>
     <string name="adjust_traffic_carrier_summary_more_onemonth_before">Обновено преди повече от месец</string>
-    <string name="start_tc_button">Калибриране</string>
     <string name="left_precent">60%</string>
     <string name="right_precent">100%</string>
     <string name="pref_avaible_traffic">План за данни</string>
@@ -464,9 +463,12 @@
     <string name="traffic_setting_fragment_button1_text">Отказ</string>
     <string name="traffic_setting_fragment_button2_text">Запиши</string>
     <string name="traffic_setting_fragment_area">Локално</string>
-    <string name="traffic_setting_fragment_area_dual">%s Локално</string>
+    <string name="traffic_setting_fragment_province">Област</string>
+    <string name="traffic_setting_fragment_city">Град</string>
+    <string name="traffic_setting_fragment_operator_setting">Настройки за оператора</string>
     <string name="traffic_setting_fragment_operator">Оператор</string>
     <string name="traffic_setting_fragment_brand">Марка</string>
+    <string name="traffic_setting_fragment_default">Избери</string>
     <string name="traffic_setting_fragment_send_num">Номер на оператора</string>
     <string name="traffic_setting_fragment_sms_content">Текст на съобщението</string>
     <string name="traffic_setting_fragment_send_num_tips">Въведете телефонен номер</string>
@@ -515,7 +517,9 @@
     <string name="package_setted_error_notification_summary">Показване на детайли за използването на данни.</string>
     <string name="traffic_config_alert_title">%s корекция</string>
     <string name="traffic_config_alert_auto_modify">Автоматично актуализиране на плана за данни</string>
-    <string name="traffic_config_alert_body">\"Отчета на вашият оператор показва, че сте използвали %s Да се обнови ли инормацията за използваните от вас данни?\"</string>
+    <string name="traffic_config_alert_body">"Вашият план показва %s. 
+
+ съгласен ли сте?"</string>
     <string name="traffic_config_alert_body_normal">"
 Отчета на вашият оператор показва, че сте използвали %1$s от вашите данни при слаб трафик този месец, това е различно от %2$s, което сте задали ръчно."</string>
     <string name="traffic_config_alert_body_leisure">"
@@ -549,8 +553,8 @@
     <string name="mi_service_app_detail">Детайли за употребата на данни</string>
     <string name="mi_service_traffic_detail">Framework детайли</string>
     <string name="label_mi_stats">Mi анализ</string>
-    <string name="show_traffic_dialog_title">Покажи използваните данни в Лента с известията</string>
-    <string name="show_traffic_dialog_message">Използваните от вас данни ще се показват в Лента с известията. Може да включвате и изключвате тази функция от Монитор за данни > Настройки.</string>
+    <string name="show_traffic_dialog_title">Покажи използваните данни в лентата с известията</string>
+    <string name="show_traffic_dialog_message">Използваните от вас данни ще се показват в лентата с известията. Може да включвате и изключвате тази функция от Монитор за данни > Настройки.</string>
     <string name="tc_sms_report_title">Докладване на грешка</string>
     <string name="tc_sms_report_summary">Помогнете ни да подобрим тази функция, като изпратите доклад при неправилни данни за използвания трафик или невъзможност за тяхното актуализиране.</string>
     <string name="tc_sms_report_direction">SMS код на запитването</string>
@@ -577,10 +581,10 @@
     <string name="tc_sms_report_notify_correction_body">Отидете в приложението Монитор за данни в Оптимизация и опитайте отново ръчно.</string>
     <string name="tc_sms_report_notify_get_failure_body">Неуспешно изпращане на доклад. Проверете параметрите на мрежата.</string>
     <string name="tc_sms_report_tips_dialog_title">SMS доклад за трафика</string>
-    <string name="tc_sms_report_tips_dialog_message">За получаване на информация за трафика от оператора се ползва специален формат на SMS. Ако тази функция не работи нормално, опитайте да обновите формата на SMS. Обновения формат ще бъде изпратен до нашите сървъри.</string>
-    <string name="tc_sms_report_get_sms_failure">Неуспешно получаване на формата за SMS доклад за трафика</string>
+    <string name="tc_sms_report_tips_dialog_message">Ще бъде изпратен SMS за да се получи актуална информация за изразходваните мобилни данни от вашия оператор. Ако смятате, че информацията не е правилна, оставете ни обратна връзка.</string>
+    <string name="tc_sms_report_get_sms_failure">Не мога да получа информация за използвани данни</string>
     <string name="tc_sms_report_get_sms_timeout">Времето на заявката изтече</string>
-    <string name="tc_sms_report_get_sms_successs">Форматът за SMS доклад за трафика е обновен</string>
+    <string name="tc_sms_report_get_sms_successs">Информацията за изразходвани данни бе успешно обновена</string>
     <string name="tc_sms_report_get_default">Ще бъде изпратено безплатно съобщение, за да получите статистика за използвания трафик от оператора.</string>
     <string name="tc_sms_report_toast_text">Getting info…</string>
     <string name="tc_sms_report_type">Тип доклад</string>
@@ -588,7 +592,7 @@
     <string name="sc_allow_network_dialog_tiltle">Спестяване на данни не работи</string>
     <string name="sc_allow_network_dialog_message">Това приложение се нуждае от интернет, за да работи нормално.</string>
     <string name="privacy_prompt_upload">Внимание!</string>
-    <string name="privacy_prompt_traffic_adjust_message">"След като стартирате калибрацията, MIUI ще се свърже с мрежата, ще разкодира информацията за вашия оператор, телефонен номер, IMEI, и Mi Профил, и ще качи тази информация на Mi сървърите. Това ще се извърши по зададен от мрежовия оператор шаблон за калибрация и ще се прилага за получаване на информация, ако е възможно, за цени и плащания на операторите, обслужващи във вашето местонахождение.
+    <string name="privacy_prompt_traffic_adjust_message">"След като стартирате калибрацията, MIUI ще се свърже с мрежата, ще разкодира информацията за вашия оператор, телефонен номер, IMEI, и Mi профил, и ще качи тази информация на Mi сървърите. Това ще се извърши по зададен от мрежовия оператор шаблон за калибрация и ще се прилага за получаване на информация, ако е възможно, за цени и плащания на операторите, обслужващи във вашето местонахождение.
 
 Докато се извършва калибрацията, MIUI ще изпрати текстово съобщение до вашия оператор за да получи шаблон за калибриране."</string>
     <string name="privacy_prompt_tc_sms_report_message">Вашия телефонен номер и данни за оператора ще бъдат изпратени до сървърите на Xiaomi с цел обновяване на информацията за използваните от вас данни.</string>
@@ -736,6 +740,7 @@
     <string name="permission_exception_summary">Някой приложения нямат разрешение за свързване към интернет</string>
     <string name="networkchanged_exception_title">Променена връзка</string>
     <string name="networkchanged_exception_summary">Връзката с мрежата бе променена. Моля, тествайте отново.</string>
+    <string name="network_test_speed">Тест на Wi-Fi скоростта</string>
     <string name="network_speed_for_apps_title">Детайли за скоростта на връзката</string>
     <string name="network_speed_for_apps_total">Скорост на връзката</string>
     <string name="network_speed_for_apps_close_app_dlg_msg">Да спре ли принуд. това прил.?</string>
@@ -1320,7 +1325,7 @@
     <string name="title_install_virus_no">Контролът при инсталиране е изключен</string>
     <string name="title_install_virus_yes">Контролът при инсталиране е включен</string>
     <string name="summary_install_virus">Проверявай приложенията за вируси преди инсталиране</string>
-    <string name="title_dev_model_off">Опциите на програмиста са изкл</string>
+    <string name="title_dev_model_off">Опциите на програмиста са изключени</string>
     <string name="title_dev_yes">Опции на програмиста: изкл.</string>
     <string name="title_dev_no">Опции на програмиста: вкл.</string>
     <string name="summary_dev">Предотвратяване на достъпа на приложенията до потребителските данни</string>
@@ -1557,7 +1562,7 @@
     <string name="handle_title_pay_env">Среда за плащане</string>
     <string name="handle_title_privacy">Поверителност &amp; сигурност</string>
     <string name="risk_count_suffix" />
-    <string name="virus_auto_update_engine">Авто обновяване: %s</string>
+    <string name="virus_auto_update_engine">Автом. актуализиране: %s</string>
     <string name="hints_scan_danger_result">Открит е риск, поправете сега</string>
     <string name="ss_activity_main_support_text">С подкрепата на %s</string>
     <string name="hints_virus_app_summary">%s (прил.)</string>
@@ -1623,6 +1628,7 @@
     <string name="card_main_deepclean_wechat_action">Изчистване</string>
     <string name="card_main_sectool_title">Инструменти</string>
     <string name="card_main_monthreport_action">Покажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Диагностика на мрежата</string>
     <string name="card_main_netcheck_summary">Диагностика на мрежата за проблеми при свързването</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -1647,9 +1653,9 @@
     <string name="skin_change_close_toast">Промените ще бъдат приложени следващия път, когато стартирате приложението</string>
     <string name="Setting_lock">Настройки</string>
     <string name="app_name">Закл. на прил.</string>
-    <string name="notification_item">Включване на закл. на прил.</string>
+    <string name="notification_item">Защитете приложенията си със Заключване на приложения</string>
     <string name="lock_mode_title">Настройки за заключване</string>
-    <string name="after_the_lock_screen">Приложението ще се заключи заедно с екрана</string>
+    <string name="after_the_lock_screen">Заключване на приложения заедно с екрана</string>
     <string name="set_applock_password">Задайте парола</string>
     <string name="ac_firstUseApplock_title">Задайте парола, за да защитите приложенията си</string>
     <string name="ac_firstUseApplock_subTitle">Използвайте по-добри системни инструменти за сигурност</string>
@@ -1665,7 +1671,7 @@
     <string name="modifypassword">Промяна на паролата</string>
     <string name="showpattern">Показване на фигурата</string>
     <string name="notification_mask_title">Скрий съдържанието</string>
-    <string name="notification_mask_summary">Не показвай съдържание на уведомления при заключен екран и в лентата за известия</string>
+    <string name="notification_mask_summary">Не показвай съдържание на известия при заключен екран и в лентата за известия</string>
     <string name="convenient_mode">Еднократно отключване</string>
     <string name="convenient_summary">Въвеждане на паролата веднъж за отключване на всички приложения</string>
     <string name="suggest_app_tolock">Предложения</string>
@@ -1710,23 +1716,23 @@
     <string name="go_to_setting_fingerprint">Настройки</string>
     <string name="fingerprint_remind_dialog_title">Отключване с пръст</string>
     <string name="confirm_fingerprint_msg">Потвърдете вашия пръстов отпечатък</string>
-    <string name="fingerprint_identify_msg">Включете отключване с Пръстов отпечатък</string>
+    <string name="fingerprint_identify_msg">Включете отключване с пръстов отпечатък</string>
     <string name="fingerprint_not_identified_msg">За да отключите устройството, въведете паролата си.</string>
     <string name="lockscreen_access_pattern_start">Фигурата е започната</string>
     <string name="lockscreen_access_pattern_cleared">Фигурата е изтрита</string>
     <string name="lockscreen_access_pattern_cell_added">Клетката е добавена</string>
     <string name="lockscreen_access_pattern_detected">Фигурата е завършена</string>
     <string name="applock_add_account_setting">Профил &amp; сигурност</string>
-    <string name="applock_add_account_info">Добавете вашия Mi Профил, за да можете да нулирате вашата парола в случай, че я забравите.</string>
+    <string name="applock_add_account_info">Добавете вашия Mi профил, за да можете да нулирате вашата парола в случай, че я забравите.</string>
     <string name="applock_exit_account_info">Профилът ще бъде премахнат автоматично, когато се отпишете</string>
     <string name="applock_login_and_add_account">Вписване в &amp; добави</string>
     <string name="applock_not_add_account"><u>Не сега</u></string>
     <string name="applock_add_account">Добави</string>
     <string name="applock_not_login_account">Не сте вписан</string>
-    <string name="applock_bind_account_title">Нулиране на вашата парола</string>
+    <string name="applock_bind_account_title">Забравена парола</string>
     <string name="applock_close_dialog_title">Изкл. на Заключване на приложения?</string>
     <string name="applock_close_dialog_summary">Приложенията няма повече да бъдат защитени и вашата парола ще бъде изтрита, след като изключите Заключване на приложения.</string>
-    <string name="applock_header_text_less_than_half">Много малко място за това приложение. Преместете разделителя по-нататък.</string>
+    <string name="applock_header_text_less_than_half">Прекалено малко. Начертайте още.</string>
     <string name="wakepath_confirm_start_activity">Позволявате ли на %1$s да отвори %2$s?</string>
     <string name="unlike">Не, благодаря</string>
     <string name="toast_network_eror">Няма връзка с мрежата</string>
@@ -1792,7 +1798,7 @@
     <string name="password_forget_pattern_message_none">Приложенията не са заключени. Вие можете да нулирате вашата парола.</string>
     <string name="password_forget_pattern_confirm">Разбрах</string>
     <string name="password_xspace_forget_pattern_message">За да смените паролата за вашето Второ пространство, трябва да изтриете текущото такова и да създадете ново.</string>
-    <string name="password_promotion_not_login_xiaomi_account_message">Добавете своя Mi Профил, за да можете да си смените паролата, ако я забравите.</string>
+    <string name="password_promotion_not_login_xiaomi_account_message">Добавете своя Mi профил, за да можете да си смените паролата, ако я забравите.</string>
     <string name="password_promotion_postbutton_text">Добави</string>
     <string name="bind_xiaomi_account_success">Mi профилът е добавен успешно</string>
     <string name="sys_app_prot_cracked_confirm">Разбрах</string>
@@ -1811,7 +1817,7 @@
     <string name="app_manager_permission_startself_title">Автостартиране</string>
     <string name="app_manager_permission_startself_summary">Приложения, които стартират автоматично, заемат много РАМ и изразходват батерията бързо</string>
     <string name="app_manager_permission_manager_title">Разрешения</string>
-    <string name="app_manager_permission_notify_title">Уведомления</string>
+    <string name="app_manager_permission_notify_title">Известия</string>
     <string name="app_manager_permission_power_saving_title">Икономия на батерия</string>
     <string name="app_manager_permission_power_saving_summary">MIUI Икономия на батерия</string>
     <string name="app_manager_default_open">Отваряне по подразбиране</string>
@@ -1943,7 +1949,7 @@
     <string name="game_net_text1">Задаване на лимит за скоростта на изтегляне, за да намалите забавянето в мрежата</string>
     <string name="game_net_text2">Ускорете връзката за игрите, като зададете лимит на фоновата скорост за изтегляне и премахнете забавянето в мрежата</string>
     <string name="save_energy_text">Забранете автостарт и синхронизация на приложения на заден план, за да получите повече от батерията на вашето устройство</string>
-    <string name="dont_bore_text">Заглушава уведомленията и изключва бутоните, за да не се разсейвате по време на игра</string>
+    <string name="dont_bore_text">Заглушава известията и изключва бутоните, за да не се разсейвате по време на игра</string>
     <string name="create_shortcut">Създайте пряк път за Ускорител на игри на Начален екран</string>
     <string name="intro_improve">Ускоряване на скоростта при игра на системно ниво</string>
     <string name="i_know">Направено</string>
@@ -1985,7 +1991,7 @@
     <string name="renew_now">Поднови</string>
     <string name="receive_now">Получаване</string>
     <string name="net_booster">Подобряване скоростта на мрежата</string>
-    <string name="wlan_booster">Оптимизиране на Wi-Fi</string>
+    <string name="wlan_booster">Wi-Fi оптимизиране</string>
     <string name="tab_gift">Подаръци</string>
     <string name="tab_guide">Упътване</string>
     <string name="release_meminfo">Освободени %dМБ</string>
@@ -2003,5 +2009,4 @@
     <string name="net_booster_overdue_notification_tip">Сесията на Мрежовия ускорител ще приключи скоро. Да се поднови ли?</string>
     <string name="net_booster_expire_notification">Сесията на Мрежовия ускорител е към края си</string>
     <string name="xunyou_pay_webview">Xunyou услуги</string>
-    <string name="net_booster_expire_notification_tip">%d д остава, преди Мрежов ускорител да приключи своята сесия. Подновете я сега, за да се предпазите от проблеми със скоростта.</string>
 </resources>

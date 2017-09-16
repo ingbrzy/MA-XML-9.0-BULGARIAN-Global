@@ -32,6 +32,7 @@
     <string name="delete_backup_title">Изтриване на архив</string>
     <string name="delete">Изтрий</string>
     <string name="cancel">Отказ</string>
+    <string name="reconnect">Повторно свързване</string>
     <string name="delete_backup_process">Изтрива се…</string>
     <string name="backup_error">Архивирането се провали</string>
     <string name="delete_failed_backup_confirm">Резервното копие е повредено, не може да се възстанови</string>
@@ -223,6 +224,7 @@
     <string name="file_uploading">Качва се…</string>
     <string name="new_backup">Рез. копие</string>
     <string name="restore_backup">Възстанови</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Един момент…</string>
     <string name="state_mounting">Достъп до хранилището на рутера…</string>
     <string name="abort_backup_confirm">Резервното копие не е завършено! Да спре ли въпреки това?</string>
@@ -256,6 +258,7 @@
     <string name="notif_trans_receiving_completed">Данните са изпратени успешно</string>
     <string name="notif_trans_sending_failed">Не може да се изпратят данни</string>
     <string name="notif_trans_receiving_failed">Не може да се получат данни</string>
+    <string name="notif_trans_wait_for_reconnecting">Връзката с отдалеченото устройство е прекъсната. Моля, свържете го отново.</string>
     <string name="custom_progress">%d елементи</string>
     <string name="remote_receive">Получаване</string>
     <string name="click_to_view">Чукнете за преглед</string>
@@ -301,6 +304,7 @@
     <string name="trans_cancel_confirm">Протича трансфер, да се отмени ли сега?</string>
     <string name="trans_cancelling">Отменя се</string>
     <string name="trans_device_disconnected">Връзката с устройството е прекъсната</string>
+    <string name="trans_device_wait_for_reconnecting">Връзката с устройството е прекъсната. Моля, свържете го отново.</string>
     <string name="trans_connecting_toast">Установява се връзка…</string>
     <string name="trans_connect_failed_toast">Ме може да се свърже</string>
     <string name="trans_generate_qr_code_failed">Не може да се създаде QR код</string>
@@ -320,6 +324,10 @@
     <string name="trans_operate_old_phone_tips2">"\"Метод Б
 Отидете на Настройки > Допълнителни настройки > Експорт към ново устройство
 Чукнете [Аз съм изпращач]\""</string>
+    <string name="trans_operate_reconnect_new_tips">"Изчакайте докато новият телефон покаже \"Устройството е разкачено\".
+След това натиснете [Reconnect] за да създадете QR кода."</string>
+    <string name="trans_operate_reconnect_old_tips">"Изчакайте докато старият телефон покаже \"Устройството е разкачено\".
+След това натиснете [Reconnect] за да сканирате QR кода."</string>
     <string name="trans_wait_trans_data">\"Свързано към старото устройство. В очакване за трансфер…\"</string>
     <string name="trans_select_data">Избор на елементи за изпращане</string>
     <string name="trans_select_data_tips">\"Изберете елементи за трансфер Подобните файлове на новото устройство ще бъдат презаписани\"</string>
@@ -338,6 +346,7 @@
     <string name="trans_retry">Нов опит</string>
     <string name="trans_start_failed_title">Неуспешен старт на прехвърлянето</string>
     <string name="trans_start_failed_message">Неуспешен старт на прехвърлянето, опитайте отново или рестартирайте устройството.</string>
+    <string name="trans_connect_failed_device_incompatible">Устройството е несъвместимо. Моля отменете процеса на прехвърляне и опитайте отново.</string>
     <string name="trans_connection_failed">Прекъсната връзка с устройството</string>
     <string name="user_notice_title">Внимание</string>
     <string name="user_notice_message">Някои функции се нуждаят от интернет връзка, за да работят нормално.</string>
