@@ -501,7 +501,6 @@ Tap %s за да започнете това изтегляне трябва д�
     <string name="set_id3_failed">Неуспешно задаване на данните за песента</string>
     <string name="set_id3_not_support_format">Този файлов формат не може да се редактира</string>
     <string name="set_id3_not_have_read_or_write_permission">Нямате права за промяна на този файл</string>
-    <string name="listview_index_of_total">%1$d/%2$d</string>
     <string name="lyric_setting">Настройки за текст</string>
     <string name="modify_lyric">Промяна на текста</string>
     <string name="modify_progress">Промяна на скоростта на текста</string>
