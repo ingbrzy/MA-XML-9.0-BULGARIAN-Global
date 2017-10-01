@@ -81,5 +81,4 @@
     <string name="download_queued">На опашка</string>
     <string name="download_running">В ход</string>
     <string name="download_error">Неуспешно</string>
-    <string name="download_running_percent">В ход – %d%%</string>
 </resources>

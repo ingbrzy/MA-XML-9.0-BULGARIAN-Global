@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Няма</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -157,8 +159,8 @@
     <string name="mobile_data_always_on">Мобилни данни винаги са разрешени</string>
     <string name="bluetooth_disable_absolute_volume">Изключване на максималния звук</string>
     <string name="wifi_display_certification_summary">Показване на опции за Wi-Fi дисплей</string>
-    <string name="wifi_verbose_logging_summary">При избор на Wi‑Fi укажете в в журнала RSSI за всяко SSID.</string>
-    <string name="wifi_aggressive_handover_summary">Принудително превключване към мобилна мрежа, ако Wi-Fi сигналът е слаб.</string>
+    <string name="wifi_verbose_logging_summary">Увеличете нивото на записване в Wi‑Fi, покажете RSSI за всеки SSID в списъка с Wi‑Fi мрежи.</string>
+    <string name="wifi_aggressive_handover_summary">Когато е активирано, връзката ще превключи на мобилни данни по-активно, когато сигналът на Wi‑Fi е слаб.</string>
     <string name="wifi_allow_scan_with_traffic_summary">Разрешаване/Забраняване на сканирането в роуминг чрез Wi‑Fi, базирано на реализирания трафик.</string>
     <string name="select_logd_size_title">Размер на на буфериране на лога</string>
     <string name="select_logd_size_dialog_title">Изберете размер на буфериране за логове</string>
@@ -235,7 +237,7 @@
     <string name="app_process_limit_title">Ограничение за фонови процеси</string>
     <string name="show_all_anrs">Покажи всички приложения които не отговарят</string>
     <string name="show_all_anrs_summary">Диалогов прозорец за нереагиращи прилж на заден план</string>
-    <string name="force_allow_on_external">Принуди вс. прилж да записват на външно хранилище</string>
+    <string name="force_allow_on_external">Принуждаване на приложенията да пишат на външното хранилище</string>
     <string name="force_allow_on_external_summary">Настройте приложенията да могат да бъдат записвани на външното хранилище</string>
     <string name="force_resizable_activities">Задаване на дейностите да се преоразмеряват</string>
     <string name="force_resizable_activities_summary">Задайте преоразмеряване на всичи дейности за многоекранен режим.</string>
@@ -412,7 +414,7 @@ If ако включите отново мобилните данни, може 
     <string name="accessibility_desc_recent_apps">Преглед</string>
     <string name="recents_empty_message">Няма скорошни елементи</string>
     <string name="recents_empty_message_dismissed_all">Вие премахнахте всички елементи</string>
-    <string name="recents_empty_message_multi_window">Отидете в Начало за да отворите приложения</string>
+    <string name="recents_empty_message_multi_window">Отваряне на приложения от Начален екран</string>
     <string name="recents_app_info_button_label">Инф за приложение</string>
     <string name="recents_lock_to_app_button_label">Фиксирай екрана</string>
     <string name="recents_search_bar_label">Търси</string>
@@ -556,6 +558,7 @@ d MMMM"</string>
     <string name="notification_hidden_text">Известията са скрити</string>
     <string name="block_notification_text">Скрий</string>
     <string name="block_notification_content_text">Известията от %1$s няма да бъдат показвани повече. Можете да променяте това от Настройки.</string>
+    <string name="block_notification_desc">Известията на приложението няма да се показват отново. Можете да промените това в \"Настройки\".</string>
     <string name="notification_otg_mouse_in">Мишката е свързана</string>
     <string name="notification_otg_keyboard_in">Клавиатурата е свързана</string>
     <string name="notification_otg_gamestick_in">Джойстикът в свързан</string>

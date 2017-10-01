@@ -146,8 +146,8 @@
     <string name="clear_records">Изтрий синхронизираните записи</string>
     <string name="choose_call_records_count">%d елемента</string>
     <string name="network_tip_dialog_title">Необходима е връзка с интернет</string>
-    <string name="network_tip_dialog_content">Това приложение се нуждае от достъп до интернет, тъй като трябва да прочете вашите заглавия на записани обаждания.</string>
-    <string name="network_tip_dialog_ok">Позволи</string>
+    <string name="network_tip_dialog_content">Звукозапис се нуждае от връзка с интернет за да прочете вашите контакти и да работи нормално. Съгласен ли сте?</string>
+    <string name="network_tip_dialog_ok">Съгласен</string>
     <string name="network_tip_dialog_cancel">Отмени</string>
     <string name="head_set_tip_dialog_title">Използвай вградения микрофон</string>
     <string name="head_set_tip_dialog_msg">Разкачете слушалките си, за да можете да запишете звуци със специфично съдържание (напр. Музика, Гласове).</string>

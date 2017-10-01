@@ -71,7 +71,7 @@
 
 По всяко време можете да включите или изключите услугата от Настройки.
 \""</string>
-    <string name="sync_dspt_entrance_provision">"Mi Облак ви помага да синхронизирате снимки, контакти и др. между вашите устройства. Вие може да имате достъп до тези неща от всеки един браузър на %s. "</string>
+    <string name="sync_dspt_entrance_provision">Mi Облак ви помага да синхронизирате вашите снимки, контакти и други елементи между устройствата. Вие можете да имате достъп до тях отвсякъде на %s.</string>
     <string name="sync_dspt_entrance_provision_2">Научете повече</string>
     <string name="sync_dspt_entrance_provision_confirm_close">Не използвай</string>
     <string name="sync_dspt_entrance_provision_confirm_open">Използвай Mi Cloud</string>
@@ -167,6 +167,7 @@
     <string name="calendar_sync">Календар</string>
     <string name="antispam_sync">Антиспам настройки</string>
     <string name="deskclock_backup">Архив на часовници</string>
+    <string name="secret_photo">Скрити снимки</string>
     <string name="wipe_data_dialog_msg_separator">, </string>
     <string name="micloud_space_duokan_title">Duokan</string>
     <string name="micloud_space_duokan_detail">Manage your Duokan content in using the Duokan app.</string>
@@ -269,7 +270,7 @@
     <string name="micloud_main_space_low">Свободното място е на свършване</string>
     <string name="micloud_main_update_space">Увеличете капацитета</string>
     <string name="micloud_main_space_full_title">Няма достатъчно място на устройството, синхронизирането е на пауза</string>
-    <string name="micloud_main_space_full_message">Членството в Mi Облак ще ви донесе по-голямо пространство за съхранение</string>
+    <string name="micloud_main_space_full_message">Купете повече място в хранилището на Mi Облак</string>
     <string name="micloud_main_memory_low_title">Недостаъчно място в хранилището</string>
     <string name="micloud_main_memory_low_message">За да синхр., изтрийте някой елементи от облака.</string>
     <string name="micloud_main_clear_now">Почисти</string>
@@ -279,14 +280,14 @@
     <string name="micloud_main_multi_user_error_message">"Вие сте се регистрирали със същия профил в Основно работно място, което може да е причина за грешка в Mi Облак. 
 Използвайте друг профил."</string>
     <string name="micloud_main_cancel_sync">Отмяна на синхр</string>
-    <string name="micloud_main_query_again">Запитване</string>
+    <string name="micloud_main_query_again">Изпрати ново запитване</string>
     <string name="micloud_main_wait_wlan">Изчаква се Wi-Fi</string>
-    <string name="micloud_main_wait_wlan_charge_sleep">Изчакване за Wi-Fi, свързване със зарядно устройство и изключване на екрана</string>
-    <string name="micloud_main_wait_wlan_charge">Изчакване за Wi-Fi, свързване със зарядно устройство</string>
-    <string name="micloud_main_wait_charge_sleep">Изчаква се свързване със зарядно устройство и изключване на екрана</string>
-    <string name="micloud_main_wait_charge">Изчаква се свързване със зарядно устройство</string>
+    <string name="micloud_main_wait_wlan_charge_sleep">Свържете се с Wi-Fi, изключете екрана и заредете вашето устройство до край, за да продължите синхронизирането.</string>
+    <string name="micloud_main_wait_wlan_charge">Свържете се с Wi-Fi и заредете вашето устройство до край, за да продължите синхронизирането.</string>
+    <string name="micloud_main_wait_charge_sleep">Изключете екрана и заредете вашето устройство до край, за да продължите синхронизирането.</string>
+    <string name="micloud_main_wait_charge">Заредете докрай вашето устройство, за да продължите синхронизирането.</string>
     <string name="micloud_main_resume_sync_soon">Продължи синхр след време</string>
-    <string name="micloud_main_button_set_internet">Настройка</string>
+    <string name="micloud_main_button_set_internet">Настройки</string>
     <string name="micloud_main_button_activate">Активирай</string>
     <string name="micloud_main_button_authorize">Упълномощи</string>
     <string name="micloud_detail_syncing">синхр. се...</string>
@@ -294,7 +295,7 @@
     <string name="micloud_detail_download_syncing">Изтегля се %s</string>
     <string name="micloud_detail_pending">очаква синхр.</string>
     <string name="micloud_detail_success">синхронизирано</string>
-    <string name="micloud_detail_fail">неуспех</string>
+    <string name="micloud_detail_fail">Не можа да се синхронизира</string>
     <string name="micloud_detail_not_syncable">Не се синхронизира</string>
     <string name="micloud_detail_lastest">синхронизирано</string>
     <string name="micloud_detail_lastest_with_off">Синхронизирано</string>
@@ -409,10 +410,10 @@
     <string name="micloud_main_title_sync_on_wifi">Изп. на Wi-Fi</string>
     <string name="micloud_main_title_sync_off">Изкл. синхр.</string>
     <string name="micloud_main_title_master_sync_off">Авт. синхр. е изкл.</string>
-    <string name="micloud_main_message_master_sync_off">Настройката за автоматично синхр. е в лентата с известия.</string>
-    <string name="micloud_main_error_network_disallowed">Моля, осигурете права за достъп до Интернет.</string>
-    <string name="micloud_main_error_activated_fail">Моля, активирайте SIM картата си.</string>
-    <string name="micloud_main_error_permission_limit">Моля, одобрете достъпа до базата с данни на Mi Облак.</string>
+    <string name="micloud_main_message_master_sync_off">Можете да изключите синхронизирането от Лента с известия.</string>
+    <string name="micloud_main_error_network_disallowed">Уверете се, че сте разрешили достъп до интернет.</string>
+    <string name="micloud_main_error_activated_fail">Активирайте вашата SIM карта.</string>
+    <string name="micloud_main_error_permission_limit">Разрешете достъп на Mi Облак до хранилището.</string>
     <string name="micloud_confusion_no">Не</string>
     <string name="micloud_confusion_yes">Да</string>
     <string name="micloud_confusion_cancel">Отказ</string>
@@ -549,10 +550,13 @@
     <string name="micloud_wipe_data_confirm_title">Премахване на елементи, синхронизирани с Mi Облак от телефона, след като излезете?</string>
     <string name="micloud_wipe_data_retain">Запази</string>
     <string name="micloud_wipe_data_remove">Премахване</string>
-    <string name="wipe_data_dialog_title">Някои данни не бяха синхронизирани</string>
-    <string name="wipe_data_dialog_msg">%s не са синхронизирани и ще останат на телефона ви.</string>
+    <string name="wipe_data_dialog_title">Елементите не са синхронизирани</string>
+    <string name="wipe_data_dialog_msg">Някои елементи (%s) не са синхронизирани. Те ще се запазят на вашето устройство и няма да бъдат изтрити.</string>
     <string name="wipe_data_dialog_button_check_sync">Маркирай, ако е синхронизирано</string>
     <string name="wipe_data_dialog_msg_and_on">, и някои други елементи</string>
+    <string name="wipe_secret_photo_dialog_title">Скритите снимки не са синхронизирани</string>
+    <string name="confirm_delete">Изтрий</string>
+    <string name="confirm_save">Запази</string>
     <string name="micloud_dialog_sync_now_title">Свържете се към Wi-Fi за синхронизация</string>
     <string name="micloud_dialog_sync_now_message">Свържете се към Wi-Fi, за да избегнете разход на мобилни данни</string>
     <string name="micloud_dialog_sync_now_negative">Не сега</string>

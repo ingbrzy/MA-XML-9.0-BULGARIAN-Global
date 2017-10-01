@@ -10,6 +10,7 @@
     <string name="enable_touch_assistant">Включете Тъч асистент</string>
     <string name="enabled_for_pad_hint">Работи, когато \"Блокирай бутони за навигация в режим пейзаж\" е включено</string>
     <string name="function_settings">Настройка на преки пътища</string>
+    <string name="handy_mode_default_to_close_whether_open">Режим Ползване с една ръка е изключен по подразбиране. Да го включа ли сега?</string>
     <string name="hide_touch_assistant">Автоматично скриване</string>
     <string name="hide_touch_assistant_intro">Скриване на Тъч асистент в избрани приложения.</string>
     <string name="hide_when_fullscreen">Скриване при цял екран</string>
@@ -38,6 +39,7 @@
     <string name="nfc_all_mipay_card_not_in_use">Mi плащане не е активно</string>
     <string name="nfc_trans_card_not_in_use">Картата за пътуване не е активна</string>
     <string name="not_working">%s (Не работи)</string>
+    <string name="open">Включи</string>
     <string name="open_panel">Отвори Тъч асистент</string>
     <string name="pay_entry_dialog_title_select">Избор на приложения за стартиране</string>
     <string name="pay_entry_dialog_title_setting">Задай приложение</string>
@@ -50,4 +52,5 @@
     <string name="restore_intro">Връщане към настройки по подразбиране, включително различни функции и други. Това няма да изтрие информация от вашия телефон.</string>
     <string name="show_on_keyguard">Показване на закл. екран</string>
     <string name="theme_manager_not_supported">Мениджъра на теми не е поддържан.</string>
+    <string name="three_seconds_auto_hide">Ще се скрие след 3 секунди бездействие</string>
 </resources>

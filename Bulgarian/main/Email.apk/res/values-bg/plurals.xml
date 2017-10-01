@@ -16,6 +16,10 @@
         <item quantity="other">Коеспонденциите съдържат много съобщения, да ги изтрия ли?</item>
         <item quantity="one">Коеспонденцията съдържа много съобщения, да я изтрия ли?</item>
     </plurals>
+    <plurals name="confirm_delete_draft">
+        <item quantity="other">Изтриване на %1$d чернови?</item>
+        <item quantity="one">Изтриване на %1$d чернова?</item>
+    </plurals>
     <plurals name="contact_num_selected">
         <item quantity="other">Избрани са %d елемента</item>
         <item quantity="one">Избран е %d елемент</item>
@@ -31,6 +35,10 @@
     <plurals name="conversation_folder_changed">
         <item quantity="other">Променени са папките</item>
         <item quantity="one">Променена е папката.</item>
+    </plurals>
+    <plurals name="conversation_msg_header_count">
+        <item quantity="other">+%1$d души</item>
+        <item quantity="one">+%1$d човек</item>
     </plurals>
     <plurals name="conversation_muted">
         <item quantity="other">Игнорирайте кореспонденциите %1$d.</item>

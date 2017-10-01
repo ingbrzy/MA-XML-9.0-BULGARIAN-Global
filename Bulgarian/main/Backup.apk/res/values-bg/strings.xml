@@ -224,6 +224,7 @@
     <string name="file_uploading">Качва се…</string>
     <string name="new_backup">Рез. копие</string>
     <string name="restore_backup">Възстанови</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Един момент…</string>
     <string name="state_mounting">Достъп до хранилището на рутера…</string>
     <string name="abort_backup_confirm">Резервното копие не е завършено! Да спре ли въпреки това?</string>
@@ -257,7 +258,7 @@
     <string name="notif_trans_receiving_completed">Данните са изпратени успешно</string>
     <string name="notif_trans_sending_failed">Не може да се изпратят данни</string>
     <string name="notif_trans_receiving_failed">Не може да се получат данни</string>
-    <string name="notif_trans_wait_for_reconnecting">Връзката с отдалеченото устройство е прекъсната. Моля, свържете го отново.</string>
+    <string name="notif_trans_wait_for_reconnecting">Връзката беше прекъсната. Свържете се отново.</string>
     <string name="custom_progress">%d елементи</string>
     <string name="remote_receive">Получаване</string>
     <string name="click_to_view">Чукнете за преглед</string>
@@ -302,8 +303,8 @@
     <string name="trans_progress_subdescript_transing_receiver_finish">Получени %s, очакват възстановяване…</string>
     <string name="trans_cancel_confirm">Протича трансфер, да се отмени ли сега?</string>
     <string name="trans_cancelling">Отменя се</string>
-    <string name="trans_device_disconnected">Връзката с устройството е прекъсната</string>
-    <string name="trans_device_wait_for_reconnecting">Връзката с устройството е прекъсната. Моля, свържете го отново.</string>
+    <string name="trans_device_disconnected">Връзката беше прекъсната</string>
+    <string name="trans_device_wait_for_reconnecting">Връзката беше прекъсната. Свържете се отново за да продължите.</string>
     <string name="trans_connecting_toast">Установява се връзка…</string>
     <string name="trans_connect_failed_toast">Ме може да се свърже</string>
     <string name="trans_generate_qr_code_failed">Не може да се създаде QR код</string>
@@ -323,10 +324,10 @@
     <string name="trans_operate_old_phone_tips2">"\"Метод Б
 Отидете на Настройки > Допълнителни настройки > Експорт към ново устройство
 Чукнете [Аз съм изпращач]\""</string>
-    <string name="trans_operate_reconnect_new_tips">"Изчакайте докато новият телефон покаже \"Устройството е разкачено\".
-След това натиснете [Reconnect] за да създадете QR кода."</string>
-    <string name="trans_operate_reconnect_old_tips">"Изчакайте докато старият телефон покаже \"Устройството е разкачено\".
-След това натиснете [Reconnect] за да сканирате QR кода."</string>
+    <string name="trans_operate_reconnect_new_tips">"Изчакайте, докато на новия телефон се покаже \"Връзката е прекъсната\" 
+След това натиснете \"Свържи отново\" за да създадете QR код."</string>
+    <string name="trans_operate_reconnect_old_tips">"Изчакайте, докато на новия телефон се покаже \"Връзката е прекъсната\" 
+След това натиснете \"Свържи отново\" за да сканирате QR кода."</string>
     <string name="trans_wait_trans_data">\"Свързано към старото устройство. В очакване за трансфер…\"</string>
     <string name="trans_select_data">Избор на елементи за изпращане</string>
     <string name="trans_select_data_tips">\"Изберете елементи за трансфер Подобните файлове на новото устройство ще бъдат презаписани\"</string>
@@ -345,8 +346,8 @@
     <string name="trans_retry">Нов опит</string>
     <string name="trans_start_failed_title">Неуспешен старт на прехвърлянето</string>
     <string name="trans_start_failed_message">Неуспешен старт на прехвърлянето, опитайте отново или рестартирайте устройството.</string>
-    <string name="trans_connect_failed_device_incompatible">Устройството е несъвместимо. Моля отменете процеса на прехвърляне и опитайте отново.</string>
-    <string name="trans_connection_failed">Прекъсната връзка с устройството</string>
+    <string name="trans_connect_failed_device_incompatible">Устройството не е съвместимо. Отменете прехвърлянето и опитайте отново.</string>
+    <string name="trans_connection_failed">Връзката беше прекъсната</string>
     <string name="user_notice_title">Внимание</string>
     <string name="user_notice_message">Някои функции се нуждаят от интернет връзка, за да работят нормално.</string>
     <string name="user_notice_declaration_ignore">Не показвай отново</string>
@@ -356,4 +357,31 @@
     <string name="backup_security_tips_message">Някои приложения може да не могат да бъдат архивирани и възстановявани.</string>
     <string name="trans_security_tips_title">Mi Трансфер съвместимост</string>
     <string name="trans_security_tips_message">Някои приложения може да не поддържат Mi Трансфер.</string>
+    <string name="trans_intro_title">ЧЗВ</string>
+    <string name="trans_intro_question_1">1. Как да използвам Mi трансфер?</string>
+    <string name="trans_intro_title_new">На нов телефон:</string>
+    <string name="trans_intro_desc_new">Докоснете \"Аз съм Получател\". QR код ще бъде генериран.</string>
+    <string name="trans_intro_title_old">На стар телефон:</string>
+    <string name="trans_intro_desc_old">Докоснете \"Аз съм Изпращач\". Сканирайте QR кода на новия телефон, изчакайте докато Mi трансфер подготви файловете, които искате да изпратите и натиснете \"Изпрати\".</string>
+    <string name="trans_intro_question_2">2. Какво трябва да направя, ако Mi трансфер спре да работи на определена стъпка?</string>
+    <string name="trans_intro_desc_2">Отменете прехвърлянето, излезте от Mi трансфер и започнете отново. Дублиращите се файлове ще бъдат презаписани.</string>
+    <string name="trans_intro_question_3">3. Защо не мога да използвам Wi-Fi по време на прехвърлянето?</string>
+    <string name="trans_intro_desc_3">Mi трансфер използва Wi-Fi за да прехвърля файлове. Ето защо не можете да се свържете с интернет, използвайки Wi-Fi на всяко устройство по време на прехвърлянето. Вие можете да използвате мобилни данни за връзка с интернет. При някои нови устройства (като например Mi 6), има възможност да се използва Wi-Fi за връзка с интернет по време на текущо прехвърляне.</string>
+    <string name="trans_intro_question_4">4. Защо Mi трансфер ми съобщава, че няма достатъчно място в хранилището на моето старо устройство?</string>
+    <string name="trans_intro_desc_4">Мястото в хранилището на старото устройство се използва за създаването на пакети от файлове за прехвърляне. Уверете се, че имате между 500МБ - 1ГБ достъпно място в хранилището на старото устройство, преди да започнете прехвърляне.</string>
+    <string name="trans_intro_question_5">5. Защо някои приложения не са прехвърлени успешно?</string>
+    <string name="trans_intro_desc_5">Има много причини това да се случи: несъвместима версия с новото устройство и неговата версия на Андроид, проблеми с мрежата, специфични проблеми с особености в приемащото устройство и др.</string>
+    <string name="trans_intro_question_6">6. Защо някои приложения не работят на новото устройство?</string>
+    <string name="trans_intro_desc_6">Някои приложения използват профили (електронно банкиране, финанси и др.) които са защитени на старото устройство чрез неговите характеристики. Опитайте се да изчистите данните на неработещото приложение или да го преинсталирате на новото устройство.</string>
+    <string name="trans_intro_question_7">7. Защо цялата хронология на WeChat не е прехвърлена?</string>
+    <string name="trans_intro_desc_7">WeChat данните на приложението и хронологията на чатовете може да не се прехвърлят изцяло чрез Mi трансфер. Отидете на WeChat настройки и се отпишете от вашия профил за да има повече възможност за успешно прехвърляне на цялата информация.</string>
+    <string name="trans_intro_question_8">8. Кои елементи не могат да се прехвърлят?</string>
+    <string name="trans_intro_title_account">Профили и пароли:</string>
+    <string name="trans_intro_desc_account">Вие трябва да се впишете отново във вашите профили (например Mi Профил, Exchange, Google Профил и др.) на новото си устройство поради съображения за сигурност.</string>
+    <string name="trans_intro_title_private">Скрит албум:</string>
+    <string name="trans_intro_desc_private">Mi трансфер няма достъп до снимките в скритите албуми, защото те са криптирани. Вие трябва да възстановите тези снимки от Mi Облак на новото устройство.</string>
+    <string name="trans_intro_title_multiuser">Данни от Второ работно място:</string>
+    <string name="trans_intro_desc_multiuser">Mi трансфер няма достъп до елементите във Второ работно място. Преместете ги в Основно работно място и започнете прехвърляне.</string>
+    <string name="trans_intro_title_multiapp">Клонирани приложения:</string>
+    <string name="trans_intro_desc_multiapp">Mi трансфер не може да прехвърля данни от клонирани приложения поради конфликт между файловете.</string>
 </resources>

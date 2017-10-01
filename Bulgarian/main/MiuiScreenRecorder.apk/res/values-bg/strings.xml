@@ -61,7 +61,11 @@
     <string name="stop_by_second_space">Превключването между отделните работни места ще спре записа</string>
     <string name="cannot_change_parames">Не може да променяте параметрите, докато правите запис</string>
     <string name="cannot_record">Не може да се запише, моля опитайте по-късно.</string>
-    <string name="frequently_click_toast">Инициализиране, моля изчакайте</string>
+    <string name="stop_recording">Спри записа</string>
+    <string name="start_recording">Започни запис</string>
+    <string name="frequently_click_toast">Един момент…</string>
+    <string name="recording_failure">Не може да се запише, започни отначало</string>
+    <string name="recording_max_size">Записът бе спрян и запазен, защото видеофайлът достигна своя максимален размер. Започнете записването, откъдето сте спрели, ако все още не сте готови.</string>
     <string name="no_sound">Заглуши</string>
     <string name="mic_sound">Микрофон</string>
     <string name="loopback_sound">Говорител</string>

@@ -209,7 +209,7 @@
     <string name="free_style_edit_tab_shortcut">Преки пътища</string>
     <string name="free_style_edit_tab_free_component">Свободни компоненти</string>
     <string name="free_style_edit_tab_widget">Джаджи</string>
-    <string name="free_style_edit_move_tip">Натиснете продължително за местене</string>
+    <string name="free_style_edit_move_tip">Натиснете &amp; задръжте за да преместите елемент</string>
     <string name="free_style_edit_app">Приложение</string>
     <string name="free_style_edit_drawer">Списък</string>
     <string name="free_style_drawer_title">Всички приложения</string>

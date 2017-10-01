@@ -23,5 +23,5 @@
     <string name="ad_service">Услуга за реклама</string>
     <string name="settings_ad_loading">Момент…</string>
     <string name="settings_ad_loading_unavailable">Информацията не можа да се зареди.</string>
-    <string name="autoconnect">Авто Свързване</string>
+    <string name="autoconnect">Автоматично свързване</string>
 </resources>

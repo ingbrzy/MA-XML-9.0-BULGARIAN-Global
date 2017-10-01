@@ -821,7 +821,7 @@
     <string name="cpu_usage_app_bg_restrict_no_limit">Не ограничавай</string>
     <string name="cpu_usage_app_bg_restrict_partly">След %s</string>
     <string name="cpu_usage_app_bg_restrict_full">Ограничаване активността на заден план</string>
-    <string name="cpu_usage_app_bg_restrict_partly_short">След%s</string>
+    <string name="cpu_usage_app_bg_restrict_partly_short">След %s</string>
     <string name="cpu_usage_app_bg_restrict_default_short">Автомат</string>
     <string name="cpu_usage_app_tip_can_not_restrict_system_app">Не може да се ограничават системни процеси</string>
     <string name="cpu_usage_app_uninstalled_toast">Това приложение е деинсталирано</string>
@@ -841,7 +841,7 @@
     <string name="om_settings_lock_app_manage">Заключване на прилж</string>
     <string name="om_settings_lock_app">Заключване на прилж</string>
     <string name="om_settings_speed_up_auto">Автом. подобряване на скоростта</string>
-    <string name="om_settings_memory_clean_lock_screen">Изчистване на кеш когато екранът изгасне</string>
+    <string name="om_settings_memory_clean_lock_screen">Изчистване на кеша, когато устройството е заключено</string>
     <string name="om_settings_notify_manage">Известия</string>
     <string name="om_settings_memory_occupy_notify">Голям размер на кеша</string>
     <string name="om_settings_memocy_occupy_too_large_summary">Известие при голям размер на кеша</string>
@@ -1570,6 +1570,7 @@
     <string name="hints_risk_name_title">Риск:</string>
     <string name="hints_risk_descx_title">Описание:</string>
     <string name="button_text_clear">Почисти</string>
+    <string name="antivirus_main_activity_back">Обратно след сканиране за сигурност</string>
     <string name="toast_removed_from_virus_white_list">Преместено от Изключенията. Елемента ще бъде сканиран следващият път.</string>
     <string name="long_click_dialog_title">Предупреждение</string>
     <string name="long_click_dialog_summary">Запазвайте резултатите в списък за да ги добавите в Изключения</string>
@@ -1628,6 +1629,7 @@
     <string name="card_main_deepclean_wechat_action">Изчистване</string>
     <string name="card_main_sectool_title">Инструменти</string>
     <string name="card_main_monthreport_action">Покажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Диагностика на мрежата</string>
     <string name="card_main_netcheck_summary">Диагностика на мрежата за проблеми при свързването</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -1652,6 +1654,7 @@
     <string name="skin_change_close_toast">Промените ще бъдат приложени следващия път, когато стартирате приложението</string>
     <string name="Setting_lock">Настройки</string>
     <string name="app_name">Закл. на прил.</string>
+    <string name="back_app_name">Върнете се в Закл. приложения</string>
     <string name="notification_item">Защитете приложенията си със Заключване на приложения</string>
     <string name="lock_mode_title">Настройки за заключване</string>
     <string name="after_the_lock_screen">Заключване на приложения заедно с екрана</string>
@@ -1668,6 +1671,7 @@
     <string name="lockpattern_continue_button_text">Напред</string>
     <string name="lockpattern_confirm_button_text">ОК</string>
     <string name="modifypassword">Промяна на паролата</string>
+    <string name="back_modifypassword">Върнете се към промяна на паролата</string>
     <string name="showpattern">Показване на фигурата</string>
     <string name="notification_mask_title">Скрий съдържанието</string>
     <string name="notification_mask_summary">Не показвай съдържание на известия при заключен екран и в лентата за известия</string>
@@ -1684,7 +1688,7 @@
     <string name="passwordIncorrect">Неправилно име или парола</string>
     <string name="access_control_app_is_launching">Приложението стартира</string>
     <string name="access_control_need_to_unlock_nofingerprint">Въведете парола за отключване</string>
-    <string name="access_control_failed_need_to_unlock_nofingerprint">Изисква се парола за достъп до приложението</string>
+    <string name="access_control_failed_need_to_unlock_nofingerprint">Начертайте вашия шаблон за отключване, за да използвате нов пръстов отпечатък</string>
     <string name="access_control_fingerprint_not_identified_msg">Отпечатъкът не може да се разпознае.</string>
     <string name="access_control_need_password">"%s заключени успешно
 "</string>
@@ -2008,4 +2012,9 @@
     <string name="net_booster_overdue_notification_tip">Сесията на Мрежовия ускорител ще приключи скоро. Да се поднови ли?</string>
     <string name="net_booster_expire_notification">Сесията на Мрежовия ускорител е към края си</string>
     <string name="xunyou_pay_webview">Xunyou услуги</string>
+    <string name="xunyou_server_expired">Сесията изтече.</string>
+    <string name="game_anti_disturb_msg">Игра в режим Не безпокойте</string>
+    <string name="gamebooster_main_activity_back">Обратно в Ускорител на игри</string>
+    <string name="data_booster_title">Стабилизиране на връзката за данни</string>
+    <string name="data_booster_desc">Деактивиране на другото гнездо за SIM карта, за да се запази стабилна връзката</string>
 </resources>

@@ -129,8 +129,6 @@
     <string name="birthday_event_description_a_week_later">След седмица</string>
     <string name="birthday_event_description_day_after_tomorrow">Вдругиден</string>
     <string name="birthday_event_description_day_before_yesterday">Завчера</string>
-    <string name="birthday_event_description_days_ago">%1$d дни от</string>
-    <string name="birthday_event_description_days_later">%1$d дни докато</string>
     <string name="birthday_event_description_default">%1$s на %2$s %3$s %4$s</string>
     <string name="birthday_event_description_special">%1$s %2$s на %3$s %4$s %5$s</string>
     <string name="birthday_event_description_today">Днес</string>
@@ -188,7 +186,6 @@
     <string name="download">Изтегляне</string>
     <string name="edit_date_calculate_days_backward_error_hint">Не може да се пресметне напред</string>
     <string name="edit_date_calculate_days_empty_hint">Въведете числото на дните</string>
-    <string name="edit_date_calculate_days_error_hint">You can enter up to %1$d days</string>
     <string name="edit_date_calculate_days_forward_error_hint">Не може да се пресметне назад</string>
     <string name="edit_event_anniversary_name_empty_hint">Въведете име на събитието</string>
     <string name="edit_event_anniversary_name_hint">Събитие</string>
@@ -212,6 +209,7 @@
     <string name="edit_event_tab_birthday">Рожден ден</string>
     <string name="edit_event_tab_countdown">Обратно броене</string>
     <string name="edit_event_tab_event">Събитие</string>
+    <string name="english_premium_league">Английска Висша Лига</string>
     <string name="event_account">Профил</string>
     <string name="event_action_delete">Изтриване</string>
     <string name="event_action_edit">Редактиране</string>
@@ -233,12 +231,14 @@
     <string name="from_google_group_calendar">Google Календар</string>
     <string name="global_action_text_card_manager">Още Категории</string>
     <string name="global_cricket_no_match">Няма планиран крикет за днес. Проверете в други дни.</string>
+    <string name="global_football_final">ФИНАЛ</string>
+    <string name="global_football_no_match">Няма планирани футболни мачове за днес.</string>
     <string name="global_onthisday_com">OnThisDay.com</string>
     <string name="guide_card_hint_text">Импортиране на рождени дни от контактите</string>
     <string name="holiday_card_title">Празник</string>
     <string name="holiday_detail_read_more">Повече</string>
     <string name="horoscope_select_activity_label">Избор на зодиакален знак</string>
-    <string name="import_action">Импорт</string>
+    <string name="import_action">Импортирай</string>
     <string name="import_birthday">Вмъкни рожден ден</string>
     <string name="imported">Импортирането е успешно</string>
     <string name="insert_event_dialog_btn_negative">Не</string>
@@ -283,7 +283,7 @@
     <string name="panchang_ayana">Аяна</string>
     <string name="panchang_gulikai_kalam">Гуликай Калам</string>
     <string name="panchang_hindu_lunar_month">Индийски лунен месец</string>
-    <string name="panchang_inauspicious_timings">Inauspicious Timings</string>
+    <string name="panchang_inauspicious_timings">Неблагоприятно време</string>
     <string name="panchang_karan">Каран</string>
     <string name="panchang_moon_sign">Лунен знак</string>
     <string name="panchang_nakshatra">Накшатра</string>
@@ -294,8 +294,8 @@
     <string name="panchang_shaka_samvat">Шака Самват</string>
     <string name="panchang_sun_sign">Слънчев знак</string>
     <string name="panchang_tithi">Титхи</string>
-    <string name="panchang_to"> to </string>
-    <string name="panchang_upto"> upto </string>
+    <string name="panchang_to">то</string>
+    <string name="panchang_upto">до</string>
     <string name="panchang_vikram_samvat">Викрам Самват</string>
     <string name="panchang_yamaghanta">Ямагханта</string>
     <string name="panchang_yog">Йог</string>
@@ -355,7 +355,7 @@
     <string name="setting_title_holiday_display">Покажи празници</string>
     <string name="start_date_calculate">Пресметни</string>
     <string name="subscribe_card">Абонирайте се сега</string>
-    <string name="subscribe_card_success">Абонамента е успешен! Проверете детайлите на началната страница.</string>
+    <string name="subscribe_card_success">Абонаментът е успешен! Проверете детайлите на началната страница.</string>
     <string name="subscribe_card_success_for_homepage">Абонирането за “%1$s” е успешно</string>
     <string name="subscribe_channel_bottom_hint">—— Mi Календар ——</string>
     <string name="subscribe_channel_click_hint">Изисква се абонамент</string>

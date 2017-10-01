@@ -157,7 +157,7 @@
         <item quantity="one">%d приложение има разрешение за автостарт</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
-        <item quantity="other">PIN кодът трябва да е %d цифри</item>
+        <item quantity="other">PIN кодът трябва да е с %d цифри</item>
         <item quantity="one">PIN кодът трябва да е %d цифра</item>
     </plurals>
     <plurals name="wifi_share_count">
@@ -193,12 +193,12 @@
         <item quantity="one">Никога не деактивирай за 1 прил.</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short">
-        <item quantity="other">ПИН кодът трябва да е поне %d цифри</item>
-        <item quantity="one">ПИН кодът трябва да е поне %d цифра</item>
+        <item quantity="other">PIN кодът трябва да е поне %d цифри</item>
+        <item quantity="one">PIN кодът трябва да е поне %d цифра</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">
-        <item quantity="other">ПИН-ът може да съдържа до %d цифри</item>
-        <item quantity="one">ПИН-ът може да съдържа до %d цифра</item>
+        <item quantity="other">PIN кодът може да съдържа до %d цифри</item>
+        <item quantity="one">PIN кодът може да съдържа до %d цифра</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">Свържете поне %d точки. Опитайте отново.</item>

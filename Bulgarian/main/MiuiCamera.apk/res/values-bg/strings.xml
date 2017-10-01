@@ -167,10 +167,10 @@
     <string name="pref_camera_autoexposure_entry_spotmetering">Точка</string>
     <string name="pref_camera_audio_capture_title">Звуково акт.</string>
     <string name="simple_mode_button_text_audio_capture">Спри снимането чрез звук</string>
-    <string name="pref_camera_video_duration_entry_mms">30 секунди(MMS)</string>
+    <string name="pref_camera_video_duration_entry_mms">30 секунди (MMS)</string>
     <string name="pref_camera_video_duration_entry_10">10 минути</string>
     <string name="pref_camera_video_duration_entry_30">30 минути</string>
-    <string name="pref_camera_video_duration_entry_120">2 часа</string>
+    <string name="pref_camera_video_duration_entry_120">Без лимит</string>
     <string name="pref_camera_zsl_entry_off">Изкл.</string>
     <string name="pref_camera_zsl_entry_on">Вкл.</string>
     <string name="pref_camera_facedetection_title">Разпознаване на лице</string>
@@ -339,6 +339,7 @@
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средно</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Опции</string>
     <string name="button_front_camera_title">Направете селфи</string>
     <string name="button_normal_video_title">Запишете видео</string>
@@ -355,6 +356,7 @@
     <string name="toast_saving">Записване на снимките……</string>
     <string name="cannot_connect_camera_volte_call">Видео обаждането се осъществява, опитайте по-късно.</string>
     <string name="hibernate_hint">Чукнете, за да събудите Камера</string>
+    <string name="pref_camera_picturesize_entry_widescreen">@string/pref_camera_picturesize_entry_fullscreen</string>
     <string name="accessibility_zoom_button">Режим Приближаване</string>
     <string name="accessibility_portrait_button">Режим Портрет</string>
     <string name="toast_burst_snap_finished_summary">Бързото заснемане приключи, %1$s снимки са направени</string>
@@ -450,7 +452,7 @@
     <string name="user_notice_identify_summary_format">Използвайки тази услуга, вие се съгласявате с %1$s и %2$s.</string>
     <string name="user_notice_title">Правила и условия</string>
     <string name="pref_camera_focus_shoot_title">Фокус &amp; заснемане</string>
-    <string name="pref_camera_focus_shoot_summary">След като докоснете фокуса, чукнете върху бутона на камерата в средата на фокуса, за да направите снимка</string>
+    <string name="pref_camera_focus_shoot_summary">Докоснете екрана за фокусиране и още един път за заснемане.</string>
     <string name="pref_retain_camera_mode_title">Запази предишния режим</string>
     <string name="pref_retain_camera_mode_summary">Превключи камерата на предишния използван режим, когато приложението стартира.</string>
     <string name="pref_fingerprint_capture_title">Заснемане на пръстов отпечатък</string>

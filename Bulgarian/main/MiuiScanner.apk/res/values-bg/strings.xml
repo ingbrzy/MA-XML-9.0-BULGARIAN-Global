@@ -30,9 +30,9 @@
     <string name="picker_lable">Снимка</string>
     <string name="common_retake_picture">Повторно</string>
     <string name="common_save">Запази</string>
-    <string name="common_retry">Оптитайте отново</string>
+    <string name="common_retry">Опитайте отново</string>
     <string name="sdk_not_ready">SDK се подготвя. Опитайте по-късно.</string>
-    <string name="error_get_image">не можа да се вземе изображение</string>
+    <string name="error_get_image">Снимката не можа да се получи</string>
     <string name="language_entry_chinese_cn">Опростен Китайски</string>
     <string name="language_entry_chinese_tw">Традиционен Китайски</string>
     <string name="language_entry_danish">Датски</string>
@@ -102,6 +102,8 @@
     <string name="payment_zhifubao">AliPay</string>
     <string name="weixin_code_tip">Моля, използвайте WeChat, за да сканирате този баркод</string>
     <string name="back">Назад</string>
+    <string name="label_flash_light">Светкавица</string>
+    <string name="label_choose_picture">Изберете изображение</string>
     <string name="shopping_title">Направете снимка на продукта</string>
     <string name="shopping_searching">Сканиране за продукти…</string>
     <string name="shopping_vendor_info">Техническа поддръжка от Taobao</string>
@@ -166,7 +168,7 @@
     <string name="document_color_picture_tip">Превръщане в цвят…</string>
     <string name="document_save_succeed_tip">Документът е запазен в %1$s</string>
     <string name="document_recognize_fail_tip">Не може да се разпознае документ</string>
-    <string name="document_recognize_null_tip">Няма файлове тип Документи</string>
+    <string name="document_recognize_null_tip">Не може да се разпознае този документ</string>
     <string name="recognition_error_download_title">Услугата за разпознаване е задължителна</string>
     <string name="recognition_error_download_msg">Изтеглете услугата за разпознаване, за да сканирате карти. Размерът ѝ е около 15 MB.</string>
     <string name="recognition_error_download_ok">Изтегли</string>
@@ -178,5 +180,5 @@
     <string name="recognition_error_download_fail">Услугата за разпознаване не беше изтеглена</string>
     <string name="low_version_tip">Версията на MIUI е прекалено стара. Актуализирайте MIUI, за да използвате Скенер.</string>
     <string name="app_description_title">За Скенер</string>
-    <string name="app_description_content">Скенерът ви позволява да сканирате Бар кодове, да сканирате и превеждате, да сканирате, за да получавате отговори, разчитате визитки. Моля, уверете се, че познавате всички функции, предлагани от това приложение.</string>
+    <string name="app_description_content">Скенерът може да сканира QR кодове, визитки и документи. Уверете се, че можете да работите без да използвате неговите услуги, преди да го деинсталирате.</string>
 </resources>

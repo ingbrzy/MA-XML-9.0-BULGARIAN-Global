@@ -184,4 +184,20 @@
         <item quantity="other">Открити са %1$d нови снимки</item>
         <item quantity="one">Открита е нова снимка</item>
     </plurals>
+    <plurals name="search_feedback_done_mark_false_positive">
+        <item quantity="other">Премахнати са %1$d снимки от \"%2$s\".</item>
+        <item quantity="one">Премахната е %1$d снимка от \"%2$s\".</item>
+    </plurals>
+    <plurals name="search_feedback_done_mark_and_contribute_false_positive">
+        <item quantity="other">Премахнати са %1$d снимки от \"%2$s\" и са добавени в базата данни.</item>
+        <item quantity="one">Премахната е %1$d снимка от \"%2$s\" и е добавена в базата данни.</item>
+    </plurals>
+    <plurals name="search_feedback_done_mark_false_negative">
+        <item quantity="other">Добавени са %1$d снимки към \"%2$s\".</item>
+        <item quantity="one">Добавена е %1$d снимка към \"%2$s\".</item>
+    </plurals>
+    <plurals name="search_feedback_done_mark_and_contribute_false_negative">
+        <item quantity="other">Добавени са %1$d снимки към \"%2$s\" и са записани в базата данни.</item>
+        <item quantity="one">Добавена е %1$d снимка към \"%2$s\" и е записана в базата данни.</item>
+    </plurals>
 </resources>

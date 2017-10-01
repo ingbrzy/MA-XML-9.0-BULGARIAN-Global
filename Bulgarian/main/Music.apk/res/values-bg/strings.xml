@@ -732,6 +732,8 @@ Tap %s за да започнете това изтегляне трябва д�
     <string name="more_settings">Настройки за напреднали</string>
     <string name="more_settings_summary">Настройки за изтегляне, заспиване, мобилен интернет план, и филтри за файлове.</string>
     <string name="service_and_settings">Обслужване и настройки</string>
+    <string name="filter_by_size_max">%dМБ</string>
+    <string name="filter_by_size_min">%dКБ</string>
     <string name="radar">ACRCloud</string>
     <string name="radar_support_by">С помощта на ACRCloud</string>
     <string name="radar_listening_state">Разпознаване...</string>

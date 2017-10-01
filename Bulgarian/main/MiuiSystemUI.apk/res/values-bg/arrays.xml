@@ -40,29 +40,29 @@
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Изключено</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
-        <item>4M</item>
-        <item>16M</item>
+        <item>64КБ</item>
+        <item>256КБ</item>
+        <item>1МБ</item>
+        <item>4МБ</item>
+        <item>16МБ</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
         <item>Изключено</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
+        <item>64КБ</item>
+        <item>256КБ</item>
+        <item>1МБ</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>Изключено</item>
-        <item>64K за буфер регистър</item>
-        <item>256K за буфер регистър</item>
-        <item>1М за буфер регистър</item>
-        <item>4М за буфер регистър</item>
-        <item>16М за буфер регистър</item>
+        <item>64КБ за буфер регистър</item>
+        <item>256КБ за буфер регистър</item>
+        <item>1МБ за буфер регистър</item>
+        <item>4МБ за буфер регистър</item>
+        <item>16МБ за буфер регистър</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Изключване на анимациите</item>
-        <item>Скала на анимации .5x</item>
+        <item>Скала на анимации 0.5x</item>
         <item>Скала на анимации 1x</item>
         <item>Скала на анимации 1.5x</item>
         <item>Скала на анимации 2x</item>
@@ -71,7 +71,7 @@
     </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>Изключване на анимациите</item>
-        <item>Скала на анимации .5x</item>
+        <item>Скала на анимации 0.5x</item>
         <item>Скала на анимации 1x</item>
         <item>Скала на анимации 1.5x</item>
         <item>Скала на анимации 2x</item>
@@ -80,7 +80,7 @@
     </string-array>
     <string-array name="animator_duration_scale_entries">
         <item>Изключване на анимациите</item>
-        <item>Скала на анимации .5x</item>
+        <item>Скала на анимации 0.5x</item>
         <item>Скала на анимации 1x</item>
         <item>Скала на анимации 1.5x</item>
         <item>Скала на анимации 2x</item>
@@ -148,6 +148,17 @@
         <item>Изключително бърза</item>
         <item>Екстремно бърза</item>
         <item>Скорострелна</item>
+    </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
     </string-array>
     <string-array name="color_mode_names">
         <item>Резониращ</item>

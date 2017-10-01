@@ -36,7 +36,7 @@
     <string-array name="timezone_labels">
         <item>Маршалски О-ви</item>
         <item>Средна Исландия</item>
-        <item>Хаваи</item>
+        <item>Хавай</item>
         <item>Аляска</item>
         <item>Тихоокеанско време</item>
         <item>Тихуана</item>
@@ -47,7 +47,7 @@
         <item>Централно време</item>
         <item>Мексико Сити</item>
         <item>Саскачеван</item>
-        <item>Bogota</item>
+        <item>Богота</item>
         <item>Източно време</item>
         <item>Венецуела</item>
         <item>Атлантическо време (Барбадос)</item>
@@ -129,6 +129,10 @@
         <item>Овен</item>
         <item>21/3 - 19/4</item>
     </string-array>
+    <string-array name="bundesliga">
+        <item>2</item>
+        <item>Национална лига</item>
+    </string-array>
     <string-array name="cancer_info">
         <item>рак</item>
         <item>Рак</item>
@@ -154,10 +158,18 @@
         <item>2 дни преди</item>
         <item>1 седмица преди</item>
     </string-array>
+    <string-array name="english_premium_league">
+        <item>4</item>
+        <item>@string/english_premium_league</item>
+    </string-array>
     <string-array name="gemini_info">
         <item>близнаци</item>
         <item>Близнаци</item>
         <item>21/5 - 21/6</item>
+    </string-array>
+    <string-array name="la_liga">
+        <item>3</item>
+        <item>Лига</item>
     </string-array>
     <string-array name="leo_info">
         <item>лъв</item>
@@ -169,8 +181,12 @@
         <item>Везни</item>
         <item>23/9 - 23/10</item>
     </string-array>
+    <string-array name="ligue_1">
+        <item>5</item>
+        <item>Лига 1</item>
+    </string-array>
     <string-array name="pisces_info">
-        <item>pisces</item>
+        <item>риби</item>
         <item>Риби</item>
         <item>19/2 - 20/3</item>
     </string-array>
@@ -267,6 +283,10 @@
         <item>скорпион</item>
         <item>Скорпион</item>
         <item>24/10 - 22/11</item>
+    </string-array>
+    <string-array name="serie_a">
+        <item>1</item>
+        <item>Серия А</item>
     </string-array>
     <string-array name="taurus_info">
         <item>телец</item>

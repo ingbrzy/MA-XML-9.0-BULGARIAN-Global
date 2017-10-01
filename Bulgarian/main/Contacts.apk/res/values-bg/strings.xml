@@ -309,6 +309,7 @@
     <string name="vcard_export_will_start_message">%s ще бъде експортирана скоро.</string>
     <string name="vcard_export_request_rejected_message">Експортирането на визитка се провали, моля опитайте по-късно.</string>
     <string name="vcard_unknown_filename">контакт</string>
+    <string name="percentage">%s%%</string>
     <string name="confirm_export_title">Ще експортирате ли контактите?</string>
     <string name="confirm_export_message">Вашият списък с контакти ще бъде експортиран във файла: %s.</string>
     <string name="exporting_contact_failed_title">Неуспешно експортиране</string>
@@ -689,6 +690,7 @@
     <string name="miprofile_alertdialog_message">Името ще се показва, когато запитвате за обмяна на контактни карти.</string>
     <string name="miprofile_alertdialog_edit">Въведете име</string>
     <string name="miprofile_switch_off_alertdialog_message">Няма да имате възможност за размяна на контактни карти с други хора. Вашите контакти няма да могат да виждат вашето профилно видео.</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_bind_account_alertdialog_title">Добавяне на тел. номер</string>
     <string name="miprofile_bind_account_alertdialog_message">Трябва да добавите номера на това устройство във вашия Mi профил, за да използвате тази функция.</string>
     <string name="miprofile_bind_account_alertdialog_positive">Добави номер</string>
@@ -880,7 +882,7 @@
     <string name="pref_key_rebuild_t9_index_message">Актуализиране на търсенето на контакти</string>
     <string name="pref_key_photo">Снимка</string>
     <string name="pref_key_photo_word_title">Автоматична снимка на контакт</string>
-    <string name="pref_key_photo_word_summary">Автоматично избиране на снимка за контакти без снимка.</string>
+    <string name="pref_key_photo_word_summary">Автоматично присвояване на снимка за контакт без снимка</string>
     <string name="remove_duplicate">\"MIUI ще ви помогне да намерите и обедините дублиращи се контакти. За да започнете, натиснете иконата за обединяване в долната част на екрана.\"</string>
     <string name="ic_menu_back">Назад</string>
     <string name="preference_display">Показване</string>
@@ -911,8 +913,8 @@
     <string name="share_over_limit">Над лимита, не може да се сподели</string>
     <string name="preference_key_trash_bin_title">Преглеждане на архивирани контакти, които са изтрити наскоро</string>
     <string name="preference_other">Друго</string>
-    <string name="preference_show_yellowpage_tab_title">Показване на Жълти страници</string>
-    <string name="preference_show_yellowpage_tab_description">Затварянето на раздел Жълти страници ще предизвика неправилна работа на приложението</string>
+    <string name="preference_show_yellowpage_tab_title">Покажи \"Жълти страници\"</string>
+    <string name="preference_show_yellowpage_tab_description">\"Жълти страници\" може да не работи правилно, когато тази услуга е изключена.</string>
     <string name="account_default">Телефон</string>
     <string name="lunarBirthdayLabelsGroup">Лунен рожден ден</string>
     <string name="option_view_contact">Покажи</string>
@@ -951,8 +953,9 @@
     <string name="antispam_provider_format">Маркираният номер е добавен от %s</string>
     <string name="type_mx_msg">Облачно съобщения</string>
     <string name="qr_card_card">Моят QR код</string>
-    <string name="unknown_details_new_contact">Нов контакт</string>
-    <string name="unfold_all">разгъни всички</string>
+    <string name="unknown_details_new_contact">Нов</string>
+    <string name="unknown_details_add_to_contact">Съществуващ</string>
+    <string name="unfold_all">Покажи всички</string>
     <string name="menu_new_favorite_action_bar">Добави в любими</string>
     <string name="click_close">Натиснете, за да затворите</string>
     <string name="phone_primary">Основен</string>
@@ -972,9 +975,10 @@
     <string name="group_create_fail_toast">Неуспешно създаване на група</string>
     <string name="group_rename_fail_toast">Неуспешно преименуване на група</string>
     <string name="contact_unfavorite_toast">Този контакт е премехнат от любими</string>
-    <string name="group_member_remove_toast">Контактът е успешно премахнат от групата</string>
-    <string name="contact_delete_toast">Контактът е успешно изтрит</string>
     <string name="profile_delete_toast">Профилът е успешно изтрит</string>
+    <string name="group_member_remove_success_toast">Премахнат от групата</string>
+    <string name="group_member_remove_fail_toast">Не е премахнат от групата</string>
+    <string name="contact_delete_toast">Контактът е изтрит</string>
     <string name="duplicate_group_name">Такава група вече съществува</string>
     <string name="all_list_empty">Няма контакти</string>
     <string name="favorites_list_empty">Няма любими</string>
@@ -1059,6 +1063,7 @@
     <string name="device_import_local_account">Локален профил</string>
     <string name="import_name">име</string>
     <string name="import_percent">0%</string>
+    <string name="percent_sign">%</string>
     <string name="ret_sign">"
 "</string>
     <string name="checkhint">Проверете на другият телефон</string>
@@ -1095,13 +1100,13 @@
     <string name="batch_delete">Пакетно изтриване</string>
     <string name="starred_contacts">Любими</string>
     <string name="other_contacts">Други контакти</string>
-    <string name="set_photo_failed_msg">Грешка при задаване на аватар</string>
+    <string name="set_photo_failed_msg">Не може да се присвои снимката</string>
     <string name="contact_is_readOnly">Контакт само за четене не може да се редактира</string>
     <string name="profile_name">Моят профил</string>
     <string name="profile_name_photo">Аз</string>
     <string name="toast_copying">Копиране, моля изчакайте...</string>
     <string name="toast_copy_done">Копирането завърши успешно</string>
-    <string name="toast_start_intent_failed">Няма намерени приложения за задържане</string>
+    <string name="toast_start_intent_failed">Няма намерени приложения, които да извършват това действие</string>
     <string name="group_name">Моите групи</string>
     <string name="import_all_sim_entries_miui">Импортиране на всички контакти</string>
     <string name="import_sim_entry_miui">Импортиране</string>
@@ -1183,11 +1188,6 @@
     <string name="data_unit_mb">МБ</string>
     <string name="data_unit_gb">ГБ</string>
     <string name="set_data_package">Първо настройте план за мобилни данни</string>
-    <string name="livetalk_charge">Заредете</string>
-    <string name="livetalk_switch_on">Включи</string>
-    <string name="livetalk_left">Остават</string>
-    <string name="livetalk_title">Пакет за презареждане</string>
-    <string name="live_talk_switch_on_toast">Пакетът за презареждане е включен успешно</string>
     <string name="button_join_service_number">Добави сервизен номер</string>
     <string name="button_my_center">Профил</string>
     <string name="gallery">Галерия</string>
@@ -1250,6 +1250,6 @@
     <string name="t9_search_empty_create_contact">Нов контакт</string>
     <string name="t9_search_empty_video_call">Видео разговор</string>
     <string name="t9_search_empty_send_sms">Изпрати съобщение</string>
-    <string name="t9_search_empty_edit_contact">Добави към контакт</string>
+    <string name="t9_search_empty_edit_contact">Добави към контакти</string>
     <string name="add_field_toast">Няма повече полета за добавяне.</string>
 </resources>

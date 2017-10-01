@@ -430,8 +430,8 @@
     <string name="mipay_balance">Баланс</string>
     <string name="mipay_others">Друго</string>
     <string name="mipay_identity">Проверка на самоличността</string>
-    <string name="mipay_indentity_done">готово</string>
-    <string name="mipay_identitiy_no">няма</string>
+    <string name="mipay_indentity_done">Потвърден</string>
+    <string name="mipay_identitiy_no">Не е потвърден</string>
     <string name="account_token_expired_title">Оторизацията е неуспешна</string>
     <string name="account_token_expired_msg">"Кодът за потвърждение е изтекъл, започнете отново или се отпишете от 
  Вашия профил ИД: %s"</string>

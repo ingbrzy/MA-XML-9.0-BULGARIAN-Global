@@ -30,12 +30,22 @@
         <item>По избор</item>
     </string-array>
     <string-array name="aqi_value">
-        <item>Приятно</item>
+        <item>Добро</item>
         <item>Задоволително</item>
         <item>Замърсено</item>
         <item>Лошо</item>
         <item>Много лошо</item>
         <item>Смразяващо</item>
+    </string-array>
+    <string-array name="weather_tips_value">
+        <item>Намаляване на външните влияния</item>
+        <item>Пътищата са хлъзгави</item>
+        <item>Възможни са силни бури, бъдете внимателни!</item>
+        <item>Въздухът е замърсен, носете маска!</item>
+        <item>Вземете си чадър, ако излизате навън</item>
+        <item>Бъдете внимателни на пътя</item>
+        <item>Приближава пясъчна буря, носете маска!</item>
+        <item>Желаем ви приятен ден!</item>
     </string-array>
     <string-array name="alarm_set">
         <item>Будилникът e настроен за след по-малко от минута.</item>
@@ -56,6 +66,15 @@
         <item>25 минути</item>
         <item>30 минути</item>
     </string-array>
+    <string-array name="snooze_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
     <string-array name="auto_silence_entries">
         <item>Изключено</item>
         <item>1 минута</item>
@@ -70,5 +89,10 @@
         <item>Няма</item>
         <item>Отлагане</item>
         <item>Изключване</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
 </resources>

@@ -140,7 +140,7 @@
     <string name="express_install_cainiao_ok">Изтегляне</string>
     <string name="express_install_cainiao_title">Инсталиране на Cainiao</string>
     <string name="express_install_delivery_service">Услуги за доставка</string>
-    <string name="express_install_open_locker">Open locker</string>
+    <string name="express_install_open_locker">Инсталирай Open locker</string>
     <string name="express_install_order_detail">Проверка на детайлите за поръчката</string>
     <string name="express_install_schedule_delivery">Планирана доставка</string>
     <string name="express_location_failed">Не може да ви открием. Въведете адрес.</string>
@@ -350,6 +350,7 @@
     <string name="quick_yellow_page_tab_phones">Телефон</string>
     <string name="recharge_actual_price">цена:</string>
     <string name="recharge_charge_range">Цена: RMB %1$s-%2$s</string>
+    <string name="recharge_charge_value">Цена: RMB %s</string>
     <string name="recharge_follow_name">Вземи пакет</string>
     <string name="recharge_history">история на препоръките</string>
     <string name="recharge_history_empty">Празно</string>
@@ -387,6 +388,7 @@
     <string name="rmb">RMB индекс</string>
     <string name="scan">Сканиране</string>
     <string name="select_package_before_buy">Изберете пакет</string>
+    <string name="send_shortcut_already_exists">Този начален екран вече съществува</string>
     <string name="send_shortcut_failed">Неуспешно изпращане</string>
     <string name="send_shortcut_success">Отметката е запазена на началните екрани</string>
     <string name="sending_shortcut">Изпращане…</string>

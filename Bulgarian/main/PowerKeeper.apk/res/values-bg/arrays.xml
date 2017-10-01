@@ -32,8 +32,8 @@
     <string-array name="action_param_translate">
         <item>Няма</item>
         <item>Стандартно</item>
-        <item>Снимка</item>
-        <item>Филм</item>
+        <item>Изображения</item>
+        <item>Филми</item>
         <item>Икономия на батерията</item>
         <item>Балансирано</item>
         <item>Производителност</item>
@@ -67,12 +67,12 @@
         <item>Честота на събуждане на устройството</item>
     </string-array>
     <string-array name="power_checker_recent_group_titles">
-        <item>Блокиране на събуждане на ядрото</item>
-        <item>Блокиране на събуждането</item>
-        <item>Сканиране за Wi-Fi</item>
-        <item>GPS</item>
-        <item>Процесор</item>
-        <item>Събуждане</item>
+        <item>Блокиране на дълбоко заспиване</item>
+        <item>Блокиране на заспиване</item>
+        <item>Търсене на WiFi мрежи</item>
+        <item>Използване на GPS</item>
+        <item>Употреба на CPU</item>
+        <item>Честота на събуждане на устройството</item>
     </string-array>
     <string-array name="power_checker_group_suffix">
         <item></item>
@@ -81,10 +81,10 @@
     </string-array>
     <string-array name="thermal_entries">
         <item>Контрол на температурата по подразбиране</item>
-        <item>Активен е режим \"Производителност\"</item>
+        <item>Режим \"Производителност\"</item>
     </string-array>
     <string-array name="thermal_summaries">
-        <item>Текущ режим по подразбиране</item>
+        <item>Текущ контрол на температурата</item>
         <item>Текущ режим производителност</item>
     </string-array>
 </resources>

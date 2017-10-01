@@ -39,7 +39,7 @@
     <string name="pc_activity_title">Оптимизирайте батерията</string>
     <string name="game_booster">Подобряване бързината при игри</string>
     <string name="game_booster_title">Ускоряване</string>
-    <string name="top_game">Топ игри</string>
+<string name="top_game"/>
     <string name="game_setting">Настройки за видео игри</string>
     <string name="gs_auto_clean_memory">Изчисти кеша</string>
     <string name="gs_auto_clean_memory_detail">Автоматично изчистване на кеш за оптимизиране на игрите</string>

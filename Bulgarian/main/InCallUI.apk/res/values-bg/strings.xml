@@ -72,7 +72,7 @@
     <string name="card_title_on_hold">Задържане на обаждането</string>
     <string name="card_title_hanging_up">Приключване на разговора</string>
     <string name="card_title_hanging_up_fail">Не можа да се приключи обаждането, опитайте отново.</string>
-    <string name="card_title_hanging_up_weak_signal">Сигналът на мобилната мрежа е слаб. Обаждането приключи</string>
+    <string name="card_title_hanging_up_weak_signal">Сигналът на мобилната мрежа е слаб. Приключване на обаждане…</string>
     <string name="card_title_hanging_up_restart">Не може да се прекрати обаждането. Рестартирайте устройството.</string>
     <string name="card_title_in_call">Вх. обаждане</string>
     <string name="card_title_in_call_short">В разговор</string>
@@ -80,7 +80,7 @@
     <string name="card_video_hold_swap">Размяна</string>
     <string name="onscreenEndCallText">Край</string>
     <string name="calling_via_template">Обаждане чрез %s</string>
-    <string name="respond_via_sms_custom_message">Персонализирано съобщение...</string>
+    <string name="respond_via_sms_custom_message">Потребителски SMS</string>
     <string name="manageConferenceLabel">Управление на конферентно обаждане</string>
     <string name="emergency_call_dialog_number_for_display">Номер за спешна помощ</string>
     <string name="call_extension_conference_mode">Конферентен режим</string>
@@ -136,7 +136,7 @@
     <string name="call_recording_error_privacy">Не можете да записвате докато сте в режим Гост</string>
     <string name="call_recording_error_sd_access">Няма достъп до SD картата</string>
     <string name="call_recording_error_sd_unmounted">Записът бе спрян: SD картата е изключена</string>
-    <string name="call_recording_error_low_storage">Недостатъчно място: вашата SD карта е почти пълна</string>
+    <string name="call_recording_error_low_storage">Няма достатъчно място в хранилището.</string>
     <string name="call_recording_error_start_failed">Рекордерът се използва от друго приложение</string>
     <string name="call_recording_error_unknown">Възникна неизвестна грешка</string>
     <string name="call_recording_notification_title">Разговорът е записан</string>
@@ -179,7 +179,6 @@
     <string name="do_not_ask">Не показвай отново</string>
     <string name="time_left_livetalk">(%dс)</string>
     <string name="can_not_call_oneself">Не може да се извърши повикване.</string>
-    <string name="miprofile_stranger_card">Карта на непознат</string>
     <string name="card_title_video_call_paused">Видеообаждането е на пауза.</string>
     <string name="card_title_incoming_conference_call">Входящо конферентно обаждане.</string>
     <string name="video_switch_to_voice_call_prompt">Превключване на гласово повикване</string>
@@ -238,5 +237,6 @@
     <string name="cancel_call">Затвори</string>
     <string name="dial_with_gsm_phone">Нормално обаждане</string>
     <string name="livetalk_left_minute">остават %s мин.</string>
+    <string name="miprofile_stranger_card">Карта на непознат</string>
     <string name="purchase_now">Вземи пакет</string>
 </resources>

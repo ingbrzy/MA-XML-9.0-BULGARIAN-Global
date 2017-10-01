@@ -120,10 +120,6 @@
         <item quantity="other">Отблокиране на %1$d телефонни номера?</item>
         <item quantity="one">Отблокиране на %1$d телефонен номер?</item>
     </plurals>
-    <plurals name="livetalk_unit">
-        <item quantity="other">Минути</item>
-        <item quantity="one">Минута</item>
-    </plurals>
     <plurals name="callNoAnswerTimeFormat">
         <item quantity="other">Звънял %1$d пъти</item>
         <item quantity="one">Звънял %1$d път</item>

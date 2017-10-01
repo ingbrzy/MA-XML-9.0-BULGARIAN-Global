@@ -33,8 +33,8 @@
     <string name="video_editor_audio_sad">Балада</string>
     <string name="video_editor_audio_custom">Избрано</string>
     <string name="video_editor_unsupport_audio_file">Неподдържан аудио файл</string>
-    <string name="video_editor_text_preview_text">MI</string>
-    <string name="video_editor_text_default">подразбиране</string>
+    <string name="video_editor_text_preview_text">Aa</string>
+    <string name="video_editor_text_default">Подразбиране</string>
     <string name="video_editor_text_input_empty_tips">Изглежда не сте въвели текст все още</string>
     <string name="video_editor_encode_video">Разчитане на видеофайл…</string>
     <string name="video_editor_analyzing">Видеото се анализира…</string>
@@ -295,8 +295,8 @@
     <string name="picker_image_will_download">%d от избраните снимки не са в устройството, изтегляне</string>
     <string name="picker_continue_with_exists">Продължете с локаните снимки</string>
     <string name="picker_download">Изтегляне</string>
-    <string name="picker_cancel_download">Отменете изтеглянето</string>
-    <string name="picker_continue_download">Продължете изтеглянето</string>
+    <string name="picker_cancel_download">Отмяна на изтеглянето</string>
+    <string name="picker_continue_download">Продължи изтеглянето</string>
     <string name="picker_no_network_message">Свържете се към мрежата за да теглите файлове</string>
     <string name="picker_download_progress_message">Изтегляне, Ще приключи: %1$d/%2$d</string>
     <string name="operation_send">Изпрати</string>
@@ -319,8 +319,8 @@
     <string name="operation_share">Сподели</string>
     <string name="operation_force_top">Закачи</string>
     <string name="operation_unforce_top">Откачи</string>
-    <string name="operation_hide">Скрий</string>
-    <string name="operation_unhide">Покажи</string>
+    <string name="operation_hide">Направи невидим</string>
+    <string name="operation_unhide">Направи видим</string>
     <string name="operation_enable_auto_upload">Включване на Синхр. с Mi Cloud</string>
     <string name="operation_disable_auto_upload">Изключване на Синхр. с Mi Cloud</string>
     <string name="operation_remove_from_other_albums">Премести от други албуми</string>
@@ -408,6 +408,8 @@
     <string name="must_pick_file">Изберете снимка</string>
     <string name="send_multiple_files_hint_format">Изпращане (%s)</string>
     <string name="send_too_many_files_error">Не може да изпращате толкова много елементи (максимум %d елементи).</string>
+    <string name="app_is_launching">%s се стартира…</string>
+    <string name="app_is_launching_common">Стартиране на приложение…</string>
     <string name="title_warn">Внимание</string>
     <string name="byteShort">Б</string>
     <string name="kilobyteShort">КБ</string>
@@ -583,7 +585,7 @@
     <string name="slim_after_backuped_title">Оптимизирай локалното хранилище след всяко успешно резервно копие</string>
     <string name="slim_after_backuped_summary">Замяна на снимките с висока резолюция в устройството с оптимизирани версии, след като бъдат архивирани в Mi Cloud. Снимките с висока резолюция ще бъдат на разположение в Mi Cloud. Това може да спести много място в локалното хранилище.</string>
     <string name="browse_category_title">Преглеждане</string>
-    <string name="show_hidden_album_title">Покажи скритите албуми</string>
+    <string name="show_hidden_album_title">Покажи невидимите албуми</string>
     <string name="slideshow_interval_title">Показвай всяка снимка за</string>
     <string name="slideshow_interval_value">%1$d секунди</string>
     <string name="slideshow_interval_dialog_title">Интервалът от време трябва да бъде по-голям от 0 секунди</string>
@@ -599,6 +601,7 @@
     <string name="welcome_to_slim">Добре дошли в умаления албум.</string>
     <string name="slim_introduce">Замяна на локалните снимки/видео с пълна резолюция с оптимизирани копия, след като са архивирани в Mi Cloud. Снимките с пълна резолюция остават запазени в Mi Cloud. Това може да спести повече от 90% място за съхранение(Изисква се Mi-профил).</string>
     <string name="slim_introduce_with_specific_size">Замяна на локалните снимки/видео на пълна резолюция с оптимизирани копия, след като са архивирани в Mi Облак. Снимките с пълна резолюция остават запазени в Mi Облак. Това може да спести %1$s(Изисква се Mi профил).</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="auto_backup_introduce">Архивирайте снимки и видео автоматично(Изисква се Mi профил)</string>
     <string name="next">Напред</string>
     <string name="login_and_enable_service">Влезте в профила си и използвайте MiCloud.</string>
@@ -644,7 +647,7 @@
     <string name="backup_device_space_low_btn_text">Изчистване</string>
     <string name="backup_sync_error_title">Неуспешна синхронизация</string>
     <string name="backup_sync_error_desc">Свързването с Mi Облак беше неуспешно</string>
-    <string name="backup_sync_error_btn_text">Оптитайте отново</string>
+    <string name="backup_sync_error_btn_text">Опитайте отново</string>
     <string name="backup_cta_not_allow_title">Неуспешно свързване с мрежата</string>
     <string name="backup_cta_not_allow_desc">Автоматично ще бъдат създадени резервни копия</string>
     <string name="backup_cta_not_allow_btn_text">Позволено</string>
@@ -675,6 +678,7 @@
     <string name="cloud_storage_ok_append_desc">Достъпни: %s</string>
     <string name="cloud_storage_warn_title">Няма достатъчно място в хранилището на Mi Облак</string>
     <string name="cloud_storage_warn_desc">VIP абонаментза допълнително място</string>
+    <string name="percent_sign">%</string>
     <string name="cloud_storage_extend">Разширено място в Mi Облак</string>
     <string name="user_agreement2">Условия за ползване</string>
     <string name="user_agreement4">Политика на поверителност</string>
@@ -763,7 +767,7 @@
     <string name="search_set_network_connection">Настройки на мрежата</string>
     <string name="search_connection_error_and_set">Проверете мрежовите си настройки</string>
     <string name="search_error">Възникна грешка</string>
-    <string name="search_retry">Оптитайте отново</string>
+    <string name="search_retry">Опитайте отново</string>
     <string name="search_error_and_retry">Получи се грешка, опитайте отново</string>
     <string name="search_image_result_title">Резултати от търсенето</string>
     <string name="search_result_empty">Не може да се открие нищо</string>
@@ -783,6 +787,24 @@
     <string name="search_setting_sub_title_open">Приложено. Изчакайте малко преди да започнете.</string>
     <string name="search_request_open">Станете член на Бета-тийма</string>
     <string name="search_title_more">Повече</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_mark_feedback_false_positive_title">Поправи</string>
+    <string name="search_mark_feedback_all_false_negative_title">Всички са \"%s\"</string>
+    <string name="search_mark_feedback_false_negative_title">OК</string>
+    <string name="search_feedback_false_negative_title">Избраните елементи са \"%s\"</string>
+    <string name="search_failed_mark_feedback_false_positive">Не може да се премахне</string>
+    <string name="search_failed_mark_feedback_false_negative">Не може да се добави</string>
+    <string name="search_feedback_false_positive_text">Премахни снимки от \"%s\"?</string>
+    <string name="search_feedback_false_negative_text">Добави снимки към \"%s\"?</string>
+    <string name="search_feedback_contribute">Добави снимки към АI алгоритъм база данни</string>
+    <string name="search_feedback_task_finish_title">Чукнете за да получите награда!</string>
+    <string name="search_feedback_task_progress">%1$d/%2$d</string>
+    <string name="search_feedback_likely_title">Изглежда, че тези снимки може да са \"%s\"</string>
+    <string name="search_feedback_likely_check_title">Проверка</string>
+    <string name="search_feedback_false_positive_title">Изглежда, че те са “%s”</string>
+    <string name="search_feedback_task_requesting_award">Получаване на награда…</string>
+    <string name="search_feedback_task_request_award_failed">Не може да се получи награда. Опитайте отново по-късно</string>
     <string name="grant_permission_title">Разреши достъп</string>
     <string name="grant_permission_text">"Галерия се нуждае от достъп до 
 %s
@@ -877,7 +899,15 @@
     <string name="sub_discard_positive_btn">Запази</string>
     <string name="sub_discard_negative_btn">Отмени</string>
     <string name="photo_editor_navigator_cancel">Отказ</string>
-    <string name="photo_editor_navigator_export">Готово</string>
+    <string name="photo_editor_navigator_export">Запази</string>
+    <string name="photo_editor_navigator_need_download">Свържете се към интернет за да изтеглите %s.</string>
+    <string name="photo_editor_navigator_module_downloading">Изтегляне %s…</string>
+    <string name="photo_editor_navigator_download_network_metered_title">Предупреждение за използв. на данни</string>
+    <string name="photo_editor_navigator_download_network_metered_msg">Изтеглянето на %s ще изхаби около 4МБ мобилни данни. Да изтегля ли?</string>
+    <string name="photo_editor_navigator_module_download_wait_wlan">Изчакване за Wi-Fi връзка</string>
+    <string name="photo_editor_navigator_module_download_now">Изтегли</string>
+    <string name="photo_editor_navigator_module_download_success">Изтеглянето е успешно</string>
+    <string name="photo_editor_navigator_module_download_failed">Неуспешно изтегляне %s</string>
     <string name="photo_editor_beautify">Разкрасяване</string>
     <string name="photo_editor_filter">Филтри</string>
     <string name="photo_editor_crop_and_rotate">Изрежи</string>
@@ -887,8 +917,9 @@
     <string name="photo_editor_text">Текст</string>
     <string name="photo_editor_long_crop">Изрежи</string>
     <string name="photo_editor_mosaic">Мозайка</string>
+    <string name="photo_editor_remover">Изтрий</string>
     <string name="photo_editor_beauty_compare">Оригинално</string>
-    <string name="onekey_none">Без ефекти</string>
+    <string name="onekey_none">Оригинално</string>
     <string name="onekey_auto">Автомат</string>
     <string name="onekey_food">Храна</string>
     <string name="onekey_scene">Пейзаж</string>
@@ -957,4 +988,8 @@
     <string name="text_append_font_example">Aa</string>
     <string name="text_edit_dialog_font">Шрифт</string>
     <string name="text_edit_dialog_font_default">Подразбиране</string>
+    <string name="remover_edit_type_free">Обекти</string>
+    <string name="remover_edit_type_line">Линии</string>
+    <string name="remover_menu_processing">Обработка</string>
+    <string name="remover_erase_aera_too_big">Зоната за изтриване е твърде голяма</string>
 </resources>

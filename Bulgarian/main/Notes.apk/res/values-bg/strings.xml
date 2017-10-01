@@ -6,6 +6,7 @@
     <string name="sina_token_expired_warning">Акаунтът Ви във Weibo е изтекъл. Добавете го отново.</string>
     <string name="sina_token_invalid_warning">Акаунтът Ви във Weibo е невалиден, добавете го отново.</string>
     <string name="sina_share_fail_content_repeat">Вече сте споделили това.</string>
+    <string name="search_title_notes">@string/app_name</string>
     <string name="search_keyword_notes">Бележки;Напомняне</string>
     <string name="search_path_notes">Системни приложения/Бележки</string>
     <string name="dlg_move_message">Преместване…</string>
@@ -71,7 +72,7 @@
     <string name="dialog_share_as_pic">Сподели бележката като картина</string>
     <string name="note_description_title">За Бележки</string>
     <string name="note_description_content">Приложението Бележки е чудесен инструмент за записване на вашите идеи. То има вградени напомняния и синхронизира вашите неща с Mi Облак, за да имате достъп до тях отвсякъде и по всяко време. Уверете се, че можете да се справяте и без това приложение, преди да го деинсталирате.</string>
-    <string name="db_downgrade_clear_date_reminder">Преминаването на друга версия на MIUI налага изчистването на информацията от приложението Бележки. Преди да направите това, уверете се, че сте архивирали вашите бележки в Mi Облак.</string>
+    <string name="db_downgrade_clear_date_reminder">Преминаването към друга версия на MIUI налага изчистването на информацията от приложението Бележки. Преди да направите това, уверете се, че сте архивирали вашите бележки в Mi Облак.</string>
     <string name="db_downgrade_clear_button">Изчистване на данните</string>
     <string name="app_name">Бележки</string>
     <string name="app_widget">Бележки</string>
