@@ -325,6 +325,7 @@
     <string name="loading_micloud_sync_data">Зарежда се…</string>
     <string name="activity_not_found_notice">Не може да се открие приложението</string>
     <string name="scan_barcode_title">За да се впишете в Mi профила си, сканирайте QR кодът</string>
+    <string name="talkback_scan_barcode">сканирайте QR кода</string>
     <string name="authorize_title">Оторизация</string>
     <string name="my_device_title">Текущо устройство</string>
     <string name="device_list_title">Списък с устройства</string>

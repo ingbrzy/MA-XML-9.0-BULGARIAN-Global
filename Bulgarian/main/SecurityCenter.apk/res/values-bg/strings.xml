@@ -380,6 +380,7 @@
     <string name="detail_app_button">Детайли</string>
     <string name="pref_about_traffic_title">Настройка на трафика</string>
     <string name="pref_traffic_manage_title">Използвани данни</string>
+    <string name="pref_operator_setting">%1$s: %2$s</string>
     <string name="pref_package_traffic_settings">Лимит за мобилни данни</string>
     <string name="pref_adjust_traffic_data">Задаване на изп. на данни</string>
     <string name="pref_category_title_other">Допълнитени настройки</string>
@@ -872,6 +873,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Това приложение може да забави прекалено много
 вашето устройство"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Деинсталиране на %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Деинсталирайте това приложение, за да поправите проблем с прекален разход на батерията.</string>
     <string name="om_ill_proc_type_wakelock_title">Това приложение блокира режим сън на устройството и изразходва много батерия</string>
@@ -1203,6 +1205,7 @@
     <string name="sp_monitored_apps_count_zero">Няма приложения за плащане</string>
     <string name="monitor_app_more">Повече</string>
     <string name="monitor_app_add">Добави</string>
+    <string name="sc_system_risk_fix_info_xspace">Рискът не може да бъде коригиран в xspace, моля, преминете към пространството на собственика, за да го коригирате.</string>
     <string name="sp_background_risk_dialog_title">Предупреждение</string>
     <string name="sp_background_risk_dialog_summary">, проверка и отстраняване на проблеми с плащането.</string>
     <string name="sp_background_risk_type_wifi">Тази Wi-Fi мрежа е опасна</string>
@@ -1266,6 +1269,7 @@
     <string name="menu_text_networkassistants">Монитор за данни</string>
     <string name="menu_text_networkassistants_remain">%s остават</string>
     <string name="menu_text_networkassistants_danger">%s над лимита</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">ГБ</string>
     <string name="menu_text_networkassistants_unit_mb">МБ</string>
     <string name="menu_text_networkassistants_unit_kb">КБ</string>
@@ -1626,6 +1630,7 @@
     <string name="card_main_deepclean_wechat_action">Изчистване</string>
     <string name="card_main_sectool_title">Инструменти</string>
     <string name="card_main_monthreport_action">Покажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Диагностика на мрежата</string>
     <string name="card_main_netcheck_summary">Диагностика на мрежата за проблеми при свързването</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -1810,7 +1815,7 @@
     <string name="app_manager_perm">Разрешения</string>
     <string name="app_manager_app_update">Актуализации</string>
     <string name="app_manager_details_storage_title">Хранилище</string>
-    <string name="app_manager_details_traffic_title">Използвани данни за този месец</string>
+    <string name="app_manager_details_traffic_title">Използвани данни</string>
     <string name="app_manager_details_electric_title">Батерия</string>
     <string name="app_manager_card_permission_title">Разрешения</string>
     <string name="app_manager_permission_startself_title">Автостартиране</string>
@@ -1895,6 +1900,30 @@
     <string name="app_manager_show_all_apps">Покажи всички прилж</string>
     <string name="app_manager_hide_system_server">Скрий системните процеси</string>
     <string name="app_manager_back">Назад</string>
+    <string name="app_manager_defaults_setting">По подразбиране</string>
+    <string name="app_manager_clear_cache">Изчисти кеша</string>
+    <string name="app_manager_reset_app_preferences">Нулиране на предпочитания за приложение</string>
+    <string name="app_manager_reset_app_preferences_title">Нулирай предпочитания за прилж?</string>
+    <string name="app_manager_reset_app_preferences_desc">"Това ще нулира всички предпочитания за:
+
+ "<li>Изкл приложения</li>"
+ "<li>Изкл известия на приложения</li>"
+ "<li>Предпочитани приложения за действия</li>"
+ "<li>Ограничения за данни във фонов режим</li>"
+
+ Вие няма да загубите никаква информация."</string>
+    <string name="app_manager_reset_app_preferences_button">Нулирай прилож</string>
+    <string name="app_manager_disable_text">Деактивирай</string>
+    <string name="app_manager_enable_text">Активирай</string>
+    <string name="app_manager_disable_dlg_title">Деактивирай вградените приложения?</string>
+    <string name="app_manager_disable_dlg_text">Ако деактивирате това приложение, други приложения може да спрат да работят правилно.</string>
+    <string name="app_manager_disabled">Деактивирано</string>
+    <string name="app_manager_enabled">Активирано</string>
+    <string name="app_manager_globel_perm_title">Разрешения за приложения</string>
+    <string name="app_manager_globel_perm_summary">Управление на разрешенията, свързани с местоположение, хранилище, телефон, съобщения и контакти.</string>
+    <string name="app_manager_globel_other_perm_title">Други разрешения</string>
+    <string name="app_manager_uninstall_protected_dlg_title">Деинстл. на системни приложения</string>
+    <string name="app_manager_uninstall_protected_dlg_msg">Деинсталирането на системни приложения може да предизвика грешки в работата на MIUI. Да се деинсталира въпреки това?</string>
     <string name="ad_btn_default_text">Научете повече</string>
     <string name="open_activity_err">Приложението не е открито</string>
     <string name="low_memory_warning_dialog_title">Няма достатъчно място в хранилището</string>
@@ -2013,4 +2042,5 @@
     <string name="gamebooster_main_activity_back">Обратно в Ускорител на игри</string>
     <string name="data_booster_title">Стабилизиране на връзката за данни</string>
     <string name="data_booster_desc">Деактивиране на другото гнездо за SIM карта, за да се запази стабилна връзката</string>
+    <string name="international_Ad">Рекл</string>
 </resources>

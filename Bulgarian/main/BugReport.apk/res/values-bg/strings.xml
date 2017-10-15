@@ -57,6 +57,7 @@
     <string name="save_pic_success">Запазване на изобр. в %s</string>
     <string name="save_pic_fail">Не може да се запази изобр. Прегледайте SD-картата си</string>
     <string name="pic_not_exist">Това изобр. не съществува</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Изберете продукт</string>
     <string name="michat_skillset_business_type_title">Изберете услуга</string>
     <string name="michat_close_text">Чатът е затворен</string>
@@ -299,4 +300,7 @@
     <string name="toast_screenshot_too_large">Не може да се качи файл по-голям от 10МБ.</string>
     <string name="title_bbs_feedback_main">Научете повече за Mi телефоните</string>
     <string name="title_customer_service">Обслужване на клиенти</string>
+    <string name="customer_service_apply">Запитване към Обслужване на клиенти</string>
+    <string name="customer_service_complain">Докладвайте на Обслужване на клиенти</string>
+    <string name="customer_service_station">Местопол на Обслужване на клиенти</string>
 </resources>
