@@ -178,6 +178,7 @@
     <string name="file_size">Размер:</string>
     <string name="file_title">Име:</string>
     <string name="file_width_height">Размер:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ново съобщение</string>
     <string name="forward_from">Препратено от:</string>
     <string name="forward_prefix">От:</string>
@@ -206,7 +207,7 @@
     <string name="hybrid_pull_to_refresh_refreshing_label">Момент…</string>
     <string name="hybrid_pull_to_refresh_release_label">Отпуснете за опресняване…</string>
     <string name="hybrid_service_unavailiable">Услугата не е достъпна</string>
-    <string name="hybrid_try_again">Оптитайте отново</string>
+    <string name="hybrid_try_again">Опитайте отново</string>
     <string name="i_know">OK</string>
     <string name="importing_progress_private_message">Импортиране на съобщения от частна пощенска кутия</string>
     <string name="in_sms">Съобщение</string>
@@ -250,7 +251,7 @@
     <string name="message_number">Тел. номер:</string>
     <string name="message_pending">Изпращане...</string>
     <string name="message_queued">В момента не можете да изпратите съобщението. Ще бъде изпратено след като услугата е достъпна.</string>
-    <string name="message_queued_second_space">Не може да се изпрати съобщението. Моля, включете данните на мрежата.</string>
+    <string name="message_queued_second_space">Неуспешно изпращане на съобщението. Включете мобилните данни за да го изпратите.</string>
     <string name="message_readed">Прочетено</string>
     <string name="message_received">Доставено</string>
     <string name="message_rejected">Отхвърлено</string>
@@ -300,9 +301,6 @@
     <string name="mx_activate_status_desc_query_activte_info">Проверка на SIM-картата…</string>
     <string name="mx_activate_status_desc_request_activation_sms_phone_error">Невалиден телефонен номер</string>
     <string name="mx_activate_status_desc_wait_for_sms_fail">Не може да се активират Mi Message</string>
-    <string name="mx_and_voip_enable">Mi Message и Voice</string>
-    <string name="mx_and_voip_enable_popup_msg">Изпращайте съобщения и правете обаждания до други MIUI потребители без да бъдете таксувани от оператора ви. VoIP услугата се поддържа от Weihui. Вижте политиката на поверителност на Weihui.</string>
-    <string name="mx_and_voip_enable_popup_msg2">Политика на поверителност</string>
     <string name="mx_auto_resend_mms">Изпращане като MMS</string>
     <string name="mx_auto_resend_mms_summary">Изпращайте съобщенията като MMS, когато Mi Message не са достъпни. Начисляват се такси от оператора.</string>
     <string name="mx_auto_resend_sms">Изпращане като SMS</string>
@@ -314,7 +312,6 @@
     <string name="mx_dspt">Изпращане на съобщения до други потребители на MIUI без да се начисляват такси за SMS</string>
     <string name="mx_dspt_listview">Изпрати съобщение до други MIUI устройства без допълнителни разходи</string>
     <string name="mx_dspt_provision">Mi Message ви позволява да изпращате съобщения до други MIUI потребители през Интернет, без допълнителни такси. За повторно активиране на Mi съобщение трябва да изпратите sms. Може да бъдете таксувани за изходящо съобщение от доставчика ви. Освен това, тази услуга се нуждае и от включени мобилни данни, за да работи правилно.</string>
-    <string name="mx_dspt_provision_ex">Изпращайте съобщения и правете обаждания до други MIUI потребители през Интернет, без да бъдете таксувани от оператора ви. VoIP услугата се поддържа от Weihui. Вижте политиката на поверителност на Weihui.</string>
     <string name="mx_dspt_provision_ex2">Политика на поверителност</string>
     <string name="mx_enable">Активиране на Mi Message</string>
     <string name="mx_enable_ex">Mi Message и Voice</string>
@@ -355,8 +352,8 @@
     <string name="notification_multiple">[%s]</string>
     <string name="notification_multiple_title">Нови съобщения</string>
     <string name="number_add_hint">Въведете номер за добавяне към частен контакт</string>
-    <string name="open_audio_record_panel">Отвори панела за запис на аудио</string>
-    <string name="open_edit_sms_panel">Отвори панела за редакция на sms</string>
+    <string name="open_audio_record_panel">Отворете панела за записване на аудио</string>
+    <string name="open_edit_sms_panel">Отворете панела за редакция на съобщения</string>
     <string name="open_url_with_web">Да се отвори ли URL с Браузъра?</string>
     <string name="over_max_mms_size">MMS-ът е прекалено голям.</string>
     <string name="overwrite_edited_content">Редактираното съдържание ще бъде презаписано. Ще продължите ли?</string>
@@ -400,7 +397,6 @@
     <string name="pref_summary_mms_read_reports">Изискване на потвърждение за прочитане за всяко изпратено съобщение</string>
     <string name="pref_summary_mms_retrieval_during_roaming">Автоматично зареждане на съобщения в роуминг</string>
     <string name="pref_summary_notification_body_enabled">Показване на съобщенията на заключен екран и в лентата с известия</string>
-    <string name="pref_summary_notification_body_enabled_when_secure">Не можете да преглеждате съобщения в режим Гост</string>
     <string name="pref_summary_off_system_mms_priority">Използване на друго приложение за получаване и изпращане на MMS</string>
     <string name="pref_summary_on_system_mms_priority">Използване на системното MMS приложение за получаване и изпращане на MMS</string>
     <string name="pref_summary_send_delivery_reports">Изпращане на потвърждение за доставка за получените съобщения</string>
@@ -530,6 +526,7 @@
     <string name="send_signature_confirm_dialog_title">Изпрати подпис</string>
     <string name="send_sms">Изпрати съобщение</string>
     <string name="send_to">До:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Изпратено в: %1s</string>
     <string name="sent_label">Изпратени:</string>
     <string name="service_message_not_found">Съобщението е изтекло или не е достъпно</string>
@@ -566,15 +563,15 @@
     <string name="sms_report_dialog_title">Опитайте отново</string>
     <string name="sms_report_failed">Не може да се изпрати доклад</string>
     <string name="sms_report_success">Докладът е изпратен успешно</string>
-    <string name="snippet_audio">[audio]</string>
-    <string name="snippet_picture">[picture]</string>
+    <string name="snippet_audio">[Audio]</string>
+    <string name="snippet_picture">[Image]</string>
     <string name="sp_category_all">Всички съобщения от оператора</string>
     <string name="sp_category_bank">Съобщения от банки</string>
     <string name="sp_category_title_prefix">%s</string>
     <string name="sp_conversation_title">Уведомления</string>
     <string name="sp_mark_as_read_menu_title">Маркирай прочетено</string>
-    <string name="sqlite_disk_full">Базата данни или дискът са пълни</string>
-    <string name="sqlite_low_memory">Малко памет</string>
+    <string name="sqlite_disk_full">Мястото за съхранение на устройството ви е пълно.</string>
+    <string name="sqlite_low_memory">Няма достатъчно място в хранилището</string>
     <string name="status_failed">Неуспешно</string>
     <string name="status_label">Статус:</string>
     <string name="status_pending">Изчакващо</string>
@@ -648,9 +645,6 @@
     <string name="view">Преглед</string>
     <string name="view_bookmark">Виж оригиналното съобщение</string>
     <string name="view_message_details">Виж детайлите на съобщение</string>
-    <string name="voip_enable">Mi Message и Voice</string>
-    <string name="voip_enable_popup_msg">Правете обаждания до други MIUI потребители без да бъдете таксувани от оператора ви. VoIP услугата се поддържа от Weihui. Вижте политиката на поверителност на Weihui.</string>
-    <string name="voip_enable_popup_msg2">Политика на поверителност</string>
     <string name="wap_push_title">"[WAP Push] "</string>
     <string name="warning_show">Изпращане след %d сек.</string>
     <string name="wild_msg_processing">Обработва се...</string>

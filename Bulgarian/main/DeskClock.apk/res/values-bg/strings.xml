@@ -32,7 +32,7 @@
     <string name="setting_alarm_arriving_summary">Изпращане на известие преди аларма</string>
     <string name="close_alarm">Изключване</string>
     <string name="timer_notify_text">Заглушаване или отмяна на таймера.</string>
-    <string name="upcoming_alarm">Предстояща аларма</string>
+    <string name="upcoming_alarm">%s Предстоящ будилник</string>
     <string name="upcoming_alarm_hint">Може да изкл алармата предварително</string>
     <string name="start">Старт</string>
     <string name="pause">Пауза</string>
@@ -81,6 +81,7 @@
     <string name="birthday_alarm_summary">Пускане на \"Happy Birthday\" на вашия рожден ден вместо стандартната мелодия на будилника</string>
     <string name="turn_off_a_repeat_alarm">Изключи повтарянето на будилника</string>
     <string name="skip_alarm_once_hint">Изключи еднократно на %s</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="turn_off_this_repeat_alarm">Изключи повтарянето на този будилник</string>
     <string name="today">Днес</string>
     <string name="tomorrow">Утре</string>

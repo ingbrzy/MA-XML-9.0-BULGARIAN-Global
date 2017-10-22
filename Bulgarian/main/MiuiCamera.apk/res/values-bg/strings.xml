@@ -339,6 +339,7 @@
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средно</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Опции</string>
     <string name="button_front_camera_title">Направете селфи</string>
     <string name="button_normal_video_title">Запишете видео</string>
@@ -355,10 +356,12 @@
     <string name="toast_saving">Записване на снимките……</string>
     <string name="cannot_connect_camera_volte_call">Видео обаждането се осъществява, опитайте по-късно.</string>
     <string name="hibernate_hint">Чукнете, за да събудите Камера</string>
+    <string name="pref_camera_picturesize_entry_widescreen">@string/pref_camera_picturesize_entry_fullscreen</string>
     <string name="accessibility_zoom_button">Режим Приближаване</string>
     <string name="accessibility_portrait_button">Режим Портрет</string>
     <string name="toast_burst_snap_finished_summary">Бързото заснемане приключи, %1$s снимки са направени</string>
     <string name="pref_dualcamera_watermark_title">Воден знак на Двойна камера</string>
+    <string name="pref_camera_device_watermark_title">Воден знак на устройството</string>
     <string name="pref_camera_zoom_mode_title">Лещи</string>
     <string name="pref_camera_zoom_mode_entry_wide">Широко</string>
     <string name="pref_camera_zoom_mode_entry_tele">Пълно</string>
@@ -417,6 +420,7 @@
     <string name="hint_fast_motion">Видеоклипът, който заснемате, ще се възпроизвежда по-бързо.</string>
     <string name="hint_slow_motion">Видеоклипът, който заснемате, ще се възпроизвежда по-бавно.</string>
     <string name="hunt_dual_water_mark">Водният знак на двойната камера ще се добави автоматично.</string>
+    <string name="hint_device_water_mark">Водният знак на устройството ще бъде добавен автоматично.</string>
     <string name="module_name_fun">Кратко видео</string>
     <string name="module_name_video">Видеозапис</string>
     <string name="module_name_capture">Снимки</string>

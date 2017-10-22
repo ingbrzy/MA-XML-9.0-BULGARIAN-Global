@@ -70,6 +70,8 @@
     <string name="reboot_progress">Рестартира се…</string>
     <string name="screen_on_proximity_sensor_title">Режим случайна употреба</string>
     <string name="screen_on_proximity_sensor_summary">Не покривайте областта на микрофона</string>
+    <string name="screen_on_proximity_sensor_hint">"За да изключите тази услуга, натиснете бутони 'Назад'+'Увеличаване на звука' едновременно."</string>
+    <string name="screen_on_proximity_sensor_hint_has_navigation_bar">За да изключите тази услуга, натиснете бутона за усилване.</string>
     <string name="screen_button_notification_title">Бутоните на дисплея са деактивирани</string>
     <string name="screen_button_notification_text">"Натиснете 'Начало'+'Захр.' за включване."</string>
     <string name="screen_paper_mode_enter_toast">Режим четене е включен. Управлявайте тази функция от Допълнителни настройки > Режим четене.</string>

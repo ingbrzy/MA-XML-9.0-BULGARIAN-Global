@@ -23,10 +23,14 @@
     <string name="action_menu_account_not_login_hint">Впишете се за синхронизиране с Mi Cloud</string>
     <string name="action_menu_bookshelf">Лавица</string>
     <string name="action_menu_current_version">Текуща версия</string>
+    <string name="action_menu_request_desktop_site">Заявка за настолна версия</string>
+    <string name="action_menu_request_desktop_site_off">Заявка за настолна версия/изкл</string>
+    <string name="action_menu_request_desktop_site_on">Заявка за настолна версия/вкл</string>
     <string name="action_menu_text_add_bookmark">Добави отметка</string>
     <string name="action_menu_text_bandwidth">Ограничение на Скорост</string>
     <string name="action_menu_text_bandwidth_off">Ограничение/Изкл.</string>
     <string name="action_menu_text_bandwidth_on">Ограничение/Вкл.</string>
+    <string name="action_menu_text_bookmark_add_off">Не може да се добави уеб страница.</string>
     <string name="action_menu_text_bookmark_added">Отметката е добавена</string>
     <string name="action_menu_text_copy_url">Копиране на URL</string>
     <string name="action_menu_text_create_qr_code">QR код</string>
@@ -61,6 +65,7 @@
     <string name="add_favorites_to">Добави в любими</string>
     <string name="add_new_bookmark">Добави отметка</string>
     <string name="add_new_quicklink">Добави бърза връзка</string>
+    <string name="add_pwa_to_homescreen">Да добавя ли този адрес към начален екран?</string>
     <string name="add_ql_bm_title">Добави</string>
     <string name="add_quicklink_to_popular">Добави към началната страница</string>
     <string name="add_quicklinks">Добави</string>
@@ -74,6 +79,7 @@
     <string name="added_to_bookmarks">Добавено в отметки.</string>
     <string name="adjust_text_zoom_toast">Промяната в мащаба на текста може да предизвика неправилно показване на някои интернет страници</string>
     <string name="agree">Приемам</string>
+    <string name="agree_permissions_request">Съгласен</string>
     <string name="alert_tips">Тази страница може да застраши Вашата сигурност, моля бъдете внимателни!</string>
     <string name="allow">Разреши</string>
     <string name="app_new_version">Вие вече сте инсталирали най-новата версия на програмата</string>
@@ -132,6 +138,7 @@
     <string name="browserFrameFormResubmitMessage">Страницата, която се опитвате да видите, съдържа данни, които вече са изпратени. (\"POSTDATA \"). Ако изпратите отново данните, всяка операция (потвърждение за онлайн покупка) може да се извърши отново.</string>
     <string name="browserFrameNetworkErrorLabel">Грешка на мрежата</string>
     <string name="cancel">Отказ</string>
+    <string name="cancle_sync_cloud_tabs">Отмяна на синхр</string>
     <string name="cannot_download">Може да изтегляте само от адреси, които започват с \"http\" и \"https\".</string>
     <string name="choosertitle_sharevia">Сподели чрез:</string>
     <string name="clear_history">Изчисти историята</string>
@@ -167,6 +174,7 @@
     <string name="color_picker_dialog_title">Изберете цвят</string>
     <string name="color_picker_hue">Оттенък</string>
     <string name="color_picker_saturation">Наситеност</string>
+    <string name="color_picker_value">Стойност</string>
     <string name="comment_app_menu">Коментар</string>
     <string name="comment_description">Коментар</string>
     <string name="comment_hint">Коментар</string>
@@ -183,6 +191,7 @@
     <string name="contextmenu_manually_block_ad">Обозначете като реклама</string>
     <string name="contextmenu_map">Карта</string>
     <string name="contextmenu_openlink">Отвори</string>
+    <string name="contextmenu_openlink_in_browser">Отвори в Браузър</string>
     <string name="contextmenu_openlink_newwindow">Отвори в нов раздел</string>
     <string name="contextmenu_openlink_newwindow_background">Отвори нов раздел във фонов режим</string>
     <string name="contextmenu_recognise_qr_code">Сканиране на QR код</string>
@@ -192,7 +201,7 @@
     <string name="contextmenu_share_image">Сподели изображението</string>
     <string name="contextmenu_sharelink">Сподели връзка</string>
     <string name="contextmenu_view_image">Преглед на изображение</string>
-    <string name="contextmenu_webpage_capture">Запиши като екр. снимка</string>
+    <string name="contextmenu_webpage_capture">Екранна снимка</string>
     <string name="contextmenu_webpage_html">Запис като HTML файл</string>
     <string name="contextmenu_webpage_snapshot">Запиши страницата</string>
     <string name="copy_to_clipboard_failure_message">Копирането в буфера бе неуспешно</string>
@@ -284,6 +293,9 @@
     <string name="edit_quicklink">Редактиране</string>
     <string name="empty_app_name">други прилож</string>
     <string name="empty_bookmark">Празно</string>
+    <string name="empty_cloud_tab_login_hint">Няма раздели в Облака</string>
+    <string name="empty_cloud_tab_logout_hint">"Вписване в mi профил
+ разделите, отворени в други устройства, ще бъдат показвани тук"</string>
     <string name="empty_history_hint">Празно</string>
     <string name="empty_snapshot_hint">Празно</string>
     <string name="enable_geolocation_confirm_message">Изключването на услугите за местоположение ще се отрази на приемането на препоръки.</string>
@@ -307,6 +319,7 @@
     <string name="find_on_page_next">Напред</string>
     <string name="find_on_page_prev">Назад</string>
     <string name="find_previous">Търсене на предишното</string>
+    <string name="finish_sync_cloud_tabs">Синхр завърши</string>
     <string name="firstUsingSearchEngineTips">Да превключа ли търсачката?</string>
     <string name="fling_on_border_gesture_hint">Вие може да изберете функциите за тези жестове от меню Настройки</string>
     <string name="force_quick_search_title">Търсене</string>
@@ -340,6 +353,7 @@
     <string name="homepage_more_sites">Още страници</string>
     <string name="homepage_search_hint">Търсене</string>
     <string name="homepage_top_card_menu">Топ</string>
+    <string name="ignore_add_pwa_dialog_today">Не показвай днес</string>
     <string name="in_incognito">Активен е режим Инкогнито, при който не се записва история на сърфирането.</string>
     <string name="in_secureaccess">Браузърът е в безопасен режим</string>
     <string name="isReplacePage">Файла вече съществува, да се замени ли?</string>
@@ -549,9 +563,12 @@
     <string name="pay_failed_toast">Pay failed</string>
     <string name="pay_success_toast">Pay success</string>
     <string name="permission_alert_window">Разрешете изскачащи прозорци, за да ползвате тази функция</string>
+    <string name="permission_notification">да ви изпращат известия</string>
     <string name="permission_unknown">Непозната услуга</string>
+    <string name="permissions_prompt_message">"%s искат да "</string>
     <string name="popup_window_attempt">Ще разрешите ли на сайта да отваря изскачащи прозорци?</string>
     <string name="positive_confirm_message">Изключи въпреки това</string>
+    <string name="pref_accept_quicklink_push">Стартирай push на страницата</string>
     <string name="pref_accessibility">Достъпност</string>
     <string name="pref_accessibility_title">Достъпност</string>
     <string name="pref_accessibility_url_shortcut_enter_summary">При въвеждане в адресната лента, общите буквени комбинации могат да се въведат с едно натискане на клавиш</string>
@@ -591,7 +608,7 @@
     <string name="pref_extras_reset_default_summary">Възстанови началните настройки</string>
     <string name="pref_extras_reset_default_title">Нулиране до началните настройки</string>
     <string name="pref_extras_send_feedback">Изпрати отзив</string>
-    <string name="pref_extras_title">Разширени</string>
+    <string name="pref_extras_title">Допълнителни настройки</string>
     <string name="pref_extras_title_version">Версия</string>
     <string name="pref_file_downlaod_save_is_reset_default_settings">Съхранявай файловете в стандартната директория за Браузъра</string>
     <string name="pref_file_downlaod_save_reset_default_settings">Възстанови стандартната директория</string>
@@ -662,12 +679,14 @@
     <string name="progress_dialog_setting_wallpaper">Тапетът се задава ...</string>
     <string name="pull_to_refresh_pull_label">Дръпнете за опресняване…</string>
     <string name="pull_to_refresh_release_label">Отпуснете за опресняване</string>
+    <string name="pwa_app_name">Уеб Приложения</string>
     <string name="qr_code_title">QR код</string>
     <string name="qr_description">Сканиране на QR код</string>
     <string name="quicklink_bookmark_save">Запиши в</string>
     <string name="quicklink_cannot_save_url">Този адрес не може да се добави.</string>
     <string name="quicklink_folder_text">Топ Приложения</string>
     <string name="quicklink_not_saved">Не може да се добави към началната страница</string>
+    <string name="quicklink_push_confirm_message">Изключването на тази функция ще повлияе на началната страница.</string>
     <string name="quicklink_saved">Добавено към нач. страница</string>
     <string name="quicklink_saved_before">Сайтът е добавен</string>
     <string name="quicklink_user_define_webpage_title">Име</string>
@@ -690,6 +709,7 @@
     <string name="readmode_recommend_message">Прочели сте всички глави от тази книга. Моля, изберете друга</string>
     <string name="readmode_refresh">Обнови</string>
     <string name="readmodelist_bookmarks_to_show">Списък за четене</string>
+    <string name="refuse_permissions_request">Отказ</string>
     <string name="remember_passwords_confirm_message">Изключването на функцията може да засегне използването.</string>
     <string name="remove_bookmark">Изтрий отметка</string>
     <string name="remove_bookmark_group">Изтрий група</string>
@@ -800,16 +820,24 @@
     <string name="suggest_access_btn_play">Пускане</string>
     <string name="suggest_access_btn_view">Преглед</string>
     <string name="suggest_access_item_album_songs">%d песни</string>
+    <string name="suggest_access_item_app_mark">ПРИЛОЖ</string>
     <string name="suggest_access_item_app_size">%.2fМБ</string>
     <string name="suggest_access_item_app_update">Актуализация: %s</string>
+    <string name="suggest_access_item_book_mark">КНИГА</string>
+    <string name="suggest_access_item_mina_mark">ДИРЕКТНИ УСЛУГИ</string>
+    <string name="suggest_access_item_music_mark">МУЗИКА</string>
     <string name="suggest_access_item_singer_albums">%d албума</string>
     <string name="suggest_access_item_singer_pop">%d популярни песни</string>
+    <string name="suggest_access_item_site_mark">САЙТОВЕ</string>
+    <string name="suggest_access_item_video_mark">ВИДЕО</string>
+    <string name="suggest_access_item_website_mark">УЕБ СТРАНИЦА</string>
     <string name="suggest_access_music">Mi Музика</string>
     <string name="suggest_item_delete_text">Изтрий</string>
     <string name="suggest_open_app_failed">Не може да се отвори приложението</string>
     <string name="switchText">ДА</string>
     <string name="switch_proxy_dialog_msg">Засечена е атака върху мрежата. Използвайте вграденото в MIUI приложение Оптимизация или докладвайте за това на вашия мобилен оператор.</string>
     <string name="switch_proxy_dialog_title">Атака върху мрежата</string>
+    <string name="sync_cloud_tabs">Синхр</string>
     <string name="tab_hotpage">Новини</string>
     <string name="tab_quicklinks">Начална страница</string>
     <string name="tab_yellowpage">Връзки</string>

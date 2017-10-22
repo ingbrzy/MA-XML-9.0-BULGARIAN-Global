@@ -380,6 +380,7 @@
     <string name="detail_app_button">Детайли</string>
     <string name="pref_about_traffic_title">Настройка на трафика</string>
     <string name="pref_traffic_manage_title">Използвани данни</string>
+    <string name="pref_operator_setting">%1$s: %2$s</string>
     <string name="pref_package_traffic_settings">Лимит за мобилни данни</string>
     <string name="pref_adjust_traffic_data">Задаване на изп. на данни</string>
     <string name="pref_category_title_other">Допълнитени настройки</string>
@@ -872,6 +873,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Това приложение може да забави прекалено много
 вашето устройство"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Деинсталиране на %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Деинсталирайте това приложение, за да поправите проблем с прекален разход на батерията.</string>
     <string name="om_ill_proc_type_wakelock_title">Това приложение блокира режим сън на устройството и изразходва много батерия</string>
@@ -1212,7 +1214,7 @@
     <string name="sp_background_risk_type_sign">Стартирано е неофициално приложение</string>
     <string name="sp_background_risk_type_root">Системата е с дадени административни права</string>
     <string name="resource_securitycenter_settings">Сигурност</string>
-    <string name="keywords_securitycenter_settings">Употреба на батерията;Настройки за автостарт;Инсталиране през USB;Права на приложенията;Купуване на мобилен интернет;Списък с блокирани;Употреба на данни;Настройка на план за данни;Тест на мрежата; Икономия на батерията;Прегряване;Включване; Изключване;Батерия;Преразход;Проблеми с батерията;Енергия;Запазване на батерията;Пестене на енергия;Съхранение на енергия;Пестене на батерията; Автостарт;Права;Автостарт;MIUI автостарт; Автостарт на прилож; автостарт на прилож;Ограничен старт;ограничено стартиране;внезапно стартиране; USB инсталиране;инсталиране от компютър;ADB инсталиране; Местоположение;Достъп до контакти; данни;мобилни данни;купуване на данни;увеличаване на данни;план за данни; Блокирайте;Списък с блокирани;Умен списък с блокирани;Измамници;Продавачи;Агенти;Блокирани обаждания;Блокирани съобщения;Блокирани съобщения;SMS списък блокирани;черен списък;черен списък;списък блокирани;списък блокирани;измами;блокиран контакт;блокирани контакти; Трафик; Калибриране; Свързване;Интернет;Тест; Използване на батерията</string>
+    <string name="keywords_securitycenter_settings">Употреба на батерията;Настройки за автостарт;Инсталиране през USB;Права на приложенията;Купуване на мобилен интернет;Списък с блокирани;Употреба на данни;Настройка на план за данни;Тест на мрежата; Икономия на батерията;Прегряване;Включване; Изключване;Батерия;Преразход;Проблеми с батерията;Енергия;Запазване на батерията;Пестене на енергия;Съхранение на енергия;Пестене на батерията; Автостарт;Права;Автостарт;MIUI автостарт; Автостарт на прилож; автостарт на прилож;Ограничен старт;ограничено стартиране;внезапно стартиране; USB инсталиране;инсталиране от компютър;ADB инсталиране; Местоположение;Достъп до контакти; данни;мобилни данни;купуване на данни;увеличаване на данни;план за данни; Блокирайте;Списък с блокирани;Умен списък с блокирани;Измамници;Продавачи;Агенти;Блокирани обаждания;Блокирани съобщения;Блокирани съобщения;SMS списък блокирани;черен списък;черен списък;списък блокирани;списък блокирани;измами;блокиран контакт;блокирани контакти; Трафик; Калибриране; Свързване;Интернет;Тест; Използване на батерията;Игри;ускорител на игри;Режим Производителност;Режим не безпокойте</string>
     <string name="path_securitycenter_settings">Системни приложения/Сигурност</string>
     <string name="resource_securitycenter">Оптимизация</string>
     <string name="keywords_securitycenter">Сигурност;Проверка;Сканиране</string>
@@ -1253,6 +1255,9 @@
     <string name="resource_powercenter_powerrank">Батерия &amp; производителност</string>
     <string name="keywords_powercenter_powerrank">Използване на батерията</string>
     <string name="path_powercenter_powerrank">Батерия &amp; производителност/Използване на батерията</string>
+    <string name="resource_gamebooster">Подобряване бързината при игри</string>
+    <string name="keywords_gamebooster">Игра;ускорител на игра;Режим Производителност;Режим Не безпокойте</string>
+    <string name="path_gamebooster">Системни приложения/Оптимизация/Ускорител на игри</string>
     <string name="app_name_securitycenter">Оптимизация</string>
     <string name="ok">ОК</string>
     <string name="exit">Изход</string>
@@ -1267,6 +1272,7 @@
     <string name="menu_text_networkassistants">Монитор за данни</string>
     <string name="menu_text_networkassistants_remain">%s остават</string>
     <string name="menu_text_networkassistants_danger">%s над лимита</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">ГБ</string>
     <string name="menu_text_networkassistants_unit_mb">МБ</string>
     <string name="menu_text_networkassistants_unit_kb">КБ</string>
@@ -1542,8 +1548,8 @@
     <string name="antivirus_privacy_dialog_cloudscan_description">Качване и сканиране на имената и детайлите с помощта на онлайн вирусни дефиниции.</string>
     <string name="antivirus_privacy_dialog_ok">OK</string>
     <string name="pref_title_manual_check_virus_db_update">Проверка за актуализации</string>
-    <string name="virus_update_tips_title">Свържете се към Wi-Fi</string>
-    <string name="virus_wait_network_dialog_message">Актуализацията е с много голям размер. Свържете се към Wi-Fi, за да я изтеглите.</string>
+    <string name="virus_update_tips_title">Внимание</string>
+    <string name="virus_wait_network_dialog_message">Вашият телефон не е свързан към Wi-Fi. Ще бъде използвана мобилна връзка с ограничено потребление. Продължаване?</string>
     <string name="antivirus_not_wlan">Не сте свързан с Wi-Fi мрежа. Използването на мобилни данни може да е причина за допълнително таксуване. Да продължа ли?</string>
     <string name="antivirus_longtime_no_update">Базата данни на антивирусната програма е остаряла. Редовните нейни актуализации са гаранция за добри резултати при сканиране. Да разреша ли на Оптимизация да се свърже с интернет и обнови вирусните дефиниции?</string>
     <string name="antivirus_longtime_no_update1">Базата данни на антивирусната програма е остаряла. Редовните нейни актуализации са гаранция за добри резултати при сканиране. Обновете антивирусните дефиниции и опитайте отново.</string>
@@ -1627,6 +1633,7 @@
     <string name="card_main_deepclean_wechat_action">Изчистване</string>
     <string name="card_main_sectool_title">Инструменти</string>
     <string name="card_main_monthreport_action">Покажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Диагностика на мрежата</string>
     <string name="card_main_netcheck_summary">Диагностика на мрежата за проблеми при свързването</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -1932,10 +1939,16 @@
     <string name="game_booster">Подобряване бързината при игри</string>
     <string name="game_booster_title">Ускоряване</string>
     <string name="top_game">Топ игри</string>
+    <string name="game_booster_tab_top">Най-добро</string>
+    <string name="game_bootser_tab_settings">Настройки на ускорител</string>
+    <string name="game_booster_jump_webview">Момент…</string>
     <string name="game_setting">Настройки за игри</string>
     <string name="gs_auto_clean_memory">Изчисти кеша</string>
     <string name="gs_auto_clean_memory_detail">Автоматично изчистване на кеш за оптимизиране на игрите</string>
     <string name="gs_anto_clean_memory_whitelist">Изключения</string>
+    <string name="gs_call_handsfree">Отговор на повиквания чрез хендс фрий</string>
+    <string name="gs_call_handsfree_mute">Тих режим</string>
+    <string name="gs_forbid_autosync">Ограничаване синхр на заден план</string>
     <string name="gs_app_back_self_start">Икономия на батерия</string>
     <string name="gs_only_self_start_for_list">Ограничаване на процесите на заден план за икономия на батерия при игри</string>
     <string name="gs_game_shortcut">Насладете се на повече мощност за игри</string>
@@ -2032,11 +2045,17 @@
     <string name="net_booster_overdue_notification">Сесията на Мрежовия ускорител е към края си</string>
     <string name="net_booster_overdue_notification_tip">Сесията на Мрежовия ускорител ще приключи скоро. Да се поднови ли?</string>
     <string name="net_booster_expire_notification">Сесията на Мрежовия ускорител е към края си</string>
+    <string name="net_booster_expire_notification_tip">%d остават, преди Мрежов ускорител да приключи своята сесия. Подновете я сега, за да се предпазите от проблеми със скоростта.</string>
     <string name="xunyou_pay_webview">Xunyou услуги</string>
     <string name="xunyou_server_expired">Сесията изтече.</string>
     <string name="game_anti_disturb_msg">Игра в режим Не безпокойте</string>
-    <string name="gamebooster_main_activity_back">Обратно в Ускорител на игри</string>
+    <string name="gamebooster_main_activity_back">Назад</string>
     <string name="data_booster_title">Стабилизиране на връзката за данни</string>
     <string name="data_booster_desc">Деактивиране на другото гнездо за SIM карта, за да се запази стабилна връзката</string>
     <string name="international_Ad">Рекл</string>
+    <string name="thermal_tips_title">Внимание</string>
+    <string name="thermal_tips_message">Играенето в режим Производителност може да предизвика проблеми с прегряване на устройството.</string>
+    <string name="forbid_autobright_title">Поправка на яркостта на екрана</string>
+    <string name="gamebooster_lowbattery_notification_title">Зарядът на батерията е по-нисък от 5%%</string>
+    <string name="gamebooster_lowbattery_notification_summary">Заредете вашето устройство, преди да го изключите.</string>
 </resources>
