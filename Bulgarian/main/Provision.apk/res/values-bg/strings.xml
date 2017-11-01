@@ -71,4 +71,7 @@
     <string name="two_dimensional_code_scan">Сканиране на QR код</string>
     <string name="user_strayed_warning">Страницата е проектирана за връщане на фабрични настройки, чукнете бутон Назад за изход.</string>
     <string name="fail_to_generate_qr_code">Не може да се генерира QR код. Отворете тази страница отново.</string>
+    <string name="enable_accessibility_canceled">Услугата Достъпност е изключена.</string>
+    <string name="accessibility_enabled">Услугата Достъпност е включена.</string>
+    <string name="continue_to_enable_accessibility">Продължете да държите два пръста, за да включите услугата Достъпност.</string>
 </resources>

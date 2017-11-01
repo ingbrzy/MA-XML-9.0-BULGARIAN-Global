@@ -339,6 +339,10 @@
     <string name="main_purchase_tips">Промоции</string>
     <string name="main_month_total_used">Използвани този месец</string>
     <string name="main_daily_package">Дневен план за данни</string>
+    <string name="main_indicator_title">Изчакване за активация</string>
+    <string name="main_tobe_added_desc">Пакет мобилни данни от 0.03¥/МБ</string>
+    <string name="main_button_mi_sim_close">Активирай Mi SIM</string>
+    <string name="main_button_mi_sim_open">Покажи подробности</string>
     <string name="firewall_activity_lable">Забрана на данни по приложение</string>
     <string name="firewall_applist">Приложения</string>
     <string name="firewall_rule_group_title_mobile">2G/3G</string>
@@ -380,6 +384,7 @@
     <string name="detail_app_button">Детайли</string>
     <string name="pref_about_traffic_title">Настройка на трафика</string>
     <string name="pref_traffic_manage_title">Използвани данни</string>
+    <string name="pref_operator_setting">%1$s: %2$s</string>
     <string name="pref_package_traffic_settings">Лимит за мобилни данни</string>
     <string name="pref_adjust_traffic_data">Задаване на изп. на данни</string>
     <string name="pref_category_title_other">Допълнитени настройки</string>
@@ -793,6 +798,8 @@
     <string name="diagnostic_attention_dialog_message">Протича диагностика за %1$s. Изчакайте да приключи и опитайте отново.</string>
     <string name="correction_attention_dialog_message">Регулиране на настройките. Изчакайте докато процесът завърши и опитайте отново.</string>
     <string name="text_button">Разбрах</string>
+    <string name="vpn_unbale_get_phonenum">Не може да се получи телефонен номер когато се използват обозначени планове за мобилни данни</string>
+    <string name="vpn_disabled_by_user">Обозначената връзка с мобилни данни е изключена</string>
     <string name="btn_back">Обратно</string>
     <string name="firewall_allow_data">Разреши мобилните данни</string>
     <string name="firewall_restrict_data">Ограничи мобилните данни</string>
@@ -872,6 +879,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Това приложение може да забави прекалено много
 вашето устройство"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Деинсталиране на %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Деинсталирайте това приложение, за да поправите проблем с прекален разход на батерията.</string>
     <string name="om_ill_proc_type_wakelock_title">Това приложение блокира режим сън на устройството и изразходва много батерия</string>
@@ -1270,6 +1278,7 @@
     <string name="menu_text_networkassistants">Монитор за данни</string>
     <string name="menu_text_networkassistants_remain">%s остават</string>
     <string name="menu_text_networkassistants_danger">%s над лимита</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">ГБ</string>
     <string name="menu_text_networkassistants_unit_mb">МБ</string>
     <string name="menu_text_networkassistants_unit_kb">КБ</string>
@@ -1630,6 +1639,7 @@
     <string name="card_main_deepclean_wechat_action">Изчистване</string>
     <string name="card_main_sectool_title">Инструменти</string>
     <string name="card_main_monthreport_action">Покажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Диагностика на мрежата</string>
     <string name="card_main_netcheck_summary">Диагностика на мрежата за проблеми при свързването</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -2038,6 +2048,8 @@
     <string name="wifi_optizition_loading">Включване на Xunyou мрежов ускорител…</string>
     <string name="free_send_net_booster">Безплатен Мрежов ускорител</string>
     <string name="free_send_net_booster_tip">Насладете се на гладка игра с безплатния Мрежов ускорител.</string>
+    <string name="free_send_net_booster_busniess">Вземете безплатно Xunlei ускорител</string>
+    <string name="free_send_net_booster_busniess_tip">Чукнете за получаване</string>
     <string name="net_booster_overdue_notification">Сесията на Мрежовия ускорител е към края си</string>
     <string name="net_booster_overdue_notification_tip">Сесията на Мрежовия ускорител ще приключи скоро. Да се поднови ли?</string>
     <string name="net_booster_expire_notification">Сесията на Мрежовия ускорител е към края си</string>
@@ -2054,4 +2066,5 @@
     <string name="forbid_autobright_title">Поправка на яркостта на екрана</string>
     <string name="gamebooster_lowbattery_notification_title">Зарядът на батерията е по-нисък от 5%%</string>
     <string name="gamebooster_lowbattery_notification_summary">Заредете вашето устройство, преди да го изключите.</string>
+    <string name="game_ad_recommendation">Всички играят</string>
 </resources>

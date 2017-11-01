@@ -238,6 +238,7 @@
     <string name="no_match_repate_scanner">Не откривам съвпадение на пръстов отпечатък, сканирани отново</string>
     <string name="delete_phone_fingerprint">Изтрий пръстов отпечатък за второто работно място</string>
     <string name="delete_fingerprint">Изтрий пръстов отпечатък</string>
+    <string name="fingerprint_number_upper_limit">Твърде много неуспешни опити за отключване</string>
     <string name="delete_fingerprint_desc">Пръстовия отпечатък ще се изтрие заедно с паролата за второто работно място</string>
     <string name="fingerprint_removal_failed">Не мога да изтрия пръстовия отпечатък</string>
     <string name="notification_recommend_title">Топ 12 приложения за второ работно място</string>
@@ -277,7 +278,7 @@
     <string name="can_not_switch_when_calling">Не може да се превключва между пространства по време на обаждане</string>
     <string name="can_not_delete_when_calling">Не може да се изтриват пространства по време на обаждане</string>
     <string name="support_desc">Услугите за безопасност са предоставени от Graphite</string>
-    <string name="sdcardfs_dialog_message">Изключете Оптимизация на SD карта в меню Опции за програмиста, преди да влезете във второ пространство.</string>
+    <string name="sdcardfs_dialog_message">Изключете \"Оптимизиране на SD картата\" в Настройки > Други настройки > Опции на програмиста, преди да влезете във Второ работно място.</string>
     <string name="do_not_ask">Не питай повече</string>
     <string name="gpg_message">Създаването на клонирани игри изисква работа с Google Play Игри. Да клонирам ли приложението Google Play Игри?</string>
     <string name="gpg_title">Клониране на Google Play Игри</string>

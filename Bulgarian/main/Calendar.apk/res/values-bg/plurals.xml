@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="Ndays">
-        <item quantity="other">%d дни</item>
-        <item quantity="one">1 ден</item>
+        <item quantity="other">%d дни преди</item>
+        <item quantity="one">%d ден преди</item>
     </plurals>
     <plurals name="Nhours">
-        <item quantity="other">%d часа</item>
-        <item quantity="one">1 час</item>
+        <item quantity="other">%d часа преди</item>
+        <item quantity="one">%d час преди</item>
     </plurals>
     <plurals name="Nminutes">
-        <item quantity="other">%d минути</item>
-        <item quantity="one">1 минута</item>
+        <item quantity="other">%d минути преди</item>
+        <item quantity="one">%d минута преди</item>
     </plurals>
     <plurals name="month_more_events">
         <item quantity="other">+%d</item>
         <item quantity="one">+1</item>
     </plurals>
     <plurals name="weekN">
-        <item quantity="other">СЕДМИЦА %d</item>
+        <item quantity="other">СЕДМИЦИ %d</item>
+        <item quantity="one">СЕДМИЦА %d</item>
     </plurals>
     <plurals name="Ndays_after_at">
         <item quantity="other">След %1$d дни в %2$s</item>
@@ -102,17 +103,5 @@
     <plurals name="work_days">
         <item quantity="other">%d работни дни</item>
         <item quantity="one">%d работен ден</item>
-    </plurals>
-    <plurals name="N_remaining_events">
-        <item quantity="other">+ %d събития</item>
-        <item quantity="one">+ 1 събитие</item>
-    </plurals>
-    <plurals name="Nevents">
-        <item quantity="other">%d събития</item>
-        <item quantity="one">1 събитие</item>
-    </plurals>
-    <plurals name="Nmins">
-        <item quantity="other">%d мин</item>
-        <item quantity="one">1 мин</item>
     </plurals>
 </resources>

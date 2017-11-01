@@ -160,7 +160,7 @@
     <string name="accessibility_shutter_button">Бутон на затвора</string>
     <string name="accessibility_review_thumbnail">Последна снимка</string>
     <string name="accessibility_camera_picker">Превключване между предна и задна камера</string>
-    <string name="accessibility_stereo_button">Режим Двойна камера</string>
+    <string name="accessibility_stereo_button">Регулиране на фокуса</string>
     <string name="pref_camera_autoexposure_title">Изберете режим на експониране</string>
     <string name="pref_camera_autoexposure_entry_frameaverage">Средно по кадри</string>
     <string name="pref_camera_autoexposure_entry_centerweighted">Центрирана</string>
@@ -320,12 +320,12 @@
     <string name="simple_mode_button_text_magic_mirror">Изключи Магично огледало</string>
     <string name="pano_how_to_use_prompt_align_reference_line">Изравнете стрелката с референтната линия</string>
     <string name="pano_how_to_use_prompt_slow_down">Моля, по-бавно</string>
-    <string name="pref_camera_stereo_mode_title">Стерео</string>
-    <string name="simple_mode_button_text_stereo_mode">Изкл. на режим Стерео</string>
+    <string name="pref_camera_stereo_mode_title">Регулиране на фокуса</string>
+    <string name="simple_mode_button_text_stereo_mode">Изключи регулирането на фокуса</string>
     <string name="dual_camera_too_close_toast">Обектът е прекалено близо за режим Двойна камера.</string>
     <string name="dual_camera_lowlight_toast">Слабата осветеност може да навреди на ефектите на режим Двойна камера.</string>
     <string name="dual_camera_lens_covered_toast">Обективът е закрит.</string>
-    <string name="dual_camera_use_hint">В режим Двойна камера могат да се правят замъглени снимки. Разтоянието межу обектива и обекта трябва да е повече от два метра.</string>
+    <string name="dual_camera_use_hint">Уверете се, че обектът на заснемане не е по-далеч от 2 метра.</string>
     <string name="pref_camera_square_mode_title">Квадрат</string>
     <string name="simple_mode_button_text_square">Изключи Квадрат</string>
     <string name="face_beauty_smart">Смарт</string>
@@ -339,6 +339,7 @@
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средно</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Опции</string>
     <string name="button_front_camera_title">Направете селфи</string>
     <string name="button_normal_video_title">Запишете видео</string>
@@ -355,6 +356,7 @@
     <string name="toast_saving">Записване на снимките……</string>
     <string name="cannot_connect_camera_volte_call">Видео обаждането се осъществява, опитайте по-късно.</string>
     <string name="hibernate_hint">Чукнете, за да събудите Камера</string>
+    <string name="pref_camera_picturesize_entry_widescreen">@string/pref_camera_picturesize_entry_fullscreen</string>
     <string name="accessibility_zoom_button">Режим Приближаване</string>
     <string name="accessibility_portrait_button">Режим Портрет</string>
     <string name="toast_burst_snap_finished_summary">Бързото заснемане приключи, %1$s снимки са направени</string>

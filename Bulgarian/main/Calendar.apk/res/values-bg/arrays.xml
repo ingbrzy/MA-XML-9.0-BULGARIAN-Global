@@ -2,19 +2,19 @@
 <resources>
     <string-array name="change_response_labels">
         <item>Само това събитие</item>
-        <item>Всички събития в поредицата</item>
+        <item>Всички събития от поредицата</item>
     </string-array>
     <string-array name="delete_repeating_labels">
         <item>Само това събитие</item>
-        <item>Това и бъдещи събития</item>
+        <item>Това и бъдещите събития</item>
         <item>Всички събития</item>
     </string-array>
     <string-array name="ordinal_labels">
-        <item>първо</item>
-        <item>второ</item>
-        <item>трето</item>
-        <item>четвърто</item>
-        <item>посл.</item>
+        <item>първи</item>
+        <item>втори</item>
+        <item>трети</item>
+        <item>четвърти</item>
+        <item>последен</item>
     </string-array>
     <string-array name="prefEntries_alerts_vibrateWhen">
         <item>Винаги</item>
@@ -28,7 +28,7 @@
         <item>Понеделник</item>
     </string-array>
     <string-array name="response_labels1">
-        <item>Няма отговор</item>
+        <item>Без отговор</item>
         <item>Да</item>
         <item>Може би</item>
         <item>Не</item>
@@ -157,6 +157,10 @@
         <item>1 ден преди</item>
         <item>2 дни преди</item>
         <item>1 седмица преди</item>
+    </string-array>
+    <string-array name="english_premium_league">
+        <item>4</item>
+        <item>@string/english_premium_league</item>
     </string-array>
     <string-array name="gemini_info">
         <item>близнаци</item>
@@ -313,74 +317,5 @@
     <string-array name="widget_style_list">
         <item>Черно прозрачно</item>
         <item>Бял фон</item>
-    </string-array>
-    <string-array name="availability">
-        <item>Зает/а</item>
-        <item>На разположение</item>
-        <item>Колебливо</item>
-    </string-array>
-    <string-array name="buttons_list">
-        <item>Ден</item>
-        <item>Седмица</item>
-        <item>Месец</item>
-        <item>График</item>
-    </string-array>
-    <string-array name="delete_repeating_labels_no_selected">
-        <item>Това и бъдещи събития</item>
-        <item>Всички събития</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Няма</item>
-        <item>0 минути</item>
-        <item>1 минута</item>
-        <item>5 минути</item>
-        <item>10 минути</item>
-        <item>15 минути</item>
-        <item>20 минути</item>
-        <item>25 минути</item>
-        <item>30 минути</item>
-        <item>45 минути</item>
-        <item>1 час</item>
-        <item>2 часа</item>
-        <item>3 часа</item>
-        <item>12 часа</item>
-        <item>24 часа</item>
-        <item>2 дни</item>
-        <item>1 седмица</item>
-    </string-array>
-    <string-array name="quick_response_defaults">
-        <item>Ще закъснея няколко минути.</item>
-        <item>Ще пристигна след около 10 минути.</item>
-        <item>Можете да започнете без мен.</item>
-        <item>За съжаление няма да успея. Ще трябва да пренасрочим събитието.</item>
-    </string-array>
-    <string-array name="reminder_methods_labels">
-        <item>Известие</item>
-        <item>Имейл</item>
-        <item>SMS</item>
-        <item>Будилник</item>
-    </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 минути</item>
-        <item>1 минута</item>
-        <item>5 минути</item>
-        <item>10 минути</item>
-        <item>15 минути</item>
-        <item>20 минути</item>
-        <item>25 минути</item>
-        <item>30 минути</item>
-        <item>45 минути</item>
-        <item>1 час</item>
-        <item>2 часа</item>
-        <item>3 часа</item>
-        <item>12 часа</item>
-        <item>24 часа</item>
-        <item>2 дни</item>
-        <item>1 седмица</item>
-    </string-array>
-    <string-array name="visibility">
-        <item>Стандартно</item>
-        <item>Частно</item>
-        <item>Обществено</item>
     </string-array>
 </resources>

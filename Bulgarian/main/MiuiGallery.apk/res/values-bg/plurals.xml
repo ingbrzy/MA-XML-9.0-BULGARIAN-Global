@@ -72,18 +72,6 @@
         <item quantity="other">Добавени %d снимки в облака, изключете \"Показване само на локалните албуми\" за преглед.</item>
         <item quantity="one">Добавена %d снимка в облака, изключете \"Показване само на локалните албуми\" за преглед.</item>
     </plurals>
-    <plurals name="delete_photo_msg_format">
-        <item quantity="other">Изтриване на %1$d снимки %2$s?</item>
-        <item quantity="one">Изтриване на тази снимка %2$s?</item>
-    </plurals>
-    <plurals name="delete_video_msg_format">
-        <item quantity="other">Изтриване на %1$d видеота %2$s?</item>
-        <item quantity="one">Изтриване на това видео %2$s?</item>
-    </plurals>
-    <plurals name="delete_media_msg_format">
-        <item quantity="other">Изтриване на %1$d елементи %2$s?</item>
-        <item quantity="one">Изтриване на %1$d елемент %2$s?</item>
-    </plurals>
     <plurals name="album_item_msg_format">
         <item quantity="other">(общо %d елементи)</item>
         <item quantity="one">(общо %d елемент)</item>
@@ -203,5 +191,17 @@
     <plurals name="search_feedback_done_mark_and_contribute_false_negative">
         <item quantity="other">Добавени са %1$d снимки към \"%2$s\" и са записани в базата данни.</item>
         <item quantity="one">Добавена е %1$d снимка към \"%2$s\" и е записана в базата данни.</item>
+    </plurals>
+    <plurals name="delete_photo_msg_format">
+        <item quantity="other">Изтриване на %1$d снимки %2$s?</item>
+        <item quantity="one">Изтриване на тази снимка %2$s?</item>
+    </plurals>
+    <plurals name="delete_video_msg_format">
+        <item quantity="other">Изтриване на %1$d видеота %2$s?</item>
+        <item quantity="one">Изтриване на това видео %2$s?</item>
+    </plurals>
+    <plurals name="delete_media_msg_format">
+        <item quantity="other">Изтриване на %1$d елементи %2$s?</item>
+        <item quantity="one">Изтриване на %1$d елемент %2$s?</item>
     </plurals>
 </resources>
