@@ -168,7 +168,6 @@
     <string name="gigabyteShort">ГБ</string>
     <string name="terabyteShort">ТБ</string>
     <string name="petabyteShort">ПБ</string>
-    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="tab_local">Локално</string>
     <string name="sys_size_enable">Активиране</string>
     <string name="tools">Инструменти</string>
@@ -428,7 +427,6 @@ GIFs могат да бъдат добавени като потребителс
     <string name="video_upload_btn_hint">MP4 видеота трябва да са с продължителност 3с~10мин</string>
     <string name="video_upload_btn">Напред</string>
     <string name="video_upload_title">Избор на видео</string>
-    <string name="video_upload_item_title">%1$s (%2$s)</string>
     <string name="video_comment_topic">\#add topic#</string>
     <string name="video_comment_hint">Изберете тема</string>
     <string name="video_comment_publish">Публикуване</string>
@@ -502,7 +500,6 @@ GIFs могат да бъдат добавени като потребителс
     <string name="video_topic_hint">Търсене на хора или теми</string>
     <string name="comment_reply">Отговор %1$s: </string>
     <string name="comment_hint">Оставете коментар</string>
-    <string name="origin_name">%1$s: </string>
     <string name="hot_comments">Коментирани току що</string>
     <string name="new_comments">Нови коментари</string>
     <string name="copy_text">Копирай текст</string>
@@ -762,7 +759,6 @@ GIFs могат да бъдат добавени като потребителс
     <string name="finish_str">Готово</string>
     <string name="tab_msg">Съобщения</string>
     <string name="msg_page_video_default_title">Споделих клип, прегледай го!</string>
-    <string name="recommend_users">%1$s+</string>
     <string name="follow_success_tip">Успешно последвано</string>
     <string name="comment_fail">Не може да се публикува коментара, опитайте отново</string>
     <string name="comment_fail_banned_temporary">Наложена ви е забрана поради неподходящи коментари</string>
