@@ -437,4 +437,5 @@
     <string name="account_token_expired_msg">"Кодът за потвърждение е изтекъл, започнете отново или се отпишете от 
  Вашия профил ИД: %s"</string>
     <string name="bind_safe_phone_msg">Добавете вашия номер за да може да се впишете в Mi Профила си следващия път.</string>
+    <string name="account_notification_message">Идентичността ви в акаунта на Xiaomi е изтекла. Моля, влезте отново !</string>
 </resources>

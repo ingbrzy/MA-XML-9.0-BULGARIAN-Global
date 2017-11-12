@@ -204,6 +204,10 @@
         <item quantity="other">"Изчакайте %d секунди и опитайте пак. "</item>
         <item quantity="one">"Изчакайте %d секунда и опитайте пак. "</item>
     </plurals>
+    <plurals name="number_masked">
+        <item quantity="other">%d прилож</item>
+        <item quantity="one">%d прилож</item>
+    </plurals>
     <plurals name="number_locked">
         <item quantity="other">%d прил. са заключени</item>
         <item quantity="one">%d прил. е заключено</item>
@@ -211,6 +215,14 @@
     <plurals name="number_to_lock">
         <item quantity="other">%d прил. не са заключени</item>
         <item quantity="one">%d прил. не е заключено</item>
+    </plurals>
+    <plurals name="number_masked_text">
+        <item quantity="other">%d известия са скрити</item>
+        <item quantity="one">%d известие е скрито</item>
+    </plurals>
+    <plurals name="number_to_mask_text">
+        <item quantity="other">%d известия са видими</item>
+        <item quantity="one">%d известие е видимо</item>
     </plurals>
     <plurals name="find_applications">
         <item quantity="other">Търсене сред %d прил.</item>

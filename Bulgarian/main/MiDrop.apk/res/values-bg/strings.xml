@@ -54,8 +54,6 @@
     <string name="clear_all">Clear all</string>
     <string name="click_to_send">Tap on the profile photo to send</string>
     <string name="coolboot_title">Share Mi Drop</string>
-    <string name="date_format_ddmmyyyy">dd/MM/yyyy</string>
-    <string name="date_format_ddmmyyyyhmma">dd/MM/yyyy h:mm a</string>
     <string name="default_lang">System language</string>
     <string name="delete">Delete</string>
     <string name="delete_item_desc">Delete this file from transfer list?</string>
@@ -188,4 +186,6 @@ Ask the other person to enter the following address in the browser:"</string>
     <string name="want_send">Send files</string>
     <string name="wifi_name">Wi-Fi name:</string>
     <string name="wifi_psw">Password:</string>
+    <string name="date_format_ddmmyyyy">dd/MM/yyyy</string>
+    <string name="date_format_ddmmyyyyhmma">dd/MM/yyyy h:mm a</string>
 </resources>

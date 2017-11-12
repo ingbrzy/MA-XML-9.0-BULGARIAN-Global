@@ -384,6 +384,7 @@
     <string name="detail_app_button">Детайли</string>
     <string name="pref_about_traffic_title">Настройка на трафика</string>
     <string name="pref_traffic_manage_title">Използвани данни</string>
+    <string name="pref_operator_setting">%1$s: %2$s</string>
     <string name="pref_package_traffic_settings">Лимит за мобилни данни</string>
     <string name="pref_adjust_traffic_data">Задаване на изп. на данни</string>
     <string name="pref_category_title_other">Допълнитени настройки</string>
@@ -817,6 +818,13 @@
     <string name="menu_charge_traffic">Купете мобилни данни</string>
     <string name="menu_charge_bill">Попълване на баланса</string>
     <string name="privacy_dialog_message">Когато се свържете с интернет, това съобщение, заедно с информация за оператора, ще бъде криптирано и качено на Mi сървърите. Тази информация ще ни помогне да подобрим услугата за наблюдение на мобилни данни.</string>
+    <string name="status_bar_network_flow_purchase">"   Купете >"</string>
+    <string name="status_bar_network_flow_setup_data_plan">"   Настрой план за данни >"</string>
+    <string name="status_bar_network_flow_phone_balance">"   Баланс телефон:%1$s "</string>
+    <string name="status_bar_network_flow_exceed_content">Днес: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Надвишени: &lt;font color=%2$s>%3$s&lt;/font></string>
+    <string name="status_bar_network_flow_content">Днес: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;; Остават: %2$s</string>
+    <string name="status_bar_network_flow_content_not_setting">Днес: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;; Този месец: %2$s</string>
+    <string name="status_bar_network_flow_today">Днес: %1$s</string>
     <string name="optimize_manage_title">Подобрете скоростта</string>
     <string name="cpu_usage_android_system">Система Андроид</string>
     <string name="cpu_usage_process_run_time_little_time">По-малко от минута</string>
@@ -878,6 +886,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Това приложение може да забави прекалено много
 вашето устройство"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Деинсталиране на %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Деинсталирайте това приложение, за да поправите проблем с прекален разход на батерията.</string>
     <string name="om_ill_proc_type_wakelock_title">Това приложение блокира режим сън на устройството и изразходва много батерия</string>
@@ -1174,7 +1183,7 @@
     <string name="sp_settings_info_monitor">Наблюдение на системната среда при работещи приложения за плащане</string>
     <string name="scan_status_safe">Безопасно</string>
     <string name="scan_status_risk">Рисково</string>
-    <string name="safepay_alert_dialog_button_risk">Поправи</string>
+    <string name="safepay_alert_dialog_button_fix">Поправи</string>
     <string name="safepay_alert_dialog_button_continue">Продължи</string>
     <string name="safe_result_header_info_protecting">Защитено</string>
     <string name="safe_result_item_info_system_version">Системата е актуализирана</string>
@@ -1210,6 +1219,9 @@
     <string name="monitor_app_more">Повече</string>
     <string name="monitor_app_add">Добави</string>
     <string name="sc_system_risk_fix_info_xspace">Рискът не може да бъде коригиран в xspace, моля, преминете към пространството на собственика, за да го коригирате.</string>
+    <string name="dialog_no_longer_alert">не напомняй повече</string>
+    <string name="sp_background_risk_dialog_title_wifi_approve">Известие за свободна Wi-Fi</string>
+    <string name="sp_background_risk_dialog_summary_wifi_approve">Вие сте свързани с безплатна публична WiFi мрежа, която може да е и примамка. Уверете се, че мрежата е сигурна, преди да извършите плащането.</string>
     <string name="sp_background_risk_dialog_title">Предупреждение</string>
     <string name="sp_background_risk_dialog_summary">, проверка и отстраняване на проблеми с плащането.</string>
     <string name="sp_background_risk_type_wifi">Тази Wi-Fi мрежа е опасна</string>
@@ -1276,6 +1288,7 @@
     <string name="menu_text_networkassistants">Монитор за данни</string>
     <string name="menu_text_networkassistants_remain">%s остават</string>
     <string name="menu_text_networkassistants_danger">%s над лимита</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">ГБ</string>
     <string name="menu_text_networkassistants_unit_mb">МБ</string>
     <string name="menu_text_networkassistants_unit_kb">КБ</string>
@@ -1636,6 +1649,7 @@
     <string name="card_main_deepclean_wechat_action">Изчистване</string>
     <string name="card_main_sectool_title">Инструменти</string>
     <string name="card_main_monthreport_action">Покажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Диагностика на мрежата</string>
     <string name="card_main_netcheck_summary">Диагностика на мрежата за проблеми при свързването</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -1659,16 +1673,21 @@
     <string name="card_main_gamebooster_title">Ускорител на игри</string>
     <string name="skin_change_close_toast">Промените ще бъдат приложени следващия път, когато стартирате приложението</string>
     <string name="Setting_lock">Настройки</string>
+    <string name="more_lock">Още</string>
     <string name="app_name">Закл. на прил.</string>
     <string name="back_app_name">Върнете се в Закл. приложения</string>
     <string name="notification_item">Защитете приложенията си със Заключване на приложения</string>
+    <string name="notification_masked_item">Скрий известията</string>
     <string name="lock_mode_title">Настройки за заключване</string>
     <string name="after_the_lock_screen">Заключване на приложения заедно с екрана</string>
     <string name="set_applock_password">Задайте парола</string>
     <string name="ac_firstUseApplock_title">Задайте парола, за да защитите приложенията си</string>
     <string name="ac_firstUseApplock_subTitle">Използвайте по-добри системни инструменти за сигурност</string>
     <string name="notification_subtitle">Чукнете за включване</string>
+    <string name="notification_masked_subtitle">Скрий известията от приложенията, защитени от Закл. приложения</string>
     <string name="ac_enter_applock">Вход в закл. на прил.</string>
+    <string name="ac_mask_all_apps">Скрий за всички приложения</string>
+    <string name="ac_unmask_all_apps">Покажи за всички приложения</string>
     <string name="ac_summaryOn">Включено, изисква се парола за вход в приложенията</string>
     <string name="ac_summaryOff">Изключено, не се изисква парола за вход в приложенията</string>
     <string name="lockpattern_tutorial_cancel_label">Отказ</string>
@@ -1680,10 +1699,12 @@
     <string name="back_modifypassword">Върнете се към промяна на паролата</string>
     <string name="showpattern">Показване на фигурата</string>
     <string name="notification_mask_title">Скрий съдържанието</string>
-    <string name="notification_mask_summary">Не показвай съдържание на известия при заключен екран и в лентата за известия</string>
+    <string name="notification_mask_summary">Скрий съдържанието на известията на заключен екран и в панела за известия</string>
     <string name="convenient_mode">Еднократно отключване</string>
     <string name="convenient_summary">Въвеждане на паролата веднъж за отключване на всички приложения</string>
     <string name="suggest_app_tolock">Предложения</string>
+    <string name="suggest_app_tolock_masked">Скрити</string>
+    <string name="suggest_app_tolock_unmasked">Видими известия</string>
     <string name="forget_password_button_text"><u>Забравена парола</u></string>
     <string name="forget_password_button_text_normal">Забравена парола</string>
     <string name="lockpattern_too_many_failed_confirmation_attempts_header">Твърде много грешни опити!</string>
@@ -1829,7 +1850,6 @@
     <string name="app_manager_permission_notify_title">Известия</string>
     <string name="app_manager_permission_power_saving_title">Икономия на батерия</string>
     <string name="app_manager_permission_power_saving_summary">MIUI Икономия на батерия</string>
-    <string name="app_manager_default_open">Отваряне по подразбиране</string>
     <string name="app_manager_default_open_title">Почисти по подразбиране</string>
     <string name="app_manager_default_close_summary">Няма настройки по подразбиране.</string>
     <string name="app_manager_default_open_summary">Вие избрахте това приложение да стартира по подразбиране за някои действия.</string>
@@ -1929,6 +1949,16 @@
     <string name="app_manager_globel_other_perm_title">Други разрешения</string>
     <string name="app_manager_uninstall_protected_dlg_title">Деинстл. на системни приложения</string>
     <string name="app_manager_uninstall_protected_dlg_msg">Деинсталирането на системни приложения може да предизвика грешки в работата на MIUI. Да се деинсталира въпреки това?</string>
+    <string name="app_manager_has_not_data">Няма данни</string>
+    <string name="app_manager_memory">RAM</string>
+    <string name="app_manager_as_dlg_title">Внимание</string>
+    <string name="app_manager_as_dlg_msg">Ако разрешите приложенията да стартират автоматично, те може да изискват употребата на много RAM памет и батерия. Да разреша ли въпреки това?</string>
+    <string name="app_manager_default_cleared">почистено</string>
+    <string name="app_manager_not_allow">Не</string>
+    <string name="app_manager_allow">Да</string>
+    <string name="app_manager_install_other_app">инсталиране на прилож от непознати източници</string>
+    <string name="app_manager_disabled_by_admin">Изкл от администратора</string>
+    <string name="app_manager_advanced_setting">Разширени настройки</string>
     <string name="ad_btn_default_text">Научете повече</string>
     <string name="open_activity_err">Приложението не е открито</string>
     <string name="low_memory_warning_dialog_title">Няма достатъчно място в хранилището</string>
@@ -1976,6 +2006,8 @@
     <string name="function_close">Изкл</string>
     <string name="add_done">Добавено успешно</string>
     <string name="boost_done">Ускоряването е успешно</string>
+    <string name="boost_stop">Изключи подобряване на производителността</string>
+    <string name="already_close_gamebooster">Ускорителят на игри е изключен</string>
     <string name="no_game">Не намерих игри</string>
     <string name="gamebooster_network_dialog_title">Някои услуги не са достъпни</string>
     <string name="gamebooster_network_dialog_message">Позволявате ли на Оптимизация да се свърже с мрежата, за да използва всички услуги за ускоряване на игрите?</string>
@@ -2030,6 +2062,8 @@
     <string name="renew_now">Поднови</string>
     <string name="receive_now">Получаване</string>
     <string name="net_booster">Подобряване скоростта на мрежата</string>
+    <string name="xunyou_net_booster">Подобряване скоростта на мрежата</string>
+    <string name="xunyou_net_booster_detail">Използвай Xunyou услуга за ускоряване на игрите</string>
     <string name="wlan_booster">Wi-Fi оптимизиране</string>
     <string name="tab_gift">Подаръци</string>
     <string name="tab_guide">Упътване</string>
@@ -2060,7 +2094,11 @@
     <string name="thermal_tips_title">Внимание</string>
     <string name="thermal_tips_message">Играенето в режим Производителност може да предизвика проблеми с прегряване на устройството.</string>
     <string name="forbid_autobright_title">Поправка на яркостта на екрана</string>
+    <string name="forbid_autobright_summary">Яркостта на екрана ще остане непроменена когато играете игри</string>
     <string name="gamebooster_lowbattery_notification_title">Зарядът на батерията е по-нисък от 5%%</string>
     <string name="gamebooster_lowbattery_notification_summary">Заредете вашето устройство, преди да го изключите.</string>
     <string name="game_ad_recommendation">Всички играят</string>
+    <string name="game_booster_close">Ускорителят на игри е изключен</string>
+    <string name="databooster_tips_title">Внимание</string>
+    <string name="databooster_tips_message">Включете, за да ограничите всички SIM карти, с изключение на тази за данни. Изключете тази услуга, ако игрите дават грешка след вашия избор.</string>
 </resources>

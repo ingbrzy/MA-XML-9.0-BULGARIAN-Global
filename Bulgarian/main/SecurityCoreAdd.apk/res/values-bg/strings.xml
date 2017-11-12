@@ -278,7 +278,7 @@
     <string name="can_not_switch_when_calling">Не може да се превключва между пространства по време на обаждане</string>
     <string name="can_not_delete_when_calling">Не може да се изтриват пространства по време на обаждане</string>
     <string name="support_desc">Услугите за безопасност са предоставени от Graphite</string>
-    <string name="sdcardfs_dialog_message">Изключете \"Оптимизиране на SD картата\" в Настройки > Други настройки > Опции на програмиста, преди да влезете във Второ работно място.</string>
+    <string name="sdcardfs_dialog_message">Вашата стара информация може би не е съвместиа с новата файлова система. Оптимизирайте информацията си, преди да влезете във Второ работно място и рестартирайте устройството си.</string>
     <string name="do_not_ask">Не питай повече</string>
     <string name="gpg_message">Създаването на клонирани игри изисква работа с Google Play Игри. Да клонирам ли приложението Google Play Игри?</string>
     <string name="gpg_title">Клониране на Google Play Игри</string>
@@ -305,4 +305,6 @@
  две места, едно устройство."</string>
     <string name="privacy_password_fingerprint_dialog_title">Сканирайте отпечатъка си</string>
     <string name="privacy_password_fingerprint_dialog_message">Поставете пръста си върху сензора</string>
+    <string name="optimize_now">Оптимизирай</string>
+    <string name="dialog_title">Внимание</string>
 </resources>

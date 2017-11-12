@@ -297,6 +297,7 @@
     <string name="theme_batch_update_dlg_content_single">Да се актуализира ли %1$s сега?</string>
     <string name="theme_current_using_has_update">Текущата тема беше обновена, натиснете тук за да я приложите</string>
     <string name="theme_immediately_apply_tip">Да се приложи ли актуализацията сега?</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_fresh_man_notifaction">Пробвайте някои нови теми.</string>
     <string name="selected_resource_file_invalid">Избраният файл не може да се използва</string>
     <string name="apply_theme_with_ringtones">Използвай мелодиите на темата</string>

@@ -29,19 +29,19 @@
         <item quantity="one">елемент</item>
     </plurals>
     <plurals name="save_item_saving_summary">
-        <item quantity="other">%d елементи са възстановени</item>
-        <item quantity="one">%d елемент е възстановен</item>
+        <item quantity="other">Възстановени са %d елементи</item>
+        <item quantity="one">Възстановен е %d елемент</item>
     </plurals>
     <plurals name="save_item_saved_summary">
-        <item quantity="other">%d елементи са импортирани и възстановени</item>
-        <item quantity="one">%d елемент е импортиран и възстановен</item>
+        <item quantity="other">Прехвърлени и възстановени са %d елементи</item>
+        <item quantity="one">Прехвърлен и възстановен е %d елемент</item>
     </plurals>
     <plurals name="save_item_failed_summary_seg1">
-        <item quantity="other">"%d елементи са импортирани, "</item>
-        <item quantity="one">"%d елемент е импортиран, "</item>
+        <item quantity="other">"Прехвърлени са %d елементи. "</item>
+        <item quantity="one">"Прехвърлен е %d елемент. "</item>
     </plurals>
     <plurals name="save_item_failed_summary_seg2">
-        <item quantity="other">%d елементи трябва да се импортират отново</item>
-        <item quantity="one">%d елемент трябва да се импортира отново</item>
+        <item quantity="other">%d елементи са прехвърлени отново.</item>
+        <item quantity="one">%d елемент е прехвърлен отново.</item>
     </plurals>
 </resources>
