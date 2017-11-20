@@ -452,7 +452,7 @@
     <string name="micloud_sync_alert_dialog_positive">ОК</string>
     <string name="micloud_battery_low_notification_title">Слаба батерия</string>
     <string name="micloud_battery_low_notification_message">Включете зарядното за синхронизиране</string>
-    <string name="micloud_upgrade_member">Вземете още място</string>
+    <string name="micloud_upgrade_member">Добави място за съхр</string>
     <string name="micloud_notif_content_depend_wifi">Свържете се към Wi-Fi за синхр.</string>
     <string name="micloud_notif_title_master_depend_wifi">Не може да се синхр. с Mi Cloud</string>
     <string name="micloud_notif_content_master_depend_wifi">Първо се свържете с Wi-Fi.</string>

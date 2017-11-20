@@ -309,6 +309,7 @@
     <string name="vcard_export_will_start_message">%s ще бъде експортирана скоро.</string>
     <string name="vcard_export_request_rejected_message">Експортирането на визитка се провали, моля опитайте по-късно.</string>
     <string name="vcard_unknown_filename">контакт</string>
+    <string name="percentage">%s%%</string>
     <string name="confirm_export_title">Ще експортирате ли контактите?</string>
     <string name="confirm_export_message">Вашият списък с контакти ще бъде експортиран във файла: %s.</string>
     <string name="exporting_contact_failed_title">Неуспешно експортиране</string>
@@ -453,6 +454,7 @@
     <string name="recent">Последни</string>
     <string name="recent_updates">Последни актуализации</string>
     <string name="account_type_format">Контакт %1$s</string>
+    <string name="from_account_format">%1$s</string>
     <string name="use_photo_as_primary">Използвайте тази снимка</string>
     <string name="contact_read_only">Достъпно само за четене.</string>
     <string name="no_contact_details">Няма допълнителна информация за този контакт.</string>
@@ -520,6 +522,7 @@
     <string name="non_phone_add_to_contacts">Добави в контакти</string>
     <string name="activity_title_confirm_add_detail">Добави към контакт</string>
     <string name="non_phone_close">Затвори</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="date_year_toggle">Добави година</string>
     <string name="social_widget_label">Контакт</string>
     <string name="social_widget_loading">Зареждане…</string>
@@ -537,6 +540,7 @@
     <string name="toast_text_copied">Текстът е копиран</string>
     <string name="cancel_confirmation_dialog_title">Отказ</string>
     <string name="cancel_confirmation_dialog_message">Ще отмените ли промените?</string>
+    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="profile_display_name">Настройка на моя профил</string>
     <string name="enter_contact_name">Въведи име на контакт</string>
     <string name="view_updates_from_group">Покажи обновявания</string>
@@ -686,6 +690,7 @@
     <string name="miprofile_alertdialog_message">Името ще се показва, когато запитвате за обмяна на контактни карти.</string>
     <string name="miprofile_alertdialog_edit">Въведете име</string>
     <string name="miprofile_switch_off_alertdialog_message">Няма да имате възможност за размяна на контактни карти с други хора. Вашите контакти няма да могат да виждат вашето профилно видео.</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_bind_account_alertdialog_title">Добавяне на тел. номер</string>
     <string name="miprofile_bind_account_alertdialog_message">Трябва да добавите номера на това устройство във вашия Mi профил, за да използвате тази функция.</string>
     <string name="miprofile_bind_account_alertdialog_positive">Добави номер</string>
@@ -1004,6 +1009,7 @@
     <string name="preference_smart_group_location_summary">Групиране по телефонен код</string>
     <string name="preference_smart_group_frequency_title">По последни повиквания</string>
     <string name="preference_smart_group_frequency_summary">Групиране по последни повиквания или SMS-и</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_label">Смарт групиране</string>
     <string name="smart_group_loading">Зареждане на смарт групи…</string>
     <string name="smart_group_company_label">По фирма</string>
@@ -1057,6 +1063,7 @@
     <string name="device_import_local_account">Локален профил</string>
     <string name="import_name">име</string>
     <string name="import_percent">0%</string>
+    <string name="percent_sign">%</string>
     <string name="ret_sign">"
 "</string>
     <string name="checkhint">Проверете на другият телефон</string>

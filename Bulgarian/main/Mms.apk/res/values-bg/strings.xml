@@ -125,6 +125,7 @@
     <string name="delete_wild_sims_title">Изтриване на избрани номера</string>
     <string name="delivery_report_activity">Потвърждение за доставка</string>
     <string name="delivery_toast_body">Съобщението до %s е доставено</string>
+    <string name="dialog_message_sms_report">Спам съобщенията и информацията за изпращача ще бъдат изпратени към сървърите на MIUI и ще бъдат докладвани. Тази информация ще бъде използвана само с цел подобряване на качеството на MIUI и филтрите за различни услуги.</string>
     <string name="disable_notifications_dialog_message">Да не се дублират известия за SMS на приложението за съобщения по подразбиране</string>
     <string name="disabled">Изкл</string>
     <string name="discard">Отмени</string>
@@ -178,6 +179,7 @@
     <string name="file_size">Размер:</string>
     <string name="file_title">Име:</string>
     <string name="file_width_height">Размер:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ново съобщение</string>
     <string name="forward_from">Препратено от:</string>
     <string name="forward_prefix">От:</string>
@@ -374,7 +376,7 @@
     <string name="pref_hide_verification_code_summary">Автоматично скриване на данни за сигурност в известията за съобщение на заключен екран</string>
     <string name="pref_messages_to_save">Задай броя на съобщения за запазване в кореспонденцията</string>
     <string name="pref_mms_settings_title">Настройки на съобщения (MMS)</string>
-    <string name="pref_msg_trash_bin_title">Наскоро изтрити съобщения</string>
+    <string name="pref_msg_trash_bin_title">Кошче за SMS</string>
     <string name="pref_notification_settings_title">Настройки на известия</string>
     <string name="pref_other_title">Други</string>
     <string name="pref_show_blocked_messages_summary">Показване на блокираните SMS в списъка с кореспонденции</string>
@@ -387,6 +389,7 @@
     <string name="pref_sms_storage_title">Хранилище</string>
     <string name="pref_sms_theme_title">Настройки на теми</string>
     <string name="pref_summary_allow_si_sl_push">Позволете получаване на WAP Push съобщения (SI/SL)</string>
+    <string name="pref_summary_allow_upload_message_info">Спам съобщенията и информацията за изпращача ще се качат на сървърите на MIUI, когато докладвате за това.</string>
     <string name="pref_summary_auto_delete">Изтрий старите съобщения, когато е достигнат лимита</string>
     <string name="pref_summary_delete_limit">Брой съобщения в кореспонденция: %1$s</string>
     <string name="pref_summary_delivery_reports">Показване на статуса за доставка на изпратените съобщения</string>
@@ -404,6 +407,7 @@
     <string name="pref_system_title">Система</string>
     <string name="pref_title_about_smart_sms">Всичко за партньорите на облачни съобщения</string>
     <string name="pref_title_allow_si_sl_push">Разреши WAP push</string>
+    <string name="pref_title_allow_upload_message_info">Качване на съобщения, които са спам</string>
     <string name="pref_title_auto_delete">Изтрий старите съобщения</string>
     <string name="pref_title_card_format">Формат на визитките</string>
     <string name="pref_title_delivery_reports">Потвърждения за доставка</string>
@@ -525,6 +529,7 @@
     <string name="send_signature_confirm_dialog_title">Изпрати подпис</string>
     <string name="send_sms">Изпрати съобщение</string>
     <string name="send_to">До:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Изпратено в: %1s</string>
     <string name="sent_label">Изпратени:</string>
     <string name="service_message_not_found">Съобщението е изтекло или не е достъпно</string>
@@ -556,6 +561,7 @@
     <string name="sms_full_title">Паметта за съобщения е пълна</string>
     <string name="sms_rejected_body">Входящото съобщение беше отхвърлено.</string>
     <string name="sms_rejected_title">Отхвърлено съобщение</string>
+    <string name="sms_report">Докладвай спам съобщения</string>
     <string name="sms_report_dialog_content">Не можах да изпратя доклада, опитайте отново.</string>
     <string name="sms_report_dialog_retry">Опитайте отново</string>
     <string name="sms_report_dialog_title">Опитайте отново</string>

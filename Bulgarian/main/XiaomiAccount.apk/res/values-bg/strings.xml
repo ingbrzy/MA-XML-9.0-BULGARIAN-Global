@@ -19,7 +19,7 @@
     <string name="passport_reg_via_sms_alert">За активирането на услугата трябва да изпратите sms. Може да бъдете таксувани за изходящо съобщение от доставчика ви.</string>
     <string name="passport_reg_using_other_phone"><u>Регистрация с друг телефонен номер</u></string>
     <string name="passport_reg_btn_using_other_phone">Използване на алтернативен номер</string>
-    <string name="passport_downlink_reg">Създаване на профил с телефонен номер</string>
+    <string name="passport_downlink_reg">Телефонен номер</string>
     <string name="passport_select_reg_ways_title">Други начини за регистрация</string>
     <string name="passport_reg_using_phone_number_prompt">Регистрация с телефонен номер</string>
     <string name="passport_reg_using_other_phone_number_prompt">"Създаване на нов профил чрез "</string>
@@ -323,9 +323,9 @@
     <string name="mi_vip_info">Покажи предимствата</string>
     <string name="vip_settings_info">VIP настройки</string>
     <string name="loading_micloud_sync_data">Зарежда се…</string>
-    <string name="activity_not_found_notice">Не може да се открие приложението</string>
+    <string name="activity_not_found_notice">Не може да се намери приложението</string>
     <string name="scan_barcode_title">За да се впишете в Mi профила си, сканирайте QR кодът</string>
-    <string name="talkback_scan_barcode">сканирайте QR кода</string>
+    <string name="talkback_scan_barcode">Сканиране на QR код</string>
     <string name="authorize_title">Оторизация</string>
     <string name="my_device_title">Текущо устройство</string>
     <string name="device_list_title">Списък с устройства</string>
@@ -437,5 +437,5 @@
     <string name="account_token_expired_msg">"Кодът за потвърждение е изтекъл, започнете отново или се отпишете от 
  Вашия профил ИД: %s"</string>
     <string name="bind_safe_phone_msg">Добавете вашия номер за да може да се впишете в Mi Профила си следващия път.</string>
-    <string name="account_notification_message">Идентичността ви в акаунта на Xiaomi е изтекла. Моля, влезте отново !</string>
+    <string name="account_notification_message">Сесията изтече, влезте отново.</string>
 </resources>

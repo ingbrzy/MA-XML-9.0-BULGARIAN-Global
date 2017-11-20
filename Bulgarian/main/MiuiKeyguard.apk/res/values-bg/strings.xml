@@ -59,6 +59,7 @@
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Не може да се превключва между пространства по време на обаждане</string>
     <string name="input_password_handle_sdcard_fs">Не може да влезете във Второ работно място от заключен екран. Направете го от Основно работно място.</string>
     <string name="accessibility_enter_lock_wallpaper">Чукнете, за да отворите Wallpaper Carousel</string>
+    <string name="wallpaper_global_des_drop_down_notify_text">Пуснете за да видите детайли</string>
     <string name="lock_wallpaper_learn_more">Още</string>
     <string name="lock_wallpaper_enter">Въвеждане</string>
     <string name="custom_lock_wallpaper_enter">Въведи</string>
@@ -86,10 +87,6 @@
     <string name="keyguard_charging_info_data_v">%sV</string>
     <string name="keyguard_charging_info_data_c">%s℃</string>
     <string name="keyguard_charging_info_data_percent">%s%%</string>
-    <string name="keyguard_left_smarthome">Mi семейство</string>
-    <string name="keyguard_left_remotecentral">Mi Дистанционно</string>
-    <string name="keyguard_left_bankcard">Mi плащане</string>
-    <string name="keyguard_left_buscard">Карта за пътуване</string>
     <string name="face_data_input_title">Добави данни за лице</string>
     <string name="face_data_introduction_title">Разпознаване на лице</string>
     <string name="face_data_introduction_msg">Информацията за човешкото лице може да се използва за отключване на вашето устройство и идентификация. Добавете парола за Заключен екран, преди да добавите лицево разпознаване.</string>

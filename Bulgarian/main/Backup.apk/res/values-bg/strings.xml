@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"\"Представяме версия %1$s
  Делта актуализация: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Хранилището не е на разположение, проверете картата памет.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMБ</string>
     <string name="xiaomi_connect_download_manager_fail">Не може да се стартира изтегляне. Уверете се, че мениджър изтегляния работи нормално.</string>
     <string name="app_name">Резервно копие</string>
     <string name="local_app_name">Резервно копие</string>
@@ -36,14 +39,14 @@
     <string name="batch_delete_backup_confirm">Да се изтрият ли избраните резервни копия?</string>
     <string name="start_restore">Възстановяване</string>
     <string name="backup_file_error">Архивирането се провали</string>
-    <string name="unit_byte">байта</string>
+    <string name="unit_byte">Б</string>
     <string name="restore_finished">Възстановяването завърши</string>
     <string name="restore_report">Отчет за възстановяването</string>
     <string name="restore_progress">Възстановяване…</string>
     <string name="restore_contacts_hit">Може да има нужда да се впишете отново, за да видите възстановените данни.</string>
     <string name="restore_telephony_hit">Възстановяването ще рестартира приложението \"Телефон\"</string>
     <string name="restore_launcher_layout_hit">Възстановяване настройките на Launcher-а</string>
-    <string name="settings_summary">: настройки за телефон и съобщения</string>
+    <string name="settings_summary">Настройки за телефон и съобщения</string>
     <string name="camera_summary">Настройки на камерата (без снимките)</string>
     <string name="account_summary">Архивиране на профилите в Google, Mi и други данни</string>
     <string name="cloud_app_name">Рез. копие в Mi Cloud</string>
@@ -65,7 +68,7 @@
     <string name="local_restore_window_title">Локално възстановяване</string>
     <string name="account_login">Вписване</string>
     <string name="miliao_account_login">Влизане с MiTalk</string>
-    <string name="miliao_account_guide">Създайте си Mi профил, за да се насладите на всички онлайн услуги от Xiaomi.</string>
+    <string name="miliao_account_guide">Създайте си Mi профил, за да се регистрирате в Mi Облак, MIUI Магазин за теми и всички други услуги на MIUI, достъпни за вас отвсякъде.</string>
     <string name="auto_backup">Автоматично архивиране</string>
     <string name="contact_title">Контакти</string>
     <string name="call_title">Списъци с повиквания</string>
@@ -93,7 +96,7 @@
     <string name="task_stopped_exception">Възстановяването е отменено</string>
     <string name="sdcard_no_enough_space">Недостатъчно място</string>
     <string name="sdcard_no_enough_space_message">Няма достатъчно свободно място на SD картата.</string>
-    <string name="data_no_enough_space_message">Няма достатъчно свободно място във вътрешната памет на телефона ви</string>
+    <string name="data_no_enough_space_message">Няма достатъчно място на вашето устройство.</string>
     <string name="task_running_hint">Процесът вече се изпълнява във фонов режим</string>
     <string name="task_running_dialog">Протича архивиране и възстановяване. Натиснете OK за преглед.</string>
     <string name="task_running_backup_hint">Задачата вече се изпълнява във фонов режим</string>
@@ -222,6 +225,7 @@
     <string name="restore_backup">Възстанови</string>
     <string name="enable_encrypt_description">Кодиране</string>
     <string name="disable_encrypt_description">Не кодирай</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Един момент…</string>
     <string name="state_mounting">Достъп до хранилището на рутера…</string>
     <string name="abort_backup_confirm">Резервното копие не е завършено! Да спре ли въпреки това?</string>
@@ -251,8 +255,8 @@
     <string name="notif_restore_content">Възст. на потр. данни</string>
     <string name="notif_backup_complete_title">Успешно архивирано</string>
     <string name="notif_restore_complete_title">Успешно възстановено</string>
-    <string name="notif_trans_sending_completed">Данните са получени успешно</string>
-    <string name="notif_trans_receiving_completed">Данните са изпратени успешно</string>
+    <string name="notif_trans_sending_completed">Данните са изпратени успешно</string>
+    <string name="notif_trans_receiving_completed">Данните са получени успешно</string>
     <string name="notif_trans_sending_failed">Не може да се изпратят данни</string>
     <string name="notif_trans_receiving_failed">Не може да се получат данни</string>
     <string name="notif_trans_wait_for_reconnecting">Връзката беше прекъсната. Свържете се отново.</string>
@@ -287,7 +291,7 @@
     <string name="trans_detail_category_account">Профили и контакти</string>
     <string name="trans_detail_category_files">Файлове</string>
     <string name="trans_sending_completed">Изпратени данни</string>
-    <string name="trans_receiving_completed">Получени данни</string>
+    <string name="trans_receiving_completed">Успешно получено</string>
     <string name="trans_time_format_second">по-малко от минута</string>
     <string name="trans_progress_subdescript_transing_sender">Изпраща се %1$s, %2$s завършени</string>
     <string name="trans_progress_subdescript_transing_receiver">Получава се %1$s, %2$s завършени</string>
@@ -394,7 +398,7 @@
     <string name="close_twice_auth_tutor">Изключете Apple двустепенна оторизация</string>
     <string name="close_twice_auth_steps">Следвайте тези стъпки за да изключите двустепенната оторизация на Apple ID:</string>
     <string name="close_twice_auth_step_1">1. Отворете който и да е интернет браузър на компютъра и посетете appleid.apple.com.</string>
-    <string name="close_twice_auth_step_2">2. Впишете се в Apple акаунта, на който желаете да изключите двустепенната оторизация, отидете на настройките за сигурност и изберете \"Редактирай\"</string>
+    <string name="close_twice_auth_step_2">2. Впишете се в Apple акаунта, на който желаете да изключите двустепенната оторизация, отидете на настройките за сигурност и изберете \"Редактирай\".</string>
     <string name="close_twice_auth_step_3">3. Натиснете \"Изключи двойната оторизация\". Натиснете отново за потвърждение.</string>
     <string name="close_twice_auth_note">"Забележка:
 След създаването на нов въпрос за сигурност и потвърждаването на вашата дата на раждане, функцията Двойно оторизиране ще бъде изключена. Ако не виждате тази опция на страницата на Apple ID, вие не можете да я изключите."</string>
@@ -455,6 +459,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
 вие трябва да направите архив в iCloud."</string>
     <string name="import_tip_title">Съвети:</string>
     <string name="import_tip_summary">Поради проблеми със съвместимостта, вие можете да прехвърлите само контакти и снимки от iOS устройството. Уверете се, че сте направили резервно копие в iCloud, преди да започнете прехвърлянето.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Импортирай</string>
     <string name="select_empty">Изберете елементи за импортиране</string>
     <string name="select_item_summary_wait">Изчаква се…</string>

@@ -501,6 +501,7 @@ Tap %s за да започнете това изтегляне трябва д�
     <string name="set_id3_failed">Неуспешно задаване на данните за песента</string>
     <string name="set_id3_not_support_format">Този файлов формат не може да се редактира</string>
     <string name="set_id3_not_have_read_or_write_permission">Нямате права за промяна на този файл</string>
+    <string name="listview_index_of_total">%1$d/%2$d</string>
     <string name="lyric_setting">Настройки за текст</string>
     <string name="modify_lyric">Промяна на текста</string>
     <string name="modify_progress">Промяна на скоростта на текста</string>
@@ -521,7 +522,7 @@ Tap %s за да започнете това изтегляне трябва д�
     <string name="bill_list_fragment_title">Класации</string>
     <string name="nowplaying_dialog_title_delete_tracks">Изчистване на текущия списък?</string>
     <string name="nowplaying_menu_item_delete">Изчистване</string>
-    <string name="nowplaying_circle_style">Nowplaying кръгов стил</string>
+    <string name="nowplaying_circle_style">Стил на кръг</string>
     <string name="nowplaying_circle_style_wave">Вълна</string>
     <string name="nowplaying_circle_style_rainbow">Дъга</string>
     <string name="similar_songs">Подобни песни</string>

@@ -384,9 +384,9 @@
     <string name="load_only_under_wlan">Заредете използвайки само Wi-Fi</string>
     <string name="recommend_news">Получавайте препоръки</string>
     <string name="dialog_title_stop_scan">Спиране на сканирането</string>
-    <string name="dialog_msg_stop_scan">Да спре ли сканирането, което е в ход?</string>
+    <string name="dialog_msg_stop_scan">Спиране на сканирането сега?</string>
     <string name="dialog_title_esc_cleanmaster">Затвори cleanmaster</string>
-    <string name="dialog_msg_esc_cleanmaster">Спиране на протичащото сканиране?</string>
+    <string name="dialog_msg_esc_cleanmaster">Спиране на сканирането и излизане?</string>
     <string name="pref_category_title_engine_settings">Настройки на дефиниции за сканиране</string>
     <string name="pref_title_choose_engine">Дефиниции</string>
     <string name="recommend_the_following">Направете следните действия, за да получите повече от вашето устройство</string>
@@ -473,5 +473,5 @@
     <string name="engine_cm">Clean Master</string>
     <string name="app_description_title">За Почистване</string>
     <string name="app_description_content">Почистване намира боклука на вашето устройство и освобождава място в хранилището. Уверете се, че можете да работите с устройството без тези услуги, преди да деинсталирате приложението.</string>
-    <string name="engine_init">Разпознаване...</string>
+    <string name="engine_init">Инициализиране…</string>
 </resources>

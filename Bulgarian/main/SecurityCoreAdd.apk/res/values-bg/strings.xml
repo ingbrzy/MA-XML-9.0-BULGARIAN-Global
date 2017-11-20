@@ -278,7 +278,8 @@
     <string name="can_not_switch_when_calling">Не може да се превключва между пространства по време на обаждане</string>
     <string name="can_not_delete_when_calling">Не може да се изтриват пространства по време на обаждане</string>
     <string name="support_desc">Услугите за безопасност са предоставени от Graphite</string>
-    <string name="sdcardfs_dialog_message">Вашата стара информация може би не е съвместиа с новата файлова система. Оптимизирайте информацията си, преди да влезете във Второ работно място и рестартирайте устройството си.</string>
+    <string name="sdcardfs_dialog_title">Важна актуализация</string>
+    <string name="sdcardfs_dialog_message">MIUI 9 има нова файлова система. Предишните ви записани данни може да не са съвместими с нея. За да избегнете този проблем следвайте показаните стъпки за инсталиране на актуализацията. Вашето устройство ще се рестартира няколко пъти по време на инсталирането и.</string>
     <string name="do_not_ask">Не питай повече</string>
     <string name="gpg_message">Създаването на клонирани игри изисква работа с Google Play Игри. Да клонирам ли приложението Google Play Игри?</string>
     <string name="gpg_title">Клониране на Google Play Игри</string>
@@ -307,4 +308,13 @@
     <string name="privacy_password_fingerprint_dialog_message">Поставете пръста си върху сензора</string>
     <string name="optimize_now">Оптимизирай</string>
     <string name="dialog_title">Внимание</string>
+    <string name="remove_user_click_message">*Ако нямате никакви важни записани елементи във Второ работно място, %s</string>
+    <string name="remove_user_click_message_action">можете да изтриете Второ работно място и да рестартирате устройството си сега.</string>
+    <string name="sdcradfs_dialog_in_owner_title">Второ работно място</string>
+    <string name="sdcradfs_dialog_in_owner_message">"MIUI 9 има нова файлова система. Предишните ви записани данни може да не са съвместими с нея. За да актуализирате, преместете данните си от Второ работно място, рестартирайте устройството си и създайте Второ работно място отново. 
+Ако не актуализирате, клонираните приложения няма да работят правилно."</string>
+    <string name="sdcradfs_dialog_in_sec_title">Важна актуализация</string>
+    <string name="sdcradfs_dialog_in_sec_message">"За да актуализирате, трябва да изтриете вашето Второ работно място и след това да го създадете отново. Преместете данните си от Второ работно място в Основно работно място и рестартирайте устройството си, за да завършите актуализирането.
+Ако не актуализирате, клонираните приложения няма да работят правилно."</string>
+    <string name="space_created_success">Второто работно място е успешно създадено</string>
 </resources>

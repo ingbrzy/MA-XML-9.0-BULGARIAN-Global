@@ -384,6 +384,7 @@
     <string name="detail_app_button">Детайли</string>
     <string name="pref_about_traffic_title">Настройка на трафика</string>
     <string name="pref_traffic_manage_title">Използвани данни</string>
+    <string name="pref_operator_setting">%1$s: %2$s</string>
     <string name="pref_package_traffic_settings">Лимит за мобилни данни</string>
     <string name="pref_adjust_traffic_data">Задаване на изп. на данни</string>
     <string name="pref_category_title_other">Допълнитени настройки</string>
@@ -885,6 +886,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Това приложение може да забави прекалено много
 вашето устройство"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Деинсталиране на %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Деинсталирайте това приложение, за да поправите проблем с прекален разход на батерията.</string>
     <string name="om_ill_proc_type_wakelock_title">Това приложение блокира режим сън на устройството и изразходва много батерия</string>
@@ -1216,10 +1218,10 @@
     <string name="sp_monitored_apps_count_zero">Няма приложения за плащане</string>
     <string name="monitor_app_more">Повече</string>
     <string name="monitor_app_add">Добави</string>
-    <string name="sc_system_risk_fix_info_xspace">Рискът не може да бъде коригиран в xspace, моля, преминете към пространството на собственика, за да го коригирате.</string>
-    <string name="dialog_no_longer_alert">не напомняй повече</string>
-    <string name="sp_background_risk_dialog_title_wifi_approve">Известие за свободна Wi-Fi</string>
-    <string name="sp_background_risk_dialog_summary_wifi_approve">Вие сте свързани с безплатна публична WiFi мрежа, която може да е и примамка. Уверете се, че мрежата е сигурна, преди да извършите плащането.</string>
+    <string name="sc_system_risk_fix_info_xspace">Не може да се намери решение във Второ работно място. Опитайте отново в Основно работно място.</string>
+    <string name="dialog_no_longer_alert">Не показвай отново</string>
+    <string name="sp_background_risk_dialog_title_wifi_approve">Известие за публична Wi-Fi мрежа</string>
+    <string name="sp_background_risk_dialog_summary_wifi_approve">Вие сте свързани към публична Wi-Fi мрежа, която може да бъде несигурна. Уверете се, че плащането ви е защитено, преди да го извършите.</string>
     <string name="sp_background_risk_dialog_title">Предупреждение</string>
     <string name="sp_background_risk_dialog_summary">, проверка и отстраняване на проблеми с плащането.</string>
     <string name="sp_background_risk_type_wifi">Тази Wi-Fi мрежа е опасна</string>
@@ -1270,7 +1272,7 @@
     <string name="keywords_powercenter_powerrank">Използване на батерията</string>
     <string name="path_powercenter_powerrank">Батерия &amp; производителност/Използване на батерията</string>
     <string name="resource_gamebooster">Подобряване бързината при игри</string>
-    <string name="keywords_gamebooster">Игра;ускорител на игра;Режим Производителност;Режим Не безпокойте</string>
+    <string name="keywords_gamebooster">Игра;увеличаване на скоростта;King of Glory;Режим на изпълнение;DND;Игри;Играене;Скорост на игра;ускорение</string>
     <string name="path_gamebooster">Системни приложения/Оптимизация/Ускорител на игри</string>
     <string name="app_name_securitycenter">Оптимизация</string>
     <string name="ok">ОК</string>
@@ -1286,6 +1288,7 @@
     <string name="menu_text_networkassistants">Монитор за данни</string>
     <string name="menu_text_networkassistants_remain">%s остават</string>
     <string name="menu_text_networkassistants_danger">%s над лимита</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">ГБ</string>
     <string name="menu_text_networkassistants_unit_mb">МБ</string>
     <string name="menu_text_networkassistants_unit_kb">КБ</string>
@@ -1503,7 +1506,7 @@
     <string name="title_mifi_insurance">Удължена гаранция</string>
     <string name="summary_mifi_insurance">Вземете едногодишен план за замяна на устройството, в случай на сериозна повреда</string>
     <string name="title_cloud_space_almost_full">Облачното хранилище е почти пълно, елементите може да не се синхр.</string>
-    <string name="summary_cloud_space_almost_full">Получи повече място в хранилището</string>
+    <string name="summary_cloud_space_almost_full">Добави място за съхр</string>
     <string name="title_cloud_space_full">Облачното хранилище е пълно</string>
     <string name="summary_cloud_space_full">Получи повече място в хранилището и достъп до още функции</string>
     <string name="title_auto_update">Авт. обновяване</string>
@@ -1562,8 +1565,8 @@
     <string name="antivirus_privacy_dialog_ok">OK</string>
     <string name="pref_title_manual_check_virus_db_update">Проверка за актуализации</string>
     <string name="virus_update_tips_title">Внимание</string>
-    <string name="virus_wait_network_dialog_message">Вашият телефон не е свързан към Wi-Fi. Ще бъде използвана мобилна връзка с ограничено потребление. Продължаване?</string>
-    <string name="antivirus_not_wlan">Не сте свързан с Wi-Fi мрежа. Използването на мобилни данни може да е причина за допълнително таксуване. Да продължа ли?</string>
+    <string name="virus_wait_network_dialog_message">Вашият телефон не е свързан с Wi-Fi. Да се използват ли мобилни данни?</string>
+    <string name="antivirus_not_wlan">Не сте свързан с Wi-Fi мрежа. Използването на мобилни данни може да е причина за допълнително таксуване. Продължете?</string>
     <string name="antivirus_longtime_no_update">Базата данни на антивирусната програма е остаряла. Редовните нейни актуализации са гаранция за добри резултати при сканиране. Да разреша ли на Оптимизация да се свърже с интернет и обнови вирусните дефиниции?</string>
     <string name="antivirus_longtime_no_update1">Базата данни на антивирусната програма е остаряла. Редовните нейни актуализации са гаранция за добри резултати при сканиране. Обновете антивирусните дефиниции и опитайте отново.</string>
     <string name="antivirus_sec_network_unavailable">Приложението Оптимизация не може да се актуализира, защото сте ограничили интернет връзката. Да се разреши ли на Оптимизация да се свърже с интернет?</string>
@@ -1587,7 +1590,7 @@
     <string name="hints_risk_name_title">Риск:</string>
     <string name="hints_risk_descx_title">Описание:</string>
     <string name="button_text_clear">Почисти</string>
-    <string name="antivirus_main_activity_back">Обратно след сканиране за сигурност</string>
+    <string name="antivirus_main_activity_back">Обратно</string>
     <string name="toast_removed_from_virus_white_list">Преместено от Изключенията. Елемента ще бъде сканиран следващият път.</string>
     <string name="long_click_dialog_title">Предупреждение</string>
     <string name="long_click_dialog_summary">Запазвайте резултатите в списък за да ги добавите в Изключения</string>
@@ -1646,6 +1649,7 @@
     <string name="card_main_deepclean_wechat_action">Изчистване</string>
     <string name="card_main_sectool_title">Инструменти</string>
     <string name="card_main_monthreport_action">Покажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Диагностика на мрежата</string>
     <string name="card_main_netcheck_summary">Диагностика на мрежата за проблеми при свързването</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -1823,7 +1827,7 @@
     <string name="password_forget_pattern_message">От съображения за сигурност вие можете да нулирате вашата парола само след връщането на фабрични настройки. Чукнете за да нулирате.</string>
     <string name="password_forget_pattern_message_none">Приложенията не са заключени. Вие можете да нулирате вашата парола.</string>
     <string name="password_forget_pattern_confirm">Разбрах</string>
-    <string name="password_xspace_forget_pattern_message">За да смените паролата за вашето Второ пространство, трябва да изтриете текущото такова и да създадете ново.</string>
+    <string name="password_xspace_forget_pattern_message">За да смените паролата за вашето Второ работно място, трябва да изтриете текущото такова и да създадете ново.</string>
     <string name="password_promotion_not_login_xiaomi_account_message">Добавете своя Mi профил, за да можете да си смените паролата, ако я забравите.</string>
     <string name="password_promotion_postbutton_text">Добави</string>
     <string name="bind_xiaomi_account_success">Mi профилът е добавен успешно</string>
@@ -1833,7 +1837,7 @@
     <string name="add_game_notification_summary">Докоснете за стартиране &amp; ускорение</string>
     <string name="app_manager_title">Управление на прилож</string>
     <string name="app_manager_app_lock">Закл. приложения</string>
-    <string name="app_manager_bipartition">Клонирани прилож</string>
+    <string name="app_manager_bipartition">Клонирани приложения</string>
     <string name="app_manager_perm">Разрешения</string>
     <string name="app_manager_app_update">Актуализации</string>
     <string name="app_manager_details_storage_title">Хранилище</string>
@@ -1936,8 +1940,8 @@
     <string name="app_manager_reset_app_preferences_button">Нулирай прилож</string>
     <string name="app_manager_disable_text">Деактивирай</string>
     <string name="app_manager_enable_text">Активирай</string>
-    <string name="app_manager_disable_dlg_title">Деактивирай вградените приложения?</string>
-    <string name="app_manager_disable_dlg_text">Ако деактивирате това приложение, други приложения може да спрат да работят правилно.</string>
+    <string name="app_manager_disable_dlg_title">Изкл на системни приложения?</string>
+    <string name="app_manager_disable_dlg_text">Ако изключите това приложение, други приложения може да не работят правилно.</string>
     <string name="app_manager_disabled">Деактивирано</string>
     <string name="app_manager_enabled">Активирано</string>
     <string name="app_manager_globel_perm_title">Разрешения за приложения</string>
@@ -1949,10 +1953,10 @@
     <string name="app_manager_memory">RAM</string>
     <string name="app_manager_as_dlg_title">Внимание</string>
     <string name="app_manager_as_dlg_msg">Ако разрешите приложенията да стартират автоматично, те може да изискват употребата на много RAM памет и батерия. Да разреша ли въпреки това?</string>
-    <string name="app_manager_default_cleared">почистено</string>
+    <string name="app_manager_default_cleared">Почистено</string>
     <string name="app_manager_not_allow">Не</string>
     <string name="app_manager_allow">Да</string>
-    <string name="app_manager_install_other_app">инсталиране на прилож от непознати източници</string>
+    <string name="app_manager_install_other_app">Инсталиране на прилож от непознати източници</string>
     <string name="app_manager_disabled_by_admin">Изкл от администратора</string>
     <string name="app_manager_advanced_setting">Разширени настройки</string>
     <string name="ad_btn_default_text">Научете повече</string>

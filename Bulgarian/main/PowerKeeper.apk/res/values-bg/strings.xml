@@ -124,7 +124,7 @@
     <string name="sleep_config_enhance_title">Спящ режим</string>
     <string name="sleep_config_enhance_description">Когато MIUI регистрира, че устройството е заспало, ще затвори приложенията на заден план, ще ограничи NFC, Bluetooth, GPS, мобилните данни и употребата на Wi-Fi и няма да светва екрана за известия.</string>
     <string name="nonui_mode_config_title">Неинтерактивен режим</string>
-    <string name="nonui_mode_config_description">Забрани светването на екрана за известия, изключи индикацията за известия, пръстовия отпечатък и контролите с докосване, когато устройството ви е в джоба.</string>
+    <string name="nonui_mode_config_description">Не осветявай екрана за известия, изключи светодиода, сензора за пръстови отпечатъци и контролите с докосване, за да се пести батерия, когато MIUI установи, че не използвате устройството си.</string>
     <string name="scenario_policies_warmcontrol">Контрол на температурата</string>
     <string name="warm_configure">Настройки за Контрол на температурата</string>
     <string name="important_warning">Предупреждение</string>
@@ -199,6 +199,6 @@
     <string name="failure">Неуспешно</string>
     <string name="cloud_addr_info">Инф за Облака</string>
     <string name="lasttime_feature_cloud">Актуализирани услуги:</string>
-    <string name="lasttime_applist_cloud">Списък с актуал. приложения:</string>
+    <string name="lasttime_applist_cloud">Актуализирани приложения:</string>
     <string name="base_info">Основна инф</string>
 </resources>

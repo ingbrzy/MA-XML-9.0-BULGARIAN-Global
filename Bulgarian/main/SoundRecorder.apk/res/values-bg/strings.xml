@@ -46,7 +46,7 @@
     <string name="rename_duplicate">Името вече съществува, моля въведете друго:</string>
     <string name="rename_no_more_tip">Без ново запитване</string>
     <string name="dialog_title_storage_full">Малко място</string>
-    <string name="dialog_content_storage_full">Поради липса на място за съхранение звукозаписът беше спрян. Желаете ли да отворите Файловия мениджър, за да изтриете ненужни файлове?</string>
+    <string name="dialog_content_storage_full">Поради липса на място за съхранение звукозаписът беше спрян.</string>
     <string name="status_bar_recording">Записване...</string>
     <string name="status_bar_back">За да се върнете назад, докоснете тук</string>
     <string name="status_bar_recording_pause">"Записването е сложено на пауза. "</string>

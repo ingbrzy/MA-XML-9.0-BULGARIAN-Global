@@ -23,14 +23,14 @@
     <string name="action_menu_account_not_login_hint">Впишете се за синхронизиране с Mi Cloud</string>
     <string name="action_menu_bookshelf">Лавица</string>
     <string name="action_menu_current_version">Текуща версия</string>
-    <string name="action_menu_request_desktop_site">Заявка за настолна версия</string>
-    <string name="action_menu_request_desktop_site_off">Заявка за настолна версия/изкл</string>
-    <string name="action_menu_request_desktop_site_on">Заявка за настолна версия/вкл</string>
+    <string name="action_menu_request_desktop_site">Достъп до уебсайт</string>
+    <string name="action_menu_request_desktop_site_off">Достъпът до уебсайт е изкл</string>
+    <string name="action_menu_request_desktop_site_on">Достъпът до уебсайт е вкл</string>
     <string name="action_menu_text_add_bookmark">Добави отметка</string>
     <string name="action_menu_text_bandwidth">Ограничение на Скорост</string>
     <string name="action_menu_text_bandwidth_off">Ограничение/Изкл.</string>
     <string name="action_menu_text_bandwidth_on">Ограничение/Вкл.</string>
-    <string name="action_menu_text_bookmark_add_off">Не може да се добави уеб страница.</string>
+    <string name="action_menu_text_bookmark_add_off">Не можах да добавя уебсайт</string>
     <string name="action_menu_text_bookmark_added">Отметката е добавена</string>
     <string name="action_menu_text_copy_url">Копиране на URL</string>
     <string name="action_menu_text_create_qr_code">QR код</string>
@@ -65,7 +65,7 @@
     <string name="add_favorites_to">Добави в любими</string>
     <string name="add_new_bookmark">Добави отметка</string>
     <string name="add_new_quicklink">Добави бърза връзка</string>
-    <string name="add_pwa_to_homescreen">Да добавя ли този адрес към начален екран?</string>
+    <string name="add_pwa_to_homescreen">Добави пряк път на Начален екран?</string>
     <string name="add_ql_bm_title">Добави</string>
     <string name="add_quicklink_to_popular">Добави към началната страница</string>
     <string name="add_quicklinks">Добави</string>
@@ -79,7 +79,7 @@
     <string name="added_to_bookmarks">Добавено в отметки.</string>
     <string name="adjust_text_zoom_toast">Промяната в мащаба на текста може да предизвика неправилно показване на някои интернет страници</string>
     <string name="agree">Приемам</string>
-    <string name="agree_permissions_request">Съгласен</string>
+    <string name="agree_permissions_request">Разреши</string>
     <string name="alert_tips">Тази страница може да застраши Вашата сигурност, моля бъдете внимателни!</string>
     <string name="allow">Разреши</string>
     <string name="app_new_version">Вие вече сте инсталирали най-новата версия на програмата</string>
@@ -154,8 +154,8 @@
     <string name="close_all_tab_alert_title">Затваряне на всички раздели</string>
     <string name="close_cloud_tab_tip">Затвори разделите в облака за %s?</string>
     <string name="cloud_loading_tips">Плъзнете надолу за синхрон.</string>
-    <string name="cloud_no_new_data_toast">Няма нови данни, опитайте по-късно</string>
-    <string name="cloud_sync_closed_toast">Не може да се обнови защото синхр. е изключена</string>
+    <string name="cloud_no_new_data_toast">Всичко е актуално</string>
+    <string name="cloud_sync_closed_toast">Вкл синхр за да актуализирате</string>
     <string name="cloud_sync_failed_toast">Неуспешна актуализация, опитайте отново</string>
     <string name="cloud_tab">Раздел в Облак</string>
     <string name="cloud_time_tips">Последна синхронизация</string>
@@ -174,6 +174,7 @@
     <string name="color_picker_dialog_title">Изберете цвят</string>
     <string name="color_picker_hue">Оттенък</string>
     <string name="color_picker_saturation">Наситеност</string>
+    <string name="color_picker_value">Стойност</string>
     <string name="comment_app_menu">Коментар</string>
     <string name="comment_description">Коментар</string>
     <string name="comment_hint">Коментар</string>
@@ -293,8 +294,8 @@
     <string name="empty_app_name">други прилож</string>
     <string name="empty_bookmark">Празно</string>
     <string name="empty_cloud_tab_login_hint">Няма раздели в Облака</string>
-    <string name="empty_cloud_tab_logout_hint">"Вписване в mi профил
- разделите, отворени в други устройства, ще бъдат показвани тук"</string>
+    <string name="empty_cloud_tab_logout_hint">"Впишете се във вашия Mi Профил
+ за да видите отворените раздели на другото устройство."</string>
     <string name="empty_history_hint">Празно</string>
     <string name="empty_snapshot_hint">Празно</string>
     <string name="enable_geolocation_confirm_message">Изключването на услугите за местоположение ще се отрази на приемането на препоръки.</string>
@@ -318,7 +319,7 @@
     <string name="find_on_page_next">Напред</string>
     <string name="find_on_page_prev">Назад</string>
     <string name="find_previous">Търсене на предишното</string>
-    <string name="finish_sync_cloud_tabs">Синхр завърши</string>
+    <string name="finish_sync_cloud_tabs">Успешно синхронизирано</string>
     <string name="firstUsingSearchEngineTips">Да превключа ли търсачката?</string>
     <string name="fling_on_border_gesture_hint">Вие може да изберете функциите за тези жестове от меню Настройки</string>
     <string name="force_quick_search_title">Търсене</string>
@@ -330,7 +331,7 @@
     <string name="geolocation_permissions_prompt_remember">Запомни избора</string>
     <string name="geolocation_permissions_prompt_share">Споделяне на местоположение</string>
     <string name="geolocation_permissions_prompt_toast_allowed">Този сайт изисква местоположението ви. Можете да промените това в Настройки.</string>
-    <string name="geolocation_permissions_prompt_toast_disallowed">Страницата няма достъп до местопожението ви. Може да го разрешите от Настройки > Разширени > Настройки на уеб страници.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">Страницата вече няма достъп до Вашето местоположение</string>
     <string name="geolocation_settings_page_dialog_cancel_button">Отмени</string>
     <string name="geolocation_settings_page_dialog_message">Ще отмените ли достъпа до местоположението Ви за тази страница?</string>
     <string name="geolocation_settings_page_dialog_ok_button">OK</string>
@@ -539,7 +540,7 @@
     <string name="no_space_alert_clean">Освобождаване на място</string>
     <string name="no_space_alert_text">Недостатъчно място</string>
     <string name="no_space_alert_title">Изтеглянето е на пауза</string>
-    <string name="no_space_clean_failed">Не сте освободили място на устройството си​</string>
+    <string name="no_space_clean_failed">Не може да се освободи място на вашето устройство</string>
     <string name="not_allowed_open">Не може да се ползва браузъра в ООВ потока</string>
     <string name="not_remind_again">Не напомняй отново</string>
     <string name="notif_install_successful">Изтеглено</string>
@@ -562,12 +563,12 @@
     <string name="pay_failed_toast">Pay failed</string>
     <string name="pay_success_toast">Pay success</string>
     <string name="permission_alert_window">Разрешете изскачащи прозорци, за да ползвате тази функция</string>
-    <string name="permission_notification">да ви изпращат известия</string>
+    <string name="permission_notification">изпращат известия.</string>
     <string name="permission_unknown">Непозната услуга</string>
-    <string name="permissions_prompt_message">"%s искат да "</string>
+    <string name="permissions_prompt_message">%s искат да</string>
     <string name="popup_window_attempt">Ще разрешите ли на сайта да отваря изскачащи прозорци?</string>
     <string name="positive_confirm_message">Изключи въпреки това</string>
-    <string name="pref_accept_quicklink_push">Стартирай push на страницата</string>
+    <string name="pref_accept_quicklink_push">Новини</string>
     <string name="pref_accessibility">Достъпност</string>
     <string name="pref_accessibility_title">Достъпност</string>
     <string name="pref_accessibility_url_shortcut_enter_summary">При въвеждане в адресната лента, общите буквени комбинации могат да се въведат с едно натискане на клавиш</string>
@@ -607,7 +608,7 @@
     <string name="pref_extras_reset_default_summary">Възстанови началните настройки</string>
     <string name="pref_extras_reset_default_title">Нулиране до началните настройки</string>
     <string name="pref_extras_send_feedback">Изпрати отзив</string>
-    <string name="pref_extras_title">Допълнителни настройки</string>
+    <string name="pref_extras_title">Други настройки</string>
     <string name="pref_extras_title_version">Версия</string>
     <string name="pref_file_downlaod_save_is_reset_default_settings">Съхранявай файловете в стандартната директория за Браузъра</string>
     <string name="pref_file_downlaod_save_reset_default_settings">Възстанови стандартната директория</string>
@@ -678,14 +679,14 @@
     <string name="progress_dialog_setting_wallpaper">Тапетът се задава ...</string>
     <string name="pull_to_refresh_pull_label">Дръпнете за опресняване…</string>
     <string name="pull_to_refresh_release_label">Отпуснете за опресняване</string>
-    <string name="pwa_app_name">Уеб Приложения</string>
+    <string name="pwa_app_name">Уеб приложения</string>
     <string name="qr_code_title">QR код</string>
     <string name="qr_description">Сканиране на QR код</string>
     <string name="quicklink_bookmark_save">Запиши в</string>
     <string name="quicklink_cannot_save_url">Този адрес не може да се добави.</string>
     <string name="quicklink_folder_text">Топ Приложения</string>
     <string name="quicklink_not_saved">Не може да се добави към началната страница</string>
-    <string name="quicklink_push_confirm_message">Изключването на тази функция ще повлияе на началната страница.</string>
+    <string name="quicklink_push_confirm_message">Няма да можете да получавате актуализации, след като изключите тази услуга. Изключване сега?</string>
     <string name="quicklink_saved">Добавено към нач. страница</string>
     <string name="quicklink_saved_before">Сайтът е добавен</string>
     <string name="quicklink_user_define_webpage_title">Име</string>
@@ -708,7 +709,7 @@
     <string name="readmode_recommend_message">Прочели сте всички глави от тази книга. Моля, изберете друга</string>
     <string name="readmode_refresh">Обнови</string>
     <string name="readmodelist_bookmarks_to_show">Списък за четене</string>
-    <string name="refuse_permissions_request">Отказ</string>
+    <string name="refuse_permissions_request">Ограничаване</string>
     <string name="remember_passwords_confirm_message">Изключването на функцията може да засегне използването.</string>
     <string name="remove_bookmark">Изтрий отметка</string>
     <string name="remove_bookmark_group">Изтрий група</string>
@@ -792,7 +793,7 @@
     <string name="skip_current_version">Пропусни тази версия</string>
     <string name="snapshot">Локално</string>
     <string name="snapshot_failed">Неуспешно запазване на страницата</string>
-    <string name="snapshot_successed">Отваряне на Отметки/Хронология->LOCAL за да видите страницата</string>
+    <string name="snapshot_successed">Отваряне на Отметки &amp; Хронология -> LOCAL за да видите страницата</string>
     <string name="ssl_bad_clock_date_settings">Задаване на дата</string>
     <string name="ssl_bad_clock_warning" formatted="false">Не може да се създаде сигурна връзка към %s1 защото датата и часа на вашето устройство (%s2) са грешни.</string>
     <string name="ssl_certificate">Сертификат за сигурност</string>
@@ -884,7 +885,7 @@
     <string name="version_check_button_no_network">Няма връзка с мрежата</string>
     <string name="version_check_button_resume_download">Продължи изтеглянето</string>
     <string name="version_check_button_update">Актуализирай</string>
-    <string name="version_check_failed">Неуспешна проверка за актуализации</string>
+    <string name="version_check_failed">Не може да се провери за актуализации</string>
     <string name="version_dialog_buttion_ok">ОК</string>
     <string name="version_dialog_buttion_update">Актуализирай</string>
     <string name="version_update_file_download_toast">Изтегля се</string>
@@ -950,7 +951,7 @@
     <string name="voice_title">Кажете командата си…</string>
     <string name="voice_title_distinguish">Обработка…</string>
     <string name="voice_title_listening">Слушане…</string>
-    <string name="voice_title_please">Говорете сега…</string>
+    <string name="voice_title_please">Започнете да говорите…</string>
     <string name="voice_title_speech_again">Не мога да ви разбера</string>
     <string name="weather_location_confirm_message">Изключването на функцията може да засегне използването.</string>
     <string name="webpage_title">Отметки и история</string>

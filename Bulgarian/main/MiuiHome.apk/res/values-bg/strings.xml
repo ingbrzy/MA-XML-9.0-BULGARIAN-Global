@@ -9,8 +9,8 @@
     <string name="bad_wallpaper_source_prompt">Тапетът не може да се зареди</string>
     <string name="apply_action">Приложи</string>
     <string name="download_action">Изтегляне</string>
-    <string name="lock_screen_failed_message">Неуспешно прилагане</string>
-    <string name="lock_screen_success_message">Приложен</string>
+    <string name="lock_screen_failed_message">Не може да се зададе тапета на заключен екран</string>
+    <string name="lock_screen_success_message">Зададено за заключен екран</string>
     <string name="wallpaper_failed_message">Тапетът не може да се приложи</string>
     <string name="launcher_not_exist">Неочаквана грешка, върнете се в начален екран и опитайте отново.</string>
     <string name="image_too_small_message">Оригиналното изображение не е достатъчно голямо</string>
@@ -73,7 +73,7 @@
     <string name="uninstall_xspace_dialog_title_format">Деинсталиране на клонирано \"%s\"?</string>
     <string name="uninstall_xspace_dialog_message">Uninstalling cloned app will remove all app data.</string>
     <string name="uninstall_with_xspace_dialog_message">Corresponding cloned apps will be removed together with app data.</string>
-    <string name="confirm_uninstall_dialog_title">Corresponding cloned apps will be removed.</string>
+    <string name="confirm_uninstall_dialog_title">Клонираните приложения ще бъдат премахнати</string>
     <string name="confirm_uninstall_dialog_has_xspace_app_msg">Cloned app will be uninstalled together with this one.</string>
     <string name="confirm_uninstall_dialog_contain_xspace_app_msg">Cloned apps will be uninstalled together with these ones.</string>
     <string name="uninstall">Деинсталиране</string>
@@ -114,7 +114,7 @@
     <string name="local_wallpaper">Изтеглени</string>
     <string name="setting_wallpaper_tip">Преместване или уголемяване</string>
     <string name="apply_as_wallpaper">Нач. екран</string>
-    <string name="apply_as_lock_screen">Закл. екран</string>
+    <string name="apply_as_lock_screen">На заключен екран</string>
     <string name="apply_both">Закл. и нач. екран</string>
     <string name="enable_wallpaper_scroll">Вкл. превъртането на тапета</string>
     <string name="disable_wallpaper_scroll">Изкл. превъртането на тапета</string>

@@ -39,7 +39,7 @@
     <string name="onscreen_add_call_text">Добави обаждане</string>
     <string name="onscreen_audio_mode_bluetooth">Bluetooth</string>
     <string name="onscreen_audio_mode_conference">Конференция</string>
-    <string name="onscreen_audio_mode_handset">Хендсфри</string>
+    <string name="onscreen_audio_mode_handset">Слушалки</string>
     <string name="onscreen_audio_mode_headset">Слушалки</string>
     <string name="onscreen_audio_mode_speaker">Говорител</string>
     <string name="onscreen_audio_switch_mode">Превключи звука</string>

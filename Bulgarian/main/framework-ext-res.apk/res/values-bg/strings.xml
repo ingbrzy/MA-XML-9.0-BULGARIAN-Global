@@ -38,6 +38,7 @@
     <string name="translation_query_error">Няма резултати</string>
     <string name="translation_query_error_network">Не може да се получи информация, проверете мрежовите настройки и опитайте отново</string>
     <string name="translation_more">Повече</string>
+    <string name="autofill">Автозапълване</string>
     <string name="auto_start_warning_title">Разрешавате ли автостарт на %s за в бъдеще?</string>
     <string name="auto_start_warning_allow">Разреши</string>
     <string name="auto_start_warning_deny">Откажи</string>
