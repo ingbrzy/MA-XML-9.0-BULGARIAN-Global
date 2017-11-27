@@ -791,7 +791,6 @@
     <string name="search_feedback_false_negative_text">Добави снимки към \"%s\"?</string>
     <string name="search_feedback_contribute">Добави снимки към АI алгоритъм база данни</string>
     <string name="search_feedback_task_finish_title">Чукнете за да получите награда!</string>
-    <string name="search_feedback_task_progress">%1$d/%2$d</string>
     <string name="search_feedback_likely_title">Изглежда, че тези снимки може да са \"%s\"</string>
     <string name="search_feedback_likely_check_title">Проверка</string>
     <string name="search_feedback_false_positive_title">Изглежда, че те са “%s”</string>
@@ -801,7 +800,6 @@
     <string name="grant_permission_text">"Галерия се нуждае от достъп до 
 %s
  за да работи нормално, чукнете \"Задай\" за да отидете в Разрешения."</string>
-    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_go_and_set">Задай</string>
     <string name="loading">Един момент</string>
     <string name="loading_dots">Един момент…</string>

@@ -106,7 +106,6 @@
     <string name="package_filter">Пакети</string>
     <string name="other_filter">Други</string>
     <string name="xunlei_brand">С подкрепата на Xunlei</string>
-    <string name="xunlei_brand_url">http://mobile.xunlei.com</string>
     <string name="xunlei_switch">Xunlei изтегляне</string>
     <string name="turn_off_xunlei_title">Деактивиране на Xunlei изтегляне</string>
     <string name="turn_off_xunlei_message">Може да предизвика по-бавна скорост на изтегляне.</string>

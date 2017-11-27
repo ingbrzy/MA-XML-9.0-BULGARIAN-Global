@@ -302,8 +302,6 @@
     <string name="screen_zoom_summary_extremely_large">Най-голям</string>
     <string name="screen_zoom_summary_custom">Потребителски (%d)</string>
     <string name="help_feedback_label">Помощ&amp; поддръжка</string>
-    <string name="status_bar_date_formatter">"%2$s
-%1$s"</string>
     <string name="app_label">Системен изглед</string>
     <string name="status_bar_no_recent_apps">Няма последно изпол. прилож</string>
     <string name="recent_task_lock_text">Заключи</string>
