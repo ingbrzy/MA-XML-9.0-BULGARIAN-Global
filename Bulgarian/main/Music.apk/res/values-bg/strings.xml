@@ -43,7 +43,6 @@
 
 Tap %s за да започнете това изтегляне трябва да сте свързани към Wi-Fi мрежа."</string>
     <string name="download_no_application_title">Файлът не може да се отвори</string>
-    <string name="download_percent">%d%%</string>
     <string name="notification_need_wifi_for_size">Размерът за изтегляне изисква Wi-Fi.</string>
     <string name="download_unknown_title">&lt;Без име></string>
     <string name="root_downloads">Изтегляния</string>

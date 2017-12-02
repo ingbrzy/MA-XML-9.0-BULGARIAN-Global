@@ -122,7 +122,6 @@
     <string name="more_face">Още хора, които имат прилика</string>
     <string name="face_confirm">Това същия човек ли е</string>
     <string name="face_recommend">Препоръки</string>
-    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="face_name_input">Въведете име</string>
     <string name="face_name_edit">Промени</string>
     <string name="confirm_hidden_recommend_group">OК</string>
@@ -418,7 +417,6 @@
     <string name="gigabyteShort">ГБ</string>
     <string name="terabyteShort">ТБ</string>
     <string name="petabyteShort">ПБ</string>
-    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="tip_capture_time">Заснето на:</string>
     <string name="tip_file_info">Данни за файл:</string>
     <string name="tip_capture_params">EXIF данни:</string>
@@ -598,7 +596,6 @@
     <string name="welcome_to_slim">Добре дошли в умаления албум.</string>
     <string name="slim_introduce">Замяна на локалните снимки/видео с пълна резолюция с оптимизирани копия, след като са архивирани в Mi Cloud. Снимките с пълна резолюция остават запазени в Mi Cloud. Това може да спести повече от 90% място за съхранение(Изисква се Mi-профил).</string>
     <string name="slim_introduce_with_specific_size">Замяна на локалните снимки/видео на пълна резолюция с оптимизирани копия, след като са архивирани в Mi Облак. Снимките с пълна резолюция остават запазени в Mi Облак. Това може да спести %1$s(Изисква се Mi профил).</string>
-    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="auto_backup_introduce">Архивирайте снимки и видео автоматично(Изисква се Mi профил)</string>
     <string name="next">Напред</string>
     <string name="login_and_enable_service">Влезте в профила си и използвайте MiCloud.</string>
@@ -676,7 +673,6 @@
     <string name="cloud_storage_ok_append_desc">Достъпни: %s</string>
     <string name="cloud_storage_warn_title">Няма достатъчно място в хранилището на Mi Облак</string>
     <string name="cloud_storage_warn_desc">VIP абонаментза допълнително място</string>
-    <string name="percent_sign">%</string>
     <string name="cloud_storage_extend">Разширено място в Mi Облак</string>
     <string name="user_agreement2">Условия за ползване</string>
     <string name="user_agreement4">Политика на поверителност</string>
@@ -787,8 +783,6 @@
     <string name="search_request_open">Станете член на Бета-тийма</string>
     <string name="search_request_applied">Приложено</string>
     <string name="search_title_more">Повече</string>
-    <string name="search_transition_element_input">search_input</string>
-    <string name="search_transition_element_icon">search_icon</string>
     <string name="search_mark_feedback_false_positive_title">Поправи</string>
     <string name="search_mark_feedback_false_negative_title">OК</string>
     <string name="search_feedback_false_negative_title">Избраните елементи са \"%s\"</string>
@@ -797,7 +791,6 @@
     <string name="search_feedback_false_positive_text">Премахни снимки от \"%s\"?</string>
     <string name="search_feedback_false_negative_text">Добави снимки към \"%s\"?</string>
     <string name="search_feedback_contribute">Добави снимки към АI алгоритъм база данни</string>
-    <string name="search_feedback_task_progress">Задачи %1$d/%2$d</string>
     <string name="search_feedback_task_complete">Всички задачи са изпълнени</string>
     <string name="search_feedback_likely_title">Изглежда, че тези снимки може да са \"%s\"</string>
     <string name="search_feedback_likely_check_title">Проверка</string>
@@ -810,7 +803,6 @@
     <string name="grant_permission_text">"Галерия се нуждае от достъп до 
 %s
  за да работи нормално, чукнете \"Задай\" за да отидете в Разрешения."</string>
-    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_go_and_set">Задай</string>
     <string name="grant_permission_unlock_and_set">Отключване и настройка</string>
     <string name="loading">Един момент</string>
