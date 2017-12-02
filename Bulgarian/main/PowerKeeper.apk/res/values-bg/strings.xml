@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Икономия на батерията</string>
+    <string name="app_name">Батерия и Производителност</string>
     <string name="activity_title_poweroptimize">Икономия на батерията</string>
     <string name="activity_title_poweranalyze">Тест на батерията</string>
     <string name="activity_title_powerconfigure">Настройки на батерията</string>
@@ -107,7 +107,7 @@
     <string name="mode_settings">Настройки</string>
     <string name="hide_mode_desc">Икономия на батерията чрез ограничаване на процесите на заден план, Wi-Fi, мобилните данни и GPS за всяко приложение поотделно</string>
     <string name="hide_mode_ultimate_desc">Режим оптимизиране е вкл. Приложенията на заден план ще бъдат замразени. Изключете Икономия на батерия за да излезете от режим Оптимизиране.</string>
-    <string name="power_hide_mode_title">Упр. на изп. от прил. батерия</string>
+    <string name="power_hide_mode_title">Батерия &amp; производителност</string>
     <string name="power_hide_mode_summary">Икономия на батерията чрез ограничаване на процесите на заден план, Wi-Fi, мобилните данни и GPS за всяко приложение поотделно</string>
     <string name="power_config_apps">Икономия на батерия</string>
     <string name="app_list_title">Избор на приложения</string>
@@ -125,6 +125,10 @@
     <string name="sleep_config_enhance_description">Когато MIUI регистрира, че устройството е заспало, ще затвори приложенията на заден план, ще ограничи NFC, Bluetooth, GPS, мобилните данни и употребата на Wi-Fi и няма да светва екрана за известия.</string>
     <string name="nonui_mode_config_title">Неинтерактивен режим</string>
     <string name="nonui_mode_config_description">Не осветявай екрана за известия, изключи светодиода, сензора за пръстови отпечатъци и контролите с докосване, за да се пести батерия, когато MIUI установи, че не използвате устройството си.</string>
+    <string name="power_center">Захранване</string>
+    <string name="power_usage">Консумация на енергия</string>
+    <string name="power_mode">Настройки на захранването</string>
+    <string name="performance_category">Производителност</string>
     <string name="scenario_policies_warmcontrol">Контрол на температурата</string>
     <string name="warm_configure">Настройки за Контрол на температурата</string>
     <string name="important_warning">Предупреждение</string>

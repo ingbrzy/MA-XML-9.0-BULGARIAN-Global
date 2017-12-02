@@ -60,6 +60,7 @@
     <string name="ok_button">OК</string>
     <string name="cancel_button">Отказ</string>
     <string name="list_empty_text">Празно</string>
+    <string name="list_empty_text_xspace">Инсталирайте WeChat/QQ/Weibo, клонирайте го и опитайте отново.</string>
     <string name="xspace_label">Клонирани приложения</string>
     <string name="xspace_setting_label">Настройки за клонирани приложения</string>
     <string name="xspace_account">Профили за клонирани приложения</string>
@@ -150,6 +151,7 @@
     <string name="click_to_switch">Чукнете за преглед</string>
     <string name="confirm_main_space_password">Потвърдете паролата за Първо пространство.</string>
     <string name="create_space_loading">Създаване на Второ пространство…</string>
+    <string name="close_second_space">Изтриване на Второ работно място</string>
     <string name="close_second_space_success">Второто пространство е изтрито.</string>
     <string name="enable">Включване</string>
     <string name="disable">Изключване</string>
@@ -249,6 +251,17 @@
     <string name="xpsace_guide_button">Създай</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">Не може да се открият приложения</string>
+    <string name="xspace_weixin_title">WeChat</string>
+    <string name="weixin_pay">WeChat Pay</string>
+    <string name="weixin_share">Сподели с Моменти</string>
+    <string name="xspace_weibo_title">Weibo</string>
+    <string name="weibo_send">Изпрати към Weibo</string>
+    <string name="xspace_qq_title">QQ</string>
+    <string name="qq_send">Изпрати към приятели и устройства с QQ</string>
+    <string name="xspace_default_setting_label">Прилож по подразбиране</string>
+    <string name="xspace_default_app_title">Прилож по подразбиране</string>
+    <string name="xspace_default_app_summary">Задайте приложение по подразбиране за плащания, споделяне, любими неща и други.</string>
+    <string name="xspace_default_setting_dialog_title">Подразбиране</string>
     <string name="space_name_default">Работно място</string>
     <string name="space_des_default">Изолирано място с криптирана информация</string>
     <string name="create_work_space">Създай Работно място</string>
@@ -277,7 +290,7 @@
     <string name="function_not_support">Не се поддържа на това устройство</string>
     <string name="can_not_switch_when_calling">Не може да се превключва между пространства по време на обаждане</string>
     <string name="can_not_delete_when_calling">Не може да се изтриват пространства по време на обаждане</string>
-    <string name="support_desc">Услугите за безопасност са предоставени от Graphite</string>
+    <string name="support_desc">Услугите за безопасност са предоставени от Spaces Mobile</string>
     <string name="sdcardfs_dialog_title">Важна актуализация</string>
     <string name="sdcardfs_dialog_message">MIUI 9 има нова файлова система. Предишните ви записани данни може да не са съвместими с нея. За да избегнете този проблем следвайте показаните стъпки за инсталиране на актуализацията. Вашето устройство ще се рестартира няколко пъти по време на инсталирането и.</string>
     <string name="do_not_ask">Не питай повече</string>

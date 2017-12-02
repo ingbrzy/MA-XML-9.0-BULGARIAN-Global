@@ -9,7 +9,7 @@
     <string name="accessibility_repeats">Повтори</string>
     <string name="accessibility_sync_cal">Синхр календар</string>
     <string name="accounts">Профили&amp; синхр</string>
-    <string name="acct_not_synced">Този профил не се синхронизира, така че Вашите календари могат да не са актуални.</string>
+    <string name="acct_not_synced">Този профил не се синхронизира. Вашите календари може да не са актуални.</string>
     <string name="acessibility_selected_marker_description">Избрано събитие</string>
     <string name="agenda_today">ДНЕС, %1$s</string>
     <string name="agenda_tomorrow">УТРЕ, %1$s</string>
@@ -17,16 +17,16 @@
     <string name="agenda_yesterday">ВЧЕРА, %1$s</string>
     <string name="alert_title">Известия за календар</string>
     <string name="app_label">Календар</string>
-    <string name="calendar_refresh">\"Обновяване\"</string>
+    <string name="calendar_refresh">Обновяване</string>
     <string name="change_response_title">Промяна на отговора</string>
     <string name="copy_email">Копиране на имейл адреса</string>
     <string name="copy_number">Копиране на телефонния номер</string>
     <string name="create_an_account_desc">"Календарът работи най-добре с Mi Профил.
 
-• получете достъп от всеки уеб браузър
-• Архивирайте вашите събития"</string>
+• Получете достъп от всеки уеб браузър. 
+• Архивирайте вашите събития сигурно."</string>
     <string name="creating_event">Събитието е създадено</string>
-    <string name="creating_event_with_guest">Поканите ще бъдат изпратени</string>
+    <string name="creating_event_with_guest">Изпращане на покана…</string>
     <string name="daily">Ежедневно</string>
     <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="day_view_new_event_hint">Ново събитие</string>
@@ -44,7 +44,7 @@
     <string name="edit_event_to_label">До</string>
     <string name="email_guests_label">Изпратете имейл до гостите</string>
     <string name="email_picker_label">Имейл до</string>
-    <string name="empty_event">Празно събитие не се запазва</string>
+    <string name="empty_event">Не може да се създават празни събития</string>
     <string name="event_create">Ново събитие</string>
     <string name="event_delete">Изтрий събитие</string>
     <string name="event_edit">Редактирай събитие</string>
@@ -90,7 +90,7 @@
     <string name="response_no">Не</string>
     <string name="response_yes">Да</string>
     <string name="saving_event">Събитието е запазено</string>
-    <string name="saving_event_with_guest">Актуализациите ще бъдат изпратени</string>
+    <string name="saving_event_with_guest">Изпращане на обновяване…</string>
     <string name="search">Търси</string>
     <string name="select_synced_calendars_title">Календари за синхронизиране</string>
     <string name="show_day_view">Покажи ден</string>
@@ -109,7 +109,7 @@
     <string name="yearly">Ежегодно (%s)</string>
     <string name="yearly_plain">Годишно</string>
     <string name="account_and_calendar">Акаунт и календар</string>
-    <string name="action_bar_more_menu_view_description">още</string>
+    <string name="action_bar_more_menu_view_description">Още</string>
     <string name="action_text_card_manager">Канал</string>
     <string name="action_text_today">Днес</string>
     <string name="add_anniversary">Добави годишнина</string>
@@ -203,7 +203,7 @@
     <string name="edit_event_tab_birthday">Рожден ден</string>
     <string name="edit_event_tab_countdown">Обратно броене</string>
     <string name="edit_event_tab_event">Събитие</string>
-    <string name="email_install_hint">Приложението Имейл беше деинсталирано. Когато го инсталирате пак, можете да възстановите данните в календара и профила си или да добавите нов профил.</string>
+    <string name="email_install_hint">Приложението Имейл беше деинсталирано. Инсталирайте го отново за да възстановите профилите за календара или да добавите нов.</string>
     <string name="english_premium_league">Английска първа лига</string>
     <string name="event_account">Профил</string>
     <string name="event_action_delete">Изтриване</string>
@@ -242,8 +242,8 @@
     <string name="insert_event_toast_add_failed">Неуспешно добавяне</string>
     <string name="insert_event_toast_add_success">Събитието е създадено</string>
     <string name="install_email_app">Инсталирай Имейл</string>
-    <string name="install_email_finished">Имейл е инсталиран</string>
-    <string name="installing_email">Инсталира се...</string>
+    <string name="install_email_finished">Инсталацията е успешна</string>
+    <string name="installing_email">Инсталиране…</string>
     <string name="item_num_selected">%1$d са избрани</string>
     <string name="jump_date_full">Отиди на дата</string>
     <string name="load_more_hint">Опреснете събитията на %1$d</string>
@@ -267,15 +267,15 @@
     <string name="month_medium_october">окт.</string>
     <string name="month_medium_september">септ.</string>
     <string name="network_not_available">Няма връзка с мрежата</string>
-    <string name="new_event_description">ново</string>
+    <string name="new_event_description">Ново</string>
     <string name="no_contact_birthday_hint">Няма рождени дни за вмъкване</string>
     <string name="no_events_hint">Няма събития</string>
     <string name="no_network">"Не мога да се свържа с мрежата. 
 Проверете настройките и опитайте пак."</string>
     <string name="no_network_btn">Опитай отново</string>
-    <string name="no_visiable_calendar_message">Трябва да изберете профил за календара. Докоснете \"Изберете профил\", за да продължите.</string>
-    <string name="no_visiable_calendar_select_account">Изберете профил</string>
-    <string name="no_visiable_calendar_title">Изберете профил за календара</string>
+    <string name="no_visiable_calendar_message">Трябва да добавите профил за календара. Докоснете \"Добави профил\", за да продължите.</string>
+    <string name="no_visiable_calendar_select_account">Добави профил</string>
+    <string name="no_visiable_calendar_title">Добави профил</string>
     <string name="panchang_amanta">Аманта</string>
     <string name="panchang_amanta_month">Месец Аманта:</string>
     <string name="panchang_ayana">Аяна</string>
@@ -391,7 +391,7 @@
     <string name="travel_item_weather_now">Времето в дестинацията</string>
     <string name="travel_load_failed">Неуспешно зареждане</string>
     <string name="travel_loaded">С подкрепата на Veryzhun</string>
-    <string name="travel_loading">Just a sec…</string>
+    <string name="travel_loading">Момент…</string>
     <string name="travel_local">Дестинация</string>
     <string name="travel_seat_number_text">Място</string>
     <string name="travel_train_number_text">Влак</string>

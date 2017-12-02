@@ -44,4 +44,5 @@
     <string name="unbind_device_alert_ok">Разкачи</string>
     <string name="unbind_device_alert_cancel">Отказ</string>
     <string name="ok_button">OК</string>
+    <string name="bluetooth_device_context_unpair">Разкачи</string>
 </resources>

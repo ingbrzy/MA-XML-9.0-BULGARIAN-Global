@@ -35,6 +35,7 @@
     <string name="action_menu_text_copy_url">Копиране на URL</string>
     <string name="action_menu_text_create_qr_code">QR код</string>
     <string name="action_menu_text_download">Изтегляния</string>
+    <string name="action_menu_text_drop">Меню за изход</string>
     <string name="action_menu_text_exit">Изход</string>
     <string name="action_menu_text_find_in_page">Намери на страницата</string>
     <string name="action_menu_text_fullscreen">Цял екран</string>
@@ -114,6 +115,7 @@
     <string name="bookmark_cannot_save_url">Този адрес не може да бъде добавен към отметки.</string>
     <string name="bookmark_folder_needs_title">Въведете име на групата</string>
     <string name="bookmark_group_lable">Група</string>
+    <string name="bookmark_move_to">Преместване в</string>
     <string name="bookmark_needs_title">Трябва да добавите име на отметката</string>
     <string name="bookmark_needs_url">Трябва да добавите URL адрес на отметката</string>
     <string name="bookmark_not_saved">Грешка при запазване на отметката.</string>
@@ -140,6 +142,8 @@
     <string name="cancel">Отказ</string>
     <string name="cancle_sync_cloud_tabs">Отмяна на синхр</string>
     <string name="cannot_download">Може да изтегляте само от адреси, които започват с \"http\" и \"https\".</string>
+    <string name="check_security_tip_privacy_policy">Политика на поверителност</string>
+    <string name="check_security_tip_user_agreement">Потребителско споразумение</string>
     <string name="choosertitle_sharevia">Сподели чрез:</string>
     <string name="clear_history">Изчисти историята</string>
     <string name="clear_most_visited">Скорошна хронология</string>
@@ -174,6 +178,7 @@
     <string name="color_picker_dialog_title">Изберете цвят</string>
     <string name="color_picker_hue">Оттенък</string>
     <string name="color_picker_saturation">Наситеност</string>
+    <string name="color_picker_value">Стойност</string>
     <string name="comment_app_menu">Коментар</string>
     <string name="comment_description">Коментар</string>
     <string name="comment_hint">Коментар</string>
@@ -203,15 +208,14 @@
     <string name="contextmenu_webpage_capture">Екранна снимка</string>
     <string name="contextmenu_webpage_html">Запис като HTML файл</string>
     <string name="contextmenu_webpage_snapshot">Запиши страницата</string>
-    <string name="copy_to_clipboard_failure_message">Копирането в буфера бе неуспешно</string>
+    <string name="copy_to_clipboard_failure_message">Не може да се копира в клипборда.</string>
     <string name="copy_url">Копирай URL</string>
     <string name="create_qr_code">QR код</string>
     <string name="current_version_pad">Таблет</string>
     <string name="current_version_pc">Настолна</string>
     <string name="current_version_phone">Телефон</string>
     <string name="custom_head_card_text">Винаги вярвай, че най-доброто предстои</string>
-    <string name="custom_head_card_text_incognito">\"Вие сте инкогнито! Посетените страници няма да са видими в историята.\"</string>
-    <string name="data_traffic_prompt_change">Използването на мобилни данни за гледане на видео ще увеличи използваните от вас мобилни данни. Ако надвишите лимита от данни на вашия абонамент, ще бъдете таксувани допълнително от оператора.</string>
+    <string name="data_traffic_prompt_change">Използването на мобилен интернет за гледане на видео ще увеличи използваните от вас данни. Ако надвишите лимита за данни, вашият оператор може да ви таксува за това допълнително.</string>
     <string name="data_traffic_prompt_message">Разглеждането на страници чрез мобилни данни ще увеличи използваните от вас данни. Ако надвишите предплатения си обем от данни, оператора може да ви таксува допълнително.</string>
     <string name="data_traffic_prompt_message_short">Използването на мобилни данни за стриймване на видео може да коства превишаване на лимита ви за данни.</string>
     <string name="data_traffic_prompt_title">Предупреждение за данни</string>
@@ -222,6 +226,7 @@
     <string name="date_time_picker_dialog_title">Задай дата и час</string>
     <string name="delete">Изтрий</string>
     <string name="delete_bookmark">Изтрий отметка</string>
+    <string name="delete_bookmark_action_warning">Изтрий отметките?</string>
     <string name="delete_bookmark_group_warning">Да се изтрие ли \"%s\"? Всички отметки в групата ще бъдат заличени.</string>
     <string name="delete_bookmark_warning">Да се изтрие ли отметката \"%s\"?</string>
     <string name="delete_download">Изтрий</string>
@@ -257,7 +262,7 @@
     <string name="download_default_path_txt">Изтегляй в тази папка по подразбиране, без да питаш за това отново</string>
     <string name="download_dialog_default_path_invalid">Невалидна папка за сваляне, използвай зададената по подразбиране</string>
     <string name="download_dialog_file_length_hint_txt">"Размер на файла: "</string>
-    <string name="download_dialog_file_length_lessthan1kb">По-малко от 1K</string>
+    <string name="download_dialog_file_length_lessthan1kb">По-малко от 1КБ</string>
     <string name="download_dialog_file_length_nolength_error_txt">Неуспешно изчисляване на размера на файла</string>
     <string name="download_dialog_file_length_nolength_txt">Изчисляване на размера на файла ...</string>
     <string name="download_failed">Неуспешно изтегляне</string>
@@ -290,7 +295,7 @@
     <string name="edit">Редактирай</string>
     <string name="edit_bookmark">Редактирай отметка</string>
     <string name="edit_quicklink">Редактиране</string>
-    <string name="empty_app_name">други прилож</string>
+    <string name="empty_app_name">Друго прилож</string>
     <string name="empty_bookmark">Празно</string>
     <string name="empty_cloud_tab_login_hint">Няма раздели в Облака</string>
     <string name="empty_cloud_tab_logout_hint">"Впишете се във вашия Mi Профил
@@ -337,6 +342,7 @@
     <string name="geolocation_settings_page_summary_allowed">Страницата вече има достъп до Вашето местоположение</string>
     <string name="geolocation_settings_page_summary_not_allowed">Страницата вече няма достъп до Вашето местоположение</string>
     <string name="geolocation_settings_page_title">Изчисти достъпа до местоположение</string>
+    <string name="go_back_descirption">Обратно</string>
     <string name="go_supermarket_button">Отиди</string>
     <string name="go_supermarket_title">Повече приложения, по-бурза скорост и икономия на трафика в App Store</string>
     <string name="gold_medals">Златни медали</string>
@@ -353,7 +359,6 @@
     <string name="homepage_search_hint">Търсене</string>
     <string name="homepage_top_card_menu">Топ</string>
     <string name="ignore_add_pwa_dialog_today">Не показвай днес</string>
-    <string name="in_incognito">Активен е режим Инкогнито, при който не се записва история на сърфирането.</string>
     <string name="in_secureaccess">Браузърът е в безопасен режим</string>
     <string name="isReplacePage">Файла вече съществува, да се замени ли?</string>
     <string name="is_first_history_item">Първа страница в историята на браузъра</string>
@@ -378,7 +383,7 @@
     <string name="loading_tips">Плъзнете надолу за опресняване</string>
     <string name="local_bookmarks">Mi</string>
     <string name="login_failed_toast">Неуспешно вписване, опреснете и опитайте отново</string>
-    <string name="low_memory_error">Няма достатъчно памет за завършване на операцията</string>
+    <string name="low_memory_error">Няма достатъчно памет за завършване на операцията.</string>
     <string name="low_memory_toast">Не може да се използва браузъра поради малко памет</string>
     <string name="max_tabs_warning">Не могат да се отварят повече раздели</string>
     <string name="maximum_input_alert">Максимум въведете 2048 символа</string>
@@ -392,9 +397,9 @@
     <string name="media_error_timeout">Времето за трансфер по мрежата изтече</string>
     <string name="media_error_video_not_exist">Видеото не съществува</string>
     <string name="media_player_error_button">OK</string>
-    <string name="media_player_error_text_invalid_progressive_playback">Съжаляваме, но видеото не е валидно за стриймване до това устройство.</string>
-    <string name="media_player_error_text_unknown">Съжаляваме, но видеото не може да бъде пуснато.</string>
-    <string name="media_player_error_title">Не може да се възпроизведе видеото</string>
+    <string name="media_player_error_text_invalid_progressive_playback">Това видео не е валидно за стриймване до това устройство.</string>
+    <string name="media_player_error_text_unknown">Видеото не може да се възпроизведе.</string>
+    <string name="media_player_error_title">Не може да се възпроизведе видео</string>
     <string name="media_player_loading_video">Зареждане на видео</string>
     <string name="menu_addtodesk">На началния екран</string>
     <string name="menu_exit_nightmode">Изход</string>
@@ -449,39 +454,11 @@
     <string name="miuichromium_error_page_problem_access_denied">Достъпът до %s0 беше отказан</string>
     <string name="miuichromium_error_page_problem_cache_miss">Кешираната версия на тази страница не може да бъде заредена</string>
     <string name="miuichromium_error_page_problem_cannot_open_page">Страницата не може да се отвори</string>
-    <string name="miuichromium_error_page_problem_cannot_reach_site">Уеб сайтът не може да се достигне</string>
-    <string name="miuichromium_error_page_problem_connection_interrupted">Връзката беше прекъсната</string>
-    <string name="miuichromium_error_page_problem_file_not_found">Файлът не е открит</string>
     <string name="miuichromium_error_page_problem_gateway_timed_out">Вземането на адрес %s0 е прекалено дълго за отговор</string>
     <string name="miuichromium_error_page_problem_network_access_denied">Достъпът до мрежата е ограничен</string>
-    <string name="miuichromium_error_page_problem_no_internet_connection">Няма връзка с интернет</string>
     <string name="miuichromium_error_page_problem_page_moved">Тази страница %s0 може да е била преместена или изтрита</string>
     <string name="miuichromium_error_page_problem_page_not_found">Не можа да се намери тази страница на %s0</string>
-    <string name="miuichromium_error_page_problem_page_not_working">Тази уеб страница не работи</string>
-    <string name="miuichromium_error_page_problem_security_error">Тази страница не може да предостави сигурна връзка</string>
     <string name="miuichromium_error_page_problem_server_fault">%s0 временно не може да се отнесе към тази заявка</string>
-    <string name="miuichromium_error_page_reason_bad_client_cert">" защото %s0 не прие вашия сертификат"</string>
-    <string name="miuichromium_error_page_reason_bad_server_cert">. %s0 не покрива стандартите за сигурност</string>
-    <string name="miuichromium_error_page_reason_blocked_by_response">. Достъпът е блокиран от %s0</string>
-    <string name="miuichromium_error_page_reason_connection_closed">. %s0 нарушена връзка</string>
-    <string name="miuichromium_error_page_reason_connection_refused">. %s0 отказана връзка</string>
-    <string name="miuichromium_error_page_reason_connection_reset">. Връзката беше нулирана</string>
-    <string name="miuichromium_error_page_reason_device_slept">" когато вашето устройство беше в режим сън"</string>
-    <string name="miuichromium_error_page_reason_empty_response">" защото %s0 не изпрати никакви данни"</string>
-    <string name="miuichromium_error_page_reason_invalid_address">. IP адресът или номерът на порта е невалиден</string>
-    <string name="miuichromium_error_page_reason_invalid_response">" защото %s0 изпрати невалиден отговор"</string>
-    <string name="miuichromium_error_page_reason_invalid_url">" защото адресът е невалиден"</string>
-    <string name="miuichromium_error_page_reason_moved_or_deleted">. Може да е преместен или изтрит</string>
-    <string name="miuichromium_error_page_reason_name_collision">. Този сайт от вътрешната мрежа има същия URL като съществуващ такъв от интернет</string>
-    <string name="miuichromium_error_page_reason_name_not_resolved">. Не може да се намери DNS адресът на %s0</string>
-    <string name="miuichromium_error_page_reason_network_changed">" поради промяна на мрежата"</string>
-    <string name="miuichromium_error_page_reason_proxy_error">. Има някаква грешка с прокси сървъра или прокси адресът не е правилен</string>
-    <string name="miuichromium_error_page_reason_site_unreachable">. %s0 е временно недостъпна</string>
-    <string name="miuichromium_error_page_reason_timed_out">. %s0 не отговаря прекалено много време</string>
-    <string name="miuichromium_error_page_reason_too_many_redirects">" защото %s0 бе пренасочена прекалено много пъти"</string>
-    <string name="miuichromium_error_page_reason_unsafe_port">. %s0 използва несигурен номер на порта</string>
-    <string name="miuichromium_error_page_reason_unsafe_redirect">. %s0 ви пренасочва по несигурен начин</string>
-    <string name="miuichromium_error_page_reason_unsupported_protocol">. %s0 използва неподдържан протокол</string>
     <string name="miuichromium_error_page_reload">Обнови</string>
     <string name="miuichromium_error_page_safe_network">Безопасен режим</string>
     <string name="miuichromium_error_page_server_error">Твърде много устройства опитват свързване</string>
@@ -524,9 +501,13 @@
     <string name="more_option">Още опции</string>
     <string name="nav_bottom_bar_back">Назад</string>
     <string name="nav_bottom_bar_close_all">Затвори всички</string>
+    <string name="nav_bottom_bar_close_description">Затвори</string>
     <string name="nav_bottom_bar_new_tab">Нов раздел</string>
     <string name="nav_screen_container_tab_incognito">Инкогнито раздел</string>
     <string name="nav_screen_container_tab_normal">Нормален раздел</string>
+    <string name="nav_screen_incognito_message">"Хронологията на търсенето и посетените страници няма да се запазват в режим Инкогнито. 
+Запомнете, че всички файлове, които изтеглите, както отметките, които добавяте, ще бъдат запазени."</string>
+    <string name="nav_screen_incognito_title">Режим инкогнито</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">Отказ</string>
     <string name="navigationbar_rightbutton_actiontext_go">Отиди</string>
     <string name="navigationbar_rightbutton_actiontext_search">Търсене</string>
@@ -671,8 +652,8 @@
     <string name="pref_version_info">Данни за версията</string>
     <string name="pref_volume_key_action">Скролиране чрез бутоните за звука</string>
     <string name="private_browsing_warning">Функционалността не се поддържа в тази версия на Android.</string>
-    <string name="profiler_error_toast">Стартирането на профайлера не бе успешно</string>
-    <string name="profiler_no_storage_toast">Не можем да стартираме профайлера, защото външното хранилище не е готово</string>
+    <string name="profiler_error_toast">Профилът не може да стартира.</string>
+    <string name="profiler_no_storage_toast">Не можем да стартираме профайлера, защото външното хранилище не е готово.</string>
     <string name="profiler_started_toast">Профайлерът стартира</string>
     <string name="profiler_stopped_toast">Профайлерът приключи. Резултатите са в/ъв %1$s.</string>
     <string name="progress_dialog_setting_wallpaper">Тапетът се задава ...</string>
@@ -781,18 +762,25 @@
     <string name="send_comment_title">Коментар</string>
     <string name="senddesktop">Desktop</string>
     <string name="sendstartpage">Startpage</string>
+    <string name="sequence_bookmark_description">Натиснете и задръжте за пренареждане на отметките</string>
     <string name="share_image_text">Вижте какво споделих! @MIUI</string>
     <string name="share_page_text">Вижте какво споделих: %1$s @MIUI| %2$s</string>
-    <string name="show_check_security_url_check_tip_dialog_description">Браузър трябва да се свърже с интернет, за да работи нормално. За да подобрите сигурността, получите още необходими препоръки и доставчици на услуги за времето, разрешете на Браузър да вземе уеб-адресите, които сте посещавали и достъп до вашето местоположение.</string>
-    <string name="show_check_security_url_check_tip_dialog_description_international">Браузър се нуждае от достъп до интернет, за да работи нормално. За да подобрите сигурността, получите още необходими препоръки и доставчици на услуги за времето, разрешете на Браузър да вземе уеб-адресите, които сте посещавали и достъп до вашето местоположение.</string>
-    <string name="show_security_tip_dialog_title">Условия на ползване</string>
-    <string name="show_weather_location_getter_tip_dialog_description">Браузър се нуждае от достъп до интернет, за да работи нормално. За да подобрите сигурността, получите още необходими препоръки и доставчици на услуги за времето, разрешете на Браузър да вземе уеб-адресите, които сте посещавали и достъп до вашето местоположение.</string>
+    <string name="show_check_security_url_check_tip_dialog_description">"Ние ще събираме и използваме вашата лична информация, ако вие изберете използването на нашата услуга
+Ето и каква точно информация ще събираме:
+1. Сигурни уеб-адреси: Ние ще събираме информация за посетените от вас уебсайтове.
+2. Информация за местоположение: Ние ще имаме достъп до вашето местоположение.
+Ето как ще използваме информацията, която събираме:
+1. Сигурност: Ние ще използваме информацията, когато защитаваме вашето устройство от атаки на вируси и лъжливи програми, също както архивирането и резервните копия в хранилището.
+2. Съдържание: Информацията, която Вие ни предоставяте, ни помага да поддържаме актуални новините относно сигурността в Интернет.
+Браузър се нуждае от достъп до интернет, за да работи нормално. Вие трябва да се съгласите с нашите %2$s и %1$s за да можете да използвате Браузър"</string>
+    <string name="show_security_tip_dialog_title">Правила за поверителност</string>
     <string name="sign_in_to" formatted="false">Влизане в %s%s2\"</string>
     <string name="skip_button_label">Пропусни</string>
     <string name="skip_current_version">Пропусни тази версия</string>
     <string name="snapshot">Локално</string>
     <string name="snapshot_failed">Неуспешно запазване на страницата</string>
     <string name="snapshot_successed">Отваряне на Отметки &amp; Хронология -> LOCAL за да видите страницата</string>
+    <string name="soft_toast_see_view">Преглед</string>
     <string name="ssl_bad_clock_date_settings">Задаване на дата</string>
     <string name="ssl_bad_clock_warning" formatted="false">Не може да се създаде сигурна връзка към %s1 защото датата и часа на вашето устройство (%s2) са грешни.</string>
     <string name="ssl_certificate">Сертификат за сигурност</string>
@@ -822,14 +810,14 @@
     <string name="suggest_access_item_app_mark">ПРИЛОЖ</string>
     <string name="suggest_access_item_app_size">%.2fМБ</string>
     <string name="suggest_access_item_app_update">Актуализация: %s</string>
-    <string name="suggest_access_item_book_mark">КНИГА</string>
-    <string name="suggest_access_item_mina_mark">ДИРЕКТНИ УСЛУГИ</string>
+    <string name="suggest_access_item_book_mark">КНИГИ</string>
+    <string name="suggest_access_item_mina_mark">ПРИЛЖ ЗА НЕЗАБАВЕН ДОСТЪП</string>
     <string name="suggest_access_item_music_mark">МУЗИКА</string>
     <string name="suggest_access_item_singer_albums">%d албума</string>
     <string name="suggest_access_item_singer_pop">%d популярни песни</string>
     <string name="suggest_access_item_site_mark">САЙТОВЕ</string>
-    <string name="suggest_access_item_video_mark">ВИДЕО</string>
-    <string name="suggest_access_item_website_mark">УЕБ СТРАНИЦА</string>
+    <string name="suggest_access_item_video_mark">ВИДЕОКЛИПОВЕ</string>
+    <string name="suggest_access_item_yellow_mark">ЖЪЛТИ СТРАНИЦИ</string>
     <string name="suggest_access_music">Mi Музика</string>
     <string name="suggest_item_delete_text">Изтрий</string>
     <string name="suggest_open_app_failed">Не може да се отвори приложението</string>
@@ -850,6 +838,8 @@
     <string name="title_bar_loading">Зареждане…</string>
     <string name="too_many_windows_dialog_message">Не може да отворите нов раздел, докато не затворите стария.</string>
     <string name="too_many_windows_dialog_title">Максимален брой отворени раздели</string>
+    <string name="transfer_prompt_0">Възпроизвеждане на видео</string>
+    <string name="transfer_restart">Рестартиране</string>
     <string name="unSwitchText">НЕ</string>
     <string name="undo">Отмени</string>
     <string name="unknown_title">Неизвестно</string>
@@ -892,9 +882,10 @@
     <string name="video_activity_name">Видео колекции</string>
     <string name="video_buffering_percent">"Буфериране "</string>
     <string name="video_buffering_percent_string">Буфериране</string>
-    <string name="video_collect_cancel">Отмени</string>
+    <string name="video_collect_cancel">Премахни от любими</string>
     <string name="video_collect_success">Добавено в любими</string>
-    <string name="video_download_complete">Изтеглянето на видео завърши</string>
+    <string name="video_doenload_complete">Изтеглянето на видеото е успешно</string>
+    <string name="video_download_complete">Изтеглянето е успешно</string>
     <string name="video_download_empty">Кешът с видео е празен</string>
     <string name="video_download_error">Грешка</string>
     <string name="video_download_error_http_gone">Файлът не е открит</string>
@@ -904,9 +895,9 @@
     <string name="video_download_finding_address">Получаване на линк за изтегляне</string>
     <string name="video_download_pause">Пауза</string>
     <string name="video_download_start">Старт на изтегляне на видео</string>
-    <string name="video_download_success">Готово</string>
+    <string name="video_download_success">Изтеглянето е успешно</string>
     <string name="video_download_unknown_name">Неизвестно име</string>
-    <string name="video_download_unknown_size">Неизвестен размер</string>
+    <string name="video_download_unknown_size">Неизвестен подател</string>
     <string name="video_download_unsupport">Неподдържано видео</string>
     <string name="video_download_wait_for_wifi">Изчаква за Wi-Fi</string>
     <string name="video_downloaded_group">Изтеглено</string>
@@ -930,6 +921,7 @@
     <string name="video_push_multi_message">Налични са %1$d актуализации</string>
     <string name="video_push_multi_title">Има актуализации</string>
     <string name="video_push_single_message">Актуализиране до %1$d</string>
+    <string name="video_service_notification_title">Възпроизвеждане на видео</string>
     <string name="video_subtitle_last_message1">Остава по-малко от минута</string>
     <string name="video_subtitle_prefix1">Субтитрите са прегледани</string>
     <string name="video_subtitle_prefix2">Гледано</string>
@@ -957,4 +949,33 @@
     <string name="webview_find_on_page">Търси в страницата</string>
     <string name="webviewchromium_private_browsing_warning">Функционалността не се поддържа в тази версия на Android.</string>
     <string name="week_picker_dialog_title">Задай седмица</string>
+    <string name="miuichromium_error_page_problem_cannot_reach_site">Уеб сайтът не може да се достигне</string>
+    <string name="miuichromium_error_page_problem_connection_interrupted">Връзката беше прекъсната</string>
+    <string name="miuichromium_error_page_problem_file_not_found">Файлът не е открит</string>
+    <string name="miuichromium_error_page_problem_no_internet_connection">Няма връзка с интернет</string>
+    <string name="miuichromium_error_page_problem_page_not_working">Тази уеб страница не работи</string>
+    <string name="miuichromium_error_page_problem_security_error">Тази страница не може да предостави сигурна връзка</string>
+    <string name="miuichromium_error_page_reason_bad_client_cert">" защото %s0 не прие вашия сертификат"</string>
+    <string name="miuichromium_error_page_reason_bad_server_cert">. %s0 не покрива стандартите за сигурност</string>
+    <string name="miuichromium_error_page_reason_blocked_by_response">. Достъпът е блокиран от %s0</string>
+    <string name="miuichromium_error_page_reason_connection_closed">. %s0 нарушена връзка</string>
+    <string name="miuichromium_error_page_reason_connection_refused">. %s0 отказана връзка</string>
+    <string name="miuichromium_error_page_reason_connection_reset">. Връзката беше нулирана</string>
+    <string name="miuichromium_error_page_reason_device_slept">" когато вашето устройство беше в режим сън"</string>
+    <string name="miuichromium_error_page_reason_empty_response">" защото %s0 не изпрати никакви данни"</string>
+    <string name="miuichromium_error_page_reason_invalid_address">. IP адресът или номерът на порта е невалиден</string>
+    <string name="miuichromium_error_page_reason_invalid_response">" защото %s0 изпрати невалиден отговор"</string>
+    <string name="miuichromium_error_page_reason_invalid_url">" защото адресът е невалиден"</string>
+    <string name="miuichromium_error_page_reason_moved_or_deleted">. Може да е преместен или изтрит</string>
+    <string name="miuichromium_error_page_reason_name_collision">. Този сайт от вътрешната мрежа има същия URL като съществуващ такъв от интернет</string>
+    <string name="miuichromium_error_page_reason_name_not_resolved">. Не може да се намери DNS адресът на %s0</string>
+    <string name="miuichromium_error_page_reason_network_changed">" поради промяна на мрежата"</string>
+    <string name="miuichromium_error_page_reason_proxy_error">. Има някаква грешка с прокси сървъра или прокси адресът не е правилен</string>
+    <string name="miuichromium_error_page_reason_site_unreachable">. %s0 е временно недостъпна</string>
+    <string name="miuichromium_error_page_reason_timed_out">. %s0 не отговаря прекалено много време</string>
+    <string name="miuichromium_error_page_reason_too_many_redirects">" защото %s0 бе пренасочена прекалено много пъти"</string>
+    <string name="miuichromium_error_page_reason_unsafe_port">. %s0 използва несигурен номер на порта</string>
+    <string name="miuichromium_error_page_reason_unsafe_redirect">. %s0 ви пренасочва по несигурен начин</string>
+    <string name="miuichromium_error_page_reason_unsupported_protocol">. %s0 използва неподдържан протокол</string>
+    <string name="nav_screen_incognito_time">След %s секунди автоматично ще бъде създадена нова страница</string>
 </resources>

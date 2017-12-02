@@ -87,4 +87,8 @@
         <item>Текущ контрол на температурата</item>
         <item>Текущ режим производителност</item>
     </string-array>
+    <string-array name="power_mode_entries">
+        <item>Производителност</item>
+        <item>Балансиран</item>
+    </string-array>
 </resources>

@@ -65,6 +65,8 @@
     <string name="sync_dspt_provision_title">Mi Cloud</string>
     <string name="sync_dspt_provision_header">Синхрон</string>
     <string name="sync_dspt_provision">"Mi Cloud синхронизира снимките, SMS, бележки и др. между всичките ваши Mi устройства. Също така те са достъпни за вас от всеки браузър на "</string>
+    <string name="sync_dspt_provision2">i.mi.com</string>
+    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">"\".
 
 По всяко време можете да включите или изключите услугата от Настройки.
@@ -78,6 +80,8 @@
     <string name="sync_dspt_entrance_provision_skip">Прескочи тази стъпка</string>
     <string name="sync_dspt_entrance_provision_network">Това приложение се нуждае от достъп до интернет, за да работи нормално. Синхронизирането може да ви свърже с мобилни данни и да включи Wi-Fi.</string>
     <string name="find_device_dspt_provision">Ако загубите устройството си, можете да отидете на %s, за да го локализирате, заключите или нулирате. Функцията се управлява от Настройки.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_dspt_provision_3">"\" за да го намерите, заключите или нулирате.
 
 По всяко време можете да включите или изключите услугата от Настройки.\""</string>
@@ -131,6 +135,7 @@
     <string name="find_device_error_server">Грешка на сървъра</string>
     <string name="find_device_success_title">Открий устройството</string>
     <string name="find_device_notice_p1">Посетете</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">\"за да намерите, заключите или нулирате вашето устройство дистанционно. Ако смените SIM картите си, трябва да бъде изпратен нов SMS за активиране.\"</string>
     <string name="i_know">ОК</string>
     <string name="find_device_disabled_title">\"Открий устройството\" е изключено</string>
@@ -479,6 +484,8 @@
     <string name="micloud_find_device_opened">Открий устройството е вкл.</string>
     <string name="micloud_find_device_open_fail">Открий устройството не може да се включи</string>
     <string name="micloud_find_device_opened_content">Открийте вашето устройство на %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
+    <string name="micloud_find_device_opened_content_url_int">www.mi.com/micloud</string>
     <string name="micloud_find_device_verify_fail">Не може да се активира повторно Намери устройство</string>
     <string name="micloud_find_device_close_fail">Не може да се изключи Намери устройство</string>
     <string name="micloud_find_device_finish">Готово</string>
@@ -554,4 +561,22 @@
     <string name="micloud_dialog_sync_now_message">Свържете се към Wi-Fi, за да избегнете разход на мобилни данни</string>
     <string name="micloud_dialog_sync_now_negative">Не сега</string>
     <string name="micloud_dialog_sync_now_positive">Използвайте мобилни данни</string>
+    <string name="ks_fingerprint_payment">Плащане с Пръстов отпечатък</string>
+    <string name="ks_name_fido">FIDO</string>
+    <string name="ks_name_alipay">Alipay</string>
+    <string name="ks_name_soter">WeChat</string>
+    <string name="ks_status_available">Достъпни</string>
+    <string name="ks_status_unavailable">Недостъпен</string>
+    <string name="ks_fingerprint_status">Състояние на плащане</string>
+    <string name="ks_certificate_version">Номер на сертификата</string>
+    <string name="ks_certificate_udpate_time">Актуализиране на сертификата</string>
+    <string name="ks_download_certificate">Изтегляне на сертификат</string>
+    <string name="ks_update_wait">Един момент…</string>
+    <string name="ks_update_certificate">Сертификат</string>
+    <string name="ks_download_success">Успешно изтеглено</string>
+    <string name="ks_update_success">Успешно актуализиране</string>
+    <string name="ks_update_fail">Не може да се изтегли</string>
+    <string name="ks_update_fail_no_network">Не може да се свърже с мрежата. Опитайте отново.</string>
+    <string name="ks_update_fail_request_timeout">Времето за заявка изтече. Изчакайте малко и опитайте отново.</string>
+    <string name="ks_update_fail_code">Не може да се изтегли сертификата. Код на грешка: %d</string>
 </resources>

@@ -68,9 +68,6 @@
     <string name="enable_accessibility_dialog_negative_btn">Отказ</string>
     <string name="cm_terms_title">Условия за ползване на мобилния оператор</string>
     <string name="cm_terms_content">За по-качествено обслужване мобилният Ви оператор, с Вашето съгласие, може да събира и качва на своите сървъри лична информация за това, как използвате устройството си, в кои клетъчни и безжични WiFi мрежи се регистрирате, какво търсите като тематика в Интернет. Тази информация ще се използва само за създаване на статистика и предлагане на персонализирано съдържание за вас. Информацията няма да бъде предоставяна на трети страни или за идентификация на вас самия.</string>
-    <string name="two_dimensional_code_scan">Сканиране на QR код</string>
-    <string name="user_strayed_warning">Страницата е проектирана за връщане на фабрични настройки, чукнете бутон Назад за изход.</string>
-    <string name="fail_to_generate_qr_code">Не може да се генерира QR код. Отворете тази страница отново.</string>
     <string name="enable_accessibility_canceled">Услугата Достъпност е изключена.</string>
     <string name="accessibility_enabled">Услугата Достъпност е включена.</string>
     <string name="continue_to_enable_accessibility">Продължете да държите два пръста, за да включите услугата Достъпност.</string>

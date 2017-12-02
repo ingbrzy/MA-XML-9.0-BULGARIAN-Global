@@ -179,6 +179,7 @@
     <string name="file_size">Размер:</string>
     <string name="file_title">Име:</string>
     <string name="file_width_height">Размер:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ново съобщение</string>
     <string name="forward_from">Препратено от:</string>
     <string name="forward_prefix">От:</string>
@@ -375,7 +376,7 @@
     <string name="pref_hide_verification_code_summary">Автоматично скриване на данни за сигурност в известията за съобщение на заключен екран</string>
     <string name="pref_messages_to_save">Задай броя на съобщения за запазване в кореспонденцията</string>
     <string name="pref_mms_settings_title">Настройки на съобщения (MMS)</string>
-    <string name="pref_msg_trash_bin_title">Кошче за SMS</string>
+    <string name="pref_msg_trash_bin_title">Изтрий съобщенията</string>
     <string name="pref_notification_settings_title">Настройки на известия</string>
     <string name="pref_other_title">Други</string>
     <string name="pref_show_blocked_messages_summary">Показване на блокираните SMS в списъка с кореспонденции</string>
@@ -528,6 +529,7 @@
     <string name="send_signature_confirm_dialog_title">Изпрати подпис</string>
     <string name="send_sms">Изпрати съобщение</string>
     <string name="send_to">До:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Изпратено в: %1s</string>
     <string name="sent_label">Изпратени:</string>
     <string name="service_message_not_found">Съобщението е изтекло или не е достъпно</string>
@@ -567,6 +569,7 @@
     <string name="sms_report_success">Докладът е изпратен успешно</string>
     <string name="snippet_audio">[Audio]</string>
     <string name="snippet_picture">[Image]</string>
+    <string name="snippet_timed">[Timed]</string>
     <string name="sp_category_all">Всички съобщения от оператора</string>
     <string name="sp_category_bank">Съобщения от банки</string>
     <string name="sp_category_title_prefix">%s</string>

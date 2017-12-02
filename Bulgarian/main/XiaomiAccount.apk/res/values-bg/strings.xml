@@ -54,7 +54,7 @@
     <string name="passport_change_phone_number">Смяна на номерата</string>
     <string name="passport_forget_password"><u>Забравена парола</u></string>
     <string name="passport_forget_password_no_underline">Забравена парола</string>
-    <string name="passport_reg_type_email">Чрез имейл адрес</string>
+    <string name="passport_reg_type_email">Имейл адрес</string>
     <string name="passport_register_by_email"><u>Създаване на профил чрез имейл адрес</u></string>
     <string name="passport_account_not_actived">Профилът ви не беше активиран</string>
     <string name="passport_active_email_visit">Проверете входящата поща на %s</string>
@@ -255,6 +255,7 @@
     <string name="account_limit_update_birthday">Съжаляваме, но в момента е невъзможно да обработим вашата заявка.</string>
     <string name="account_user_other_info">Други източници</string>
     <string name="account_user_region">Регион</string>
+    <string name="account_global_region">Чужбина</string>
     <string name="account_user_location">Местоположение</string>
     <string name="account_user_location_title">Избрете сегашното си местоположение</string>
     <string name="account_user_education">Образование</string>
@@ -284,10 +285,6 @@
     <string name="confirm_unbundled_phone_dialog_message">Номерът %1$s е свързан с Mi Профил %2$s. Той няма повече да се отнася до Mi профил %3$s ако продължите. Продължаване?</string>
     <string name="change_phone_number">Промяна на телефонен номер</string>
     <string name="change_email_address">Промяна на имейл адрес</string>
-    <string name="checking_phone_num_availible">Проверка на телефона…</string>
-    <string name="account_binded_phone">Телефон %d</string>
-    <string name="account_bind_new_phone">Добавяне на ново устройство</string>
-    <string name="account_bind_phone_notice">Използвайте този телефонен номер за вписване в профила ви, възстановяване на вашата парола и промяна на настройките за защита.</string>
     <string name="continue_action">Продължи</string>
     <string name="replace_binded_phone">Промени телефона</string>
     <string name="delete_action">Изтриване</string>
@@ -312,6 +309,15 @@
     <string name="resend_email_reach_limit_message">Изпратихте твръде много имейли за потвърждение. Бъдете сигурен, че обратният имейл не е във вашата входяща кутия за спам.</string>
     <string name="update_email_address_dialog_title">Обнови имейл</string>
     <string name="update_email_address_dialog_message">Необходимо е да потвърдите самоличността си, преди да обновите имейл.</string>
+    <string name="update_phone_notice">Промяна на настройките за сигурност</string>
+    <string name="no_phone">Няма телефонен номер</string>
+    <string name="action_update_phone">Промяна на телефонен номер</string>
+    <string name="action_add_phone">Добави телефонен номер</string>
+    <string name="phone_num_use_for">Телефонният номер се използва за:</string>
+    <string name="sign_in">Вписване</string>
+    <string name="get_back_pwd">Нулиране на паролата</string>
+    <string name="identity">Идентифициране</string>
+    <string name="set_success">Промяната е успешна</string>
     <string name="account_user_details">Потребителски данни</string>
     <string name="account_security">Сигурност на профила</string>
     <string name="account_mibi_center">Mi Кредити</string>

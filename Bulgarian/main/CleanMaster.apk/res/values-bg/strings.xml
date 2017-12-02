@@ -184,8 +184,8 @@
     <string name="toast_backup_uninstall_success">Архивирането и деинсталирането завърши</string>
     <string name="activity_title_cache_data">Кеш</string>
     <string name="deepclean_cache_header_left">Кеш: %d</string>
-    <string name="notification_title_of_garbage_cleanup">Размер на отпадъците</string>
-    <string name="notification_summary_of_garbage_cleanup">Отпадъчните файлове достигнаха %s.</string>
+    <string name="notification_title_of_garbage_cleanup">%s от файловете за изтриване</string>
+    <string name="notification_summary_of_garbage_cleanup">Чукнете, за да освободите място.</string>
     <string name="notification_summary_after_auto_cleanup">Почистихте %s.</string>
     <string name="toast_uninstall_success">Деинсталирането завърши</string>
     <string name="toast_app_no_residual_on_sdcard">Приложението няма запазени файлове в хранилището</string>
@@ -308,7 +308,7 @@
     <string name="seton_immediately">Включване</string>
     <string name="notify_when">Получаване на известие, когато размера на отпадъците достигне 100 МБ</string>
     <string name="goto_set">Настройка</string>
-    <string name="virus_scan">Сканиране за вируси</string>
+    <string name="virus_scan">Сканиране на защитата</string>
     <string name="tips_of_virus_scan">Сканирайте устройството си периодично за вируси, за го запазите в безопасност</string>
     <string name="conn_of_function_safe">Връзка с мрежата за Оптимизация</string>
     <string name="tips_of_connect">Свържете се с интернет, за да използвате пълния набор от услуги в Оптимизация</string>

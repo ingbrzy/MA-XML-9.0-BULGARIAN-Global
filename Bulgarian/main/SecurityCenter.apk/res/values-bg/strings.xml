@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="fw_blocked">Списък блокирани</string>
+    <string name="fw_oversea">Блокирай повиквания от чужбина</string>
     <string name="fw_blocked_count">"Блокирани "</string>
     <string name="fw_blocked_join">" и "</string>
+    <string name="fw_oversea_content">Блокирай входящи повиквания от чуждестранни телефонни номера</string>
     <string name="tab_title">Списък с блокирани</string>
     <string name="tab_blacklist">Списък с блокирани</string>
     <string name="tab_sms">SMS</string>
@@ -132,6 +134,7 @@
     <string name="call_contact_block">Блокирай обаждания от контакти</string>
     <string name="call_transfer_block">Блокирай пренасочени обаждания</string>
     <string name="call_cloud_block">Облачен списък блокирани</string>
+    <string name="call_oversea_block">Блокирай повиквания от чужбина</string>
     <string name="mark_fraud_block">Докладван като измамник</string>
     <string name="mark_agent_block">Докладван като агенция</string>
     <string name="mark_sell_block">Докладван като телемаркет</string>
@@ -270,6 +273,7 @@
     <string name="st_call_settings">Списък с блокирани обаждания</string>
     <string name="st_call_intercept_stranger">Блокиране на обаждания от непознати</string>
     <string name="st_call_intercept_forwarding">Блокирай пренасочените</string>
+    <string name="st_call_intercept_oversea">Блокирай повиквания от чужбина</string>
     <string name="st_call_intercept_reported">Блокирай обаждания от докладвани номера</string>
     <string name="st_call_intercept_contacts">Блокирай обаждания от контакти</string>
     <string name="st_call_intercept_unknown">Блокирай обаждания от скрити номера</string>
@@ -281,6 +285,7 @@
     <string name="st_confirm_dialog_btn_open">Отваряне</string>
     <string name="st_confirm_dialog_summary_stranger_call">Всички обаждания от непознати ще бъдат блокирани.</string>
     <string name="st_confirm_dialog_summary_contact_call">Всички обаждания от контакти ще бъдат блокирани.</string>
+    <string name="st_confirm_dialog_summary_oversea_call">Включете, за да блокирате входящи повиквания от чуждестранни телефонни номера.</string>
     <string name="cta_dialog_title">Известие за свързване</string>
     <string name="cta_dialog_msg">Оптимизацията се нуждае от интернет връзка за получаване на актуализации, както и достъп до местоположение за да работи нормално.</string>
     <string name="cta_settings">Разреши достъп до интернет</string>
@@ -384,6 +389,7 @@
     <string name="detail_app_button">Детайли</string>
     <string name="pref_about_traffic_title">Настройка на трафика</string>
     <string name="pref_traffic_manage_title">Използвани данни</string>
+    <string name="pref_operator_setting">%1$s: %2$s</string>
     <string name="pref_package_traffic_settings">Лимит за мобилни данни</string>
     <string name="pref_adjust_traffic_data">Задаване на изп. на данни</string>
     <string name="pref_category_title_other">Допълнитени настройки</string>
@@ -885,6 +891,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Това приложение може да забави прекалено много
 вашето устройство"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Деинсталиране на %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Деинсталирайте това приложение, за да поправите проблем с прекален разход на батерията.</string>
     <string name="om_ill_proc_type_wakelock_title">Това приложение блокира режим сън на устройството и изразходва много батерия</string>
@@ -963,7 +970,7 @@
     <string name="battery_history_seconds">%1$dс</string>
     <string name="delete">Изтриване</string>
     <string name="every_day">Всеки ден</string>
-    <string name="legal_workday">Празник</string>
+    <string name="legal_workday">Работни дни</string>
     <string name="never">Само веднъж</string>
     <string name="power_20s_shutdown">Устройството ще се изключи след %d секунди</string>
     <string name="boot_reminder">Включване на устройството ви по график</string>
@@ -1273,6 +1280,7 @@
     <string name="keywords_gamebooster">Игра;увеличаване на скоростта;King of Glory;Режим на изпълнение;DND;Игри;Играене;Скорост на игра;ускорение</string>
     <string name="path_gamebooster">Системни приложения/Оптимизация/Ускорител на игри</string>
     <string name="app_name_securitycenter">Оптимизация</string>
+    <string name="back_description_securitycenter">Назад</string>
     <string name="ok">ОК</string>
     <string name="exit">Изход</string>
     <string name="cancel">Отказ</string>
@@ -1286,6 +1294,7 @@
     <string name="menu_text_networkassistants">Монитор за данни</string>
     <string name="menu_text_networkassistants_remain">%s остават</string>
     <string name="menu_text_networkassistants_danger">%s над лимита</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">ГБ</string>
     <string name="menu_text_networkassistants_unit_mb">МБ</string>
     <string name="menu_text_networkassistants_unit_kb">КБ</string>
@@ -1646,6 +1655,7 @@
     <string name="card_main_deepclean_wechat_action">Изчистване</string>
     <string name="card_main_sectool_title">Инструменти</string>
     <string name="card_main_monthreport_action">Покажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Диагностика на мрежата</string>
     <string name="card_main_netcheck_summary">Диагностика на мрежата за проблеми при свързването</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -1841,11 +1851,9 @@
     <string name="app_manager_details_electric_title">Батерия</string>
     <string name="app_manager_card_permission_title">Разрешения</string>
     <string name="app_manager_permission_startself_title">Автостартиране</string>
-    <string name="app_manager_permission_startself_summary">Приложения, които стартират автоматично, заемат много РАМ и изразходват батерията бързо</string>
     <string name="app_manager_permission_manager_title">Разрешения</string>
     <string name="app_manager_permission_notify_title">Известия</string>
     <string name="app_manager_permission_power_saving_title">Икономия на батерия</string>
-    <string name="app_manager_permission_power_saving_summary">MIUI Икономия на батерия</string>
     <string name="app_manager_default_open_title">Почисти по подразбиране</string>
     <string name="app_manager_default_close_summary">Няма настройки по подразбиране.</string>
     <string name="app_manager_default_open_summary">Вие избрахте това приложение да стартира по подразбиране за някои действия.</string>
@@ -1871,7 +1879,6 @@
     <string name="app_manager_stop_wakepath_success">Успешно ограничено</string>
     <string name="app_maanger_app_uninstalled_toast">Това приложение е деинсталирано</string>
     <string name="app_manager_start_by">Стартирано от %s</string>
-    <string name="app_manager_not_record">Няма намерени приложения, които да изискват разрешения</string>
     <string name="app_manager_uninstall_xspace_app_dlg_msg">Деинсталирането на клонираните приложения ще изтрие и данните им.</string>
     <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Съответните клонирани приложения ще бъдат премахнати заедно с данните им.</string>
     <string name="app_manager_uninstall_xspace_app_dlg_title">Деинсталиране на клонирано приложение?</string>
@@ -1885,7 +1892,6 @@
     <string name="app_manager_menu_clear_data">Изчисти данни</string>
     <string name="app_manager_clear_data_dlg_title">Изтриване данните на прилож?</string>
     <string name="app_manager_clear_data_dlg_message">Цялата информация на приложението ’ ще бъде премахната окончателно. Това включва всички файлове, настройки, профили, база с данни и др.</string>
-    <string name="app_manager_clear_failed_dlg_title">Изчисти данните</string>
     <string name="app_manager_clear_failed_dlg_message">Не може да се изчистят данните за приложението.</string>
     <string name="app_manager_manage_space">Управление на мястото</string>
     <string name="app_manager_permission_summary_reject">Ограничи всички</string>
@@ -1893,7 +1899,6 @@
     <string name="app_manager_powerkeeper_miui_auto">MIUI Икономия на батерия</string>
     <string name="app_manager_powerkeeper_restrict_bg">Ограничаване на процесите на заден план</string>
     <string name="app_manager_powerkeeper_no_bg">Ограничаване на активността на заден план</string>
-    <string name="app_manager_sort">Сортиране по</string>
     <string name="app_manager_instruction">Инструкция</string>
     <string name="app_manager_app_storage">"Хранилище: "</string>
     <string name="app_manager_app_traffic">"Употреба на данни: "</string>
@@ -2097,4 +2102,9 @@
     <string name="game_booster_close">Ускорителят на игри е изключен</string>
     <string name="databooster_tips_title">Внимание</string>
     <string name="databooster_tips_message">Включете, за да ограничите всички SIM карти, с изключение на тази за данни. Изключете тази услуга, ако игрите дават грешка след вашия избор.</string>
+    <string name="app_manager_permission_startself_summary">Приложения, които стартират автоматично, заемат много РАМ и изразходват батерията бързо</string>
+    <string name="app_manager_permission_power_saving_summary">MIUI Икономия на батерия</string>
+    <string name="app_manager_not_record">Няма намерени приложения, които да изискват разрешения</string>
+    <string name="app_manager_clear_failed_dlg_title">Изчисти данните</string>
+    <string name="app_manager_sort">Сортиране по</string>
 </resources>

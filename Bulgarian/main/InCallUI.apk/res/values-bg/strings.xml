@@ -42,7 +42,6 @@
     <string name="onscreen_audio_mode_handset">Слушалки</string>
     <string name="onscreen_audio_mode_headset">Слушалки</string>
     <string name="onscreen_audio_mode_speaker">Говорител</string>
-    <string name="onscreen_audio_switch_mode">Превключи звука</string>
     <string name="onscreen_call_record">Запис</string>
     <string name="sip_call_not_support_record">Не мога да записвам SIP обаждания</string>
     <string name="onscreen_hold_text">Задържане</string>
@@ -56,7 +55,6 @@
     <string name="conference_call_description" formatted="false">%s,%s и т.н. общо %s</string>
     <string name="conference_call_single_description" formatted="false">%s etc. Всичко %s</string>
     <string name="separate_from_conference">Отдели обаждането</string>
-    <string name="callUnanswered_forwarded">Повикването не е прието и е препратено</string>
     <string name="caller_manage_header">Конферентно обаждане %s</string>
     <string name="incall_call_type_label_sip">Интернет обаждане</string>
     <string name="incoming_call_forwarded_title">Прехвърляне на входящите повиквания</string>
@@ -65,7 +63,6 @@
     <string name="card_title_conf_call">Конферентно обаждане</string>
     <string name="card_title_video_conf_call">Видеоконферентен разговор</string>
     <string name="card_title_threeway_call">Тристранно повикване</string>
-    <string name="card_title_incoming_call">Вх. обаждане</string>
     <string name="card_title_answering">Отговор на повикване</string>
     <string name="card_title_answering_time_out">Не можа да се отговори на повикването, опитайте отново.</string>
     <string name="card_title_call_ended">Обаждането завърши</string>
@@ -79,7 +76,6 @@
     <string name="card_title_in_video">Видео</string>
     <string name="card_video_hold_swap">Размяна</string>
     <string name="onscreenEndCallText">Край</string>
-    <string name="calling_via_template">Обаждане чрез %s</string>
     <string name="respond_via_sms_custom_message">Потребителски SMS</string>
     <string name="manageConferenceLabel">Управление на конферентно обаждане</string>
     <string name="emergency_call_dialog_number_for_display">Номер за спешна помощ</string>
@@ -151,12 +147,6 @@
     <string name="antispam_provider">Доставчик: %s</string>
     <string name="antispam_notification_title">Неизвестен</string>
     <string name="suspect_info">Бъдете внимателни с личните ви данни.</string>
-    <string name="ivr_menu_list_title">Гласово меню</string>
-    <string name="ivr_menu_dialing_msg">Пренасочване...</string>
-    <string name="ivr_menu_dialing_msg_no_mute">Прехвърляне към избраните услуги (пренебрегване на съобщенията за грешка)…</string>
-    <string name="ivr_menu_list_sub_menu_count_format">Натиснете %s</string>
-    <string name="non_ivr_menu_view_menu">Покажи менюто</string>
-    <string name="non_ivr_menu_collapse_menu">Свий менюто</string>
     <string name="livetalk_dial">Обаждане от пакет с презареждане</string>
     <string name="areacode_set_default">Задай по подразбиране.</string>
     <string name="default_area_code_setting">Селищен код по подразбиране</string>
@@ -165,9 +155,6 @@
     <string name="not_activate_sim_card_content_with_operator">Потвърждаване SIM %1$s (%2$s) за да направите повикване от пакет с презареждане. Можете да направите нормално повикване, което ще се таксува от вашия оператор.</string>
     <string name="dialog_call_ordinary_telephone">Нормално повикване</string>
     <string name="dialog_activate_livetalk">Подтвърди номер</string>
-    <string name="no_balance_title">Недостатъчно средства</string>
-    <string name="no_balance_message">Няма достатъчно средства по вашия баланс. Пробвайте да извършите нормално обаждане.</string>
-    <string name="dialog_purchase">Презареждане на пакет баланс</string>
     <string name="not_support_title">Не се поддържа.</string>
     <string name="not_support_message">Не се поддържа този номер за зареждане на баланс. Опитайте нормално обаждане.</string>
     <string name="livetalk_hangup">Затвори</string>
@@ -181,7 +168,6 @@
     <string name="can_not_call_oneself">Не може да се извърши повикване.</string>
     <string name="card_title_video_call_paused">Видеообаждането е на пауза.</string>
     <string name="card_title_incoming_conference_call">Входящо конферентно обаждане.</string>
-    <string name="video_switch_to_voice_call_prompt">Превключване на гласово повикване</string>
     <string name="onscreen_change_to_voice">Гласово обаждане</string>
     <string name="onscreen_change_to_video">Видеообаждане</string>
     <string name="onscreen_switch_camera">Превключване</string>
@@ -193,9 +179,7 @@
     <string name="notification_incoming_video_call">Входящо видеообаждане</string>
     <string name="onscreen_message_text">Съобщения</string>
     <string name="onscreen_close_preview_camera">Затваряне</string>
-    <string name="video_call_not_allowed_if_tty_enabled">Изключете режим текстов телефон (TTY)</string>
     <string name="upgrade_vt_prompt">Да се превключи ли на видео повикване?</string>
-    <string name="conference_caller_name_me">Аз</string>
     <string name="incoming_answer_voice_text">Гласово обаждане</string>
     <string name="picking_participant">Получаване на информация за контакт…</string>
     <string name="conference_caller_info_name">%1$s конферентни обаждания</string>
@@ -239,5 +223,6 @@
     <string name="dial_with_gsm_phone">Нормално обаждане</string>
     <string name="livetalk_left_minute">остават %s мин.</string>
     <string name="miprofile_stranger_card">Карта на непознат</string>
+    <string name="no_balance_message">Няма достатъчно средства по вашия баланс. Пробвайте да извършите нормално обаждане.</string>
     <string name="purchase_now">Вземи пакет</string>
 </resources>

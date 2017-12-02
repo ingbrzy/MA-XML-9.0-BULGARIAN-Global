@@ -149,6 +149,17 @@
         <item>Екстремно бърза</item>
         <item>Скорострелна</item>
     </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+    </string-array>
     <string-array name="color_mode_names">
         <item>Резониращ</item>
         <item>Естествен</item>
@@ -165,13 +176,13 @@
         <item>100%</item>
     </string-array>
     <string-array name="aqi_title_prefix">
-        <item>ИКВ %1$s</item>
-        <item>ИКВ %1$s</item>
-        <item>ИКВ %1$s</item>
-        <item>ИКВ %1$s</item>
-        <item>ИКВ %1$s</item>
-        <item>ИКВ %1$s</item>
-        <item>ИКВ %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
     </string-array>
     <string-array name="aqi_title_append">
         <item>%1$s</item>
@@ -200,10 +211,10 @@
         <item>Порой</item>
         <item>Дъждовна буря</item>
         <item>Гръмотевична буря</item>
-        <item>Преваляване</item>
-        <item>Силни валежи</item>
+        <item>Превалявания</item>
+        <item>Проливен дъжд</item>
         <item>Умерен дъжд</item>
-        <item>Слаб дъжд</item>
+        <item>Лек дъждец</item>
         <item>Дъжд и сняг</item>
         <item>Снежна виелица</item>
         <item>Сняг</item>
@@ -216,7 +227,7 @@
         <item>Ветровито</item>
         <item>Градушка</item>
         <item>Прах</item>
-        <item>Мараня</item>
+        <item>Мрачно</item>
         <item>Леден дъжд</item>
         <item></item>
     </string-array>

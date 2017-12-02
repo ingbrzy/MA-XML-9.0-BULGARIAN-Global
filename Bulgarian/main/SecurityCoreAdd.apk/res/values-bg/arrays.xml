@@ -15,4 +15,9 @@
         <item>Данните на приложението ще бъдат изгубени след преместване в Текущо пространство.</item>
         <item>Приложенията ще се използват едновременно.</item>
     </string-array>
+    <string-array name="choose_ask_type">
+        <item>Винаги питай</item>
+        <item>Прилож по подразбиране</item>
+        <item>Клонирани прилож</item>
+    </string-array>
 </resources>

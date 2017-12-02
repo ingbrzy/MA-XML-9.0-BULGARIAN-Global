@@ -96,6 +96,10 @@
         <item quantity="other">%d последователи</item>
         <item quantity="one">%d последовател</item>
     </plurals>
+    <plurals name="songs_count">
+        <item quantity="other">%d песни</item>
+        <item quantity="one">%d песен</item>
+    </plurals>
     <plurals name="Nunbackup_audios">
         <item quantity="other">%1$d песни не са архивирани (%2$.1fMB)</item>
         <item quantity="one">%1$d песен не е архивирана (%2$.1fMB)</item>
@@ -123,5 +127,13 @@
     <plurals name="skipped_online_songs_tips">
         <item quantity="other">Прескочени %d песни Включете онлайн услугите в Настройки, за да ги чуете.</item>
         <item quantity="one">Прескочена %d песен. Включете онлайн услугите в Настройки, за да я чуете.</item>
+    </plurals>
+    <plurals name="Nrecognize_switch_off_alert_message">
+        <item quantity="other">Вие изключихте оптимизирането на албума и текста. Искате ли да върнете оптимизираната информация за албума и текста на %dпесни?</item>
+        <item quantity="one">Вие изключихте оптимизирането на албума и текста. Искате ли да върнете оптимизираната информация за албума и текста на %dпесен?</item>
+    </plurals>
+    <plurals name="Nassociate_songs">
+        <item quantity="other">Съвпадение на албум и текст (%1$d/%2$d песни)</item>
+        <item quantity="one">Съвпадение на албум и текст (%1$d/%2$d песен)</item>
     </plurals>
 </resources>

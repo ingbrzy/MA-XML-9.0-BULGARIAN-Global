@@ -99,6 +99,7 @@
     <string name="record_quliaty_preference_title">Качество на записа</string>
     <string name="cloud_record_tip">Синхр.на записи с Mi Cloud.</string>
     <string name="cloud_record_open">Синхр.на записи</string>
+    <string name="cloud_service_state_open_reminder">Включете синхронизирането с Mi Облак за да синхронизирате записаните файлове.</string>
     <string name="cloud_status_full_dialog_title">Мястото в облака е пълно.</string>
     <string name="cloud_status_full_dialog_msg">Мястото в облака е пълно.Надстройте акаунта за повече свободно място.</string>
     <string name="cloud_status_full_dialog_cancel">Не сега</string>

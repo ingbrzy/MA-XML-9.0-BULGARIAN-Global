@@ -57,6 +57,7 @@
     <string name="save_pic_success">Запазване на изобр. в %s</string>
     <string name="save_pic_fail">Не може да се запази изобр. Прегледайте SD-картата си</string>
     <string name="pic_not_exist">Това изобр. не съществува</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Изберете продукт</string>
     <string name="michat_skillset_business_type_title">Изберете услуга</string>
     <string name="michat_close_text">Чатът е затворен</string>
@@ -213,8 +214,11 @@
     <string name="feedback_select_suggestion">Предложения</string>
     <string name="feedback_select_problem">Проблеми</string>
     <string name="feedback_choose_module">Избери елемент</string>
+    <string name="feedback_choose_third_app_name">Посочете името на приложението</string>
     <string name="toast_module_required">Избери елемент</string>
     <string name="feedback_choose_module_hint">Необходимо</string>
+    <string name="feedback_choose_reproductivity">Репродуктивност</string>
+    <string name="feedback_title_reproductivity">Изберете репродуктивност</string>
     <string name="feedback_report_remind_login_desc">Влезте с вашия Mi профил, за да може нашите инженери да се свържат с Вас.</string>
     <string name="feedback_report_remind_login_desc2">Може да прегледате прогреса на доклада в раздела \"Моите доклади\".</string>
     <string name="feedback_history_remind_login_desc">Влезте с вашия Mi акаунт за детайли по репортите Ви</string>
@@ -224,6 +228,7 @@
     <string name="feedback_title_hint">Опишете кратко проблема</string>
     <string name="feedback_description_suggest_hint">Искам да добавя нова функция () защото имам нужда от ().</string>
     <string name="feedback_description_bugreport_hint">В някой случай () моя телефон има проблеми ().</string>
+    <string name="feedback_description_hint">Опишете проблема, който сте срещнали</string>
     <string name="toast_title_required">Опишете вашия проблем</string>
     <string name="toast_problem_class_required">Изберете категория</string>
     <string name="feedback_third_packagename_hint">Кое външно приложение ви създава проблеми?</string>
@@ -240,6 +245,7 @@
     <string name="feedback_status_replyed">Отговорен</string>
     <string name="feedback_status_jira_comment">Оставете коментар</string>
     <string name="feedback_status_forum_reply">Отговори</string>
+    <string name="feedback_status_submit_attachment">Успешно прикачено</string>
     <string name="feedback_status_change_notification_title">Прогреса на вашия доклад е обновен</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s грешка \"%2$s\"</string>
     <string name="feedback_suggestion_status_change_notification_desc">%1$s предложения \"%2$s\"</string>
@@ -297,9 +303,11 @@
     <string name="toast_log_not_exists">Исканите данни са били изтрити или не съществуват</string>
     <string name="toast_pic_not_exists">Кешираното изображение беше изтрито</string>
     <string name="toast_screenshot_too_large">Не може да се качи файл по-голям от 10МБ.</string>
+    <string name="toast_log_too_large">Не може да се качи. Файлът е прекалено голям.</string>
     <string name="title_bbs_feedback_main">Научете повече за Mi телефоните</string>
     <string name="title_customer_service">Обслужване на клиенти</string>
     <string name="customer_service_apply">Запитване към Обслужване на клиенти</string>
     <string name="customer_service_complain">Докладвайте на Обслужване на клиенти</string>
     <string name="customer_service_station">Местопол на Обслужване на клиенти</string>
+    <string name="select_system_app_tag">Изберете етикети</string>
 </resources>
