@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="delete_wallpapers_message">
+        <item quantity="other">Да се изтрият ли избраните %1$d тапети?</item>
+        <item quantity="one">Да се изтрие ли избраният %1$d тапет?</item>
+    </plurals>
     <plurals name="editing_mode_title">
         <item quantity="other">%1$d са избрани</item>
         <item quantity="one">%1$d е избрано</item>
-    </plurals>
-    <plurals name="uninstall_dialog_title_multi_format">
-        <item quantity="other">Деинсталиране на %1$d приложения?</item>
-        <item quantity="one">Деинсталиране на %1$d приложение?</item>
-    </plurals>
-    <plurals name="uninstall_result_multi_succeeded">
-        <item quantity="other">%1$d прилож са деинсталирани</item>
-        <item quantity="one">%1$d прилож е деинсталирано</item>
-    </plurals>
-    <plurals name="uninstall_result_multi_failed">
-        <item quantity="other">Не може да се деинсталират %1$d прилож</item>
-        <item quantity="one">Не може да се деинсталира %1$d прилож</item>
     </plurals>
     <plurals name="scroll_tip_format_when_announce_accessibility">
         <item quantity="other">страници %1$d, %2$d прилож</item>
         <item quantity="one">страница %1$d, %2$d прилож</item>
     </plurals>
-    <plurals name="delete_wallpapers_message">
-        <item quantity="other">Да се изтрият ли избраните %1$d тапети?</item>
-        <item quantity="one">Да се изтрие ли избраният %1$d тапет?</item>
+    <plurals name="uninstall_dialog_title_multi_format">
+        <item quantity="other">Деинсталиране на %1$d приложения?</item>
+        <item quantity="one">Деинсталиране на %1$d приложение?</item>
+    </plurals>
+    <plurals name="uninstall_result_multi_failed">
+        <item quantity="other">Не може да се деинсталират %1$d прилож</item>
+        <item quantity="one">Не може да се деинсталира %1$d прилож</item>
+    </plurals>
+    <plurals name="uninstall_result_multi_succeeded">
+        <item quantity="other">%1$d прилож са деинсталирани</item>
+        <item quantity="one">%1$d прилож е деинсталирано</item>
     </plurals>
 </resources>

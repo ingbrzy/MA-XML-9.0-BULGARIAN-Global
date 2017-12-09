@@ -57,6 +57,7 @@
     <string name="save_pic_success">Запазване на изобр. в %s</string>
     <string name="save_pic_fail">Не може да се запази изобр. Прегледайте SD-картата си</string>
     <string name="pic_not_exist">Това изобр. не съществува</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Изберете продукт</string>
     <string name="michat_skillset_business_type_title">Изберете услуга</string>
     <string name="michat_close_text">Чатът е затворен</string>
@@ -152,7 +153,7 @@
     <string name="network_err">Не може да се свърже с мрежата. Проверете вашата връзка за данни и опитайте да опресните.</string>
     <string name="refresh">Опресняване</string>
     <string name="announcement">Внимание</string>
-    <string name="app_empty">Нямате изтеглени приложения</string>
+    <string name="app_empty">Не може да се открият приложения.</string>
     <string name="screen_lock">Закл. на екрана</string>
     <string name="systemui">Лента с известия</string>
     <string name="cta_dialog_title">Известие за свързване</string>
@@ -279,6 +280,7 @@
     <string name="title_answer_feedback_main">Намерен е отговор!</string>
     <string name="title_same_question_feedback_main">Подобен проблем в MIUI форум</string>
     <string name="related_question_answer_details">Подобни проблеми</string>
+    <string name="issue_search">Търси</string>
     <string name="module_item_more">Повече</string>
     <string name="module_item_less">Скриване</string>
     <string name="feedback_guess">Вашето мнение</string>
@@ -296,6 +298,7 @@
     <string name="module_more">Още</string>
     <string name="module_search">Търсене</string>
     <string name="module_google_apps">Google приложения</string>
+    <string name="app_search">Търсене на приложения</string>
     <string name="feedback_submit_hint">Докладвайте проблемите в системата по всяко време, когато ги установите, за да ни помогнете да ги оправим.</string>
     <string name="feedback_submit_hint_gone">Затворено съобщение</string>
     <string name="toast_post_deleted">Темата не съществува, изтрита е или редактирана.</string>

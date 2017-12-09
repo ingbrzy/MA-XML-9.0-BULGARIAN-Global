@@ -423,7 +423,6 @@
     <string name="wechat_cache_files">Wechat кеш</string>
     <string name="qq_cache_files">QQ кеш</string>
     <string name="wechat_qq_chat_files">История на чата</string>
-    <string name="wechat_chat_clean_done">Изглежда всичко е наред</string>
     <string name="analying">Анализиране…</string>
     <string name="open_file_error">Няма приложение, което да отвори този файл</string>
     <string name="location_not_found">Файлът не е открит</string>
@@ -474,4 +473,5 @@
     <string name="app_description_title">За Почистване</string>
     <string name="app_description_content">Почистване намира боклука на вашето устройство и освобождава място в хранилището. Уверете се, че можете да работите с устройството без тези услуги, преди да деинсталирате приложението.</string>
     <string name="engine_init">Инициализиране…</string>
+    <string name="wechat_chat_clean_done">Изглежда всичко е наред</string>
 </resources>

@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="adblock_notification">
+        <item quantity="other">%d блокирани реклами</item>
+        <item quantity="one">%d блокирана реклама</item>
+    </plurals>
     <plurals name="adblock_rules_number_text">
         <item quantity="other">%d блокирани елементи</item>
         <item quantity="one">%d блокиран елемент</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_downloads_message">
+        <item quantity="other">Да се изтрият ли %d задачи?</item>
+        <item quantity="one">Да изтрия ли %d задача?</item>
     </plurals>
     <plurals name="find_on_page_matches">
         <item quantity="other">%d съвпадения</item>
@@ -16,9 +24,21 @@
         <item quantity="other">%1$d от %2$d</item>
         <item quantity="one">1 съответствие</item>
     </plurals>
-    <plurals name="transfer_prompt">
-        <item quantity="other">Пусни видеото след %1$d секунди</item>
-        <item quantity="one">Пусни видеото след %1$d секунда</item>
+    <plurals name="pref_adblock_counts">
+        <item quantity="other">%d блокирани</item>
+        <item quantity="one">%d блокирано</item>
+    </plurals>
+    <plurals name="suggest_access_item_album_songs">
+        <item quantity="other">%d песни</item>
+        <item quantity="one">%d песен</item>
+    </plurals>
+    <plurals name="suggest_access_item_singer_albums">
+        <item quantity="other">%d албума</item>
+        <item quantity="one">%d албум</item>
+    </plurals>
+    <plurals name="suggest_access_item_singer_pop">
+        <item quantity="other">%d популярни песни</item>
+        <item quantity="one">%d популярнa песeн</item>
     </plurals>
     <plurals name="v5_edit_mode_title">
         <item quantity="other">Избрани: %1$d</item>
@@ -41,7 +61,11 @@
         <item quantity="one">Да се изтрие ли %1$d елемент от историята?</item>
     </plurals>
     <plurals name="video_subtitle_last_message">
-        <item quantity="other">Остават %d минути</item>
-        <item quantity="one">Остава %d минута</item>
+        <item quantity="other">%d минути остават</item>
+        <item quantity="one">%d минута остава</item>
+    </plurals>
+    <plurals name="view_realtime_clear">
+        <item quantity="other">Ясно</item>
+        <item quantity="one">Слънчево</item>
     </plurals>
 </resources>

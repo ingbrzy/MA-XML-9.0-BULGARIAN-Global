@@ -32,7 +32,6 @@
     <string name="emergency_alert_settings_title">Настройки за сигналите при спешни случаи</string>
     <string name="enable_emergency_alerts_title">Включване на известията</string>
     <string name="enable_emergency_alerts_summary">Показване на излъчв. на сигнал при спешни случаи</string>
-    <string name="alert_sound_duration_title">Продълж. на звука на сигнала</string>
     <string name="alert_reminder_interval_title">Напомняне за сигнал</string>
     <string name="enable_alert_speech_title">Съобщ. за сигнала: Изговаряне</string>
     <string name="enable_alert_speech_summary">Използване на синтезиран говор за съобщенията за сигнали при спешни случаи</string>
@@ -92,4 +91,5 @@
     <string name="cmas_opt_out_dialog_text">Понастоящем получавате спешни сигнали. Искате ли да продължите да ги получавате?</string>
     <string name="cmas_opt_out_button_yes">Да</string>
     <string name="cmas_opt_out_button_no">Не</string>
+    <string name="alert_sound_duration_title">Продълж. на звука на сигнала</string>
 </resources>

@@ -350,10 +350,8 @@
     <string name="main_button_mi_sim_open">Покажи подробности</string>
     <string name="firewall_activity_lable">Забрана на данни по приложение</string>
     <string name="firewall_applist">Приложения</string>
-    <string name="firewall_rule_group_title_mobile">2G/3G</string>
-    <string name="firewall_rule_group_title_wifi">Wi-Fi</string>
-    <string name="firewall_fragment_tab_title_nonsys">Инсталирано</string>
-    <string name="firewall_fragment_tab_title_sys">Системно</string>
+    <string name="firewall_mobile">Мобилни</string>
+    <string name="firewall_wifi">Wi-Fi</string>
     <string name="firewall_fragment_sys_listempty">Празно</string>
     <string name="firewall_fragment_nonesys_listempty">Празно</string>
     <string name="firewall_restrict_notify_title">%s не може да използва мрежата</string>
@@ -367,6 +365,7 @@
     <string name="search_result_text">Не може да се открият приложения</string>
     <string name="firewall_mobile_dialog_message">Инсталираното приложение няма да може да се свърже с интернет чрез мобилни данни, когато те са изключени.</string>
     <string name="firewall_wifi_dialog_message">Инсталираното приложение няма да може да се свърже с интернет чрез Wi-Fi, когато този тип връзка е изключена</string>
+    <string name="firewall_system_title">Контрол на мрежовите приложения</string>
     <string name="usage_sorted_activity_lable">Използване на данни</string>
     <string name="usage_sorted_loading_text">Зарежда се…</string>
     <string name="usage_sorted_empty_text">Празно</string>
@@ -389,6 +388,7 @@
     <string name="detail_app_button">Детайли</string>
     <string name="pref_about_traffic_title">Настройка на трафика</string>
     <string name="pref_traffic_manage_title">Използвани данни</string>
+    <string name="pref_operator_setting">%1$s: %2$s</string>
     <string name="pref_package_traffic_settings">Лимит за мобилни данни</string>
     <string name="pref_adjust_traffic_data">Задаване на изп. на данни</string>
     <string name="pref_category_title_other">Допълнитени настройки</string>
@@ -890,6 +890,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Това приложение може да забави прекалено много
 вашето устройство"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Деинсталиране на %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Деинсталирайте това приложение, за да поправите проблем с прекален разход на батерията.</string>
     <string name="om_ill_proc_type_wakelock_title">Това приложение блокира режим сън на устройството и изразходва много батерия</string>
@@ -1292,6 +1293,7 @@
     <string name="menu_text_networkassistants">Монитор за данни</string>
     <string name="menu_text_networkassistants_remain">%s остават</string>
     <string name="menu_text_networkassistants_danger">%s над лимита</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">ГБ</string>
     <string name="menu_text_networkassistants_unit_mb">МБ</string>
     <string name="menu_text_networkassistants_unit_kb">КБ</string>
@@ -1652,6 +1654,7 @@
     <string name="card_main_deepclean_wechat_action">Изчистване</string>
     <string name="card_main_sectool_title">Инструменти</string>
     <string name="card_main_monthreport_action">Покажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Диагностика на мрежата</string>
     <string name="card_main_netcheck_summary">Диагностика на мрежата за проблеми при свързването</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -1886,8 +1889,9 @@
     <string name="app_usage_recently">Скоро използвани</string>
     <string name="app_manager_have_not_consume">Няма</string>
     <string name="app_manager_menu_clear_data">Изчисти данни</string>
-    <string name="app_manager_clear_data_dlg_title">Изтриване данните на прилож?</string>
-    <string name="app_manager_clear_data_dlg_message">Цялата информация на приложението ’ ще бъде премахната окончателно. Това включва всички файлове, настройки, профили, база с данни и др.</string>
+    <string name="app_manager_clear_data_dlg_title">Изтрий всички данни?</string>
+    <string name="app_manager_clear_data_dlg_message">Цялата информация, включително файлове, настройки, информация за профили и кеш ще бъдат изтрити завинаги.</string>
+    <string name="app_manager_clear_dlg_title">Изчисти данните</string>
     <string name="app_manager_clear_failed_dlg_message">Не може да се изчистят данните за приложението.</string>
     <string name="app_manager_manage_space">Управление на мястото</string>
     <string name="app_manager_permission_summary_reject">Ограничи всички</string>
@@ -1956,6 +1960,15 @@
     <string name="app_manager_install_other_app">Инсталиране на прилож от непознати източници</string>
     <string name="app_manager_disabled_by_admin">Изкл от администратора</string>
     <string name="app_manager_advanced_setting">Разширени настройки</string>
+    <string name="app_manager_total_size">Общо</string>
+    <string name="app_manager_code_size">Размер на прилож</string>
+    <string name="app_manager_data_size">Потребителски данни</string>
+    <string name="app_manager_cache_size">Кеш</string>
+    <string name="app_manager_clear_all_data">Изчисти всички данни</string>
+    <string name="app_manager_dlg_clear_cache_title">Изчисти кеша?</string>
+    <string name="app_manager_support_uninstall">Вие можете да деинсталирате тези приложения</string>
+    <string name="app_manager_not_support_uninstall">Не може да се деинсталират тези приложения</string>
+    <string name="app_manager_comuting_size">Обработка…</string>
     <string name="ad_btn_default_text">Научете повече</string>
     <string name="open_activity_err">Приложението не е открито</string>
     <string name="low_memory_warning_dialog_title">Няма достатъчно място в хранилището</string>
@@ -2080,7 +2093,6 @@
     <string name="net_booster_overdue_notification">Сесията на Мрежовия ускорител е към края си</string>
     <string name="net_booster_overdue_notification_tip">Сесията на Мрежовия ускорител ще приключи скоро. Да се поднови ли?</string>
     <string name="net_booster_expire_notification">Сесията на Мрежовия ускорител е към края си</string>
-    <string name="net_booster_expire_notification_tip">%d остават, преди Мрежов ускорител да приключи своята сесия. Подновете я сега, за да се предпазите от проблеми със скоростта.</string>
     <string name="xunyou_pay_webview">Xunyou услуги</string>
     <string name="xunyou_server_expired">Сесията изтече.</string>
     <string name="game_anti_disturb_msg">Игра в режим Не безпокойте</string>
@@ -2098,9 +2110,5 @@
     <string name="game_booster_close">Ускорителят на игри е изключен</string>
     <string name="databooster_tips_title">Внимание</string>
     <string name="databooster_tips_message">Включете, за да ограничите всички SIM карти, с изключение на тази за данни. Изключете тази услуга, ако игрите дават грешка след вашия избор.</string>
-    <string name="app_manager_permission_startself_summary">Приложения, които стартират автоматично, заемат много РАМ и изразходват батерията бързо</string>
-    <string name="app_manager_permission_power_saving_summary">MIUI Икономия на батерия</string>
-    <string name="app_manager_not_record">Няма намерени приложения, които да изискват разрешения</string>
-    <string name="app_manager_clear_failed_dlg_title">Изчисти данните</string>
-    <string name="app_manager_sort">Сортиране по</string>
+    <string name="net_booster_expire_notification_tip">%d остават, преди Мрежов ускорител да приключи своята сесия. Подновете я сега, за да се предпазите от проблеми със скоростта.</string>
 </resources>

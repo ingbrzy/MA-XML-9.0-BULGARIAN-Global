@@ -187,11 +187,15 @@
     <string name="passport_user_reg_region_warning">Няма да можете да променяте вашите страна/регион, след като веднъж сте създали профила си.</string>
     <string name="passport_sync_account_data">Синхронизира се информация за профила…</string>
     <string name="passport_sync_account_data_failed_warning">Вашият профил ще започне да се синхронизира сега, вие можете да се впишете, използвайки Mi Профил ID. Ако искате да се впишете в профила си, използвайки вашия телефонен номер или имейл, изчакайте докато информацията се синхронизира напълно.</string>
-    <string name="passport_confirm_recycle_account_msg">%s &lt;font color=Red>Внимание&lt;/font>Да се използва ли същата парола за този профил？</string>
+    <string name="passport_confirm_recycle_account_msg">&lt;font color=Red>Изглежда че&lt;/font> номерът %s е бил променен от вашия оператор и няма Mi Профил, който да е свързан с него. Този профил вашият ли е?</string>
     <string name="passport_login_recycle_account_yes">Да</string>
     <string name="passport_login_recycle_account_no">Не</string>
     <string name="passport_reg_recycle_account_yes">Да</string>
     <string name="passport_reg_recycle_account_no">Не</string>
+    <string name="passport_get_innetdate_title">Проверка, когато номерът бъде онлайн</string>
+    <string name="passport_get_innetdate_msg">&lt;font color=Red>Изглежда че&lt;/font> номерът %s е бил променен от вашия оператор. Да бъде ли направена проверка, когато номерът е онлайн?</string>
+    <string name="passport_get_innetdate_agree">Проверка</string>
+    <string name="passport_get_innetdate_disagree">Не</string>
     <string name="search_app_name">Mi Профил</string>
     <string name="search_mi_account">Mi Профил</string>
     <string name="search_mi_account_key_words">Mi Облак,Настройки на профил,Mi Плащане, Отписване</string>
@@ -251,6 +255,7 @@
     <string name="account_error_invalid_user_name">Името не може да съдържа &lt;, >, /</string>
     <string name="account_error_shorter_user_name">Името трябва да е по-дълго от 2 символа</string>
     <string name="account_error_longer_user_name">Името не може да надвишава 20 символа</string>
+    <string name="account_error_user_name">Въведеното име е невалидно</string>
     <string name="account_error_user_birthday">Въведеният рожден ден е невалиден</string>
     <string name="account_limit_update_birthday">Съжаляваме, но в момента е невъзможно да обработим вашата заявка.</string>
     <string name="account_user_other_info">Други източници</string>
@@ -443,5 +448,9 @@
     <string name="account_token_expired_msg">"Кодът за потвърждение е изтекъл, започнете отново или се отпишете от 
  Вашия профил ИД: %s"</string>
     <string name="bind_safe_phone_msg">Добавете вашия номер за да може да се впишете в Mi Профила си следващия път.</string>
-    <string name="account_notification_message">Сесията изтече, влезте отново.</string>
+    <string name="account_notification_message">>Сесията изтече. Влезте отново.</string>
+    <string name="sim_changed_notification_title">Променен телефонен номер?</string>
+    <string name="sim_changed_notification_msg">Чукнете, за да актуализирате вашия телефон за възстановяване и поддръжайте вашия профил защитен.</string>
+    <string name="recycle_phone_notification_title">Рискове в сигурността на Mi Профил</string>
+    <string name="recycle_phone_notification_msg">Изглежда, че вашият телефонен номер е бил сменен. Чукнете за актуализиране.</string>
 </resources>

@@ -134,4 +134,5 @@
     <string name="face_unlock_rise">Смъкнете главата си</string>
     <string name="face_unlock_down">Вдигнете главата си</string>
     <string name="face_unlock_quality">Лицето ви не се вижда ясно</string>
+    <string name="lock_screen_no_sim_card">Няма SIM карта</string>
 </resources>
