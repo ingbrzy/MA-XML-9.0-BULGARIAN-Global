@@ -5,14 +5,12 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
-    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Няма</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
-    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -304,8 +302,6 @@
     <string name="screen_zoom_summary_extremely_large">Най-голям</string>
     <string name="screen_zoom_summary_custom">Потребителски (%d)</string>
     <string name="help_feedback_label">Помощ&amp; поддръжка</string>
-    <string name="status_bar_date_formatter">"%2$s
-%1$s"</string>
     <string name="app_label">Системен изглед</string>
     <string name="status_bar_no_recent_apps">Няма последно изпол. прилож</string>
     <string name="recent_task_lock_text">Фиксиран</string>
@@ -539,7 +535,6 @@ MMMM d"</string>
     <string name="ext_media_mountable_notification_title">USB хранилището е свързано</string>
     <string name="ext_media_mountable_notification_message">Натиснете за преминаване към Файлове.</string>
     <string name="ext_media_safe_remove">Премахване</string>
-    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">K/s</string>
     <string name="megabyte_per_second">M/s</string>
     <string name="status_bar_network_flow_today">Днес: %1$s</string>
@@ -618,7 +613,6 @@ MMMM d"</string>
     <string name="notification_header_title">Известия</string>
     <string name="weather_publish_time">Актуализирано %1$s</string>
     <string name="no_weather_description">Получаване на данни за времето ></string>
-    <string name="weather_description_no_aqi">%1$s</string>
     <string name="screenshot_long_screenshot">Дълго</string>
     <string name="screenshot_edit">Редактирай</string>
     <string name="screenshot_send">Изпрати</string>

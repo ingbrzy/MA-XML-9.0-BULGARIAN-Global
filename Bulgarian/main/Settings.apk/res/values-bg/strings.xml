@@ -5,14 +5,12 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
-    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Няма</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
-    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -694,7 +692,6 @@
     <string name="security_enable_widgets_title">Приспособления: Акт.</string>
     <string name="security_enable_widgets_disabled_summary">Деактивирано от администратора</string>
     <string name="owner_info_settings_summary">Няма</string>
-    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_edit_text_hint">Напр. „Устройството с Android на Иван“.</string>
     <string name="user_info_settings_title">Данни за потребителя</string>
     <string name="show_profile_info_on_lockscreen_label">Показв. на инф. за потр. профил върху закл. екран</string>
@@ -956,7 +953,6 @@
     <string name="wifi_display_options_name">Име</string>
     <string name="wifi_band_24ghz">2,4 ГХц</string>
     <string name="wifi_band_5ghz">5 ГХц</string>
-    <string name="link_speed">%1$d Мб/с</string>
     <string name="nfc_quick_toggle_title">NFC</string>
     <string name="nfc_quick_toggle_summary">Разрешаване на обмен на данни, когато телефонът докосва друго устройство</string>
     <string name="android_beam_settings_title">Android Beam</string>
@@ -2223,7 +2219,6 @@
     <string name="gadget_title">Контрол на захранването</string>
     <string name="gadget_toggle_wifi">Актуализиране на настройките за Wi-Fi</string>
     <string name="gadget_toggle_bluetooth">Актуализиране на настройките за Bluetooth</string>
-    <string name="gadget_state_template">%1$s: %2$s</string>
     <string name="gadget_state_on">включено</string>
     <string name="gadget_state_off">изключено</string>
     <string name="gadget_state_turning_on">включва се</string>
@@ -2399,7 +2394,6 @@
     <string name="delete">Изтриване</string>
     <string name="misc_files">Разни файлове</string>
     <string name="misc_files_selected_count">избрани са %1$d от %2$d</string>
-    <string name="misc_files_selected_count_bytes">%1$s от %2$s</string>
     <string name="select_all">Избиране на всички</string>
     <string name="data_usage_summary_title">Използване на данни</string>
     <string name="data_usage_app_summary_title">Прилож.: Пренос на данни</string>
@@ -2642,7 +2636,6 @@
     <string name="nfc_payment_no_apps">Плащане с телефона ви в магазините</string>
     <string name="nfc_payment_default">Основно приложение за плащане</string>
     <string name="nfc_payment_default_not_set">Не е зададено</string>
-    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_use_default">Използване на стандартното</string>
     <string name="nfc_payment_favor_default">Винаги</string>
     <string name="nfc_payment_favor_open">Освен когато е отворено друго приложение за плащане</string>
@@ -2703,7 +2696,6 @@
     <string name="regulatory_info_text" />
     <string name="sim_setup_wizard_title">SIM карти</string>
     <string name="sim_settings_title">SIM карти</string>
-    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_cards_changed_message">SIM картите са променени</string>
     <string name="sim_cards_changed_message_summary">Докоснете, за да зададете активности</string>
     <string name="sim_cellular_data_unavailable">Няма налични мобилни данни</string>
@@ -2824,7 +2816,6 @@
     <string name="zen_mode_option_important_interruptions">Само с приоритет</string>
     <string name="zen_mode_option_alarms">Само будилници</string>
     <string name="zen_mode_option_no_interruptions">Пълна тишина</string>
-    <string name="zen_mode_summary_combination">%1$s: %2$s</string>
     <string name="zen_mode_visual_interruptions_settings_title">Визуални предупреждения: Блокиране</string>
     <string name="configure_notification_settings">Конфигуриране на известията</string>
     <string name="advanced_section_header">Разширени</string>
@@ -2918,7 +2909,6 @@
     <string name="zen_mode_schedule_alarm_title">Будилникът може да отменя крайния час</string>
     <string name="zen_mode_schedule_alarm_summary">Спиране при настъпване на крайния час или при активиране на следващия будилник – което от двете се случи първо</string>
     <string name="summary_divider_text">", "</string>
-    <string name="summary_range_symbol_combination">от %1$s до %2$s</string>
     <string name="summary_range_verbal_combination">от %1$s до %2$s</string>
     <string name="zen_mode_calls">Обаждания</string>
     <string name="zen_mode_messages">Съобщения</string>
@@ -3100,8 +3090,6 @@
     <string name="memory_avg_use">Средно</string>
     <string name="memory_max_desc">Максимално %1$s</string>
     <string name="memory_avg_desc">Средно %1$s</string>
-    <string name="memory_use_running_format">%1$s/%2$s</string>
-    <string name="process_format">%1$s (%2$d)</string>
     <string name="high_power_apps">Оптимизиране на батерията</string>
     <string name="high_power_filter_on">Без оптимизиране</string>
     <string name="high_power_on">Без оптимизиране</string>
@@ -3378,7 +3366,6 @@
     <string name="dndm_auto_setting_group">Включване по време</string>
     <string name="dndm_auto_button_title">Време</string>
     <string name="dndm_auto_time_setting">Настройка на времето</string>
-    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_on">От</string>
     <string name="dndm_auto_time_turn_on_title">Автоматично включване на Тих режим</string>
     <string name="dndm_auto_time_turn_off">До</string>
@@ -4831,7 +4818,6 @@
     <string name="size_giga_byte">ГБ</string>
     <string name="size_tera_byte">ТБ</string>
     <string name="size_peta_byte">ПБ</string>
-    <string name="size_suffix">%1$s%2$s</string>
     <string name="radio_info_asdiv_switch_label">ASDiv Статус:</string>
     <string name="app_factory_reset_dlg_title">Деинсталиране на актуализациите?</string>
     <string name="app_factory_reset_dlg_text">Всички актуализации на системните приложения ще бъдат деинсталирани.</string>

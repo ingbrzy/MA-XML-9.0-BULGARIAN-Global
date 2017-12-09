@@ -60,7 +60,6 @@
     <string name="share_title">Споделяне на времето</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_desc">\#MIUI Времето#Днес %1$s %2$s</string>
-    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="hourly_forcast_now">Сега</string>
     <string name="sunrise">Изгрев</string>
     <string name="sunset">Залез</string>
@@ -154,11 +153,9 @@
     <string name="install">Инсталирай</string>
     <string name="open">Отвори</string>
     <string name="open_now">Отвори</string>
-    <string name="install_progress">%1$s%%</string>
     <string name="daily_forecast_detail_date">d.M</string>
     <string name="hourly_forecast_date">М/д</string>
     <string name="aqi_publish_source">Актуализирано на %1$s от CNEMC</string>
-    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="aqi_data_source">Предоставено от Colorful Clouds</string>
     <string name="traffic_controls">Състояние на пътищата</string>
     <string name="traffic_control_today_numbers">Днес: %1$s</string>
@@ -175,7 +172,6 @@
     <string name="international_details_uv_index_title">UV индекс</string>
     <string name="international_details_pressure_title">Налягане</string>
     <string name="pressure_connect">%1$s мбар</string>
-    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="weather_alert">Предупреждения</string>
     <string name="edit_alert_city_title">Упр. на предупрежденията</string>
     <string name="aqi_detail_unit">Еденица мярка: µg/m³</string>
@@ -242,8 +238,6 @@
     <string name="minute_rain_pull_down_refresh">Изтеглете надолу за опресняване</string>
     <string name="minute_rain_refreshing_now">Опресняване…</string>
     <string name="minute_rain_let_go_refresh">Пуснете за да се опресни</string>
-    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
-    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="alert_detail_title">Подробности за алармиране</string>
     <string name="aqi_quality_map_title">Индекс за качество на въздуха</string>
     <string name="aqi_station_min_distance_station">Близка станция</string>
