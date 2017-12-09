@@ -50,20 +50,6 @@
         <item>След изход от приложението</item>
         <item>1 мин. след изход от прил.</item>
     </string-array>
-    <string-array name="sort_type">
-        <item>Състояние</item>
-        <item>Име на приложение</item>
-        <item>Честота на използване</item>
-        <item>Използвано хранилище</item>
-        <item>Час на инсталиране</item>
-    </string-array>
-    <string-array name="sort_title">
-        <item>Сортиране по състояние</item>
-        <item>Сортиране по име на приложението</item>
-        <item>Сортиране по честота на използване</item>
-        <item>Сортиране по използване на хранилището</item>
-        <item>Подреди по време на инсталиране</item>
-    </string-array>
     <string-array name="key_app_info">
         <item>източник на инсталиране</item>
         <item>час на инсталиране</item>
