@@ -81,8 +81,8 @@
     <string name="passport_delete_account">Отписване</string>
     <string name="passport_vcode_notification_title">Проверката при вписването ви не е завършила</string>
     <string name="passport_account_name">Профил: %1$s</string>
-    <string name="passport_account_hint_text">Електронна поща, телефонен номер или Mi профил ID</string>
-    <string name="passport_email_or_id_hint_text">Имейл адрес или ID на MI профил</string>
+    <string name="passport_account_hint_text">Имейл/Телефонен номер/Mi Профил</string>
+    <string name="passport_email_or_id_hint_text">Имейл/Mi Профил</string>
     <string name="passport_phone_num_hint_text">Телефонен номер</string>
     <string name="passport_input_password_hint">Въведете парола</string>
     <string name="passport_input_captcha_hint">Въведете код</string>

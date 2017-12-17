@@ -73,8 +73,8 @@
         <item quantity="one">Неуспешно експортиране на %d видео. Освободете място за съхранение и опитайте пак.</item>
     </plurals>
     <plurals name="wechat_empty_files">
-        <item quantity="other">(%1$d празни файлове) %2$s</item>
-        <item quantity="one">(%1$d празен файл) %2$s</item>
+        <item quantity="other">(%1$d празни файлове)</item>
+        <item quantity="one">(%1$d празен файл)</item>
     </plurals>
     <plurals name="app_usage_day">
         <item quantity="other">Не са използвани от %d дни</item>

@@ -456,7 +456,7 @@
     <string name="wechat_copy_video_failed_dialog_title">Неуспешно експортиране</string>
     <string name="wechat_copying_video_success">Успешно експортиране</string>
     <string name="wechat_copying_video_dialog_title">Експортиране към Галерия</string>
-    <string name="wechat_copying_video_dialog_msg">Файловете ще се запазят в папка: /DCIM/WeChat</string>
+    <string name="wechat_copying_video_dialog_msg">Файловете ще се запазят в тази папка: %s</string>
     <string name="wechat_copying_video_dialog_checkbox">Изтрий файловете след експортиране</string>
     <string name="wechat_copying_video_empty">Няма видеофайлове за експортиране</string>
     <string name="wechat_content_empty">Няма файлове за експортиране</string>
@@ -473,5 +473,23 @@
     <string name="app_description_title">За Почистване</string>
     <string name="app_description_content">Почистване намира боклука на вашето устройство и освобождава място в хранилището. Уверете се, че можете да работите с устройството без тези услуги, преди да деинсталирате приложението.</string>
     <string name="engine_init">Инициализиране…</string>
-    <string name="wechat_chat_clean_done">Изглежда всичко е наред</string>
+    <string name="unlike">Не, благодаря</string>
+    <string name="wechat_qq_celan_tab_video">Видео</string>
+    <string name="wechat_qq_celan_tab_voice">Глас</string>
+    <string name="wechat_qq_celan_tab_image">Изображение</string>
+    <string name="wechat_qq_celan_tab_file">Файл</string>
+    <string name="wechat_qq_deep_clean_button_text">Дълбоко почистване</string>
+    <string name="wechat_clean_finish_summary">Избраните файлове бяха изтрити успешно</string>
+    <string name="qq_clean_finish_summary">Избраните файлове бяха изтрити успешно</string>
+    <string name="wechat_clean_finish_empty_summary">Всичко изглежда добре</string>
+    <string name="wechat_clean_canceled_empty_summary">Почистването не е приключило, стартирайте го отново.</string>
+    <string name="wqfile_group_chat_pic">Чат с изображение</string>
+    <string name="wqfile_group_chat_video">Видео чат</string>
+    <string name="wqfile_group_chat_voice">Гласов чат</string>
+    <string name="wqfile_group_chat_file">Друг файл</string>
+    <string name="wq_deep_clean_filter_all">Всички</string>
+    <string name="wq_deep_clean_filter_week_ago">Преди седмица</string>
+    <string name="wq_deep_clean_filter_month_ago">Преди месец</string>
+    <string name="wq_deep_clean_filter_three_month_ago">Преди три месеца</string>
+    <string name="wq_deep_clean_filter_years_ago">Преди половин година</string>
 </resources>

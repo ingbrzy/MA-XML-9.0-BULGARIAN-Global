@@ -60,6 +60,10 @@
         <item quantity="other">Да се изтрият ли %1$d елементи от историята?</item>
         <item quantity="one">Да се изтрие ли %1$d елемент от историята?</item>
     </plurals>
+    <plurals name="video_push_multi_message">
+        <item quantity="other">Налични са %1$d актуализации.</item>
+        <item quantity="one">%1$d налична е актуализация.</item>
+    </plurals>
     <plurals name="video_subtitle_last_message">
         <item quantity="other">%d минути остават</item>
         <item quantity="one">%d минута остава</item>

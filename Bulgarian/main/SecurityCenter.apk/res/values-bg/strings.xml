@@ -350,7 +350,7 @@
     <string name="main_button_mi_sim_open">Покажи подробности</string>
     <string name="firewall_activity_lable">Забрана на данни по приложение</string>
     <string name="firewall_applist">Приложения</string>
-    <string name="firewall_mobile">Мобилни</string>
+    <string name="firewall_mobile">Мобилни данни</string>
     <string name="firewall_wifi">Wi-Fi</string>
     <string name="firewall_fragment_sys_listempty">Празно</string>
     <string name="firewall_fragment_nonesys_listempty">Празно</string>
@@ -365,7 +365,7 @@
     <string name="search_result_text">Не може да се открият приложения</string>
     <string name="firewall_mobile_dialog_message">Инсталираното приложение няма да може да се свърже с интернет чрез мобилни данни, когато те са изключени.</string>
     <string name="firewall_wifi_dialog_message">Инсталираното приложение няма да може да се свърже с интернет чрез Wi-Fi, когато този тип връзка е изключена</string>
-    <string name="firewall_system_title">Контрол на мрежовите приложения</string>
+    <string name="firewall_system_title">Изразходени данни от системните приложения</string>
     <string name="usage_sorted_activity_lable">Използване на данни</string>
     <string name="usage_sorted_loading_text">Зарежда се…</string>
     <string name="usage_sorted_empty_text">Празно</string>
@@ -388,6 +388,7 @@
     <string name="detail_app_button">Детайли</string>
     <string name="pref_about_traffic_title">Настройка на трафика</string>
     <string name="pref_traffic_manage_title">Използвани данни</string>
+    <string name="pref_operator_setting">%1$s: %2$s</string>
     <string name="pref_package_traffic_settings">Лимит за мобилни данни</string>
     <string name="pref_adjust_traffic_data">Задаване на изп. на данни</string>
     <string name="pref_category_title_other">Допълнитени настройки</string>
@@ -651,6 +652,7 @@
     <string name="traffic_warning_purchase_title">Известие за използвани данни</string>
     <string name="traffic_purchase_body">Чукнете, за да добавите данни.</string>
     <string name="traffic_over_purchase_link">"Достигнахте лимита си за мобилни данни. &lt;br/>Ако надвишите лимита на използваните данни, опаратора ви може да начисли допълнителни такси.&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>Чукнете, за да увеличите размера на данни.&lt;/U>&lt;/font>"</string>
+    <string name="more_settings">Още</string>
     <string name="repair_loading_text">Един момент…</string>
     <string name="network_diagnostics">Тест на мрежата</string>
     <string name="btn_start_diagnostic">Проверка</string>
@@ -828,6 +830,16 @@
     <string name="status_bar_network_flow_content">Днес: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;; Остават: %2$s</string>
     <string name="status_bar_network_flow_content_not_setting">Днес: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;; Този месец: %2$s</string>
     <string name="status_bar_network_flow_today">Днес: %1$s</string>
+    <string name="pref_key_tethering_setting">Еднократен лимит за данни</string>
+    <string name="pref_key_tethering_title">Еднократен лимит за данни</string>
+    <string name="tether_limit_value_custom">По избор</string>
+    <string name="tether_limit_dialog_title">Лимит за мобилни данни</string>
+    <string name="tether_custom_dialog_title">Лимит за мобилни данни</string>
+    <string name="tether_over_limit_warning_notify_title">Достигнат лимит за данни на точка за достъп</string>
+    <string name="tether_over_limit_warning_notify_message">Изключи преносимата точка за достъп.</string>
+    <string name="tether_over_limit_dialog_title">Предупреждение за използв. на данни</string>
+    <string name="tether_over_limit_dialog_message">Вие достигнахте лимита за данни на преносимата точка за достъп.</string>
+    <string name="tether_over_limit_dialog_cancle_btn">Нулиране точка за достъп</string>
     <string name="optimize_manage_title">Подобрете скоростта</string>
     <string name="cpu_usage_android_system">Система Андроид</string>
     <string name="cpu_usage_process_run_time_little_time">По-малко от минута</string>
@@ -889,6 +901,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Това приложение може да забави прекалено много
 вашето устройство"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Деинсталиране на %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Деинсталирайте това приложение, за да поправите проблем с прекален разход на батерията.</string>
     <string name="om_ill_proc_type_wakelock_title">Това приложение блокира режим сън на устройството и изразходва много батерия</string>
@@ -1291,6 +1304,7 @@
     <string name="menu_text_networkassistants">Монитор за данни</string>
     <string name="menu_text_networkassistants_remain">%s остават</string>
     <string name="menu_text_networkassistants_danger">%s над лимита</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">ГБ</string>
     <string name="menu_text_networkassistants_unit_mb">МБ</string>
     <string name="menu_text_networkassistants_unit_kb">КБ</string>
@@ -1651,6 +1665,7 @@
     <string name="card_main_deepclean_wechat_action">Изчистване</string>
     <string name="card_main_sectool_title">Инструменти</string>
     <string name="card_main_monthreport_action">Покажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Диагностика на мрежата</string>
     <string name="card_main_netcheck_summary">Диагностика на мрежата за проблеми при свързването</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -2106,5 +2121,4 @@
     <string name="game_booster_close">Ускорителят на игри е изключен</string>
     <string name="databooster_tips_title">Внимание</string>
     <string name="databooster_tips_message">Включете, за да ограничите всички SIM карти, с изключение на тази за данни. Изключете тази услуга, ако игрите дават грешка след вашия избор.</string>
-    <string name="net_booster_expire_notification_tip">%d остават, преди Мрежов ускорител да приключи своята сесия. Подновете я сега, за да се предпазите от проблеми със скоростта.</string>
 </resources>

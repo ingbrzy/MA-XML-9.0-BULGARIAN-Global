@@ -51,6 +51,8 @@
     <string name="self_phone">Този телефон</string>
     <string name="process_whole_recovery">Възстановяване \"%s\"</string>
     <string name="device_xiaomi">Mi Phone</string>
+    <string name="device_corrupt">Mi Телефон (данните са повредени)</string>
+    <string name="size_unknown">Непознат размер</string>
     <string name="recovering">Възстановява се %s</string>
     <string name="start_recover">Възстанови %s</string>
     <string name="latest_backup_time_loading">Зарежда се…</string>
@@ -58,7 +60,6 @@
     <string name="backing_up_to_micloud">Архивира се…</string>
     <string name="restore_from_cloud">Възстановяване от рез. копие в Mi Cloud</string>
     <string name="backup_to_cloud">Архив на прил.</string>
-    <string name="restoring_file_tile">Възстановяване на %d файла</string>
     <string name="menu_item_sort">Сортиране по</string>
     <string name="menu_item_sort_name">Име</string>
     <string name="menu_item_sort_size">Размер</string>
