@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="assistant_day">
+        <item quantity="other">За %d дни</item>
+        <item quantity="one">За %d ден</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">Преди %1$d дни</item>
+        <item quantity="one">Преди %1$d ден</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">Преди %1$d часа</item>
+        <item quantity="one">Преди %1$d час</item>
+    </plurals>
+    <plurals name="main_delete_desc">
+        <item quantity="other">Да се премахнат ли %s елемента от любими?</item>
+        <item quantity="one">Да се премахне ли %s елемент от любими?</item>
+    </plurals>
+    <plurals name="main_mark_fav_num">
+        <item quantity="other">%s елементи са маркирани като важни</item>
+        <item quantity="one">%s елемент е маркиран като важен</item>
+    </plurals>
+    <plurals name="main_mark_select_num">
+        <item quantity="other">Избрани са %s елементи</item>
+        <item quantity="one">Избран е %s елемент</item>
+    </plurals>
+    <plurals name="mins_ago">
+        <item quantity="other">Преди %1$d мин</item>
+        <item quantity="one">Преди %1$d мин</item>
+    </plurals>
+    <plurals name="sms_hour_suffix">
+        <item quantity="other">На %d часа</item>
+        <item quantity="one">На %d час</item>
+    </plurals>
+    <plurals name="sms_minute_suffix">
+        <item quantity="other">На %d минути</item>
+        <item quantity="one">На %d минута</item>
+    </plurals>
+    <plurals name="sms_title_hours">
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
+    </plurals>
+    <plurals name="sms_title_minutes">
+        <item quantity="other">%d минути</item>
+        <item quantity="one">%d минута</item>
+    </plurals>
+    <plurals name="step_km">
+        <item quantity="other">%d км</item>
+        <item quantity="one">%d км</item>
+    </plurals>
+    <plurals name="steps">
+        <item quantity="other">%d|стъпки</item>
+        <item quantity="one">%d|стъпка</item>
+    </plurals>
+    <plurals name="time_hour_ago">
+        <item quantity="other">преди %d часа</item>
+        <item quantity="one">Преди %d час</item>
+    </plurals>
+    <plurals name="time_minute_ago">
+        <item quantity="other">Преди %d минути</item>
+        <item quantity="one">Преди %d минута</item>
+    </plurals>
+</resources>
