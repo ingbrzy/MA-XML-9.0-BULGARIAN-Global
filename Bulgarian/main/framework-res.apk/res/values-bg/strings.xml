@@ -35,7 +35,6 @@
     <string name="gigabyteShort">ГБ</string>
     <string name="terabyteShort">ТБ</string>
     <string name="petabyteShort">ПБ</string>
-    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="durationDays">%1$d дни</string>
     <string name="durationDayHours">%1$d ден %2$d ч</string>
     <string name="durationDayHour">%1$d ден %2$d ч</string>
@@ -1327,7 +1326,6 @@
     <string name="zen_mode_alarm">До следващия будилник (%1$s)</string>
     <string name="zen_mode_forever">Докато не изключите това</string>
     <string name="zen_mode_forever_dnd">Докато не изключите „Не безпокойте“</string>
-    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="toolbar_collapse_description">Свиване</string>
     <string name="zen_mode_feature_name">Не безпокойте</string>
     <string name="zen_mode_downtime_feature_name">Почивка</string>
@@ -1353,7 +1351,6 @@
     <string name="floating_toolbar_close_overflow_description">Затваряне на менюто при препълване</string>
     <string name="maximize_button_text">Увеличаване</string>
     <string name="close_button_text">Затваряне</string>
-    <string name="notification_messaging_title_template">„%1$s“: %2$s</string>
     <string name="importance_from_user">Зададохте важността на тези известия.</string>
     <string name="importance_from_person">Това е важно заради участващите хора.</string>
     <string name="user_creation_account_exists">Да се разреши ли на %1$s да създаде нов потребител с профила %2$s?</string>
