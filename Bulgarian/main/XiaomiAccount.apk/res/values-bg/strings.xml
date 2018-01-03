@@ -10,6 +10,7 @@
     <string name="passport_skip_login">Пропусни</string>
     <string name="passport_skip_setup_account_title">Пропускане</string>
     <string name="passport_skip_setup_account_msg">Може да настроите вашият Mi профил по-късно от \"Настройки\".</string>
+    <string name="passport_confirm_login">Продължи</string>
     <string name="passport_find_password_on_web_msg">Посетете account.mi.com за възстановяване на вашата парола.</string>
     <string name="passport_title_reg">Създаване на профил</string>
     <string name="passport_reg_prompt">Нямате Mi профил? Създайте такъв безплатно.</string>
@@ -164,6 +165,7 @@
     <string name="passport_barcode_add_account_prompt">За да добавите профила, сканирайте QR кодът отново след като се впишете.</string>
     <string name="passport_quick_register_notice"><u>Нямате Mi профил? Направете си сега.</u></string>
     <string name="passport_password_phone_login">Вписване с Mi профил</string>
+    <string name="passport_sms_verification_code_login">Вписване с код за потвърждение от SMS</string>
     <string name="passport_login_other_account">Друг профил</string>
     <string name="passport_reg_new_account">Създайте профил</string>
     <string name="passport_select_the_login_account">Изберете профил за вписване</string>

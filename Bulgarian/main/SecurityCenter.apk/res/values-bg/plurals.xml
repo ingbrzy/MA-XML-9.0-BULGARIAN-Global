@@ -29,8 +29,16 @@
         <item quantity="one">Следене на изп. данни за %d прил.</item>
     </plurals>
     <plurals name="traffic_setting_app_count">
-        <item quantity="other">%d прилож</item>
-        <item quantity="one">%d прилож</item>
+        <item quantity="other">%d приложения</item>
+        <item quantity="one">%d приложение</item>
+    </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d приложения могат да се свързват с интернет на заден план</item>
+        <item quantity="one">%d приложение може да се свързва с интернет на заден план</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">%d приложения не могат да се свързват с интернет на заден план</item>
+        <item quantity="one">%d приложение не може да се свързва с интернет на заден план</item>
     </plurals>
     <plurals name="daily_sim_over_limit_notify_title">
         <item quantity="other">Вече сте използвали %s от дневния лимит за данни.</item>
@@ -59,6 +67,10 @@
     <plurals name="hints_roaming_found_app_count_title">
         <item quantity="other">%d открити прил.</item>
         <item quantity="one">%d открито прил.</item>
+    </plurals>
+    <plurals name="network_restrict_count">
+        <item quantity="other">"Мрежовият достъп е ограничен за &lt;font color='#ff0000'>%d&lt;/font> приложения"</item>
+        <item quantity="one">"Мрежовият достъп е ограничен за &lt;font color='#ff0000'>%d&lt;/font> приложение"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d приложения не работят правилно и изразходват много батерия</item>
@@ -205,8 +217,8 @@
         <item quantity="one">"Изчакайте %d секунда и опитайте пак. "</item>
     </plurals>
     <plurals name="number_masked">
-        <item quantity="other">%d прилож</item>
-        <item quantity="one">%d прилож</item>
+        <item quantity="other">%d приложения</item>
+        <item quantity="one">%d приложение</item>
     </plurals>
     <plurals name="number_locked">
         <item quantity="other">%d прил. са заключени</item>
@@ -259,10 +271,6 @@
     <plurals name="app_manager_start_count">
         <item quantity="other">%d пъти</item>
         <item quantity="one">%d път</item>
-    </plurals>
-    <plurals name="app_manager_reject_count">
-        <item quantity="other">Блокирани %d пъти</item>
-        <item quantity="one">Блокирани %d път</item>
     </plurals>
     <plurals name="app_usage_day">
         <item quantity="other">Използвано преди %d дни</item>

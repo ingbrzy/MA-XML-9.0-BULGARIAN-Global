@@ -25,4 +25,29 @@
         <item>Защо мога само да включа моя климатик, но не мога да го изключа?</item>
         <item>Мога ли да използвам Mi 3, Mi 2 и Redmi като IR дистанционно?</item>
     </string-array>
+    <string-array name="voice_ac_help">
+        <item>Включване на климатик Haier в хола</item>
+        <item>Задайте температура 25 градуса</item>
+        <item>Задаване на посоката на въздуха \"Нагоре\"</item>
+    </string-array>
+    <string-array name="voice_fan_help">
+        <item>Включване на Gree климатик</item>
+        <item>Превключване към режим люлка</item>
+        <item>Възд. струя на климатика да е по-силна</item>
+    </string-array>
+    <string-array name="voice_stb_help">
+        <item>Включване на цифровата приставка</item>
+        <item>Искам да гледам телевизия на Хунан</item>
+        <item>Назад към канал 15</item>
+    </string-array>
+    <string-array name="voice_tips">
+        <item>Вкл на климатика</item>
+        <item>Искам да гледам телевизия на Шенжен</item>
+        <item>Назад към канал 12</item>
+    </string-array>
+    <string-array name="voice_tv_help">
+        <item>Включете телевизора в спалнята</item>
+        <item>Изкл на телевизора</item>
+        <item>Увеличите силата на звука на телевизора</item>
+    </string-array>
 </resources>

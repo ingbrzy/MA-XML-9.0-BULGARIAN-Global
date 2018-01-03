@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"\"Представяме версия %1$s
  Делта актуализация: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Хранилището не е на разположение, проверете картата памет.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMБ</string>
     <string name="xiaomi_connect_download_manager_fail">Не може да се стартира изтегляне. Уверете се, че мениджър изтегляния работи нормално.</string>
     <string name="app_name">Резервно копие</string>
     <string name="local_app_name">Резервно копие</string>
@@ -222,6 +225,7 @@
     <string name="restore_backup">Възстанови</string>
     <string name="enable_encrypt_description">Кодиране</string>
     <string name="disable_encrypt_description">Не кодирай</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Един момент…</string>
     <string name="state_mounting">Достъп до хранилището на рутера…</string>
     <string name="abort_backup_confirm">Резервното копие не е завършено! Да спре ли въпреки това?</string>
@@ -281,10 +285,30 @@
 Дръжте устройствата на близко разстояние."</string>
     <string name="trans_time_spent">\" Изтекло време: %s\"</string>
     <string name="trans_restoring_no_items">Синхр. елементи</string>
-    <string name="trans_detail_category_sysdata">Системни данни</string>
+    <string name="trans_detail_category_sysdata">Системна информация (включително съобщения, контакти и история на обаждания)</string>
     <string name="trans_detail_category_userdata">Приложения</string>
     <string name="trans_detail_category_account">Профили и контакти</string>
     <string name="trans_detail_category_files">Файлове</string>
+    <string name="trans_detail_category_audio_video_doc">Аудио, видео и файлове</string>
+    <string name="trans_detail_category_wechat_qq">WeChat и QQ данни (включително история на чата)</string>
+    <string name="trans_detail_category_user_app_data">Данни на приложения</string>
+    <string name="trans_detail_wechat_data">WeChat данни (включително история на чата)</string>
+    <string name="trans_detail_qq_data">QQ данни (включително история на чата)</string>
+    <string name="trans_detail_app_data_useless_tip">Вие можете да възстановите това от самото приложение, не е необходимо прехвърляне.</string>
+    <string name="trans_detail_item_app_data_too_large_tip">Изглежда, че този елемент е твърде голям за прехвърляне.</string>
+    <string name="trans_detail_item_app_data_selected_tip">Изберете съответните приложения както е необходимо.</string>
+    <string name="trans_detail_list_footer">Съвет: Вие можете да изберете прехвърляне на приложенията поотделно. Въпреки това, ако изберете данните на съответното приложение, то ще бъде прехвърлено.</string>
+    <string name="trans_detail_page_tip">Колкото повече елементи избирате, толкова по-дълго ще бъде прехвърлянето.</string>
+    <string name="trans_detail_sys_data_list_title">Системни приложения</string>
+    <string name="trans_detail_app_data_list_title">Данни на приложения</string>
+    <string name="trans_detail_app_apk_list_title">Инсталирани приложения</string>
+    <string name="trans_detail_wechat_qq_list_title">WeChat и QQ</string>
+    <string name="trans_detail_audio_video_doc_list_title">Аудио, видео и файлове</string>
+    <string name="trans_detail_sys_data_page_title">Избери системни приложения</string>
+    <string name="trans_detail_app_data_page_title">Избери данни на приложения</string>
+    <string name="trans_detail_app_apk_page_title">Избор на приложения</string>
+    <string name="trans_detail_wechat_qq_page_title">Избор на информация от WeChat и QQ</string>
+    <string name="trans_detail_audio_video_doc_page_title">Избор на аудио, видео и файлове</string>
     <string name="trans_sending_completed">Изпратени данни</string>
     <string name="trans_receiving_completed">Успешно получено</string>
     <string name="trans_time_format_second">по-малко от минута</string>
@@ -301,6 +325,7 @@
     <string name="trans_progress_subdescript_transing_receiver_finish">Получени %s, очакват възстановяване…</string>
     <string name="trans_cancel_confirm">Протича трансфер, да се отмени ли сега?</string>
     <string name="trans_cancelling">Отменя се</string>
+    <string name="trans_pausing">Спиране на пауза…</string>
     <string name="trans_device_disconnected">Връзката беше прекъсната</string>
     <string name="trans_device_wait_for_reconnecting">Връзката беше прекъсната. Свържете се отново за да продължите.</string>
     <string name="trans_device_auto_reconnecting">Прекъсната връзка. Автоматично повторно свързване…</string>
@@ -331,6 +356,8 @@
     <string name="trans_select_data">Избор на елементи за изпращане</string>
     <string name="trans_select_data_tips">\"Изберете елементи за трансфер Подобните файлове на новото устройство ще бъдат презаписани\"</string>
     <string name="trans_select_data_no_space">\"%s налични на новото устройство Изберете файлове отново или освободете място\"</string>
+    <string name="trans_select_data_too_large">"Избрали сте твърде много елементи за прехвърляне.
+ Изберете само важните за вас неща за да направите прехвърлянето по-бързо."</string>
     <string name="trans_calculating_base_size">Изчислен размер на данни</string>
     <string name="trans_calculating">Изчислява се…</string>
     <string name="trans_native_no_space">\"Недостатъчно място на това устройство. Почистете поне %s.\"</string>
@@ -454,8 +481,9 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
     <string name="loading_data">Зареждане на данни</string>
     <string name="icloud_need_sync">"За да прехвърлите информация от iOS,
 вие трябва да направите архив в iCloud."</string>
-    <string name="import_tip_title">Съвети:</string>
+    <string name="list_footer_tip_title">Съвети:</string>
     <string name="import_tip_summary">Поради проблеми със съвместимостта, вие можете да прехвърлите само частична информация от iOS устройството. Уверете се, че сте направили резервно копие в iCloud, преди да започнете прехвърлянето.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Импортирай</string>
     <string name="select_empty">Изберете елементи за импортиране</string>
     <string name="select_item_summary_wait">Изчаква се…</string>
@@ -479,4 +507,20 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
     <string name="error_permissions">Това приложение няма необходимите разрешения за достъп до Календар. Отворете \"Настройки\" и проверете разрешенията, за да продължите.</string>
     <string name="succ_description">Успешно</string>
     <string name="failed_description">Неуспешно</string>
+    <string name="notif_connect_miasist">Свързан с Mi PC Suite</string>
+    <string name="notif_disconnect_miasist">Не е свързан с Mi PC Suite</string>
+    <string name="notif_sending_transingsd">Изпращане %1$s (%2$s)…</string>
+    <string name="notif_receiving_transingsd">Получаване %1$s (%2$s)…</string>
+    <string name="notif_calculating_app">Изчисляване %1$s (%2$s)…</string>
+    <string name="notif_parse_select_descript_error">Не може да се синхронизира списъкът с архивирани елементи.</string>
+    <string name="alert_miasist_occupy_backup">Архивиране на елементи чрез използване на Mi PC Suite… Изчакайте, докато архивирането приключи и опитайте отново.</string>
+    <string name="alert_miasist_occupy_restore">Възстановяване на елементи от Mi PC Suite… Изчакайте, докато елементите се възстановят и опитайте отново.</string>
+    <string name="alert_phone_occupy_backup">Не може да се използва Mi PC Suite. Завършете архивирането или възстановяването на вашия телефон и опитайте отново.</string>
+    <string name="alert_second_space_not_support_miasist">Не може да използвате Mi PC Suite във Второ работно място. Превключете на Основно работно място.</string>
+    <string name="alert_title_backup_to_miasist">Да се архивират ли елементите чрез използване на Mi PC Suite?</string>
+    <string name="alert_message_backup_to_miasist">Mi PC Suite иска разрешение да създаде архивно копие на компютъра. Позволяване?</string>
+    <string name="alert_title_restore_from_miasist">Да се възстановят ли елементите на вашия телефон?</string>
+    <string name="alert_message_restore_from_miasist">Mi PC Suite иска разрешение да възстанови елементи на вашия телефон. Позволяване?</string>
+    <string name="alert_button_deny">Отхвърли</string>
+    <string name="alert_button_agree_and_continue">Разреши</string>
 </resources>

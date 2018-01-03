@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Няма</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -301,13 +303,15 @@
     <string name="screen_zoom_summary_very_large">По-голям</string>
     <string name="screen_zoom_summary_extremely_large">Най-голям</string>
     <string name="screen_zoom_summary_custom">Потребителски (%d)</string>
-    <string name="help_feedback_label">Помощ&amp; поддръжка</string>
+    <string name="help_feedback_label">Помощ и поддръжка</string>
+    <string name="status_bar_date_formatter">"%2$s
+%1$s"</string>
     <string name="app_label">Системен изглед</string>
-    <string name="status_bar_no_recent_apps">Няма последно изпол. прилож</string>
+    <string name="status_bar_no_recent_apps">Няма последно използвани приложения</string>
     <string name="recent_task_lock_text">Фиксиран</string>
     <string name="recent_task_unlock_text">Отключване</string>
     <string name="recent_task_app_info_text">Информация</string>
-    <string name="recent_task_cleaning">Изчистване на прилож…</string>
+    <string name="recent_task_cleaning">Изчистване на приложение…</string>
     <string name="battery_low_title">Свържете зарядно устр</string>
     <string name="battery_low_percent_format">%d%% остават</string>
     <string name="invalid_charger">"Зареждането през USB не се поддържа.
@@ -384,7 +388,7 @@ If ако включите отново мобилните данни, може 
     <string name="gps_notification_searching_text">Търсене на GPS</string>
     <string name="gps_notification_found_text">Местоположението е зададено по GPS</string>
     <string name="accessibility_clear_all">Изчисти всички известия.</string>
-    <string name="status_bar_notification_inspect_item_title">Инф за прилож</string>
+    <string name="status_bar_notification_inspect_item_title">Информация за приложение</string>
     <string name="screen_pinning_title">Екранът е закачен</string>
     <string name="screen_pinning_description">Това ще продължи, докато не го откачите. Натиснете и задръжте едновременно бутоните Начало и Включване, за да го премахнете.</string>
     <string name="screen_pinning_description_accessible">Това ще продължи, докато не го откачите. Натиснете и задръжте едновременно бутоните Начало и Включване, за да го премахнете.</string>
@@ -398,7 +402,7 @@ If ако включите отново мобилните данни, може 
     <string name="status_bar_safepay_unknown">Не може да се провери плащането</string>
     <string name="loading_desktop">Един момент…</string>
     <string name="status_bar_recent_remove_item_title">Премахване от списъка</string>
-    <string name="status_bar_recent_inspect_item_title">Инф за прилож</string>
+    <string name="status_bar_recent_inspect_item_title">Информация за приложение</string>
     <string name="status_bar_accessibility_dismiss_recents">Отхвърли последните приложения</string>
     <string name="recents_caption_resize">Избор на ново име за задачата</string>
     <string name="accessibility_recents_item_will_be_dismissed">Премахни %s</string>
@@ -411,7 +415,7 @@ If ако включите отново мобилните данни, може 
     <string name="recents_empty_message">Няма скорошни елементи</string>
     <string name="recents_empty_message_dismissed_all">Вие премахнахте всички елементи</string>
     <string name="recents_empty_message_multi_window">Отваряне на приложения от Начален екран</string>
-    <string name="recents_app_info_button_label">Инф за прилож</string>
+    <string name="recents_app_info_button_label">Информация за приложение</string>
     <string name="recents_lock_to_app_button_label">Фиксирай екрана</string>
     <string name="recents_search_bar_label">Търси</string>
     <string name="recents_launch_error_message">Не може да се стартира %s</string>
@@ -535,6 +539,7 @@ MMMM d"</string>
     <string name="ext_media_mountable_notification_title">USB хранилището е свързано</string>
     <string name="ext_media_mountable_notification_message">Натиснете за преминаване към Файлове.</string>
     <string name="ext_media_safe_remove">Премахване</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">K/s</string>
     <string name="megabyte_per_second">M/s</string>
     <string name="status_bar_network_flow_today">Днес: %1$s</string>
@@ -608,11 +613,12 @@ MMMM d"</string>
     <string name="vpn_text_long">Свързване към %s. Чукнете за подробности.</string>
     <string name="screen_button_notification_title">Бутоните на дисплея са деактивирани</string>
     <string name="screen_button_notification_text">"Натиснете 'Начало'+'Захр.' за включване."</string>
-    <string name="task_access_locked_app_msg">Включено е Закл на приложения</string>
+    <string name="task_access_locked_app_msg">Включено е Заключване на приложения</string>
     <string name="account_info">Не сте вписан</string>
     <string name="notification_header_title">Известия</string>
     <string name="weather_publish_time">Актуализирано %1$s</string>
     <string name="no_weather_description">Получаване на данни за времето ></string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="screenshot_long_screenshot">Дълго</string>
     <string name="screenshot_edit">Редактирай</string>
     <string name="screenshot_send">Изпрати</string>
@@ -658,4 +664,22 @@ MMMM d"</string>
     <string name="search_hint">Търсене на уеб сайтове, приложения, контакти, видеоклипове</string>
     <string name="description_image_button_reject">Откажи</string>
     <string name="description_image_button_answer">Отговор</string>
+    <string name="screenshot_feedback_txt">Доклад за грешки</string>
+    <string name="screenshot_toalbum_txt">Прегледай</string>
+    <string name="how_to_use_fsg">Как да използваме жестовете на цял екран?</string>
+    <string name="how_to_back_home">Как да се върнем обратно в началото</string>
+    <string name="how_to_switch_recents">Как да превключим на скорошни</string>
+    <string name="fsg_demo_back">Назад</string>
+    <string name="fsg_demo_go_on">Продължи</string>
+    <string name="fs_gesture_back_home_summary">Плъзнете бързо отдолу</string>
+    <string name="fs_gesture_switch_recents_summary">Плъзнете отдолу и изчакайте секунда</string>
+    <string name="fs_gesture_back_ready_title">Как да се върнем обратно на последната страница?</string>
+    <string name="fs_gesture_left_back_ready_summary">Плъзнете наляво от екрана</string>
+    <string name="fs_gesture_right_back_ready_summary">Плъзнете надясно от екрана</string>
+    <string name="fs_gesture_skip">Назад</string>
+    <string name="fs_gesture_finish">Отлично!</string>
+    <string name="fs_gesture_final_title">Завърши обучението</string>
+    <string name="fs_gesture_final_summary">Вие можете да зададете настройките в [ Настройки-Цял екран]</string>
+    <string name="fs_gesture_final_restart">Обучение наново</string>
+    <string name="fs_gesture_final_over">Завърши</string>
 </resources>

@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Няма</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -301,11 +303,11 @@
     <string name="screen_zoom_summary_very_large">По-голям</string>
     <string name="screen_zoom_summary_extremely_large">Най-голям</string>
     <string name="screen_zoom_summary_custom">Потребителски (%d)</string>
-    <string name="help_feedback_label">Помощ&amp; поддръжка</string>
+    <string name="help_feedback_label">Помощ и поддръжка</string>
     <string name="suw_next_button_label">Напред</string>
     <string name="suw_back_button_label">Назад</string>
     <string name="suw_more_button_label">Още</string>
-    <string name="launcher_title">Начален екран &amp; Последни</string>
+    <string name="launcher_title">Начален екран и Последни</string>
     <string name="defalut_launcher_title">Стартер по подразбиране</string>
     <string name="miui_screen_config_title">Настройки на Начален екран</string>
     <string name="launcher_auto_fill_empty_title">Запълване на празните клетки</string>
@@ -332,7 +334,7 @@
     <string name="status_bar_settings_notification_vibrate">Вибрация</string>
     <string name="status_bar_settings_notification_led">Известия със светлина</string>
     <string name="status_bar_settings_notification_bar">Лента с известия</string>
-    <string name="status_bar_settings_app_notification_preferences">Настройки на прилож</string>
+    <string name="status_bar_settings_app_notification_preferences">Настройки на приложенията</string>
     <string name="status_bar_settings_toggle_collapse_after_clicked">Свиване при докосване</string>
     <string name="status_bar_settings_status_bar">Статус лента</string>
     <string name="status_bar_settings_show_notification_icon">Покажи икона на известието</string>
@@ -354,7 +356,7 @@
     <string name="status_bar_settings_show_wifi_name">Показвай Wi-Fi</string>
     <string name="status_bar_settings_custom_wifi_name">Редактирай името на Wi-Fi</string>
     <string name="status_bar_settings_toggle_position">Позиция на превключвателите</string>
-    <string name="status_bar_settings_long_click_sort">Натиснете &amp; задръжте за разместване позицията на превключвателите</string>
+    <string name="status_bar_settings_long_click_sort">Натиснете и задръжте за разместване позицията на превключвателите</string>
     <string name="status_bar_key_position_custom">Промяна на позициите на бутоните</string>
     <string name="status_bar_screen_key_menu">Бутон Меню</string>
     <string name="status_bar_screen_key_home">Бутон Начало</string>
@@ -391,6 +393,23 @@
     <string name="unimportant">Маловажно</string>
     <string name="check_importance">Маркиране като важно?</string>
     <string name="statusbar_permission_desc">Следните разрешения са валидни само за важни известия.</string>
+    <string name="navigation_type_settings">Начини за навигиране в системата</string>
+    <string name="navigation_type_radio_text_virtual_key">Класически панел за навигация</string>
+    <string name="navigation_type_radio_text_full_screen">Жестове на цял екран</string>
+    <string name="navigation_guide_dialog_title">Научете жест</string>
+    <string name="navigation_guide_dialog_summary">Използване на жестове вместо виртуален бутон.</string>
+    <string name="navigation_guide_dialog_ok">Обучение</string>
+    <string name="navigation_guide_dialog_skip">Пропусни</string>
+    <string name="navigation_guide_dialog_dont_show_again">Не показвай отново</string>
+    <string name="navigation_guide_back_anim_title">Обратно към анимация на жестовете</string>
+    <string name="navigation_guide_back_anim_summary">Жест Назад с анимация</string>
+    <string name="navigation_guide_settings">Уроци</string>
+    <string name="navigation_guide_home_title">Назад към начален екран</string>
+    <string name="navigation_guide_home_summary">Плъзнете нагоре от долната част на екрана</string>
+    <string name="navigation_guide_recent_title">Превключи на скорошни</string>
+    <string name="navigation_guide_recent_summary">Плъзнете нагоре от долната част на екрана и спрете на пауза</string>
+    <string name="navigation_guide_back_title">Върнете се на последната страница</string>
+    <string name="navigation_guide_back_summary">Плъзнете наляво или надясно от екрана</string>
     <string name="abc_action_mode_done">Готово</string>
     <string name="abc_action_bar_home_description">Придвижване към „Начало“</string>
     <string name="abc_action_bar_up_description">Придвижване нагоре</string>
@@ -692,6 +711,7 @@
     <string name="security_enable_widgets_title">Приспособления: Акт.</string>
     <string name="security_enable_widgets_disabled_summary">Деактивирано от администратора</string>
     <string name="owner_info_settings_summary">Няма</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_edit_text_hint">Напр. „Устройството с Android на Иван“.</string>
     <string name="user_info_settings_title">Данни за потребителя</string>
     <string name="show_profile_info_on_lockscreen_label">Показв. на инф. за потр. профил върху закл. екран</string>
@@ -825,7 +845,7 @@
     <string name="unlock_setup_wizard_fingerprint_details">След като сте настроили заключване на екрана, можете да настроите и отпечатъка си от „Настройки“ > „Сигурност“.</string>
     <string name="unlock_disable_lock_title">Изключване на заключването на екрана</string>
     <string name="unlock_disable_frp_warning_title">Да се премахне ли защитата на устройството?</string>
-    <string name="unlock_disable_frp_warning_title_profile">Да се премахне ли защитата на потребителския профил?</string>
+    <string name="unlock_disable_frp_warning_title_profile">Да се премахне ли защитата на Профила?</string>
     <string name="unlock_disable_frp_warning_content_pattern">Функциите за защита на устройството няма да работят без фигурата ви.</string>
     <string name="unlock_disable_frp_warning_content_pattern_fingerprint">Функциите за защита на устройството няма да работят без фигурата ви. Запазените ви отпечатъци също ще бъдат премахнати от това устройство и няма да можете да ги използвате за отключване на телефона си, оторизиране на покупки или влизане в приложения.</string>
     <string name="unlock_disable_frp_warning_content_pin">Функциите за защита на устройството няма да работят без ПИН кода ви.</string>
@@ -953,6 +973,7 @@
     <string name="wifi_display_options_name">Име</string>
     <string name="wifi_band_24ghz">2,4 ГХц</string>
     <string name="wifi_band_5ghz">5 ГХц</string>
+    <string name="link_speed">%1$d Мб/с</string>
     <string name="nfc_quick_toggle_title">NFC</string>
     <string name="nfc_quick_toggle_summary">Разрешаване на обмен на данни, когато телефонът докосва друго устройство</string>
     <string name="android_beam_settings_title">Android Beam</string>
@@ -2219,6 +2240,7 @@
     <string name="gadget_title">Контрол на захранването</string>
     <string name="gadget_toggle_wifi">Актуализиране на настройките за Wi-Fi</string>
     <string name="gadget_toggle_bluetooth">Актуализиране на настройките за Bluetooth</string>
+    <string name="gadget_state_template">%1$s: %2$s</string>
     <string name="gadget_state_on">включено</string>
     <string name="gadget_state_off">изключено</string>
     <string name="gadget_state_turning_on">включва се</string>
@@ -2637,6 +2659,7 @@
     <string name="nfc_payment_no_apps">Плащане с телефона ви в магазините</string>
     <string name="nfc_payment_default">Основно приложение за плащане</string>
     <string name="nfc_payment_default_not_set">Не е зададено</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_use_default">Използване на стандартното</string>
     <string name="nfc_payment_favor_default">Винаги</string>
     <string name="nfc_payment_favor_open">Освен когато е отворено друго приложение за плащане</string>
@@ -2697,6 +2720,7 @@
     <string name="regulatory_info_text" />
     <string name="sim_setup_wizard_title">SIM карти</string>
     <string name="sim_settings_title">SIM карти</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_cards_changed_message">SIM картите са променени</string>
     <string name="sim_cards_changed_message_summary">Докоснете, за да зададете активности</string>
     <string name="sim_cellular_data_unavailable">Няма налични мобилни данни</string>
@@ -2817,6 +2841,7 @@
     <string name="zen_mode_option_important_interruptions">Само с приоритет</string>
     <string name="zen_mode_option_alarms">Само будилници</string>
     <string name="zen_mode_option_no_interruptions">Пълна тишина</string>
+    <string name="zen_mode_summary_combination">%1$s: %2$s</string>
     <string name="zen_mode_visual_interruptions_settings_title">Визуални предупреждения: Блокиране</string>
     <string name="configure_notification_settings">Конфигуриране на известията</string>
     <string name="advanced_section_header">Разширени</string>
@@ -2910,6 +2935,7 @@
     <string name="zen_mode_schedule_alarm_title">Будилникът може да отменя крайния час</string>
     <string name="zen_mode_schedule_alarm_summary">Спиране при настъпване на крайния час или при активиране на следващия будилник – което от двете се случи първо</string>
     <string name="summary_divider_text">", "</string>
+    <string name="summary_range_symbol_combination">от %1$s до %2$s</string>
     <string name="summary_range_verbal_combination">от %1$s до %2$s</string>
     <string name="zen_mode_calls">Обаждания</string>
     <string name="zen_mode_messages">Съобщения</string>
@@ -3091,6 +3117,8 @@
     <string name="memory_avg_use">Средно</string>
     <string name="memory_max_desc">Максимално %1$s</string>
     <string name="memory_avg_desc">Средно %1$s</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
+    <string name="process_format">%1$s (%2$d)</string>
     <string name="high_power_apps">Оптимизиране на батерията</string>
     <string name="high_power_filter_on">Без оптимизиране</string>
     <string name="high_power_on">Без оптимизиране</string>
@@ -3367,6 +3395,7 @@
     <string name="dndm_auto_setting_group">Включване по време</string>
     <string name="dndm_auto_button_title">Време</string>
     <string name="dndm_auto_time_setting">Настройка на времето</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_on">От</string>
     <string name="dndm_auto_time_turn_on_title">Автоматично включване на Тих режим</string>
     <string name="dndm_auto_time_turn_off">До</string>
@@ -3439,7 +3468,7 @@
     <string name="search_bluetooth_settings_title">Bluetooth;Видим за други устройства</string>
     <string name="search_bluetooth_enable">Bluetooth;Включване на Bluetooth;Bluetooth е включен</string>
     <string name="search_bluetooth_device_searchable">"Видимо за всички;Видимо;Име  "</string>
-    <string name="search_wifi_tether_settings_title">Споделяне на интернет и точка за достъп &amp;Споделяне;Достъп до интернет;Wi-Fi точка за достъп;Wi-Fi точка за достъп</string>
+    <string name="search_wifi_tether_settings_title">Споделяне на интернет и точка за достъп и Споделяне;Достъп до интернет;Wi-Fi точка за достъп;Wi-Fi точка за достъп</string>
     <string name="search_wifi_tether_checkbox">Точка за достъп</string>
     <string name="search_wifi_tether_configure_ap_text">Настрой точката за достъп;Настрой;Добави точка;Конфигурирай</string>
     <string name="search_radio_controls_title">Още;Безжични мрежи</string>
@@ -3454,7 +3483,7 @@
     <string name="search_wfd_settings_title">Wi-Fi екран;Включи безжичен екран</string>
     <string name="search_virtual_sim">Международни мобилни данни;Данни в роуминг;Мобилни данни в роуминг</string>
     <string name="search_nfc_se_route_title">Позиция на защитния елемент</string>
-    <string name="search_status_bar_settings">Известия &amp; лента за състоянието;Известия;Лента за състоянието</string>
+    <string name="search_status_bar_settings">Известия и лента за състоянието;Известия;Лента за състоянието</string>
     <string name="search_status_bar_settings_manage_notification">Известия от приложения;Известия</string>
     <string name="search_status_bar_settings_toggle_position">Позиция на превключвателите;Превключватели;Превключвател;Смени позицията</string>
     <string name="search_status_bar_settings_style">Известия и позиция на превключвателите;Позиция на превключвателите;превключватели;позиция;Отделно показване;Комбинирано показване;отделно;комбинирано</string>
@@ -3477,7 +3506,7 @@
     <string name="search_screen_paper_mode_title">Режим за четене;режим четене;четене;синя светлина;жълта светлина;нощен режим</string>
     <string name="search_gesture_wakeup_title">Двойно почукване на екрана за събуждане; двойно почукване;събуждане на екрана; двойно почукване на екрана;чукни два пъти</string>
     <string name="search_sound_settings">Звук;Сила на звука;Поддискане на шумовете;шумоизолиране</string>
-    <string name="search_ring_volume_option_title">Сила на звънене;Усилване;Тон на звънене &amp; известия;тон на звънене;звуци;Будилник;Музика</string>
+    <string name="search_ring_volume_option_title">Сила на звънене;Усилване;Тон на звънене и известия;тон на звънене;звуци;Будилник;Музика</string>
     <string name="search_ringtone_title">Мелодия на позвъняване;Мелодия;Звуци</string>
     <string name="search_sms_received_sound_title">Получен Sms;звук на Sms;получено съобщение;звук за съобщение</string>
     <string name="search_alarm_sound_title">Звук на будилника</string>
@@ -3496,7 +3525,7 @@
     <string name="search_dtmf_tone_enable_title">Тонове при набиране</string>
     <string name="search_sound_effects_enable_title">Звуци при докосване;Включване на звуците при докосване</string>
     <string name="search_lock_sounds_enable_title">Звук при заключване на екрана; Включване</string>
-    <string name="search_lock_settings">Заключване &amp; парола;Отключване с Bluetooth устройство;парола;Отключване с Bluetooth устройство</string>
+    <string name="search_lock_settings">Заключване и парола;Отключване с Bluetooth устройство;парола;Отключване с Bluetooth устройство</string>
     <string name="search_screen_timeout">Приспиване;Автоматично заключване на екрана;Заключване на екрана</string>
     <string name="search_owner_info_settings_title">Инф. за собственика</string>
     <string name="search_security_passwords_title">Парола;Заключване на екрана;PIN;Фигура</string>
@@ -3521,10 +3550,10 @@
     <string name="search_other_advanced_settings">Допълнителни настройки;Още..</string>
     <string name="search_security_settings">Защита на личните данни;Сигурност;Защита</string>
     <string name="search_access_control">Настройки на защитата на личните данни;Сигурност на защитата на личните данни;Гости;Режим гост</string>
-    <string name="search_date_and_time_settings_title">Дата &amp; час;Дата и час;Дата;Час</string>
+    <string name="search_date_and_time_settings_title">Дата и час;Дата и час;Дата;Час</string>
     <string name="search_choose_timezone">Избор на часова зона;Часова зона;Часови зони</string>
     <string name="search_children_mode_title">Режим за деца;Закл. на SMS;Родителски контрол;Наблюдение на дейността на детето;Забрани SMS</string>
-    <string name="search_language_settings">Език &amp; въвеждане;Език;Език и въвеждане;Клавиатура</string>
+    <string name="search_language_settings">Език и въвеждане;Език;Език и въвеждане;Клавиатура</string>
     <string name="search_captioning_locale">Език</string>
     <string name="search_user_dict_settings_title">Личен речник;Речник</string>
     <string name="search_tts_settings_title">Текст към глас команди;Текст към глас</string>
@@ -3558,7 +3587,7 @@
     <string name="search_power_optimize">Съхранение на батерията;Съхранение</string>
     <string name="search_power_checker">Проверка на напрежението</string>
     <string name="search_app_invisible">Скрити приложения;Списък на скрити приложения</string>
-    <string name="search_privacy_settings">Резервно копие &amp; нулиране;Резервно копие и нулиране;Резервно копие</string>
+    <string name="search_privacy_settings">Резервно копие и нулиране;Резервно копие и нулиране;Резервно копие</string>
     <string name="search_local_backup_section_title">Локални резервни копия</string>
     <string name="search_local_auto_backup_section_title">Автоматично създаване на резервни копия;Автоматични резервни копия;Създай автоматично резервно копие</string>
     <string name="search_cloud_restore_section_title">Възстановяване от Mi Cloud</string>
@@ -3569,7 +3598,7 @@
     <string name="search_screenshot">Екранна снимка</string>
     <string name="search_onekey_migrate">Прехвърляне на данни;Прехвърляне с едно докосване</string>
     <string name="search_gps">GPS;Достъп до местоположение;Услуга за местоположение</string>
-    <string name="search_power_usage_summary_title">Батерия &amp; производителност;Батерия и производителност;Батерия;производителност;Съхранение на батерията;Съхрани батерията</string>
+    <string name="search_power_usage_summary_title">Батерия и производителност;Батерия и производителност;Батерия;производителност;Съхранение на батерията;Съхрани батерията</string>
     <string name="search_battery_indicator">Индикатор за батерия</string>
     <string name="search_power_hide_mode_title">Управление на използването на батерията;Приложение за използване на батерията;Използване на батерията;Състояние на батерията</string>
     <string name="search_fluency_mode">Системни анимации</string>
@@ -3691,7 +3720,7 @@
     <string name="privacy_protect_title">Поверителност</string>
     <string name="privacy_mode_enable_title">Режим гост</string>
     <string name="privacy_mode_enable_sum">Скрий списъка с повиквания, съобщения и друга лична информация.</string>
-    <string name="ac_enable_title">Закл приложения</string>
+    <string name="ac_enable_title">Заключване на приложения</string>
     <string name="ac_enable_summary">Ще се изисква парола, за да отворите приложението</string>
     <string name="ac_set_apps_title">Защитени приложения</string>
     <string name="ac_privacy_mode_title">Включи парола</string>
@@ -4267,6 +4296,7 @@
     <string name="wifi_share_action_turn_off">Спри Wi-Fi споделянето</string>
     <string name="wifi_share_list_empty">Няма публични Wi-Fi мрежи</string>
     <string name="wifi_share_connect">Свързване</string>
+    <string name="enalbe_identify_iPhone">АП идентифициране</string>
     <string name="wifi_share_qrcode_title">Сподели чрез Wi-Fi</string>
     <string name="wifi_share_qrcode_summary">Използвайте камерата на MIUI за сканиране на QR кода</string>
     <string name="wifi_share_qrcode_finish">Готово</string>
@@ -4749,6 +4779,7 @@
     <string name="bootloader_locked_answer_1_warning">Запомнете: Няма да може да използвате “Открий устройството“ след отключването на телефона.</string>
     <string name="bootloader_locked_question_2">Разбирам риска, искам да отключа устройството.</string>
     <string name="bootloader_locked_answer_2">Докоснете бутона за да свържете устройството с вашия Mi профил. Отидете до сайта на MIUI, за да истеглите програмата за отключване и я инсталирайте на вашия компютър. Последвайте адреса:</string>
+    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="bootloader_locked_check_status">Добавете профил и устройство</string>
     <string name="bootloader_device_bind_already">Успешно добавяне. Mi профилът ви е свързан с това устройство.</string>
     <string name="bootloader_device_bind_no_account">Първо влезте в своя Mi профил</string>
@@ -4769,7 +4800,7 @@
     <string name="close_sdcard_optimization_title">Изключи оптимизацията на SD карти</string>
     <string name="open_sdcard_optimization_warning_message">Устройството ви ще се рестартира, за да приложи промяната.</string>
     <string name="close_sdcard_optimization_warning_message">Устройството ви ще се рестартира, за да приложи промяната.</string>
-    <string name="sdcard_optimization_close">Изкл &amp; рестарт</string>
+    <string name="sdcard_optimization_close">Изкл и рестарт</string>
     <string name="sdcard_optimization_open">Включи</string>
     <string name="sdcard_optimization_cancel">Отказ</string>
     <string name="security_encryption_title">Криптирайте устройството си, като използвате парола за заключване на екрана.</string>
@@ -4820,6 +4851,7 @@
     <string name="size_giga_byte">ГБ</string>
     <string name="size_tera_byte">ТБ</string>
     <string name="size_peta_byte">ПБ</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="radio_info_asdiv_switch_label">ASDiv Статус:</string>
     <string name="app_factory_reset_dlg_title">Деинсталиране на актуализациите?</string>
     <string name="app_factory_reset_dlg_text">Всички актуализации на системните приложения ще бъдат деинсталирани.</string>
@@ -4851,6 +4883,9 @@
     <string name="pre_installed_application">Преинсталирани приложения</string>
     <string name="user_settings_forbidden">Не може да променяте настройки за администратор в текущото пространство. Върнете се в Първо пространство.</string>
     <string name="owner_space">Основно работно място</string>
+    <string name="open_demo_mode_warning_message">Когато режим Демонстрация е включен, часовникът в лентата с известия ще спре, батерията ще показва, че е пълна, а иконата за сила на сигнала ще показва пълен обхват. Вие можете да изключите режим Демонстрация или да рестартирате устройството си, за да промените това.</string>
+    <string name="open_demo_mode">Отвори</string>
+    <string name="close_demo_mode">Отказ</string>
     <string name="spellchecker_switch_title">Включете проверка на речта</string>
     <string name="start_silent_mode">Включи Тих режим</string>
     <string name="silent_settings">Тих режим/Не безпокойте</string>
@@ -4895,10 +4930,12 @@
     <string name="mode_disable">Изкл</string>
     <string name="demo_mode_summary">Покажи демо икона в Лентата с известия</string>
     <string name="popup_window">Ограничи плаващи известия</string>
+    <string name="mute_music_stream">Заглуши излъчването на музика</string>
     <string name="miui_enable_service_title">Услугата ще предприеме следните действия:</string>
     <string name="bluetooth_device_misc_title">Рядко използвани Bluetooth устройства</string>
     <string name="bt_rarely_used_device_title">Рядко използвани устройства (%d)</string>
     <string name="search_input_hint">Търси в настройките</string>
+    <string name="back_button">Назад</string>
     <string name="music_audio_effect_optimize">Аудио настройки</string>
     <string name="music_audio_effect_optimize_summary">Dirac, слушалки и други аудио настройки</string>
     <string name="music_audio_effect_optimize_summary_with_hifi">Dirac, Hi-Fi, слушалки и други аудио настройки</string>
@@ -4944,7 +4981,7 @@
     <string name="music_dirac_mode_in_ear_pro">Mi In-Ear Pro</string>
     <string name="music_dirac_mode_capsule">Mi капсула</string>
     <string name="music_dirac_mode_headset_comfort">Mi Комфорт</string>
-    <string name="music_dirac_mode_reduction_noise">Намаляване на шума в TypeC</string>
+    <string name="music_dirac_mode_reduction_noise">Намаляване на шума (USB-C)</string>
     <string name="music_audio_effect_settings">Настройка на ефектите</string>
     <string name="music_equalizer_summary">Настройване на индивидуални нива за различните видове музика</string>
     <string name="music_unsupport_effect_summary">USB слушалките не се поддържат</string>
@@ -4965,7 +5002,7 @@
     <string name="manage_facerecoginition_text">Настройка на лицеви данни</string>
     <string name="face_unlock_enable">Отключването с лице е вкл</string>
     <string name="face_unlock_disable">Отключването с лице е изкл</string>
-    <string name="lockpattern_pattern_same_with_owner">Трябва да се различава от паролата за Първо пространство</string>
+    <string name="lockpattern_pattern_same_with_owner">Паролата трябва да е различна от тази за Основното работно място</string>
     <string name="lockpattern_pattern_same_with_security_space">Трябва да се различава от паролата за Второ работно място</string>
     <string name="lockpattern_pattern_same_with_others">Паролата трябва да е различна от тази за Второ работно място</string>
     <string name="lockpassword_confirm_your_lock_pattern_header">Потвърдете вашата фигура</string>
@@ -5022,10 +5059,10 @@
     <string name="privacy_password_remind_bindaccount_title">Добавяне на Mi профил</string>
     <string name="privacy_password_never_remind">Не питай повече</string>
     <string name="privacy_password_enter_privacy">Въведете паролата за защита на личните данни</string>
-    <string name="privacy_password_add_account_setting">Профил &amp; сигурност</string>
+    <string name="privacy_password_add_account_setting">Профил и сигурност</string>
     <string name="privacy_password_add_account_info">Добавете своя Mi профил, за да можете да нулирате паролата, ако я забравите</string>
     <string name="privacy_password_exit_account_info">Профилът ще бъде премахнат автоматично, когато се отпишете</string>
-    <string name="privacy_password_login_and_add_account">Вписване в &amp; добави</string>
+    <string name="privacy_password_login_and_add_account">Вписване и добавяне</string>
     <string name="privacy_password_not_add_account">Не сега</string>
     <string name="privacy_password_add_account">Добави</string>
     <string name="privacy_password_not_login_account">Не сте вписан</string>
@@ -5068,6 +5105,7 @@
     <string name="work_space_delete">Изтрий Работното място</string>
     <string name="work_space_delete_description">Няма да може да влезете в Работно място, след като го изтриете. Всички данни ще бъдат премахнати.</string>
     <string name="work_space_delete_confirm">Изтрий сега</string>
+    <string name="unlock_set_unlock_password_none">Няма</string>
     <string name="unlock_set_unlock_biometric_weak_title">Отключване с лице</string>
     <string name="unlock_set_unlock_biometric_weak_summary">Експериментална функция с ниска степен на сигурност</string>
     <string name="biometric_weak_improve_matching_title">Подобряване на лицевото разпознаване</string>
@@ -5112,7 +5150,7 @@
     <string name="add_fingerprint_instruction_msg">Използване на пръстов отпечатък за отключване на устройството и завършване на плащанията.</string>
     <string name="wakeup_for_keyguard_notification_title">Събуждане на екрана при известия</string>
     <string name="secure_keyguard_business_title">Настройване заключен екран</string>
-    <string name="fingerprint_and_password_entrance_title">Закл екран &amp; пръстов отпечатък</string>
+    <string name="fingerprint_and_password_entrance_title">Закл екран и пръстов отпечатък</string>
     <string name="password_entrance_title">Закл. на екрана</string>
     <string name="apply_fingerprint_to_category_title">Прилагане на пръстов отпечатък за…</string>
     <string name="manage_fingerprint_text">Управление на пръстовите отпечатъци</string>
@@ -5136,6 +5174,9 @@
     <string name="lock_screen_secure_after_timeout_immediately_summary">Изисква се незабавно парола.</string>
     <string name="lock_screen_secure_after_timeout_immediately_never">Никога не изисквай парола</string>
     <string name="fingerprint_payment">Плащане с Пръстов отпечатък</string>
+    <string name="unlock_disable_frp_warning_content_profile">"Услугата Защита на Профила няма да работи без вашата парола.
+
+ Вие няма да можете да отключвате вашия профил, да оторизирате плащания или да се регистрирате в приложения свързани с тях."</string>
     <string name="print_settings_title">Услуги за отпечатване</string>
     <string name="dirac_control">Оптимизация на звука</string>
     <string name="dirac_mode_off">Dirac изкл.</string>
@@ -5229,7 +5270,6 @@
     <string name="wifi_master_key_service_dialog_title">Споделени WiFi мрежи</string>
     <string name="quiet_mode">Тих режим</string>
     <string name="screen_resolution_confirm">Рестарт</string>
-    <string name="enalbe_identify_iPhone">АП идентифициране</string>
     <string name="block_list_qcom_dialog_content">Това действие ще разкачи“%s” от това устройство и ще го добави в списък блокирани</string>
     <string name="block_list_mtk_dialog_content">Това действие ще разкачи“%s” от това устройство</string>
     <string name="miui_silent_title">тих режим: актив.</string>

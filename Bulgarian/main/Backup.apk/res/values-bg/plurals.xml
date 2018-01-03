@@ -5,8 +5,8 @@
         <item quantity="one">%d системен файл с данни</item>
     </plurals>
     <plurals name="backup_items_app_tailer">
-        <item quantity="other">%d файлове с данни за прилож</item>
-        <item quantity="one">%d файл с данни за прилож</item>
+        <item quantity="other">%d файлове с данни за приложения</item>
+        <item quantity="one">%d файл с данни за приложения</item>
     </plurals>
     <plurals name="data_item_count">
         <item quantity="other">%d елементи</item>

@@ -13,7 +13,7 @@
     <string name="app_category_games">Игри</string>
     <string name="app_category_health">Здраве</string>
     <string name="app_category_lifestyle">Лайфстайл</string>
-    <string name="app_category_music_movie">ТВ &amp; Музика</string>
+    <string name="app_category_music_movie">ТВ и Музика</string>
     <string name="app_category_news">Новини</string>
     <string name="app_category_photos">Фотография</string>
     <string name="app_category_productivity">Производителност</string>
@@ -94,7 +94,7 @@
     <string name="free_style_edit_bar_select_app">Избери приложение</string>
     <string name="free_style_edit_bottom_empty_tip">Докоснете правоъгълника за промяна</string>
     <string name="free_style_edit_drawer">Списък</string>
-    <string name="free_style_edit_move_tip">Натиснете &amp; задръжте за да преместите елемент</string>
+    <string name="free_style_edit_move_tip">Натиснете и задръжте за да преместите елемент</string>
     <string name="free_style_edit_tab_free_component">Свободни компоненти</string>
     <string name="free_style_edit_tab_shortcut">Преки пътища</string>
     <string name="free_style_edit_tab_widget">Джаджи</string>
@@ -277,7 +277,7 @@
     <string name="widget_quick_function">Бързи функции</string>
     <string name="defalut_launcher_title">Стартер по подразбиране</string>
     <string name="launcher_auto_fill_empty_title">Запълване на празните клетки</string>
-    <string name="launcher_title">Начален екран &amp; Последни</string>
+    <string name="launcher_title">Начален екран и Последни</string>
     <string name="lock_screen_cells_title">Схема на Заключен екран</string>
     <string name="miui_screen_config_title">Настройки на Начален екран</string>
     <string name="open_personal_assistant_dialog_btn_cancel">Отмени</string>

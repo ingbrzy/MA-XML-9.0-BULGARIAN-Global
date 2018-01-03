@@ -57,6 +57,7 @@
     <string name="save_pic_success">Запазване на изобр. в %s</string>
     <string name="save_pic_fail">Не може да се запази изобр. Прегледайте SD-картата си</string>
     <string name="pic_not_exist">Това изобр. не съществува</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Изберете продукт</string>
     <string name="michat_skillset_business_type_title">Изберете услуга</string>
     <string name="michat_close_text">Чатът е затворен</string>
@@ -105,7 +106,7 @@
     <string name="err_type_signal">Мрежи</string>
     <string name="err_type_wifi">Wi-Fi</string>
     <string name="err_type_bluetooth">Bluetooth</string>
-    <string name="err_type_appstore">Магазин за прилж</string>
+    <string name="err_type_appstore">Магазин за приложения</string>
     <string name="err_type_translate">Език</string>
     <string name="err_type_camera">Камера</string>
     <string name="err_type_systemapp">MIUI приложения</string>
@@ -290,10 +291,10 @@
     <string name="module_medias">Медия</string>
     <string name="module_communication">Връзка</string>
     <string name="module_tools">Системни инструменти</string>
-    <string name="module_desktop">Начален екран &amp; настройки</string>
-    <string name="module_security">Сигурност &amp; Mi Облак</string>
-    <string name="module_data">Хранилище &amp; Дублирани приложения</string>
-    <string name="module_finance">Финанси &amp; Mi Портфейл</string>
+    <string name="module_desktop">Начален екран и настройки</string>
+    <string name="module_security">Сигурност и Mi Облак</string>
+    <string name="module_data">Хранилище и Дублирани приложения</string>
+    <string name="module_finance">Финанси и Mi Портфейл</string>
     <string name="module_more">Още</string>
     <string name="module_search">Търсене</string>
     <string name="module_google_apps">Google приложения</string>
@@ -310,5 +311,5 @@
     <string name="customer_service_apply">Запитване към Обслужване на клиенти</string>
     <string name="customer_service_complain">Докладвайте на Обслужване на клиенти</string>
     <string name="customer_service_station">Местопол на Обслужване на клиенти</string>
-    <string name="select_system_app_tag">Изберете етикети</string>
+    <string name="select_system_app_tag">Изберете даден проблем</string>
 </resources>

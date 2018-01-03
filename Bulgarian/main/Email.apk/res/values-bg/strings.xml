@@ -76,7 +76,7 @@
     <string name="account_setup_basics_password_label">Въведете парола</string>
     <string name="account_setup_basics_title">Добавяне на профил</string>
     <string name="account_setup_check_settings_check_incoming_msg">Проверка на настройките на сървъра…</string>
-    <string name="account_setup_check_settings_check_outgoing_msg">Валидиране на настройките на smtp…</string>
+    <string name="account_setup_check_settings_check_outgoing_msg">Потвърждаване на SMTP настройки…</string>
     <string name="account_setup_check_settings_retr_info_msg">"    Извличане на информация за профила…"</string>
     <string name="account_setup_correct_address_tips">Въведете адрес на ел. поща</string>
     <string name="account_setup_creating_account_msg">"    Създаване на профил…"</string>
@@ -155,7 +155,6 @@
     <string name="account_sync_settings_settings">Синхронизиране на контакти и календар</string>
     <string name="account_sync_settingstip_description">Синхр</string>
     <string name="account_waiting_for_folders_msg">Зареждане на папки…</string>
-    <string name="actionbar_large_unread_count">"%1$d  + непрочетени"</string>
     <string name="activity_folder_selection">Изберете папка</string>
     <string name="activity_mailbox_selection">Изберете профил</string>
     <string name="ad_merge">Реклами &amp; уведомления</string>
@@ -220,6 +219,8 @@
     <string name="bank_card_detail">Кредитна карта</string>
     <string name="battery_saver">Икономия на батерията</string>
     <string name="battery_saver_keywords">икономия на батерията; енергия използвана от пощата</string>
+    <string name="bcc">Bcc</string>
+    <string name="bcc_heading">"Препращане на: "</string>
     <string name="bill_center_setting">Настройки на сметките</string>
     <string name="bill_center_setting_head">Импортиране на информация от профила</string>
     <string name="bill_cycle_text">Цикъл на плащане</string>
@@ -239,6 +240,9 @@
     <string name="cancel_action">Отказ</string>
     <string name="cancel_pop3_attchemt_downloading">Не може да отмените текущите изтегляния за прикачени файлове в POP3 профили</string>
     <string name="cant_move_or_change_labels">Не може да премествате елементи от много профили.</string>
+    <string name="cc">Cc</string>
+    <string name="cc_attribution">Копие до %1$s&lt;br></string>
+    <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Копие до: "</string>
     <string name="change_folders_selection_dialog_title">Промяна на папки</string>
     <string name="change_sync_settings">Промяна на настройките за синхронизиране</string>
@@ -463,10 +467,10 @@
     <string name="gmail_web_login_go">OK</string>
     <string name="gmail_web_login_required_message">Влезте в Gmail</string>
     <string name="header_category_account">Профили</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">Обратна връзка</string>
     <string name="header_label_general_preferences">Общи настройки</string>
     <string name="help_and_info">Помощ</string>
-    <string name="hide_atts_remaining">Скрий %1$d прикачени файлове</string>
     <string name="hide_elided">▼ скриване на цитирания текст</string>
     <string name="hide_password">Скрий парола</string>
     <string name="hint_quick_reply_all">Отговор до всички</string>
@@ -485,13 +489,13 @@
     <string name="invalid_recipient">"Адресът %s  е невалиден."</string>
     <string name="invalid_recipient_title">Получателят не съществува</string>
     <string name="kilobytes">"%s  КБ"</string>
+    <string name="label_notification_ticker" formatted="false">%s: %s</string>
     <string name="load_from_remote">Търсене на пощенска кутия на сървъра</string>
     <string name="load_more">Зареди още</string>
     <string name="loading_conversation">Зарежда се…</string>
     <string name="loading_conversations">Зарежда се…</string>
     <string name="loading_from_remote">Зарежда се…</string>
     <string name="local_search">Локално търсене</string>
-    <string name="local_search_result">"%s  резултати за синхронизирани съобщения"</string>
     <string name="login">Вписване</string>
     <string name="login139">Вписване в China Mobile</string>
     <string name="login_failed_ticker">"%s  с неуспешно вписване."</string>
@@ -607,7 +611,6 @@
     <string name="mibill_privacy_policy_link">Използвайки тази функция, вие се съгласявате с нашите <a href="https://www.mipay.com/res/doc/eula/email.html"> Условия за ползване</a></string>
     <string name="mibill_privacy_policy_title">Автоматично управление на сметки</string>
     <string name="min_payment_text">Минимално плащане</string>
-    <string name="more_atts_remaining">Още %1$d остават</string>
     <string name="more_context">Още</string>
     <string name="move_to_selection_dialog_title">Преместване в друга папка</string>
     <string name="multiple_new_message_notification_item"><b>%1$s</b>"   %2$s"</string>
@@ -619,7 +622,6 @@
     <string name="network_try_again">Проверете мрежовата връзка и опитайте отново</string>
     <string name="network_unavailable">Мрежа не е налична</string>
     <string name="new_incoming_messages_one">Ново съобщение от %s . Преглеждане.</string>
-    <string name="new_messages">Показване на %1$d нови съобщения</string>
     <string name="new_signature_has_saved">Записано успешно</string>
     <string name="next_action">Следващ</string>
     <string name="no">Не</string>
@@ -794,7 +796,6 @@
     <string name="quick_3">Ще прочетем това по-късно и ще се свържем с вас.</string>
     <string name="quick_4">Нека да направим сявещание да обсъдим това.</string>
     <string name="quick_reply_dialog_title">Изберете отговор</string>
-    <string name="quick_reply_hint">Отговор на %1$d хора</string>
     <string name="quick_reply_hint_bcc">(В Копие до)</string>
     <string name="quick_reply_hint_cc">(В Копие до)</string>
     <string name="quick_reply_hint_reply_only_from">Бърз отговор (само за подателя)</string>
@@ -814,8 +815,10 @@
     <string name="recognize_hotel_other_money">%1$s други разходи</string>
     <string name="recognize_hotel_reverse_date">Регистрирай се преди %1$s:%2$s%3$s</string>
     <string name="recognize_hotel_room_type">Стая</string>
+    <string name="recognize_hotel_room_type_value">%1$s × %2$s</string>
     <string name="recognize_hotel_title">Резервиране на хотел</string>
     <string name="recognize_hotel_user_names">Гост</string>
+    <string name="recognize_hotel_user_names_value">%1$s+%2$s</string>
     <string name="recognize_setting_title">Настройки на пътуването</string>
     <string name="recognize_ticket_air_notification_content">Насладете се на вашия полет!</string>
     <string name="recognize_ticket_air_notification_title">Полет %3$s (%1$s/%2$s) ще бъде изведен за излитане скоро. Проверете пак информацията за вашия полет.</string>
@@ -837,7 +840,6 @@
     <string name="refreshing_done">Готово</string>
     <string name="release_to_refresh">Освободете, за да се презареди…</string>
     <string name="remind_attachment_size_limit">Вашите писма трябва да бъдат по-малко от %sМБ</string>
-    <string name="remote_search_result">"%s  резултати на сървъра"</string>
     <string name="remove_account">Премахване напрофил</string>
     <string name="remove_folder">"Премахване от %1$s "</string>
     <string name="remove_star">Премахване от любими</string>
@@ -874,6 +876,7 @@
     <string name="security_unsupported_ticker_fmt">Профила \"%s \" не може да се синхронизира поради изисквания за сигурност.</string>
     <string name="select_attachment_type">Изберете прикачен файл</string>
     <string name="select_no_file">Няма избрани прикачени файлове</string>
+    <string name="select_path">Избор на път</string>
     <string name="send">Изпрати</string>
     <string name="send_failed">Съобщението не е изпратено.</string>
     <string name="send_feed_back">Изпрати отзив</string>
@@ -915,6 +918,7 @@
     <string name="silent_ringtone">Без звук</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
+    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="smtp_password_error">Паролата за сървъра за изходяща поща е неправилна</string>
     <string name="sort_attachment">Сортиране по</string>
     <string name="storage">Хранилище</string>
@@ -944,6 +948,7 @@
     <string name="tablet">таблет</string>
     <string name="tap_to_configure">Докоснете, за да настроите.</string>
     <string name="tap_to_enable_sync">Докоснете, за да включите.</string>
+    <string name="to">На</string>
     <string name="to_heading">"До: "</string>
     <string name="toast_bar_fail_synchronization">Не може да се свърже с мрежата</string>
     <string name="toast_bar_insufficient_memory_space">Не мога да получавам имейли. Няма достатъчно място за съхранение.</string>
@@ -981,7 +986,6 @@
     <string name="undo">Отмени</string>
     <string name="unknow">Неизвестен</string>
     <string name="unread_string">непрочетена кореспонденция</string>
-    <string name="unsent_messages_in_outbox">%1$s неизпратени в %2$s</string>
     <string name="unzip_file_failed">Неуспешно разархивиране на файла</string>
     <string name="update_date_format_templete">HH:mm aa, MMMM dd</string>
     <string name="update_to_wps_mail">Насладете се на повече функции с WPS поща</string>
@@ -1021,4 +1025,12 @@
     <string name="you_are_in_mobile_network">Използване на мобилни данни, за да качвате регистрационни файлове?</string>
     <string name="youfuli">Промоция</string>
     <string name="zip_viewer_no_file">Няма файлове.</string>
+    <string name="actionbar_large_unread_count">"%1$d  + непрочетени"</string>
+    <string name="hide_atts_remaining">Скрий %1$d прикачени файлове</string>
+    <string name="local_search_result">"%s  резултати за синхронизирани съобщения"</string>
+    <string name="more_atts_remaining">Още %1$d остават</string>
+    <string name="new_messages">Показване на %1$d нови съобщения</string>
+    <string name="quick_reply_hint">Отговор на %1$d хора</string>
+    <string name="remote_search_result">"%s  резултати на сървъра"</string>
+    <string name="unsent_messages_in_outbox">%1$s неизпратени в %2$s</string>
 </resources>

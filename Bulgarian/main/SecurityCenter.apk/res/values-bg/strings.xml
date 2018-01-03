@@ -36,7 +36,8 @@
     <string name="dlg_clear_current_call">Да се изтрият ли всички блокирани обаждания от този номер?</string>
     <string name="dlg_clear_all_ok">Изчисти всичко</string>
     <string name="dlg_clear_current_ok">Почисти</string>
-    <string name="dlg_no_block">Да се деблокира ли този номер и да се върне обратно в списъка с обаждания?</string>
+    <string name="dlg_no_block">"Да се отблокира ли този номер?
+Той ще бъде добавен към изключенията, но предишните блокирани повиквания или съобщения от него няма да се показват в историята на повикванията."</string>
     <string name="dlg_no_block_ok">Деблокирай</string>
     <string name="dlg_add_blacklist_title">Добави към списъка с блокирани</string>
     <string name="dlg_add_blacklist">Да се блокира ли този номер?</string>
@@ -62,6 +63,14 @@
     <string name="dlg_antispam_mode_delete_message">Не можете да възстановявате потр. правила за блокиране след като са били изтрити.</string>
     <string name="dlg_antispam_using_mode_delete_message">Да се изтрие ли профила за блокиране, който се използва в момента и да се премине към стандартния профил за блокиране?</string>
     <string name="dlg_antispam_using_mode_international_delete_message">Да се изтрие ли профила за блокиране, който се използва в момента и да се премине към стандартния профил за блокиране?</string>
+    <string name="back_sound_success">Успех!</string>
+    <string name="back_sound_fail">Неуспешно！</string>
+    <string name="back_sound_support">Текущите мрежови оператори не поддържат тази услуга！</string>
+    <string name="back_sound_data">Изисква се клетъчна мобилна мрежа, моля опитайте пак!</string>
+    <string name="dlg_move_to_white">Добави към изключения</string>
+    <string name="dlg_add_white">Бъдещите повиквания и съобщения от тези номера, които са добавени към изключенията, ще бъдат показвани в история на повикванията и входящата кутия за съобщения. Предишните блокирани такива няма да се показват. Да добавя ли избраните номера в изключенията?</string>
+    <string name="dlg_not_block_sms">Да се отблокират ли избраните номера? Те ще бъдат добавени в изключенията, но предишните блокирани съобщения няма да се показват във Входяща кутия.</string>
+    <string name="dlg_not_block_call">Да се отблокират ли избраните номера? Те ще бъдат добавени в изключенията, но предишните блокирани повиквания няма да се показват история на повикванията.</string>
     <string name="menu_call">Набери</string>
     <string name="menu_sms">Изпрати съобщение</string>
     <string name="menu_bl_call_log">Покажи блокираните обаждания</string>
@@ -73,6 +82,7 @@
     <string name="menu_remove">Премахни</string>
     <string name="st_settings_name">Настройки за блокиране</string>
     <string name="st_filter_keywords_setting_summary1">Съобщенията от непознати номера, които съдържат думите от този списък ще бъдат блокирани.</string>
+    <string name="st_filter_keywords_setting_summary3">Ще бъдат разрешени съобщения от неизвестни номера, съдържащи думите в този списък.</string>
     <string name="st_filter_keywords_setting_summary2">"
 (Използвайте запетая, за да разделите думите)"</string>
     <string name="label_callwait">Известие за изчакване на повикване</string>
@@ -163,7 +173,8 @@
     <string name="st_title_open_antispam">Списък блокирани</string>
     <string name="st_title_antispam_mode">Правила</string>
     <string name="st_sub_title_whiteblack_list_group">Списък блокирани</string>
-    <string name="st_title_keywords_blacklist">Филтър по кл. думи</string>
+    <string name="st_title_keywords_blacklist">Черен списък на ключовите думи</string>
+    <string name="st_title_keywords_whitelist">Бял списък за ключови думи</string>
     <string name="st_title_blacklist_numbers">Блокирани номера</string>
     <string name="st_title_whitelist_numbers">Изключения</string>
     <string name="st_title_backsound_group">Звук при блокиране</string>
@@ -262,14 +273,16 @@
     <string name="website">Уебсайт</string>
     <string name="address">Адрес</string>
     <string name="note">Бележка</string>
-    <string name="antispam_xpace_text">Превключете към Първо пространство, за да настроите списък с блокирани</string>
+    <string name="antispam_xpace_text">Превключете към Основно работно място, за да настроите списък с блокирани</string>
     <string name="antispam_mode_details">Подробности за списък с блокирани</string>
     <string name="st_share_settings">Използвай настройки на SIM 1</string>
     <string name="st_msg_settings">Блокиране по SMS</string>
     <string name="st_msg_intercept_contacts">Блокирай SMS от контакти</string>
     <string name="st_msg_stranger_group">Блокирай SMS от непознати</string>
     <string name="st_msg_other_group">Друго</string>
-    <string name="st_msg_keyword_group">Блокиране по ключови думи</string>
+    <string name="st_msg_keyword_group">Ключови думи</string>
+    <string name="st_msg_keyword_black">Блокиране по ключови думи</string>
+    <string name="st_msg_keyword_white">Изключения по ключови думи</string>
     <string name="st_call_settings">Списък с блокирани обаждания</string>
     <string name="st_call_intercept_stranger">Блокиране на обаждания от непознати</string>
     <string name="st_call_intercept_forwarding">Блокирай пренасочените</string>
@@ -361,6 +374,7 @@
     <string name="firewall_restrict_android_dialog_content">За да може устройството ви да работи нормално, няколко системни за Android приложения все още ще се свързват с интернет. Тези приложения ще използват мобилни данни и може да генерират малки такси към вашия оператор.</string>
     <string name="background_restrict_app_dialog_message">Ограничаването на достъпа до мрежата на заден план ще направи невъзможна нормалната работа на приложенията, получаването на съобщения, изтеглянето на всякакво съдържание и т. н. Да се ограничи ли въпреки това?</string>
     <string name="firewall_allow_network">Приеми</string>
+    <string name="app_bg_restrict_dialog_message">Ограничаването на мрежовата връзка на заден план може е причина приложението да не работи нормално. Например да не получавате вече съобщения или актуализации. Да се ограничи ли въпреки това?</string>
     <string name="firewall_network_allow">Позволено е на %1$s да използва %2$s връзка</string>
     <string name="search_result_text">Не може да се открият приложения</string>
     <string name="firewall_mobile_dialog_message">Инсталираното приложение няма да може да се свърже с интернет чрез мобилни данни, когато те са изключени.</string>
@@ -388,7 +402,8 @@
     <string name="detail_app_button">Детайли</string>
     <string name="pref_about_traffic_title">Настройка на трафика</string>
     <string name="pref_traffic_manage_title">Използвани данни</string>
-    <string name="pref_package_traffic_settings">Лимит за мобилни данни</string>
+    <string name="pref_operator_setting">%1$s: %2$s</string>
+    <string name="pref_package_traffic_settings">План за данни</string>
     <string name="pref_adjust_traffic_data">Задаване на изп. на данни</string>
     <string name="pref_category_title_other">Допълнитени настройки</string>
     <string name="pref_title_update_notification">Показване на известия за трафика</string>
@@ -396,6 +411,7 @@
     <string name="pref_title_traffic_speed_state">Показване на скороста на мрежата</string>
     <string name="pref_title_declaration">Отказ от отговорност</string>
     <string name="pref_new_installed_preconfig_title">Стандартни настройки за нови прил.</string>
+    <string name="pref_bg_network_title">Връзка на заден план</string>
     <string name="pref_mi_sim_settings">Настройки на Mi SIM</string>
     <string name="pref_title_upload_data_usage">Докладвайте за бъг при отчитането на данните</string>
     <string name="pref_summary_upload_data_usage">Докладвайте за проблеми при отчитането на изразходваните мобилни данни, за да ни помогнете да подобрим MIUI. Докладваното е съобразно нашите правила за сигурност.</string>
@@ -631,7 +647,7 @@
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="roaming_allow_network_dialog_title">Позволяване на роуминг за мобилни данни?</string>
     <string name="title_limit_traffic_per_day">Дневен лимит за данни</string>
-    <string name="daily_limit_and_lock_screen">Лимит за данни и известия</string>
+    <string name="daily_limit_and_lock_screen">Предупреждение за използв. на данни</string>
     <string name="pref_title_traffic_limit_number">Размер</string>
     <string name="pref_title_over_traffic_limit_warning">При превишаване</string>
     <string name="reach_daily_limit_value_title">Достигнахте дневният си лимит за данни</string>
@@ -646,7 +662,7 @@
     <string name="lock_screen_warning_switch_title">Показвай известия на закл. екран</string>
     <string name="lock_screen_warning_switch_summary">Показвай предупреждения на закл. екран когато използваните данни надвишат дадена стойност</string>
     <string name="lock_screen_warning_value">Предупреждение за данни</string>
-    <string name="pref_normal_traffic_limit">Когато дневният лимит за данни е надвишен</string>
+    <string name="pref_normal_traffic_limit">Когато планът за данни е изразходван</string>
     <string name="pref_over_traffic_limit">Когато сте надвишили вашия лимит за данни</string>
     <string name="traffic_warning_purchase_title">Известие за използвани данни</string>
     <string name="traffic_purchase_body">Чукнете, за да добавите данни.</string>
@@ -744,8 +760,8 @@
 
 "<b>5. Проверете дали рутера има връзка с интернет</b>"
 Проверете кабела дали е свързан към рутера. Свържете се с доставчика на интернет ако нямате връзка."</string>
-    <string name="permission_exception_title">Показване на мрежовите разрешения</string>
-    <string name="permission_exception_summary">Някой приложения нямат разрешение за свързване към интернет</string>
+    <string name="permission_exception_title">Ограничена връзка за приложенията</string>
+    <string name="bg_network_exception_title">Ограничена мрежова връзка</string>
     <string name="networkchanged_exception_title">Променена връзка</string>
     <string name="networkchanged_exception_summary">Връзката с мрежата бе променена. Моля, тествайте отново.</string>
     <string name="network_test_speed">Тест на Wi-Fi скоростта</string>
@@ -802,8 +818,6 @@
     <string name="diagnostic_attention_dialog_message">Протича диагностика за %1$s. Изчакайте да приключи и опитайте отново.</string>
     <string name="correction_attention_dialog_message">Регулиране на настройките. Изчакайте докато процесът завърши и опитайте отново.</string>
     <string name="text_button">Разбрах</string>
-    <string name="vpn_unbale_get_phonenum">Не може да се получи телефонен номер когато се използват обозначени планове за мобилни данни</string>
-    <string name="vpn_disabled_by_user">Обозначената връзка с мобилни данни е изключена</string>
     <string name="btn_back">Обратно</string>
     <string name="firewall_allow_data">Разреши мобилните данни</string>
     <string name="firewall_restrict_data">Ограничи мобилните данни</string>
@@ -900,6 +914,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Това приложение може да забави прекалено много
 вашето устройство"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Деинсталиране на %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Деинсталирайте това приложение, за да поправите проблем с прекален разход на батерията.</string>
     <string name="om_ill_proc_type_wakelock_title">Това приложение блокира режим сън на устройството и изразходва много батерия</string>
@@ -930,7 +945,7 @@
     <string name="power_consume_rank_title">Използване на батерията</string>
     <string name="power_consume_rank_software">Приложения</string>
     <string name="power_consume_rank_hardware">Система</string>
-    <string name="power_consume_software_total_format">Прилож: %s</string>
+    <string name="power_consume_software_total_format">Приложения: %s</string>
     <string name="power_consume_hardware_total_format">Хардуер: %s</string>
     <string name="power_consume_other">Други</string>
     <string name="battery_desc_other_apps">Разход на батерия от други приложения</string>
@@ -1259,7 +1274,7 @@
     <string name="path_powercenter">Системни приложения/Сигурност/Използване на батерията</string>
     <string name="resource_auto_restart">Настройки за автостарт</string>
     <string name="keywords_auto_restart">Автостарт; Права;Автоматично стартиране;Автостарт; Настройки на автостарт; MIUI автостарт; Автостарт на приложения; автостарт на прилож;Ограничено стартиране;ограничен старт;внезапно стартиране</string>
-    <string name="path_auto_restart">Системни приложения/Оптимизация/Разрешения /Автостарт</string>
+    <string name="path_auto_restart">Системни приложения/Оптимизация/Разрешения /Автостартиране</string>
     <string name="resource_usb_install">Инсталирайте през USB</string>
     <string name="keywords_usb_install">USB инсталиране;инсталиране от компютър;ADB инсталиране</string>
     <string name="path_usb_install">Системни приложения/Оптимизация/Разрешения/Инсталиране през USB</string>
@@ -1281,9 +1296,9 @@
     <string name="resource_networkassistant_4">Тест на мрежата</string>
     <string name="keywords_networkassistant_4">Връзка;Интернет;Тест</string>
     <string name="path_networkassistant_4">Системни приложения/Сигурност/Използване на мобилни данни/тест на мрежата</string>
-    <string name="resource_powercenter_powerrank">Батерия &amp; производителност</string>
+    <string name="resource_powercenter_powerrank">Батерия и производителност</string>
     <string name="keywords_powercenter_powerrank">Използване на батерията</string>
-    <string name="path_powercenter_powerrank">Батерия &amp; производителност/Използване на батерията</string>
+    <string name="path_powercenter_powerrank">Батерия и производителност/Използване на батерията</string>
     <string name="resource_gamebooster">Подобряване бързината при игри</string>
     <string name="keywords_gamebooster">Игра;увеличаване на скоростта;King of Glory;Режим на изпълнение;DND;Игри;Играене;Скорост на игра;ускорение</string>
     <string name="path_gamebooster">Системни приложения/Оптимизация/Ускорител на игри</string>
@@ -1302,6 +1317,7 @@
     <string name="menu_text_networkassistants">Монитор за данни</string>
     <string name="menu_text_networkassistants_remain">%s остават</string>
     <string name="menu_text_networkassistants_danger">%s над лимита</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">ГБ</string>
     <string name="menu_text_networkassistants_unit_mb">МБ</string>
     <string name="menu_text_networkassistants_unit_kb">КБ</string>
@@ -1593,7 +1609,7 @@
     <string name="antivirus_toast_network_unavailable">Не може да се свърже с мрежата</string>
     <string name="handle_title_network">Защита на Wi-Fi</string>
     <string name="handle_title_pay_env">Среда за плащане</string>
-    <string name="handle_title_privacy">Поверителност &amp; сигурност</string>
+    <string name="handle_title_privacy">Поверителност и сигурност</string>
     <string name="risk_count_suffix" />
     <string name="virus_auto_update_engine">Автом. актуализиране: %s</string>
     <string name="hints_scan_danger_result">Открит е риск, поправете сега</string>
@@ -1662,6 +1678,7 @@
     <string name="card_main_deepclean_wechat_action">Изчистване</string>
     <string name="card_main_sectool_title">Инструменти</string>
     <string name="card_main_monthreport_action">Покажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Диагностика на мрежата</string>
     <string name="card_main_netcheck_summary">Диагностика на мрежата за проблеми при свързването</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -1764,10 +1781,10 @@
     <string name="lockscreen_access_pattern_cleared">Фигурата е изтрита</string>
     <string name="lockscreen_access_pattern_cell_added">Клетката е добавена</string>
     <string name="lockscreen_access_pattern_detected">Фигурата е завършена</string>
-    <string name="applock_add_account_setting">Профил &amp; сигурност</string>
+    <string name="applock_add_account_setting">Профил и сигурност</string>
     <string name="applock_add_account_info">Добавете вашия Mi профил, за да можете да нулирате вашата парола в случай, че я забравите.</string>
     <string name="applock_exit_account_info">Профилът ще бъде премахнат автоматично, когато се отпишете</string>
-    <string name="applock_login_and_add_account">Вписване в &amp; добави</string>
+    <string name="applock_login_and_add_account">Вписване и добавяне</string>
     <string name="applock_not_add_account"><u>Не сега</u></string>
     <string name="applock_add_account">Добави</string>
     <string name="applock_not_login_account">Не сте вписан</string>
@@ -1846,8 +1863,8 @@
     <string name="sys_app_prot_cracked_confirm">Разбрах</string>
     <string name="confirmSecondSpacePassword">Потвърдете вашата парола за Второ работно място</string>
     <string name="sponsored_sec_fb">Спонсорирани</string>
-    <string name="add_game_notification_summary">Докоснете за стартиране &amp; ускорение</string>
-    <string name="app_manager_title">Управление на прилож</string>
+    <string name="add_game_notification_summary">Докоснете за стартиране и ускорение</string>
+    <string name="app_manager_title">Управление на приложенията</string>
     <string name="app_manager_app_lock">Закл. приложения</string>
     <string name="app_manager_bipartition">Клонирани приложения</string>
     <string name="app_manager_perm">Разрешения</string>
@@ -1869,28 +1886,11 @@
     <string name="app_manager_force_stop_dlg_text">Ако спрете принудително приложението, то може да не функционира добре.</string>
     <string name="app_manager_dlg_ok">OК</string>
     <string name="app_manager_dlg_cancel">Отмяна</string>
-    <string name="app_manager_wake_path_card_title">Хронология на верижно стартиране (2 дни)</string>
     <string name="app_manager_show_detail_infos">Виж всички</string>
-    <string name="app_manager_wakepath_dialog_title">За верижното стартиране</string>
-    <string name="app_manager_wakepath_dialog_summary">Верижно стартиране е, когато едно приложение стартира друго във фонов режим на работа. Това води до прекалена консумация на енергия и забавяне на системата. MIUI обикновено блокира верижното стартиране.</string>
-    <string name="app_manager_wakepath_dialog_buttontext">Разбрах</string>
-    <string name="app_manager_stop_wakepath_dialog_title">Ограничи верижното стартиране</string>
-    <string name="app_manager_stop_wakepath_dialog_summary">Деинсталиране на %s за ограничаване на верижното стартиране?</string>
-    <string name="app_manager_stop_wakepath_dlg_msg_with_xspace_app">Деинсталирането на това приложение ще ограничи верижното стартиране. Свързаните клонирани приложения също ще бъдат премахнати. Деинсталиране на %s?</string>
-    <string name="app_manager_stop_wp_dialog_cancel">Отмяна</string>
-    <string name="app_manager_stop_wp_dialog_uninstall">Деинсталиране</string>
-    <string name="app_manager_reduce_wakepath_dialog">Сведи до минимум верижното стартиране</string>
-    <string name="app_manager_reduce_wakepath_summary">Ограничаването на автоматичното стартиране ще прекъсне и верижното стартиране. Ограничи автоматичното стартиране за %s?</string>
-    <string name="app_manager_rebide_wakepath">Ограничаване</string>
-    <string name="app_manager_stop_wakepath_success">Успешно ограничено</string>
-    <string name="app_maanger_app_uninstalled_toast">Това приложение е деинсталирано</string>
     <string name="app_manager_start_by">Стартирано от %s</string>
     <string name="app_manager_uninstall_xspace_app_dlg_msg">Деинсталирането на клонираните приложения ще изтрие и данните им.</string>
     <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Съответните клонирани приложения ще бъдат премахнати заедно с данните им.</string>
     <string name="app_manager_uninstall_xspace_app_dlg_title">Деинсталиране на клонирано приложение?</string>
-    <string name="app_manager_reject_count_over">Блокирани 100000+ пъти</string>
-    <string name="app_manager_start_count_over">100000+ пъти</string>
-    <string name="app_manager_loading_data">Данните се зареждат…</string>
     <string name="app_manager_appupdate_remind">Уведомяване за актуализации</string>
     <string name="app_usage_never">Не е използвано</string>
     <string name="app_usage_recently">Скоро използвани</string>
@@ -1906,7 +1906,6 @@
     <string name="app_manager_powerkeeper_miui_auto">MIUI Икономия на батерия</string>
     <string name="app_manager_powerkeeper_restrict_bg">Ограничаване на процесите на заден план</string>
     <string name="app_manager_powerkeeper_no_bg">Ограничаване на активността на заден план</string>
-    <string name="app_manager_instruction">Инструкция</string>
     <string name="app_manager_app_storage">"Хранилище: "</string>
     <string name="app_manager_app_traffic">"Употреба на данни: "</string>
     <string name="app_manager_app_power">"Употреба на батерия: "</string>
@@ -1945,7 +1944,7 @@
  "<li>Ограничения за данни във фонов режим</li>"
 
  Вие няма да загубите никаква информация."</string>
-    <string name="app_manager_reset_app_preferences_button">Нулирай прилож</string>
+    <string name="app_manager_reset_app_preferences_button">Нулирай приложения</string>
     <string name="app_manager_disable_text">Деактивирай</string>
     <string name="app_manager_enable_text">Активирай</string>
     <string name="app_manager_disable_dlg_title">Изкл на системни приложения?</string>
@@ -1976,6 +1975,9 @@
     <string name="app_manager_support_uninstall">Вие можете да деинсталирате тези приложения</string>
     <string name="app_manager_not_support_uninstall">Не може да се деинсталират тези приложения</string>
     <string name="app_manager_comuting_size">Обработка…</string>
+    <string name="app_manager_show_all_apps_opened">Покажи резултатите от всички приложения…</string>
+    <string name="app_manager_search_prompt">Не може да намерите резултати? Опитайте показване на резултати от всички приложения.</string>
+    <string name="app_manager_open_show_all_apps_immediate">Покажи всички резултати</string>
     <string name="ad_btn_default_text">Научете повече</string>
     <string name="open_activity_err">Приложението не е открито</string>
     <string name="low_memory_warning_dialog_title">Няма достатъчно място в хранилището</string>
@@ -2049,6 +2051,8 @@
     <string name="more_game">Още игри</string>
     <string name="sys_title_gamebooster_unit_gb">Г</string>
     <string name="sys_title_gamebooster_unit_mb">M</string>
+    <string name="gmscore_support_service">Услуги на Google</string>
+    <string name="gmscore_support_remind">Включете тази услуга, ако имате проблеми с използването на Gmail, Google Карти и други услуги на Google. Ще се съкрати малко животът на батерията.</string>
     <string name="google_base_app_install_choice">\"%s\" изисква услугата Google Service Framework, за да работи нормално, да се изтегли ли и инсталира сега?</string>
     <string name="application_item_disable">Забранено</string>
     <string name="application_item_already_permission">Позволено</string>
@@ -2066,7 +2070,9 @@
     <string name="scan_installed_games">Проверка на инсталираните игри…</string>
     <string name="boostering">Ускоряване на системата…</string>
     <string name="booster_suc">Ускоряването е успешно</string>
-    <string name="support_game_booster_tips">Подобряване на скоростта &amp; поведението при игри</string>
+    <string name="auto_booster_suc">Ускоряването е успешно</string>
+    <string name="auto_back_booster">Спиране на ускорителя</string>
+    <string name="support_game_booster_tips">Подобряване на скоростта и поведението при игри</string>
     <string name="setting">Настройки</string>
     <string name="loading">Момент…</string>
     <string name="auto_import_games">Поставете вашите игри на едно място</string>
@@ -2117,4 +2123,10 @@
     <string name="game_booster_close">Ускорителят на игри е изключен</string>
     <string name="databooster_tips_title">Внимание</string>
     <string name="databooster_tips_message">Включете, за да ограничите всички SIM карти, с изключение на тази за данни. Изключете тази услуга, ако игрите дават грешка след вашия избор.</string>
+    <string name="gb_description_image_button_answer">Отговор</string>
+    <string name="gb_description_image_button_video_answer">Видеообаждане</string>
+    <string name="gb_description_image_button_reject">Отхвърли</string>
+    <string name="gs_autobooster">Ускори автоматично</string>
+    <string name="gs_autobooster_detail">Ускори скоростта за избраните игри автоматично</string>
+    <string name="gs_autobooster_dialog_message">Ако използвате Xunyou ускорител, отворете игрите на обозначеното място.</string>
 </resources>

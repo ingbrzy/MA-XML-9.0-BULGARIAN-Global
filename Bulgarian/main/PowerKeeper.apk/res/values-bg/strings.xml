@@ -107,7 +107,7 @@
     <string name="mode_settings">Настройки</string>
     <string name="hide_mode_desc">Икономия на батерията чрез ограничаване на процесите на заден план, Wi-Fi, мобилните данни и GPS за всяко приложение поотделно</string>
     <string name="hide_mode_ultimate_desc">Режим оптимизиране е вкл. Приложенията на заден план ще бъдат замразени. Изключете Икономия на батерия за да излезете от режим Оптимизиране.</string>
-    <string name="power_hide_mode_title">Батерия &amp; производителност</string>
+    <string name="power_hide_mode_title">Батерия и производителност</string>
     <string name="power_hide_mode_summary">Икономия на батерията чрез ограничаване на процесите на заден план, Wi-Fi, мобилните данни и GPS за всяко приложение поотделно</string>
     <string name="power_config_apps">Икономия на батерия</string>
     <string name="app_list_title">Избор на приложения</string>

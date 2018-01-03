@@ -65,7 +65,7 @@
     <string name="class_0_message_activity">Съобщение клас 0</string>
     <string name="close">Затвори</string>
     <string name="cloud_recommend_msg">Чукнете, за да синхр. съобщенията с Mi Cloud.</string>
-    <string name="cloud_state_disabled">Синхр. с Mi Cloud е изкл.</string>
+    <string name="cloud_state_disabled">Включете синхронизирането с Mi Облак за да синхронизирате съобщенията</string>
     <string name="cloud_state_sync_finished">Синхронизирано с Mi Cloud</string>
     <string name="cloud_state_syncing">Синхр. се с Mi Cloud…</string>
     <string name="compressing">Снимката е прекалено голяма. Компресиране…</string>
@@ -74,7 +74,7 @@
     <string name="confirm_delete_SIM_message">Съобщението ще бъде изтрито от SIM картата.</string>
     <string name="confirm_delete_all_SIM_messages">Всички съобщения на SIM картата ще бъдат изтрити.</string>
     <string name="confirm_delete_all_conversations">Всички разговори ще бъдат изтрити.</string>
-    <string name="confirm_delete_conversation">Целият разговор ще бъде изтрит.</string>
+    <string name="confirm_delete_conversation">Да се изтрие ли този разговор?</string>
     <string name="confirm_delete_group_message">Груповите съобщения ще бъдат изтрити.</string>
     <string name="confirm_delete_locked_message">Наистина ли искате да изтриете това заключено съобщение?</string>
     <string name="confirm_delete_message">Ще изтриете ли съобщението?</string>
@@ -179,6 +179,7 @@
     <string name="file_size">Размер:</string>
     <string name="file_title">Име:</string>
     <string name="file_width_height">Размер:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ново съобщение</string>
     <string name="forward_from">Препратено от:</string>
     <string name="forward_prefix">От:</string>
@@ -528,6 +529,7 @@
     <string name="send_signature_confirm_dialog_title">Изпрати подпис</string>
     <string name="send_sms">Изпрати съобщение</string>
     <string name="send_to">До:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Изпратено в: %1s</string>
     <string name="sent_label">Изпратени:</string>
     <string name="service_message_not_found">Съобщението е изтекло или не е достъпно</string>

@@ -36,7 +36,7 @@
     <string name="could_not_use_app">%1$s не може да се използва.</string>
     <string name="pay_with">Плащане с/ъс</string>
     <string name="complete_with">Завършване с/ъс</string>
-    <string name="default_pay_app_removed">Избраната от вас услуга за плащане&amp; е премахната. Избиране на друга?</string>
+    <string name="default_pay_app_removed">Избраната от вас услуга за плащане е премахната. Избиране на друга</string>
     <string name="ask_nfc_tap">Чукнете на другото устройство, за да завършите</string>
     <string name="wifi_connect">Свързване</string>
     <string name="status_unable_to_connect">Няма връзка с мрежата</string>
