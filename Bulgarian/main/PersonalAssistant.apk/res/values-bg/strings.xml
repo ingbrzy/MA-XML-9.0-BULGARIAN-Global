@@ -280,9 +280,7 @@
     <string name="express_booking_txt">Поръчка за експресна доставка</string>
     <string name="express_code_txt">Код:</string>
     <string name="express_complete">Прието</string>
-    <string name="express_complete_flag">3</string>
     <string name="express_delivery">Доставено</string>
-    <string name="express_delivery_flag">5</string>
     <string name="express_icon_tip">Изтеглете информация за проследяване на експресна поръчка чрез телефонен номер и информация за поръчката.</string>
     <string name="express_icon_tip_link">Сигурност &amp; поверителност</string>
     <string name="express_install_cainiao_description">%s изисква инсталирането на Cainiao. Инсталиране сега?</string>
@@ -529,7 +527,6 @@
     <string name="payment_total_today_desc">Днес</string>
     <string name="payment_unit_cny">CNY</string>
     <string name="personalAssistant_mainpage">Начална страница</string>
-    <string name="personalAssistant_path">com.miui.home.launcher.assistant</string>
     <string name="place_label">Често срещани места</string>
     <string name="plan">Планирано</string>
     <string name="preferences">Предпочитани</string>
@@ -677,7 +674,6 @@
     <string name="steps_vip_des">Броене на крачки без използване на други външни приложения.</string>
     <string name="stock_card_add">Добави фирми</string>
     <string name="stock_card_title">Стоки</string>
-    <string name="stock_change_rate_format">%.2f%%</string>
     <string name="stock_color_schema">Цветна тема</string>
     <string name="stock_list_empty_text">Вие нямате фирми, които следвате.</string>
     <string name="stock_search_empty">Няма резултати</string>
