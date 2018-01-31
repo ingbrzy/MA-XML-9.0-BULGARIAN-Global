@@ -12,12 +12,6 @@
         <item>Често използвани</item>
         <item>Размер</item>
     </string-array>
-    <string-array name="auto_clean_time">
-        <item>Ежедневно</item>
-        <item>На всеки 3 дни</item>
-        <item>На всеки 7 дни</item>
-        <item>На всеки 15 дни</item>
-    </string-array>
     <string-array name="auto_clean_size">
         <item>100МБ</item>
         <item>300МБ</item>

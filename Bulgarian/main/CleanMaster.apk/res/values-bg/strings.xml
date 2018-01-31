@@ -422,6 +422,7 @@
     <string name="wechat_qq_normal_files">Отпадъци</string>
     <string name="wechat_cache_files">Wechat кеш</string>
     <string name="qq_cache_files">QQ кеш</string>
+    <string name="wechat_qq_activity_title">Дълбоко почистване</string>
     <string name="wechat_qq_chat_files">История на чата</string>
     <string name="analying">Анализиране…</string>
     <string name="open_file_error">Няма приложение, което да отвори този файл</string>
@@ -478,7 +479,7 @@
     <string name="wechat_qq_celan_tab_voice">Гласови съобщения</string>
     <string name="wechat_qq_celan_tab_image">Изображения</string>
     <string name="wechat_qq_celan_tab_file">Файлове</string>
-    <string name="wechat_qq_deep_clean_button_text">Дълбоко почистване</string>
+    <string name="wechat_qq_deep_clean_button_text">Обстойно почистване</string>
     <string name="wechat_clean_finish_summary">Избраните файлове бяха изтрити успешно</string>
     <string name="qq_clean_finish_summary">Избраните файлове бяха изтрити успешно</string>
     <string name="wechat_clean_finish_empty_summary">Всичко изглежда добре</string>
@@ -492,4 +493,8 @@
     <string name="wq_deep_clean_filter_month_ago">Преди 1 месец</string>
     <string name="wq_deep_clean_filter_three_month_ago">преди 3 месеца</string>
     <string name="wq_deep_clean_filter_years_ago">преди 6 месеца</string>
+    <string name="auto_clean_time_every_day">Всеки ден</string>
+    <string name="auto_clean_time_three_day">На всеки 3 дни</string>
+    <string name="auto_clean_time_seven_day">На всеки 7 дни</string>
+    <string name="auto_clean_time_fifteen_day">На всеки 15 дни</string>
 </resources>

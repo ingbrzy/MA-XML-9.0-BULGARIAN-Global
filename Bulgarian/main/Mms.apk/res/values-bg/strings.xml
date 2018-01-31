@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="about_smart_sms_title">Партньори на Облачни съобщения</string>
     <string name="action_firewall_setting">Антиспам</string>
     <string name="activity_not_found">Не е открита програма за показване на прикачения файл</string>
     <string name="activity_not_found_uri">Не е открита програма за това действие</string>
@@ -64,7 +63,6 @@
     <string name="check_all">Избери всички</string>
     <string name="class_0_message_activity">Съобщение клас 0</string>
     <string name="close">Затвори</string>
-    <string name="cloud_recommend_msg">Чукнете, за да синхр. съобщенията с Mi Cloud.</string>
     <string name="cloud_state_disabled">Включете синхронизирането с Mi Облак за да синхронизирате съобщенията</string>
     <string name="cloud_state_sync_finished">Синхронизирано с Mi Cloud</string>
     <string name="cloud_state_syncing">Синхр. се с Mi Cloud…</string>
@@ -85,7 +83,8 @@
     <string name="confirm_export_dialog_description">Предишните разговори с този контакт вече няма да бъдат скрити.</string>
     <string name="confirm_export_dialog_title">Премахване от частни контакти</string>
     <string name="confirm_no_block_positive">Не блокирайте</string>
-    <string name="confirm_no_block_title">Ще деблокирате ли този номер и ще възстановите ли съобщенията от него?</string>
+    <string name="confirm_no_block_title">"Да се отблокират ли и възстановят всички съобщения, изпратени от този номер?
+(Номерът ще бъде добавен към изключенията.)"</string>
     <string name="confirm_rate_limit">Изпращане на голям брой MMS съобщения.</string>
     <string name="confirm_restore_all_title">Ще възстановите ли всички съобщения, изпратени от този номер?</string>
     <string name="confirm_restore_checkbox">Деблокиране на съобщенията от този номер</string>
@@ -179,6 +178,7 @@
     <string name="file_size">Размер:</string>
     <string name="file_title">Име:</string>
     <string name="file_width_height">Размер:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ново съобщение</string>
     <string name="forward_from">Препратено от:</string>
     <string name="forward_prefix">От:</string>
@@ -357,7 +357,6 @@
     <string name="open_url_with_web">Да се отвори ли URL с Браузъра?</string>
     <string name="over_max_mms_size">MMS-ът е прекалено голям.</string>
     <string name="overwrite_edited_content">Редактираното съдържание ще бъде презаписано. Ще продължите ли?</string>
-    <string name="partner_companies">Teddy Mobile, Yulore Tech.</string>
     <string name="phrase_confirm_delete_message">Шаблонът ще бъде премахнат.</string>
     <string name="phrase_empty">Няма шаблони</string>
     <string name="phrase_from">От %1s</string>
@@ -404,7 +403,6 @@
     <string name="pref_summary_wake_up_screen">Включвай екрана при получаване на ново съобщение</string>
     <string name="pref_switch_sdk_setting">Превкл. на смарт SMS доставчик за услуги</string>
     <string name="pref_system_title">Система</string>
-    <string name="pref_title_about_smart_sms">Всичко за партньорите на облачни съобщения</string>
     <string name="pref_title_allow_si_sl_push">Разреши WAP push</string>
     <string name="pref_title_allow_upload_message_info">Качване на съобщения, които са спам</string>
     <string name="pref_title_auto_delete">Изтрий старите съобщения</string>
@@ -528,6 +526,7 @@
     <string name="send_signature_confirm_dialog_title">Изпрати подпис</string>
     <string name="send_sms">Изпрати съобщение</string>
     <string name="send_to">До:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Изпратено в: %1s</string>
     <string name="sent_label">Изпратени:</string>
     <string name="service_message_not_found">Съобщението е изтекло или не е достъпно</string>
@@ -654,4 +653,7 @@
     <string name="wild_msg_title">Включи синхр. с облачна услуга</string>
     <string name="yes">OК</string>
     <string name="yesterday">Вчера</string>
+    <string name="about_smart_sms_title">Партньори на Облачни съобщения</string>
+    <string name="partner_companies">Teddy Mobile, Yulore Tech.</string>
+    <string name="pref_title_about_smart_sms">Всичко за партньорите на облачни съобщения</string>
 </resources>

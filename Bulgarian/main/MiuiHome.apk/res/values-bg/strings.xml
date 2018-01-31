@@ -1,8 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Добави в работно място</string>
     <string name="activity_not_found">Приложението не е инсталирано на телефона Ви.</string>
     <string name="add_screen">Добави бутон за екрани</string>
+    <string name="announce_for_choose_default_screen">Задайте екран %1$d за Начален екран по подразбиране</string>
+    <string name="announce_for_close_default_preview">Затворени настройки по подразбиране за Начален екран</string>
+    <string name="announce_for_close_folder">Затворена папка</string>
+    <string name="announce_for_close_launcher_menu">Затворено меню</string>
+    <string name="announce_for_delete_gadget_and_widget">Джаджи</string>
+    <string name="announce_for_delete_item">%1$s беше изтрита</string>
+    <string name="announce_for_drag_enter_delete_zone">Провлачени елементи към зоната за деинсталиране</string>
+    <string name="announce_for_drag_enter_folder_grid">Вие можете да пуснете елементи в папката</string>
+    <string name="announce_for_drag_enter_workspace_thumbnail">Провлачени елементи към миниатюра на екран номер %1$d</string>
+    <string name="announce_for_drop">Преместени %1$s</string>
+    <string name="announce_for_drop_folder_grid_view">Номер %1$d в папката</string>
+    <string name="announce_for_drop_folder_icon">В папката %1$s</string>
+    <string name="announce_for_drop_hotseat">В областта на дока</string>
+    <string name="announce_for_drop_shortcut_icon">Създадена е папка с %1$s и %2$s</string>
+    <string name="announce_for_drop_thumbnail_container">Вие се намирате в миниатюра на екрана номер %1$d</string>
+    <string name="announce_for_drop_trash">В зоната на деинсталиране</string>
+    <string name="announce_for_drop_workspace">Екран номер %1$d, ред номер %2$d, колона номер %3$d</string>
+    <string name="announce_for_edit_mode">Вие сте в режим редактиране</string>
+    <string name="announce_for_edit_mode_disable">Вие излязохте от режим редактиране</string>
+    <string name="announce_for_open_default_preview">Отворени настройки по подразбиране за Начален екран</string>
+    <string name="announce_for_open_folder">Отворена папка %1$s</string>
+    <string name="announce_for_open_launcher_menu">Отворено меню</string>
+    <string name="announce_for_show_uninstall_dialog">Появи се диалог за деинсталиране. Отменете или потвърдете.</string>
     <string name="app_already_exist">Приложението вече съществува</string>
     <string name="app_being_backup_message">Приложението е архивирано.</string>
     <string name="app_being_restored_message">Приложението бе възстановено</string>
@@ -52,6 +76,9 @@
     <string name="confirm_uninstall_dialog_contain_xspace_app_msg">Cloned apps will be uninstalled together with these ones.</string>
     <string name="confirm_uninstall_dialog_has_xspace_app_msg">Cloned app will be uninstalled together with this one.</string>
     <string name="confirm_uninstall_dialog_title">Клонираните приложения ще бъдат премахнати</string>
+    <string name="content_description_for_shortcut_icon_checked">%1$s，проверени</string>
+    <string name="content_description_shortcut_icon_unchecked">%1$s，непроверени</string>
+    <string name="content_description_workspace_thumbnail_item">Преглед на екрана，страница %1$s</string>
     <string name="current_preview">Преглед</string>
     <string name="current_wallpaper">Текущ</string>
     <string name="custom_wallpaper_picker">Преглеждане</string>
@@ -70,7 +97,14 @@
     <string name="deselect_all">Размаркирай всички</string>
     <string name="disable_wallpaper_scroll">Изкл. превъртането на тапета</string>
     <string name="download_action">Изтегляне</string>
+    <string name="drag_multiple_item_name" />
+    <string name="drag_single_item_name" />
     <string name="edit_folder_title">Редактиране на името на папка</string>
+    <string name="edit_mode_group">Група</string>
+    <string name="edit_mode_group_error_full">Недостатъчно място</string>
+    <string name="edit_mode_group_error_in_folder">Затворете папката, преди групиране на иконите</string>
+    <string name="edit_mode_group_error_one_folder">Не може да се дублира папката с избраните икони</string>
+    <string name="edit_mode_uninstall">Деинсталиране</string>
     <string name="editing_add_widget_tips">Редактиране на джаджи</string>
     <string name="editing_mode_enter_tip_text">Щипнете за редактиране на началния екран</string>
     <string name="editing_mode_title_empty">Изберете елементи</string>
@@ -107,6 +141,7 @@
     <string name="gadget_clock_12_label">Часовник 2x1</string>
     <string name="gadget_clock_14_label">Часовник 4x1</string>
     <string name="gadget_clock_24_label">Часовник 4x2</string>
+    <string name="gadget_clock_34_label">Часовник 4x3</string>
     <string name="gadget_clock_label">Часовник</string>
     <string name="gadget_error_text">Проблем при зареждането на джаджа</string>
     <string name="gadget_google_search_label">Google търсене</string>
@@ -155,6 +190,8 @@
     <string name="lock_screen_failed_message">Не може да се зададе тапета на заключен екран</string>
     <string name="lock_screen_success_message">Зададено за заключен екран</string>
     <string name="lock_screen_wallpaper">Тапет на заключен екран</string>
+    <string name="memory_clear_nothing_result">Няма нищо за почистване в кеша</string>
+    <string name="memory_clear_result">%1$sБ почистени</string>
     <string name="menu_add">Добави</string>
     <string name="menu_auto_fill">Запълване на празните клетки</string>
     <string name="menu_back_desktop">Обратно към началния екран</string>
@@ -213,11 +250,14 @@
     <string name="pref_wallpaper_scroll_type_title">Тип на превъртане на тапетa</string>
     <string name="preferences_general_title">Основни настройки</string>
     <string name="preferences_title">Настройка на MIUI Launcher</string>
+    <string name="recommend_apk_size_and_desc">%1$dМБ | %2$s</string>
     <string name="recommend_apps_default_title">Празно</string>
+    <string name="recommend_apps_no_data">Няма данни</string>
     <string name="recommend_apps_notice">Препоръчани</string>
     <string name="recommend_apps_notice_nodata">Препоръчани прил. (Няма данни)</string>
     <string name="recommend_apps_switch_title">Препоръчани</string>
     <string name="recommend_apps_tips">Тази функция се нуждае от връзка към интернет, за да работи нормално. Ако искате да я изключите, докоснете името на тази папка.</string>
+    <string name="recommend_loading">Зареждане</string>
     <string name="reset_scene_prompt">Сцената ще бъде възстановена до състояние по подразбиране</string>
     <string name="screen_locked_toast">Оформлението за начален екран е заключено</string>
     <string name="screen_number">Екран %d</string>
@@ -288,4 +328,5 @@
     <string name="recents_config_title">Скорошни</string>
     <string name="screen_cells_config_title">Схема на Начален екран</string>
     <string name="show_mem_info_title">Покажи съст. на рам памет</string>
+    <string name="title_jeejen">Jeejen Начален екран</string>
 </resources>

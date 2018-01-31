@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Няма</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -234,7 +236,7 @@
     <string name="immediately_destroy_activities_summary">Унищож. на всяка дейност при напускането от потребител</string>
     <string name="app_process_limit_title">Ограничение за фонови процеси</string>
     <string name="show_all_anrs">Покажи всички приложения които не отговарят</string>
-    <string name="show_all_anrs_summary">Диалогов прозорец за нереагиращи прилж на заден план</string>
+    <string name="show_all_anrs_summary">Диалогов прозорец за нереагиращи приложения на заден план</string>
     <string name="force_allow_on_external">Принуждаване на приложенията да пишат на външното хранилище</string>
     <string name="force_allow_on_external_summary">Настройте приложенията да могат да бъдат записвани на външното хранилище</string>
     <string name="force_resizable_activities">Задаване на дейностите да се преоразмеряват</string>
@@ -302,6 +304,8 @@
     <string name="screen_zoom_summary_extremely_large">Най-голям</string>
     <string name="screen_zoom_summary_custom">Потребителски (%d)</string>
     <string name="help_feedback_label">Помощ и поддръжка</string>
+    <string name="status_bar_date_formatter">"%2$s
+%1$s"</string>
     <string name="app_label">Системен изглед</string>
     <string name="status_bar_no_recent_apps">Няма последно използвани приложения</string>
     <string name="recent_task_lock_text">Фиксиран</string>
@@ -424,7 +428,6 @@ If ако включите отново мобилните данни, може 
     <string name="recents_multistack_add_stack_dialog_split_custom">По избор</string>
     <string name="recents_multi_window_mode">Разделен екран</string>
     <string name="recents_exit_multi_window_mode">Изход</string>
-    <string name="keyboard_shortcut_group_system_recents">Скорошни</string>
     <string name="accessibility_divider">Разделен екран с разделител</string>
     <string name="accessibility_action_divider_left_full">Излизане от цял екран</string>
     <string name="accessibility_action_divider_left_70">Излизане на 70%</string>
@@ -438,8 +441,112 @@ If ако включите отново мобилните данни, може 
     <string name="accessibility_action_divider_bottom_full">Цял екран отдолу</string>
     <string name="dock_forced_resizable">Приложението може да не работи в Разделен екран</string>
     <string name="dock_non_resizeble_failed_to_dock_text">Това приложение не поддържа Разделен екран</string>
+    <string name="accessibility_desc_work_lock">Служебен заключен екран</string>
+    <string name="keyboard_key_button_template">Бутон %1$s</string>
+    <string name="keyboard_key_home">Начало</string>
+    <string name="keyboard_key_back">Назад</string>
+    <string name="keyboard_key_dpad_up">Нагоре</string>
+    <string name="keyboard_key_dpad_down">Надолу</string>
+    <string name="keyboard_key_dpad_left">Ляв</string>
+    <string name="keyboard_key_dpad_right">Десен</string>
+    <string name="keyboard_key_dpad_center">Център</string>
+    <string name="keyboard_key_tab">Прозорец</string>
+    <string name="keyboard_key_space">Интервал</string>
+    <string name="keyboard_key_enter">Въведи</string>
+    <string name="keyboard_key_backspace">Назад</string>
+    <string name="keyboard_key_media_play_pause">Пусни/Пауза</string>
+    <string name="keyboard_key_media_stop">Стоп</string>
+    <string name="keyboard_key_media_next">Следващ</string>
+    <string name="keyboard_key_media_previous">Предишно</string>
+    <string name="keyboard_key_media_rewind">Връщане</string>
+    <string name="keyboard_key_media_fast_forward">Бързо напред</string>
+    <string name="keyboard_key_page_up">Горе в страницата</string>
+    <string name="keyboard_key_page_down">Долу в страницата</string>
+    <string name="keyboard_key_forward_del">Изтриване</string>
+    <string name="keyboard_key_move_home">Начало</string>
+    <string name="keyboard_key_move_end">Край</string>
+    <string name="keyboard_key_insert">Вмъкни</string>
+    <string name="keyboard_key_num_lock">Закл цифр. бутони</string>
+    <string name="keyboard_key_numpad_template">Номератор %1$s</string>
+    <string name="keyboard_shortcut_group_system">Система</string>
+    <string name="keyboard_shortcut_group_system_home">Начало</string>
+    <string name="keyboard_shortcut_group_system_recents">Скорошни</string>
+    <string name="keyboard_shortcut_group_system_back">Назад</string>
+    <string name="keyboard_shortcut_group_system_notifications">Известия</string>
+    <string name="keyboard_shortcut_group_system_shortcuts_helper">Комбинация от клавиши</string>
+    <string name="keyboard_shortcut_group_system_switch_input">Смяна на метода за въвеждане</string>
+    <string name="keyboard_shortcut_group_applications">Приложения</string>
+    <string name="keyboard_shortcut_group_applications_assist">Помощник</string>
+    <string name="keyboard_shortcut_group_applications_browser">Браузър</string>
+    <string name="keyboard_shortcut_group_applications_contacts">Контакти</string>
+    <string name="keyboard_shortcut_group_applications_email">Имейл</string>
+    <string name="keyboard_shortcut_group_applications_sms">SMS</string>
+    <string name="keyboard_shortcut_group_applications_im">Мигн. съобщ</string>
+    <string name="keyboard_shortcut_group_applications_music">Музика</string>
+    <string name="keyboard_shortcut_group_applications_youtube">YouTube</string>
+    <string name="keyboard_shortcut_group_applications_calendar">Календар</string>
+    <string name="legacy_vpn_name">VPN</string>
+    <string name="monitoring_button_view_policies">Вижте правилата</string>
+    <string name="monitoring_description_ca_certificate">Сертификатът за сигурност вече е инсталиран на това устройство. Мрежовият ви трафик може да бъде наблюдаван и променян.</string>
+    <string name="monitoring_description_named_management">"Вашето устройство се управлява от %1$s.
+
+ Вашият администратор може да наблюдава и променя настройките, корпоративния достъп, данните, свързани с инсталираните приложения и вашето местоположение. 
+
+За повече информация се свържете с вашия администратор."</string>
+    <string name="monitoring_description_managed_profile_ca_certificate">Вашата организация е инсталирала сертификат за достоверност във вашия служебен профил. Вашият защитен мрежов трафик може да бъде наблюдаван и променян.</string>
+    <string name="monitoring_description_management">"Вашето устройство се управлява от вашата организация. 
+
+ Вашият администратор може да наблюдава и променя настройките, корпоративния достъп, данните, свързани с инсталираните приложения и вашето местоположение. 
+
+За повече информация се свържете с вашия администратор."</string>
+    <string name="monitoring_description_management_ca_certificate">Вашата организация е инсталирала сертификат за достоверност във вашия служебен профил. Вашият защитен мрежов трафик може да бъде наблюдаван и променян.</string>
+    <string name="monitoring_description_managed_profile_named_vpn">Вашият служебен профил е свързан с %1$s, който може да наблюдава мрежовата активност, включително имейли, приложения и уебсайтове.</string>
+    <string name="monitoring_description_management_network_logging">Вашият администратор е включил мрежовия лог, с което наблюдава трафика на вашето устройство.</string>
+    <string name="monitoring_description_named_vpn">Вие сте свързан с %1$s,с което се наблюдава мрежовата активност, включително имейли, приложения и уебсайтове.</string>
+    <string name="monitoring_description_personal_profile_named_vpn">Вашият личен профил е свързан с %1$s, като с това може да се наблюдава мрежовата активност, включително имейли, приложения и уебсайтове.</string>
+    <string name="monitoring_description_two_named_vpns">Вие сте свързан с %1$s and %2$s, който може да наблюдава мрежовата активност, включително имейли, приложения и уебсайтове.</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
+    <string name="monitoring_description_vpn_settings">Отваряне на VPN Настройки</string>
+    <string name="monitoring_title">Наблюдение на мрежата</string>
+    <string name="monitoring_subtitle_ca_certificate">CA сертификати</string>
+    <string name="monitoring_subtitle_network_logging">Логове на мрежата</string>
+    <string name="monitoring_subtitle_vpn">VPN</string>
+    <string name="monitoring_title_device_owned">Управление на устройството</string>
+    <string name="quick_settings_done">Готово</string>
+    <string name="quick_settings_disclosure_management_monitoring">Вашата организация управлява това устройство и може да наблюдава мрежовия трафик</string>
+    <string name="quick_settings_disclosure_named_management_monitoring">%1$s управлява това устройство и може да наблюдава мрежовата активност</string>
+    <string name="quick_settings_disclosure_management_named_vpn">Устройството се управлява от вашата организация и е свързано с %1$s</string>
+    <string name="quick_settings_disclosure_named_management_named_vpn">Устройството се управлява от %1$s и е свързано с %2$s</string>
+    <string name="quick_settings_disclosure_management">Устройството се управлява от вашата организация</string>
+    <string name="quick_settings_disclosure_named_management">Устройството се управлява от %1$s</string>
+    <string name="quick_settings_disclosure_management_vpns">Устройството се управлява от вашата организация и е свързано с VPN</string>
+    <string name="quick_settings_disclosure_named_management_vpns">Устройството се управлява от %1$s и е свързано с VPN</string>
+    <string name="quick_settings_disclosure_managed_profile_monitoring">Вашата организация може да следи мрежовата активност на вашия служебен профил</string>
+    <string name="quick_settings_disclosure_named_managed_profile_monitoring">%1$s може да следи мрежовата активност на вашия служебен профил</string>
+    <string name="quick_settings_disclosure_monitoring">Мрежата може да се наблюдава</string>
+    <string name="quick_settings_disclosure_vpns">Устройството е свързано с VPN</string>
+    <string name="quick_settings_disclosure_managed_profile_named_vpn">Служебният профил е свързан с %1$s</string>
+    <string name="quick_settings_disclosure_personal_profile_named_vpn">Личният профил е свързан с %1$s</string>
+    <string name="quick_settings_disclosure_named_vpn">Устройството е свързано с %1$s</string>
     <string name="status_bar_date_format">"EEEE
 MMMM d"</string>
+    <string name="monitoring_title_profile_owned">Наблюдаване на потр. профил</string>
+    <string name="monitoring_description_do_body_vpn">Установена е връзка с приложението %1$s, което може да наблюдава активността ви в мрежата, вкл. имейли, приложения и уебсайтове.</string>
+    <string name="monitoring_description_network_logging">"Администраторът ви е включил функцията за регистриране на мрежовата активност, която следи трафика на устройството ви.
+
+За повече информация се свържете с администратора си."</string>
+    <string name="monitoring_description_vpn">"Разрешихте на приложение да настрои връзка с виртуална частна мрежа (VPN).
+
+Това приложение може да наблюдава активността ви на устройството и в мрежата, включително имейли, приложения и уебсайтове."</string>
+    <string name="monitoring_description_vpn_profile_owned">"Служебният ви потребителски профил се управлява от %1$s.
+
+Администраторът ви може да наблюдава активността ви в мрежата, включително имейли, приложения и уебсайтове.
+
+За повече информация се свържете с администратора си.
+
+Също така е установена връзка с виртуална частна мрежа (VPN) и активността ви в нея може да се наблюдава."</string>
+    <string name="monitoring_description_app">Установена е връзка с приложението %1$s, което може да наблюдава активността ви в мрежата, включително имейли, приложения и уебсайтове.</string>
+    <string name="monitoring_description_app_personal">Установена е връзка с приложението %1$s, което може да наблюдава личната ви активност в мрежата, включително имейли, приложения и уебсайтове.</string>
     <string name="status_bar_recent_guide_all">Плъзнете нагоре за затваряне Плъзнете надолу за заключване</string>
     <string name="status_bar_recent_guide_top">Плъзнете нагоре за затваряне</string>
     <string name="status_bar_recent_guide_bottom">Плъзнете надолу за заключване</string>
@@ -456,8 +563,11 @@ MMMM d"</string>
     <string name="accessibility_recent_task_memory_info">Общо РАМ: %2$s | Достъпна РАМ: %1$s. Двойно почукване за изчистване.</string>
     <string name="accessibility_recent_task_locked">Заключен, плъзнете надолу за отключване.</string>
     <string name="accessibility_recent_task_unlocked">Отключено</string>
-    <string name="nav_guide_title">Скрий софтуерните бутони</string>
-    <string name="nav_guide_message">Използвайте жестове за скриване и показване на софтуерните бутони.</string>
+    <string name="accessibility_recent_task_locked_state">Заключено</string>
+    <string name="accessibility_recent_task_unlocked_state">Отключено</string>
+    <string name="accessibility_drag_hint_message">Плъзнете елементи към горната част на екрана</string>
+    <string name="nav_guide_title">Скрий екранните бутони</string>
+    <string name="nav_guide_message">Използвайте жестове за скриване или показване на екранни бутони.</string>
     <string name="nav_guide_cancel">Игнорирайте</string>
     <string name="nav_guide_ok">Настройки</string>
     <string name="usb_mode_notification">USB хранилище</string>
@@ -535,6 +645,7 @@ MMMM d"</string>
     <string name="ext_media_mountable_notification_title">USB хранилището е свързано</string>
     <string name="ext_media_mountable_notification_message">Натиснете за преминаване към Файлове.</string>
     <string name="ext_media_safe_remove">Премахване</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">K/s</string>
     <string name="megabyte_per_second">M/s</string>
     <string name="status_bar_network_flow_today">Днес: %1$s</string>
@@ -613,6 +724,19 @@ MMMM d"</string>
     <string name="notification_header_title">Известия</string>
     <string name="weather_publish_time">Актуализирано %1$s</string>
     <string name="no_weather_description">Получаване на данни за времето ></string>
+    <string name="weather_description_no_aqi">%1$s</string>
+    <string name="accessibility_desc_notification_shade">Лента с известия</string>
+    <string name="accessibility_desc_quick_settings">Бързи настройки</string>
+    <string name="accessibility_desc_details_page">%1$s детайли на страницата</string>
+    <string name="accessibility_desc_block_notification">Скрий известията</string>
+    <string name="accessibility_desc_select_block_notification">Изберете известия за скриване</string>
+    <string name="accessibility_desc_confirm_block">Скрий</string>
+    <string name="accessibility_desc_reconfirm_block">Скрий сега?</string>
+    <string name="accessibility_desc_cancel_block">Не скривай</string>
+    <string name="accessibility_desc_app_allow_block">%1$s известия могат да бъдат скрити</string>
+    <string name="accessibility_desc_app_unallow_block">%1$s известия не могат да бъдат скрити</string>
+    <string name="accessibility_desc_check_block_notification">Изберете %1$s известия</string>
+    <string name="accessibility_desc_uncheck_block_notification">Отмаркирайте%1$s известия</string>
     <string name="screenshot_long_screenshot">Дълго</string>
     <string name="screenshot_edit">Редактирай</string>
     <string name="screenshot_send">Изпрати</string>
@@ -633,7 +757,6 @@ MMMM d"</string>
     <string name="notification_manager">Управление на известията</string>
     <string name="notification_manager_des">Филтриране и управление на известията</string>
     <string name="quick_settings_more_settings">Още настройки</string>
-    <string name="quick_settings_done">Готово</string>
     <string name="quick_settings_wifi_detail_empty_text">Няма налични Wi-Fi мрежи</string>
     <string name="quick_settings_wifi_label">Wi-Fi</string>
     <string name="quick_settings_wifi_nearby">Изберете мрежа</string>
@@ -660,20 +783,28 @@ MMMM d"</string>
     <string name="description_image_button_answer">Отговор</string>
     <string name="screenshot_feedback_txt">Доклад за грешки</string>
     <string name="screenshot_toalbum_txt">Прегледай</string>
-    <string name="how_to_use_fsg">Как да използваме жестовете на цял екран?</string>
-    <string name="how_to_back_home">Как да се върнем обратно в началото</string>
-    <string name="how_to_switch_recents">Как да превключим на скорошни</string>
+    <string name="please_slide_agian">Моля плъзнете отново</string>
+    <string name="how_to_use_fsg">Вие можете да извършите това действие с използване на жестове:</string>
+    <string name="how_to_back_home">Отиди на Начален екран</string>
+    <string name="how_to_switch_recents">Отвори Скорошни</string>
     <string name="fsg_demo_back">Назад</string>
-    <string name="fsg_demo_go_on">Продължи</string>
+    <string name="fsg_demo_go_on">Обучение</string>
     <string name="fs_gesture_back_home_summary">Плъзнете бързо отдолу</string>
-    <string name="fs_gesture_switch_recents_summary">Плъзнете отдолу и изчакайте секунда</string>
-    <string name="fs_gesture_back_ready_title">Как да се върнем обратно на последната страница?</string>
-    <string name="fs_gesture_left_back_ready_summary">Плъзнете наляво от екрана</string>
-    <string name="fs_gesture_right_back_ready_summary">Плъзнете надясно от екрана</string>
+    <string name="fs_gesture_switch_recents_summary">Плъзнете бързо отдолу и спрете</string>
+    <string name="fs_gesture_back_ready_title">Назад</string>
+    <string name="fs_gesture_left_back_ready_summary">Плъзнете надясно от ръба</string>
+    <string name="fs_gesture_right_back_ready_summary">Плъзнете наляво от ръба</string>
     <string name="fs_gesture_skip">Назад</string>
     <string name="fs_gesture_finish">Отлично!</string>
-    <string name="fs_gesture_final_title">Завърши обучението</string>
-    <string name="fs_gesture_final_summary">Вие можете да зададете настройките в [ Настройки-Цял екран]</string>
-    <string name="fs_gesture_final_restart">Обучение наново</string>
-    <string name="fs_gesture_final_over">Завърши</string>
+    <string name="fs_gesture_final_title">Готови сте да започнете!</string>
+    <string name="fs_gesture_final_summary">Вие можете да се върнете обратно към използване на бутоните в Настройки > Показване на цял екран</string>
+    <string name="fs_gesture_final_restart">Още веднъж</string>
+    <string name="fs_gesture_final_over">Готово</string>
+    <string name="monitoring_description_do_header_generic">Устройството ви се управлява от %1$s.</string>
+    <string name="monitoring_description_do_header_with_name">%1$s използва %2$s, за да управлява устройството ви.</string>
+    <string name="monitoring_description_do_body">Администраторът ви може да набл. и управл. настройките, корпор. достъп, прилож., данните, свързани с у-вото, както и информ. за местоп. му.</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
+    <string name="monitoring_description_do_learn_more">Научете повече</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
+    <string name="monitoring_description_ca_cert_settings">Отваряне на надеждните идентификационни данни</string>
 </resources>

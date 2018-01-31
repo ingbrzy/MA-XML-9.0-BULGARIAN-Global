@@ -4,6 +4,10 @@
         <item quantity="other">%1$d повиквания от %2$s и други</item>
         <item quantity="one">%1$d повикване от %2$s</item>
     </plurals>
+    <plurals name="fw_blocked_count_call_one">
+        <item quantity="other">%1$d повиквания от %2$s и други</item>
+        <item quantity="one">%1$d повикване от %2$s</item>
+    </plurals>
     <plurals name="fw_blocked_count_sms">
         <item quantity="other">%d съобщения</item>
         <item quantity="one">%d съобщение</item>
@@ -116,6 +120,14 @@
         <item quantity="other">Изтеглено от %1$d човека</item>
         <item quantity="one">Изтеглено от %1$d човек</item>
     </plurals>
+    <plurals name="gb_ad_people_play">
+        <item quantity="other">%1$d души играят</item>
+        <item quantity="one">%1$d човек играе</item>
+    </plurals>
+    <plurals name="gb_ad_ten_thousand_people_play">
+        <item quantity="other">%1$d души играят</item>
+        <item quantity="one">%1$d човек играе</item>
+    </plurals>
     <plurals name="view_num">
         <item quantity="other">%1$d преглеждания</item>
         <item quantity="one">%1$d преглеждане</item>
@@ -137,12 +149,12 @@
         <item quantity="one">Защитено е %s прил. за плащане</item>
     </plurals>
     <plurals name="sp_monitored_apps_list_group_enable">
-        <item quantity="other">%s прилж. са защитени</item>
-        <item quantity="one">%s прилж. е защитено</item>
+        <item quantity="other">%s приложения са защитени</item>
+        <item quantity="one">%s приложение е защитено</item>
     </plurals>
     <plurals name="sp_monitored_apps_list_group_disable">
-        <item quantity="other">%s прилж. не са защитени</item>
-        <item quantity="one">%s прилж. не е защитено</item>
+        <item quantity="other">%s приложения не са защитени</item>
+        <item quantity="one">%s приложение не е защитено</item>
     </plurals>
     <plurals name="system_check_content">
         <item quantity="other">%1$d обекта са защитени</item>

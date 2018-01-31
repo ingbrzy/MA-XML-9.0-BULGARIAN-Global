@@ -46,6 +46,13 @@
     <string name="percentDesc">процент</string>
     <string name="menuDesc">меню</string>
     <string name="settingsDesc">настройки</string>
+    <string name="secondFunctionDesc">Превключи на втората функция</string>
+    <string name="degDesc">Ъгъл</string>
+    <string name="radDesc">Радиан</string>
+    <string name="reverceDesc">арк</string>
+    <string name="switchDesc">Превключи</string>
+    <string name="scannerDesc">Скенер</string>
+    <string name="reciprocalDesc">Обратна величина</string>
     <string name="home_title_calculator">Калкулатор</string>
     <string name="item_title_calculator">Калкулатор</string>
     <string name="item_title_scientific_calculator">Сметки</string>
@@ -62,6 +69,10 @@
     <string name="item_title_time_conversion">Време</string>
     <string name="item_title_dress_size">Размери на дрехи</string>
     <string name="item_title_aa_payment">Разделяне на сметка</string>
+    <string name="scanner_had_been_uninstalled">Баркод-скенерът е деинсталиран</string>
+    <string name="install_scanner_to_continued_use">Баркод-скенерът е деинсталиран. Инсталиране отново?</string>
+    <string name="cancel">Отказ</string>
+    <string name="install">Инсталирай</string>
     <string name="loan_interest_rate">Лихва</string>
     <string name="loan_edittext_hint_commercial">Въведи количество</string>
     <string name="loan_edittext_hint_fund">Въведи количество</string>

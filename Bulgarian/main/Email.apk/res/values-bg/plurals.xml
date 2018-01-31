@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="actionbar_large_unread_count">
+        <item quantity="other">"%1$d  + непрочетени"</item>
+        <item quantity="one">"%1$d  + непрочетен"</item>
+    </plurals>
     <plurals name="actionbar_unread_messages">
         <item quantity="other">%1$d са непрочетени</item>
         <item quantity="one">%1$d е непрочетено</item>
@@ -37,8 +41,8 @@
         <item quantity="one">Променена е папката.</item>
     </plurals>
     <plurals name="conversation_msg_header_count">
-        <item quantity="other">+%1$d души</item>
-        <item quantity="one">+%1$d човек</item>
+        <item quantity="other">"+ %1$d  други хора"</item>
+        <item quantity="one">"+ %1$d  друго лице"</item>
     </plurals>
     <plurals name="conversation_muted">
         <item quantity="other">&lt;b>%1$d&lt;/b> заглушени</item>
@@ -80,9 +84,21 @@
         <item quantity="other">%1$d ще бъдат изтрити завинаги.</item>
         <item quantity="one">%1$d ще бъде изтрито завинаги.</item>
     </plurals>
+    <plurals name="hide_atts_remaining">
+        <item quantity="other">Скрий %1$d прикачени файлове</item>
+        <item quantity="one">Скрий %1$d прикачен файл</item>
+    </plurals>
+    <plurals name="local_search_result">
+        <item quantity="other">"%s  резултати в синхронизирани съобщения"</item>
+        <item quantity="one">"%s  резултат в синхронизирани съобщения"</item>
+    </plurals>
     <plurals name="month">
-        <item quantity="other">%d месеца</item>
+        <item quantity="other">%d месеци</item>
         <item quantity="one">%d месец</item>
+    </plurals>
+    <plurals name="more_atts_remaining">
+        <item quantity="other">%1$d прикачени файлове остават</item>
+        <item quantity="one">%1$d прикачен файл остава</item>
     </plurals>
     <plurals name="move_conversation">
         <item quantity="other">Премести %1$d разговорите</item>
@@ -92,12 +108,28 @@
         <item quantity="other">Показване на %1$d нови съобщения.</item>
         <item quantity="one">Показване на %1$d ново съобщение.</item>
     </plurals>
+    <plurals name="new_messages">
+        <item quantity="other">%1$d ново съобщение</item>
+        <item quantity="one">%1$d ново съобщение</item>
+    </plurals>
     <plurals name="num_selected">
         <item quantity="other">%d са избрани</item>
         <item quantity="one">%d е избран</item>
     </plurals>
+    <plurals name="quick_reply_hint">
+        <item quantity="other">Отговор на %1$d лице</item>
+        <item quantity="one">Отговор на %1$d лице</item>
+    </plurals>
+    <plurals name="remote_search_result">
+        <item quantity="other">"%s  резултати във всички профили"</item>
+        <item quantity="one">"%s  резултат във всички профили"</item>
+    </plurals>
     <plurals name="show_messages_read">
         <item quantity="other">%1$d стари съобщения</item>
         <item quantity="one">%1$d старо съобщение</item>
+    </plurals>
+    <plurals name="unsent_messages_in_outbox">
+        <item quantity="other">"%1$s  неизпратените съобщения в %2$s "</item>
+        <item quantity="one">"%1$s  неизпратено съобщение в %2$s "</item>
     </plurals>
 </resources>

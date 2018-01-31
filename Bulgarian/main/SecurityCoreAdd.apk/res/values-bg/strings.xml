@@ -246,14 +246,14 @@
     <string name="notification_recommend_title">Топ 12 приложения за второ работно място</string>
     <string name="scanner_fingerprint">Scanning fingerprint…</string>
     <string name="scanner_fingerprint_enter_second">\"Scan Second space fingerprint to enter Second space from Lock screen\"</string>
-    <string name="xspace_guide_title">Създай Клонирани прилож за %s</string>
+    <string name="xspace_guide_title">Създайте клонирано приложение</string>
     <string name="xspace_guide_des">Използване на два профила без превключване</string>
     <string name="xpsace_guide_button">Създай</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">Не може да се открият приложения</string>
     <string name="xspace_weixin_title">WeChat</string>
     <string name="weixin_pay">WeChat Pay</string>
-    <string name="weixin_share">Сподели с Моменти</string>
+    <string name="weixin_share_sign">Впишете се и споделете</string>
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">Изпрати към Weibo</string>
     <string name="xspace_qq_title">QQ</string>
@@ -262,6 +262,9 @@
     <string name="xspace_default_app_title">Прилож по подразбиране</string>
     <string name="xspace_default_app_summary">Задайте приложение по подразбиране за плащания, споделяне, любими неща и други.</string>
     <string name="xspace_default_setting_dialog_title">Подразбиране</string>
+    <string name="xspace_default_guide_notification_content">Чукнете за промяна</string>
+    <string name="xspace_default_guide_notification_main_title">Използване приложение по подразбиране</string>
+    <string name="xspace_default_guide_notification_xspace_title">Използване на клонирано приложение</string>
     <string name="space_name_default">Работно място</string>
     <string name="space_des_default">Изолирано място с криптирана информация</string>
     <string name="create_work_space">Създай Работно място</string>

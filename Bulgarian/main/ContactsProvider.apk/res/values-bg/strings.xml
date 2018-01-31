@@ -28,4 +28,5 @@
     <string name="call_log_provider_label">Списък с повиквания</string>
     <string name="third_party_delete_contact_info">\"%s\" изтрива Ваши Mi контакти! Моля използвайте системното приложение \"Контакти\"за безопасното им премахване.</string>
     <string name="low_memory_toast">Не може да се продължи използването поради малко памет.</string>
+    <string name="update_accounts_changed">Профилите са променени</string>
 </resources>

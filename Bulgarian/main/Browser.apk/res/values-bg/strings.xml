@@ -167,6 +167,7 @@
     <string name="color_picker_dialog_title">Изберете цвят</string>
     <string name="color_picker_hue">Оттенък</string>
     <string name="color_picker_saturation">Наситеност</string>
+    <string name="color_picker_value">Стойност</string>
     <string name="comment_app_menu">Коментар</string>
     <string name="comment_description">Коментар</string>
     <string name="comment_hint">Коментар</string>
@@ -194,7 +195,7 @@
     <string name="contextmenu_webpage_capture">Запиши като екр. снимка</string>
     <string name="contextmenu_webpage_html">Запис като HTML файл</string>
     <string name="contextmenu_webpage_snapshot">Запиши страницата</string>
-    <string name="copy_to_clipboard_failure_message">Копирането в буфера бе неуспешно</string>
+    <string name="copy_to_clipboard_failure_message">Не може да се копира в клипборда.</string>
     <string name="copy_url">Копирай URL</string>
     <string name="create_qr_code">QR код</string>
     <string name="current_version_pad">Таблет</string>
@@ -203,7 +204,7 @@
     <string name="custom_head_card_text">Винаги вярвай, че най-доброто предстои</string>
     <string name="custom_head_card_text_incognito">"Вие сте инкогнито!
 Посетените страници няма да са видими в историята."</string>
-    <string name="data_traffic_prompt_change">Използването на мобилни данни за гледане на видео ще увеличи използваните от вас мобилни данни. Ако надвишите лимита от данни на вашия абонамент, ще бъдете таксувани допълнително от оператора.</string>
+    <string name="data_traffic_prompt_change">Използването на мобилен интернет за гледане на видео ще увеличи използваните от вас данни. Ако надвишите лимита за данни, вашият оператор може да ви таксува за това допълнително.</string>
     <string name="data_traffic_prompt_message">Разглеждането на страници чрез мобилни данни ще увеличи използваните от вас данни. Ако надвишите предплатения си обем от данни, оператора може да ви таксува допълнително.</string>
     <string name="data_traffic_prompt_message_short">Използването на мобилни данни за стриймване на видео може да коства превишаване на лимита ви за данни.</string>
     <string name="data_traffic_prompt_title">Предупреждение за данни</string>
@@ -261,7 +262,7 @@
     <string name="download_filter_text">Файлове</string>
     <string name="download_filter_video">Видео</string>
     <string name="download_filter_zip">Архив</string>
-    <string name="download_in_process">Изтегля се…</string>
+    <string name="download_in_process">Изтегляне…</string>
     <string name="download_list_open_xl_ok">OK</string>
     <string name="download_memory_info_avai">свободни %s|</string>
     <string name="download_memory_info_total">общо ​%s</string>
@@ -333,6 +334,8 @@
     <string name="hint">Съвет</string>
     <string name="history">Хронология</string>
     <string name="home_description">Начало</string>
+    <string name="home_page_news_feed">Новини</string>
+    <string name="home_page_top_sites">Топ сайтове</string>
     <string name="homepage_delete_card_menu">Изтриване</string>
     <string name="homepage_get_location">Получаване на местоположение</string>
     <string name="homepage_get_location_failed">Данните не могат да се получат, изберете град</string>
@@ -366,7 +369,7 @@
     <string name="loading_tips">Изтеглете надолу за опресняване</string>
     <string name="local_bookmarks">Mi</string>
     <string name="login_failed_toast">Неуспешно вписване, опреснете и опитайте отново</string>
-    <string name="low_memory_error">Няма достатъчно памет за завършване на операцията</string>
+    <string name="low_memory_error">Няма достатъчно памет за завършване на операцията.</string>
     <string name="low_memory_toast">Не може да се използва браузъра поради малко памет</string>
     <string name="max_tabs_warning">Не могат да се отварят повече раздели</string>
     <string name="maximum_input_alert">Максимум въведете 2048 символа</string>
@@ -380,8 +383,8 @@
     <string name="media_error_timeout">Времето за изчакване на мрежова връзка изтече</string>
     <string name="media_error_video_not_exist">Видеото не съществува</string>
     <string name="media_player_error_button">OК</string>
-    <string name="media_player_error_text_invalid_progressive_playback">Съжаляваме, но видеото не е валидно за стриймване до това устройство.</string>
-    <string name="media_player_error_text_unknown">Съжаляваме, но видеото не може да бъде пуснато.</string>
+    <string name="media_player_error_text_invalid_progressive_playback">Това видео не е валидно за стриймване до това устройство.</string>
+    <string name="media_player_error_text_unknown">Видеото не може да се възпроизведе.</string>
     <string name="media_player_error_title">Не може да се възпроизведе видео</string>
     <string name="media_player_loading_video">Зареждане на видео</string>
     <string name="menu_addtodesk">На началния екран</string>
@@ -478,7 +481,7 @@
     <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies" formatted="false">Почистете кеша и бисквитките (%s1Настройки%s2 - Изчистване на данни, вашата информация може бъде загубена).</string>
     <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies_no_invoke">Изчисти кеша и бисквитките (вашата информация за профила може да бъде изтрита).</string>
     <string name="miuichromium_error_page_suggestion_clear_cache_no_invoke">Изчисти кеша.</string>
-    <string name="miuichromium_error_page_suggestion_connect_and_retry">Презаредете отново, след като се свържете с интернет.</string>
+    <string name="miuichromium_error_page_suggestion_connect_and_retry">Презаредете отново, след като се свържете с интернет</string>
     <string name="miuichromium_error_page_suggestion_contact_admin">Свържете се с вашия системен администратор.</string>
     <string name="miuichromium_error_page_suggestion_correct_url">Проверете адреса, който сте въвели и опитайте отново, използвайки правилен URL.</string>
     <string name="miuichromium_error_page_suggestion_grant_permission">Презаредете отново, след като дадете на Браузър права за достъп до Интернет.</string>
@@ -651,8 +654,8 @@
     <string name="pref_ua_string">Потребителски агент</string>
     <string name="pref_version_info">Данни за версията</string>
     <string name="pref_volume_key_action">Скролиране чрез бутоните за звука</string>
-    <string name="private_browsing_warning">Функционалността не се поддържа в тази версия на Android.</string>
-    <string name="profiler_error_toast">Стартирането на профайлера не бе успешно</string>
+    <string name="private_browsing_warning">Услугата не се поддържа в тази версия на Android.</string>
+    <string name="profiler_error_toast">Профилът не може да стартира.</string>
     <string name="profiler_no_storage_toast">Не можем да стартираме профайлера, защото външното хранилище не е готово</string>
     <string name="profiler_started_toast">Профайлерът стартира</string>
     <string name="profiler_stopped_toast">Профайлерът приключи. Резултатите са в/ъв %1$s.</string>
@@ -829,7 +832,7 @@
     <string name="unsecurity_url_toast">Тази уеб страница е несигурна</string>
     <string name="up_to_loading_tips">Отпуснете за опресняване</string>
     <string name="update_no_network_toast">Няма връзка с мрежата</string>
-    <string name="updating_chrome">Хром се обновява...</string>
+    <string name="updating_chrome">Актуализиране на Хром‧</string>
     <string name="uploads_disabled">Качването на файлове е забранено.</string>
     <string name="url_copy_done">URL адреса е копиран</string>
     <string name="url_find_on_page_result">Преглед в Браузър</string>
@@ -927,6 +930,6 @@
     <string name="weather_publish_time">Актуализирано %1$s</string>
     <string name="webpage_title">Отметки и история</string>
     <string name="webview_find_on_page">Търси в страницата</string>
-    <string name="webviewchromium_private_browsing_warning">Функционалността не се поддържа в тази версия на Android.</string>
+    <string name="webviewchromium_private_browsing_warning">Услугата не се поддържа в тази версия на Android.</string>
     <string name="week_picker_dialog_title">Задай седмица</string>
 </resources>

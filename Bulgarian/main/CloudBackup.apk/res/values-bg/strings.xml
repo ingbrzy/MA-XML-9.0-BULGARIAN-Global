@@ -18,13 +18,9 @@
     <string name="cloud_backup_detail_title">Начален екран, приложения и настройки.</string>
     <string name="cloud_backup_detail_state_summary">Създаване на резервни копия в Mi Облак автоматично когато сте свързани с Wi-Fi.</string>
     <string name="cloud_backup_detail_frequence">Резервно копие по график</string>
-    <string name="cloud_back_up_interval_long">7 дни</string>
-    <string name="cloud_back_up_interval_short">ден</string>
-    <string name="cloud_backup_detail_frequence_day">Архивирайте на всеки %1$s</string>
     <string name="cloud_backup_detail_time">Последен архив на: %1$s</string>
     <string name="cloud_backup_detail_manage">Управление на рез. копия</string>
-    <string name="cloud_backup_detail_manage_summary">%1$s архив, с размер:%2$s</string>
-    <string name="backup_size_summary">Размер: %1$s</string>
+    <string name="cloud_backup_derail_size_summary">Размер: %s</string>
     <string name="cloud_back_up_opening">Just a sec…</string>
     <string name="cloud_back_up_no_network_warn">Не мога да се свържа с Wi-Fi мрежа</string>
     <string name="cloud_back_up_ok_btn">OK</string>
@@ -52,7 +48,7 @@
     <string name="process_whole_recovery">Възстановяване \"%s\"</string>
     <string name="device_xiaomi">Mi Phone</string>
     <string name="device_corrupt">Mi Телефон (данните са повредени)</string>
-    <string name="size_unknown">Непознат размер</string>
+    <string name="size_unknown">Неизвестен размер</string>
     <string name="recovering">Възстановява се %s</string>
     <string name="start_recover">Възстанови %s</string>
     <string name="latest_backup_time_loading">Зарежда се…</string>
@@ -130,7 +126,7 @@
     <string name="can_not_restore_in_lite_mode">Не може да се възстанови в Лесен режим</string>
     <string name="can_not_backup_in_lite_mode">Не може да се архивира в Лесен режим</string>
     <string name="restore_data_title">Възстановяване на данни</string>
-    <string name="provision_error_connect_msg">Вие можете да тествате мрежата и да опитате отново. Услугата за резервни копия няма да бъде достъпна без валидна мрежа.</string>
+    <string name="provision_error_connect_msg">Тествайте мрежовата връзка и опитайте отново. Архивите не са достъпни, когато вашето устройство е офлайн.</string>
     <string name="provision_error_connect_title">Не може да се свърже</string>
     <string name="authentication_failed">Не може да се провери вашият Mi Профил.</string>
     <string name="no_account">Не сте вписан в Mi Профил.</string>
@@ -146,6 +142,10 @@
     <string name="download_meta_again">Не може да се свали резервното копие, опитайте отново.</string>
     <string name="cancel_restore_home">Отменя се…</string>
     <string name="cancel_backup">Отмяна на резервно копие…</string>
+    <string name="dialog_title_require_wlan">Свържете се с Wi-Fi</string>
+    <string name="dialog_msg_restore_require_wlan">Възстановяването от архивни копия изисква връзка с Wi-Fi.</string>
+    <string name="dialog_btn_next">Следващо</string>
+    <string name="dialog_btn_restore_skip">Възстанови по-късно</string>
     <string name="cloud_backup">Резервни копия в Mi Облак</string>
     <string name="open_backup_switch">Превключи на Резервно копие</string>
     <string name="restore_cloud_backup_to_phone">Възстановяване на данни от Mi Облак</string>

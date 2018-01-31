@@ -8,6 +8,14 @@
         <item quantity="other">Добавени %d снимки в облака, изключете \"Показване само на локалните албуми\" за преглед.</item>
         <item quantity="one">Добавена %d снимка в облака, изключете \"Показване само на локалните албуми\" за преглед.</item>
     </plurals>
+    <plurals name="add_to_album_failed_with_reason_and_count">
+        <item quantity="other">%2$d елементи не можаха да се добавят към албума. %1$s.</item>
+        <item quantity="one">%2$d елемент не можа да се добави към албума. %1$s.</item>
+    </plurals>
+    <plurals name="add_to_secret_failed_with_reason_and_count">
+        <item quantity="other">%2$d елементи не можаха да се добавят в скрит албум. %1$s.</item>
+        <item quantity="one">%2$d елемент не можа да се добави в скрит албум. %1$s.</item>
+    </plurals>
     <plurals name="age_day">
         <item quantity="other">%d дни</item>
         <item quantity="one">%d ден</item>
@@ -120,6 +128,10 @@
         <item quantity="other">Общо %d снимки</item>
         <item quantity="one">Общо %d снимка</item>
     </plurals>
+    <plurals name="fail_reason_processing_file">
+        <item quantity="other">Обработване на снимки…</item>
+        <item quantity="one">Обработване на снимка…</item>
+    </plurals>
     <plurals name="fast_share_auto_render_failed">
         <item quantity="other">Пропуснахме %1$d снимки, които не могат да бъдат разкрасени.</item>
         <item quantity="one">Пропуснахме 1 снимка, която не може да бъде разкрасена.</item>
@@ -204,6 +216,10 @@
         <item quantity="other">Общо %d снимки</item>
         <item quantity="one">Общо %d снимка</item>
     </plurals>
+    <plurals name="remove_from_secret_failed_with_reason_and_count">
+        <item quantity="other">%2$d елементи не можаха да се премахнат от скрития албум. %1$s.</item>
+        <item quantity="one">%2$d елемент не можа да се премахне от скрития албум. %1$s.</item>
+    </plurals>
     <plurals name="search_feedback_done_mark_and_contribute_false_negative">
         <item quantity="other">Добавени са %1$d снимки към \"%2$s\" и са записани в базата данни.</item>
         <item quantity="one">Добавена е %1$d снимка към \"%2$s\" и е записана в базата данни.</item>
@@ -219,6 +235,22 @@
     <plurals name="search_feedback_done_mark_false_positive">
         <item quantity="other">Премахнати са %1$d снимки от \"%2$s\".</item>
         <item quantity="one">Премахната е %1$d снимка от \"%2$s\".</item>
+    </plurals>
+    <plurals name="send_processing_files_error">
+        <item quantity="other">Не може да се сподели. Обработват се още %d снимки…</item>
+        <item quantity="one">Не може да се сподели. Обработва се още %d снимка…</item>
+    </plurals>
+    <plurals name="slim_complete_photo_count">
+        <item quantity="other">Оптимизирани са %d снимки</item>
+        <item quantity="one">Оптимизирана е %d снимка</item>
+    </plurals>
+    <plurals name="slim_exit_dialog_message">
+        <item quantity="other">%d снимки не бяха оптимизирани. Спиране сега?</item>
+        <item quantity="one">%d снимка не беше оптимизирана. Спиране сега?</item>
+    </plurals>
+    <plurals name="slim_remain_photo_count">
+        <item quantity="other">%d снимки остават</item>
+        <item quantity="one">%d снимка остава</item>
     </plurals>
     <plurals name="sync_error_title">
         <item quantity="other">Неуспешно архивиране на %d снимки и клипове</item>

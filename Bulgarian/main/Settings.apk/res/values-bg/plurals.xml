@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="status_bar_settings_disabled_header_title">
-        <item quantity="other">%d прилж. не могат да показват известия</item>
-        <item quantity="one">%d прилж. не може да показва известия</item>
+        <item quantity="other">%d приложения не могат да показват известия</item>
+        <item quantity="one">%d приложение не може да показва известия</item>
     </plurals>
     <plurals name="status_bar_settings_enabled_header_title">
-        <item quantity="other">%d прилж могат да показват известия</item>
-        <item quantity="one">%d прилж може да показва известия</item>
+        <item quantity="other">%d приложения могат да показват известия</item>
+        <item quantity="one">%d приложение може да показва известия</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
         <item quantity="other">%1$d превключватели ще стоят в лента с известия</item>

@@ -165,7 +165,7 @@
     <string name="passport_barcode_add_account_prompt">За да добавите профила, сканирайте QR кодът отново след като се впишете.</string>
     <string name="passport_quick_register_notice"><u>Нямате Mi профил? Направете си сега.</u></string>
     <string name="passport_password_phone_login">Вписване с Mi профил</string>
-    <string name="passport_sms_verification_code_login">Вписване с код за потвърждение от SMS</string>
+    <string name="passport_sms_verification_code_login">Вписване със SMS</string>
     <string name="passport_login_other_account">Друг профил</string>
     <string name="passport_reg_new_account">Създайте профил</string>
     <string name="passport_select_the_login_account">Изберете профил за вписване</string>

@@ -17,6 +17,14 @@
     <string name="agree_to_turn_on">Приемам</string>
     <string name="all_services">Всички</string>
     <string name="allow">Позволено</string>
+    <string name="antispam_curr_version">Текуща версия: %d</string>
+    <string name="antispam_data_downloading">Изтегля се информация за обаждащия се. Това може да отнеме от 3 до 5 секунди.</string>
+    <string name="antispam_data_downloading_error">Не може да се свърже с мрежата</string>
+    <string name="antispam_local_newest">Текущата версия е актуална.</string>
+    <string name="antispam_network_remind_summary">Да се изтеглят актуализациите чрез използване на мобилни данни?</string>
+    <string name="antispam_network_remind_title">Предупреждение за използв. на данни</string>
+    <string name="antispam_pull_newest">Актуализирано успешно до версия %d</string>
+    <string name="antispam_update_version">Проверка за актуализации</string>
     <string name="app_label">Жълти новини</string>
     <string name="app_recommendation_install">Инсталиране</string>
     <string name="average_price">Равнище на %d индекс RMB</string>
@@ -190,6 +198,7 @@
     <string name="quick_yellow_page_tab_phones">Телефон</string>
     <string name="recharge_actual_price">цена:</string>
     <string name="recharge_charge_range">Цена: RMB %1$s-%2$s</string>
+    <string name="recharge_charge_value">Цена: RMB %s</string>
     <string name="recharge_follow_name">Вземи пакет</string>
     <string name="recharge_history">история на препоръките</string>
     <string name="recharge_history_empty">Празно</string>
@@ -233,6 +242,7 @@
     <string name="sending_shortcut">Изпращане…</string>
     <string name="service_unavailiable">Услугата не е достъпна</string>
     <string name="share">Споделяне</string>
+    <string name="shop_recommendation_format">%1$s: %2$s</string>
     <string name="smart_antispam">Идентификация на обаждането</string>
     <string name="toast_finish_delete_call_log">Списъкът с повиквания е изтрит</string>
     <string name="toast_text_copied">Текста е копиран</string>

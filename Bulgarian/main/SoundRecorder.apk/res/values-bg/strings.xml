@@ -26,7 +26,6 @@
     <string name="notification_recording_ticker">Телефонът е заглушен. Записва се…</string>
     <string name="notification_playback">Пускане на звукозаписа...</string>
     <string name="notification_stopped">Записът е спрян</string>
-    <string name="notification_warning">Малко място (по-малко от %d минути)...</string>
     <string name="record_list">Списък със звукозаписи</string>
     <string name="record_list_fm">FM Записи</string>
     <string name="record_list_call">Записи на обаждания</string>
@@ -73,6 +72,7 @@
     <string name="message_file_size_error">Звукозаписът достигна максималната поддържана от %s дължина</string>
     <string name="pause">Пауза</string>
     <string name="back">Назад</string>
+    <string name="menu">Меню</string>
     <string name="toast_uninstall_fileexplorer">Не е инсталиран файлов мениджър</string>
     <string name="record_download">Изтегляне от Mi Cloud</string>
     <string name="record_download_msg">Записите могат да бъдат прослушани само след като изтеглянето им завърши.</string>
@@ -142,10 +142,8 @@
     <string name="recognition_error_downloading">Изтегляне</string>
     <string name="recognition_status_downloading">Изтегляне</string>
     <string name="runtime_permission_ungranted">Не може да използвате Звукозапис, поради нелегитимни права</string>
-    <string name="btn_clear_records">Изтрий записите (%d броя)</string>
     <string name="alert_message_clear_records">Желаете ли да изтриете избрания звукозапис?</string>
     <string name="clear_records">Изтрий синхронизираните записи</string>
-    <string name="choose_call_records_count">%d елемента</string>
     <string name="network_tip_dialog_title">Необходима е връзка с интернет</string>
     <string name="network_tip_dialog_content">Звукозапис се нуждае от връзка с интернет за да прочете вашите контакти и да работи нормално. Съгласен ли сте?</string>
     <string name="network_tip_dialog_ok">Съгласен</string>
