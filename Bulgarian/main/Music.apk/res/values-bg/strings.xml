@@ -186,7 +186,6 @@
     <string name="continue_backup">Продължи</string>
     <string name="cp_info_first">"Услугата за поточно слушане на музика
 се предоставя основно от Ultimate Inc."</string>
-    <string name="cp_info_second">service1@ultimobi.com</string>
     <string name="create_order_fail">Не мога да направя поръчка,опитайте отново.</string>
     <string name="create_playlist">Създаване на плейлист</string>
     <string name="create_playlist_failure">Не може да се създаде плейлист</string>
@@ -306,7 +305,6 @@
     <string name="download_paused">Изтеглянето е на пауза.</string>
     <string name="download_paused_in_power_save_mode">Изтеглянето е спряно когато Икономия на батерията е включено</string>
     <string name="download_pending">Изтеглянето е в очакване</string>
-    <string name="download_percent">%d%%</string>
     <string name="download_processing">Изтегля се…</string>
     <string name="download_quality">Качество при изтегляне</string>
     <string name="download_quality_summary">Допълнителни настройки на песните, които сте изтеглили</string>

@@ -53,7 +53,6 @@
     <string name="all_the_internet">Всички мрежи</string>
     <string name="apk_filter">APK</string>
     <string name="app_downloads">%s изтегляния</string>
-    <string name="app_size">%1$s</string>
     <string name="auth_activity_title">Xunlei профил</string>
     <string name="auth_fail">Не може да се получи разрешение</string>
     <string name="bind_xunlei_account">Добавяне на Xunlei профил</string>
@@ -119,7 +118,6 @@
     <string name="download_list_open_xl_title">Xunlei високоскоростно изтегляне</string>
     <string name="download_list_title_browser">Изтегляния</string>
     <string name="download_no_application">Няма приложения, поддържащи този файлов формат</string>
-    <string name="download_num_size">%1$s | %2$s</string>
     <string name="download_paused">Изтеглянето е на пауза</string>
     <string name="download_pending">Изтеглянето е в очакване</string>
     <string name="download_remain_time">Остават:</string>
@@ -441,7 +439,6 @@
     <string name="xl_vip_semiannual">6 месеца: %1$s Mi Кредити × 6</string>
     <string name="xunlei_account_has_unbind_message">Xunlei профилът е премахнат</string>
     <string name="xunlei_brand">С подкрепата на Xunlei</string>
-    <string name="xunlei_brand_url">http://mobile.xunlei.com</string>
     <string name="xunlei_close_tips_button">Включване</string>
     <string name="xunlei_close_tips_content">Xunlei високоскоростно изтегляне.</string>
     <string name="xunlei_close_tips_title">Ускорете вашите изтегляния</string>
