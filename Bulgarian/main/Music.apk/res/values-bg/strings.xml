@@ -45,7 +45,6 @@
     <string name="s6">Да се разреши ли на рекламата да създаде събитие в календара?</string>
     <string name="s7">Тестова реклама</string>
     <string name="search_menu_title">Търсене</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="about">Относно Mi Музика</string>
     <string name="account">Профил</string>
     <string name="account_and_cloud">Профил</string>
@@ -735,7 +734,6 @@
     <string name="privacy_notif_content">Чукнете, за да видите детайли</string>
     <string name="privacy_notif_title">Xunlei ускорител за изтегляне е вкл.</string>
     <string name="privacy_policy">Политика за поверителност</string>
-    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=en</string>
     <string name="privacy_tip_cancel">Отмени</string>
     <string name="privacy_tip_content">Използване Xunlei ускорител за изтегляне? URL-то на изтеглените връзки ще бъде качено на Xunlei сървърите. Детайли от Вашия Mi Профил също ще бъдат качени, за проверка дали имате активен абонамент за тази услуга.</string>
     <string name="privacy_tip_ok">OK</string>
@@ -979,7 +977,6 @@
     <string name="upgrade_to">Надстройка към</string>
     <string name="upgrade_waringing">Вие можете да слушате музика, която е запомнена само на вашето устройство.</string>
     <string name="user_agreement">Потребителско споразумение</string>
-    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=en</string>
     <string name="valid_period">Валидност: %s</string>
     <string name="version_info">Версия</string>
     <string name="vip_after_tomorrow_auto_renew_message">Вашият абонамент в Музика ще бъде подновен автоматично след една вечер. Бъдете сигурни, че имате достатъчно Mi-кредити за да извършите плащането.</string>
