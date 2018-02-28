@@ -22,6 +22,7 @@
     <string name="find_device_noise_title">Аларма за Открий устройството</string>
     <string name="find_device_success_title">Намиране на устройството</string>
     <string name="find_device_notice_p1">Отиди на</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">За откриване, заключване, или възстановяване на вашия телефон. Ако размените СИМ-картите, ще бъде изпратен SMS автоматично за реактивиране на услугата.</string>
     <string name="i_know">OK</string>
     <string name="unlock_error_network">Не може да се свърже с интернет</string>
@@ -37,6 +38,7 @@
     <string name="unlock_error_rpc">RPC грешка</string>
     <string name="unlock_error_abort">Отменено от потребителя</string>
     <string name="unlock_error_passport_sdk_timeout">Mi-профил SDK не отговаря</string>
+    <string name="open_wifi_settings">Отваряне на настройки за Wi-Fi</string>
     <string name="activate_xiaomi_account">Активиране на това утсройство</string>
     <string name="login_extra_steps">Потвърждение при влизане</string>
     <string name="phone_locked">Това устройство е свързано със съществуващ Mi Профил (%s). Влезте, за да го активирате.</string>

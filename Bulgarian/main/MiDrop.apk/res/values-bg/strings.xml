@@ -33,6 +33,7 @@
     <string name="cancel_lang">Отказ</string>
     <string name="cancel_message">Другият човек няма да получава файлове, ако анулирате прехвърлянето. Отменете прехвърлянето сега?</string>
     <string name="cancel_stop">Продължи изпращането</string>
+    <string name="cannot_transfer_dir_to_low_version">Ask the other person to update Mi Drop</string>
     <string name="category_files">Файлове</string>
     <string name="category_installed_app">Приложения</string>
     <string name="category_music">Музика</string>
@@ -96,7 +97,7 @@
     <string name="info_product">Устройство:</string>
     <string name="info_system">Система:</string>
     <string name="info_system_version">Версия на системата:</string>
-    <string name="instruction">Въведете този адрес в браузъра на вашия компютър или файлов мениджър</string>
+    <string name="instruction">Въведете този адрес във файловия мениджър на вашия компютър</string>
     <string name="instruction_pre_pad">Започнете да управлявате файловете от вашия компютър</string>
     <string name="instruction_pre_phone">Започнете да управлявате файловете от вашия компютър</string>
     <string name="internal_storage">Вътрешна памет</string>
@@ -114,6 +115,7 @@
 In Android 6.0 и нагоре трябва да включите услугите за да изпращате и получавате файлове."</string>
     <string name="location_skip">Пропускане</string>
     <string name="max_send_file">99 +</string>
+    <string name="more">Още</string>
     <string name="never_remind">Без ново показване</string>
     <string name="no_file">Празно</string>
     <string name="no_network">"Не можа да се свърже с мрежата. 
@@ -134,6 +136,7 @@ In Android 6.0 и нагоре трябва да включите услугит
     <string name="popup_window_header_clear_all">Изчистване</string>
     <string name="port_range">Номерът на порта трябва да е между 1024 – 65535</string>
     <string name="prompt_grant_write_settings_permission">Позволи Mi Drop да променя системните настройки.</string>
+    <string name="qr_code">QR код</string>
     <string name="receive">Получаване</string>
     <string name="receive_exit_dialog_message">Файловете няма да бъдат изпратени ако прекратите прехвърлянето. Отказ все пак?</string>
     <string name="receive_exit_dialog_negative_btn">Продължете да получавате</string>
@@ -142,6 +145,7 @@ In Android 6.0 и нагоре трябва да включите услугит
     <string name="received_files">Получени файлове</string>
     <string name="receiver_accept">Приемане</string>
     <string name="receiver_clean">Освобождаване на място</string>
+    <string name="receiver_file_title">От %s</string>
     <string name="receiver_in_progress_summary">Изчакайте докато завърши прехвърлянето, за да изпратите новите файлове.</string>
     <string name="receiver_in_progress_title">Изпращане</string>
     <string name="receiver_insufficient_storage">Няма достатъчно място в хранилището.</string>
@@ -191,16 +195,21 @@ In Android 6.0 и нагоре трябва да включите услугит
     <string name="settings_feedback">Обратна връзка</string>
     <string name="settings_score">Оценете Mi Drop</string>
     <string name="settings_set_name">Псевдоним</string>
-    <string name="share_desc">Споделете Mi Drop с използване на мобилни данни</string>
+    <string name="share_ap_step_two">Вижте стъпка 2, след като вашият приятел се свърже</string>
+    <string name="share_desc">Споделяне без да е необходима връзка с интернет</string>
+    <string name="share_first_head_title">Споделете с приятели наблизо</string>
     <string name="share_mi_drop">Споделете Mi Drop на Вашите приятели</string>
+    <string name="share_second_head_title">Други начини за споделяне</string>
+    <string name="share_via_ap">Споделяне с помощта на преносима точка за достъп</string>
+    <string name="share_via_qr_code">Споделяне с помощта на QR код</string>
     <string name="start_server">Старт</string>
     <string name="stay_awake_summary">Не позволявай на екрана да заспи, докато се използва FTP</string>
     <string name="stay_awake_title">Дръж екрана буден</string>
-    <string name="step_1">"Стъпка 1: 
-Запитване друго лице да се свърже с Wi-Fi."</string>
-    <string name="step_2">"Стъпка 2: 
-Поискайте другия човек да въведе следния адрес в браузъра:"</string>
-    <string name="step_2_scan_code">Или сканиране на следния QR код</string>
+    <string name="step_1">Стъпка 1:</string>
+    <string name="step_1_title">Помолете вашият приятел да се свърже с тази мрежа</string>
+    <string name="step_2">Стъпка 2:</string>
+    <string name="step_2_input_ip_address">Или кажете на вашият приятел да въведе това в адресната лента на браузъра си:</string>
+    <string name="step_2_scan_code">Помолете вашият приятел да сканира този QR код</string>
     <string name="stop_server">Спри</string>
     <string name="stop_transfer">Стоп</string>
     <string name="storage_internal">Вътрешна памет</string>
@@ -230,6 +239,7 @@ In Android 6.0 и нагоре трябва да включите услугит
     <string name="version">Версия</string>
     <string name="want_receive">Получавайте файлове</string>
     <string name="want_send">Изпращане на файлове</string>
+    <string name="wifi_ap">Преносима точка за достъп</string>
     <string name="wifi_name">Wi-Fi име:</string>
     <string name="wifi_psw">Парола:</string>
     <string name="wifi_state">Състояние на Wi-Fi</string>

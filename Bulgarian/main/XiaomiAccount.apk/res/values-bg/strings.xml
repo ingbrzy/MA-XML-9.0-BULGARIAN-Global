@@ -3,7 +3,7 @@
     <string name="passport_account_label">Mi профил</string>
     <string name="passport_notification_title">Грешка при вписване за %1$s</string>
     <string name="passport_login_prompt">Един Mi профил. Всички Mi услуги.</string>
-    <string name="passport_login_using_other_ways"><u>Други начини за вписване</u></string>
+    <string name="passport_login_using_other_ways">Други начини за вписване</string>
     <string name="passport_login_title">Вписване във вашия Mi профил</string>
     <string name="passport_login">Вписване</string>
     <string name="passport_relogin">Ново вписване</string>
@@ -91,6 +91,7 @@
     <string name="passport_email">Имейл адрес</string>
     <string name="passport_vcode_prompt_long">Въведете кода за потвърждение</string>
     <string name="passport_input_phone_hint">Въведете телефонен номер</string>
+    <string name="passport_input_voice_captcha_hint">Въведете гласов код за потвърждение</string>
     <string name="passport_error_empty_username">Въведете потребителското си име</string>
     <string name="passport_error_invalid_phone_num">Невалиден телефонен номер</string>
     <string name="passport_error_empty_phone_num">Въведете телефонен номер</string>
@@ -215,11 +216,12 @@
     <string name="app_name">Mi профил</string>
     <string name="account">Профил</string>
     <string name="logout_failed">Неуспешно отписване</string>
+    <string name="turning_off_find_device">\"Открий устройство\" се изключва…</string>
     <string name="turn_off_find_device_failed_title">Не може да се изключи Открий устройството</string>
     <string name="no_response_retry">Няма отговор, опитайте отново.</string>
     <string name="removing_account">Отписване…</string>
-    <string name="delete_bank_card_title">Изтриване на банкова карта</string>
-    <string name="delete_bank_card_message">След като излезете, банковата Ви карта ще бъде изтрита поради съображения за сигурност.</string>
+    <string name="delete_bank_card_title">Внимание</string>
+    <string name="delete_bank_card_message">Картите за Mi Плащане и NFC картите ще бъдат изтрити, след като се отпишете.</string>
     <string name="bind_settings">Профили</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="bind_sina_weibo">Свързан със Sina Weibo</string>
@@ -227,7 +229,7 @@
     <string name="bind_sns_description">Попълване на профила ви използвайки личната си информация в %s.</string>
     <string name="add_account">Добавяне на профил</string>
     <string name="qq">QQ</string>
-    <string name="bind_qq">Добавяне на QQ профил</string>
+    <string name="bind_qq">QQ</string>
     <string name="facebook">Facebook</string>
     <string name="bind_facebook">Добавяне на Facebook профил</string>
     <string name="binded">Свързан</string>
@@ -357,13 +359,16 @@
     <string name="device_delete_success_title">Отписано</string>
     <string name="device_delete_success_message">Ако не сте се вписвали на това устройство, незабавно променете паролата си.</string>
     <string name="change_password">Промени паролата</string>
-    <string name="completed">Готово</string>
+    <string name="completed">Всичко е настроено!</string>
     <string name="no_network_title">Няма врузка с мрежата.</string>
     <string name="no_network_btn">Опресни</string>
     <string name="get_device_list_failed">Устройствата не може да се заредят</string>
     <string name="delete_device_failed">Устройството не може да се премахне</string>
     <string name="empty_device_list_notice">Няма устройства</string>
     <string name="device_name">Име на устройството</string>
+    <string name="multi_user_not_show_sync_activity_title">Не включвайте синхронизация с Mi Cloud</string>
+    <string name="multi_user_not_show_sync_activity_message_1">"Looks like you're using your Default space Mi Account."</string>
+    <string name="multi_user_not_show_sync_activity_message_2">"In such case, all the data will be synced to your Second space.To avoid this, don't turn on sync with Mi Cloud"</string>
     <string name="find_device_access_denied">Не може да се получи информация за статус, достъпът е забранен.</string>
     <string name="find_device_account_error">Не може да се получи информация за статус поради грешка в Mi Account.</string>
     <string name="find_device_null_credential_error">Не мога да получа информация за устройството, свържете се с Xiaomi-център за услуги.</string>
@@ -379,10 +384,7 @@
     <string name="find_device_operation_failed_error_unknown">Неочаквана грешка, опитайте по-късно.</string>
     <string name="find_device_remote_exception">RPC грешка</string>
     <string name="io_error_title">Потвърдете вашата мрежа</string>
-    <string name="login_check_find_device_failed_title">Не може да се провери статуса на Открий устройството</string>
-    <string name="multi_user_not_show_sync_activity_title">Не включвайте синхронизация с Mi Cloud</string>
-    <string name="multi_user_not_show_sync_activity_message_1">"Looks like you're using your Default space Mi Account."</string>
-    <string name="multi_user_not_show_sync_activity_message_2">"In such case, all the data will be synced to your Second space.To avoid this, don't turn on sync with Mi Cloud"</string>
+    <string name="login_check_find_device_failed_title">Не може да се провери информацията за оптимизиране на устройството</string>
     <string name="notify_network_restricted_title">Mi профилът не може да се свърже с мрежата</string>
     <string name="notify_network_restricted_content_hidden_state">Дейността на Mi профила на заден план е ограничена. Чукнете за разрешаване.</string>
     <string name="notify_network_restricted_content_bg_network">Достъпът до интернет на Mi профила е ограничен. Чукнете за разрешаване.</string>
@@ -413,9 +415,8 @@
     <string name="unlock_help_notice">"Помощ:
 · Ако си забравите паролата, отидете на id.mi.com, за да я смените.
 · Ако не можете да отключите устройството, отидете на i.mi.com, за да изключите \"Намери устройство\"
-· Кажете следния номер за отключване на оператора: %s"</string>
-    <string name="find_device_display_id">Номер за отключване:%s</string>
-    <string name="login_find_device_bind">Това устройство е асоциирано със съществуващ профил в Mi (%s), въведете паролата, за да потвърдите устройството.</string>
+· Вашият номер за отключване е: %s"</string>
+    <string name="login_find_device_bind">Това устройство е свързано със съществуващо ID на MI профил (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s,присвоен мобилен номер:%s</string>
     <string name="find_device_locked_account_email" formatted="false">%s,присвоен имейл адрес:%s</string>
     <string name="oauth_title">Влезте с Mi профил</string>

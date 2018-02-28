@@ -257,7 +257,7 @@
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">Изпрати към Weibo</string>
     <string name="xspace_qq_title">QQ</string>
-    <string name="qq_send">Изпрати към приятели и устройства с QQ</string>
+    <string name="qq_send">Изпрати към приятелите в QQ/компютър</string>
     <string name="xspace_default_setting_label">Прилож по подразбиране</string>
     <string name="xspace_default_app_title">Прилож по подразбиране</string>
     <string name="xspace_default_app_summary">Задайте приложение по подразбиране за плащания, споделяне, любими неща и други.</string>

@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"\"Представяме версия %1$s
  Делта актуализация: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Хранилището не е на разположение, проверете картата памет.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMБ</string>
     <string name="xiaomi_connect_download_manager_fail">Не може да се стартира изтегляне. Уверете се, че мениджър изтегляния работи нормално.</string>
     <string name="app_name">Резервно копие</string>
     <string name="local_app_name">Резервно копие</string>
@@ -222,6 +225,7 @@
     <string name="restore_backup">Възстанови</string>
     <string name="enable_encrypt_description">Кодиране</string>
     <string name="disable_encrypt_description">Не кодирай</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Един момент…</string>
     <string name="state_mounting">Достъп до хранилището на рутера…</string>
     <string name="abort_backup_confirm">Резервното копие не е завършено! Да спре ли въпреки това?</string>
@@ -326,6 +330,7 @@
     <string name="trans_device_wait_for_reconnecting">Връзката беше прекъсната. Свържете се отново за да продължите.</string>
     <string name="trans_device_auto_reconnecting">Прекъсната връзка. Автоматично повторно свързване…</string>
     <string name="trans_connecting_toast">Установява се връзка…</string>
+    <string name="trans_switching_5g">Превключва се на 5GHz Wi-Fi…</string>
     <string name="trans_connect_failed_toast">Ме може да се свърже</string>
     <string name="trans_generate_qr_code_failed">Не може да се създаде QR код</string>
     <string name="trans_scan_invalid_qrcode">Невалиден QR код</string>
@@ -422,7 +427,7 @@
 След създаването на нов въпрос за сигурност и потвърждаването на вашата дата на раждане, функцията Двойно оторизиране ще бъде изключена. Ако не виждате тази опция на страницата на Apple ID, вие не можете да я изключите."</string>
     <string name="close_twice_auth_btn">Изключи двойната оторизация</string>
     <string name="close_twice_auth_operation">"URL:
-https://appleid.apple.com/#!&amp;page=signin to close"</string>
+https://appleid.apple.com/#!&amp;page=signin за затваряне"</string>
     <string name="platform_chooser_title">Избери старото устройство</string>
     <string name="platform_chooser_item_ios">Импортиране от устройство на Apple</string>
     <string name="platform_chooser_item_android">Импортиране от устройство на Android</string>
@@ -479,6 +484,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
 вие трябва да направите архив в iCloud."</string>
     <string name="list_footer_tip_title">Съвети:</string>
     <string name="import_tip_summary">Поради проблеми със съвместимостта, вие можете да прехвърлите само частична информация от iOS устройството. Уверете се, че сте направили резервно копие в iCloud, преди да започнете прехвърлянето.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Импортирай</string>
     <string name="select_empty">Изберете елементи за импортиране</string>
     <string name="select_item_summary_wait">Изчаква се…</string>
@@ -502,6 +508,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
     <string name="error_permissions">Това приложение няма необходимите разрешения за достъп до Календар. Отворете \"Настройки\" и проверете разрешенията, за да продължите.</string>
     <string name="succ_description">Успешно</string>
     <string name="failed_description">Неуспешно</string>
+    <string name="notif_miasist_try_to_connect">Mi PC Suite се опитва да се свърже с вашето устройство</string>
     <string name="notif_connect_miasist">Свързан с Mi PC Suite</string>
     <string name="notif_disconnect_miasist">Не е свързан с Mi PC Suite</string>
     <string name="notif_sending_transingsd">Изпращане %1$s (%2$s)…</string>

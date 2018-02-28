@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Запис на екрана</string>
-    <string name="app_notification_info">Screen Recorder is working in the background</string>
+    <string name="app_notification_info">Запис на екрана ще работи във фонов режим</string>
     <string name="app_notification_title">Запис на екрана</string>
     <string name="auto_stop_title">Видеото е успешно запазено</string>
     <string name="battery_not_allowed" formatted="false">Не може да се прави запис при батерия по-ниска от 3%. Бъдете сигурни, че сте заредили батерията си поне на 20%.</string>
@@ -18,7 +18,7 @@
     <string name="date_day" />
     <string name="date_month">/</string>
     <string name="date_year">/</string>
-    <string name="description_content">Приложението Запис на екрана дава възможност на системно ниво за запис на екрана. Това действие ще Ви лиши от възможността за запис на екрана. Потвърди Напред.</string>
+    <string name="description_content">Приложението дава възможност да записвате екрана на системно ниво. Няма да може да използвате Запис на екрана, ако продължите. Моля, потвърдете, преди да продължите.</string>
     <string name="description_title">Относно Запис на екрана</string>
     <string name="deselect_all">Отмаркирай всичко</string>
     <string name="error_open_file_failed_no_app_found">Няма приложение, което да отвори този файл</string>
@@ -37,7 +37,7 @@
     <string name="low_battery">Заредете батерията си, преди да започнете да записвате</string>
     <string name="low_battery_title">Слаба батерия</string>
     <string name="low_battery_warning">Батерията е изтощена. Спрете записа и го съхранете.</string>
-    <string name="low_memory">You have less than 1GB of available storage. You can record up to 20 minutes now.</string>
+    <string name="low_memory">Имате по-малко от 1ГБ достъпно място в хранилището. Можете да запишете до 20 минути.</string>
     <string name="low_memory_title">Няма достатъчно място в хранилището</string>
     <string name="low_momery_warning">Няма достатъчно място в хранилището. Спрете записа и го съхранете.</string>
     <string name="memory_not_allowed">Няма достатъчно място в хранилището. Освободете място за нов запис.</string>
@@ -50,7 +50,7 @@
     <string name="quit_recording">Изход от Записване на екран</string>
     <string name="recording_failure">Не може да се запише, започни отначало</string>
     <string name="recording_max_size">Записът бе спрян и запазен, защото видеофайлът достигна своя максимален размер. Започнете записването, откъдето сте спрели, ако все още не сте готови.</string>
-    <string name="recording_without_mic">Microphone is occupied and microphone sound cannot be recorded</string>
+    <string name="recording_without_mic">Микрофонът е зает и не може да се записва звук сега.</string>
     <string name="resolution">Резолюция</string>
     <string name="resolution_summary">Видеото с висока резолюция може да бъде с изострена картина</string>
     <string name="screen_orientation">Ориентация</string>

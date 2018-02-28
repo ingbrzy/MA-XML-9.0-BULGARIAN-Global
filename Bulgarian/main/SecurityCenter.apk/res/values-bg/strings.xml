@@ -80,7 +80,7 @@
     <string name="menu_add">Добави</string>
     <string name="menu_edit">Промени</string>
     <string name="menu_remove">Премахни</string>
-    <string name="menu_white">С изключение</string>
+    <string name="menu_white">Добавяне към изключения</string>
     <string name="st_settings_name">Настройки за блокиране</string>
     <string name="st_filter_keywords_setting_summary1">Съобщенията от непознати номера, които съдържат думите от този списък ще бъдат блокирани.</string>
     <string name="st_filter_keywords_setting_summary3">Ще бъдат разрешени съобщения от неизвестни номера, съдържащи думите в този списък.</string>
@@ -405,6 +405,7 @@
     <string name="detail_app_button">Детайли</string>
     <string name="pref_about_traffic_title">Настройка на трафика</string>
     <string name="pref_traffic_manage_title">Използвани данни</string>
+    <string name="pref_operator_setting">%1$s: %2$s</string>
     <string name="pref_package_traffic_settings">План за данни</string>
     <string name="pref_adjust_traffic_data">Задаване на изп. на данни</string>
     <string name="pref_category_title_other">Допълнитени настройки</string>
@@ -615,7 +616,7 @@
     <string name="tc_sms_report_type">Тип доклад</string>
     <string name="privacy_declare_dialog_title">Условия за ползване</string>
     <string name="sc_allow_network_dialog_tiltle">Спестяване на данни не работи</string>
-    <string name="sc_allow_network_dialog_message">Това приложение се нуждае от интернет, за да работи нормално.</string>
+    <string name="sc_allow_network_dialog_message">Забранили сте мрежова връзка и достъп до вашето местоположение. Дайте на Оптимизация необходимите разрешения за използване на тази функция.</string>
     <string name="privacy_prompt_upload">Внимание!</string>
     <string name="privacy_prompt_traffic_adjust_message">"След като стартирате калибрацията, MIUI ще се свърже с мрежата, ще разкодира информацията за вашия оператор, телефонен номер, IMEI, и Mi профил, и ще качи тази информация на Mi сървърите. Това ще се извърши по зададен от мрежовия оператор шаблон за калибрация и ще се прилага за получаване на информация, ако е възможно, за цени и плащания на операторите, обслужващи във вашето местонахождение.
 
@@ -918,6 +919,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Това приложение може да забави прекалено много
 вашето устройство"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Деинсталиране на %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Деинсталирайте това приложение, за да поправите проблем с прекален разход на батерията.</string>
     <string name="om_ill_proc_type_wakelock_title">Това приложение блокира режим сън на устройството и изразходва много батерия</string>
@@ -1322,6 +1324,7 @@
     <string name="menu_text_networkassistants">Монитор за данни</string>
     <string name="menu_text_networkassistants_remain">%s остават</string>
     <string name="menu_text_networkassistants_danger">%s над лимита</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">ГБ</string>
     <string name="menu_text_networkassistants_unit_mb">МБ</string>
     <string name="menu_text_networkassistants_unit_kb">КБ</string>
@@ -1672,7 +1675,7 @@
     <string name="preferred_app_entries_music">Музика</string>
     <string name="preferred_app_entries_email">Имейл</string>
     <string name="card_main_applock_title">App lock</string>
-    <string name="card_main_applock_summary">Защитете вашите съобщения, снимки и други неща с парола.</string>
+    <string name="card_main_applock_summary">Защитете вашите приложения с парола.</string>
     <string name="card_main_applock_action">Активирай</string>
     <string name="card_main_deepclean_title">Разширено почистване</string>
     <string name="card_main_deepclean_summary">Изтрийте файловете от които нямате нужда</string>
@@ -1682,6 +1685,7 @@
     <string name="card_main_deepclean_wechat_action">Изчистване</string>
     <string name="card_main_sectool_title">Инструменти</string>
     <string name="card_main_monthreport_action">Покажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Диагностика на мрежата</string>
     <string name="card_main_netcheck_summary">Диагностика на мрежата за проблеми при свързването</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -1710,14 +1714,18 @@
     <string name="more_lock">Още</string>
     <string name="app_name">Закл. на прил.</string>
     <string name="back_app_name">Върнете се в Закл. приложения</string>
-    <string name="notification_item">Защитете приложенията си със Заключване на приложения</string>
+    <string name="ac_notification_contentTitle">Защитете приложенията си със Заключване на приложения</string>
+    <string name="ac_pre_notification_contentTitle">Опитайте Закл на приложения</string>
+    <string name="ac_post_notification_contentTitle">Включете Закл. приложения</string>
     <string name="notification_masked_item">Скрий известията</string>
     <string name="lock_mode_title">Настройки за заключване</string>
     <string name="after_the_lock_screen">Заключване на приложения заедно с екрана</string>
     <string name="set_applock_password">Задайте парола</string>
     <string name="ac_firstUseApplock_title">Задайте парола, за да защитите приложенията си</string>
     <string name="ac_firstUseApplock_subTitle">Използвайте по-добри системни инструменти за сигурност</string>
-    <string name="notification_subtitle">Чукнете за включване</string>
+    <string name="ac_notification_contentText">Чукнете за включване</string>
+    <string name="ac_pre_notification_contentText">Защитете вашата лична информация</string>
+    <string name="ac_post_notification_contentText">Получаване на системно ниво на защита</string>
     <string name="notification_masked_subtitle">Скрий известията от приложенията, защитени от Закл. приложения</string>
     <string name="ac_enter_applock">Вход в закл. на прил.</string>
     <string name="ac_mask_all_apps">Скрий за всички приложения</string>

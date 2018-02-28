@@ -17,6 +17,7 @@
     <string name="abc_activity_chooser_view_see_all">Вижте всички</string>
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_shareactionprovider_share_with">Споделяне със:</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="abc_capital_on">ВКЛ.</string>
     <string name="abc_capital_off">ИЗКЛ.</string>
     <string name="app_label">Документи</string>

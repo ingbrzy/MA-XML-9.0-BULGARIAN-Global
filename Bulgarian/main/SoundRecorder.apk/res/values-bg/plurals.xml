@@ -17,8 +17,8 @@
         <item quantity="one">%d несинхронизиран</item>
     </plurals>
     <plurals name="btn_clear_records">
-        <item quantity="other">Изтриване на записи (%d елемента)</item>
-        <item quantity="one">Изтриване на записи (%d елемент)</item>
+        <item quantity="other">Изтрий %d записа</item>
+        <item quantity="one">Изтрий %d запис</item>
     </plurals>
     <plurals name="choose_call_records_count">
         <item quantity="other">%d елемента</item>

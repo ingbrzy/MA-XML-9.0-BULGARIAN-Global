@@ -57,6 +57,7 @@
     <string name="save_pic_success">Запазване на изобр. в %s</string>
     <string name="save_pic_fail">Не може да се запази изобр. Прегледайте SD-картата си</string>
     <string name="pic_not_exist">Това изобр. не съществува</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Изберете продукт</string>
     <string name="michat_skillset_business_type_title">Изберете услуга</string>
     <string name="michat_close_text">Чатът е затворен</string>
@@ -162,6 +163,7 @@
     <string name="cta_confirm">ОК</string>
     <string name="submit_dialog_title">Изпращане на доклад до Mi</string>
     <string name="submit_dialog_content">Вашият отзив с прикачените файлове и записи ще бъде изпратен на сървърите на MIUI. Може да съдържа лична информация и вашето местоположение.</string>
+    <string name="submit_dialog_content_global">Вашата обратна връзка, заедно с прикачените файлове (ако има) и логовете (вие можете да махнете отметката в полето за изпращане на тези елементи, които не искате да качите), ще бъде качена на сървърите на MIUI и достъпна за нашите програмисти с цел анализ и бъдеща комуникация. Логовете, изпратени от вас могат да съдържат лични данни и информация за местоположението ви.</string>
     <string name="submit_dialog_cancel">Отказ</string>
     <string name="submit_dialog_confirm">Изпрати</string>
     <string name="mobile_data_note_dialog_title">Предупреждение за използв. на данни</string>
@@ -176,7 +178,7 @@
     <string name="modem_tool_log_finish_title">Логът на модема е заснет</string>
     <string name="modem_tool_log_finish_desc">Логът е запазен като %s</string>
     <string name="bugreport_dialog_not_show_again">Не показвай отново</string>
-    <string name="bugreport_dialog_submit_content">Вашият отзив може да съдържа лична информация и местоположението ви.</string>
+    <string name="bugreport_dialog_submit_content">Вие запазвате софтуерни логове на това устройство. Те могат да съдържат лична информация и вашето местоположение. Не споделяйте логовете с никой друг, ако не искате тази информация да бъде достъпна за всички.</string>
     <string name="bugreport_dump_start_notification_title">Създаване на доклад за грешка</string>
     <string name="bugreport_dump_start_notification_summary">Това може да отнеме няколко минути.</string>
     <string name="bugreport_dump_complete_notification_title">Докладът е създаден</string>
@@ -218,6 +220,14 @@
     <string name="feedback_choose_module_hint">Необходимо</string>
     <string name="feedback_choose_reproductivity">Репродуктивност</string>
     <string name="feedback_title_reproductivity">Изберете репродуктивност</string>
+    <string name="feedback_select_problem_select_desc">Избрани са \"Проблеми\"</string>
+    <string name="feedback_select_problem_not_select_desc">Не сте избрали \"Проблеми\"</string>
+    <string name="feedback_select_suggestion_select_desc">Избрани са \"Предложения\"</string>
+    <string name="feedback_select_suggestion_not_select_desc">Не сте избрали \"Предложения\"</string>
+    <string name="feedback_select_upload_log_select_desc">Избрано е \"Добави регистър\"</string>
+    <string name="feedback_select_upload_log_not_select_desc">Не сте избрали \"Добави регистър\"</string>
+    <string name="feedback_select_modem_log_select_desc">Избрано е \"Добави регистър на модема\"</string>
+    <string name="feedback_select_modem_log_not_select_desc">Не сте избрали \"Добави регистър на модема\"</string>
     <string name="feedback_report_remind_login_desc">Влезте с вашия Mi профил, за да може нашите инженери да се свържат с Вас.</string>
     <string name="feedback_report_remind_login_desc2">Може да прегледате прогреса на доклада в раздела \"Моите доклади\".</string>
     <string name="feedback_history_remind_login_desc">Влезте с вашия Mi акаунт за детайли по репортите Ви</string>

@@ -77,6 +77,9 @@
     <string name="content_desc_activity_main_add_city">Добави град</string>
     <string name="content_desc_activity_main_add_city_manage">Редакция на градове</string>
     <string name="content_desc_activity_main_more_settings">Още настройки</string>
+    <string name="content_desc_back_button">Назад</string>
+    <string name="content_desc_close_button">Затвори</string>
+    <string name="content_desc_edit_city_manage">Редакция на градове</string>
     <string name="daily_forcast_drawer_on_bottom">Скрий</string>
     <string name="daily_forcast_no_stable_direction">Бриз</string>
     <string name="daily_forcast_no_wind">0</string>
@@ -87,6 +90,7 @@
     <string name="daily_forcast_wind_connect">%2$s %1$s</string>
     <string name="daily_forecast_detail">Детайли за прогнозата</string>
     <string name="daily_forecast_detail_date">d.M</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Не можа да се получи информация за времето
 Издърпайте надолу, за да обновите или проверете мрежовите настройки"</string>
     <string name="data_provided_by">Информацията е предоставена от</string>
@@ -106,6 +110,8 @@
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="gps_hint">Текущо местоположение</string>
     <string name="hourly_forcast_now">Сега</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">М/д</string>
     <string name="hourly_forecast_title">Почасова прогноза</string>
     <string name="index_item_experience_now">Инсталирай сега</string>
@@ -130,11 +136,13 @@
     <string name="information_manager_extension">Повече за времето</string>
     <string name="information_views" />
     <string name="install">Инсталирай</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_detail_menu_title">Детайли</string>
     <string name="international_details_pressure_title">Налягане</string>
     <string name="international_details_real_feel_title">Усеща се</string>
     <string name="international_details_title">Подробности</string>
     <string name="international_details_uv_index_title">UV индекс</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">Вятър</string>
     <string name="it_is_going_to_rain">Започва да вали</string>
     <string name="locate_fail_detail_err">"Не може да се локализира устройството
@@ -143,7 +151,9 @@
     <string name="lunar_calendar" />
     <string name="menu_add_city">Промяна на локация</string>
     <string name="menu_location">Места</string>
+    <string name="menu_speaker">Предаване на глас</string>
     <string name="mi_pad2">мляко</string>
+    <string name="minute_rain">Прогноза по минути</string>
     <string name="minute_rain_after_an_hour">В рамките на 1 час</string>
     <string name="minute_rain_after_two_hour">В рамките на 2 часа</string>
     <string name="minute_rain_feedback_subtitle">Кажете ни какво е времето сега.</string>
@@ -155,6 +165,7 @@
     <string name="minute_rain_progress_indicator_original_time">- -</string>
     <string name="minute_rain_pull_down_refresh">Изтеглете надолу за опресняване</string>
     <string name="minute_rain_refreshing_now">Опресняване…</string>
+    <string name="missing_required_permission">Деактивирали сте разрешение, което се изисква.</string>
     <string name="more_details">Подробности</string>
     <string name="network_not_available">Няма връзка с мрежата</string>
     <string name="network_unavailable">Няма връзка с мрежата.</string>
@@ -170,15 +181,15 @@
     <string name="particulate_matter_exceeded">Високо</string>
     <string name="particulate_matter_not_exceeded">Нормално</string>
     <string name="particulate_matter_serious_exceeded">Прекалено високо</string>
-    <string name="precipitation_degree_five">Принудително</string>
-    <string name="precipitation_degree_four">голям</string>
-    <string name="precipitation_degree_one">не</string>
-    <string name="precipitation_degree_three">среден</string>
-    <string name="precipitation_degree_two">малък</string>
+    <string name="precipitation_degree_five">Мн. силно</string>
+    <string name="precipitation_degree_four">Силно</string>
+    <string name="precipitation_degree_one">Няма</string>
+    <string name="precipitation_degree_three">Средно</string>
+    <string name="precipitation_degree_two">Слабо</string>
     <string name="pressure_connect">%1$s мбар</string>
     <string name="pull_fresh_updated">Успешно актуализиране</string>
     <string name="pull_fresh_updating">Актуализиране…</string>
-    <string name="radar_cloud_image_title">Карта на валежи</string>
+    <string name="radar_cloud_image_title">Радарна карта</string>
     <string name="rainfall_settings_summary">Предупреждение за валежи</string>
     <string name="rainfall_settings_title">Валежи</string>
     <string name="real_time_sunrise">Изгрев %1$s</string>
@@ -190,6 +201,8 @@
     <string name="refresh_fail">Няма връзка с мрежата</string>
     <string name="reminder_from_xiaomi_weather_app">Предупреждения от Mi Време</string>
     <string name="retry">Нов опит</string>
+    <string name="search_weather">Времето</string>
+    <string name="search_weather_keywords">Температура;Прогноза за времето;Времето;Качество на въздуха;Степен на замърсяване;Влажност</string>
     <string name="set">Настройки</string>
     <string name="set_degree_centigrade">°C</string>
     <string name="set_fahrenheit">°F</string>
@@ -203,6 +216,7 @@
     <string name="share_subject">Споделяне</string>
     <string name="share_title">Споделяне на времето</string>
     <string name="share_weather_desc">\#MIUI Времето#Днес %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Не може да се направи екр. снимка</string>
     <string name="some_where_on_earth">Някъде по Земята</string>
@@ -254,11 +268,4 @@
     <string name="xiaomi_weather_description_title">За Прогноза за Времето</string>
     <string name="yes_vote_ratio">За %1$s%%</string>
     <string name="your_location">Вашето местоположение</string>
-    <string name="information_manager_default_weather_bg">Фон за времето по подразбиране</string>
-    <string name="information_manager_information">Данни за времето</string>
-    <string name="information_manager_wlan">Показване при връзка с Wi-Fi</string>
-    <string name="information_menu_title" />
-    <string name="information_set">Други настройки</string>
-    <string name="menu_minute_rain">Двучасова прогноза за количество</string>
-    <string name="menu_speeker">Предаване на глас</string>
 </resources>

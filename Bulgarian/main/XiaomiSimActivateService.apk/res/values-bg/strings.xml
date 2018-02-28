@@ -116,4 +116,6 @@
     <string name="phone_get_text">Съгласен ли сте %1$s да получи вашия телефонен номер (%2$s)?</string>
     <string name="phone_get_processing">Получаване…</string>
     <string name="agree">Приеми</string>
+    <string name="privacy_revoke_tips">Ако отмените, синхронизирането на съобщения няма да може да бъде използвано</string>
+    <string name="privacy_revoke_failed_msg">отменено поради изискване за поверителност, не може да се получи телефонен номер, активирането е неуспешно</string>
 </resources>

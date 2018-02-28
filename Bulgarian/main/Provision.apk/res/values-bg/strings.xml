@@ -24,6 +24,8 @@
     <string name="other_settings_upload_debug_log_summary">Информацията, която събираме, ще се използва за откриване и анализиране на проблеми в системата и може да съдържа лична информация. Данните обаче няма да се използват за да бъдете идентифицирани лично.</string>
     <string name="other_settings_auto_update">Автом. инсталиране</string>
     <string name="other_settings_auto_update_summary">MIUI ще избере най-подходящото време за да инсталира актуализациите.</string>
+    <string name="other_settings_ad_enable">Персонализирана рекламна препоръка</string>
+    <string name="other_settings_ad_enable_summary">Препоръчани персонализирани реклами въз основа на данните за поведението ви</string>
     <string name="back">Назад</string>
     <string name="next">Напред</string>
     <string name="skip_underline">Пропусни тази стъпка</string>
@@ -69,8 +71,8 @@
     <string name="content_description_complete">Готово</string>
     <string name="language_picker_other_languages_title">Други езици</string>
     <string name="language_settings">Избор на език</string>
-    <string name="navigation_picker_radio_text_full_screen">Режим цял екран</string>
-    <string name="navigation_picker_radio_text_virtual_key">Режим виртуален клавиш</string>
+    <string name="navigation_picker_radio_text_full_screen">Жестове на цял екран</string>
+    <string name="navigation_picker_radio_text_virtual_key">Бутони</string>
     <string name="congratulation_swipe">Плъзнете нагоре, за да влезете в системата</string>
     <string name="enable_accessibility_dialog_message">Включихте TalkBack, като натиснахте с два пръста екрана за повече от 10 секунди. TalkBack е разработен за слепи хора. Ако сте включили по случайност тази програма, натиснете бутона Отказ и после докоснете два пъти екрана.</string>
     <string name="enable_accessibility_dialog_positive_btn">OК</string>

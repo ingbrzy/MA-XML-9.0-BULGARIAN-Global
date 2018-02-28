@@ -13,10 +13,6 @@
     <string name="HIPS_Perm_Location_Desc">получаване на точно местоположение (чрез GPS и мрежата)</string>
     <string name="HIPS_Perm_PhoneID">Достъп до данните за устройството</string>
     <string name="HIPS_Perm_PhoneID_Desc">Получаване на IMEI и IMSI номерата на устройството</string>
-    <string name="HIPS_Perm_SMS">Писане и изтриване на SMS съобщения</string>
-    <string name="HIPS_Perm_SMS_Desc">писане и изтриване на SMS съобщения</string>
-    <string name="HIPS_Perm_MMS">Писане и изтриване на MMS съобщения</string>
-    <string name="HIPS_Perm_MMS_Desc">писане и изтриване на MMS съобщения</string>
     <string name="HIPS_Perm_Contact">Промяна на контакти</string>
     <string name="HIPS_Perm_Contact_Desc">промяна и изтриване на контактите ви</string>
     <string name="HIPS_Perm_CallLog">Списък с повиквания</string>

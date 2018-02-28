@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="select_items">
-        <item quantity="other">%1$d избрани</item>
-        <item quantity="one">%1$d избран</item>
-    </plurals>
-    <plurals name="app_list_total">
-        <item quantity="other">%d прил</item>
-        <item quantity="one">%d прил</item>
-    </plurals>
-    <plurals name="power_config_ultimate_on_count">
-        <item quantity="other">%1$d стъпки ви делят от включване на режим Оптимизиране</item>
-        <item quantity="one">%1$d стъпка ви дели от включване на режим Оптимизиране</item>
-    </plurals>
-    <plurals name="power_config_ultimate_off_count">
-        <item quantity="other">%1$d стъпки ви делят от изкл. на режим Оптимизиране</item>
-        <item quantity="one">%1$d стъпка ви дели от изкл. на режим Оптимизиране</item>
-    </plurals>
-    <plurals name="power_config_ultimate_unlock_count">
-        <item quantity="other">Завършена %1$d стъпки за отлючване на всички менюта</item>
-        <item quantity="one">Завършена %1$d стъпка за отлючване на всички менюта</item>
+    <plurals name="search_app_count_txt_na">
+        <item quantity="other">Търсене на %d приложения</item>
+        <item quantity="one">Търсене на %d приложение</item>
     </plurals>
 </resources>

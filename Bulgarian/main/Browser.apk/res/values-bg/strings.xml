@@ -50,6 +50,7 @@
     <string name="actionbar_share">Сподели</string>
     <string name="actionbar_textselection_title">Избор на текст</string>
     <string name="actionbar_web_search">Търсене</string>
+    <string name="ad_btn_default_text">Инсталиране</string>
     <string name="adblock_force_updating_rules_toast">Актуализиране на блокирането на реклами</string>
     <string name="adblock_rules_not_updated_toast">Неуспешно актуализиране</string>
     <string name="adblock_rules_restore">Деблокирай</string>
@@ -133,6 +134,7 @@
     <string name="browserFrameNetworkErrorLabel">Грешка на мрежата</string>
     <string name="cancel">Отказ</string>
     <string name="cannot_download">Може да изтегляте само от адреси, които започват с \"http\" и \"https\".</string>
+    <string name="card_setting_close_recommend">Получавайте препоръки</string>
     <string name="choosertitle_sharevia">Сподели чрез:</string>
     <string name="clear_history">Изчисти историята</string>
     <string name="clear_most_visited">Скорошна хронология</string>
@@ -167,6 +169,7 @@
     <string name="color_picker_dialog_title">Изберете цвят</string>
     <string name="color_picker_hue">Оттенък</string>
     <string name="color_picker_saturation">Наситеност</string>
+    <string name="color_picker_value">Стойност</string>
     <string name="comment_app_menu">Коментар</string>
     <string name="comment_description">Коментар</string>
     <string name="comment_hint">Коментар</string>
@@ -513,6 +516,10 @@
     <string name="nav_bottom_bar_new_tab">Нов раздел</string>
     <string name="nav_screen_container_tab_incognito">Инкогнито раздел</string>
     <string name="nav_screen_container_tab_normal">Нормален раздел</string>
+    <string name="nav_screen_incognito_message">"Хронологията на търсенето и посетените страници няма да се запазват в режим Инкогнито. 
+Запомнете, че всички файлове, които изтеглите, както отметките, които добавяте, ще бъдат запазени."</string>
+    <string name="nav_screen_incognito_title">Режим инкогнито</string>
+    <string name="navigation_delete_all">плъзнете наляво и надясно за да затворите всички прозорци</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">Отказ</string>
     <string name="navigationbar_rightbutton_actiontext_go">Отиди</string>
     <string name="navigationbar_rightbutton_actiontext_search">Търсене</string>
@@ -562,6 +569,7 @@
     <string name="pref_adblock_title">Блокиране на реклами</string>
     <string name="pref_auto_update_under_wifi">Авт. актуал. чрез Wi-Fi</string>
     <string name="pref_automatic_matching_searchengines_title">Превключи на най-често използваната търсачка</string>
+    <string name="pref_card_setting">Подредба на топ-сайтове</string>
     <string name="pref_category_hint">Категория</string>
     <string name="pref_check_security_url_summary">Изпращане на URL адреса на страницата до сървърите на Mi за проверка</string>
     <string name="pref_check_security_url_summary_international">Разрешете на Браузър достъп до адресите на сайтовете, посетени от вас, за да получавате повече полезни препоръки.</string>
@@ -588,7 +596,7 @@
     <string name="pref_enable_videos">Видео</string>
     <string name="pref_extras_reset_default">Възстанови по подразбиране</string>
     <string name="pref_extras_reset_default_dlg">Да възстановя ли настройките по подразбиране?</string>
-    <string name="pref_extras_reset_default_summary">Възстанови началните настройки</string>
+    <string name="pref_extras_reset_default_summary">Възстанови реда по подразбиране</string>
     <string name="pref_extras_reset_default_title">Нулиране до началните настройки</string>
     <string name="pref_extras_send_feedback">Изпрати отзив</string>
     <string name="pref_extras_title">Напреднали</string>
@@ -774,7 +782,7 @@
     <string name="show_security_tip_dialog_title">Условия на ползване</string>
     <string name="show_weather_location_getter_tip_dialog_description">Браузър се нуждае от достъп до интернет, за да работи нормално. За да подобрите сигурността, получите още необходими препоръки и доставчици на услуги за времето, разрешете на Браузър да вземе уеб-адресите, които сте посещавали и достъп до вашето местоположение.</string>
     <string name="sign_in_to" formatted="false">Влизане в %s%s2\"</string>
-    <string name="site_sort_des">Влачете елементи за да промените реда им</string>
+    <string name="site_sort_des">Пренареди елементите</string>
     <string name="skip_button_label">Пропусни</string>
     <string name="skip_current_version">Пропусни тази версия</string>
     <string name="snapshot">Локално</string>
