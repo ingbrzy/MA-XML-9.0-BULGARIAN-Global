@@ -90,7 +90,6 @@
     <string name="daily_forcast_wind_connect">%2$s %1$s</string>
     <string name="daily_forecast_detail">Детайли за прогнозата</string>
     <string name="daily_forecast_detail_date">d.M</string>
-    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Не можа да се получи информация за времето
 Издърпайте надолу, за да обновите или проверете мрежовите настройки"</string>
     <string name="data_provided_by">Информацията е предоставена от</string>
@@ -110,8 +109,6 @@
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="gps_hint">Текущо местоположение</string>
     <string name="hourly_forcast_now">Сега</string>
-    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
-    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">М/д</string>
     <string name="hourly_forecast_title">Почасова прогноза</string>
     <string name="index_item_experience_now">Инсталирай сега</string>
@@ -136,13 +133,11 @@
     <string name="information_manager_extension">Повече за времето</string>
     <string name="information_views" />
     <string name="install">Инсталирай</string>
-    <string name="install_progress">%1$s%%</string>
     <string name="international_detail_menu_title">Детайли</string>
     <string name="international_details_pressure_title">Налягане</string>
     <string name="international_details_real_feel_title">Усеща се</string>
     <string name="international_details_title">Подробности</string>
     <string name="international_details_uv_index_title">UV индекс</string>
-    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">Вятър</string>
     <string name="it_is_going_to_rain">Започва да вали</string>
     <string name="locate_fail_detail_err">"Не може да се локализира устройството
@@ -216,7 +211,6 @@
     <string name="share_subject">Споделяне</string>
     <string name="share_title">Споделяне на времето</string>
     <string name="share_weather_desc">\#MIUI Времето#Днес %1$s %2$s</string>
-    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Не може да се направи екр. снимка</string>
     <string name="some_where_on_earth">Някъде по Земята</string>
