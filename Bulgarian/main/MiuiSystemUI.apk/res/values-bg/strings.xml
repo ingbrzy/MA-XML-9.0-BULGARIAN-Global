@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Няма</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -20,12 +22,15 @@
     <string name="wifi_remembered">Запазено</string>
     <string name="wifi_disabled_generic">Изключено</string>
     <string name="wifi_disabled_network_failure">Не може да се конфигурира IP</string>
+    <string name="wifi_disabled_by_recommendation_provider">Не е установена връзка поради ниското качество на мрежата</string>
     <string name="wifi_disabled_wifi_failure">Не може да се свърже с Wi-Fi мрежа</string>
     <string name="wifi_disabled_password_failure">Проблем при удостоверяването</string>
     <string name="wifi_not_in_range">Извън обхват</string>
+    <string name="wifi_no_internet_no_reconnect">Няма да се свърже автоматично</string>
     <string name="wifi_no_internet">Няма интернет достъп, без автоматично повторно свързване.</string>
     <string name="saved_network">Запазено от %1$s</string>
-    <string name="connected_via_wfa">Свързано чрез Wi‑Fi асистент</string>
+    <string name="connected_via_network_scorer">Автоматично е установена връзка чрез %1$s</string>
+    <string name="connected_via_network_scorer_default">Автоматично е установена връзка чрез доставчик на услуги за оценяване на мрежите</string>
     <string name="connected_via_passpoint">Свързан чрез %1$s</string>
     <string name="available_via_passpoint">Достъпно чрез %1$s</string>
     <string name="wifi_connected_no_internet">Свързан, няма интернет</string>
@@ -49,6 +54,8 @@
     <string name="bluetooth_profile_map">Използвано за достъп до съобщенията</string>
     <string name="bluetooth_profile_sap">Използвано за достъп до SIM</string>
     <string name="bluetooth_profile_dun">Използвано за достъп до dial-up мрежи</string>
+    <string name="bluetooth_profile_a2dp_high_quality">Използване на висококачествен звук: %1$s</string>
+    <string name="bluetooth_profile_a2dp_high_quality_unknown_codec">Използване на висококачествен звук</string>
     <string name="bluetooth_a2dp_profile_summary_connected">Свързан като аудио за медия</string>
     <string name="bluetooth_headset_profile_summary_connected">Свързан като аудио от телефон</string>
     <string name="bluetooth_opp_profile_summary_connected">Свързан за прехвърляне на файлове</string>
@@ -156,18 +163,39 @@
     <string name="wifi_allow_scan_with_traffic">Винаги позволявай сканиране в роуминг за Wi‑Fi</string>
     <string name="mobile_data_always_on">Мобилни данни винаги са разрешени</string>
     <string name="bluetooth_disable_absolute_volume">Изключване на максималния звук</string>
+    <string name="bluetooth_enable_inband_ringing">Активиране на звъненето в една и съща честотна лента</string>
+    <string name="bluetooth_select_avrcp_version_string">Версия на AVRCP за Bluetooth</string>
+    <string name="bluetooth_select_avrcp_version_dialog_title">Избиране на версия на AVRCP за Bluetooth</string>
+    <string name="bluetooth_select_a2dp_codec_type">Аудиокодек за Bluetooth</string>
+    <string name="bluetooth_select_a2dp_codec_type_dialog_title">Изберете аудиокодек за Bluetooth</string>
+    <string name="bluetooth_select_a2dp_codec_sample_rate">Честота на дискретизация за звука през Bluetooth</string>
+    <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">"Изберете аудиокодек за Bluetooth:
+Честота на дискретизация"</string>
+    <string name="bluetooth_select_a2dp_codec_bits_per_sample">Битове на дискрет за звука през Bluetooth</string>
+    <string name="bluetooth_select_a2dp_codec_bits_per_sample_dialog_title">"Изберете аудиокодек за Bluetooth:
+Битове на дискрет"</string>
+    <string name="bluetooth_select_a2dp_codec_channel_mode">Режим на канала на звука през Bluetooth</string>
+    <string name="bluetooth_select_a2dp_codec_channel_mode_dialog_title">"Изберете аудиокодек за Bluetooth:
+Режим на канала"</string>
+    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality">Кодек за звука през Bluetooth с технологията LDAC: Качество на възпроизвеждане</string>
+    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">"Изберете кодек за звука през Bluetooth с технологията LDAC:
+Качество на възпроизвеждане"</string>
+    <string name="bluetooth_select_a2dp_codec_streaming_label">Поточно предаване: %1$s</string>
     <string name="wifi_display_certification_summary">Показване на опции за Wi-Fi дисплей</string>
     <string name="wifi_verbose_logging_summary">Увеличете нивото на записване в Wi‑Fi, покажете RSSI за всеки SSID в списъка с Wi‑Fi мрежи.</string>
     <string name="wifi_aggressive_handover_summary">Когато е активирано, връзката ще превключи на мобилни данни по-активно, когато сигналът на Wi‑Fi е слаб.</string>
     <string name="wifi_allow_scan_with_traffic_summary">Разрешаване/Забраняване на сканирането в роуминг чрез Wi‑Fi, базирано на реализирания трафик.</string>
     <string name="select_logd_size_title">Размер на на буфериране на лога</string>
     <string name="select_logd_size_dialog_title">Изберете размер на буфериране за логове</string>
+    <string name="dev_logpersist_clear_warning_title">Да се изчистят ли трайно съхраняваните регистрационни данни?</string>
+    <string name="dev_logpersist_clear_warning_message">Когато спрем да извършваме наблюдения посредством програмата за трайно записване в регистрационни файлове, трябва да изтрием съхраняваните на устройството ви данни от нея.</string>
+    <string name="select_logpersist_title">Рег. данни да се съхр. трайно на у-вото</string>
+    <string name="select_logpersist_dialog_title">Изберете кои регистрационни буфери да се съхраняват за постоянно на устройството</string>
     <string name="select_usb_configuration_title">Избор на USB конфигурация</string>
     <string name="select_usb_configuration_dialog_title">Избор на USB конфигурация</string>
     <string name="allow_mock_location">Разрешаване на привидни местоположения</string>
     <string name="allow_mock_location_summary">Разрешаване на привидни местоположения</string>
     <string name="debug_view_attributes">Включете проверката на атрибути</string>
-    <string name="legacy_dhcp_client_summary">Използване на DHCP клиент от Lollipop вместо от нова версия на Android.</string>
     <string name="mobile_data_always_on_summary">Винаги да бъдат включени мобилни данни, дори когато Wi‑Fi е активна(за по-бърза връзка).</string>
     <string name="adb_warning_title">Разрешавате ли отстр. USB грешки?</string>
     <string name="adb_warning_message">Отстр. USB грешки се използва само за програмиране. Използва се да копира данни между компютъра и устройството, за инсталиране на приложения без предупреждение и четене на хронологията.</string>
@@ -177,6 +205,7 @@
     <string name="verify_apps_over_usb_title">Потвърждаване на приложение през usb</string>
     <string name="verify_apps_over_usb_summary">Проверка на приложения инсталирани чрез ADB/ADT за вредоносен код.</string>
     <string name="bluetooth_disable_absolute_volume_summary">Забраняване на Bluetooth максимална сила на звука, за да предотвратите проблеми с дистанционно управлявани устройства.</string>
+    <string name="bluetooth_enable_inband_ringing_summary">Разрешаване на мелодиите на телефона да се възпроизвеждат на слушалките с Bluetooth</string>
     <string name="enable_terminal_title">Локален извод</string>
     <string name="enable_terminal_summary">Активиране на приложение за контрол на изводите за локален достъп</string>
     <string name="hdcp_checking_title">HDCP Проверка</string>
@@ -189,6 +218,8 @@
     <string name="no_application">Без да се задава</string>
     <string name="wait_for_debugger">Изчакване на приложение за отстраняване на грешки</string>
     <string name="wait_for_debugger_summary">Приложение за отстраняване на грешки изчаква за да се свърже преди изпълнението</string>
+    <string name="telephony_monitor_switch">Наблюдение на телефонията</string>
+    <string name="telephony_monitor_switch_summary">Функцията за наблюдение на телефонията ще събира регистрационни файлове, когато установи проблем с функционалността на телефонията/модема, и ще изпрати на потребителя известие с подкана да подаде сигнал за програмна грешка</string>
     <string name="debug_input_category">Въвеждане</string>
     <string name="debug_drawing_category">Начертаване</string>
     <string name="debug_hw_drawing_category">Хардуерно ускорено предаване</string>
@@ -207,6 +238,7 @@
     <string name="show_hw_layers_updates">Показв актуал сл. на хардуера</string>
     <string name="show_hw_layers_updates_summary">Примигв. на слоевете на хардуера в зелено при актуал</string>
     <string name="debug_hw_overdraw">Отстраняване на грешки при превишено използване на видеокартата</string>
+    <string name="debug_hw_renderer">Визуализатор на ГП: Избор</string>
     <string name="disable_overlays">Изкл на хардуерно преизчертаване</string>
     <string name="disable_overlays_summary">Винаги използвай CPU за рендериране на екрана</string>
     <string name="simulate_color_space">Симулиране на цветно пространство</string>
@@ -217,8 +249,6 @@
     <string name="debug_layout_summary">Показване на границите на клипа, полетата и др.</string>
     <string name="force_rtl_layout_all_locales">Задаване на посоката на оформлението на RTL</string>
     <string name="force_rtl_layout_all_locales_summary">Задаване на посоката на оформление на екрана до RTL за всички локали</string>
-    <string name="show_cpu_usage">Покажи употребата на процесора</string>
-    <string name="show_cpu_usage_summary">Покажи употребата на CPU при наслагване на екрана</string>
     <string name="force_hw_ui">Задаване на видео рендериране</string>
     <string name="force_hw_ui_summary">Принудително използване на CPU за 2D начертаване</string>
     <string name="force_msaa">Задаване на 4x MSAA</string>
@@ -235,6 +265,8 @@
     <string name="app_process_limit_title">Ограничение за фонови процеси</string>
     <string name="show_all_anrs">Покажи всички приложения които не отговарят</string>
     <string name="show_all_anrs_summary">Диалогов прозорец за нереагиращи приложения на заден план</string>
+    <string name="show_notification_channel_warnings">Предупрежд. за канала за известия</string>
+    <string name="show_notification_channel_warnings_summary">Показва се предупреждение, когато приложение публикува известие без валиден канал</string>
     <string name="force_allow_on_external">Принуждаване на приложенията да пишат на външното хранилище</string>
     <string name="force_allow_on_external_summary">Настройте приложенията да могат да бъдат записвани на външното хранилище</string>
     <string name="force_resizable_activities">Задаване на дейностите да се преоразмеряват</string>
@@ -252,8 +284,6 @@
     <string name="inactive_app_active_summary">Активен. Чукнете за да промените.</string>
     <string name="runningservices_settings_title">Предлагани услуги</string>
     <string name="runningservices_settings_summary">Преглед и контрол на услугите предлагани в момента</string>
-    <string name="enable_webview_multiprocess">Многозадачен преглед на страниците</string>
-    <string name="enable_webview_multiprocess_desc">Пускане на WebView рендериране отделно</string>
     <string name="select_webview_provider_title">Внедряване на WebView</string>
     <string name="select_webview_provider_dialog_title">Настройка на внедряването на WebView</string>
     <string name="select_webview_provider_toast_text">Този избор не е валиден вече. Опитайте нещо друго.</string>
@@ -277,21 +307,21 @@
     <string name="accessibility_display_daltonizer_preference_subtitle">Тази функция е експериментална и може да окаже влияние на производителността.</string>
     <string name="daltonizer_type_overridden">Надхвърлено от %1$s</string>
     <string name="power_remaining_duration_only">Приблизително %1$s е изминало</string>
+    <string name="power_remaining_charging_duration_only">Оставащо време до пълно зареждане: %1$s</string>
     <string name="power_remaining_duration_only_short">%1$s е изминало</string>
     <string name="battery_info_status_unknown">Непознат</string>
     <string name="battery_info_status_charging">Зареждане</string>
-    <string name="battery_info_status_charging_ac">AC-зареждане</string>
-    <string name="battery_info_status_charging_ac_short">Зареждане</string>
-    <string name="battery_info_status_charging_usb">Зареждане от USB</string>
-    <string name="battery_info_status_charging_usb_short">Зареждане</string>
-    <string name="battery_info_status_charging_wireless">Безжично зареждане</string>
-    <string name="battery_info_status_charging_wireless_short">Зареждане</string>
+    <string name="battery_info_status_charging_lower">зарежда се</string>
     <string name="battery_info_status_discharging">Не се зарежда</string>
     <string name="battery_info_status_not_charging">Не се зарежда</string>
     <string name="battery_info_status_full">Напълно заредено</string>
     <string name="disabled_by_admin_summary_text">Контролирано от администратора</string>
     <string name="enabled_by_admin">Активирано от администратор</string>
     <string name="disabled_by_admin">Деактивирано от администратор</string>
+    <string name="disabled">Деактивирано</string>
+    <string name="external_source_trusted">Има разрешение</string>
+    <string name="external_source_untrusted">Няма разрешение</string>
+    <string name="install_other_apps">Инст. на неизвестни прилож.</string>
     <string name="home">Настройки на Начален екран</string>
     <string name="charge_length_format">Преди %1$s</string>
     <string name="remaining_length_format">%1$s е изминало</string>
@@ -302,6 +332,18 @@
     <string name="screen_zoom_summary_extremely_large">Най-голям</string>
     <string name="screen_zoom_summary_custom">Потребителски (%d)</string>
     <string name="help_feedback_label">Помощ и поддръжка</string>
+    <string name="content_description_menu_button">Меню</string>
+    <string name="time_zone_gmt">Средно време по Гринуич (GMT)</string>
+    <string name="retail_demo_reset_message">Въведете парола за възст. на фабр. настройки в демонстр. режим</string>
+    <string name="retail_demo_reset_next">Напред</string>
+    <string name="retail_demo_reset_title">Изисква се парола</string>
+    <string name="active_input_method_subtypes">Активни методи за въвеждане</string>
+    <string name="use_system_language_to_select_input_method_subtypes">Използване на системните езици</string>
+    <string name="failed_to_open_app_settings_toast">Отварянето на настройките за %1$s не бе успешно</string>
+    <string name="ime_security_warning">Този метод за въвеждане може да събира целия въведен от вас текст, включително лични данни като пароли и номера на кредитни карти. Той произлиза от приложението %1$s. Искате ли да го използвате?</string>
+    <string name="direct_boot_unaware_dialog_message">Забележка: След рестартиране това приложение не може да се стартира, докато не отключите телефона си</string>
+    <string name="status_bar_date_formatter">"%2$s
+%1$s"</string>
     <string name="app_label">Системен изглед</string>
     <string name="status_bar_no_recent_apps">Няма последно използвани приложения</string>
     <string name="recent_task_lock_text">Фиксиран</string>
@@ -555,6 +597,8 @@ MMMM d"</string>
     <string name="status_bar_clock_date_format">EEEE, MMMM d</string>
     <string name="status_bar_recent_memory_info1">Свободни %1$sБ от %2$sБ</string>
     <string name="status_bar_recent_memory_info2" />
+    <string name="memory_clear_result_mega">%1$sMB почистени</string>
+    <string name="memory_clear_result_giga">%1$sGB почистени</string>
     <string name="accessibility_recent_task_exit">Последно затворени</string>
     <string name="accessibility_recent_task_memory_info">Общо РАМ: %2$s | Достъпна РАМ: %1$s. Двойно почукване за изчистване.</string>
     <string name="accessibility_recent_task_locked">Заключен, плъзнете надолу за отключване.</string>
@@ -641,6 +685,7 @@ MMMM d"</string>
     <string name="ext_media_mountable_notification_title">USB хранилището е свързано</string>
     <string name="ext_media_mountable_notification_message">Чукнете за да отворите Mi Файлов мениджър.</string>
     <string name="ext_media_safe_remove">Премахване</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">K/s</string>
     <string name="megabyte_per_second">M/s</string>
     <string name="status_bar_network_flow_today">Днес: %1$s</string>
@@ -719,6 +764,7 @@ MMMM d"</string>
     <string name="notification_header_title">Известия</string>
     <string name="weather_publish_time">Актуализирано %1$s</string>
     <string name="no_weather_description">Получаване на данни за времето ></string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="accessibility_desc_notification_shade">Лента с известия</string>
     <string name="accessibility_desc_quick_settings">Бързи настройки</string>
     <string name="accessibility_desc_details_page">%1$s детайли на страницата</string>
@@ -772,7 +818,7 @@ MMMM d"</string>
     <string name="unimportant_desc">Всички маловажни известия ще бъдат показвани в отделна папка.</string>
     <string name="important_desc">Всички важни известия ще бъдат показвани в лентата с известия.</string>
     <string name="cancel">Отмяна</string>
-    <string name="search_hint">Търсене на уеб сайтове, приложения, контакти, видеоклипове</string>
+    <string name="search_hint">Търсене на уеб сайтове, приложения, контакти, видеоклипове...</string>
     <string name="description_image_button_reject">Откажи</string>
     <string name="description_image_button_answer">Отговор</string>
     <string name="screenshot_feedback_txt">Доклад за грешки</string>
@@ -803,4 +849,16 @@ MMMM d"</string>
     <string name="monitoring_description_do_learn_more">Научете повече</string>
     <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_cert_settings">Отваряне на надеждните идентификационни данни</string>
+    <string name="connected_via_wfa">Свързано чрез Wi‑Fi асистент</string>
+    <string name="legacy_dhcp_client_summary">Използване на DHCP клиент от Lollipop вместо от нова версия на Android.</string>
+    <string name="show_cpu_usage">Покажи употребата на процесора</string>
+    <string name="show_cpu_usage_summary">Покажи употребата на CPU при наслагване на екрана</string>
+    <string name="enable_webview_multiprocess">Многозадачен преглед на страниците</string>
+    <string name="enable_webview_multiprocess_desc">Пускане на WebView рендериране отделно</string>
+    <string name="battery_info_status_charging_ac">AC-зареждане</string>
+    <string name="battery_info_status_charging_ac_short">Зареждане</string>
+    <string name="battery_info_status_charging_usb">Зареждане от USB</string>
+    <string name="battery_info_status_charging_usb_short">Зареждане</string>
+    <string name="battery_info_status_charging_wireless">Безжично зареждане</string>
+    <string name="battery_info_status_charging_wireless_short">Зареждане</string>
 </resources>

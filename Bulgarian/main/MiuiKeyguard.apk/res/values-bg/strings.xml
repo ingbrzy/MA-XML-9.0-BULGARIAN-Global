@@ -5,6 +5,12 @@
     <string name="unlockscreen_recharge_completed">Батерията е заредена</string>
     <string name="unlockscreen_low_battery">Свържете зарядното устройство</string>
     <string name="lockscreen_charging_msg">Зарежда се</string>
+    <string name="reset_device_tip">Зареждането е бавно, моля променете позицията на телефона</string>
+    <string name="reset_device_detail_tip">Безжично зареждане, моля подравнете телефона към базата, за да сте сигурни, че се зарежда бързо.</string>
+    <string name="wireless_charge_stop">Безжичното зареждане прекъсна</string>
+    <string name="change_to_ac_charging">Превключено на безжично зареждане</string>
+    <string name="wireless_charge_dialog_title">Положението на телефона е променено, моля, оправете го</string>
+    <string name="wireless_charge_dialog_cancel">Отказ</string>
     <string name="emergency_call_string">SOS</string>
     <string name="forget_password_string">Забравена парола</string>
     <string name="input_puk_code">Въведете PUK код</string>
@@ -47,6 +53,7 @@
     <string name="fingerprint_try_again_msg">Не може да се потвърди пръстовия отпечатък, опитайте отново.</string>
     <string name="fingerprint_not_identified_title">Въведете парола</string>
     <string name="fingerprint_not_identified_msg">Прекалено много неуспешни опити. Въведете вашата парола или опитайте да използвате пръстовия отпечатък след няколко секунди.</string>
+    <string name="fingerprint_not_identified_msg_lock">Твърде много неуспешни опити. Въведете парола.</string>
     <string name="fingerprint_again_identified_msg">Вашият пръстов отпечатък е активиран. Може да го използвате за отключване на устройството или за парола.</string>
     <string name="fingerprint_add_title">Добавяне на пръстов отпечатък</string>
     <string name="fingerprint_add_text">Скенерът за пръстовите отпечатъци е актуализиран. Добавете пръстовите си отпечатъци отново.</string>
@@ -64,13 +71,10 @@
     <string name="lock_wallpaper_enter">Въвеждане</string>
     <string name="custom_lock_wallpaper_enter">Въведи</string>
     <string name="fingerprint_enter_second_psw_title">Въведете парола за Второ пространство</string>
-    <string name="fingerprint_enter_second_psw_msg">Въведете паролата за Второ пространство след рестартиране на устройството, за да използвате разпознаване по пръстов отпечатък</string>
+    <string name="fingerprint_enter_second_psw_msg">Въведете паролата за Второ работно място, за да можете да използвате разпознаване с Пръстов отпечатък</string>
     <string name="fingerprint_enter_second_psw_msg_oldman">Не може да се използва Второ работно място, докато телефонът е в Лесен режим</string>
     <string name="keyguard_charging_info_click_to_detail">Покажи подробности</string>
     <string name="keyguard_quick_charging_info_click_to_detail">Бързо зареждане. Чукнете за подробности.</string>
-    <string name="keyguard_quickly_charging_info_charging_text">Бързо зареждане…</string>
-    <string name="keyguard_charging_info_finished_charging_text">Напълно заредена</string>
-    <string name="keyguard_charging_info_charging_text">Зареждане</string>
     <string name="keyguard_charging_info_last_charge_today_time">Днес%s</string>
     <string name="keyguard_charging_info_last_charge_yesterday_time">Вчера %s</string>
     <string name="keyguard_charging_info_last_charge_time">M/d H:mm</string>
@@ -91,13 +95,17 @@
     <string name="face_data_introduction_title">Разпознаване на лице</string>
     <string name="face_data_introduction_msg">Информацията за човешкото лице може да се използва за отключване на вашето устройство и идентификация. Добавете парола за Заключен екран, преди да добавите лицево разпознаване.</string>
     <string name="face_data_introduction_next">Следващо</string>
-    <string name="face_data_suggesstion_first">Отключването с лице не е толкова сигурен начин, колкото този с парола за екрана. Това е така, защото някой, който прилича на вас, може да бъде припознат от устройството и да го отключи.</string>
+    <string name="face_data_siggesstion_next">Следващ</string>
+    <string name="face_data_siggesstion_next_time">Следващ (%dс)</string>
+    <string name="face_data_suggesstion_first">Внимание: отключването с лицево разпознаване не е толкова сигурно, колкото използването на ПИН, парола или графичен шаблон. Вашето устройство може да бъде отключено със снимка или от хора, които приличат на вас.</string>
     <string name="face_data_suggesstion_second">Уверете се, че всички части на вашето лице са открити и ясно видими, добре осветени.</string>
     <string name="face_data_input_camera_fail">Не може да се зареди камерата</string>
     <string name="face_data_input_camera_ok">Зарежда се камерата…</string>
     <string name="face_data_input_msg">Сложете вашето лице вътре в рамката</string>
     <string name="face_data_input_ok_title">Добавено успешно</string>
     <string name="face_data_input_ok_msg">Включете екрана, за да отключите устройство си с лице.</string>
+    <string name="face_data_input_ok_msg_angle">"Отключете устройство с вашето лице, когато екранът е включен. 
+ (Запишете информацията за вашето лице включително от всички изисквани ъгли.)"</string>
     <string name="face_data_input_cancel">Отказ</string>
     <string name="face_data_input_cancel_msg">Не може да се добавят лицеви данни</string>
     <string name="face_data_input_ok">Готово</string>
@@ -135,4 +143,10 @@
     <string name="face_unlock_down">Вдигнете главата си</string>
     <string name="face_unlock_quality">Лицето ви не се вижда ясно</string>
     <string name="lock_screen_no_sim_card">Няма SIM карта</string>
+    <string name="do_disclosure_generic">Това устройство се управлява от вашата организация</string>
+    <string name="do_disclosure_with_name">Това устройство се управлява от %s</string>
+    <string name="face_unlock_reenter_title">Запишете информацията за вашето лице отново.</string>
+    <string name="face_unlock_reenter_content">Алгоритъмът за отключване с лице беше обновен. Чукнете, за да запишете информацията за вашето лице отново.</string>
+    <string name="digital_clock_dot">:</string>
+    <string name="keyguard_left_view_lock_wallpaper">Сменящи се тапети</string>
 </resources>

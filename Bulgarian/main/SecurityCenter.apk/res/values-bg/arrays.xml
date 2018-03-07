@@ -8,6 +8,7 @@
     <string-array name="date_of_traffic">
         <item>"Вчера "</item>
         <item>"Днес "</item>
+        <item>"Последният месец "</item>
         <item>"Този месец "</item>
     </string-array>
     <string-array name="date_of_traffic_prefix_cmcc">
@@ -18,14 +19,17 @@
     <string-array name="date_of_traffic_prefix">
         <item>"Вчера: "</item>
         <item>"Днес: "</item>
+        <item>"Последният месец: "</item>
         <item>"Този месец: "</item>
     </string-array>
     <string-array name="date_of_app_all">
         <item>Мобилни данни вчера</item>
         <item>Мобилни данни днес</item>
-        <item>Мобилни данни този месец</item>
+        <item>Последният месец (данни)</item>
+        <item>Този месец (данни)</item>
         <item>Wi-Fi вчера</item>
         <item>Wi-Fi днес</item>
+        <item>Wi-Fi последния месец</item>
         <item>Wi-Fi този месец</item>
     </string-array>
     <string-array name="traffic_type">
@@ -49,6 +53,11 @@
         <item>При заключено устройство</item>
         <item>След изход от приложението</item>
         <item>1 мин. след изход от прил.</item>
+    </string-array>
+    <string-array name="lock_mode_value">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
     </string-array>
     <string-array name="sort_type">
         <item>Състояние</item>

@@ -53,6 +53,7 @@
     <string name="switchDesc">Превключи</string>
     <string name="scannerDesc">Скенер</string>
     <string name="reciprocalDesc">Обратна величина</string>
+    <string name="negDesc">Превключвайте между температури под и над нула</string>
     <string name="home_title_calculator">Калкулатор</string>
     <string name="item_title_calculator">Калкулатор</string>
     <string name="item_title_scientific_calculator">Сметки</string>

@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="phone_in_ecm_notification_time">
-        <item quantity="other">Няма връзка за данни в продължение на %s минути</item>
-        <item quantity="one">Няма връзка за данни в продължение на %s минута</item>
-    </plurals>
     <plurals name="alert_dialog_exit_ecm">
         <item quantity="other">Телефонът ще бъде в режим на спешно обратно обаждане в продължение на %s минути. През това време не може да се използват приложения за връзка с данни. Искате ли да излезете сега?</item>
         <item quantity="one">Телефонът ще бъде в режим на спешно обратно обаждане в продължение на %s минута. През това време не може да се използват приложения за връзка с данни. Искате ли да излезете сега?</item>
@@ -33,5 +29,9 @@
 Имате още %d оставащи опита."</item>
         <item quantity="one">"
 Имате още %d оставащ опит."</item>
+    </plurals>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Няма връзка за данни в продължение на %s минути</item>
+        <item quantity="one">Няма връзка за данни в продължение на %s минута</item>
     </plurals>
 </resources>

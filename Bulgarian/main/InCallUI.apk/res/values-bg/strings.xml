@@ -211,19 +211,4 @@
     <string name="dialpad_seven">7</string>
     <string name="dialpad_eight">8</string>
     <string name="dialpad_nine">9</string>
-    <string name="no_vm_number">Липсващ номер на гласова поща</string>
-    <string name="no_vm_number_msg">На SIM картата няма съхранен номер за гласова поща.</string>
-    <string name="add_vm_number_str">Добави номер</string>
-    <string name="alert_dialog_yes">Да</string>
-    <string name="alert_dialog_no">Не</string>
-    <string name="alert_dialog_dismiss">Отхвърляне</string>
-    <string name="contactPhoto">Снимка на контакт</string>
-    <string name="call_record_button_label">Запис %s</string>
-    <string name="call_self">Не можете да се обадите на собствения си номер.</string>
-    <string name="cancel_call">Затвори</string>
-    <string name="dial_with_gsm_phone">Нормално обаждане</string>
-    <string name="livetalk_left_minute">остават %s мин.</string>
-    <string name="miprofile_stranger_card">Карта на непознат</string>
-    <string name="no_balance_message">Няма достатъчно средства по вашия баланс. Пробвайте да извършите нормално обаждане.</string>
-    <string name="purchase_now">Вземи пакет</string>
 </resources>

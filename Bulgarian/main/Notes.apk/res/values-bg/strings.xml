@@ -6,6 +6,7 @@
     <string name="sina_token_expired_warning">Акаунтът Ви във Weibo е изтекъл. Добавете го отново.</string>
     <string name="sina_token_invalid_warning">Акаунтът Ви във Weibo е невалиден, добавете го отново.</string>
     <string name="sina_share_fail_content_repeat">Вече сте споделили това.</string>
+    <string name="search_title_notes">@string/app_name</string>
     <string name="search_keyword_notes">Бележки;Напомняне</string>
     <string name="search_path_notes">Системни приложения/Бележки</string>
     <string name="dlg_move_message">Преместване…</string>
@@ -119,6 +120,7 @@
     <string name="error_unsupport_content">Тази бележка съдържа неподдържани данни, натиснете за актуализиране на системата</string>
     <string name="error_contact_not_exist">Контактът не съществува</string>
     <string name="sync_tips">Чукнете за синхрон на бележките с Mi Cloud.</string>
+    <string name="micloud_state_total_count">%1$s</string>
     <string name="pref_title_font_size">Размер на шрифта</string>
     <string name="call_folder_name">Бележки за обаждане</string>
     <string name="trash_folder_name">Кошче</string>
@@ -196,4 +198,5 @@
     <string name="refuse_to_share_as_pic_because_of_content">Тази бележка е твърде голяма и не може да бъде споделена.</string>
     <string name="refuse_to_open_as_pic_because_of_loading">Изчакайте, докато бележката се зареди и опитайте отново.</string>
     <string name="toast_reach_text_limit_checkbox">Съдържанието на бележката е твърде дълго за нови прикачвания</string>
+    <string name="dialog_privacy_revoke_tips">След като анулирате разрешението, приложението ще спре събирането на данни и всички свързани с него данни ще бъдат изтрити от сървърите. Това може да направи приложението практически неизползваемо. За да гарантирате сигурността на профила си, влезте в i.mi.com преди да отмените разрешението за услугите на Mi Облак.</string>
 </resources>

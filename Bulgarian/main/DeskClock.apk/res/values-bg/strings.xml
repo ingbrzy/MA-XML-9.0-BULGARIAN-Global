@@ -121,6 +121,7 @@
     <string name="shutdown_alarm_disable_summary">Телефонът не се включва, дори и да е настроен будилник</string>
     <string name="shutdown_alarm_enable_summary">Автоматично включване на телефона при настроен будилник</string>
     <string name="shutdown_alarm_title">Включване на телефона</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Изключи еднократно на %s</string>
     <string name="slider_text">Плъзнете нагоре за да изключите</string>
     <string name="snooze_confirm_cancel">Спри аларма</string>

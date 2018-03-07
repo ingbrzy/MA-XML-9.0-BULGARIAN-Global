@@ -30,6 +30,7 @@
     <string name="pws_other_message_identifiers">Сигнал при спешни случаи</string>
     <string name="cb_other_message_identifiers">Клетъчно излъчване</string>
     <string name="emergency_alert_settings_title">Настройки за сигналите при спешни случаи</string>
+    <string name="notification_channel_broadcast_messages">Съобщения за излъчване</string>
     <string name="enable_emergency_alerts_title">Включване на известията</string>
     <string name="enable_emergency_alerts_summary">Показване на излъчв. на сигнал при спешни случаи</string>
     <string name="alert_reminder_interval_title">Напомняне за сигнал</string>
@@ -91,5 +92,4 @@
     <string name="cmas_opt_out_dialog_text">Понастоящем получавате спешни сигнали. Искате ли да продължите да ги получавате?</string>
     <string name="cmas_opt_out_button_yes">Да</string>
     <string name="cmas_opt_out_button_no">Не</string>
-    <string name="alert_sound_duration_title">Продълж. на звука на сигнала</string>
 </resources>

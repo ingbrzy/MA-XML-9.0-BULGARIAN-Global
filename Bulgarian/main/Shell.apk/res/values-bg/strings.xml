@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_label">Команден ред</string>
+    <string name="bugreport_notification_channel">Отчети за програмни грешки</string>
     <string name="bugreport_in_progress_title">Сигналът за програмна грешка „#%d“ се генерира</string>
     <string name="bugreport_finished_title">Сигналът за програмна грешка „#%d“ е заснет</string>
     <string name="bugreport_updating_title">Подробностите се добавят към сигнала за пр. грешка</string>
@@ -22,4 +23,5 @@
     <string name="bugreport_info_title">Заглавие на сигнала за програмна грешка</string>
     <string name="bugreport_info_description">Обобщена информация за сигнала за програмна грешка</string>
     <string name="save">Запазване</string>
+    <string name="bugreport_intent_chooser_title">Сигнал за прог. грешка: Споделяне</string>
 </resources>

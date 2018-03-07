@@ -71,6 +71,16 @@
     <string name="dlg_add_white">Бъдещите повиквания и съобщения от тези номера, които са добавени към изключенията, ще бъдат показвани в история на повикванията и входящата кутия за съобщения. Предишните блокирани такива няма да се показват. Да добавя ли избраните номера в изключенията?</string>
     <string name="dlg_not_block_sms">Да се отблокират ли избраните номера? Те ще бъдат добавени в изключенията, но предишните блокирани съобщения няма да се показват във Входяща кутия.</string>
     <string name="dlg_not_block_call">Да се отблокират ли избраните номера? Те ще бъдат добавени в изключенията, но предишните блокирани повиквания няма да се показват история на повикванията.</string>
+    <string name="dlg_update_date_title">Внимание</string>
+    <string name="dlg_update_data_content">Не сте свързан с Wi-Fi мрежа. Използването на мобилни данни може да е причина за допълнително таксуване. Продължете?</string>
+    <string name="dlg_sec_network_unavailable">Приложението Оптимизация не може да се актуализира, защото сте ограничили интернет връзката. Да се разреши ли на Оптимизация да се свърже с интернет?</string>
+    <string name="dlg_update_btn_contiue">Продължи</string>
+    <string name="dlg_update_btn_open">Разреши</string>
+    <string name="dlg_update_updating">Актуализиране…</string>
+    <string name="toast_update_nonetwork">Не можах да се свържа с мрежа</string>
+    <string name="toast_update_fail">Неуспешно актуализиране</string>
+    <string name="toast_update_success">Успешно актуализиране</string>
+    <string name="toast_update_notneed">Вече е актуализирано</string>
     <string name="menu_call">Набери</string>
     <string name="menu_sms">Изпрати съобщение</string>
     <string name="menu_bl_call_log">Покажи блокираните обаждания</string>
@@ -251,6 +261,7 @@
     <string name="mark_time_text">%d</string>
     <string name="mark_time_setting_dialog_title">Докладвай номера</string>
     <string name="sms_smart_engine_update">Авт. актуал. на SMS филтъра</string>
+    <string name="sms_smart_engine_update_now">Актуализиране</string>
     <string name="mark_number_setting_guide_title">Блокиране на докладваните номера</string>
     <string name="mark_number_setting_guide_content1">Блокиране на обаждания от докладвани номера?</string>
     <string name="mark_number_setting_guide_content2">Автоматично блокиране на номера, които са докладвани от други потребители</string>
@@ -304,6 +315,7 @@
     <string name="cta_dialog_title">Известие за свързване</string>
     <string name="cta_dialog_msg">Оптимизацията се нуждае от интернет връзка за получаване на актуализации, както и достъп до местоположение за да работи нормално.</string>
     <string name="cta_settings">Разреши достъп до интернет</string>
+    <string name="gdpr_msg"><Data>За да използвате основните функции на Оптимизация, вие трябва да се съгласите с това, че Xiaomi ще събира и използва вашите лични данни, включително и това, как използвате приложението и неговите функции (напр. употребата на мобилни данни, информация за открити вредни приложения, както и основна информация за вашето устройство) и друг тип информация, определена в нашата &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a>.</Data></string>
     <string name="app_name_na">Монитор</string>
     <string name="list_empty_text">Празно</string>
     <string name="dialog_title_attention">Внимание</string>
@@ -383,6 +395,12 @@
     <string name="firewall_wifi_dialog_message">Инсталираното приложение няма да може да се свърже с интернет чрез Wi-Fi, когато този тип връзка е изключена</string>
     <string name="firewall_system_title">Изразходени данни от системните приложения</string>
     <string name="firewall_temp_rule_reason">%2$s ограничена интернет връзка за%1$s​</string>
+    <string name="dialog_restrict_all_wlan_title">Ограничи използването на Wi-Fi връзка</string>
+    <string name="dialog_restrict_all_wlan_summary">Wi-Fi връзката ще бъде ограничена за всички приложения след това.</string>
+    <string name="dialog_restrict_all_mobile_title">Ограничи %s връзка с мобилни данни</string>
+    <string name="dialog_restrict_all_mobile_summary">%s Връзката с мобилни данни ще бъде ограничена за всички приложения след това.</string>
+    <string name="dialog_restrict_positive">Отказ</string>
+    <string name="dialog_restrict_negative">Ограничи</string>
     <string name="usage_sorted_activity_lable">Използване на данни</string>
     <string name="usage_sorted_loading_text">Зарежда се…</string>
     <string name="usage_sorted_empty_text">Празно</string>
@@ -405,6 +423,7 @@
     <string name="detail_app_button">Детайли</string>
     <string name="pref_about_traffic_title">Настройка на трафика</string>
     <string name="pref_traffic_manage_title">Използвани данни</string>
+    <string name="pref_operator_setting">%1$s: %2$s</string>
     <string name="pref_package_traffic_settings">План за данни</string>
     <string name="pref_adjust_traffic_data">Задаване на изп. на данни</string>
     <string name="pref_category_title_other">Допълнитени настройки</string>
@@ -517,6 +536,12 @@
     <string name="leisure_usage_dialog_message">"Достигнахте лимита за слаб трафик на данни
 
  Операторът ви може да начисли допълнителни такси, ако използвате мобилни данни."</string>
+    <string name="data_usage_protected_notify_title">Вече сте използвали 5ГБ мобилни данни</string>
+    <string name="data_usage_protected_notify_message">MIUI изключи връзката с мобилни данни, за да ви предпази от разходи над вашия лимит.</string>
+    <string name="data_usage_mobile_dialog_title">Вие вече сте използвали 5ГБ мобилни данни. MIUI ще изключи връзката с мобилни данни.</string>
+    <string name="data_usage_protected_dialog_message">"MIUI изключи връзката с мобилни данни за да ви предпази от разходи над вашия лимит.
+
+ Вашият оператор може да ви начисли допълнителни такси, ако включите мобилните данни отново."</string>
     <string name="lock_screen_traffic_warn_title">Известия на закл. екран</string>
     <string name="lock_screen_traffic_notify_body">Заключен за %2$s на %1$s, изп. данни %3$s</string>
     <string name="timeshow_s">%dс</string>
@@ -918,6 +943,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Това приложение може да забави прекалено много
 вашето устройство"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Деинсталиране на %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Деинсталирайте това приложение, за да поправите проблем с прекален разход на батерията.</string>
     <string name="om_ill_proc_type_wakelock_title">Това приложение блокира режим сън на устройството и изразходва много батерия</string>
@@ -1322,6 +1348,7 @@
     <string name="menu_text_networkassistants">Монитор за данни</string>
     <string name="menu_text_networkassistants_remain">%s остават</string>
     <string name="menu_text_networkassistants_danger">%s над лимита</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">ГБ</string>
     <string name="menu_text_networkassistants_unit_mb">МБ</string>
     <string name="menu_text_networkassistants_unit_kb">КБ</string>
@@ -1682,6 +1709,7 @@
     <string name="card_main_deepclean_wechat_action">Изчистване</string>
     <string name="card_main_sectool_title">Инструменти</string>
     <string name="card_main_monthreport_action">Покажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Диагностика на мрежата</string>
     <string name="card_main_netcheck_summary">Диагностика на мрежата за проблеми при свързването</string>
     <string name="card_main_netcheck_action">Тест</string>

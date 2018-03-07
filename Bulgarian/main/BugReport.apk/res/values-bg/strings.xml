@@ -57,6 +57,7 @@
     <string name="save_pic_success">Запазване на изобр. в %s</string>
     <string name="save_pic_fail">Не може да се запази изобр. Прегледайте SD-картата си</string>
     <string name="pic_not_exist">Това изобр. не съществува</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Изберете продукт</string>
     <string name="michat_skillset_business_type_title">Изберете услуга</string>
     <string name="michat_close_text">Чатът е затворен</string>
@@ -162,9 +163,9 @@
     <string name="cta_confirm">ОК</string>
     <string name="submit_dialog_title">Изпращане на доклад до Mi</string>
     <string name="submit_dialog_content">Вашият отзив с прикачените файлове и записи ще бъде изпратен на сървърите на MIUI. Може да съдържа лична информация и вашето местоположение.</string>
-    <string name="submit_dialog_content_global">Вашата обратна връзка, заедно с прикачените файлове (ако има) и логовете (вие можете да махнете отметката в полето за изпращане на тези елементи, които не искате да качите), ще бъде качена на сървърите на MIUI и достъпна за нашите програмисти с цел анализ и бъдеща комуникация. Логовете, изпратени от вас могат да съдържат лични данни и информация за местоположението ви.</string>
-    <string name="submit_dialog_cancel">Отказ</string>
-    <string name="submit_dialog_confirm">Изпрати</string>
+    <string name="submit_dialog_content_global">Отзивите ви, заедно с прикачените файлове (ако има такива) и регистрационните файлове (можете да махнете отметката от съответните полета за елементите, които не искате да качите) ще бъдат изпратени на сървърите на MIUI и ограничен раздел на MIUI Форум за разработчици. Информацията за темата и форума ще бъде събрана и за анализ и по-нататъшна комуникация. Регистрите могат да съдържат лична информация и данните за местоположението ви.</string>
+    <string name="submit_dialog_cancel">Не приемам</string>
+    <string name="submit_dialog_confirm">Приемам</string>
     <string name="mobile_data_note_dialog_title">Предупреждение за използв. на данни</string>
     <string name="mobile_data_note_dialog_content">Използването на мобилни данни за качване на логове може да бъде причина за допълнително таксуване от вашия оператор.</string>
     <string name="mobile_data_note_dialog_content_with_file_size">За качване на тези логове ще са необходими %sМБ от мобилните данни.</string>
