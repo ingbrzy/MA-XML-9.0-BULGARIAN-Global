@@ -242,7 +242,6 @@
     <string name="sending_shortcut">Изпращане…</string>
     <string name="service_unavailiable">Услугата не е достъпна</string>
     <string name="share">Споделяне</string>
-    <string name="shop_recommendation_format">%1$s: %2$s</string>
     <string name="smart_antispam">Идентификация на обаждането</string>
     <string name="toast_finish_delete_call_log">Списъкът с повиквания е изтрит</string>
     <string name="toast_text_copied">Текста е копиран</string>

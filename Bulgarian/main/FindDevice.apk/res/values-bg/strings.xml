@@ -22,7 +22,6 @@
     <string name="find_device_noise_title">Аларма за Открий устройството</string>
     <string name="find_device_success_title">Намиране на устройството</string>
     <string name="find_device_notice_p1">Отиди на</string>
-    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">За откриване, заключване, или възстановяване на вашия телефон. Ако размените СИМ-картите, ще бъде изпратен SMS автоматично за реактивиране на услугата.</string>
     <string name="i_know">OK</string>
     <string name="unlock_error_network">Не може да се свърже с интернет</string>
