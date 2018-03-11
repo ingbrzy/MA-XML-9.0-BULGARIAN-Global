@@ -555,7 +555,6 @@ GIFs могат да бъдат добавени като потребителс
     <string name="you_liao_goddess_desc">Качвайте видеоклипове редовно и увеличете вашите фенове, за да придобиете статус Лейди</string>
     <string name="default_user_desc">Този човек не е добавил описание</string>
     <string name="recommend">Препоръчани</string>
-    <string name="topic_message">&lt;font color=#fc7050>%1$s: &lt;/font>%2$s</string>
     <string name="message_my_received_praise">Получени реакции</string>
     <string name="message_comment_prefix">Коментар:</string>
     <string name="message_reply_prefix">Отговор</string>

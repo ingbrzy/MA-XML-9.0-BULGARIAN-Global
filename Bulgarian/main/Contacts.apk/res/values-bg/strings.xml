@@ -561,7 +561,6 @@
     <string name="keep_local">Съхрани локално</string>
     <string name="keep_local_btn">Съхрани само на телефона</string>
     <string name="label_custom_type">Потребителски</string>
-    <string name="label_duplicate_count">(%1$d)</string>
     <string name="label_no_duplicate_contacts">Отлично! Няма дублиращи се контакти за момента!</string>
     <string name="label_notes">Забележки</string>
     <string name="label_sip_address">Интернет телефон (SIP)</string>
@@ -815,7 +814,6 @@
     <string name="payphone">Обществен телефон</string>
     <string name="people">Контакти</string>
     <string name="phoneLabelsGroup">Телефон</string>
-    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Номерът е твърде дълъг</string>
     <string name="phone_primary">Основен</string>
     <string name="photoPickerNotFoundText">Няма изображения.</string>

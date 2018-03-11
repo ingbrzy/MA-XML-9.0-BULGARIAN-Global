@@ -96,7 +96,6 @@
     <string name="data_provided_by">Информацията е предоставена от</string>
     <string name="edit_alert_city_title">Упр. на предупрежденията</string>
     <string name="edit_city">Редакция на град</string>
-    <string name="empty">" "</string>
     <string name="feedback_heavy_rain">Силен дъжд</string>
     <string name="feedback_heavy_snow">Сняг</string>
     <string name="feedback_light_rain">Лек дъждец</string>

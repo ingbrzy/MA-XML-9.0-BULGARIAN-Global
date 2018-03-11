@@ -86,7 +86,6 @@
     <string name="accessibility_wifi_two_bars">Две деления за Wi-Fi обхват.</string>
     <string name="accessibility_wifi_three_bars">Три деления за Wi-Fi обхват.</string>
     <string name="accessibility_wifi_signal_full">Пълен обхват на Wi-Fi.</string>
-    <string name="process_kernel_label">Android операционна система</string>
     <string name="data_usage_uninstalled_apps">Деинсталирани приложения</string>
     <string name="data_usage_uninstalled_apps_users">Деинсталирани приложения и изтрити потребители</string>
     <string name="tether_settings_title_usb">USB споделяне на връзката</string>
