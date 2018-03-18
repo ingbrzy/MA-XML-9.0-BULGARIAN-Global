@@ -815,10 +815,8 @@
     <string name="recognize_hotel_other_money">%1$s други разходи</string>
     <string name="recognize_hotel_reverse_date">Регистрирай се преди %1$s:%2$s%3$s</string>
     <string name="recognize_hotel_room_type">Стая</string>
-    <string name="recognize_hotel_room_type_value">%1$s × %2$s</string>
     <string name="recognize_hotel_title">Резервиране на хотел</string>
     <string name="recognize_hotel_user_names">Гост</string>
-    <string name="recognize_hotel_user_names_value">%1$s+%2$s</string>
     <string name="recognize_setting_title">Настройки на пътуването</string>
     <string name="recognize_ticket_air_notification_content">Насладете се на вашия полет!</string>
     <string name="recognize_ticket_air_notification_title">Полет %3$s (%1$s/%2$s) ще бъде изведен за излитане скоро. Проверете пак информацията за вашия полет.</string>
