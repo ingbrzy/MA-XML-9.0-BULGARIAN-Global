@@ -205,7 +205,6 @@
     <string name="add_flow_fail_vip_msg">Xunlei ускорител за изтегляне е вкл</string>
     <string name="all_the_internet">Всички мрежи</string>
     <string name="app_downloads">%s изтегляния</string>
-    <string name="app_size">%1$s</string>
     <string name="auth_activity_title">Xunlei профил</string>
     <string name="bind_xunlei_account">Добавяне на Xunlei профил</string>
     <string name="bt_download">Изтегляне</string>
@@ -231,7 +230,6 @@
     <string name="download_list_open_xl_message">Xunlei ускорител ще ви помогне за по-висока скорост на изтегляне.</string>
     <string name="download_list_open_xl_title">Xunlei високоскоростно изтегляне</string>
     <string name="download_list_title_browser">Изтегляния</string>
-    <string name="download_num_size">%1$s | %2$s</string>
     <string name="dredge_xunlei_account">Създаване на Xunlei профил</string>
     <string name="edit_hint"> Въведете http, торент тракер или адрес за директно споделяне</string>
     <string name="engine_open">Отваряне</string>
@@ -404,7 +402,6 @@
     <string name="xl_vip_semiannual">6 месеца: %1$s Mi Кредити × 6</string>
     <string name="xunlei_account_has_unbind_message">Xunlei профилът е премахнат</string>
     <string name="xunlei_brand">С подкрепата на Xunlei</string>
-    <string name="xunlei_brand_url">http://mobile.xunlei.com</string>
     <string name="xunlei_close_tips_button">Включване</string>
     <string name="xunlei_close_tips_content">Xunlei високоскоростно изтегляне.</string>
     <string name="xunlei_close_tips_title">Ускорете вашите изтегляния</string>
