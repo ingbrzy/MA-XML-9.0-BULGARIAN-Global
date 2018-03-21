@@ -5,12 +5,13 @@
     <string name="unlockscreen_recharge_completed">Батерията е заредена</string>
     <string name="unlockscreen_low_battery">Свържете зарядното устройство</string>
     <string name="lockscreen_charging_msg">Зарежда се</string>
-    <string name="reset_device_tip">Зареждането е бавно, моля променете позицията на телефона</string>
-    <string name="reset_device_detail_tip">Безжично зареждане, моля подравнете телефона към базата, за да сте сигурни, че се зарежда бързо.</string>
-    <string name="wireless_charge_stop">Безжичното зареждане прекъсна</string>
+    <string name="reset_device_tip">Зареждането е бавно. Настройте вашето устройство.</string>
+    <string name="reset_device_detail_tip">Поставете правилно вашето устройство към безжичното зарядно, за да осигурите бърза скорост на зареждане.</string>
+    <string name="wireless_charge_stop">Безжичното зареждане е спряно</string>
     <string name="change_to_ac_charging">Превключено на безжично зареждане</string>
-    <string name="wireless_charge_dialog_title">Положението на телефона е променено, моля, оправете го</string>
+    <string name="wireless_charge_dialog_title">Нагласете вашето устройство към безжичното зарядно отново</string>
     <string name="wireless_charge_dialog_cancel">Отказ</string>
+    <string name="wireless_current_charge">Текущо зареждане</string>
     <string name="emergency_call_string">SOS</string>
     <string name="forget_password_string">Забравена парола</string>
     <string name="input_puk_code">Въведете PUK код</string>
@@ -64,6 +65,7 @@
     <string name="input_password_after_boot_msg">За да отключите вашето устройство, въведете паролата си</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">Трябва да влезете в Основно работно място след рестарт на устройството</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Не може да се превключва между пространства по време на обаждане</string>
+    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Не можете да превключвате между пространства, когато зелената защита е активна</string>
     <string name="input_password_handle_sdcard_fs">Не може да влезете във Второ работно място от заключен екран. Направете го от Основно работно място.</string>
     <string name="accessibility_enter_lock_wallpaper">Чукнете, за да отворите Wallpaper Carousel</string>
     <string name="wallpaper_global_des_drop_down_notify_text">Пуснете за да видите детайли</string>
@@ -147,5 +149,6 @@
     <string name="do_disclosure_with_name">Това устройство се управлява от %s</string>
     <string name="face_unlock_reenter_title">Запишете информацията за вашето лице отново.</string>
     <string name="face_unlock_reenter_content">Алгоритъмът за отключване с лице беше обновен. Чукнете, за да запишете информацията за вашето лице отново.</string>
+    <string name="digital_clock_dot">:</string>
     <string name="keyguard_left_view_lock_wallpaper">Сменящи се тапети</string>
 </resources>

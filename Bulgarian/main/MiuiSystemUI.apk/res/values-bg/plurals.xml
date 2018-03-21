@@ -26,7 +26,7 @@
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Ясно</item>
-        <item quantity="one">Слънчево</item>
+        <item quantity="one">Ясно</item>
     </plurals>
     <plurals name="accessibility_desc_weather_temperature">
         <item quantity="other">Времето %d градуса</item>

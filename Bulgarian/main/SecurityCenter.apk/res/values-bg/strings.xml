@@ -423,6 +423,7 @@
     <string name="detail_app_button">Детайли</string>
     <string name="pref_about_traffic_title">Настройка на трафика</string>
     <string name="pref_traffic_manage_title">Използвани данни</string>
+    <string name="pref_operator_setting">%1$s: %2$s</string>
     <string name="pref_package_traffic_settings">План за данни</string>
     <string name="pref_adjust_traffic_data">Задаване на изп. на данни</string>
     <string name="pref_category_title_other">Допълнитени настройки</string>
@@ -942,6 +943,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Това приложение може да забави прекалено много
 вашето устройство"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Деинсталиране на %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Деинсталирайте това приложение, за да поправите проблем с прекален разход на батерията.</string>
     <string name="om_ill_proc_type_wakelock_title">Това приложение блокира режим сън на устройството и изразходва много батерия</string>
@@ -1000,6 +1002,7 @@
     <string name="usage_type_data_send">Изпратени мобилни данни</string>
     <string name="usage_type_no_coverage">Време без сигнал</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android операционна система</string>
     <string name="process_mediaserver_label">Медиен сървър</string>
     <string name="power_screen">Екран</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1345,6 +1348,7 @@
     <string name="menu_text_networkassistants">Монитор за данни</string>
     <string name="menu_text_networkassistants_remain">%s остават</string>
     <string name="menu_text_networkassistants_danger">%s над лимита</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">ГБ</string>
     <string name="menu_text_networkassistants_unit_mb">МБ</string>
     <string name="menu_text_networkassistants_unit_kb">КБ</string>
@@ -1705,6 +1709,7 @@
     <string name="card_main_deepclean_wechat_action">Изчистване</string>
     <string name="card_main_sectool_title">Инструменти</string>
     <string name="card_main_monthreport_action">Покажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Диагностика на мрежата</string>
     <string name="card_main_netcheck_summary">Диагностика на мрежата за проблеми при свързването</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -1928,7 +1933,7 @@
     <string name="sponsored_sec_fb">Спонсорирани</string>
     <string name="add_game_notification_summary">Докоснете за стартиране и ускорение</string>
     <string name="app_manager_title">Управление на приложенията</string>
-    <string name="app_manager_app_lock">Заключване на приложения</string>
+    <string name="app_manager_uninstall">Деинсталиране</string>
     <string name="app_manager_bipartition">Клонирани приложения</string>
     <string name="app_manager_perm">Разрешения</string>
     <string name="app_manager_app_update">Актуализации</string>
@@ -2035,8 +2040,6 @@
     <string name="app_manager_cache_size">Кеш</string>
     <string name="app_manager_clear_all_data">Изчисти всички данни</string>
     <string name="app_manager_dlg_clear_cache_title">Изчисти кеша?</string>
-    <string name="app_manager_support_uninstall">Вие можете да деинсталирате тези приложения</string>
-    <string name="app_manager_not_support_uninstall">Не може да се деинсталират тези приложения</string>
     <string name="app_manager_comuting_size">Изчислява се…</string>
     <string name="app_manager_show_all_apps_opened">Покажи резултатите от всички приложения…</string>
     <string name="app_manager_search_prompt">Не може да намерите резултати? Опитайте показване на резултати от всички приложения.</string>
@@ -2197,4 +2200,23 @@
     <string name="gb_cutoff">|</string>
     <string name="gb_ad_game_size">МБ</string>
     <string name="gb_new_feature">Нова услуга</string>
+    <string name="gb_sign_notification_title">Ускоряване скоростта на мрежата за игри</string>
+    <string name="gb_sign_notification_summary">Ежедневна регистрация за да получите ускорителя на Xunyou</string>
+    <string name="gs_sign_notification">Напомни ми да се регистрирам в 20.00ч всеки ден</string>
+    <string name="gb_sign_gift">Регистрирайте се, за да получите награда</string>
+    <string name="signed_rule">Правила</string>
+    <string name="signed_rule_one">1.Регистрирайте се на всеки 10, 20 или 28 дни месечно, за да получите ускорителя на Xunyou съответно за 1, 2 или 3 дни.</string>
+    <string name="signed_rule_two">2. Вие можете да получите ускорителя на Xunyou само един път месечно.</string>
+    <string name="signed_rule_three">3. Дните, в който сте се регистрирали, се нулират в началото на всеки месец. Оставащите дни не се прехвърлят.</string>
+    <string name="gb_get_gift_right_now">Регистриране</string>
+    <string name="gb_have_signed">Регистриране днес</string>
+    <string name="gb_sign_gift_button_text">Получаване</string>
+    <string name="gb_xunyou_gift_type_one">Ускорител на Xunyou за един ден</string>
+    <string name="gb_xunyou_gift_type_two">Ускорител на Xunyou за два дни</string>
+    <string name="gb_xunyou_gift_type_three">Ускорител на Xunyou за три дни</string>
+    <string name="gb_signed_title">Регистрирания през този месец</string>
+    <string name="gb_network_status_bad">Грешка при свързването.</string>
+    <string name="gs_open_game_booster_summary">Ускоряване скоростта на мрежата за игри</string>
+    <string name="gb_signed_gift_loading_summary">Момент…</string>
+    <string name="gb_signed_gift_loading_fail">Неуспешно зареждане</string>
 </resources>

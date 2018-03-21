@@ -176,6 +176,10 @@
         <item quantity="other">Предоставени са %d разрешения</item>
         <item quantity="one">Предоставено е %d разрешение</item>
     </plurals>
+    <plurals name="print_jobs_summary">
+        <item quantity="other">%1$d задания за отпечатване</item>
+        <item quantity="one">1 задание за отпечатване</item>
+    </plurals>
     <plurals name="print_settings_summary">
         <item quantity="other">%1$d услуги за отпечатване са включени</item>
         <item quantity="one">1 услуга за отпечатване е включена</item>

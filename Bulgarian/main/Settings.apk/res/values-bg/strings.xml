@@ -1291,7 +1291,6 @@
     <string name="debug_networking_category">Мрежи</string>
     <string name="debug_view_attributes">Актив. на инспектирането на атрибутите за преглед</string>
     <string name="decline_remote_bugreport_action">Отхвърляне</string>
-    <string name="defalut_launcher_title">Стартер по подразбиране</string>
     <string name="default_admin_support_msg">Това действие е деактивирано. За да научите повече, свържете се с администратора на организацията си.</string>
     <string name="default_app">(По подразбиране)</string>
     <string name="default_apps_title">По подразбиране</string>
@@ -1835,6 +1834,7 @@
     <string name="gadget_picker_title">Избор на притурка</string>
     <string name="gadget_state_off">изключено</string>
     <string name="gadget_state_on">включено</string>
+    <string name="gadget_state_template">%1$s: %2$s</string>
     <string name="gadget_state_turning_off">изключва сe</string>
     <string name="gadget_state_turning_on">включва се</string>
     <string name="gadget_sync">Синхронизиране</string>
@@ -1954,7 +1954,7 @@
     <string name="install_no_market_app_summary">Разрешаване на инсталация на приложения от източници, различни от Google Play Магазин</string>
     <string name="install_no_market_app_title">Неизвестни източници</string>
     <string name="install_other_apps">Инст. на неизвестни прилож.</string>
-    <string name="install_preinstall_app">Зареждат се прил-я……</string>
+    <string name="install_preinstall_app">Зареждат се приложенията…</string>
     <string name="install_text">Инсталиране</string>
     <string name="install_type_instant">Мигновено приложение</string>
     <string name="install_whole_rom">Изтегляне на ROM</string>
@@ -1989,6 +1989,7 @@
     <string name="key_gesture_function_preview">Преглед на бутони и жестове</string>
     <string name="key_gesture_function_shortcut">Функции на преки пътища</string>
     <string name="key_none">Няма</string>
+    <string name="key_operation_diagram">Диаграма на използването</string>
     <string name="key_position_cat">Позиции на бутоните</string>
     <string name="key_settings">Преки пътища за клавиши и жестове</string>
     <string name="key_settings_title">Преки пътища за клавиши и жестове</string>
@@ -2076,8 +2077,7 @@
     <string name="launch_google_search">Стартирай Помощник на Google</string>
     <string name="launch_recents">Стартирай Скорошни</string>
     <string name="launch_voice_assistant">Стартирай Гласов помощник</string>
-    <string name="launcher_auto_fill_empty_title">Запълване на празните клетки</string>
-    <string name="launcher_title">Начален екран и Последни</string>
+    <string name="launcher_title">Начален екран &amp; Последни</string>
     <string name="launching_cit">Зареждане на CIT</string>
     <string name="launching_pho">Зареждане на информация за телефона…</string>
     <string name="launching_rep">Докладване…</string>
@@ -2100,6 +2100,7 @@
     <string name="lift_to_wake_title">Събуждане при повдигане</string>
     <string name="line_breaking_summary">Оптимизирай пренасянето на текста</string>
     <string name="line_breaking_title">Оптимизиране на текст</string>
+    <string name="link_speed">%1$d Мб/с</string>
     <string name="loading_notification_apps">Приложенията се зареждат...</string>
     <string name="local_auto_backup_off">Изкл</string>
     <string name="local_auto_backup_on">Вкл</string>
@@ -2180,7 +2181,6 @@
     <string name="lock_profile_wipe_warning_content_pattern">Ако въведете неправилна фигура при този опит, служебният ви потребителски профил и свързаните с него данни ще бъдат премахнати от това устройство.</string>
     <string name="lock_profile_wipe_warning_content_pin">Ако въведете неправилен ПИН код при този опит, служебният ви потребителски профил и свързаните с него данни ще бъдат премахнати от това устройство.</string>
     <string name="lock_profile_wipe_warning_title">Последен опит</string>
-    <string name="lock_screen_cells_title">Схема на Заключен екран</string>
     <string name="lock_screen_intro_skip_dialog_text">Функциите за защита на устройството няма да бъдат активирани. Няма да можете да предотвратите използването на този телефон от други хора, ако бъде изгубен или откраднат.</string>
     <string name="lock_screen_intro_skip_dialog_text_frp">Функциите за защита на устройството няма да бъдат активирани. Няма да можете да предотвратите използването на този телефон от други хора, ако бъде изгубен, откраднат или данните му бъдат изтрити.</string>
     <string name="lock_screen_notifications_interstitial_message">Как искате да се показват известията, когато устройството ви е заключено?</string>
@@ -2440,9 +2440,12 @@
     <string name="memory_settings_title">Памет</string>
     <string name="memory_size">Общо място</string>
     <string name="memory_summary">Използвана памет: Средно %1$s от %2$s</string>
+    <string name="memory_system_rom">Системно хранилище</string>
+    <string name="memory_system_space">Системно хранилище</string>
     <string name="memory_title">Свободни: %1$s\u0009\u0009Общо: %2$s</string>
     <string name="memory_usage">Използване на паметта</string>
     <string name="memory_usage_apps">Използвана от приложенията памет</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">Средно %1$s използвана памет през последните 3 часа</string>
     <string name="menu_cancel">Отхвърляне</string>
     <string name="menu_check">Опит</string>
@@ -2491,7 +2494,6 @@
     <string name="miui_lab_taplus_desc">Натиснете и задръжте елементи, за да стартирате действие</string>
     <string name="miui_lab_taplus_title">Асистент за проследяване</string>
     <string name="miui_master_clear_summary">Изтрива всички данни на телефона</string>
-    <string name="miui_screen_config_title">Настройки на Начален екран</string>
     <string name="miui_updater">Системна актуализация</string>
     <string name="mms_breathing_light_color_title">Цвят на LED за съобщения</string>
     <string name="mms_breathing_light_freq_title">Честота на премигване при съобщения</string>
@@ -2659,10 +2661,11 @@
     <string name="nfc_how_it_works_got_it">Разбрах</string>
     <string name="nfc_how_it_works_title">Плащане на терминал</string>
     <string name="nfc_more_title">Още...</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Основно приложение за плащане</string>
     <string name="nfc_payment_default_not_set">Не е зададено</string>
-    <string name="nfc_payment_favor_default">Винаги</string>
-    <string name="nfc_payment_favor_open">Освен когато е отворено друго приложение за плащане</string>
+    <string name="nfc_payment_favor_default">Винаги използвайте приложението по подразбиране</string>
+    <string name="nfc_payment_favor_open">Използвайте приложението по подразбиране, когато е отворено друго приложение за плащане</string>
     <string name="nfc_payment_how_it_works">Начин на работа</string>
     <string name="nfc_payment_no_apps">Плащане с телефона ви в магазините</string>
     <string name="nfc_payment_pay_with">На терминали за мобилно плащане да се използва:</string>
@@ -2839,11 +2842,6 @@
     <string name="open_demo_mode_warning_message">Когато режим Демонстрация е включен, часовникът в лентата с известия ще спре, батерията ще показва, че е пълна, а иконата за сила на сигнала ще показва пълен обхват. Вие можете да изключите режим Демонстрация или да рестартирате устройството си, за да промените това.</string>
     <string name="open_miui_optimization_title">Вкл. на MIUI оптимизация</string>
     <string name="open_miui_optimization_warning_message">Устройството ви ще се рестартира, за да приложи промяната.</string>
-    <string name="open_personal_assistant_dialog_btn_cancel">Отмени</string>
-    <string name="open_personal_assistant_dialog_btn_confirm">Изключи</string>
-    <string name="open_personal_assistant_dialog_desc">Няма да можете да използвате Трезор за приложения и да получавате неговите актуализации. Да се изключи ли сега?</string>
-    <string name="open_personal_assistant_dialog_title">Изключи Трезор за приложения</string>
-    <string name="open_personal_assistant_title">Включи Трезор за приложения</string>
     <string name="open_wifi_connect_summary">Докоснете за преглед на детайлите.</string>
     <string name="open_wifi_connect_title">Свързан с %1$s</string>
     <string name="opening_paragraph_delete_profile_unknown_company">Този служебен потребителски профил се управлява от:</string>
@@ -2861,6 +2859,7 @@
     <string name="overlay_display_devices_title">Симулиране на алтерн. дисплеи</string>
     <string name="overlay_settings">Показв. върху други приложения</string>
     <string name="owner_info_settings_edit_text_hint">Напр. „Устройството с Android на Иван“.</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Няма</string>
     <string name="owner_info_settings_title">Подпис на заключен екран</string>
     <string name="owner_space">Основно работно място</string>
@@ -3065,7 +3064,7 @@
     <string name="priority_storage_settings_summary">Ако не е поставена SD карта, потребителските данни автоматично ще се записват на вътрешното хранилище</string>
     <string name="priority_storage_summary">Изберете хранилище за съхранение на потребителските данни</string>
     <string name="priority_storage_title">Избор на хранилище</string>
-    <string name="privacy_authorize_cloud_msg">За сигурност на вашия профил, влезте в i.mi.com Ако желаете да отмените вашето съгласие за услугите на Mi Облак (вкл. синхронизиране и архивиране).</string>
+    <string name="privacy_authorize_cloud_msg">За сигурност на вашия профил, влезте в i.mi.com ако желаете да отмените вашето съгласие за услугите на Mi Облак (вкл. синхронизиране и архивиране).</string>
     <string name="privacy_authorize_dialog_agree">Приемам</string>
     <string name="privacy_authorize_dialog_exit">Изход</string>
     <string name="privacy_authorize_dialog_message"><Data>За да използвате основните функции на услугата Mi Облак, вие трябва да се съгласите, че Xiaomi ще събира, обработва, и използва вашите лични данни. Направете справка с нашата Политика на поверителност, за да научите как ние събираме и обработваме лични данни. Избирането на \"Съгласен\" означава, че вие сте прочели и се съгласявате с нашите &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a>.​</Data></string>
@@ -3077,7 +3076,7 @@
     <string name="privacy_authorize_revoke_failed">Не може да се отмени разрешението</string>
     <string name="privacy_authorize_revoke_success">Разрешението е успешно отменено</string>
     <string name="privacy_authorize_revoke_time">Отмяна (%1$dсек)</string>
-    <string name="privacy_authorize_revoke_title">Оторизация &amp; отменяне</string>
+    <string name="privacy_authorize_revoke_title">Разрешение за нулиране на настройките</string>
     <string name="privacy_authorize_revoking">Отмяна на разрешение…</string>
     <string name="privacy_authorize_success">Успешно придобито разрешение</string>
     <string name="privacy_authorize_title">Предоставяне на разрешение</string>
@@ -3142,6 +3141,7 @@
     <string name="private_sms_recording_intro_header">Начертайте шаблон за отключване:</string>
     <string name="private_sms_reset_by_account">Влезте в Mi Профила си за нулиране на паролата</string>
     <string name="process_dex2oat_label">Оптимизиране на приложенията</string>
+    <string name="process_kernel_label">Android (ОС)</string>
     <string name="process_mediaserver_label">Медиен сървър</string>
     <string name="process_provider_in_use_description">Доставчикът %1$s се използва.</string>
     <string name="process_service_in_use_description">Услугата %1$s се използва</string>
@@ -3163,6 +3163,7 @@
     <string name="profile_section_header">Служебни известия</string>
     <string name="progress_scanning">Търси се</string>
     <string name="provider_label">Прокарване на абонаменти</string>
+    <string name="provision_activation">Активно</string>
     <string name="provision_back">Назад</string>
     <string name="provision_next">Следващо</string>
     <string name="provision_page_layout_confirm_message">Устройството ви се нуждае от рестартиране, за да се приложат тези промени. Това отнема около минута.</string>
@@ -3265,7 +3266,6 @@ Wi-Fi телефония: %3$s
     <string name="receiver_clean">Освободи място</string>
     <string name="recent_location_requests_summary">Приложенията по-долу искат да преглеждат информация за местоположението ви</string>
     <string name="recent_location_requests_title">Управление на местоположения</string>
-    <string name="recents_config_title">Скорошни</string>
     <string name="recommend_item_1">Калъф за телефона</string>
     <string name="recommend_item_2">Mi фитнес гривна</string>
     <string name="recommend_item_3">Външна батерия</string>
@@ -3390,7 +3390,6 @@ Wi-Fi телефония: %3$s
     <string name="screen">Екран</string>
     <string name="screen_button">Екранни бутони</string>
     <string name="screen_button_tips">Плъзнете надолу, за да скриете екранните бутони</string>
-    <string name="screen_cells_config_title">Схема на Начален екран</string>
     <string name="screen_color_and_optimize">Цветове и контраст</string>
     <string name="screen_color_and_optimize_disabled">В режим за четене не може да се настройва цветова температура</string>
     <string name="screen_color_temperature">Цветове</string>
@@ -3902,7 +3901,6 @@ Wi-Fi телефония: %3$s
     <string name="show_ime">Показване на виртуалната клавиатура</string>
     <string name="show_ime_summary">Показва се на екрана, докато физическата клавиатура е активна</string>
     <string name="show_magnifier_when_input">Показвай лупа</string>
-    <string name="show_mem_info_title">Покажи съст. на рам памет</string>
     <string name="show_menu">Покажи меню</string>
     <string name="show_non_rect_clip">Отстр. на грешки при неправоъг. изрязване</string>
     <string name="show_notification_channel_warnings">Предупрежд. за канала за известия</string>
@@ -3988,6 +3986,7 @@ Wi-Fi телефония: %3$s
     <string name="sim_reenter_new">Въведете пак новия ПИН код</string>
     <string name="sim_select_card">Изберете SIM карта</string>
     <string name="sim_selection_required_pref">Изборът е задължителен</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM карти</string>
     <string name="sim_setup_wizard_title">SIM карти</string>
     <string name="sim_signal_strength">%1$d dBm, %2$d asu</string>
@@ -4291,6 +4290,7 @@ Wi-Fi телефония: %3$s
     <string name="suggestions_summary">+ %1$d</string>
     <string name="suggestions_title">Предложения</string>
     <string name="sum_carrier_select">Избиране на мрежов оператор</string>
+    <string name="summary_range_symbol_combination">от %1$s до %2$s</string>
     <string name="summary_range_verbal_combination">от %1$s до %2$s</string>
     <string name="supl_not_set">&lt;Не е зададен></string>
     <string name="support_account_picker_add_account">Добавяне на профил</string>
@@ -4414,7 +4414,6 @@ Wi-Fi телефония: %3$s
     <string name="title_font_current2">Системен шрифт</string>
     <string name="title_font_size">Размер на шрифта</string>
     <string name="title_hdmi_color_calibration">Корекция на цветовете</string>
-    <string name="title_jeejen">Jeejen Начален екран</string>
     <string name="title_layout_current">Размер на текст</string>
     <string name="title_layout_current2">Размер на текста</string>
     <string name="toast_lockscreen_glogin_empty_password">Въведете парола</string>
@@ -4602,7 +4601,7 @@ Wi-Fi телефония: %3$s
     <string name="untitled_apn">Без заглавие</string>
     <string name="update_new_version">Налична е актуализация</string>
     <string name="update_progress_for_updates">Актуализиране (%s)</string>
-    <string name="upload_debug_log_summary">Диагностичните данни могат да включват информация за използването на хардуера, операционната система и приложенията. Информацията ще се използва за откриване и анализиране на проблеми в системата, но никога за да бъдете идентифицирани лично.</string>
+    <string name="upload_debug_log_summary">Информацията за начина на използване, която ни изпращате, може да съдържа лични данни</string>
     <string name="upload_debug_log_title">Изпращай диагностични данни автоматично</string>
     <string name="usage">Пренос на данни</string>
     <string name="usage_access">Достъп до данни за ползването</string>
@@ -4751,7 +4750,7 @@ Wi-Fi телефония: %3$s
     <string name="user_exit_guest_dialog_remove">Премахване</string>
     <string name="user_exit_guest_title">Премахване на госта</string>
     <string name="user_experience_program">Програма за потребителски отзиви</string>
-    <string name="user_experience_program_summary">Помогнете ни да подобрим MIUI чрез изпращане на анонимни потребителски данни</string>
+    <string name="user_experience_program_summary">Помогнете ни да подобрим нашите продукти и услуги, като споделяте данни за използването им</string>
     <string name="user_experience_program_title">Програма за потребителски отзиви</string>
     <string name="user_guest">Гост</string>
     <string name="user_image_choose_photo">Избор на снимка от галерията</string>
@@ -5480,9 +5479,5 @@ Wi-Fi телефония: %3$s
     <string name="zone_auto_summaryOn">Използване на часовата зона, предоставена от мрежата</string>
     <string name="zone_list_menu_sort_alphabetically">Сортиране по азбучен ред</string>
     <string name="zone_list_menu_sort_by_timezone">Сортиране по часова зона</string>
-    <string name="lock_screen_secure_after_timeout_immediately_never">Никога не изисквай парола</string>
-    <string name="lock_screen_secure_after_timeout_immediately_summary">Изисква се незабавно парола</string>
-    <string name="lock_screen_secure_after_timeout_summary">Изисква се парола: %1$s</string>
-    <string name="lock_screen_secure_after_timeout_title">Изисква се парола</string>
     <string name="master_clear_summary">Вътрешното хранилище ще се нулира и всички данни ще бъдат изчистени</string>
 </resources>

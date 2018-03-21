@@ -359,4 +359,15 @@
     <string name="second_space_desktop_tips_dialog_title">Важна актуализация</string>
     <string name="second_space_desktop_tips_dialog_positive_text">Разбрах</string>
     <string name="second_space_desktop_tips_dialog_message">След тази актуализация иконите за преместване на данни и управление на Второ работно място няма да се показват на Начален екран. Вие ще трябва да разрешите достъп на съответните услуги в Настройки.</string>
+    <string name="green_guard">Зелена защита</string>
+    <string name="bind_device">Свързващо устройство</string>
+    <string name="green_guard_des1">Устройство за свързване на ключове, лесна и бърза работа</string>
+    <string name="green_guard_title2">Вижте местоположението</string>
+    <string name="green_guard_des2">Достъп до местоположението в реално време, който защитава изходящата сигурност</string>
+    <string name="green_guard_title3">Приложение за управление</string>
+    <string name="green_guard_des3">Управлявайте приложенията на устройството, за да контролирате времето им за използване</string>
+    <string name="experience_more_features">Свържете устройства, за да опитате повече функции</string>
+    <string name="add_spare_text">Опазване</string>
+    <string name="control_and_guarding">Управление на охраната</string>
+    <string name="can_not_switch_when_green_kid_active">Родителски контрол над точки за достъп</string>
 </resources>
