@@ -78,4 +78,11 @@
     <string name="base_info">Основна инф</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">Не може да се открият приложения</string>
+    <string name="power_consume_abnormal_night">Нетипична консумация в Нощен режим</string>
+    <string name="enable_sleep_mode">Включване на спящ режим за оптимизиране консумацията на батерията през нощта</string>
+    <string name="sleepmode_privacy_title">Спящ режим</string>
+    <string name="sleepmode_privacy_content">Тази услуга ще използва информация за вашето устройство и софтуер, която няма да бъде качена на сървърите ни</string>
+    <string name="sleepmode_privacy_link">Подробно за сигурност и поверителност</string>
+    <string name="sleepmode_disclaimer_cancel">Отмени</string>
+    <string name="sleepmode_disclaimer_agree">Приемам</string>
 </resources>

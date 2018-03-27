@@ -349,6 +349,13 @@
     <string name="sdcradfs_dialog_in_sec_message">"За да актуализирате, трябва да изтриете вашето Второ работно място и след това да го създадете отново. Преместете данните си от Второ работно място в Основно работно място и рестартирайте устройството си, за да завършите актуализирането.
 Ако не актуализирате, клонираните приложения няма да работят правилно."</string>
     <string name="space_created_success">Второто работно място е успешно създадено</string>
+    <string name="encrypt_space_delete_dialog_title">Внимание</string>
+    <string name="encrypt_space_delete_dialog_message">"You're about to update Android. After the update, Second space data will become incompatible. To avoid this, move all data to First space, delete Second space, and create it again."</string>
+    <string name="encrypt_space_delete_dialog_click_message">"*If you don't need to move data, %s"</string>
+    <string name="encrypt_space_delete_dialog_click_message_action">delete and create Second space now.</string>
+    <string name="encrypt_space_delete_dialog_positive_text">Премести данните</string>
+    <string name="encrypt_space_delete_notification_title">Второ работно място</string>
+    <string name="encrypt_space_delete_notification_message">Delete your Second space and create a new one to update your device successfully.</string>
     <string name="space_create_guide_title_1">Защитете личните си данни</string>
     <string name="space_create_guide_desc_1">Запазвайте надеждно приложенията и снимките</string>
     <string name="space_create_guide_title_2">Създаване по всяко време</string>
@@ -359,15 +366,14 @@
     <string name="second_space_desktop_tips_dialog_title">Важна актуализация</string>
     <string name="second_space_desktop_tips_dialog_positive_text">Разбрах</string>
     <string name="second_space_desktop_tips_dialog_message">След тази актуализация иконите за преместване на данни и управление на Второ работно място няма да се показват на Начален екран. Вие ще трябва да разрешите достъп на съответните услуги в Настройки.</string>
-    <string name="green_guard">Зелена защита</string>
-    <string name="bind_device">Свързващо устройство</string>
-    <string name="green_guard_des1">Устройство за свързване на ключове, лесна и бърза работа</string>
-    <string name="green_guard_title2">Вижте местоположението</string>
-    <string name="green_guard_des2">Достъп до местоположението в реално време, който защитава изходящата сигурност</string>
-    <string name="green_guard_title3">Приложение за управление</string>
-    <string name="green_guard_des3">Управлявайте приложенията на устройството, за да контролирате времето им за използване</string>
-    <string name="experience_more_features">Свържете устройства, за да опитате повече функции</string>
-    <string name="add_spare_text">Опазване</string>
-    <string name="control_and_guarding">Управление на охраната</string>
-    <string name="can_not_switch_when_green_kid_active">Родителски контрол над точки за достъп</string>
+    <string name="green_guard">Родителски контрол</string>
+    <string name="bind_device">Добавете устройства</string>
+    <string name="green_guard_des1">Добавете устройства, за да ги управлявате дистанционно</string>
+    <string name="green_guard_title2">Вижте информация за местоположение</string>
+    <string name="green_guard_des2">Бъдете информиран за местоположението на всички управлявани устройства</string>
+    <string name="green_guard_title3">Управление на приложенията</string>
+    <string name="green_guard_des3">Контролиране на инсталираните приложения и ограничаване на използването им</string>
+    <string name="experience_more_features">Добавете устройство, за да видите всички функции</string>
+    <string name="can_not_switch_when_green_kid_active">Превключването към Второ работно място е ограничено от Родителски контрол</string>
+    <string name="need_network_when_bind">Свържете се с мрежата, преди да добавите устройства</string>
 </resources>

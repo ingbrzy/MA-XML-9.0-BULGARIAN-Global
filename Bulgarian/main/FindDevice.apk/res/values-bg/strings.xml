@@ -22,6 +22,7 @@
     <string name="find_device_noise_title">Аларма за Открий устройството</string>
     <string name="find_device_success_title">Намиране на устройството</string>
     <string name="find_device_notice_p1">Отиди на</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">За откриване, заключване, или възстановяване на вашия телефон. Ако размените СИМ-картите, ще бъде изпратен SMS автоматично за реактивиране на услугата.</string>
     <string name="i_know">OK</string>
     <string name="unlock_error_network">Не може да се свърже с интернет</string>
@@ -77,6 +78,8 @@
     <string name="default_lock_msg_words_with_phone">Здравейте! Аз си загубих телефона. Бихте ли се свързали с мен? Благодаря!</string>
     <string name="default_lock_msg_words">Това устройство е свързано със съществуващ вече профил. За вашата сигурност, вие трябва да въведете паролата си, за да потвърдите устройството.</string>
     <string name="lock_msg_phone">Информация за контакт: %s</string>
+    <string name="emergency_call">Спешно обаждане</string>
+    <string name="return_to_call">Обратно към обаждането</string>
     <string name="default_debt_msg_words">"Това устройство е заключено поради просрочени задължения. 
  Свържете се с вашия агент по продажби за повече подробности."</string>
     <string name="sys_notification_async_verify_title">Активирай повторно Намери устройство</string>

@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">Няма</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -86,6 +88,7 @@
     <string name="accessibility_wifi_two_bars">Две деления за Wi-Fi обхват.</string>
     <string name="accessibility_wifi_three_bars">Три деления за Wi-Fi обхват.</string>
     <string name="accessibility_wifi_signal_full">Пълен обхват на Wi-Fi.</string>
+    <string name="process_kernel_label">Android операционна система</string>
     <string name="data_usage_uninstalled_apps">Деинсталирани приложения</string>
     <string name="data_usage_uninstalled_apps_users">Деинсталирани приложения и изтрити потребители</string>
     <string name="tether_settings_title_usb">USB споделяне на връзката</string>
@@ -339,6 +342,8 @@
     <string name="failed_to_open_app_settings_toast">Отварянето на настройките за %1$s не бе успешно</string>
     <string name="ime_security_warning">Този метод за въвеждане може да събира целия въведен от вас текст, включително лични данни като пароли и номера на кредитни карти. Той произлиза от приложението %1$s. Искате ли да го използвате?</string>
     <string name="direct_boot_unaware_dialog_message">Забележка: След рестартиране това приложение не може да се стартира, докато не отключите телефона си</string>
+    <string name="status_bar_date_formatter">"%2$s
+%1$s"</string>
     <string name="app_label">Системен изглед</string>
     <string name="status_bar_no_recent_apps">Няма последно използвани приложения</string>
     <string name="recent_task_lock_text">Фиксиран</string>
@@ -680,6 +685,7 @@ MMMM d"</string>
     <string name="ext_media_mountable_notification_title">USB хранилището е свързано</string>
     <string name="ext_media_mountable_notification_message">Чукнете за да отворите Файлов мениджър</string>
     <string name="ext_media_safe_remove">Премахване</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">K/s</string>
     <string name="megabyte_per_second">M/s</string>
     <string name="status_bar_network_flow_today">Днес: %1$s</string>
@@ -731,6 +737,9 @@ MMMM d"</string>
     <string name="notification_low_battery_open_save_mode">Включване на Икономия на батерията</string>
     <string name="notification_low_battery_action_btn">Включи</string>
     <string name="notification_low_battery_need_charge">Батерията е слаба. Заредете устройството си.</string>
+    <string name="low_temperature_warning_title">Предупреждение за ниска температура</string>
+    <string name="low_temperature_warning_message">Температурата е твърде ниска. Вашият телефон може да се изключи по всяко време. Уверете се, че сте запазили всички важни промени.</string>
+    <string name="low_temperature_button_ok">Разбрах</string>
     <string name="oldman_airplane_mode_text">Самолет</string>
     <string name="oldman_incall_text">Обратно към обаждането</string>
     <string name="demo_mode">Режим Демонстрация</string>
@@ -758,6 +767,7 @@ MMMM d"</string>
     <string name="notification_header_title">Известия</string>
     <string name="weather_publish_time">Актуализирано %1$s</string>
     <string name="no_weather_description">Получаване на данни за времето ></string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="accessibility_desc_notification_shade">Лента с известия</string>
     <string name="accessibility_desc_quick_settings">Бързи настройки</string>
     <string name="accessibility_desc_details_page">%1$s детайли на страницата</string>

@@ -267,6 +267,7 @@
     <string name="app_backup">Архивиране</string>
     <string name="app_data_usage">Пренос на данни</string>
     <string name="app_default_dashboard_title">Приложения по подразбиране</string>
+    <string name="app_detail">Подробности</string>
     <string name="app_disable_dlg_positive">Деактивиране на приложението</string>
     <string name="app_disable_dlg_text">Ако деактивирате това приложение, Android и други приложения може да спрат да работят както трябва.</string>
     <string name="app_disable_dlg_title">Да се деакт. ли вград. прил.?</string>
@@ -296,7 +297,9 @@
     <string name="app_list_memory_use">Използване от приложенията</string>
     <string name="app_list_preference_none">Няма</string>
     <string name="app_memory_use">Използвана памет</string>
+    <string name="app_mobile">Мобилни</string>
     <string name="app_name_label">Приложение</string>
+    <string name="app_name_na">Използвани данни</string>
     <string name="app_not_found_dlg_text">Приложението не бе намерено в списъка с инсталирани приложения.</string>
     <string name="app_notification_block_summary">Без показване на тези известия</string>
     <string name="app_notification_block_title">Блокиране на всички</string>
@@ -328,6 +331,7 @@
     <string name="app_special_disable_dlg_title">Да се изтрият ли данните и да се деактивира приложението?</string>
     <string name="app_switch_key">Скорошни</string>
     <string name="app_usage_preference">Предпочитания за използване на приложенията</string>
+    <string name="app_version">Версия</string>
     <string name="application_forbid_auto_startup">Забранете на %s стартиране във фонов режим</string>
     <string name="application_info_label">Информация за приложенията</string>
     <string name="application_item_already_permission">Разрешено</string>
@@ -455,6 +459,8 @@
     <string name="background_data_dialog_title">Да се деактивират ли данните на заден план?</string>
     <string name="background_data_summary">Приложенията да синхр., пращат и получават данни винаги</string>
     <string name="background_process_stop_description">Това е стар процес на приложение, който все още работи, в случай че бъде необходим отново. Обикновено няма причина да го спирате.</string>
+    <string name="background_restrict_app_dialog_message">Ограничаването на достъпа до мрежата на заден план ще направи невъзможна нормалната работа на приложенията, получаването на съобщения, изтеглянето на всякакво съдържание и т. н. Да се ограничи ли въпреки това?</string>
+    <string name="background_traffic">На заден план %s</string>
     <string name="backtouch_enable_title">Коригиране на звука от задния панел</string>
     <string name="backup_configure_account_default_summary">Понастоящем няма профил, който съхранява данните от резервното копие</string>
     <string name="backup_configure_account_title">Резервно копие на профила</string>
@@ -870,6 +876,7 @@
     <string name="bt_rarely_used_device_title">Рядко използвани устройства (%d)</string>
     <string name="bt_trace_log">Разрешете Bluetooth Trace log</string>
     <string name="bt_trace_log_summary">Разрешете Bluetooth Trace log</string>
+    <string name="btn_back">Назад</string>
     <string name="bug_report_settings">Доклад за грешки</string>
     <string name="bugreport_in_power">Пряк път за сигнал за програмна грешка</string>
     <string name="bugreport_in_power_summary">В менюто за захранване да се показва бутон за подаване на сигнал за програмна грешка</string>
@@ -889,6 +896,7 @@
     <string name="button_text_ok">OК</string>
     <string name="button_text_reboot_now">Рестартирай</string>
     <string name="button_text_reject">Отхвърли</string>
+    <string name="byteShort">Б</string>
     <string name="cache_header_label">Кеш</string>
     <string name="cache_size_label">Кеш</string>
     <string name="cached">Кеширан процес на заден план</string>
@@ -1318,12 +1326,14 @@
     <string name="delete_or_keep_legacy_passwords_confirm_msg">Да изтрия ли този пръстов отпечатък?</string>
     <string name="delete_rule">Премахни правила</string>
     <string name="delete_saved_network">Изтрий запазените мрежи</string>
+    <string name="deleted_apps">Изтрити прил</string>
     <string name="deletion_helper_automatic_title">Автоматично</string>
     <string name="deletion_helper_manual_title">Ръчни</string>
     <string name="deletion_helper_preference_title">Освободете място сега</string>
     <string name="demo_mode">Режим Демонстрация</string>
     <string name="demo_mode_summary">Покажи демо икона в Лентата с известия</string>
     <string name="deny">Отказ</string>
+    <string name="detail_app_button">Инф за приложение</string>
     <string name="details_subtitle">Подробности</string>
     <string name="dev_logpersist_clear_warning_message">Когато спрем да извършваме наблюдения посредством програмата за трайно записване в регистрационни файлове, трябва да изтрием съхраняваните на устройството ви данни от нея.</string>
     <string name="dev_logpersist_clear_warning_title">Да се изчистят ли трайно съхраняваните регистрационни данни?</string>
@@ -1382,8 +1392,15 @@
     <string name="device_usage_list_summary">Използване на устройството след пълно зареждане</string>
     <string name="dial_application_title">Набиране</string>
     <string name="dial_pad_tones_title">Тонове при набиране</string>
+    <string name="dialog_chose_item">Изберете елемент за показване</string>
     <string name="dialog_content_login">Вписване в Mi Профил за да актуализирате?</string>
     <string name="dialog_no">Не</string>
+    <string name="dialog_restrict_all_mobile_summary">%s Връзката с мобилни данни ще бъде ограничена за всички приложения след това.</string>
+    <string name="dialog_restrict_all_mobile_title">Ограничи %s връзка с мобилни данни</string>
+    <string name="dialog_restrict_all_wlan_summary">Wi-Fi връзката ще бъде ограничена за всички приложения след това.</string>
+    <string name="dialog_restrict_all_wlan_title">Ограничи използването на Wi-Fi връзка</string>
+    <string name="dialog_restrict_negative">Ограничаване</string>
+    <string name="dialog_restrict_positive">Отказ</string>
     <string name="dialog_title_color_calibration">Корекция на цветовете</string>
     <string name="dialog_title_hdmi_color_calibration">Корекция на цветовете</string>
     <string name="dialog_title_login">Впишете се с вашия Mi Профил</string>
@@ -1738,6 +1755,25 @@
     <string name="finish_application">Спиране</string>
     <string name="finish_button">Готово</string>
     <string name="finish_button_label">Завършване</string>
+    <string name="firewall_allow_all">Разреши на приложенията да се свързват, използвайки следния начин</string>
+    <string name="firewall_allow_data">Разреши мобилните данни</string>
+    <string name="firewall_allow_network">Позволи</string>
+    <string name="firewall_allow_wlan">Разреши използването на Wi-Fi връзка</string>
+    <string name="firewall_applist">Приложения</string>
+    <string name="firewall_mobile">Мобилни данни</string>
+    <string name="firewall_network_allow">Позволено е на %1$s да използва %2$s връзка</string>
+    <string name="firewall_network_restrict_notify_message">Чукнете за промяна на настройките.</string>
+    <string name="firewall_network_restrict_notify_mobile">Мобилни данни</string>
+    <string name="firewall_partial">Разреши на някои приложения да се свързват, използвайки следния начин</string>
+    <string name="firewall_permission">Права на връзката</string>
+    <string name="firewall_restrict_all">Ограничи приложенията да се свързват, използвайки следния начин</string>
+    <string name="firewall_restrict_android_dialog_content">За да може устройството ви да работи нормално, няколко системни за Android приложения все още ще се свързват с интернет. Тези приложения ще използват мобилни данни и може да генерират малки такси към вашия оператор.</string>
+    <string name="firewall_restrict_android_dialog_title">Внимание</string>
+    <string name="firewall_restrict_data">Ограничи мобилните данни</string>
+    <string name="firewall_restrict_notify_title">%s не може да използва мрежата</string>
+    <string name="firewall_restrict_wlan">Ограничи използването на Wi-Fi връзка</string>
+    <string name="firewall_temp_rule_reason">%2$s ограничена интернет връзка за%1$s</string>
+    <string name="firewall_wifi_dialog_message">Инсталираното приложение няма да може да се свърже с интернет чрез Wi-Fi, когато този тип връзка е изключена.</string>
     <string name="firmware_version">Версия на Андроид</string>
     <string name="floating_window_switch_label">Включване на изскачащи прозорци</string>
     <string name="floating_window_switch_label_disable">Изключване на изскачащи прозорци</string>
@@ -1786,6 +1822,7 @@
     <string name="force_touch_demo">Покажи демо</string>
     <string name="force_touch_enable">Включване на 3D докосване</string>
     <string name="force_touch_enable_tips">Натиснете икона на приложение и задръжте, за да можете да видите менютата с преки пътища, когато е включено 3D докосването.</string>
+    <string name="foreground_traffic">На преден план %s</string>
     <string name="forget">Забравяне</string>
     <string name="forget_password_button_text"><u>Забравена парола</u></string>
     <string name="forget_pattern"><u>Забравен шаблон?</u></string>
@@ -1834,6 +1871,7 @@
     <string name="gadget_picker_title">Избор на притурка</string>
     <string name="gadget_state_off">изключено</string>
     <string name="gadget_state_on">включено</string>
+    <string name="gadget_state_template">%1$s: %2$s</string>
     <string name="gadget_state_turning_off">изключва сe</string>
     <string name="gadget_state_turning_on">включва се</string>
     <string name="gadget_sync">Синхронизиране</string>
@@ -1849,6 +1887,7 @@
     <string name="gesture_setting_off">Изкл.</string>
     <string name="gesture_setting_on">Вкл.</string>
     <string name="gesture_wakeup_title">Чукнете два пъти екрана за активиране</string>
+    <string name="gigabyteShort">ГБ</string>
     <string name="global_change_warning">Настройката засяга всички потребители на този телефон.</string>
     <string name="global_locale_change_title">Промяна на езика</string>
     <string name="go_back_button_label">Назад</string>
@@ -1972,6 +2011,7 @@
     <string name="internal_storage_sentence">вътрешно хранилище</string>
     <string name="invalid_location">Мястото за инсталиране е невалидно.</string>
     <string name="invalid_size_value">Размерът на пакета не можа да бъде изчислен.</string>
+    <string name="item_system_app">Системни приложения</string>
     <string name="join_many_items_last">%1$s и %2$s</string>
     <string name="join_two_items">%1$s и %2$s</string>
     <string name="keep_legacy_fingerprint">Запази</string>
@@ -2063,6 +2103,9 @@
     <string name="keywords_vr_listener">vr виртуална реалност приемател стерео помощна услуга</string>
     <string name="keywords_wifi_calling">wifi, wi-fi, обаждам се, обаждане</string>
     <string name="keywords_write_settings">запис промяна системни настройки</string>
+    <string name="kilobyteShort">КБ</string>
+    <string name="kilobyte_per_second">КБ/сек</string>
+    <string name="label_mi_stats">Mi анализ</string>
     <string name="language_keyboard_settings_title">Езици и въвеждане</string>
     <string name="language_picker_title">Езици</string>
     <string name="language_settings">Езици и въвеждане</string>
@@ -2076,7 +2119,7 @@
     <string name="launch_google_search">Стартирай Помощник на Google</string>
     <string name="launch_recents">Стартирай Скорошни</string>
     <string name="launch_voice_assistant">Стартирай Гласов помощник</string>
-    <string name="launcher_title">Начален екран &amp; Последни</string>
+    <string name="launcher_title">Начален екран и Последни</string>
     <string name="launching_cit">Зареждане на CIT</string>
     <string name="launching_pho">Зареждане на информация за телефона…</string>
     <string name="launching_rep">Докладване…</string>
@@ -2099,6 +2142,8 @@
     <string name="lift_to_wake_title">Събуждане при повдигане</string>
     <string name="line_breaking_summary">Оптимизирай пренасянето на текста</string>
     <string name="line_breaking_title">Оптимизиране на текст</string>
+    <string name="link_speed">%1$d Мб/с</string>
+    <string name="list_empty_text">Празно</string>
     <string name="loading_notification_apps">Приложенията се зареждат...</string>
     <string name="local_auto_backup_off">Изкл</string>
     <string name="local_auto_backup_on">Вкл</string>
@@ -2329,6 +2374,7 @@
     <string name="mah">%d мАч</string>
     <string name="main_netcheck_summary">Диагностика на мрежата за проблеми при свързването</string>
     <string name="main_running_process_description">Използва се основният процес.</string>
+    <string name="main_toolbar_statistic">Статистика</string>
     <string name="make_sure_cancel_update">Отмяна на актуализацията?</string>
     <string name="man_add_application">Добави приложения за авт. стартиране</string>
     <string name="manage_device_admin">Администраторски приложения на устройството</string>
@@ -2405,6 +2451,8 @@
     <string name="media_volume_option_title">Сила на звука за мултимедия</string>
     <string name="media_volume_summary">Задаване на сила на звука за музика и видеоклипове</string>
     <string name="media_volume_title">Медия</string>
+    <string name="megabyteShort">МБ</string>
+    <string name="megabyte_per_second">МБ/сек</string>
     <string name="mem_details_title">Подробности за паметта</string>
     <string name="mem_state_subtitle">Състояния на паметта</string>
     <string name="mem_use_free_type">Свободна</string>
@@ -2443,6 +2491,7 @@
     <string name="memory_title">Свободни: %1$s\u0009\u0009Общо: %2$s</string>
     <string name="memory_usage">Използване на паметта</string>
     <string name="memory_usage_apps">Използвана от приложенията памет</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">Средно %1$s използвана памет през последните 3 часа</string>
     <string name="menu_cancel">Отхвърляне</string>
     <string name="menu_check">Опит</string>
@@ -2469,6 +2518,7 @@
     <string name="menu_stats_total">Обща употреба</string>
     <string name="menu_stats_unplugged">%1$s след изключването</string>
     <string name="menu_use_uss">Използване на USS</string>
+    <string name="mi_service_app_detail">Детайли за употребата на данни</string>
     <string name="mi_shopping_mall">Mi Магазин</string>
     <string name="mi_upi_settings">Mi Pay Профил</string>
     <string name="misc_files">Разни файлове</string>
@@ -2629,6 +2679,9 @@
     <string name="need_reboot_now">Рестарт за прилагане на актуализацията.</string>
     <string name="netcheck_title">Диагностика на мрежата</string>
     <string name="network_assistant">Монитор на моб. данни</string>
+    <string name="network_changed_noti_summary">Използване на мобилни данни</string>
+    <string name="network_changed_noti_title">Прекъсната връзка с Wi-Fi</string>
+    <string name="network_control">Контрол на трафика</string>
     <string name="network_dashboard_summary">Wi-Fi, мобилна мрежа, пренос на данни, точка за достъп</string>
     <string name="network_dashboard_title">Мрежа и интернет</string>
     <string name="network_detail">Детайли за мрежа %s</string>
@@ -2642,6 +2695,12 @@
     <string name="network_scorer_picker_none_preference">Няма</string>
     <string name="network_scorer_picker_title">Доставчик на услуги за оценка на мрежите</string>
     <string name="network_settings_title">Мрежови оператори</string>
+    <string name="network_speed_for_apps_close">Принуд. спиране</string>
+    <string name="network_speed_for_apps_close_app_dlg_msg">Да спре ли принуд. това прил?</string>
+    <string name="network_speed_for_apps_close_system_app_dlg_msg">Не могат да се спират принуд. системни прил.</string>
+    <string name="network_speed_for_apps_others">Друго</string>
+    <string name="network_speed_for_apps_title">Връзка</string>
+    <string name="network_speed_for_apps_total">Скорост на връзката</string>
     <string name="networks">Избор на оператора</string>
     <string name="networks_title">Мобилни мрежи</string>
     <string name="never">Изключено</string>
@@ -2658,6 +2717,7 @@
     <string name="nfc_how_it_works_got_it">Разбрах</string>
     <string name="nfc_how_it_works_title">Плащане на терминал</string>
     <string name="nfc_more_title">Още...</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Основно приложение за плащане</string>
     <string name="nfc_payment_default_not_set">Не е зададено</string>
     <string name="nfc_payment_favor_default">Винаги използвайте приложението по подразбиране</string>
@@ -2855,6 +2915,7 @@
     <string name="overlay_display_devices_title">Симулиране на алтерн. дисплеи</string>
     <string name="overlay_settings">Показв. върху други приложения</string>
     <string name="owner_info_settings_edit_text_hint">Напр. „Устройството с Android на Иван“.</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Няма</string>
     <string name="owner_info_settings_title">Подпис на заключен екран</string>
     <string name="owner_space">Основно работно място</string>
@@ -2928,8 +2989,10 @@
     <string name="permission_settings_title">Разрешения за приложения</string>
     <string name="permissions_label">Разрешения</string>
     <string name="permit_draw_overlay">Разрешаване на показв. върху други приложения</string>
+    <string name="permit_running_network">Фонови данни</string>
     <string name="permit_usage_access">Достъп до данни за ползването: Разрешаване</string>
     <string name="permit_write_settings">Разрешаване на промяна на сист. настройки</string>
+    <string name="person_hotpot">Мобилни точки на достъп</string>
     <string name="personal_data_section_title">Лични данни</string>
     <string name="personal_device_admin_title">Лично</string>
     <string name="personal_section_title">Личен</string>
@@ -2992,12 +3055,18 @@
     <string name="power_usage_summary_title">Батерия и производителност</string>
     <string name="power_user">Потребител</string>
     <string name="pre_installed_application">Преинсталирани приложения</string>
+    <string name="pref_bg_network_title">Връзка на заден план</string>
     <string name="pref_button_light">Подсветка на бутоните</string>
     <string name="pref_button_light_summary">Индикация на бутони Меню, %1$s, и Назад</string>
     <string name="pref_button_light_summary_sub">Начало</string>
     <string name="pref_edge_handgrip">Периферно управление</string>
+    <string name="pref_key_tethering_setting">Еднократен лимит за данни</string>
+    <string name="pref_key_tethering_title">Еднократен лимит за данни</string>
+    <string name="pref_manage_bg_network">Управление на приложения във фонов режим и тяхното свързване</string>
+    <string name="pref_new_installed_preconfig_title">Стандартни настройки за нови прил</string>
     <string name="pref_operational_key">Бутони за навигация</string>
     <string name="pref_title_lang_selection">Езикови предпочитания</string>
+    <string name="pref_title_update_notification">Показване на известия за трафика</string>
     <string name="pref_volume_launch_camera_summary">Натиснете бутона за намаляване на звука два пъти, за да стартирате камерата</string>
     <string name="pref_volume_launch_camera_title">Стартирай камерата</string>
     <string name="pref_volume_wake_summary">Натискането на бутоните за сила на звука събужда устройството</string>
@@ -3136,6 +3205,7 @@
     <string name="private_sms_recording_intro_header">Начертайте шаблон за отключване:</string>
     <string name="private_sms_reset_by_account">Влезте в Mi Профила си за нулиране на паролата</string>
     <string name="process_dex2oat_label">Оптимизиране на приложенията</string>
+    <string name="process_kernel_label">Android (ОС)</string>
     <string name="process_mediaserver_label">Медиен сървър</string>
     <string name="process_provider_in_use_description">Доставчикът %1$s се използва.</string>
     <string name="process_service_in_use_description">Услугата %1$s се използва</string>
@@ -3317,6 +3387,7 @@ Wi-Fi телефония: %3$s
     <string name="restore_default_apn_completed">Възстановяването на стандартните настройките за името на точката за достъп (APN) завърши.</string>
     <string name="restr_pin_enter_admin_pin">Въведете администраторския ПИН код</string>
     <string name="restrict_background_blacklisted">Данните на заден план са изключени</string>
+    <string name="restrict_bg_app">Ограничи</string>
     <string name="restrict_max_aspect_ratio_title">Тези приложения не работят добре в режим цял екран</string>
     <string name="restriction_bluetooth_config_summary">Разрешаване на промяна на сдвояванията и настройките на Bluetooth</string>
     <string name="restriction_location_enable_summary">Разрешаване на приложенията да използват информация за местоположението ви</string>
@@ -3351,6 +3422,7 @@ Wi-Fi телефония: %3$s
     <string name="roaming_warning_multiuser">"Разрешаването на роуминг на данни може да доведе до високи такси!
 
 Настройката засяга всички потребители на този телефон."</string>
+    <string name="root">Root достъп</string>
     <string name="rule_name">Име</string>
     <string name="running_frequency">Честота</string>
     <string name="running_process_item_removed_user_label">Премахнат потребител</string>
@@ -3980,6 +4052,7 @@ Wi-Fi телефония: %3$s
     <string name="sim_reenter_new">Въведете пак новия ПИН код</string>
     <string name="sim_select_card">Изберете SIM карта</string>
     <string name="sim_selection_required_pref">Изборът е задължителен</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM карти</string>
     <string name="sim_setup_wizard_title">SIM карти</string>
     <string name="sim_signal_strength">%1$d dBm, %2$d asu</string>
@@ -4283,6 +4356,7 @@ Wi-Fi телефония: %3$s
     <string name="suggestions_summary">+ %1$d</string>
     <string name="suggestions_title">Предложения</string>
     <string name="sum_carrier_select">Избиране на мрежов оператор</string>
+    <string name="summary_range_symbol_combination">от %1$s до %2$s</string>
     <string name="summary_range_verbal_combination">от %1$s до %2$s</string>
     <string name="supl_not_set">&lt;Не е зададен></string>
     <string name="support_account_picker_add_account">Добавяне на профил</string>
@@ -4373,10 +4447,18 @@ Wi-Fi телефония: %3$s
     <string name="tether_and_hotspot_title">Споделяне на връзката и пренос. точка за достъп</string>
     <string name="tether_auto_disable_summary">Спирайте автоматично горещата точка, когато няма свързани устройства</string>
     <string name="tether_auto_disable_title">Автоматично затваряне на гореща точка</string>
+    <string name="tether_custom_dialog_title">Лимит за мобилни данни</string>
     <string name="tether_data_usage_limit">Еднократен лимит за данни</string>
     <string name="tether_data_usage_limit_summary">Лимитът за данни ще бъде приложен следващия път, когато вашата точка за достъп е активна</string>
     <string name="tether_devices_management_title">Управление на устройствата</string>
     <string name="tether_devices_max_number">Лимит за свързани устройства</string>
+    <string name="tether_limit_dialog_title">Лимит за мобилни данни</string>
+    <string name="tether_limit_value_custom">По избор</string>
+    <string name="tether_over_limit_dialog_cancle_btn">Нулиране точка за достъп</string>
+    <string name="tether_over_limit_dialog_message">Вие достигнахте лимита за данни на преносимата точка за достъп.</string>
+    <string name="tether_over_limit_dialog_title">Предупреждение за използв. на данни</string>
+    <string name="tether_over_limit_warning_notify_message">Изключи преносимата точка за достъп.</string>
+    <string name="tether_over_limit_warning_notify_title">Достигнат лимит за данни на точка за достъп</string>
     <string name="tether_settings_disabled">Точката за достъп е изкл</string>
     <string name="tether_settings_disabled_on_data_saver">При включена Икономия на данни не можете да активирате функцията за тетъринг, нито да използвате преносими точки за достъп</string>
     <string name="tether_settings_summary_hotspot_off_tether_on">Тетърингът е включен</string>
@@ -4429,6 +4511,7 @@ Wi-Fi телефония: %3$s
     <string name="trackball_settings">Скролер</string>
     <string name="trackball_wake_title">Събуждане от Trackball</string>
     <string name="traffic_balance">Режим употреба на данни</string>
+    <string name="traffic_none">Няма</string>
     <string name="transition_animation_scale_title">Скала на преходната анимация</string>
     <string name="translation_contributors_title">Преводачи</string>
     <string name="trusted_credentials">Надеждни идент. данни</string>

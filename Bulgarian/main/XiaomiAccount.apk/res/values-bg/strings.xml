@@ -414,9 +414,9 @@
     <string name="find_device_activate_account">Активиране на профил</string>
     <string name="login_check_find_device">Получаване на оптимизация по сигурността…</string>
     <string name="unlock_help_notice">"Помощ:
-1 Ако си забравите паролата, отидете на id.mi.com, за да я смените.
-2· Ако не можете да отключите устройството, отидете на i.mi.com, за да изключите \"Намери устройство\"
-3· Вашият номер за отключване е: %s"</string>
+1. Ако забравите вашата парола, отидете на id.mi.com за да я нулирате.
+2. Ако не можете да нулирате вашата парола или някой друг е заключил устройството ви, отидете на i.mi.com за да го отключите.
+3 Вашият номер за отключване е: %s"</string>
     <string name="login_find_device_bind">Това устройство е свързано със съществуващо ID на MI профил (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s,присвоен мобилен номер:%s</string>
     <string name="find_device_locked_account_email" formatted="false">%s,присвоен имейл адрес:%s</string>
@@ -448,7 +448,7 @@
     <string name="mipay_identity">Проверка на самоличността</string>
     <string name="mipay_indentity_done">Потвърден</string>
     <string name="mipay_identitiy_no">Не е потвърден</string>
-    <string name="account_token_expired_title">Оторизацията е неуспешна</string>
+    <string name="account_token_expired_title">Грешка при удостоверяване</string>
     <string name="account_token_expired_msg">"Кодът за потвърждение е изтекъл, започнете отново или се отпишете от 
  Вашия профил ИД: %s"</string>
     <string name="bind_safe_phone_msg">Добавете вашия номер за да може да се впишете в Mi Профила си следващия път.</string>

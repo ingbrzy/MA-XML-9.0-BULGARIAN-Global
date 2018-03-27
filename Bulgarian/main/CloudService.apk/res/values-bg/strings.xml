@@ -59,6 +59,8 @@
     <string name="sync_dspt_provision_title">Mi Cloud</string>
     <string name="sync_dspt_provision_header">Синхрон</string>
     <string name="sync_dspt_provision">"Mi Cloud синхронизира снимките, SMS, бележки и др. между всичките ваши Mi устройства. Също така те са достъпни за вас от всеки браузър на "</string>
+    <string name="sync_dspt_provision2">i.mi.com</string>
+    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">"\".
 
 По всяко време можете да включите или изключите услугата от Настройки.
@@ -72,6 +74,8 @@
     <string name="sync_dspt_entrance_provision_skip">Прескочи тази стъпка</string>
     <string name="sync_dspt_entrance_provision_network">Това приложение се нуждае от достъп до интернет, за да работи нормално. Синхронизирането може да ви свърже с мобилни данни и да включи Wi-Fi.</string>
     <string name="find_device_dspt_provision">Ако загубите устройството си, можете да отидете на %s, за да го локализирате, заключите или нулирате. Функцията се управлява от Настройки.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_dspt_provision_3">"\" за да го намерите, заключите или нулирате.
 
 По всяко време можете да включите или изключите услугата от Настройки.\""</string>
@@ -93,9 +97,8 @@
 Тази услуга криптира и изпраща вашите идентификационни данни до Mi сървърите."</string>
     <string name="user_agreement_p5">"\"
 \""</string>
-    <string name="user_agreement_p6">"Използването на тази функция е предмет на "</string>
-    <string name="user_agreement_p7">Условията за ползване на Mi Cloud</string>
-    <string name="user_agreement_p8">.</string>
+    <string name="user_agreement_link">Условия за ползване на Mi Облак</string>
+    <string name="user_agreement_content">Използвайки функцията, вие се съгласявате с %s.</string>
     <string name="user_agreement_title">Условия за ползване на Mi Cloud</string>
     <string name="privacy_policy">Правила за поверителност</string>
     <string name="loading">Зарежда се…</string>
@@ -123,6 +126,7 @@
     <string name="find_device_error_server">Грешка на сървъра</string>
     <string name="find_device_success_title">Открий устройството</string>
     <string name="find_device_notice_p1">Посетете</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">\"за да намерите, заключите или нулирате вашето устройство дистанционно. Ако смените SIM картите си, трябва да бъде изпратен нов SMS за активиране.\"</string>
     <string name="i_know">ОК</string>
     <string name="find_device_disabled_title">\"Открий устройството\" е изключено</string>
@@ -171,7 +175,7 @@
     <string name="micloud_user_space_usage">Използвано</string>
     <string name="micloud_web_discription_01">Влезте на i.mi.com</string>
     <string name="micloud_web_discription_02">за съхраняване и достъп до вашите файлове отвсякъде</string>
-    <string name="micloud_web_discription_place_holder">Посетете %1$s</string>
+    <string name="micloud_web_discription_place_holder">Посетете %1$s от вашия компютър за да управлявате данните си.</string>
     <string name="micloud_full_influence_title">Когато вашият Mi Cloud е пълен…</string>
     <string name="micloud_warn_low_title">Свободното място е на свършване</string>
     <string name="micloud_warn_low_sum">Вашият Mi Cloud е на 90% пълен.</string>
@@ -362,9 +366,6 @@
     <string name="buy_more_space_b_class">\"Впишете се на mi.com/micloud, за да закупите още място за съхранение. Нуждаете се от китайска банкова карта, за да закупите допълнително място за съхранение.\"</string>
     <string name="buy_more_space_c_class">\"Тази функция изисква китайска банкова карта. За да закупите още място за съхранение, посетете mi.com/micloud.\"</string>
     <string name="micloud_member_buy_title">Потвърждаване на поръчка</string>
-    <string name="micloud_member_buy_content" formatted="false">"Валидни до %s-%s-%s
-
-%s Mi Кредити"</string>
     <string name="micloud_member_net_error_alert_title">Няма връзка с мрежата</string>
     <string name="micloud_member_net_error_alert_message">Нямате връзка с интернет.</string>
     <string name="micloud_member_pay_fail_toast">Плащането не може да се извърши</string>
@@ -480,6 +481,8 @@
     <string name="micloud_find_device_opened">Открий устройството е вкл.</string>
     <string name="micloud_find_device_open_fail">Открий устройството не може да се включи</string>
     <string name="micloud_find_device_opened_content">Открийте вашето устройство на %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
+    <string name="micloud_find_device_opened_content_url_int">www.mi.com/micloud</string>
     <string name="micloud_find_device_verify_fail">Не може да се активира повторно Намери устройство</string>
     <string name="micloud_find_device_close_fail">Не може да се изключи Намери устройство</string>
     <string name="micloud_find_device_finish">Готово</string>
@@ -559,6 +562,8 @@
     <string name="micloud_main_head_menu_state_close">Изкл</string>
     <string name="micloud_main_head_menu_state_unavailable">Не е налично</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Открий устройството не е налично във Второ работно място. Вие можете да използвате Основно работно място.</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
     <string name="ks_fingerprint_payment">Плащане с Пръстов отпечатък</string>
     <string name="ks_name_fido">FIDO</string>
     <string name="ks_name_alipay">IFAA</string>

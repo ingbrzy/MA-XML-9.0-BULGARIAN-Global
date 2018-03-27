@@ -4,8 +4,4 @@
         <item quantity="other">%d записани обаждания.</item>
         <item quantity="one">%d записано обаждане.</item>
     </plurals>
-    <plurals name="livetalk_left_minute">
-        <item quantity="other">%d минути остават</item>
-        <item quantity="one">%d минута остава</item>
-    </plurals>
 </resources>
