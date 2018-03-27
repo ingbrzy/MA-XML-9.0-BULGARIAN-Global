@@ -351,7 +351,6 @@ GIFs могат да бъдат добавени като потребителс
     <string name="choose_report_reason">Защо ще докладвате този видеоклип</string>
     <string name="input_memo_hint">/Въведете допълнителни причини (по избор)</string>
     <string name="network_dialog_checkbox_tip">Не показвай отново</string>
-    <string name="video_tag">\# %s #</string>
     <string name="remote_video_report_success">\"Благодарим ви за отзива.Ние ще го имаме предвид възможно най-скоро.</string>
     <string name="video_status_review">Чака одобрение</string>
     <string name="video_status_reject">Отхвърлено</string>
@@ -436,7 +435,6 @@ GIFs могат да бъдат добавени като потребителс
     <string name="video_publish_hint">Хубавото описание ще помогне в търсенето на вашето видео</string>
     <string name="video_publish_hint2">Описание</string>
     <string name="video_comment_limit">остават %1$s символа</string>
-    <string name="video_tag_search_lead">\#</string>
     <string name="video_data_consumption_dialog_title">Предупреждение за данни</string>
     <string name="video_data_consumption_dialog_message">Качването ще изисква %1$s мобилни данни</string>
     <string name="video_data_consumption_confirm">ОК</string>
@@ -566,7 +564,6 @@ GIFs могат да бъдат добавени като потребителс
     <string name="message_praise_comment">Харесайте този коментар</string>
     <string name="get_user_info_err">Не може да се получи информация за потребител</string>
     <string name="choose_report_comment_reason">Ще докладвате ли този коментар?</string>
-    <string name="add_one">+1</string>
     <string name="no_comment">Няма коментар</string>
     <string name="no_topic">Няма заглавия</string>
     <string name="no_message">No message</string>

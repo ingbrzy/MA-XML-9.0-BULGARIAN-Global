@@ -727,7 +727,6 @@
     <string name="notification_hidden_by_policy_text">Съдържанието е скрито чрез правило</string>
     <string name="notification_hidden_text">Скрито съдържание</string>
     <string name="notification_listener_binding_label">Слушател на известия</string>
-    <string name="notification_messaging_title_template">„%1$s“: %2$s</string>
     <string name="notification_ranker_binding_label">Услуга за класифициране на известията</string>
     <string name="notification_title">Грешка при влизането за %1$s</string>
     <string name="notification_work_profile_content_description">Служебен потребителски профил</string>
@@ -1381,6 +1380,5 @@
     <string name="zen_mode_feature_name">Не безпокойте</string>
     <string name="zen_mode_forever">Докато не изключите „Не безпокойте“</string>
     <string name="zen_mode_forever_dnd">Докато не изключите „Не безпокойте“</string>
-    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">До %1$s</string>
 </resources>

@@ -29,24 +29,10 @@
         <item>25 минути</item>
         <item>30 минути</item>
     </string-array>
-    <string-array name="snooze_duration_values">
-        <item>1</item>
-        <item>5</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>25</item>
-        <item>30</item>
-    </string-array>
     <string-array name="volume_button_setting_entries">
         <item>Няма</item>
         <item>Отлагане</item>
         <item>Изключване</item>
-    </string-array>
-    <string-array name="volume_button_setting_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
     <string-array name="alarm_in_furture">
         <item>Будилник след по-малко от минута</item>
