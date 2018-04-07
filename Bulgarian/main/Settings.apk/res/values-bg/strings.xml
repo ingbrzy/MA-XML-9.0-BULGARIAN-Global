@@ -4445,7 +4445,6 @@ Wi-Fi телефония: %3$s
     <string name="tether_devices_management_title">Управление на устройствата</string>
     <string name="tether_devices_max_number">Лимит за свързани устройства</string>
     <string name="tether_limit_dialog_title">Лимит за мобилни данни</string>
-    <string name="tether_limit_value_custom">По избор</string>
     <string name="tether_over_limit_dialog_cancle_btn">Нулиране точка за достъп</string>
     <string name="tether_over_limit_dialog_message">Вие достигнахте лимита за данни на преносимата точка за достъп.</string>
     <string name="tether_over_limit_dialog_title">Предупреждение за използв. на данни</string>
