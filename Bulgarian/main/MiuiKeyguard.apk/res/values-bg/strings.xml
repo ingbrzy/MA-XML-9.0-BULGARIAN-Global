@@ -151,7 +151,6 @@
     <string name="do_disclosure_with_name">Това устройство се управлява от %s</string>
     <string name="face_unlock_reenter_title">Запишете информацията за вашето лице отново.</string>
     <string name="face_unlock_reenter_content">Алгоритъмът за отключване с лице беше обновен. Чукнете, за да запишете информацията за вашето лице отново.</string>
-    <string name="digital_clock_dot">:</string>
     <string name="keyguard_left_view_lock_wallpaper">Сменящи се тапети</string>
     <string name="gxzw_try_more_again">Опитайте отново</string>
     <string name="gxzw_use_password">Използвайте паролата си за отключване</string>
