@@ -22,7 +22,9 @@
     <string name="find_device_noise_title">Аларма за Открий устройството</string>
     <string name="find_device_success_title">Намиране на устройството</string>
     <string name="find_device_notice_p1">Отиди на</string>
-    <string name="find_device_notice_p3">За откриване, заключване, или възстановяване на вашия телефон. Ако размените СИМ-картите, ще бъде изпратен SMS автоматично за реактивиране на услугата.</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
+    <string name="find_device_notice_p3">за локализация, заключване или възстановяване на вашето устройство.</string>
+    <string name="find_device_notice_sms_alert">Когато смените SIM картата е необходимо да бъде изпратено ново регистрационно SMS съобщение.</string>
     <string name="i_know">OK</string>
     <string name="unlock_error_network">Не може да се свърже с интернет</string>
     <string name="unlock_error_device_id">Не може да се получи ID на устройството.</string>
@@ -56,14 +58,14 @@
     <string name="login_failed">Не може да се влезе в прфила. %s.\"</string>
     <string name="change_find_device_status_failed">Не може да се отключи. %s.</string>
     <string name="unlock_help_title">Помощ за отключване:</string>
-    <string name="unlock_help">"\"Останете свързани към мрежата
-Бъдете сигурни, че сте сложили валидна СИМ-карта и вашето устройство не е свързано с неработеща Wi-Fi мрежа
+    <string name="unlock_help">"Останете свързан с мрежата.
+ Бъдете сигурен, че сте поставили работеща SIM карта (ако вашето устройство поддържа това) и сте свързани към валидна Wi-Fi мрежа.
 
 Забравена парола?
-Идете на  id.mi.com за нулиране на парола
+ Отидете на id.mi.com за нулиране на вашата парола.
 
 Други причини
-Регистрирайте се на i.mi.com и опитайте да отключите вашето устройство.\""</string>
+Впишете се в i.mi.com и отключете вашето устройство от там."</string>
     <string name="passport_vcode_prompt_long">Въведете код за проверка</string>
     <string name="passport_trust_device">Доверено утройство</string>
     <string name="passport_verify">Проверка</string>

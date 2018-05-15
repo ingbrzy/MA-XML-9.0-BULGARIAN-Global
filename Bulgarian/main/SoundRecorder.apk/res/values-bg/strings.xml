@@ -73,7 +73,7 @@
     <string name="pause">Пауза</string>
     <string name="back">Назад</string>
     <string name="menu">Меню</string>
-    <string name="toast_uninstall_fileexplorer">Не е инсталиран файлов мениджър</string>
+    <string name="toast_uninstall_fileexplorer">Файлов мениджър не е инсталиран</string>
     <string name="record_download">Изтегляне от Mi Cloud</string>
     <string name="record_download_msg">Записите могат да бъдат прослушани само след като изтеглянето им завърши.</string>
     <string name="record_download_msg_reload">Този запис не съществува</string>

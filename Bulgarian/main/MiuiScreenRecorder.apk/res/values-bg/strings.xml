@@ -13,8 +13,10 @@
     <string name="button_confirm">OК</string>
     <string name="button_goon_recorder">Поднови</string>
     <string name="cancel_edit">Отказ</string>
+    <string name="cannot_change_frames">Скоростта на кадъра може да се персонализира само при записване с фиксирана скорост.</string>
     <string name="cannot_change_parames">Не може да променяте параметрите, докато правите запис</string>
     <string name="cannot_record">Не може да се запише, моля опитайте по-късно.</string>
+    <string name="close_screen_record">Спрян запис</string>
     <string name="date_day" />
     <string name="date_month">/</string>
     <string name="date_year">/</string>
@@ -22,6 +24,8 @@
     <string name="description_title">Относно Запис на екрана</string>
     <string name="deselect_all">Отмаркирай всичко</string>
     <string name="error_open_file_failed_no_app_found">Няма приложение, което да отвори този файл</string>
+    <string name="fixed_frame_rate">Фиксирана скорост на кадър</string>
+    <string name="fixed_frame_rate_summary">Записването на видео с фиксирана скорост на кадъра ще подобри възпроизвеждането в социалните мрежи и ще удължи живота на батерията.</string>
     <string name="frames">Скорост на кадър</string>
     <string name="frames_summary">По-високата скорост на кадрите редуцира замазването при движение</string>
     <string name="frequently_click_toast">Един момент…</string>
@@ -33,6 +37,9 @@
     <string name="hint_volume_down">Намаляване</string>
     <string name="hint_volume_up">Увеличаване</string>
     <string name="home_title_none">Изберете елементи</string>
+    <string name="is_checked">Избрани</string>
+    <string name="is_go_home">Обратно към Запис на екрана</string>
+    <string name="is_go_home_summary">Отворете началната страница на Запис на екрана след като спрете да записвате</string>
     <string name="loopback_sound">Говорител</string>
     <string name="low_battery">Заредете батерията си, преди да започнете да записвате</string>
     <string name="low_battery_title">Слаба батерия</string>
@@ -58,6 +65,7 @@
     <string name="screen_record_option">Опции на запис</string>
     <string name="screen_record_params">Параметри на запис</string>
     <string name="select_all">Избиране на всички</string>
+    <string name="settings">Настройки</string>
     <string name="show_hard_key">Покажи бутони за навигация</string>
     <string name="show_hard_key_summary">Покажи запитване, преди натискане на бутоните Начало, Меню и Назад</string>
     <string name="show_screen_touch">Покажи жестове на докосване</string>
@@ -70,5 +78,8 @@
     <string name="stop_record_while_locking">Заключи екрана за край</string>
     <string name="stop_record_while_locking_summary">Спиране на записа и запазване на видеото, когато екранът е заключен</string>
     <string name="stop_recording">Спри записа</string>
+    <string name="storage_location">Хранилище</string>
+    <string name="storage_location_summary">Изберете вашите предпочитани опции за хранилище</string>
     <string name="timer_format">%s</string>
+    <string name="unchecked">Не е избрано</string>
 </resources>

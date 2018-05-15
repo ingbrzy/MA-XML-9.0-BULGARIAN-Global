@@ -24,6 +24,7 @@
     <string name="title_switch_file">Изтриване на файловете?</string>
     <string name="msg_switch_photo">Изтриване на снимките от Първо пространство, след като бъдат преместени?</string>
     <string name="msg_switch_file">Изтриване на файловете от Първо пространство, след като бъдат преместени?</string>
+    <string name="msg_switch_file_second">Изтриване на файловете от Второ работно място, след като бъдат преместени?</string>
     <string name="delete_src_photo">Изтриване на снимки</string>
     <string name="delete_src_file">Изтриване на файлове</string>
     <string name="retain_src_photo">Запази снимките</string>
@@ -58,6 +59,8 @@
     <string name="wating">Един момент…</string>
     <string name="Active">Активно</string>
     <string name="ok_button">OК</string>
+    <string name="remove_button">Премахни и рестартирай</string>
+    <string name="remove_button_time">Премахни и рестартирай (%dс)</string>
     <string name="cancel_button">Отказ</string>
     <string name="list_empty_text">Празно</string>
     <string name="list_empty_text_xspace">Инсталирайте WeChat/QQ/Weibo, клонирайте го и опитайте отново.</string>
@@ -65,6 +68,8 @@
     <string name="xspace_setting_label">Настройки за клонирани приложения</string>
     <string name="xspace_account">Профили за клонирани приложения</string>
     <string name="declare_dialog_title">За клонираните приложения</string>
+    <string name="stop_xspace_alert_title">Изтриване на профили в клонирани приложения</string>
+    <string name="stop_xspace_alert_content">Вие изтрихте всички клонирани приложения. Да се изтрият ли също така и профилите и данните? След като това бъде направено, вие можете да създадете клонирани приложения отново, когато е необходимо.</string>
     <string name="xspace_loading_msg">Зареждане на приложения…</string>
     <string name="xspace_header">Клонирани приложения</string>
     <string name="xspace_introduce">Препоръчани</string>
@@ -77,6 +82,7 @@
     <string name="xspace_install_failed">Не може да се създаде</string>
     <string name="xspace_uninstalling">Деинсталиране…</string>
     <string name="xspace_install_completed">Иконата е добавена на начален екран</string>
+    <string name="xspace_install_completed_global">Иконката е добавена към лаунчъра</string>
     <string name="xspace_uninstall_completed">Клонираните приложения бяха премахнати успешно.</string>
     <string name="xspace_uninstall_dialog_title">Деинсталиране на клонирани прил.</string>
     <string name="xspace_uninstall_dialog_content">Деинсталирането на клонираните приложения ще изтрие и данните им.</string>
@@ -175,6 +181,10 @@
     <string name="notification_from_second_user">Показване на известия от Второ работно място</string>
     <string name="radio_button_icon_switch_title">Използване на пряк път</string>
     <string name="radio_button_password_switch_title">Използване на парола</string>
+    <string name="reset_password_dialog_title">Не може да се скрие прекият път към Второ работно място</string>
+    <string name="reset_password_dialog_message">Вие използвате различни по тип пароли за Основно работно място и Второ работно място. Второ работно място използва същия тип пароли като Основно работно място за преките пътища, които ще се скриват.</string>
+    <string name="reset_password_dialog_positve_btn_title">Смени</string>
+    <string name="entrance_reopen_toast_msg">Показването на прекият път за Второ работно място е заради различни по тип пароли</string>
     <string name="settings_cross_notification_title">Известия</string>
     <string name="settings_cross_notification_summary">Получаване на известия от друго пространство</string>
     <string name="settings_switch_shortcut_summary">Покажи пряк път в Първо пространство</string>
@@ -270,6 +280,7 @@
     <string name="xspace_weixin_title">WeChat</string>
     <string name="weixin_pay">WeChat Pay</string>
     <string name="weixin_share_sign">Впишете се и споделете</string>
+    <string name="use_xiaoai_open">Събуждане чрез използване на гласов асистент</string>
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">Изпрати към Weibo</string>
     <string name="xspace_qq_title">QQ</string>
@@ -350,12 +361,12 @@
 Ако не актуализирате, клонираните приложения няма да работят правилно."</string>
     <string name="space_created_success">Второто работно място е успешно създадено</string>
     <string name="encrypt_space_delete_dialog_title">Внимание</string>
-    <string name="encrypt_space_delete_dialog_message">"You're about to update Android. After the update, Second space data will become incompatible. To avoid this, move all data to First space, delete Second space, and create it again."</string>
-    <string name="encrypt_space_delete_dialog_click_message">"*If you don't need to move data, %s"</string>
-    <string name="encrypt_space_delete_dialog_click_message_action">delete and create Second space now.</string>
+    <string name="encrypt_space_delete_dialog_message">Вие сте на път да актуализирате Android. След тази актуализация Вашето Второ работно място ще бъде несъвместимо. За да предотвратите това, преместете цялата информация в Основно работно място, изтрийте Второ работно място и го създайте отново.</string>
+    <string name="encrypt_space_delete_dialog_click_message">*Ако не е необходимо да се преместват данни, %s</string>
+    <string name="encrypt_space_delete_dialog_click_message_action">изтрийте и създайте отново Второ работно място.</string>
     <string name="encrypt_space_delete_dialog_positive_text">Премести данните</string>
     <string name="encrypt_space_delete_notification_title">Второ работно място</string>
-    <string name="encrypt_space_delete_notification_message">Delete your Second space and create a new one to update your device successfully.</string>
+    <string name="encrypt_space_delete_notification_message">Изтрийте вашето Второ работно място и създайте ново, за да актуализирате вашето устройство успешно.</string>
     <string name="space_create_guide_title_1">Защитете личните си данни</string>
     <string name="space_create_guide_desc_1">Запазвайте надеждно приложенията и снимките</string>
     <string name="space_create_guide_title_2">Създаване по всяко време</string>
@@ -376,4 +387,7 @@
     <string name="experience_more_features">Добавете устройство, за да видите всички функции</string>
     <string name="can_not_switch_when_green_kid_active">Превключването към Второ работно място е ограничено от Родителски контрол</string>
     <string name="need_network_when_bind">Свържете се с мрежата, преди да добавите устройства</string>
+    <string name="net_work_notice">Родителски контрол се нуждае от връзка с интернет и достъп до вашето местоположение, за да работи нормално. Тези разрешения са необходими за изпращане на информация за ниво на заряд на батерията, брой крачки и местоположение на контролираните устройства. Приемане?</string>
+    <string name="agree">Приемам</string>
+    <string name="disagree">Не приемам</string>
 </resources>

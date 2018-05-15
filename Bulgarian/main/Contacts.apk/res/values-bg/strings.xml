@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="accessibility_calllog_detail">Подробности</string>
     <string name="accessibility_contact_detail">Детайли за контакт</string>
     <string name="account_container_title">От профила</string>
-    <string name="account_default">Телефон</string>
-    <string name="account_phone">Само телефон, без синхронизация</string>
+    <string name="account_default">Локално</string>
+    <string name="account_phone">Само устройството, без синхронизация</string>
+    <string name="account_sdn">SDN</string>
+    <string name="account_sdn2">SDN %d</string>
     <string name="account_sim">Само на SIM карта</string>
     <string name="account_sim2">SIM карта %d</string>
     <string name="account_type_format">Контакт %1$s</string>
@@ -55,7 +58,7 @@
     <string name="button_join_service_number">Добави сервизен номер</string>
     <string name="button_my_center">Профил</string>
     <string name="button_scan">Сканирай</string>
-    <string name="caching_vcard_message">Кешира се визитка(и) във временно хранилище на телефона. Импортирането ще започне скоро...</string>
+    <string name="caching_vcard_message">Кешира се визитка в устройството…</string>
     <string name="caching_vcard_title">Кеширане</string>
     <string name="callAgain">Повторно набиране</string>
     <string name="callBack">Обратно повикване</string>
@@ -97,6 +100,7 @@
     <string name="call_sim_menu_title_suffix">(Основен)</string>
     <string name="call_telex">Набери телекс</string>
     <string name="call_tty_tdd">Набери TTY/TDD</string>
+    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="call_unit">CNY</string>
     <string name="call_work">Набери служебен</string>
     <string name="call_work_mobile">Набери сл. мобилен</string>
@@ -162,7 +166,7 @@
     <string name="chat_qq">Чат по QQ</string>
     <string name="chat_skype">Чат по Skype</string>
     <string name="chat_yahoo">Чат по Yahoo</string>
-    <string name="checkhint">Проверете на другият телефон</string>
+    <string name="checkhint">Проверете приемащото устройство</string>
     <string name="clearCallLogConfirmation">Списъкът с всички Ваши повиквания ще бъде изтрит.</string>
     <string name="clearCallLogConfirmation_title">Изчистване на списъка с повиквания</string>
     <string name="clearCallLogProgress_title">Изчистване на списъка с повиквания...</string>
@@ -187,7 +191,7 @@
     <string name="combined_title_and_miprofile_swaped_huge_mode">"%1$s
 %2$s"</string>
     <string name="composer_failed_to_get_database_infomation">Базата данни е недостъпна.</string>
-    <string name="composer_has_no_exportable_contact">Не са намерени контакти за експортиране. Възможно е експортирането на контакти от телефона да не се поддържа от доставчика ви на данни.</string>
+    <string name="composer_has_no_exportable_contact">Не са намерени контакти за експортиране. Възможно е експортирането на контакти от телефона да не се поддържа от доставчика Ви на данни.</string>
     <string name="composer_not_initialized">Редактора на визитки не стартира правилно.</string>
     <string name="confirm_delete_contact_all_call_logs">Да се изтрият ли списъците с повиквания?</string>
     <string name="confirm_delete_selected_all_call_logs">Сигурни ли сте, че искате да изтриете всички записи на избраните контакти?</string>
@@ -290,7 +294,7 @@
     <string name="deleteConfirmation_title">Изтрий</string>
     <string name="delete_call_log_message">Изтриване на списък с повиквания?</string>
     <string name="delete_call_log_selected_title">Ще премахнете ли избраните списъци с повиквания?</string>
-    <string name="delete_call_log_title">Изберете списък с повиквания</string>
+    <string name="delete_call_log_title">Изчисти списъка с обаждания</string>
     <string name="delete_contact_calllog_title">Ще изтриете ли списъка с повиквания за този котакт?</string>
     <string name="delete_dial_input">Изтрий</string>
     <string name="delete_duplicate">Обедини</string>
@@ -360,9 +364,9 @@
     <string name="device_import_progress_message">Импортиране...</string>
     <string name="device_import_progress_toast">%1$d контакти са импортирани</string>
     <string name="device_import_title">Импортиране</string>
-    <string name="device_list_title">изберете телефон</string>
+    <string name="device_list_title">Изберете устройство</string>
     <string name="device_other_guide">Поддържа ли другият телефон bluetooth?</string>
-    <string name="device_other_title">Импортиране от друг телефон</string>
+    <string name="device_other_title">Импортиране от друго устройство</string>
     <string name="device_paired_dialog_message">Устройствата са свързани (вероятно ще се наложи да потвърдите на другия телефон)...</string>
     <string name="device_paired_dialog_title">Устройствата са свързани</string>
     <string name="device_pairing_dialog_message">Устройствата се свързват (вероятно ще се наложи да потвърдите на другия телефон)...</string>
@@ -452,7 +456,7 @@
     <string name="export_to_sim2">Експортиране в SIM карта 2</string>
     <string name="export_to_sim_prepare_title">Preparing…</string>
     <string name="export_to_sim_title">Експортиране…</string>
-    <string name="export_vcard_description">Експортиране на визитка във вътрешната памет</string>
+    <string name="export_vcard_description">Експортиране на визитка в паметта на устройството</string>
     <string name="exporting_contact_failed_message">"Неуспешно експортиране на данни.
 Причина: \"%s\""</string>
     <string name="exporting_contact_failed_title">Неуспешно експортиране</string>
@@ -483,6 +487,7 @@
     <string name="force_touch_new_contact">Нов контакт</string>
     <string name="foundTooManyContacts">Открити са повече от %d.</string>
     <string name="frequentList">Често използвани</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Име</string>
     <string name="gallery">Галерия</string>
     <string name="generic_no_account_prompt">Запазете своите контакти в безопасност дори ако загубите телефона си: синхронизирайте ги с онлайн услуга.</string>
@@ -530,7 +535,7 @@
     <string name="import_contact_card_button">Импортиране</string>
     <string name="import_failure_no_vcard_file">Не са открити файлове с визитки в хранилището.</string>
     <string name="import_from_onekey_migrate">Импортиране с Трансфер</string>
-    <string name="import_from_other_phone">Импортиране от друг телефон</string>
+    <string name="import_from_other_device">Импортиране от друго устройство</string>
     <string name="import_from_sdcard">Импортиране от SD карта</string>
     <string name="import_from_sim">Импортиране от SIM карта</string>
     <string name="import_from_sim1">Импорт от SIM карта 1</string>
@@ -548,7 +553,7 @@
     <string name="import_to_xiaomi_account_progress_message">Прехвърляне…</string>
     <string name="import_to_xiaomi_account_progress_title">Прехвърляне на контакти в Mi профил</string>
     <string name="import_to_xiaomi_account_title">Искате ли да прехвърлите контактите към профила си в Mi?</string>
-    <string name="import_vcard_description">Импортиране на контакти от паметта на телефона</string>
+    <string name="import_vcard_description">Импортиране на контакти от паметта на устройството</string>
     <string name="import_vcard_dialog_message">Импортиране на vCard?</string>
     <string name="importing_sim_contacts_miui">Импортиране на контакти от SIM карта...</string>
     <string name="importing_sim_contacts_miui_prepare">Подготовка за импот…</string>
@@ -559,8 +564,9 @@
     <string name="insertGroupDescription">Създай група</string>
     <string name="invalidContactMessage">Контактът не съществува.</string>
     <string name="keep_local">Съхрани локално</string>
-    <string name="keep_local_btn">Съхрани само на телефона</string>
+    <string name="keep_local_btn">Използвай вътрешното хранилище на устройството</string>
     <string name="label_custom_type">Потребителски</string>
+    <string name="label_duplicate_count">(%1$d)</string>
     <string name="label_no_duplicate_contacts">Отлично! Няма дублиращи се контакти за момента!</string>
     <string name="label_notes">Забележки</string>
     <string name="label_sip_address">Интернет телефон (SIP)</string>
@@ -664,6 +670,7 @@
     <string name="miprofile_contact_header">Контакти с контактни карти</string>
     <string name="miprofile_contact_meaasge">Локални контакти</string>
     <string name="miprofile_contact_verifying">Проверка</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Редакция на профила</string>
     <string name="miprofile_error_accept_self">Не може да обмените вашата собствена контактна карта</string>
     <string name="miprofile_error_no_miaccount">Впишете се с вашия Mi профил</string>
@@ -757,10 +764,11 @@
     <string name="no_account_prompt">\"Контакти работят най-добре с Google профила ви. • Имате достъп до тях навсякъде. • Архивирате Вашите контакти сигурно.\"</string>
     <string name="no_contact_details">Няма допълнителна информация за този контакт.</string>
     <string name="no_contact_in_other_phone">Няма контакти на Вашия телефон</string>
-    <string name="no_contacts_dialog_message">Човекът не е намерен във Вашите контакти. Възможно е той да се намира в списъка с контакти на SIM картата. Моля, импортирайте всички контакти от SIM картата.</string>
+    <string name="no_contacts_dialog_message">Контактите вероятно са запазени в SIM картата. Моля, импортирайте всички контакти от SIM картата в паметта на устройството и опитайте отново.</string>
     <string name="no_contacts_dialog_title">Контактът не е открит</string>
     <string name="no_contacts_selected">Няма избрани контакти.</string>
     <string name="no_sdcard_message">Хранилището не е открито.</string>
+    <string name="no_setting_menu">Не са налични опции на менюто</string>
     <string name="non_phone_add_to_contacts">Добави в контакти</string>
     <string name="non_phone_caption">Телефонен номер</string>
     <string name="non_phone_close">Затвори</string>
@@ -786,7 +794,7 @@
     <string name="organizationLabelsGroup">Организация</string>
     <string name="organization_company_and_title">%1$s, %2$s</string>
     <string name="other_contacts">Други контакти</string>
-    <string name="other_phone">други телефони</string>
+    <string name="other_phone">Други устройства</string>
     <string name="path_batch_delete">Системни приложения/Контакти/Подреждане на контакти/Изтриване на група</string>
     <string name="path_contacts_display">Системни приложения/Контакти/Настройки за показване</string>
     <string name="path_contacts_more">Системни приложения/Контакти/Подреждане на контакти</string>
@@ -813,10 +821,13 @@
     <string name="path_wipe_data">Системни приложения/Контакти/Подреждане на контакти/Изчисти данните</string>
     <string name="payphone">Обществен телефон</string>
     <string name="people">Контакти</string>
+    <string name="percent_sign">%</string>
+    <string name="percentage">%s%%</string>
     <string name="phoneLabelsGroup">Телефон</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Номерът е твърде дълъг</string>
     <string name="phone_primary">Основен</string>
-    <string name="photoPickerNotFoundText">Няма изображения.</string>
+    <string name="photoPickerNotFoundText">Няма налични изображения в устройството.</string>
     <string name="photo_fragment">Снимка</string>
     <string name="photo_load_failed">Снимката не може да се зареди</string>
     <string name="pick_new_photo">Изберете нова снимка от %s</string>
@@ -849,6 +860,9 @@
     <string name="pref_key_photo_word_title">Автоматична снимка на контакт</string>
     <string name="pref_key_rebuild_t9_index_message">Актуализиране на търсенето на контакти</string>
     <string name="pref_key_rebuild_t9_index_title">Обновяване на Т9 индекса</string>
+    <string name="pref_key_sdn_manage">Виж SDN</string>
+    <string name="pref_key_sdn_manage1">Виж SDN карта 1</string>
+    <string name="pref_key_sdn_manage2">Виж SDN карта 2</string>
     <string name="pref_key_sim_manage">Управление на SIM карта</string>
     <string name="pref_key_sim_manage1">Управление на SIM карта 1</string>
     <string name="pref_key_sim_manage2">Управление на SIM карта 2</string>
@@ -878,7 +892,7 @@
     <string name="preference_key_trash_bin_title">Преглеждане на архивирани контакти, които са изтрити наскоро</string>
     <string name="preference_other">Друго</string>
     <string name="preference_others">Други</string>
-    <string name="preference_phone">Телефон</string>
+    <string name="preference_phone">Устройство</string>
     <string name="preference_phone_more_title">Разширени настройки на телефон</string>
     <string name="preference_remove_duplicate">Обединяване на дубликати</string>
     <string name="preference_show_yellowpage_tab_description">\"Жълти страници\" може да не работи правилно, когато тази услуга е изключена.</string>
@@ -968,6 +982,8 @@
     <string name="scan_qrcode_card_hint2" />
     <string name="scanning_sdcard_failed_message">Причина: %s.</string>
     <string name="scanning_sdcard_failed_title">Неуспешно сканиране на хранилището</string>
+    <string name="sdnContacts_empty">Няма SDN</string>
+    <string name="sdnContacts_emptyLoading">Зарежда се SDN…</string>
     <string name="searchHint">Търсене на контакти</string>
     <string name="search_batch_delete">Подреждане;Контакти</string>
     <string name="search_contacts_display">Контакти;Показване</string>
@@ -996,12 +1012,12 @@
     <string name="search_simple_mode">Показване;информация;снимка;Контакти</string>
     <string name="search_smart_group_title">Контакти;Показване</string>
     <string name="search_wipe_data">Подреждане;Контакти</string>
-    <string name="searching_vcard_message">Търсене на визитки в паметта…</string>
+    <string name="searching_vcard_message">Търсене на визитки в устройството…</string>
     <string name="select_all">Избери всички</string>
     <string name="select_all_exceed">Не избирайте повече от %1$d, не може да изберете всички</string>
     <string name="select_exceed">Не избирайте повече от %1$d</string>
     <string name="select_groups">Избери групи</string>
-    <string name="select_none">Нищо не е избрано, операцията е невалидна</string>
+    <string name="select_none">Няма избрани елементи</string>
     <string name="select_show_contacts">Показване на контакти</string>
     <string name="select_vcard_title">Избери файл с визитка</string>
     <string name="send_contact_shortcut_todesktop_success">На началния екран е създаден пряк път за контакта.</string>
@@ -1052,6 +1068,7 @@
     <string name="sim_unloaded">SIM-картата не е инсталирана</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Няма членове на групата</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">По фирма</string>
     <string name="smart_group_company_unavailable">Неизвестна фирма</string>
     <string name="smart_group_frequency_1">В рамките на месец</string>
@@ -1088,6 +1105,7 @@
     <string name="sms_work_pager">SMS: до сл. пейджър</string>
     <string name="social_widget_label">Контакт</string>
     <string name="social_widget_loading">Зареждане…</string>
+    <string name="special_code_security_exception">Не може да се завърши действието. Това не е вашето приложение за набиране по подразбиране.</string>
     <string name="splitConfirmation">Ще разделите ли контакта?</string>
     <string name="splitConfirmation_title">Този контакт ще бъде разделен на няколко контакта.</string>
     <string name="starredList">Любими</string>
@@ -1098,6 +1116,7 @@
     <string name="strequentList">Любими</string>
     <string name="success_message_import_from_account">Успешно импортиране</string>
     <string name="summary_kind_title">Инфо:</string>
+    <string name="sv">SV</string>
     <string name="t9_search_empty_create_contact">Нов контакт</string>
     <string name="t9_search_empty_edit_contact">Добави към контакти</string>
     <string name="t9_search_empty_send_sms">Изпрати съобщение</string>
@@ -1115,8 +1134,8 @@
     <string name="toast_copy_done">Копирането завърши успешно</string>
     <string name="toast_copying">Копиране, моля изчакайте...</string>
     <string name="toast_displaying_all_contacts">Показване на всички контакти</string>
-    <string name="toast_finish_delete_call_log">Списъкът с повиквания е изтрит</string>
-    <string name="toast_finish_delete_selected_call_log">Списъкът с повиквания е изтрит</string>
+    <string name="toast_finish_delete_call_log">Успешно почистено</string>
+    <string name="toast_finish_delete_selected_call_log">Успешно почистено</string>
     <string name="toast_for_failed_saving_nickname">Грешка при запазване на псевдоним!</string>
     <string name="toast_for_saving_nickname">Псевдонимът е запазен</string>
     <string name="toast_join_with_empty_contact">Именувайте контакта, преди обединяването му с друг.</string>
@@ -1183,6 +1202,7 @@
     <string name="voip_audio_description">Провеждане на VoIP обаждане</string>
     <string name="voip_video_description">Провеждане на VoIP видео обаждане</string>
     <string name="websiteLabelsGroup">Уеб сайт</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">Изчисти данни</string>
     <string name="yellowPageNavigationIconLabel">Директория</string>
     <string name="yellowPageNavigationLabel">Директория</string>

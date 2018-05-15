@@ -9,12 +9,12 @@
         <item quantity="one">Да се изтрие ли избраният %1$d тапет?</item>
     </plurals>
     <plurals name="editing_mode_title">
-        <item quantity="other">%1$d са избрани</item>
-        <item quantity="one">%1$d е избрано</item>
+        <item quantity="other">Избрани са %1$d елементи</item>
+        <item quantity="one">Избран е %1$d елемент</item>
     </plurals>
     <plurals name="scroll_tip_format_when_announce_accessibility">
-        <item quantity="other">страници %1$d, %2$d приложения</item>
-        <item quantity="one">страница %1$d, %2$d приложение</item>
+        <item quantity="other">Страници %1$d, %2$d приложения.</item>
+        <item quantity="one">Страница %1$d, %2$d приложение.</item>
     </plurals>
     <plurals name="uninstall_dialog_title_multi_format">
         <item quantity="other">Деинсталиране на %1$d приложения?</item>
@@ -25,7 +25,7 @@
         <item quantity="one">Не може да се деинсталира %1$d приложение</item>
     </plurals>
     <plurals name="uninstall_result_multi_succeeded">
-        <item quantity="other">%1$d прилож са деинсталирани</item>
-        <item quantity="one">%1$d прилож е деинсталирано</item>
+        <item quantity="other">Деинсталирани %1$d приложения</item>
+        <item quantity="one">Деинсталирано %1$d приложение</item>
     </plurals>
 </resources>

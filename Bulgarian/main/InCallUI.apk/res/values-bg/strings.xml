@@ -171,6 +171,9 @@
     <string name="close_camera_failed">Не може да се изключи камерата…</string>
     <string name="change_to_voice_tips_when_background">Отсрещният абонат е превключил на гласово повикване</string>
     <string name="video_crbt_title">%s видео тон за звънене</string>
+    <string name="crbt_second_hold_prompt">%s се задържа…</string>
+    <string name="crbt_second_hold_prompt_no_name">Предишното повикване е на задържане. …</string>
+    <string name="crbt_second_hold_prompt_conference">Конферентното обаждане е задържано…</string>
     <string name="call_button_tools_text">Опции</string>
     <string name="call_button_dialer_text">Клавиатура</string>
     <string name="call_button_mute_text">Заглуши</string>
@@ -192,4 +195,5 @@
     <string name="dialpad_seven">7</string>
     <string name="dialpad_eight">8</string>
     <string name="dialpad_nine">9</string>
+    <string name="prompt_no_volte_when_failed">VoLTE услугите не са достъпни.</string>
 </resources>

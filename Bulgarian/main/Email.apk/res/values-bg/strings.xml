@@ -222,6 +222,7 @@
     <string name="battery_saver">Икономия на батерията</string>
     <string name="battery_saver_keywords">икономия на батерията; енергия използвана от пощата</string>
     <string name="bcc">Bcc</string>
+    <string name="bcc_heading">"Препращане на: "</string>
     <string name="bill_center_setting">Настройки на сметките</string>
     <string name="bill_center_setting_head">Импортиране на информация от профила</string>
     <string name="bill_cycle_text">Цикъл на плащане</string>
@@ -242,6 +243,7 @@
     <string name="cancel_pop3_attchemt_downloading">Не може да отмените текущите изтегляния за прикачени файлове в POP3 профили</string>
     <string name="cant_move_or_change_labels">Не може да премествате елементи от много профили.</string>
     <string name="cc">Cc</string>
+    <string name="cc_attribution">Копие до %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Копие до: "</string>
     <string name="change_folders_selection_dialog_title">Промяна на папки</string>
@@ -259,6 +261,7 @@
     <string name="click_download_all_content">[Натиснете, за да изтеглите съдържание]</string>
     <string name="click_to_reload">Докоснете екрана, за да се обнови</string>
     <string name="collapse_recipient_details">Скриване на данни за получателя</string>
+    <string name="colon">:</string>
     <string name="compose">Съставяне на</string>
     <string name="compose_attachment_number_limit">Не може да добавите повече от 10 прикачени файлове</string>
     <string name="compose_paste_address_oob">Твърде много символи</string>
@@ -335,6 +338,8 @@
     <string name="date_heading">"Дата:  "</string>
     <string name="date_message_received">%1$s %2$s</string>
     <string name="date_message_received_today">"Днес, %1$s "</string>
+    <string name="debug_mode_preferencecategory">Настройване на изходният регистър</string>
+    <string name="debug_mode_settings">Настройки на режим Поправка</string>
     <string name="default_">ПО ПОДРАЗБИРАНЕ</string>
     <string name="default_setup">НАСТРОЙКИ ПО ПОДРАЗБИРАНЕ</string>
     <string name="default_signature">Изпратени от телефона</string>
@@ -430,6 +435,7 @@
     <string name="file_rar_not_support">Не могат да се отворят криптираните rar файлове</string>
     <string name="file_save_path_dialog_cancel">Разбрах</string>
     <string name="file_save_path_dialog_ok">Промени сега</string>
+    <string name="file_save_term">Условия на запис на файл</string>
     <string name="filtered_tag">" [%1$s]%2$s"</string>
     <string name="first_quick_default_reply">Натиснете бутона за изпращане на \"%s\" за всички участници в кореспонденцията</string>
     <string name="folder_list_display_all">Показване на всички папки</string>
@@ -438,6 +444,7 @@
     <string name="folder_removed">"Премахване от %1$s "</string>
     <string name="folder_shortcut_widget_label">Папка Електронна поща</string>
     <string name="folder_synchronization_mail_settings">Настройки за синхронизиране на папка</string>
+    <string name="forever">Винаги</string>
     <string name="forward">Препращане</string>
     <string name="forward_attachment">Препращане</string>
     <string name="forward_attribution">"---Препратено съобщение---&lt; br > от: %1$s  &lt; br > дата: %2$s  &lt; br > Тема: %3$s  &lt; br > в: %4$s  &lt; br >"</string>
@@ -466,6 +473,7 @@
     <string name="gmail_web_login_go">OK</string>
     <string name="gmail_web_login_required_message">Влезте в Gmail</string>
     <string name="header_category_account">Профили</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">Обратна връзка</string>
     <string name="header_label_general_preferences">Общи настройки</string>
     <string name="help_and_info">Помощ</string>
@@ -487,12 +495,14 @@
     <string name="invalid_recipient">"Адресът %s  е невалиден."</string>
     <string name="invalid_recipient_title">Получателят не съществува</string>
     <string name="kilobytes">"%s  КБ"</string>
+    <string name="label_notification_ticker" formatted="false">%s: %s</string>
     <string name="load_from_remote">Търсене на пощенска кутия на сървъра</string>
     <string name="load_more">Зареди още</string>
     <string name="loading_conversation">Зарежда се…</string>
     <string name="loading_conversations">Зарежда се…</string>
     <string name="loading_from_remote">Зарежда се…</string>
     <string name="local_search">Локално търсене</string>
+    <string name="log_save_path">Път на регистър</string>
     <string name="login">Вписване</string>
     <string name="login139">Вписване в China Mobile</string>
     <string name="login_failed_ticker">"%s  с неуспешно вписване."</string>
@@ -652,6 +662,9 @@
     <string name="oauth_login_usr_proxy">Влезте с прокси сървър</string>
     <string name="ok">OK</string>
     <string name="okay_action">OK</string>
+    <string name="one_day">1 ден</string>
+    <string name="one_month">1 месец</string>
+    <string name="one_week">1 седмица</string>
     <string name="open_calendar_and_contacts_permission">Позволете на Поща да получи достъп до контакти и информация за календара в Настройки</string>
     <string name="open_external_storage_and_calendar_permission">Позволете на Поща да има достъп до информация за хранилището и календара в настройките</string>
     <string name="open_external_storage_and_contacts_and_calendar_permission">Позволете на Поща да получи достъп до хранилището, контактите и календара в настройките</string>
@@ -677,6 +690,10 @@
     <string name="outbox_alert_select_operation">Избор на действие</string>
     <string name="outbox_alert_title_sent_failed">Не може да се изпрати писмото</string>
     <string name="outbox_no_mails">Празно</string>
+    <string name="output_all_log">Всички изходни регистъри</string>
+    <string name="output_db_summary">Относно изходящ път на вашата база данни</string>
+    <string name="output_db_title">Изходна база данни</string>
+    <string name="output_to_disk">Запиши лога във файл</string>
     <string name="over_due">Просрочени задължения</string>
     <string name="parase_setup_data">Получаване на данните…</string>
     <string name="parse_bill_discribe">Завеждане на сметки с кредитна карта…</string>
@@ -815,14 +832,16 @@
     <string name="recognize_hotel_other_money">%1$s други разходи</string>
     <string name="recognize_hotel_reverse_date">Регистрирай се преди %1$s:%2$s%3$s</string>
     <string name="recognize_hotel_room_type">Стая</string>
+    <string name="recognize_hotel_room_type_value">%1$s × %2$s</string>
     <string name="recognize_hotel_title">Резервиране на хотел</string>
     <string name="recognize_hotel_user_names">Гост</string>
+    <string name="recognize_hotel_user_names_value">%1$s+%2$s</string>
     <string name="recognize_setting_title">Настройки на пътуването</string>
     <string name="recognize_ticket_air_notification_content">Насладете се на вашия полет!</string>
     <string name="recognize_ticket_air_notification_title">Полет %3$s (%1$s/%2$s) ще бъде изведен за излитане скоро. Проверете пак информацията за вашия полет.</string>
     <string name="recognize_ticket_air_state_stopover">Престой</string>
     <string name="recognize_ticket_air_state_transfer">Прехвърляне</string>
-    <string name="recognize_ticket_air_user_name">Пътник: %1$s:</string>
+    <string name="recognize_ticket_air_user_name">Пътник: %1$s</string>
     <string name="recognize_ticket_title">Самолетни &amp; влакови билети</string>
     <string name="recognize_ticket_train_alter">Променени</string>
     <string name="recognize_ticket_train_depart_date">Тръгва в %3$s:%4$s на %1$s/%2$s</string>
@@ -847,6 +866,7 @@
     <string name="reply_attribution" formatted="false">"%s   %s  написа:"</string>
     <string name="report_phishing">Докладвай опит за банкова измама</string>
     <string name="report_spam">Съобщи за спам</string>
+    <string name="request_copy_db_to_disk">Поща иска да копирате вашата база данни във файл</string>
     <string name="request_entity_large">Файлът е прекалено голям</string>
     <string name="respond_inline">"   Отговорете докато сте на линия"</string>
     <string name="retry_login">Вписване отново</string>
@@ -873,6 +893,7 @@
     <string name="security_notification_content_unsupported_title">Изискванията за сигурност не могат да бъдат покрити</string>
     <string name="security_notification_content_update_title">Изисква актуализация на защитата</string>
     <string name="security_unsupported_ticker_fmt">Профила \"%s \" не може да се синхронизира поради изисквания за сигурност.</string>
+    <string name="see_more_content">Виж повече</string>
     <string name="select_attachment_type">Изберете прикачен файл</string>
     <string name="select_no_file">Няма избрани прикачени файлове</string>
     <string name="select_path">Избор на път</string>
@@ -917,6 +938,7 @@
     <string name="silent_ringtone">Без звук</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
+    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="smtp_password_error">Паролата за сървъра за изходяща поща е неправилна</string>
     <string name="sort_attachment">Сортиране по</string>
     <string name="storage">Хранилище</string>
@@ -946,6 +968,7 @@
     <string name="tablet">таблет</string>
     <string name="tap_to_configure">Докоснете, за да настроите.</string>
     <string name="tap_to_enable_sync">Докоснете, за да включите.</string>
+    <string name="three_day">3 дни</string>
     <string name="to">На</string>
     <string name="to_heading">"До: "</string>
     <string name="toast_bar_fail_synchronization">Не може да се свърже с мрежата</string>

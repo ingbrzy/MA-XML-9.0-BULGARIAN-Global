@@ -171,8 +171,8 @@
     <string name="memory_clear_result">%1$s почистени</string>
     <string name="mi_agenda">Събития в календара</string>
     <string name="mi_function">Пряк път</string>
-    <string name="month_day_format">DD/mm</string>
-    <string name="month_format_en">DD/mm</string>
+    <string name="month_day_format">dd/MM</string>
+    <string name="month_format_en">dd/MM</string>
     <string name="more_stock_infos">Повече информация</string>
     <string name="navigation_network_location_enable">Приемам</string>
     <string name="navigation_network_location_enable_later">Отказ</string>
@@ -199,6 +199,7 @@
     <string name="ola_trip">Повикване на такси</string>
     <string name="ola_trip_content">Изчисли цената на билета и се обади през Ola</string>
     <string name="ola_trip_content_detail">Изчисли средната цена и се обади през Ola.</string>
+    <string name="phone_check">Оптимизация</string>
     <string name="place_label">Чести места</string>
     <string name="record_name">Запис</string>
     <string name="record_parent">Записващо устройство</string>
@@ -259,6 +260,7 @@
     <string name="stock_change_rate_format">%.2f%%</string>
     <string name="stock_color_schema">Цветна тема</string>
     <string name="stock_list_empty_text">Вие нямате фирми, които следвате.</string>
+    <string name="stock_provider">Котировките на стоковия пазар са предоставени от Webull</string>
     <string name="stock_search_empty">Не са намерени стоки.</string>
     <string name="stock_title">Стоки</string>
     <string name="stock_title_schema">Показване на котировки</string>
@@ -266,7 +268,7 @@
     <string name="stock_web_lable">Стоки</string>
     <string name="time_just_now">Точно сега</string>
     <string name="time_month">ММ/дд</string>
-    <string name="time_year">ММ/дд/гггг</string>
+    <string name="time_year">dd/MM/yyyy</string>
     <string name="title_schema_code">Маркиран код</string>
     <string name="title_schema_title">Маркирано име</string>
     <string name="toast_function_add_not_allowed">Вие можете да добавите до 8 преки пътища</string>
@@ -301,8 +303,9 @@
     <string name="upgrade_now">Актуализирай</string>
     <string name="user_id">ID на потребител:%s</string>
     <string name="walk">Ходене</string>
+    <string name="webull_title">Webull</string>
     <string name="which_transport">Как обикновено получавате вашата дестинация?</string>
     <string name="year_month_day_all_format_en">MM/dd/yyyy HH:mm:ss</string>
-    <string name="year_month_day_format">DD/mm/yyyy</string>
+    <string name="year_month_day_format">dd/MM/yyyy</string>
     <string name="yesterday">Вчера</string>
 </resources>

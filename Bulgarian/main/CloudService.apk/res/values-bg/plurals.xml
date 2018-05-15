@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="sync_items_close">
-        <item quantity="other">%d са изключени</item>
-        <item quantity="one">%d е изключен</item>
-    </plurals>
     <plurals name="items_unsynced">
         <item quantity="other">Изчакващи синхронизиране: %d</item>
         <item quantity="one">Изчакващи синхронизиране: %d</item>
-    </plurals>
-    <plurals name="items_waiting_to_sync">
-        <item quantity="other">%d елементи чакат за синхронизиране</item>
-        <item quantity="one">%d елементи чакат за синхронизиране</item>
     </plurals>
     <plurals name="dirty_contacts_count">
         <item quantity="other">%d контакти</item>

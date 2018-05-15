@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="common_google_play_services_enable_button">Активиране</string>
+    <string name="common_google_play_services_enable_text">%1$s няма да работи, освен ако не активирате услугите за Google Play.</string>
+    <string name="common_google_play_services_enable_title">Активиране на услугите за Google Play</string>
+    <string name="common_google_play_services_install_button">Инсталиране</string>
+    <string name="common_google_play_services_install_text">%1$s няма да се изпълнява, тъй като услугите за Google Play не са инсталирани на устройството ви.</string>
+    <string name="common_google_play_services_install_title">Изтегляне на услугите за Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Грешка в услугите за Google Play</string>
     <string name="common_google_play_services_unknown_issue">%1$s има проблеми с услугите за Google Play. Моля, опитайте отново.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s няма да се изпълнява, тъй като услугите за Google Play не се поддържат от устройството ви.</string>
+    <string name="common_google_play_services_update_button">Актуализиране</string>
+    <string name="common_google_play_services_update_text">%1$s няма да се изпълнява, освен ако не актуализирате услугите за Google Play.</string>
+    <string name="common_google_play_services_update_title">Актуализиране на услугите за Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s няма да се изпълнява без услугите за Google Play. Понастоящем те се актуализират.</string>
+    <string name="common_google_play_services_wear_update_text">Необходима е нова версия на услугите за Google Play. Скоро тя ще се актуализира автоматично.</string>
+    <string name="common_open_on_phone">Отваряне на телефона</string>
+    <string name="common_signin_button_text">Вход</string>
+    <string name="common_signin_button_text_long">Вход с Google</string>
+    <string name="s1">Запазване на изображението</string>
+    <string name="s2">Да се разреши ли на рекламата да съхрани изображение в галерията със снимки?</string>
+    <string name="s3">Приемам</string>
+    <string name="s4">Отхвърлям</string>
+    <string name="s5">Създаване на събитие в календара</string>
+    <string name="s6">Да се разреши ли на рекламата да създаде събитие в календара?</string>
     <string name="abc_action_bar_home_description">Отидете в началната страница</string>
     <string name="abc_action_bar_up_description">Нагоре</string>
     <string name="abc_action_menu_overflow_description">Повече</string>
@@ -51,6 +73,8 @@
     <string name="actionbar_textselection_title">Избор на текст</string>
     <string name="actionbar_web_search">Търсене</string>
     <string name="ad_btn_default_text">Инсталиране</string>
+    <string name="ad_mark">Реклама</string>
+    <string name="ad_sponsored">Спонсорирани</string>
     <string name="adblock_force_updating_rules_toast">Актуализиране на блокирането на реклами</string>
     <string name="adblock_rules_not_updated_toast">Неуспешно актуализиране</string>
     <string name="adblock_rules_restore">Деблокирай</string>
@@ -88,6 +112,7 @@
     <string name="aqi_quality_index_moderate">Умерено</string>
     <string name="aqi_quality_index_pure">Отлично</string>
     <string name="aqi_quality_index_unhealthy">Вредно</string>
+    <string name="articles_updated">Актуализирани са %1$d артикули</string>
     <string name="autoSwithcingSearchEngineTips">Превключено на най-често използвана търсачка</string>
     <string name="autofill_keyboard_accessory_content_description">Достъпни са предположения</string>
     <string name="autofill_popup_content_description">Изскачащият прозорец за автом. попълване е показан</string>
@@ -135,11 +160,14 @@
     <string name="cancel">Отказ</string>
     <string name="cannot_download">Може да изтегляте само от адреси, които започват с \"http\" и \"https\".</string>
     <string name="card_setting_close_recommend">Получавайте препоръки</string>
+    <string name="channels_edit">Редактиране</string>
+    <string name="channels_finish">Готово</string>
     <string name="choosertitle_sharevia">Сподели чрез:</string>
     <string name="clear_history">Изчисти историята</string>
     <string name="clear_most_visited">Скорошна хронология</string>
     <string name="clear_search_history">Изчисти историята</string>
     <string name="clear_video_download">Изчисти видеото</string>
+    <string name="click_to_refresh">Последния път спряхте тук, докоснете за обновяване</string>
     <string name="clip_dialog_title">Ще отворите ли копирания URL адрес?</string>
     <string name="close_ads_choice_no">Разреши</string>
     <string name="close_ads_choice_yes">Блокирай</string>
@@ -169,6 +197,7 @@
     <string name="color_picker_dialog_title">Изберете цвят</string>
     <string name="color_picker_hue">Оттенък</string>
     <string name="color_picker_saturation">Наситеност</string>
+    <string name="color_picker_value">Стойност</string>
     <string name="comment_app_menu">Коментар</string>
     <string name="comment_description">Коментар</string>
     <string name="comment_hint">Коментар</string>
@@ -198,6 +227,7 @@
     <string name="contextmenu_webpage_snapshot">Запиши страницата</string>
     <string name="copy_to_clipboard_failure_message">Не може да се копира в клипборда.</string>
     <string name="copy_url">Копирай URL</string>
+    <string name="could_not_load_data">Не може да се зареди информация, обновете и опитайте отново</string>
     <string name="create_qr_code">QR код</string>
     <string name="current_version_pad">Таблет</string>
     <string name="current_version_pc">Настолна</string>
@@ -205,8 +235,9 @@
     <string name="custom_head_card_text">Винаги вярвай, че най-доброто предстои</string>
     <string name="custom_head_card_text_incognito">"Вие сте инкогнито!
 Посетените страници няма да са видими в историята."</string>
-    <string name="data_traffic_prompt_change">Използването на мобилен интернет за гледане на видео ще увеличи използваните от вас данни. Ако надвишите лимита за данни, вашият оператор може да ви таксува за това допълнително.</string>
-    <string name="data_traffic_prompt_message">Разглеждането на страници чрез мобилни данни ще увеличи използваните от вас данни. Ако надвишите предплатения си обем от данни, оператора може да ви таксува допълнително.</string>
+    <string name="data_error">Грешка в данните</string>
+    <string name="data_traffic_prompt_change">Използването на мобилни данни за гледане на видео ще увеличи използваните от вас мобилни данни. Ако надвишите лимита от данни на вашия абонамент, ще бъдете таксувани допълнително от оператора.</string>
+    <string name="data_traffic_prompt_message">Разглеждането на страници чрез мобилни данни ще увеличи използваните от вас данни. Ако надвишите предплатения си обем от данни, операторът може да ви таксува допълнително.</string>
     <string name="data_traffic_prompt_message_short">Използването на мобилни данни за стриймване на видео може да коства превишаване на лимита ви за данни.</string>
     <string name="data_traffic_prompt_title">Предупреждение за данни</string>
     <string name="date_picker_dialog_clear">Изчисти</string>
@@ -255,14 +286,14 @@
     <string name="download_dialog_file_length_nolength_txt">Изчисляване на размера на файла ...</string>
     <string name="download_failed">Неуспешно изтегляне</string>
     <string name="download_filter_all">Всички</string>
-    <string name="download_filter_apk">Приложение</string>
+    <string name="download_filter_apk">APK</string>
     <string name="download_filter_application">Приложения</string>
     <string name="download_filter_audio">Музика</string>
-    <string name="download_filter_image">Снимки</string>
+    <string name="download_filter_image">Изображения</string>
     <string name="download_filter_others">Други</string>
-    <string name="download_filter_text">Файлове</string>
+    <string name="download_filter_text">Документи</string>
     <string name="download_filter_video">Видео</string>
-    <string name="download_filter_zip">Архив</string>
+    <string name="download_filter_zip">ZIP</string>
     <string name="download_in_process">Изтегляне…</string>
     <string name="download_list_open_xl_ok">OK</string>
     <string name="download_memory_info_avai">свободни %s|</string>
@@ -366,10 +397,10 @@
     <string name="keep_queued_download">Запази</string>
     <string name="last_month">Последният месец</string>
     <string name="license_activity_title">Лицензи на система WebView</string>
-    <string name="load_more">Виж повече</string>
     <string name="loading_tips">Изтеглете надолу за опресняване</string>
     <string name="local_bookmarks">Mi</string>
     <string name="login_failed_toast">Неуспешно вписване, опреснете и опитайте отново</string>
+    <string name="long_press_edit">Дълго натискане за редактиране</string>
     <string name="low_memory_error">Няма достатъчно памет за завършване на операцията.</string>
     <string name="low_memory_toast">Не може да се използва браузъра поради малко памет</string>
     <string name="max_tabs_warning">Не могат да се отварят повече раздели</string>
@@ -387,7 +418,7 @@
     <string name="media_player_error_text_invalid_progressive_playback">Това видео не е валидно за стриймване до това устройство.</string>
     <string name="media_player_error_text_unknown">Видеото не може да се възпроизведе.</string>
     <string name="media_player_error_title">Не може да се възпроизведе видео</string>
-    <string name="media_player_loading_video">Зареждане на видео</string>
+    <string name="media_player_loading_video">Момент…</string>
     <string name="menu_addtodesk">На началния екран</string>
     <string name="menu_exit_nightmode">Изход</string>
     <string name="menu_hv_swap">Пейзажен режим</string>
@@ -395,7 +426,7 @@
     <string name="menu_preferences">Настройки</string>
     <string name="menu_theme_setting">Настройки на теми</string>
     <string name="menu_title_clear_all">Изчисти всички</string>
-    <string name="menu_title_open_file_management">Отвори Файлове</string>
+    <string name="menu_title_open_file_management">Отваряне на Файлов мениджър</string>
     <string name="menu_title_pause_all">Пауза на всички</string>
     <string name="menu_title_resume_all">Старт на всички</string>
     <string name="miui_autologin_bar_error">Не може да се влезе</string>
@@ -510,6 +541,7 @@
     <string name="month_picker_dialog_title">Задаване на месец</string>
     <string name="more_description">Меню</string>
     <string name="more_option">Още опции</string>
+    <string name="my_cahnnel">Моите канали</string>
     <string name="nav_bottom_bar_back">Назад</string>
     <string name="nav_bottom_bar_close_all">Затвори всички</string>
     <string name="nav_bottom_bar_new_tab">Нов раздел</string>
@@ -522,11 +554,16 @@
     <string name="navigationbar_rightbutton_actiontext_cancle">Отказ</string>
     <string name="navigationbar_rightbutton_actiontext_go">Отиди</string>
     <string name="navigationbar_rightbutton_actiontext_search">Търсене</string>
+    <string name="net_error">Грешка в мрежата</string>
     <string name="network_show_wifi_setting_tip_dialog_description">Намерена е Wi-Fi точка за достъп. Да опитам ли свързване?</string>
     <string name="network_show_wifi_setting_tip_dialog_title">Налични са Wi-Fi мрежи</string>
+    <string name="news_load_failed">Чукнете за да опитате отново</string>
+    <string name="news_loading">Зарежда се…</string>
     <string name="next_button_label">Следващо</string>
     <string name="no_app_open_document">Няма приложение, което поддържа това действие</string>
+    <string name="no_items">Няма повече елементи за показване, моля изберете друга категория.</string>
     <string name="no_matches">Няма съответствия</string>
+    <string name="no_network">Проверете връзката си и опитайте отново.</string>
     <string name="no_space_alert_cancel">По-късно</string>
     <string name="no_space_alert_clean">Освобождаване на място</string>
     <string name="no_space_alert_text">Недостатъчно място</string>
@@ -541,10 +578,10 @@
     <string name="onews__category_cricket">Крикет</string>
     <string name="onews__category_reddit">Reddit</string>
     <string name="open_app_confirm_message">Разрешаване на тази страница да отвори %s?</string>
-    <string name="open_file_explorer_failed">Файлове не може да се отвори</string>
-    <string name="open_private_folder">Освободете, за да видите скритите папки</string>
+    <string name="open_file_explorer_failed">Не може да се отвори Файлов мениджър</string>
     <string name="open_voice_permission">Позволете на Микрофон да се свърже с интернет</string>
     <string name="opening_file_error">Неуспешно отваряне на избрания файл.</string>
+    <string name="other_channel">Чукнете тук за добавяне на още канали.</string>
     <string name="page_info">Инф за страницата</string>
     <string name="page_info_address">Адрес:</string>
     <string name="page_info_view">Преглед на информацията</string>
@@ -589,6 +626,7 @@
     <string name="pref_content_night_read_mode">Включи нощен режим</string>
     <string name="pref_content_search_engine">Търсачка в адресната лента</string>
     <string name="pref_content_search_engine_summary">Избор на търсачка</string>
+    <string name="pref_develop_mode">Опции на програмиста</string>
     <string name="pref_enable_adblock_notification">Известия за блок. на реклами</string>
     <string name="pref_enable_news">Новини</string>
     <string name="pref_enable_novels">Книги</string>
@@ -660,12 +698,13 @@
     <string name="pref_ua_string">Потребителски агент</string>
     <string name="pref_version_info">Данни за версията</string>
     <string name="pref_volume_key_action">Скролиране чрез бутоните за звука</string>
-    <string name="private_browsing_warning">Услугата не се поддържа в тази версия на Android.</string>
+    <string name="private_browsing_warning">Функционалността не се поддържа в тази версия на Android.</string>
     <string name="profiler_error_toast">Профилът не може да стартира.</string>
     <string name="profiler_no_storage_toast">Не можем да стартираме профайлера, защото външното хранилище не е готово</string>
     <string name="profiler_started_toast">Профайлерът стартира</string>
     <string name="profiler_stopped_toast">Профайлерът приключи. Резултатите са в/ъв %1$s.</string>
     <string name="progress_dialog_setting_wallpaper">Тапетът се задава ...</string>
+    <string name="pull_to_refresh">Изтеглете надолу за обновяване</string>
     <string name="pull_to_refresh_pull_label">Дръпнете за опресняване…</string>
     <string name="pull_to_refresh_release_label">Отпуснете за опресняване</string>
     <string name="qr_code_title">QR код</string>
@@ -696,6 +735,11 @@
     <string name="readmode_recommend_message">Прочели сте всички глави от тази книга. Моля, изберете друга</string>
     <string name="readmode_refresh">Обнови</string>
     <string name="readmodelist_bookmarks_to_show">Списък за четене</string>
+    <string name="refresh">Опресни</string>
+    <string name="refresh_fail">Информацията не можа да се зареди</string>
+    <string name="refresh_success">Намерени са %1$d стоки, които може да харесате</string>
+    <string name="refreshing">Обновява се…</string>
+    <string name="release_to_refresh">Пуснете за да се опресни</string>
     <string name="remember_passwords_confirm_message">Изключването на функцията може да засегне използването.</string>
     <string name="remove_bookmark">Изтрий отметка</string>
     <string name="remove_bookmark_group">Изтрий група</string>
@@ -709,11 +753,6 @@
     <string name="retry_after_network_available">Няма връзка с мрежата</string>
     <string name="retry_download">Нов опит</string>
     <string name="return_to_homepage">Към началната страница</string>
-    <string name="rlv_last_refreshing_time">Актуализирано %1$s</string>
-    <string name="rlv_loading_more">Един момент…</string>
-    <string name="rlv_pull_to_refresh">Изтеглете надолу за обновяване</string>
-    <string name="rlv_refreshing">Обновява се…</string>
-    <string name="rlv_release_to_refresh">Пуснете за да се обнови</string>
     <string name="rlz_access_point">Y1</string>
     <string name="root_folder_lable">Няма</string>
     <string name="router_download_exist">Този файл вече съществува</string>
@@ -723,7 +762,7 @@
     <string name="same_folder_name_warning">Тази група вече съществува</string>
     <string name="save_button_text">Запази</string>
     <string name="save_dialog_title">Запази</string>
-    <string name="save_file">Запазени %s от файла</string>
+    <string name="save_file">Спести %s</string>
     <string name="save_file_already_exist_alert_message">Файл със същото име вече съществува, замяна сега?</string>
     <string name="save_file_already_exist_alert_title">Замяна на файла?</string>
     <string name="save_form_data_confirm_message">Изключването на функцията може да засегне използването.</string>
@@ -776,10 +815,6 @@
     <string name="sendstartpage">Начална страница</string>
     <string name="share_image_text">Вижте какво споделих! @MIUI</string>
     <string name="share_page_text">Вижте какво споделих: %1$s @MIUI| %2$s</string>
-    <string name="show_check_security_url_check_tip_dialog_description">Браузър трябва да се свърже с интернет, за да работи нормално. За да подобрите сигурността, получите още необходими препоръки и доставчици на услуги за времето, разрешете на Браузър да вземе уеб-адресите, които сте посещавали и достъп до вашето местоположение.</string>
-    <string name="show_check_security_url_check_tip_dialog_description_international">Браузър се нуждае от достъп до интернет, за да работи нормално. За да подобрите сигурността, получите още необходими препоръки и доставчици на услуги за времето, разрешете на Браузър да вземе уеб-адресите, които сте посещавали и достъп до вашето местоположение.</string>
-    <string name="show_security_tip_dialog_title">Условия на ползване</string>
-    <string name="show_weather_location_getter_tip_dialog_description">Браузър се нуждае от достъп до интернет, за да работи нормално. За да подобрите сигурността, получите още необходими препоръки и доставчици на услуги за времето, разрешете на Браузър да вземе уеб-адресите, които сте посещавали и достъп до вашето местоположение.</string>
     <string name="sign_in_to" formatted="false">Влизане в %s%s2\"</string>
     <string name="site_sort_des">Пренареди елементите</string>
     <string name="skip_button_label">Пропусни</string>
@@ -829,6 +864,7 @@
     <string name="time_picker_dialog_pm">PM</string>
     <string name="time_picker_dialog_second_subsecond_separator">.</string>
     <string name="time_picker_dialog_title">Задай час</string>
+    <string name="tip_drag">Дълго натискане за редактиране и влачене за подреждане.</string>
     <string name="title_bar_loading">Зареждане…</string>
     <string name="too_many_windows_dialog_message">Не може да отворите нов раздел, докато не затворите стария.</string>
     <string name="too_many_windows_dialog_title">Максимален брой отворени раздели</string>
@@ -838,7 +874,7 @@
     <string name="unsecurity_url_toast">Тази уеб страница е несигурна</string>
     <string name="up_to_loading_tips">Отпуснете за опресняване</string>
     <string name="update_no_network_toast">Няма връзка с мрежата</string>
-    <string name="updating_chrome">Актуализиране на Хром‧</string>
+    <string name="updating_chrome">Актуализиране на Хром…</string>
     <string name="uploads_disabled">Качването на файлове е забранено.</string>
     <string name="url_copy_done">URL адреса е копиран</string>
     <string name="url_find_on_page_result">Преглед в Браузър</string>
@@ -866,7 +902,7 @@
     <string name="version_check_button_no_network">Няма връзка с мрежата</string>
     <string name="version_check_button_resume_download">Продължи изтеглянето</string>
     <string name="version_check_button_update">Актуализирай</string>
-    <string name="version_check_failed">Неуспешна проверка за актуализации</string>
+    <string name="version_check_failed">Не може да се провери за актуализации</string>
     <string name="version_dialog_buttion_ok">ОК</string>
     <string name="version_dialog_buttion_update">Актуализирай</string>
     <string name="version_update_file_download_toast">Изтегля се</string>
@@ -938,4 +974,15 @@
     <string name="webview_find_on_page">Търси в страницата</string>
     <string name="webviewchromium_private_browsing_warning">Услугата не се поддържа в тази версия на Android.</string>
     <string name="week_picker_dialog_title">Задай седмица</string>
+    <string name="load_more">Виж повече</string>
+    <string name="open_private_folder">Освободете, за да видите скритите папки</string>
+    <string name="rlv_last_refreshing_time">Актуализирано %1$s</string>
+    <string name="rlv_loading_more">Един момент…</string>
+    <string name="rlv_pull_to_refresh">Изтеглете надолу за обновяване</string>
+    <string name="rlv_refreshing">Обновява се…</string>
+    <string name="rlv_release_to_refresh">Пуснете за да се обнови</string>
+    <string name="show_check_security_url_check_tip_dialog_description">Браузър трябва да се свърже с интернет, за да работи нормално. За да подобрите сигурността, получите още необходими препоръки и доставчици на услуги за времето, разрешете на Браузър да вземе уеб-адресите, които сте посещавали и достъп до вашето местоположение.</string>
+    <string name="show_check_security_url_check_tip_dialog_description_international">Браузър се нуждае от достъп до интернет, за да работи нормално. За да подобрите сигурността, получите още необходими препоръки и доставчици на услуги за времето, разрешете на Браузър да вземе уеб-адресите, които сте посещавали и достъп до вашето местоположение.</string>
+    <string name="show_security_tip_dialog_title">Условия на ползване</string>
+    <string name="show_weather_location_getter_tip_dialog_description">Браузър се нуждае от достъп до интернет, за да работи нормално. За да подобрите сигурността, получите още необходими препоръки и доставчици на услуги за времето, разрешете на Браузър да вземе уеб-адресите, които сте посещавали и достъп до вашето местоположение.</string>
 </resources>

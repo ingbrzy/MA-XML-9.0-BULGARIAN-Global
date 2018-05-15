@@ -33,7 +33,7 @@
     <string name="attach_sound">Аудио</string>
     <string name="attach_subject">Тема</string>
     <string name="attach_take_photo">Направи снимка</string>
-    <string name="attach_transaction">Изпрати пари</string>
+    <string name="attach_transaction">Прехвърляне на пари</string>
     <string name="attach_video">Видеоклипове</string>
     <string name="audio_download_failed">изтеглянето на записа е неуспешно</string>
     <string name="audio_message_expired">Това гласово съобщение е с изтекъл срок.</string>
@@ -152,7 +152,7 @@
     <string name="enter_edit_mode">Редактирай</string>
     <string name="error_code_label">Код за грешки:</string>
     <string name="error_state">Непоследователно състояние</string>
-    <string name="error_state_text">Кореспонденцията не съответства на получателите. Направете скриншот и изпратете съобщение за грешка чрез уебсайта http://go/droidanizer</string>
+    <string name="error_state_text">Състоянието на последователността на нишките е неправилно. Създайте доклад и го изпратете чрез http://go/droidanizer</string>
     <string name="error_timed_msg">Не може да се насрочи време преди настоящото</string>
     <string name="ex_type_guide">Информация</string>
     <string name="ex_type_mx">Mi Message</string>
@@ -168,7 +168,6 @@
     <string name="failed_to_resize_image">Изображението не е преоразмерено.</string>
     <string name="fake_cell_alert_hint">Изглежда това съобщение е изпратено от номер, различен от показания. Бъдете внимателни за съобщения, съдържащи добавена стойност.</string>
     <string name="fake_cell_checking_hint">Safety checking…</string>
-    <string name="fake_cell_detection_entry">Засечена е фалшива базова станция</string>
     <string name="fake_cell_safe_hint">Това съобщение е безопасно</string>
     <string name="fake_cell_timeout_hint">Неуспешна проверка на сигурността</string>
     <string name="favorite_at_time">Обозначени със звезда на %1s</string>
@@ -179,6 +178,7 @@
     <string name="file_size">Размер:</string>
     <string name="file_title">Име:</string>
     <string name="file_width_height">Размер:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ново съобщение</string>
     <string name="forward_from">Препратено от:</string>
     <string name="forward_prefix">От:</string>
@@ -527,6 +527,7 @@
     <string name="send_signature_confirm_dialog_title">Изпрати подпис</string>
     <string name="send_sms">Изпрати съобщение</string>
     <string name="send_to">До:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Изпратено в: %1s</string>
     <string name="sent_label">Изпратени:</string>
     <string name="service_message_not_found">Съобщението е изтекло или не е достъпно</string>
@@ -653,4 +654,5 @@
     <string name="wild_msg_title">Включи синхр. с облачна услуга</string>
     <string name="yes">OК</string>
     <string name="yesterday">Вчера</string>
+    <string name="fake_cell_detection_entry">Засечена е фалшива базова станция</string>
 </resources>

@@ -44,10 +44,11 @@
     <string name="cloud_app_no_network">Няма връзка с мрежата</string>
     <string name="button_delete">Изтрий</string>
     <string name="customization"><u>Персонализиране</u></string>
+    <string name="home_hint_global_launcher">Poco Начален екран</string>
     <string name="self_phone">Този телефон</string>
+    <string name="self_phone_home">Този телефон: %s</string>
     <string name="process_whole_recovery">Възстановяване \"%s\"</string>
     <string name="device_xiaomi">Mi Phone</string>
-    <string name="device_corrupt">Mi Телефон (данните са повредени)</string>
     <string name="size_unknown">Неизвестен размер</string>
     <string name="recovering">Възстановява се %s</string>
     <string name="start_recover">Възстанови %s</string>
@@ -69,7 +70,7 @@
     <string name="desktop_downloading">Изтегля се</string>
     <string name="desktop_installing">Инсталира се</string>
     <string name="desktop_wait_wifi">Изчаква</string>
-    <string name="desktop_failed">Неуспешно</string>
+    <string name="desktop_failed">Грешка</string>
     <string name="recover_from_micloud">Възстановяване от рез. копие в Mi Cloud</string>
     <string name="click_try_to_restore_again">Чукнете за нов опит</string>
     <string name="open_wifi">Включване на Wi-Fi</string>
@@ -132,6 +133,8 @@
     <string name="no_account">Не сте вписан в Mi Профил.</string>
     <string name="no_backup">Няма резервно копие в Mi Облак.</string>
     <string name="download_meta_failed">Не може да се заредят данни.</string>
+    <string name="home_restore_error">Неуспешно изтегляне на настройките на нач. екран</string>
+    <string name="get_device_id_error">Не може да се получи ID на устройството</string>
     <string name="download_home_data">Изтегляне на настройките на нач. екран…</string>
     <string name="restore_home_failed">Неуспешно изтегляне на настройките на нач. екран.</string>
     <string name="arrange_restore_order">Пренареждане на приложенията…</string>

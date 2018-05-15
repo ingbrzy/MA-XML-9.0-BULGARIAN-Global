@@ -60,6 +60,12 @@
         <item quantity="other">Изтриване на %d елементи?</item>
         <item quantity="one">Изтриване на %d елемент?</item>
     </plurals>
+    <plurals name="dialog_confirm_delete_downloads_message_with_file">
+        <item quantity="other">"Изтриване на %d елементи?
+Бележка: файловете ще бъдат изтрити и от това устройство."</item>
+        <item quantity="one">"Изтриване на %d елемент?
+Бележка: файлът ще бъде изтрит и от това устройство."</item>
+    </plurals>
     <plurals name="dialog_delete_descript">
         <item quantity="other">Изтриване на %d песни?</item>
         <item quantity="one">Изтриване на %d песен?</item>

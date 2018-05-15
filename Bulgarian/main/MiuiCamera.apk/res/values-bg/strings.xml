@@ -92,11 +92,11 @@
     <string name="pref_camera_coloreffect_entry_negative" />
     <string name="pref_camera_coloreffect_entry_posterize" />
     <string name="pref_camera_coloreffect_entry_aqua" />
-    <string name="pref_camera_ai_scene_title">AI Камера</string>
+    <string name="pref_camera_ai_scene_title">AI камера</string>
     <string name="pref_camera_front_ai_scene_entry_on">AI камера</string>
     <string name="pref_camera_front_ai_scene_entry_off">AI камера е изкл</string>
-    <string name="ai_scene_mode_use_hint_text">"Отворете режим Ai камера, определете вида на ефекта за вас 
- и оптимизирайте снимката на база тази сцена"</string>
+    <string name="ai_scene_mode_use_hint_text">"AI камера определя сцените автоматично
+ и оптимизира вашите снимки на базата на тази информация"</string>
     <string name="pref_camera_coloreffect_entry_none">Стандартно</string>
     <string name="pref_camera_coloreffect_entry_instagram_rise">Ломо</string>
     <string name="pref_camera_coloreffect_entry_instagram_clarendon">Цветен балон</string>
@@ -143,6 +143,9 @@
     <string name="portait_effect_entry_maze">Бъркотия</string>
     <string name="portait_effect_entry_cool">Мента</string>
     <string name="portait_effect_entry_blackwhite">Ч/Б</string>
+    <string name="portait_effect_entry_story">Разказ</string>
+    <string name="portait_effect_entry_riddle">Гатанка</string>
+    <string name="portait_effect_entry_movie">Филм</string>
     <string name="pref_camera_touchafaec_entry_off">Изкл.</string>
     <string name="pref_camera_touchafaec_entry_on">Вкл.</string>
     <string name="pref_camera_multilevel_entry_lowest">Най-ниско</string>
@@ -243,6 +246,7 @@
     <string name="pref_camera_video_duration_entry_120">Без ограничение</string>
     <string name="pref_camera_zsl_entry_off">Изкл.</string>
     <string name="pref_camera_zsl_entry_on">Вкл.</string>
+    <string name="pref_camera_facedetection_title">Разпознаване на лице</string>
     <string name="camera_facedetection_sub_option_hint">Експериментална услуга</string>
     <string name="pref_camera_hand_night_title">Нощен режим</string>
     <string name="camera_settings_label">Камера</string>
@@ -411,6 +415,7 @@
     <string name="pref_camera_zoom_mode_entry_tele">УВЕЛИЧЕНО</string>
     <string name="pref_camera_zoom_mode_entry_standard">СТАНДАРТЕН</string>
     <string name="pref_camera_zoom_mode_entry_high_pixel">НОЩЕН</string>
+    <string name="pref_camera_zoom_value_title">Зуум</string>
     <string name="pref_camera_portrait_mode_title">Режим Портрет</string>
     <string name="pref_camera_portrait_mode_entry_off">Режим Портрет е изключен</string>
     <string name="pref_camera_portrait_mode_entry_on">Режим Портрет е включен</string>
@@ -420,6 +425,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Ефект дълбочина</string>
     <string name="portrait_mode_use_hint">"Режим Портрет замъглява задния план, 
 и по този начин лицата на хората изпъкват ясно на преден план."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">Квадрат</string>
     <string name="simple_mode_button_text_square">Изключи Квадрат</string>
     <string name="face_beauty_smart">Смарт</string>
@@ -434,6 +440,7 @@
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средно</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Режими</string>
     <string name="button_front_camera_title">Направете селфи</string>
     <string name="button_normal_video_title">Запишете видео</string>
@@ -503,4 +510,6 @@
  ако завъртите вашия телефон"</string>
     <string name="text_ai_scene_selector_text_on">СИЛУЕТ</string>
     <string name="text_ai_scene_selector_text_off">КОНТРА-ЖУР</string>
+    <string name="pref_camera_asd_popup_title">Извести когато е необходима светкавица</string>
+    <string name="pref_video_captrue_ability_title">Снимка по време на запис</string>
 </resources>

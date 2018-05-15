@@ -27,6 +27,9 @@
     <string name="power_usage">Консумация на енергия</string>
     <string name="power_mode">Настройки на захранването</string>
     <string name="performance_category">Производителност</string>
+    <string name="pref_config_title">Оптимизиране на производителността</string>
+    <string name="app_preload_policies_title">AI презареждане</string>
+    <string name="app_preload_policies_summary">Използване на машинно обучение за да се предлагат най - използваните от вас приложения и тяхното съдържание предварително.</string>
     <string name="scenario_policies_warmcontrol">Контрол на температурата</string>
     <string name="warm_configure">Настройки за Контрол на температурата</string>
     <string name="important_warning">Предупреждение</string>
@@ -71,18 +74,18 @@
     <string name="update_profile_sucess">Успешно актуализиране от сървъра</string>
     <string name="update_profile_failture_not_connect_wifi">Не може да се актуализира. Свържете се към Wi-Fi и опитайте отново.</string>
     <string name="sucess">Готово</string>
-    <string name="failure">Неуспешно</string>
+    <string name="failure">Грешка</string>
     <string name="cloud_addr_info">Инф за Облака</string>
     <string name="lasttime_feature_cloud">Актуализирани услуги:</string>
     <string name="lasttime_applist_cloud">Актуализирани приложения:</string>
     <string name="base_info">Основна инф</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">Не може да се открият приложения</string>
-    <string name="power_consume_abnormal_night">Нетипична консумация в Нощен режим</string>
-    <string name="enable_sleep_mode">Включване на спящ режим за оптимизиране консумацията на батерията през нощта</string>
+    <string name="power_consume_abnormal_night">Има разход на батерията през нощта</string>
+    <string name="enable_sleep_mode">Включете режим Сън за да оптимизирате употребата на батерия през нощта</string>
     <string name="sleepmode_privacy_title">Спящ режим</string>
-    <string name="sleepmode_privacy_content">Тази услуга ще използва информация за вашето устройство и софтуер, която няма да бъде качена на сървърите ни</string>
-    <string name="sleepmode_privacy_link">Подробно за сигурност и поверителност</string>
-    <string name="sleepmode_disclaimer_cancel">Отмени</string>
+    <string name="sleepmode_privacy_content">Тази услуга ще използва информация за вашето устройство и софтуер, която няма да бъде качена на сървърите ни.</string>
+    <string name="sleepmode_privacy_link">Научете повече за нашата Политика на поверителност и сигурност</string>
+    <string name="sleepmode_disclaimer_cancel">Отказ</string>
     <string name="sleepmode_disclaimer_agree">Приемам</string>
 </resources>

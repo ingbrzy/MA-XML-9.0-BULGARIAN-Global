@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="folder_operations">
-        <item>Преименуване</item>
-        <item>Изтриване</item>
-    </string-array>
     <string-array name="attachment_chooser">
         <item>Камера</item>
         <item>Галерия</item>
-    </string-array>
-    <string-array name="note_sort_way">
-        <item>По дата на създаване</item>
-        <item>По дата на посл. промяна</item>
     </string-array>
     <string-array name="contact_entries">
         <item>Име</item>
@@ -25,11 +17,19 @@
         <item>Адрес</item>
         <item>Бележка</item>
     </string-array>
+    <string-array name="folder_operations">
+        <item>Преименуване</item>
+        <item>Изтриване</item>
+    </string-array>
     <string-array name="font_size_names">
         <item>Малък</item>
         <item>Среден</item>
         <item>Голям</item>
         <item>Огромен</item>
+    </string-array>
+    <string-array name="note_sort_way">
+        <item>По дата на създаване</item>
+        <item>По дата на посл. промяна</item>
     </string-array>
     <string-array name="welcome_notes_content">
         <item>\"Добре дошли в Бележки \"</item>

@@ -30,6 +30,7 @@
     <string name="direction_north_west">СЗ</string>
     <string name="direction_south_east">ЮИ</string>
     <string name="direction_south_west">ЮЗ</string>
+    <string name="unit_degree">Градуса</string>
     <string name="guide_toast">Възможни са смущения в магнитното поле. Моля, калибрирайте компаса чрез следното движение.</string>
     <string name="mobiledata_alert_dialog_title">Предупреждение за данни</string>
     <string name="mobiledata_alert_dialog_message">Да се свърже ли към интернет за калибриране на височината?</string>

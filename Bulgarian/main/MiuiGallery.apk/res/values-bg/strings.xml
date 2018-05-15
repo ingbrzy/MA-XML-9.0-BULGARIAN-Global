@@ -2,6 +2,7 @@
 <resources>
     <string name="accept">Приеми</string>
     <string name="accept_or_deny">%1$s сподели албума %2$s с вас.</string>
+    <string name="actionbar_overflow_item_desc">Още опции</string>
     <string name="add_automatically_alert_msg">Автоматично добавяне на снимките от \"%1$s\" към този албум?</string>
     <string name="add_automatically_alert_title">Авто-добавяне на снимките</string>
     <string name="add_secret_ensure_title">Скриване</string>
@@ -19,6 +20,7 @@
     <string name="add_to_secret_failed_with_reason">Не може да се добави в скрит албум. %1$s.</string>
     <string name="add_to_secret_successful">Добавено в скрит албум</string>
     <string name="add_to_share_album_not_delete">Не може да се изтрие снимка от албум споделени</string>
+    <string name="added_to_favorites">Добавено в любими</string>
     <string name="added_to_favorites_tip">Добавено към албум \"Любими\"</string>
     <string name="adding">Добавяне</string>
     <string name="adding_recipients">Добавяне на получатели...</string>
@@ -90,6 +92,7 @@
     <string name="app_name">Галерия</string>
     <string name="app_name_view_picture">Преглед на снимка</string>
     <string name="app_name_view_video">Прегледайте клиповете</string>
+    <string name="application_icon">Икона на приложение</string>
     <string name="apply">Приложи</string>
     <string name="assistant_page_label">Асистент</string>
     <string name="associate_face_album">Изберете албум</string>
@@ -109,11 +112,13 @@
     <string name="baby_album_needs_auto_backup_tip">Не може да изключите резервните копия за Бебе албуми</string>
     <string name="baby_album_new_photo_remind">Има нови снимки в бебе албума ви.</string>
     <string name="baby_album_setting_title">Данни за бебето</string>
+    <string name="baby_album_settings">Настройки на бебешки албум</string>
     <string name="baby_album_sharer_accept_dialog_msg">"%2$s на %1$s,
 %4$s на %3$s сподели албума %5$s с теб"</string>
     <string name="baby_album_sharer_recommand_face">Добавяне на съществуващи снимки на %1$s?</string>
     <string name="baby_album_sharers_page_title">Сподели с роднини</string>
     <string name="baby_birthday">Рожден ден</string>
+    <string name="baby_face_desc">Албум Бебе</string>
     <string name="baby_lock_wallpaper">Тапет на закл. екран</string>
     <string name="baby_lock_wallpaper_cancelled">Променено към стандартния тапет на закл. екран</string>
     <string name="baby_lock_wallpaper_save_settings_msg">Приложи текущите настройки?</string>
@@ -125,6 +130,7 @@
     <string name="baby_nick_name">Псевдоним</string>
     <string name="baby_sexy">Пол</string>
     <string name="baby_suffix">бебе</string>
+    <string name="back">Назад</string>
     <string name="backup_automatically_summary">Архивиране на снимки и видео от всички устройства в Mi Облак. Така можете удобно да преглеждате, сортирате, редактирате и споделяте снимки и видео на всички ваши устройства.</string>
     <string name="backup_automatically_title">Автоматично архивиране</string>
     <string name="backup_battery_low_desc">Може да продължите архивирането въпреки това</string>
@@ -223,6 +229,8 @@
     <string name="cleaner_stop_scan">Спири сканирането</string>
     <string name="click_download_gif">Чукнете, за да изтеглите GIF</string>
     <string name="click_top_right">Чукнете тази икона</string>
+    <string name="close">Затвори</string>
+    <string name="close_dialog_desc">Затворете диалоговия прозорец</string>
     <string name="cloud_camera_display_name">Снимки от камерата</string>
     <string name="cloud_guide_auto_backup_title">Изберете албуми за архивиране в MiCloud</string>
     <string name="cloud_guide_login_title">Архивирайте снимки и видео автоматично.</string>
@@ -245,6 +253,7 @@
     <string name="cloudfolder_contain_invalidate_char">"Името на папката не може да съдържа '%s'"</string>
     <string name="cloudfolder_name_cannot_empty">Въведете име на папката.</string>
     <string name="cloudfolder_name_reserved">Това име на папка е запазено.</string>
+    <string name="collage__talkback_effect">%d ефект</string>
     <string name="collage_choose">Избор</string>
     <string name="collage_margin_text">Събери</string>
     <string name="collage_mirror">Огледало</string>
@@ -282,6 +291,9 @@
     <string name="context_menu_add_contact">Добави към контакти</string>
     <string name="context_menu_copy">Копирай</string>
     <string name="context_menu_copy_notice">Копирано в буферната памет</string>
+    <string name="correct_photo_time">Коригирайте датата и часа на снимките</string>
+    <string name="correct_time_success">Коригирано успешно</string>
+    <string name="correct_time_tip">Коригиране на датата и часа…</string>
     <string name="create_baby_album">Създаване на бебешки албум</string>
     <string name="create_baby_album_dialog_msg">Създаване на албум за \"%s\"?</string>
     <string name="create_baby_album_later_toast">По-късно също може да създадете бебе албум от менюто горе вдясно</string>
@@ -295,6 +307,7 @@
     <string name="custom_select_title_quickly_share">Сподели</string>
     <string name="custom_select_title_select_all">Избери всички</string>
     <string name="custom_select_title_select_item">Избери елементи</string>
+    <string name="debugging_info">Информацията за отстраняване на грешки бе генерирана успешно. Докоснете OK, за да отворите папката.</string>
     <string name="debugging_tip">Генериране на данни за отстр. на грешки</string>
     <string name="default_relation_name">Нова група</string>
     <string name="define_by_user">Потр. настройка</string>
@@ -424,6 +437,7 @@
     <string name="exit_share_in_process">Изход от албум \"%s\"…</string>
     <string name="exit_share_successfully">Излязохте от %1$s</string>
     <string name="exit_video_play">Изход</string>
+    <string name="expand_desc">Още</string>
     <string name="expand_people">Повече лица</string>
     <string name="face_album_detecting_tip">Един момент…</string>
     <string name="face_album_empty">Празно</string>
@@ -443,12 +457,15 @@
     <string name="face_name_edit">Промени</string>
     <string name="face_name_input">Въведете име</string>
     <string name="face_recommend">Препоръки</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Операцията е неуспешна</string>
     <string name="fail_to_pick_email">Невалиден Имейл</string>
     <string name="fail_to_sync_album">Албумът не можа да се синхронизира. Проверете връзката си за данни и опитайте отново.</string>
     <string name="family_member_invitation_text">Друг член на семейството</string>
+    <string name="fancy_color_desc">Цветове</string>
     <string name="fast_share_auto_render">Разкраси</string>
     <string name="fast_share_auto_render_finish">Разкрасено</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Спомени</string>
     <string name="filter_bi_mono">Моно</string>
     <string name="filter_bi_pink">Розово</string>
@@ -462,6 +479,7 @@
     <string name="filter_bi_young">Млад</string>
     <string name="filter_category_film">Филм</string>
     <string name="filter_category_food">Храна</string>
+    <string name="filter_category_master">Майстор</string>
     <string name="filter_category_portrait">Портрет</string>
     <string name="filter_category_scene">Пейзаж</string>
     <string name="filter_film_blackwhite">Ч/Б</string>
@@ -480,15 +498,23 @@
     <string name="filter_food_latte">Мляко</string>
     <string name="filter_food_softdrink">Сода</string>
     <string name="filter_food_wholemeal">Ядки</string>
+    <string name="filter_master_hazy">Мъгливо</string>
+    <string name="filter_master_mellow">Мек</string>
+    <string name="filter_master_memoire">Спомени</string>
+    <string name="filter_master_rise">Възход</string>
+    <string name="filter_master_somber">Мрачен</string>
     <string name="filter_original">Няма</string>
     <string name="filter_people_fairytale">Деца</string>
     <string name="filter_people_heart">Настроения</string>
     <string name="filter_people_japanese">Свежо</string>
     <string name="filter_people_maze">Бъркотия</string>
     <string name="filter_people_mint">Минт</string>
+    <string name="filter_people_movie">Филм</string>
     <string name="filter_people_nature">Естествен</string>
     <string name="filter_people_pink">Руменина</string>
+    <string name="filter_people_riddle">Гатанка</string>
     <string name="filter_people_roman">Романтика</string>
+    <string name="filter_people_story">Разказ</string>
     <string name="filter_scene_city">Град</string>
     <string name="filter_scene_df">Мъгла</string>
     <string name="filter_scene_koizora">Обич</string>
@@ -501,12 +527,14 @@
     <string name="finish_fill_baby">Създаване</string>
     <string name="flash_off">Без светкавица</string>
     <string name="flash_on">Със светкавица</string>
+    <string name="free_view_desc">3D изглед</string>
     <string name="gallery_setting">Галерия</string>
     <string name="gallery_sync_disable_toast">Синхр. на Галерия е изкл.</string>
     <string name="get_album_info_in_process">Получаване на информация за споделен албум…</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">ГБ</string>
     <string name="grant_permission_go_and_set">Задай</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Галерия се нуждае от достъп до 
 %s
  за да работи нормално, чукнете \"Задай\" за да отидете в Разрешения."</string>
@@ -700,6 +728,7 @@
     <string name="people_mark_mode_title_no_mark_name">Изберете човек</string>
     <string name="people_page_label">Лице</string>
     <string name="people_page_unname">Неизвестно</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Домашни любимци</string>
     <string name="petabyteShort">ПБ</string>
     <string name="photo">Снимка</string>
@@ -745,6 +774,27 @@
     <string name="photo_editor_rotate">Завъртане</string>
     <string name="photo_editor_saving">Запазване</string>
     <string name="photo_editor_sticker">Стикери</string>
+    <string name="photo_editor_talkback_cancel">Отказ</string>
+    <string name="photo_editor_talkback_confirm">Потвърди</string>
+    <string name="photo_editor_talkback_crop_16_9">Шестнайсет към девет</string>
+    <string name="photo_editor_talkback_crop_1_1">Едно към едно</string>
+    <string name="photo_editor_talkback_crop_3_4">Три към четири</string>
+    <string name="photo_editor_talkback_crop_4_3">Четири към три</string>
+    <string name="photo_editor_talkback_crop_9_16">Девет към шестнайсет</string>
+    <string name="photo_editor_talkback_crop_free">Безплатни</string>
+    <string name="photo_editor_talkback_crop_mirror">Огледало</string>
+    <string name="photo_editor_talkback_crop_original">Оригинал</string>
+    <string name="photo_editor_talkback_crop_rotate">Завъртане</string>
+    <string name="photo_editor_talkback_doodle_arrow">Стрелка</string>
+    <string name="photo_editor_talkback_doodle_circular">Кръг</string>
+    <string name="photo_editor_talkback_doodle_line">Линия</string>
+    <string name="photo_editor_talkback_doodle_path">Четка</string>
+    <string name="photo_editor_talkback_doodle_rectangle">Правоъгълник</string>
+    <string name="photo_editor_talkback_effect">%d ефект</string>
+    <string name="photo_editor_talkback_eraser">Изтрий</string>
+    <string name="photo_editor_talkback_recently">Последно използвани</string>
+    <string name="photo_editor_talkback_redo">Възстанови</string>
+    <string name="photo_editor_talkback_undo">Отмени</string>
     <string name="photo_editor_text">Текст</string>
     <string name="photo_page_save_uri_image_fail">Неуспешно записване на снимката.</string>
     <string name="photo_page_save_uri_image_ok">Снимката е записана в папката на камерата.</string>
@@ -794,6 +844,8 @@
     <string name="picker_title_specify_format_one">Избор на %d снимка</string>
     <string name="picker_title_unlimit">Изберете снимка</string>
     <string name="places_album_empty_title">Снимките могат да бъдат сортирани по място на заснемане</string>
+    <string name="play_gif_desc">Възпроизвеждане на GIF</string>
+    <string name="play_video_desc">Възпроизвеждане на видео</string>
     <string name="preparing_data">Момент…</string>
     <string name="projection_cancel">Отказ</string>
     <string name="projection_checkbox_text">Запомняне на този дисплей</string>
@@ -819,6 +871,19 @@
     <string name="recovery_merge_or_rename">Обединяване на албуми</string>
     <string name="recovery_merge_or_rename_message">Има друг албум със същото име. Да ги обединя ли?</string>
     <string name="recovery_rename">Преименуване</string>
+    <string name="refocus_desc">Фокусиране отново</string>
+    <string name="refocus_discard_confirm_message">Запази промените?</string>
+    <string name="refocus_discard_negative_btn">Отхвърляне</string>
+    <string name="refocus_discard_positive_btn">Запази</string>
+    <string name="refocus_photo_not_support">Не може да се приложи замъгляване за тази снимка</string>
+    <string name="refocus_save_cancel">Отказ</string>
+    <string name="refocus_save_title">Избери формат</string>
+    <string name="refocus_save_to_photo">Запазване като изображение</string>
+    <string name="refocus_save_to_video">Запазване като видео</string>
+    <string name="refocus_saving">Записване…</string>
+    <string name="refocus_title">Замъглен</string>
+    <string name="refocus_type_static">Ниво на замъгляване</string>
+    <string name="refocus_type_video">Светлинен лъч</string>
     <string name="relation_text_empty_alert">Данни за роднинска връзка</string>
     <string name="relation_text_family">Член на семейството</string>
     <string name="relation_text_father">Баща</string>
@@ -905,6 +970,7 @@
     <string name="search_setting_title">Намерете снимки в Галерия</string>
     <string name="search_syncing">Синхронизират се данни, върнете се след малко</string>
     <string name="search_title_album">Албум</string>
+    <string name="search_title_app_screenshot">Приложение снимка на екрана</string>
     <string name="search_title_history">Хронология на търсенията</string>
     <string name="search_title_location">Местоположения</string>
     <string name="search_title_more">Повече</string>
@@ -913,6 +979,9 @@
     <string name="search_title_recommend">Препоръчвани</string>
     <string name="search_title_suggestion">Предложения</string>
     <string name="search_title_tag">Обекти</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Търсене на проектор…</string>
     <string name="secret_album_card_description">Най-доброто място за всички ваши малки тайни</string>
     <string name="secret_album_card_title">Изпробвайте скрития албум</string>
@@ -933,8 +1002,11 @@
     <string name="see_ignore_faces">Вижте хората, които игнорирахте</string>
     <string name="select_item_face">Снимки на %s</string>
     <string name="select_origin_tip">Оригинал (%s)</string>
+    <string name="send_file_beautify_failed">Споделянето е неуспешно</string>
     <string name="send_multiple_files_hint_format">Изпращане (%s)</string>
     <string name="send_public_url">Изпрати връзка към албума</string>
+    <string name="send_secret_file_failed">Споделянето е неуспешно</string>
+    <string name="send_secret_file_space_low">Няма достатъчно място</string>
     <string name="send_too_many_files_error">Не може да изпращате толкова много елементи (максимум %d елементи).</string>
     <string name="set_as_baby_lock_wallpaper">Задай за тапет на закл. екран</string>
     <string name="set_as_wallpaper_description">Това изображение е връзка, изтеглете оригинала?</string>
@@ -950,6 +1022,7 @@
     <string name="share">Сподели</string>
     <string name="share_album">Сподели албум</string>
     <string name="share_album_needs_auto_upload_tip">Не може да изключите архивирането за споделените албуми</string>
+    <string name="share_album_qr_code">QR код на албум</string>
     <string name="share_by_email_start">Споделяне на %1$s във фонов режим</string>
     <string name="share_by_email_successfully">Споделихте %1$s</string>
     <string name="share_public_url_text">Споделих албумът %1$s с вас. Разгледайте го на %2$s</string>
@@ -1135,7 +1208,9 @@
     <string name="video_not_exist">Видеото не съществува</string>
     <string name="view_by_gallery_tip">MIUI Галерия</string>
     <string name="view_face_album">Покажи албума</string>
+    <string name="view_more_face_desc">Покажи още хора</string>
     <string name="view_queuing_status">Проверка на статуса</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Добре дошли в Mi Cloud.</string>
     <string name="where_is_barcode">Къде е QR кода?</string>
     <string name="who_is_this">Кой е този?</string>

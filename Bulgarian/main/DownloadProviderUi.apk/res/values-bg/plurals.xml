@@ -4,6 +4,10 @@
         <item quantity="other">%d изтегляния ще бъдат изтрити.</item>
         <item quantity="one">%d изтегляне ще бъде изтрито.</item>
     </plurals>
+    <plurals name="dialog_confirm_delete_downloads_message">
+        <item quantity="other">Да се прекратят ли %d задачи?</item>
+        <item quantity="one">Да се прекрати ли %d задача?</item>
+    </plurals>
     <plurals name="download_info_count_deleted_tasks">
         <item quantity="other">%1$d изтегляния са премахнати</item>
         <item quantity="one">%1$d изтегляне е премахнато</item>

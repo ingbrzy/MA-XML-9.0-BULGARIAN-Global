@@ -197,6 +197,9 @@
     <string name="toast_only_wifi_download">Свържете се с Wi-Fi, за да изтеглите този елемент</string>
     <string name="total_speedup">Усилване на скоростта (Всичко)</string>
     <string name="version">Версия %s</string>
-    <string name="app_downloads">%sизтегляния</string>
-    <string name="dialog_confirm_delete_downloads_message">Да се изтрият ли избраните задачи?</string>
+    <string name="get_data_failed">Не може да се получи информация, изчакайте минута-две и опитайте отново.</string>
+    <string name="load_finish_hint">Това е всичко за сега.</string>
+    <string name="loading">Един момент…</string>
+    <string name="net_error">Свържете се с мрежата и опитайте отново</string>
+    <string name="rank_app_list">Най-изтегляни</string>
 </resources>

@@ -36,6 +36,14 @@
         <item quantity="other">%d приложения имат разрешение за автостартиране</item>
         <item quantity="one">%d приложение има разрешение за автостартиране</item>
     </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d приложения могат да се свържат с мрежата</item>
+        <item quantity="one">%d приложение може да се свърже с мрежата</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">%d приложения не могат да се свържат с мрежата</item>
+        <item quantity="one">%d приложение не може да се свърже с мрежата</item>
+    </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d устройства</item>
         <item quantity="one">%d устройство</item>
@@ -83,6 +91,10 @@
     <plurals name="enterprise_privacy_number_packages_lower_bound">
         <item quantity="other">Поне %d приложения</item>
         <item quantity="one">Поне %d приложение</item>
+    </plurals>
+    <plurals name="firewall_item_summary">
+        <item quantity="other">Ограничено свързване за %s прил</item>
+        <item quantity="one">Ограничено свързване за %s прил</item>
     </plurals>
     <plurals name="free_wifi_connected_count">
         <item quantity="other">%1$d свързани потребитеи</item>

@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"\"Представяме версия %1$s
  Делта актуализация: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Хранилището не е на разположение, проверете картата памет.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMБ</string>
     <string name="xiaomi_connect_download_manager_fail">Не може да се стартира изтегляне. Уверете се, че мениджър изтегляния работи нормално.</string>
     <string name="app_name">Резервно копие</string>
     <string name="local_app_name">Резервно копие</string>
@@ -191,7 +194,7 @@
     <string name="enable_encrypt_summery1">Трябва да се впишете в Mi профила си, за да получите достъп до шифровани резервни копия.</string>
     <string name="enable_encrypt_summery2">Вашите резервни копия ще се шифроват автоматично. Необходимо е да влезете в Mi профила си, за да получите достъп до шифровани резервни копия.</string>
     <string name="enable_encrypt_xiaomi_account">Това резервно копие е създадено от %1$s. За да го възстановите, изтрийте текущия профил и се впишете като %2$s.</string>
-    <string name="enable_encrypt_ok">ОК</string>
+    <string name="button_got_it">OK</string>
     <string name="no_encrypt_password">Няма парола</string>
     <string name="enable_encrypt_fail">Грешка в криптирането</string>
     <string name="read_encrypt_fail">Не може да се разчете шифрованото резервно копие</string>
@@ -222,6 +225,7 @@
     <string name="restore_backup">Възстанови</string>
     <string name="enable_encrypt_description">Кодиране</string>
     <string name="disable_encrypt_description">Не кодирай</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Един момент…</string>
     <string name="state_mounting">Достъп до хранилището на рутера…</string>
     <string name="abort_backup_confirm">Резервното копие не е завършено! Да спре ли въпреки това?</string>
@@ -244,6 +248,10 @@
     <string name="err_router_disconnected">Проверете връзката с рутера и опитайте отново.</string>
     <string name="err_router_files_delete">Файловете с рез. копия на рутера не могат да се изтрият</string>
     <string name="err_not_allow">Не се поддържа</string>
+    <string name="err_bakfile_not_exist">Файлът с архив не съществува.</string>
+    <string name="err_pkg_not_exist">Не може да се открият приложения.</string>
+    <string name="err_user_abort">Отменено от потребителя.</string>
+    <string name="err_binder_died">Приложението спря неочаквано.</string>
     <string name="backup_is_running">Рез. копие на устройството</string>
     <string name="restore_is_running">Възстановяване на устройството</string>
     <string name="notif_backup_title">Архив на данни</string>
@@ -280,7 +288,7 @@
     <string name="trans_receiver_time_remained">"Остават %s.
 Не изключвайте Wi-Fi Hotspot.
 Дръжте устройствата на близко разстояние."</string>
-    <string name="trans_time_spent">\" Изтекло време: %s\"</string>
+    <string name="trans_time_spent">Изтекло време: %s</string>
     <string name="trans_restoring_no_items">Синхр. елементи</string>
     <string name="trans_detail_category_sysdata">Системна информация (включително съобщения, контакти и история на обаждания)</string>
     <string name="trans_detail_category_userdata">Приложения</string>
@@ -350,17 +358,25 @@
 След това натиснете \"Свържи отново\" за да създадете QR код."</string>
     <string name="trans_operate_reconnect_old_tips">"Изчакайте, докато на новия телефон се покаже \"Връзката е прекъсната\" 
 След това натиснете \"Свържи отново\" за да сканирате QR кода."</string>
+    <string name="trans_generating_qrcode">Генериране на QR код …</string>
+    <string name="trans_generate_qrcode_failed">Не може да се генерира QR код. Опитайте отново.</string>
     <string name="trans_wait_trans_data">\"Свързано към старото устройство. В очакване за трансфер…\"</string>
     <string name="trans_select_data">Избор на елементи за изпращане</string>
     <string name="trans_select_data_tips">\"Изберете елементи за трансфер Подобните файлове на новото устройство ще бъдат презаписани\"</string>
-    <string name="trans_select_data_no_space">\"%s налични на новото устройство Изберете файлове отново или освободете място\"</string>
+    <string name="trans_select_data_no_space">"Няма достатъчно място на новото устройство (%s са достъпни).
+Освободете място в хранилището за да прехвърлите само важните неща."</string>
     <string name="trans_select_data_too_large">"Избрали сте твърде много елементи за прехвърляне.
  Изберете само важните за вас неща за да направите прехвърлянето по-бързо."</string>
     <string name="trans_calculating_base_size">Изчислен размер на данни</string>
     <string name="trans_calculating">Изчислява се…</string>
-    <string name="trans_native_no_space">\"Недостатъчно място на това устройство. Почистете поне %s.\"</string>
+    <string name="trans_native_no_space">"Няма достатъчно място на старото устройство (%s са достъпни).
+Освободете място в хранилището за да прехвърлите само важните неща."</string>
     <string name="trans_calculating_app_sd_size">Изчислен размер: %s</string>
     <string name="trans_please_waiting">Един момент…</string>
+    <string name="trans_old_phone_low_space_title">Няма достатъчно място</string>
+    <string name="trans_old_phone_low_space_msg">Mi Трансфер се нуждае от повече място за пакетите с прехвърляна информация. Изглежда, че на старото устройство няма достатъчно свободно място. Освободете необходимото в \"Оптимизация\" или прехвърляйте само важните неща.</string>
+    <string name="button_clean_garbage">Освободи място</string>
+    <string name="button_quit">Изход</string>
     <string name="size_byte">Б</string>
     <string name="size_kilo_byte">КБ</string>
     <string name="size_mega_byte">МБ</string>
@@ -415,6 +431,7 @@
     <string name="trans_disconnected_tips_title">Отдалеченото устройство е разкачено</string>
     <string name="trans_disconnected_tips_message">Отдалеченото устройство е разкачено. Свържете се отново ръчно или отменете прехвърлянето.</string>
     <string name="trans_button_cancel">Отказ</string>
+    <string name="trans_failed_details_page_title">Неуспешни прехвърляния</string>
     <string name="close_twice_auth_tutor">Изключете Apple двустепенна оторизация</string>
     <string name="close_twice_auth_steps">Следвайте тези стъпки за да изключите двустепенната оторизация на Apple ID:</string>
     <string name="close_twice_auth_step_1">1. Отворете който и да е интернет браузър на компютъра и посетете appleid.apple.com.</string>
@@ -481,6 +498,7 @@ https://appleid.apple.com/#!&amp;page=signin за затваряне"</string>
 вие трябва да направите архив в iCloud."</string>
     <string name="list_footer_tip_title">Съвети:</string>
     <string name="import_tip_summary">Поради проблеми със съвместимостта, вие можете да прехвърлите само частична информация от iOS устройството. Уверете се, че сте направили резервно копие в iCloud, преди да започнете прехвърлянето.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Импортирай</string>
     <string name="select_empty">Изберете елементи за импортиране</string>
     <string name="select_item_summary_wait">Изчаква се…</string>

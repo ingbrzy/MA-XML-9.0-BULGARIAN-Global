@@ -15,6 +15,7 @@
     <string name="sim_card_detection_info">Нуждаете се от SIM карта, за да настроите Mi профила.</string>
     <string name="sim_card_detecting">Проверява се за SIM карта…</string>
     <string name="sim_card_detecting_check">Няма открита SIM карта. Уверете се, че SIM картата е правилно поставена и имате достатъчно средства по сметката си.</string>
+    <string name="sim_card_detecting_confirm_turn_on_network">Ще разрешите ли връзката към мрежи за мобилни данни? Ако го направите, SIM картата, която сте поставили, ще бъде използвана за връзка с мобилни данни.</string>
     <string name="other_settings">Допълнителни настройки</string>
     <string name="other_settings_location">Местоположение</string>
     <string name="other_settings_location_summary">Позволява приложенията да определят точното ви местоположение</string>

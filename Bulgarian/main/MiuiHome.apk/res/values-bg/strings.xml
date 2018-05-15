@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Добави в работно място</string>
     <string name="activity_not_found">Приложението не е инсталирано на телефона Ви.</string>
     <string name="add_screen">Добави бутон за екрани</string>
@@ -62,7 +63,7 @@
     <string name="buffering">Буфериране...</string>
     <string name="cancel_action">Отмяна</string>
     <string name="cancel_btn_label">Отмени</string>
-    <string name="cant_edit_lock_screen">Не може да се промени типа на закл. на екрана.</string>
+    <string name="cant_edit_lock_screen">Не може да се промени типа на закл. на екрана</string>
     <string name="cant_remove_folder">Не можете да изтривате папки, които не са празни</string>
     <string name="cant_remove_retained_app">Не може да деинсталирате персонализирани прилoжения</string>
     <string name="cant_remove_system_app">Системни приложения не може да се деинсталират</string>
@@ -85,7 +86,7 @@
     <string name="default_folder_title_claro">Claro</string>
     <string name="default_folder_title_game">Игри</string>
     <string name="default_folder_title_microsoft">Microsoft</string>
-    <string name="default_folder_title_recommend">Препоръчителни</string>
+    <string name="default_folder_title_recommend">Още приложения</string>
     <string name="default_folder_title_security">Безопасност</string>
     <string name="default_folder_title_telcel">Telcel</string>
     <string name="default_folder_title_tools">Инструменти</string>
@@ -107,7 +108,7 @@
     <string name="edit_mode_uninstall">Деинсталиране</string>
     <string name="editing_add_widget_tips">Редактиране на джаджи</string>
     <string name="editing_mode_enter_tip_text">Щипнете за редактиране на началния екран</string>
-    <string name="editing_mode_title_empty">Изберете елементи</string>
+    <string name="editing_mode_title_empty">Няма избрани елементи</string>
     <string name="editing_set_screen_layout_cells">Избиране на ефект за преход м/у екраните</string>
     <string name="editing_set_transition_effect_tips">Избиране на ефект за преход м/у екраните</string>
     <string name="editing_set_wallpaper_tips">Избиране на тапет</string>
@@ -117,7 +118,7 @@
     <string name="encryption">Кодиране</string>
     <string name="failed_to_delete_temporary">Изтриването неуспeшно. Моля, опитайте отново.</string>
     <string name="failed_to_drop">Неуспешно преместване!</string>
-    <string name="failed_to_drop_widget_invalid">Невалидна джаджа</string>
+    <string name="failed_to_drop_widget_invalid">Тази джаджа е невалидна</string>
     <string name="failed_to_load_image">Изображението не може да се зареди</string>
     <string name="folder_name">Папка</string>
     <string name="frame_load_failed">Зареждането на фоторамката не успя!</string>
@@ -132,9 +133,9 @@
     <string name="free_style_edit_tab_free_component">Свободни компоненти</string>
     <string name="free_style_edit_tab_shortcut">Преки пътища</string>
     <string name="free_style_edit_tab_widget">Джаджи</string>
-    <string name="free_style_enter_tip">Плъзнете надолу с два пръста за да преминете към MiSpace</string>
+    <string name="free_style_enter_tip">Плъзнете надолу с два пръста за да преминете към Mi Space</string>
     <string name="free_style_exit_tip">Плъзнете нагоре с два пръста за изход от MiSpace</string>
-    <string name="free_style_londing_text">Зареждане, изчакайте...</string>
+    <string name="free_style_londing_text">Момент…</string>
     <string name="gadget_calculator_label">Калкулатор</string>
     <string name="gadget_calendar_label">Календар</string>
     <string name="gadget_clear_button_label">RAM Мениджър</string>
@@ -152,14 +153,14 @@
     <string name="gadget_photo_24_label">Фоторамка 4x2</string>
     <string name="gadget_photo_44_label">Фоторамка 4x4</string>
     <string name="gadget_photo_label">Фоторамка</string>
-    <string name="gadget_power_clear_button_label">Super Cleaner</string>
+    <string name="gadget_power_clear_button_label">Дълбоко почистване</string>
     <string name="gadget_search_label">Търсене</string>
-    <string name="gadget_weather_app_not_installed">Моля, инсталирайте Времето BZ</string>
+    <string name="gadget_weather_app_not_installed">Чукнете за да изтеглите приложението Времето на MIUI</string>
     <string name="gadget_weather_aqi_title">Kачество на въздуха</string>
     <string name="gadget_weather_download_message">Пакети за изтегляне: %1$s. размер: %2$s. Моля, изберете отново след завършване на изтеглянето</string>
     <string name="gadget_weather_download_start">Старт</string>
     <string name="gadget_weather_download_title">Изтегляне</string>
-    <string name="gadget_weather_downloading">Пакетите се изтеглят. Моля, изберете отново след изтегляне</string>
+    <string name="gadget_weather_downloading">Изтегля се съдържание на приложението. Рестартирайте приложението след като изтеглянето приключи.</string>
     <string name="gadget_weather_loading">Няма данни за времето</string>
     <string name="gadget_weather_low_temp">Минимални</string>
     <string name="gadget_weather_theme_type">Вид джаджа</string>
@@ -173,18 +174,18 @@
     <string name="group_shortcuts">Преки пътища</string>
     <string name="guide_install_app_msg">Приложението не е инсталирано. Искате ли да го потърсите в Google Play?</string>
     <string name="guide_install_app_title">Инсталиране на приложение</string>
-    <string name="guide_tips_editing_mode">Задръжте пръст върху джаджата, докато я плъзгате към екрана</string>
+    <string name="guide_tips_editing_mode">Натиснете &amp; задръжте за да преместите джаджата</string>
     <string name="home_screen">Начален екран</string>
-    <string name="image_too_small_message">Оригиналното изображение не е достатъчно голямо</string>
+    <string name="image_too_small_message">Оригиналното изображение не е достатъчно голямо.</string>
     <string name="install">Инсталиране</string>
     <string name="invalid_contact_shortcut">Невалиден пряк път</string>
     <string name="is_setting_wallpaper_message">Тапетът се настройва…</string>
     <string name="is_system_wallpaper_message">Не могат да се изтриват системни ресурси</string>
     <string name="launcher_auto_fill_empty_title">Запълване на празните клетки</string>
-    <string name="launcher_not_exist">Неочаквана грешка, върнете се в начален екран и опитайте отново.</string>
+    <string name="launcher_not_exist">Неочаквана грешка, върнете се в Начален екран и опитайте отново.</string>
     <string name="launcher_title">Начален екран и Последни</string>
-    <string name="like">Харесвам</string>
-    <string name="liked">Харесано</string>
+    <string name="like">Добави в любими</string>
+    <string name="liked">Добавено в любими</string>
     <string name="loading_desktop">Един момент…</string>
     <string name="loading_wallpaper">Един момент…</string>
     <string name="local_wallpaper">Изтеглени</string>
@@ -215,10 +216,10 @@
     <string name="menu_trans_effect">Ефекти преход на екрани</string>
     <string name="menu_wallpaper">Тапет</string>
     <string name="menu_workspace_preview">Преглед на начален екран</string>
-    <string name="mi_wallpaper">MIUI тапет</string>
+    <string name="mi_wallpaper">MIUI Теми</string>
     <string name="miui_screen_config_title">Настройки на Начален екран</string>
     <string name="mtzgadget_missing_text">Вече не се поддържа, добавете отново</string>
-    <string name="multi_selecting_tips">За да преместите някое приложение задръжте пръст върху иконата му и го завлачете до местоназначението</string>
+    <string name="multi_selecting_tips">За да преместите някое приложение задръжте пръст върху иконата му и го завлачете.</string>
     <string name="no_detail_page">Няма страница с подробности</string>
     <string name="no_space_toast">Няма достатъчно място</string>
     <string name="normal_wallpaper">Тапет</string>
@@ -233,9 +234,9 @@
     <string name="out_of_space">На този екран няма свободно място.</string>
     <string name="permdesc_install_shortcut">Позволява на приложението да добавя преки пътища без намеса от потребителя.</string>
     <string name="permdesc_install_widget">Позволява на приложението да добавя джаджи без намеса от потребителя.</string>
-    <string name="permdesc_read_settings">Позволява на приложението да чете настройките и преките пътища на началния екран.</string>
+    <string name="permdesc_read_settings">Разрешете на приложението да преглежда настройките на Начален екран и преките пътища.</string>
     <string name="permdesc_uninstall_shortcut">Позволява на приложението да премахва преки пътища без намеса от потребителя.</string>
-    <string name="permdesc_write_settings">Позволява на приложението да променя настройките и преките пътища на началния екран.</string>
+    <string name="permdesc_write_settings">Разрешете на приложението да променя настройките на Начален екран и преките пътища.</string>
     <string name="permlab_install_shortcut">Добавяне на преки пътища</string>
     <string name="permlab_install_widget">Добавяне на джаджи</string>
     <string name="permlab_read_settings">Четене на настройки за начален екран и преки пътища</string>
@@ -247,13 +248,13 @@
     <string name="pref_cell_layout_size">Разпределение на иконите</string>
     <string name="pref_enable_drawing_cache_summary">Изключете за да освободите памет. Възможен е лаг на системата</string>
     <string name="pref_enable_drawing_cache_title">Кеш на графиката</string>
-    <string name="pref_icon_shadow_summary">Вкл/Изкл на сенки около иконите на началния екран</string>
+    <string name="pref_icon_shadow_summary">Показване на сенки около иконите и отражения в панела на Любими.</string>
     <string name="pref_icon_shadow_title">Сянка на иконите</string>
-    <string name="pref_keep_in_memory_summary">Оставете приложението в RAM, дори и при липса на памет.</string>
+    <string name="pref_keep_in_memory_summary">Запазете лаунчър-ът да работи когато RAM-паметта е малко.</string>
     <string name="pref_keep_in_memory_title">Запази в паметта</string>
-    <string name="pref_keep_layout_summary">Промяната на оформлението на вашия начален екран няма да засегне поредността на иконите.</string>
+    <string name="pref_keep_layout_summary">Промяната на оформлението на вашия начален екран няма да засегне подредбата на иконите една спрямо друга.</string>
     <string name="pref_keep_layout_title">Запази текущата подредба</string>
-    <string name="pref_render_in_truecolor_summary">Подобрява графиката за сметка на производителността.</string>
+    <string name="pref_render_in_truecolor_summary">Изключете тази услуга за да подобрите производителността.</string>
     <string name="pref_render_in_truecolor_title">Подобрена графика</string>
     <string name="pref_screen_transformation_type_title">Ефекти за преход между екраните</string>
     <string name="pref_wallpaper_scroll_type_title">Тип на превъртане на тапетa</string>
@@ -271,7 +272,7 @@
     <string name="recommend_loading">Зареждане</string>
     <string name="reset_scene_prompt">Сцената ще бъде възстановена до състояние по подразбиране</string>
     <string name="screen_cells_config_title">Схема на Начален екран</string>
-    <string name="screen_locked_toast">Оформлението за начален екран е заключено</string>
+    <string name="screen_locked_toast">Оформлението за начален екран е заключено.</string>
     <string name="screen_number">Екран %d</string>
     <string name="select_all">Избери всички</string>
     <string name="select_frame">Рамка</string>
@@ -295,7 +296,7 @@
     <string name="title_jeejen">Jeejen Начален екран</string>
     <string name="title_select_live_folder">Избери папка</string>
     <string name="title_select_shortcut">Избери пряк път</string>
-    <string name="toast_screen_icons_misplaced">Възстановено от други източници, някои икони може да разместени или липсват</string>
+    <string name="toast_screen_icons_misplaced">Възстановено от други източници, някои икони може да разместени или да липсват.</string>
     <string name="toggle_select_title">Избери превкл.</string>
     <string name="toggle_title">Превключватели</string>
     <string name="transformation_type_classic">Приплъзване</string>
@@ -310,7 +311,7 @@
     <string name="uninstall_dialog_message">Премахване на прилoжението</string>
     <string name="uninstall_dialog_title_format">Премахване на %s?</string>
     <string name="uninstall_result_failed">%s не може да се деинсталира</string>
-    <string name="uninstall_result_succeeded">Прил. е деинсталирано</string>
+    <string name="uninstall_result_succeeded">Успешно деинсталиране</string>
     <string name="uninstall_with_xspace_dialog_message">Corresponding cloned apps will be removed together with app data.</string>
     <string name="uninstall_xspace_dialog_message">Uninstalling cloned app will remove all app data.</string>
     <string name="uninstall_xspace_dialog_title_format">Деинсталиране на клонирано \"%s\"?</string>
@@ -322,7 +323,7 @@
     <string name="wallpaper_scaling_message">Мащабиране до фиксиран размер</string>
     <string name="wallpaper_scroll_type_tips">Wallpaper scroll</string>
     <string name="wallpaper_settings">Настройки на тапет</string>
-    <string name="wallpaper_success_message">Тапетът е приложен успешно</string>
+    <string name="wallpaper_success_message">Успешно приложено</string>
     <string name="widget_favorite_contacts_edit">Редактор</string>
     <string name="widget_favorite_contacts_label">Любими</string>
     <string name="widget_favorite_contacts_style">Размер</string>

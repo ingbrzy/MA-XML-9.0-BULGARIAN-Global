@@ -25,11 +25,12 @@
     <string name="s5">Създаване на събитие в календара</string>
     <string name="s6">Да се разреши ли на рекламата да създаде събитие в календара?</string>
     <string name="s7">Тестова реклама</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="account_and_cloud">Профил</string>
-    <string name="action_item_add">Добавяне</string>
+    <string name="action_item_add">Добави към</string>
     <string name="action_item_add_song">Добави</string>
-    <string name="action_item_add_to_current_playlist">Текущ плейлист</string>
-    <string name="action_item_add_to_favorite_playlist">Любим плейлист</string>
+    <string name="action_item_add_to_current_playlist">Опашка</string>
+    <string name="action_item_add_to_favorite_playlist">Любими</string>
     <string name="action_item_add_to_new_playlist">Нов</string>
     <string name="action_item_delete">Изтриване</string>
     <string name="action_item_download">Изтегляне</string>
@@ -38,14 +39,15 @@
     <string name="action_item_hide">Скриване</string>
     <string name="action_item_hifi">Слушалки и аудио ефекти</string>
     <string name="action_item_play_all">Пусни всички</string>
+    <string name="action_item_play_next">Възпроизв. по-късно</string>
     <string name="action_item_remove">Премахване</string>
     <string name="action_item_remove_from_favorite">Премахни от любими</string>
     <string name="action_item_share">Споделяне</string>
     <string name="action_settings">Настройки</string>
     <string name="ad_close">Затваряне</string>
     <string name="ad_data_exception">Грешка в данни</string>
-    <string name="ad_recommend">Препоръки</string>
-    <string name="ad_setting">Настройки за реклама</string>
+    <string name="ad_recommend">Получавайте препоръки</string>
+    <string name="ad_setting">Допълнитени настройки</string>
     <string name="add_music">Добавяне на песни</string>
     <string name="add_to_last_of_playlist">Добавете в края на списък за слушане.</string>
     <string name="add_to_playlist_successful">Успешно добавено</string>
@@ -53,6 +55,8 @@
     <string name="alaka_required">Трябва да платите, за да чуете тази песен</string>
     <string name="album_label">Обложки на албуми</string>
     <string name="album_name">Албум</string>
+    <string name="all_album_count">Всички албуми (%d)</string>
+    <string name="all_playlist_count">Всички списъци за изпълнение (%d)</string>
     <string name="all_tracks">Всички песни</string>
     <string name="already_download">Изтегляне…</string>
     <string name="already_download_btn">Изтегляне…</string>
@@ -86,7 +90,6 @@
     <string name="audio_recognition_setting_title">Търсене обложки и текстове на песни</string>
     <string name="auto_payment">Авт. подновяване</string>
     <string name="auto_payment_date">Следващо плащане: %s</string>
-    <string name="auto_upgrade">Автоматично обновяване</string>
     <string name="available_playlist_name_format">Нов плейлист %d</string>
     <string name="avoid_to_use_traffic_summary">Предупреждение за ползване на данни</string>
     <string name="avoid_to_use_traffic_title">Питай, когато се използват мобилни данни за прослушване на песни</string>
@@ -133,6 +136,7 @@
     <string name="continue_backup">Продължи</string>
     <string name="cp_info_first">"Услугата за поточно слушане на музика
 се предоставя основно от Ultimate Inc."</string>
+    <string name="cp_info_second">service1@ultimobi.com</string>
     <string name="create_order_fail">Не мога да направя поръчка,опитайте отново.</string>
     <string name="create_playlist">Създаване на плейлист</string>
     <string name="create_playlist_failure">Не може да се създаде плейлист</string>
@@ -171,8 +175,6 @@
     <string name="dialog_insufficient_space_on_external">Не може да се завърши изтеглянето. Няма достатъчно място във външната памет.</string>
     <string name="dialog_media_not_found">Изтеглянето е невъзможно. Външния носител не е на разположение.</string>
     <string name="dialog_queued_body">Този файл е в списъка за бъдещо изтегляне.</string>
-    <string name="dialog_show_more_backup">Архивиране на локални песни</string>
-    <string name="dialog_show_more_optimize_all">Оптимизирай информацията за песните</string>
     <string name="dialog_song_sort_type">Сортиране на песни</string>
     <string name="dialog_song_sort_type_name">По име</string>
     <string name="dialog_song_sort_type_playing_times">По брой пъти на слушане</string>
@@ -182,7 +184,7 @@
     <string name="dialog_song_view_type_artist">По изпълнител</string>
     <string name="dialog_song_view_type_folder">По папка</string>
     <string name="dialog_song_view_type_song">По песен</string>
-    <string name="dialog_title_clearlist_tracks">Изчисти плейлиста</string>
+    <string name="dialog_title_clearlist_tracks">Премахни от опашката</string>
     <string name="dialog_title_delete_tracks">Изтриване</string>
     <string name="dialog_title_name_playlist">Име на плейлист</string>
     <string name="dialog_title_not_available">Изтеглянето е невъзможно</string>
@@ -228,6 +230,7 @@
     <string name="download_method">Изтегляне</string>
     <string name="download_no_application_title">Не мога да отворя файла</string>
     <string name="download_paused_in_power_save_mode">Изтеглянето е спряно когато Икономия на батерията е включено</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Изтегля се…</string>
     <string name="download_quality">Качество при изтегляне</string>
     <string name="download_quality_summary">Допълнителни настройки на песните, които сте изтеглили</string>
@@ -263,6 +266,7 @@
     <string name="downloading_apk">Изтегляне… Вижте състоянието на изтегляне в Лента с известия.</string>
     <string name="downloading_empty">Празно</string>
     <string name="downloading_pause_apk">На пауза. Продължете изтеглянето в Лента с известия.</string>
+    <string name="edit_playlist_info">Редактирай инфо списък за изпълнение</string>
     <string name="empty_page_no_album">Няма албуми.</string>
     <string name="empty_page_no_artist">Няма изпълнители.</string>
     <string name="enable_auto_payment_fail">Не може да се включи.</string>
@@ -294,6 +298,7 @@
     <string name="error_title">Не може да се синхронизира с Mi Профил</string>
     <string name="error_unauthorized">Синхронизацията е изключена поради твърде много опити за влизане.</string>
     <string name="expired">Изтекъл</string>
+    <string name="facebook_not_installed">Първо инсталирайте Facebook.</string>
     <string name="fail_to_fetch_payment_page_url">Не може да се получи информация за плащане</string>
     <string name="fail_to_play">Неуспешно възпроизвеждане</string>
     <string name="fav_login_msg">Влезте във вашия Mi Профил, за да изтеглите песни</string>
@@ -404,6 +409,7 @@
     <string name="local_page_custom_title">За теб</string>
     <string name="local_page_playlist">Моите списъци с песни</string>
     <string name="local_page_song_download_history">Изтегляния</string>
+    <string name="long_press_to_select_lyric">Натиснете &amp; задръжте, за да изберете файл с текстове</string>
     <string name="lrc_search_failed">Текстът на песента не е намерен</string>
     <string name="lrc_searching">Търсене на текст…</string>
     <string name="lyric_is_empty">Текстът е празен или недостъпен!</string>
@@ -441,12 +447,13 @@
     <string name="mobile_recommended_title">Използване на данни</string>
     <string name="modify_info_disable_note">Ако искате ръчно да редактирате информацията, първо изключете \"Намиране на обложки и текстове на албуми\".</string>
     <string name="modify_lyric">Промяна на текста</string>
+    <string name="modify_pic">Промени обложката</string>
     <string name="modify_progress">Промяна на скоростта на текста</string>
     <string name="modify_progress_helper">Плъзнете нагоре или надолу, за да регулирате скоростта на текстовете</string>
     <string name="modify_song_info">Промяна на данните за песента</string>
     <string name="modify_song_info_success">Информацията за песента е обновена</string>
     <string name="more">Още</string>
-    <string name="more_add_song_list">Добави към текущия списък</string>
+    <string name="more_add_song_list">Добавяне на песни в опашката</string>
     <string name="more_settings">Настройки за напреднали</string>
     <string name="more_settings_summary">Настройки за изтегляне, заспиване, мобилен интернет план, и филтри за файлове.</string>
     <string name="more_share">Споделяне</string>
@@ -475,12 +482,14 @@
     <string name="no_online_song_selected">Няма избрани песни</string>
     <string name="no_results_return">Няма резултати</string>
     <string name="no_scanned_songs">Празно</string>
-    <string name="no_song">Няма песни</string>
     <string name="no_song_downloaded">Няма връзка със сървъра</string>
+    <string name="no_song_subtitle">Потопете се в музиката</string>
+    <string name="no_song_title">Mi Музика</string>
     <string name="no_system_cropper_find">Системата няма възможност за заснемане на изображения</string>
     <string name="normal_quality">Добро</string>
     <string name="not_login">Не сте вписан</string>
     <string name="not_selected">Изберете песен</string>
+    <string name="nothing_changed_toast">Още не сте променили нищо.</string>
     <string name="notif_title_file_size">%1$d всичко</string>
     <string name="notif_title_multiple_downloading">Изтеглени %1$d файлове</string>
     <string name="notif_title_single_downloading">Изтеглен %1$s</string>
@@ -497,12 +506,10 @@
     <string name="nowplaying_circle_style">Стил на бутон Пусни</string>
     <string name="nowplaying_circle_style_rainbow">Дъга</string>
     <string name="nowplaying_circle_style_wave">Вълна</string>
-    <string name="nowplaying_dialog_title_delete_tracks">Изчистване на текущия списък?</string>
-    <string name="nowplaying_menu_item_delete">Изчистване</string>
+    <string name="nowplaying_dialog_title_delete_tracks">Да се премахне ли тази песен от опашката?</string>
+    <string name="nowplaying_menu_item_delete">Премахни от опашката</string>
     <string name="ok">OK</string>
     <string name="online_list_delete_message">Всички изтеглени песни от този списък ще бъдат изтрити от устройството.</string>
-    <string name="online_music_enabled_summary">Слушане и изтегляне на вашите любими песни. Вижде класациите и актуалните списъци, където и да сте!</string>
-    <string name="online_music_enabled_title">Безплатно стриймване</string>
     <string name="online_recommend">Плейлиста</string>
     <string name="online_service_open_tip">Онлайн услугите за Музика са включени</string>
     <string name="online_service_title">Онлайн услуги</string>
@@ -522,6 +529,8 @@
     <string name="paused_waiting_for_network">Изчакване за мрежа</string>
     <string name="paused_waiting_to_retry">Изчакване за повторен опит.</string>
     <string name="pay_now">Плащане сега</string>
+    <string name="payment_success_message">Благодаря! Вашето плащане е обработено успешно. Насладете се на професионални услуги.</string>
+    <string name="payment_success_title">Поздравления!</string>
     <string name="pending_apk">Изчакване…</string>
     <string name="permission_declaration_message">Дайте достъп до хранилището от Оптимизация > Разрешения > Разрешения > Хранилище > Музика, за да може Музика да работи нормално.</string>
     <string name="permission_declaration_negative_text">По-късно</string>
@@ -531,12 +540,16 @@
     <string name="pick_local_song">Свалени песни</string>
     <string name="pick_recent_song">Скоро прослушани</string>
     <string name="play_all_song">Пусни всички</string>
+    <string name="play_empty_playlist">Не може да се възпроизведе песента. Списъкът с песни е празен.</string>
     <string name="play_mode_all_loop">Повтори всички</string>
     <string name="play_mode_one_loop">Лупинг</string>
     <string name="play_mode_play_all">Пусни всички</string>
     <string name="play_mode_shuffle_all">Разбъркване</string>
     <string name="play_next">Пусни следваща</string>
     <string name="playlist_empty">Няма намерени списъци с песни.</string>
+    <string name="playlist_title">Име на списък</string>
+    <string name="playlist_title_is_empty">Името на списъка не може да е празно</string>
+    <string name="playlist_title_is_invalid">Списъкът за изпълнение вече съществува</string>
     <string name="playlist_type_album">Албуми</string>
     <string name="playlist_type_artist">Изпълнител</string>
     <string name="playlist_type_billboard">Класации</string>
@@ -550,11 +563,13 @@
     <string name="priority_storage">Съхраняване на SD картата</string>
     <string name="priority_storage_summary">При поставена SD карта, автоматично записване на файловете на SD картата</string>
     <string name="privacy_policy">Политика за поверителност</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=en</string>
     <string name="project_device">Mi Телефон</string>
-    <string name="prompt_grant_write_settings_permission">Allow changing system settings</string>
+    <string name="prompt_grant_write_settings_permission">Позволи промяна на системните настройки</string>
     <string name="pulluprefreshrecyclerview_loading_error">Неуспешно зареждане</string>
     <string name="pulluprefreshrecyclerview_loading_finished">Зареждането е успешно</string>
     <string name="pulluprefreshrecyclerview_loading_running">Зареждане…</string>
+    <string name="queue_is_empty">Опашката за възпроизвеждане е празна.</string>
     <string name="radar">ACRCloud</string>
     <string name="radar_click_to_retry">Чукнете за да опитате отново.</string>
     <string name="radar_fail">Няма резултати.</string>
@@ -602,22 +617,19 @@
     <string name="search_hint">Търсене на изпълнители, песни, албуми и препоръчани</string>
     <string name="search_history_clear_all">Изчистване</string>
     <string name="search_instant_online_music">Онлайн</string>
+    <string name="search_songs_count">Песни: %d</string>
     <string name="search_title">Търсене</string>
     <string name="select_all">Избери всичко</string>
     <string name="select_device">Избор на устройство</string>
     <string name="select_displayed_folders">Изберете папки за показване</string>
-    <string name="select_local_album">Избор на локален албум</string>
-    <string name="select_local_lyric">Избор на локален текст</string>
+    <string name="select_local_cover">Изберете местна обложка</string>
+    <string name="select_local_lyric_file">Изберете файл с текстове</string>
     <string name="select_none">Отмаркирай всичко</string>
     <string name="selected_count">Избрани %1$d от %2$d</string>
     <string name="send_to_title">Изпращане до (%1$s)</string>
     <string name="server_error">Неочаквана грешка. Моля, изчакайте минута-две и опитайте отново.</string>
     <string name="service_and_settings">Обслужване и настройки</string>
     <string name="set_as_ring">Задай като мелодия</string>
-    <string name="set_id3_failed">Неуспешно задаване на данните за песента</string>
-    <string name="set_id3_not_have_read_or_write_permission">Нямате права за промяна на този файл</string>
-    <string name="set_id3_not_support_format">Този файлов формат не може да се редактира</string>
-    <string name="set_id3_successful">Успешно задаване на данните за песента</string>
     <string name="set_ringtones_failed">Неуспешно задаване като мелодия.</string>
     <string name="set_ringtones_successful">%s е зададена като мелодия на звънене.</string>
     <string name="setting_feature_setting">Настройки за услуги</string>
@@ -654,7 +666,7 @@
     <string name="sleep_mode_canceled">Таймерът за заспиване е отменен</string>
     <string name="sleep_mode_summary">Използвайте плъзгача по-долу, за да зададете време</string>
     <string name="sleep_mode_title">Спри плейъра след изтичане на времето</string>
-    <string name="song_exist_in_playlist">Неуспешно. Песента вече е добавена в плейлист.</string>
+    <string name="song_exist_in_playlist">Тази песен вече е на опашката</string>
     <string name="song_info">Детайли за песента</string>
     <string name="song_is_empty">Името на песента не може да е празно.</string>
     <string name="song_name">Песен</string>
@@ -724,6 +736,7 @@
     <string name="upgrade_music">Обновете приложението Музика</string>
     <string name="upgrade_music_message">Обновяването приключи. Рестартирайте програмата.</string>
     <string name="user_agreement">Потребителско споразумение</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=en</string>
     <string name="version_info">Версия</string>
     <string name="vip_after_tomorrow_auto_renew_message">Вашият абонамент в Музика ще бъде подновен автоматично след една вечер. Бъдете сигурни, че имате достатъчно Mi-кредити за да извършите плащането.</string>
     <string name="vip_after_tomorrow_renew_message">Вие няма да можете да предавате аудио с високо качество, но някои песни ще са достъпни в стандартно качество.</string>
@@ -739,4 +752,11 @@
 
 Докоснете%sза да стартирате това изтегляне следващия път, когато сте свързани с Wi-Fi мрежа."</string>
     <string name="wifi_required_title">Изтеглянето е прекалено дълго за използване на мобилни данни.</string>
+    <string name="auto_upgrade">Автоматично обновяване</string>
+    <string name="dialog_show_more_backup">Архивиране на локални песни</string>
+    <string name="dialog_show_more_optimize_all">Оптимизирай информацията за песните</string>
+    <string name="set_id3_failed">Неуспешно задаване на данните за песента</string>
+    <string name="set_id3_not_have_read_or_write_permission">Нямате права за промяна на този файл</string>
+    <string name="set_id3_not_support_format">Този файлов формат не може да се редактира</string>
+    <string name="set_id3_successful">Успешно задаване на данните за песента</string>
 </resources>

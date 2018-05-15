@@ -3,15 +3,15 @@
     <string-array name="wifi_status">
         <item></item>
         <item>Сканиране…</item>
-        <item>Свързване…</item>
+        <item>Свързва се…</item>
         <item>Удостоверяване…</item>
         <item>Получаване на IP адрес…</item>
         <item>Свързан</item>
-        <item>Преустановен</item>
-        <item>Прекъснат…</item>
+        <item>Преустановено</item>
+        <item>Прекъсване…</item>
         <item>Не е свързан</item>
         <item>Неуспешно</item>
-        <item>Блокиран</item>
+        <item>Блокирано</item>
         <item>Временно е избегната лоша връзка</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
@@ -25,129 +25,134 @@
         <item>Прекъсната връзка с %1$s…</item>
         <item>Не е свързан</item>
         <item>Неуспешно</item>
-        <item>Блокиран</item>
+        <item>Блокирано</item>
         <item>Временно е избегната лоша връзка</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
         <item>Не извършвай проверка</item>
-        <item>Проверявай само правата за управление на съдържанието</item>
-        <item>Винаги извършвай проверка</item>
+        <item>Проверявай само DRM правата</item>
+        <item>Винаги проверявай</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
         <item>Никога не използвай проверка за авторски права</item>
-        <item>Извършвай проверка за авторски права само в политиките за управление на съдържанието</item>
+        <item>Извършвай проверка за авторски права само в политиките за DRM</item>
         <item>Винаги извършвай проверка за авторски права</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
-        <item>AVRCP 1.4 (по подразбиране)</item>
+        <item>AVRCP 1.4 (По подразбиране)</item>
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
+    </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Използване на сист. избор (стандартно)</item>
+        <item>Използвай избора на системата (По подразбиране)</item>
         <item>SBC</item>
-        <item>Разширено аудиокодиране (AAC)</item>
+        <item>AAC</item>
         <item>aptX</item>
         <item>aptX HD</item>
         <item>LDAC</item>
-        <item>Активиране на кодеците по избор</item>
-        <item>Деактивиране на кодеците по избор</item>
+        <item>Включи опционално кодеците</item>
+        <item>Изключи опционално кодеците</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Използване на сист. избор (стандартно)</item>
+        <item>Използвай избора на системата (По подразбиране)</item>
         <item>SBC</item>
-        <item>Разширено аудиокодиране (AAC)</item>
+        <item>AAC</item>
         <item>aptX</item>
         <item>aptX HD</item>
         <item>LDAC</item>
-        <item>Активиране на кодеците по избор</item>
-        <item>Деактивиране на кодеците по избор</item>
+        <item>Включи опционално кодеците</item>
+        <item>Изключи опционално кодеците</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Използване на сист. избор (стандартно)</item>
-        <item>44,1 кХц</item>
-        <item>48 кХц</item>
-        <item>88,2 кХц</item>
-        <item>96 кХц</item>
+        <item>Използвай избора на системата (По подразбиране)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Използване на сист. избор (стандартно)</item>
-        <item>44,1 кХц</item>
-        <item>48 кХц</item>
-        <item>88,2 кХц</item>
-        <item>96 кХц</item>
+        <item>Използвай избора на системата (По подразбиране)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Използване на сист. избор (стандартно)</item>
-        <item>16 бита/дискрет</item>
-        <item>24 бита/дискрет</item>
-        <item>32 бита/дискрет</item>
+        <item>Използвай избора на системата (По подразбиране)</item>
+        <item>16 битов/модел</item>
+        <item>24 битов/модел</item>
+        <item>32 битов/модел</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Използване на сист. избор (стандартно)</item>
-        <item>16 бита/дискрет</item>
-        <item>24 бита/дискрет</item>
-        <item>32 бита/дискрет</item>
+        <item>Използвай избора на системата (По подразбиране)</item>
+        <item>16 битов/модел</item>
+        <item>24 битов/модел</item>
+        <item>32 битов/модел</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Използване на сист. избор (стандартно)</item>
+        <item>Използвай избора на системата (По подразбиране)</item>
         <item>Моно</item>
         <item>Стерео</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Използване на сист. избор (стандартно)</item>
+        <item>Използвай избора на системата (По подразбиране)</item>
         <item>Моно</item>
         <item>Стерео</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>Оптимизирано за качество на звука (990 или 909 кб/сек)</item>
-        <item>Балансирано качество на звука и връзката (660 или 606 кб/сек)</item>
-        <item>Оптимизирано за качество на връзката (330 или 303 кб/сек)</item>
-        <item>Възможно най-добро качество (адаптивна скорост на предаване)</item>
+        <item>Оптимизирано за аудио качество (990kbps/909kbps)</item>
+        <item>Балансирано за аудио качество и свързване (660kbps/606kbps)</item>
+        <item>Оптимизирано за качество на свързване (330kbps/303kbps)</item>
+        <item>Най-добро усилие ( Адаптиран битрейт)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
-        <item>Оптимизирано за качество на звука</item>
-        <item>Балансирано качество на звука и връзката</item>
-        <item>Оптимизирано за качество на връзката</item>
-        <item>Възможно най-добро качество (адаптивна скорост на предаване)</item>
+        <item>Оптимизирано за аудио качество</item>
+        <item>Балансирано за аудио качество и качество на свързване</item>
+        <item>Оптимизирано за качество на свързване</item>
+        <item>Най-добър ефект ( Адаптиран битрейт)</item>
     </string-array>
     <string-array name="select_logd_size_titles">
-        <item>Изключено</item>
-        <item>64КБ</item>
-        <item>256КБ</item>
+        <item>Изкл</item>
+        <item>64KБ</item>
+        <item>256KБ</item>
         <item>1МБ</item>
         <item>4МБ</item>
-        <item>16МБ</item>
+        <item>16MБ</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
-        <item>Изключено</item>
-        <item>64КБ</item>
-        <item>256КБ</item>
+        <item>Изкл</item>
+        <item>64KБ</item>
+        <item>256KБ</item>
         <item>1МБ</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>Изключено</item>
-        <item>64КБ за буфер регистър</item>
-        <item>256КБ за буфер регистър</item>
+        <item>Изкл</item>
+        <item>64KБ за буфер регистър</item>
+        <item>256KБ за буфер регистър</item>
         <item>1МБ за буфер регистър</item>
         <item>4МБ за буфер регистър</item>
         <item>16МБ за буфер регистър</item>
     </string-array>
     <string-array name="select_logpersist_titles">
-        <item>Изкл.</item>
-        <item>Всички</item>
-        <item>Вс. без радио</item>
-        <item>само ядрото</item>
+        <item>Изкл</item>
+        <item>Всичко</item>
+        <item>Всички без радио</item>
+        <item>Само ядро</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
-        <item>Изкл.</item>
-        <item>Всички регистрационни буфери</item>
-        <item>Всички регистрационни буфери освен тези за радиото</item>
-        <item>само регистрационния буфер на ядрото</item>
+        <item>Изкл</item>
+        <item>Всички регистри на буфери</item>
+        <item>Всички, освен регистър на радиото</item>
+        <item>Само регистър на ядрото</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Изключване на анимациите</item>
-        <item>Скала на анимации 0.5x</item>
+        <item>Скала на анимации .5x</item>
         <item>Скала на анимации 1x</item>
         <item>Скала на анимации 1.5x</item>
         <item>Скала на анимации 2x</item>
@@ -156,7 +161,7 @@
     </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>Изключване на анимациите</item>
-        <item>Скала на анимации 0.5x</item>
+        <item>Скала на анимации .5x</item>
         <item>Скала на анимации 1x</item>
         <item>Скала на анимации 1.5x</item>
         <item>Скала на анимации 2x</item>
@@ -165,7 +170,7 @@
     </string-array>
     <string-array name="animator_duration_scale_entries">
         <item>Изключване на анимациите</item>
-        <item>Скала на анимации 0.5x</item>
+        <item>Скала на анимации .5x</item>
         <item>Скала на анимации 1x</item>
         <item>Скала на анимации 1.5x</item>
         <item>Скала на анимации 2x</item>
@@ -193,27 +198,27 @@
         <item>Изчистване на грешките на графиката</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
-        <item>Изключено</item>
+        <item>Изкл</item>
         <item>Загради неправоъгълната област на клипа в синьо</item>
         <item>Освети в зелено тестваните команди за изчертаване</item>
     </string-array>
     <string-array name="track_frame_time_entries">
-        <item>Изключено</item>
+        <item>Изкл</item>
         <item>Покажи екрана на блокчета</item>
-        <item>Следене на използването на батерията от системата</item>
+        <item>In adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
-        <item>Изключено</item>
+        <item>Изкл</item>
         <item>Показване на опасните зони</item>
         <item>Показване на далтоничните зони</item>
     </string-array>
     <string-array name="debug_hw_renderer_entries">
-        <item>OpenGL (по подразбиране)</item>
-        <item>OpenGL (Skia)</item>
+        <item>ОтворетеGL (По подразбиране)</item>
+        <item>ОтворетеGL(Скиа)</item>
     </string-array>
     <string-array name="app_process_limit_entries">
         <item>Стандартно ограничение</item>
-        <item>Изключване на процесите на заден план</item>
+        <item>Без процеси на заден план</item>
         <item>Не повече от 1 процес</item>
         <item>Не повече от 2 процеса</item>
         <item>Не повече от 3 процеса</item>
@@ -232,11 +237,22 @@
         <item>Бавна</item>
         <item>Нормална</item>
         <item>Бърза</item>
-        <item>По-бърза</item>
+        <item>Много бърза</item>
         <item>Много бърза</item>
         <item>Изключително бърза</item>
         <item>Екстремно бърза</item>
         <item>Скорострелна</item>
+    </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
     </string-array>
     <string-array name="color_mode_names">
         <item>Резониращ</item>
@@ -252,6 +268,24 @@
         <item>0%</item>
         <item>50%</item>
         <item>100%</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+    </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
     </string-array>
     <string-array name="aqi_title">
         <item>%1$s</item>

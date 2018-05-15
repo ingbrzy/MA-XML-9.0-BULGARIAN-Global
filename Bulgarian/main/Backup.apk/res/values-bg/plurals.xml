@@ -20,6 +20,14 @@
         <item quantity="other">общо %d елементи</item>
         <item quantity="one">общо %d елемент</item>
     </plurals>
+    <plurals name="trans_failed_summary">
+        <item quantity="other">Не можаха да се прехвърлят %d елементи. Чукнете за подробности.</item>
+        <item quantity="one">Не можа да се прехвърли %d елемент. Чукнете за подробности.</item>
+    </plurals>
+    <plurals name="trans_item_failed_summary">
+        <item quantity="other">%d елемента не могат да се прехвърлят.</item>
+        <item quantity="one">%d елемент не може да се прехвърли.</item>
+    </plurals>
     <plurals name="trans_time_format_minute">
         <item quantity="other">%d минути</item>
         <item quantity="one">%d минута</item>
