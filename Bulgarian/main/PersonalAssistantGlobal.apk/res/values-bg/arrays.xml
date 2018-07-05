@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="stock_color_schema">
-        <item>Червено - горе, зелено - долу</item>
         <item>Зелено - горе, червено - долу</item>
+        <item>Червено - горе, зелено - долу</item>
     </string-array>
     <string-array name="stock_title_schema">
         <item>Маркирано име</item>

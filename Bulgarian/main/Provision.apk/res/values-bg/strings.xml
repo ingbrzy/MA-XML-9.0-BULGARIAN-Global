@@ -15,6 +15,8 @@
     <string name="sim_card_detection_info">Нуждаете се от SIM карта, за да настроите Mi профила.</string>
     <string name="sim_card_detecting">Проверява се за SIM карта…</string>
     <string name="sim_card_detecting_check">Няма открита SIM карта. Уверете се, че SIM картата е правилно поставена и имате достатъчно средства по сметката си.</string>
+    <string name="sim_card_detection_mobile_not_available">SIM картата не може да се свърже с мрежата</string>
+    <string name="sim_scard_detecting_check_mobile_not_available">Вашата SIM карта не може да се свърже с валиден доставчик на мрежа. Уверете се, че имате достатъчно минути или мобилни данни по вашия баланс и опитайте да се свържете отново.</string>
     <string name="sim_card_detecting_confirm_turn_on_network">Ще разрешите ли връзката към мрежи за мобилни данни? Ако го направите, SIM картата, която сте поставили, ще бъде използвана за връзка с мобилни данни.</string>
     <string name="other_settings">Допълнителни настройки</string>
     <string name="other_settings_location">Местоположение</string>
@@ -69,6 +71,7 @@
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_international_fingerprint">Използвайте вашия пръстов отпечатък за отключване на устройството или за вход в приложения и услуги.</string>
     <string name="content_description_start">Старт</string>
+    <string name="start_up_slogan">Създаден за изживяване на цял екран</string>
     <string name="content_description_miui_version">MIUI 9</string>
     <string name="content_description_complete">Готово</string>
     <string name="language_picker_other_languages_title">Други езици</string>

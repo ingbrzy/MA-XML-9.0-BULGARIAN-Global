@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"\"Представяме версия %1$s
  Делта актуализация: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Хранилището не е на разположение, проверете картата памет.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMБ</string>
     <string name="xiaomi_connect_download_manager_fail">Не може да се стартира изтегляне. Уверете се, че мениджър изтегляния работи нормално.</string>
     <string name="app_name">Резервно копие</string>
     <string name="local_app_name">Резервно копие</string>
@@ -222,11 +225,14 @@
     <string name="restore_backup">Възстанови</string>
     <string name="enable_encrypt_description">Кодиране</string>
     <string name="disable_encrypt_description">Не кодирай</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Един момент…</string>
     <string name="state_mounting">Достъп до хранилището на рутера…</string>
     <string name="abort_backup_confirm">Резервното копие не е завършено! Да спре ли въпреки това?</string>
     <string name="abort_restore_confirm">Възстановяването не може да бъде завършено. Да се прекрати ли операцията?</string>
     <string name="feature_title_call_log">Списък с обаждания</string>
+    <string name="feature_title_contacts">Контакти</string>
+    <string name="feature_title_sms">Съобщения</string>
     <string name="feature_title_mms">MMS</string>
     <string name="feature_title_account">Профил</string>
     <string name="feature_title_antispam">Списък блокирани</string>
@@ -243,6 +249,7 @@
     <string name="err_filesystem_mount">Няма достъп до хранилището на рутера</string>
     <string name="err_router_disconnected">Проверете връзката с рутера и опитайте отново.</string>
     <string name="err_router_files_delete">Файловете с рез. копия на рутера не могат да се изтрият</string>
+    <string name="err_acquire_system_service">Не може да се стартира системна услуга.</string>
     <string name="err_not_allow">Не се поддържа</string>
     <string name="err_bakfile_not_exist">Файлът с архив не съществува.</string>
     <string name="err_pkg_not_exist">Не може да се открият приложения.</string>
@@ -285,7 +292,7 @@
 Не изключвайте Wi-Fi Hotspot.
 Дръжте устройствата на близко разстояние."</string>
     <string name="trans_time_spent">Изтекло време: %s</string>
-    <string name="trans_restoring_no_items">Синхр. елементи</string>
+    <string name="trans_restoring_no_items">Заявка за информация…</string>
     <string name="trans_detail_category_sysdata">Системна информация (включително съобщения, контакти и история на обаждания)</string>
     <string name="trans_detail_category_userdata">Приложения</string>
     <string name="trans_detail_category_account">Профили и контакти</string>
@@ -333,6 +340,8 @@
     <string name="trans_connecting_toast">Установява се връзка…</string>
     <string name="trans_switching_5g">Превключва се на 5GHz Wi-Fi…</string>
     <string name="trans_connect_failed_toast">Ме може да се свърже</string>
+    <string name="trans_open_camera_failed_title">Не може да се свърже с Камера</string>
+    <string name="trans_open_camera_failed_message">Рестартирайте устройството или проверете дали на Mi Трансфер е разрешено да използва &lt;b>Камера&lt;/b>.</string>
     <string name="trans_generate_qr_code_failed">Не може да се създаде QR код</string>
     <string name="trans_scan_invalid_qrcode">Невалиден QR код</string>
     <string name="trans_scan_qr_code_tips">Сканирайте QR кода с ново устройство</string>
@@ -350,6 +359,7 @@
     <string name="trans_operate_old_phone_tips2">"\"Метод Б
 Отидете на Настройки > Допълнителни настройки > Експорт към ново устройство
 Чукнете [Аз съм изпращач]\""</string>
+    <string name="trans_operate_tip_for_other_android">Отворете Mi Трансфер на вашия стар телефон, чукнете \"Старт\" и сканирайте QR кода отгоре.</string>
     <string name="trans_operate_reconnect_new_tips">"Изчакайте, докато на новия телефон се покаже \"Връзката е прекъсната\" 
 След това натиснете \"Свържи отново\" за да създадете QR код."</string>
     <string name="trans_operate_reconnect_old_tips">"Изчакайте, докато на новия телефон се покаже \"Връзката е прекъсната\" 
@@ -363,16 +373,25 @@
 Освободете място в хранилището за да прехвърлите само важните неща."</string>
     <string name="trans_select_data_too_large">"Избрали сте твърде много елементи за прехвърляне.
  Изберете само важните за вас неща за да направите прехвърлянето по-бързо."</string>
-    <string name="trans_calculating_base_size">Изчислен размер на данни</string>
     <string name="trans_calculating">Изчислява се…</string>
+    <string name="trans_calculating_tip">Изчисляване %s…</string>
+    <string name="trans_calculating_media_description">Медия файлове</string>
+    <string name="trans_calculating_app_sd_description">Данни на SD карта</string>
     <string name="trans_native_no_space">"Няма достатъчно място на старото устройство (%s са достъпни).
 Освободете място в хранилището за да прехвърлите само важните неща."</string>
-    <string name="trans_calculating_app_sd_size">Изчислен размер: %s</string>
     <string name="trans_please_waiting">Един момент…</string>
     <string name="trans_old_phone_low_space_title">Няма достатъчно място</string>
     <string name="trans_old_phone_low_space_msg">Mi Трансфер се нуждае от повече място за пакетите с прехвърляна информация. Изглежда, че на старото устройство няма достатъчно свободно място. Освободете необходимото в \"Оптимизация\" или прехвърляйте само важните неща.</string>
     <string name="button_clean_garbage">Освободи място</string>
     <string name="button_quit">Изход</string>
+    <string name="trans_install_guide_page_title">Инсталирайте Mi Трансфер на вашия стар телефон</string>
+    <string name="trans_install_guide_scan_install_tip">"Сканирайте този QR код с вашия стар телефон 
+ за да изтеглите и инсталирате Mi Трансфер."</string>
+    <string name="trans_install_guide_step1_title">Стъпка 1</string>
+    <string name="trans_install_guide_step1_content">Сканирайте този QR код с вашия стар телефон за да изтеглите и инсталирате \"Mi Трансфер\".</string>
+    <string name="trans_install_guide_step2_title">Стъпка 2</string>
+    <string name="trans_install_guide_step2_content">След като инсталирането завърши, чукнете по-горе \"Започни\".</string>
+    <string name="trans_install_guide_button_start">Започни</string>
     <string name="size_byte">Б</string>
     <string name="size_kilo_byte">КБ</string>
     <string name="size_mega_byte">МБ</string>
@@ -396,10 +415,12 @@
     <string name="trans_intro_desc_new">Докоснете \"Аз съм Получател\". QR код ще бъде генериран.</string>
     <string name="trans_intro_title_old">На стар телефон:</string>
     <string name="trans_intro_desc_old">Докоснете \"Аз съм Изпращач\". Сканирайте QR кода на новия телефон, изчакайте докато Mi трансфер подготви файловете, които искате да изпратите и натиснете \"Изпрати\".</string>
+    <string name="trans_intro_desc_old_market">Чукнете \"Старт\". Сканирайте QR кода с новия си телефон докато Mi Трансфер не определи кои файлове ще прехвърля и натиснете \"Изпрати\".</string>
     <string name="trans_intro_question_3">%d. Какво трябва да направя, ако Mi Трансфер спре да работи на определена стъпка?</string>
     <string name="trans_intro_desc_3">Отменете прехвърлянето, излезте от Mi Трансфер и започнете отново. Дублиращите се файлове ще бъдат презаписани.</string>
     <string name="trans_intro_question_4">%d. Защо не мога да използвам Wi-Fi по време на прехвърлянето?</string>
     <string name="trans_intro_desc_4">Mi Трансфер използва Wi-Fi за да прехвърля файлове. Ето защо не можете да се свържете с интернет, използвайки Wi-Fi на всяко устройство по време на прехвърлянето. Вие можете да използвате мобилни данни за връзка с интернет. При някои нови устройства (като например Mi 6), има възможност да се използва Wi-Fi за връзка с интернет по време на текущо прехвърляне.</string>
+    <string name="trans_intro_desc_4_market">Mi Трансфер използва Wi-Fi за прехвърляне на файлове. Ето защо не може да се свържете с интернет през Wi-Fi по време на прехвърляне към или от другото устройство. Вие можете да използвате вместо това мобилните данни за връзка с интернет.</string>
     <string name="trans_intro_question_5">%d. Защо Mi трансфер ми съобщава, че няма достатъчно място в хранилището на моето старо устройство?</string>
     <string name="trans_intro_desc_5">Мястото в хранилището на старото устройство се използва за създаването на пакети от файлове за прехвърляне. Уверете се, че имате между 500МБ - 1ГБ достъпно място в хранилището на старото устройство, преди да започнете прехвърляне.</string>
     <string name="trans_intro_question_6">%d. Защо някои приложения не са прехвърлени успешно?</string>
@@ -417,16 +438,32 @@
     <string name="trans_intro_desc_multiuser">Mi трансфер няма достъп до елементите във Второ работно място. Преместете ги в Основно работно място и започнете прехвърляне.</string>
     <string name="trans_intro_title_multiapp">Клонирани приложения:</string>
     <string name="trans_intro_desc_multiapp">Mi трансфер не може да прехвърля данни от клонирани приложения поради конфликт между файловете.</string>
+    <string name="trans_intro_question_9_market">%d. Обратна връзка.</string>
+    <string name="trans_intro_desc_9_method_1_title">1. Споделете вашия отзив, използвайки \"Обратна връзка\".</string>
+    <string name="trans_intro_desc_9_method_1_dec">Отидете в Начален екран > Инструменти > Обратна връзка.</string>
+    <string name="trans_intro_desc_9_method_2_title">2. Изпратете ни имейл</string>
+    <string name="trans_intro_desc_9_method_2_dec">Изпратете вашата обратна връзка на miui-mover@xiaomi.com.</string>
+    <string name="trans_intro_desc_9_method_3_title">3. Докладвайте грешките по QQ</string>
+    <string name="trans_intro_desc_9_method_3_dec">Mi трансфер QQ Група: 687338378</string>
     <string name="btn_got_it">Направено</string>
     <string name="backup_security_tips_title">Архивирането може да не работи</string>
     <string name="backup_security_tips_message">Някои приложения може да не могат да бъдат архивирани и възстановявани.</string>
     <string name="trans_security_tips_title">Mi Трансфер съвместимост</string>
     <string name="trans_security_tips_message">Някои приложения може да не поддържат Mi Трансфер.</string>
+    <string name="trans_cancel_selection_title">Останете в Mi Трансфер</string>
+    <string name="trans_cancel_selection_message">Ако излезете от Mi Трансфер, изходящите прехвърляния ще прекъснат. Изчакайте, докато всички прехвърляния приключат.</string>
+    <string name="trans_select_notification_title">Mi Трансфер работи в момента…</string>
+    <string name="trans_select_notification_message">Чукнете за преглед</string>
+    <string name="trans_button_stay">Оставане</string>
+    <string name="trans_button_exit">Изход</string>
     <string name="trans_wlan_tips_title">Не изключвайте Wi-Fi</string>
     <string name="trans_wlan_tips_message">Не изключвайте Wi-Fi, не превключвайте към друга мрежа по време на прехвърлянето. В противен случай Mi Трансфер няма да може да прехвърли данни.</string>
     <string name="trans_disconnected_tips_title">Отдалеченото устройство е разкачено</string>
     <string name="trans_disconnected_tips_message">Отдалеченото устройство е разкачено. Свържете се отново ръчно или отменете прехвърлянето.</string>
     <string name="trans_button_cancel">Отказ</string>
+    <string name="trans_success_dialog_market_comment_title">"Вашето ново устройство е вече готово с познатите ви неща в него. 
+ Харесвате ли Mi Трансфер?"</string>
+    <string name="trans_success_dialog_button_market_favourable_comment">Оценете Mi Трансфер</string>
     <string name="trans_failed_details_page_title">Неуспешни прехвърляния</string>
     <string name="close_twice_auth_tutor">Изключете Apple двустепенна оторизация</string>
     <string name="close_twice_auth_steps">Следвайте тези стъпки за да изключите двустепенната оторизация на Apple ID:</string>
@@ -440,7 +477,8 @@
 https://appleid.apple.com/#!&amp;page=signin за затваряне"</string>
     <string name="platform_chooser_title">Избери старото устройство</string>
     <string name="platform_chooser_item_ios">Импортиране от устройство на Apple</string>
-    <string name="platform_chooser_item_android">Импортиране от устройство на Android</string>
+    <string name="platform_chooser_item_android_mi">Mi Телефон</string>
+    <string name="platform_chooser_item_android_others">Други марки</string>
     <string name="icloud_need_wifi_title">Свържете се към Wi-Fi</string>
     <string name="icloud_need_wifi_message">Не сте свързани с Wi-Fi. За да прехвърлите информация от iCloud, трябва да сте свързани към Wi-Fi.</string>
     <string name="icloud_login_title">Впишете се в iCloud</string>
@@ -494,6 +532,7 @@ https://appleid.apple.com/#!&amp;page=signin за затваряне"</string>
 вие трябва да направите архив в iCloud."</string>
     <string name="list_footer_tip_title">Съвети:</string>
     <string name="import_tip_summary">Поради проблеми със съвместимостта, вие можете да прехвърлите само частична информация от iOS устройството. Уверете се, че сте направили резервно копие в iCloud, преди да започнете прехвърлянето.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Импортирай</string>
     <string name="select_empty">Изберете елементи за импортиране</string>
     <string name="select_item_summary_wait">Изчаква се…</string>
@@ -534,4 +573,33 @@ https://appleid.apple.com/#!&amp;page=signin за затваряне"</string>
     <string name="alert_message_restore_from_miasist">Mi PC Suite иска разрешение да възстанови елементи на вашия телефон. Позволяване?</string>
     <string name="alert_button_deny">Отхвърли</string>
     <string name="alert_button_agree_and_continue">Разреши</string>
+    <string name="trans_open_location_button">Включи</string>
+    <string name="trans_open_location_title">Включете услугите за местоположение</string>
+    <string name="trans_open_location_message">Включете услугите за местоположение за да получите списък на достъпните Wi-Fi мрежи.</string>
+    <string name="perm_camera">Камера</string>
+    <string name="perm_read_contacts">Четене на контакти</string>
+    <string name="perm_location">Местоположение</string>
+    <string name="perm_read_phone_state">Четене на състоянието на телефона</string>
+    <string name="perm_read_call_log">Четене на списъка с повиквания</string>
+    <string name="perm_read_sms">Четене на SMS</string>
+    <string name="perm_storage">Четене и запис на външно хранилище</string>
+    <string name="lack_perm_title">Изисква потвърждение</string>
+    <string name="lack_perm_msg">Mi Трансфер се нуждае от следните разрешения: &lt;b>%s&lt;/b>.</string>
+    <string name="flash_drive_backup_restore">USB архивиране</string>
+    <string name="flash_drive_backup_note">Рез. копие на приложенията на USB устройство. Бъдете сигурни, че в USB хранилището има достатъчно място за съхранение преди да започнете.</string>
+    <string name="flash_drive_backup_btn">Рез. копие на USB устройство</string>
+    <string name="flash_drive_restore_btn">Възстанови от USB устройство</string>
+    <string name="usb_backup_select_data_too_large">Избраните файлове са твърде големи. Уверете се, че в USB устройството има достатъчно място за съхранение. Прехвърлете само важните неща.</string>
+    <string name="flash_drive_search_backup_files">"Търсене на USB резервни копия …
+Не променяйте или преименувайте имената на архивните файлове."</string>
+    <string name="flash_drive_connection_failed">USB устройството е спряно</string>
+    <string name="storage_sd_card">Карта с памет</string>
+    <string name="storage_usb">USB устройство</string>
+    <string name="usb_trans_select_data_no_space">"Само %s са достъпни на вашето USB хранилище. 
+Освободете място или прехвърлете само важните неща."</string>
+    <string name="usb_restore_select_data_too_large">"Архивните файлове са твърде големи. Може би ще отнеме време да се възстановят
+ Възстановяването само на важните неща ще бъде по-бързо."</string>
+    <string name="usb_trans_native_no_space">Само %s са достъпни на вашето устройство. Освободете място или прехвърлете малко неща.</string>
+    <string name="usb_trans_old_phone_low_space_title">Няма достатъчно място</string>
+    <string name="usb_trans_old_phone_low_space_msg">Необходимо е друго място за съхранение на вашите резервни копия. Тук няма достатъчно място за да продължи прехвърлянето. Вие можете да изтриете непотребните файлове чрез приложението Оптимизация или да прехвърлите само важните неща.</string>
 </resources>

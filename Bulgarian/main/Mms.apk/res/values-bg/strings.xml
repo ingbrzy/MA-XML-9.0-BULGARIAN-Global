@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_firewall_setting">Антиспам</string>
     <string name="activity_not_found">Не е открита програма за показване на прикачения файл</string>
     <string name="activity_not_found_uri">Не е открита програма за това действие</string>
@@ -51,6 +52,16 @@
     <string name="bookmark_confirm_delete_message">Избраните съобщения ще бъдат премахнати от любими</string>
     <string name="bookmark_empty">Няма любими</string>
     <string name="bookmark_list_title">Любими</string>
+    <string name="button_emoji_creature">Емоджита-животни</string>
+    <string name="button_emoji_lifestyle">Емоджита-лайвстайл</string>
+    <string name="button_emoji_smiley">Емоджита-лица</string>
+    <string name="button_emoji_symbol">Емоджита-символи</string>
+    <string name="button_emoji_text">Емоджита-текст</string>
+    <string name="button_fold">Сгъни</string>
+    <string name="button_next_slide">Следващо</string>
+    <string name="button_pre_slide">Предишно</string>
+    <string name="button_resend_message">Изпрати отново</string>
+    <string name="button_unfold">Разгъни</string>
     <string name="call_sender">Изпращащ обаждане</string>
     <string name="cannot_add_picture_and_video">Не можете да добавите снимка и видео едновременно.</string>
     <string name="cannot_add_slide_anymore">Не можете да добавяте повече снимки.</string>
@@ -125,7 +136,9 @@
     <string name="delete_wild_sims_title">Изтриване на избрани номера</string>
     <string name="delivery_report_activity">Потвърждение за доставка</string>
     <string name="delivery_toast_body">Съобщението до %s е доставено</string>
+    <string name="dialog_message_fake_cell_detect_error">Да се коригира ли информацията за това съобщение? За да направи това, MIUI трябва да качи телефонния номер (%1$s),, съдържанието на съобщението и информация за местоположението на най-близките сървъри.</string>
     <string name="dialog_message_sms_report">Спам съобщенията и информацията за изпращача ще бъдат изпратени към сървърите на MIUI и ще бъдат докладвани. Тази информация ще бъде използвана само с цел подобряване на качеството на MIUI и филтрите за различни услуги.</string>
+    <string name="dialog_title_fake_cell_detect_error">Корекция</string>
     <string name="disable_notifications_dialog_message">Да не се дублират известия за SMS на приложението за съобщения по подразбиране</string>
     <string name="disabled">Изкл</string>
     <string name="discard">Отмени</string>
@@ -138,6 +151,7 @@
     <string name="download_later">Съобщенията не могат да се изтеглят. Моля, опитайте отново по-късно.</string>
     <string name="downloading">Изтегляне</string>
     <string name="downloading_file_can_not_play">Изчакайте докато изтеглянето на записа завърши</string>
+    <string name="draft">План</string>
     <string name="duration_not_a_number">Продължителността трябва да е число</string>
     <string name="duration_sec">Продължителност (%s сек.)</string>
     <string name="duration_selector_title">"Продължителност на слайда "</string>
@@ -154,7 +168,6 @@
     <string name="error_state">Непоследователно състояние</string>
     <string name="error_state_text">Състоянието на последователността на нишките е неправилно. Създайте доклад и го изпратете чрез http://go/droidanizer</string>
     <string name="error_timed_msg">Не може да се насрочи време преди настоящото</string>
-    <string name="ex_type_guide">Информация</string>
     <string name="ex_type_mx">Mi Message</string>
     <string name="ex_type_sms">SMS</string>
     <string name="exceed_message_size_limitation">Достигнат е максималния размер на съобщение.</string>
@@ -166,6 +179,7 @@
     <string name="fail_to_view_attachment">Прикаченият файл не е достъпен</string>
     <string name="failed_to_add_media">Обектът %1$s не може да бъде добавен в съобщението.</string>
     <string name="failed_to_resize_image">Изображението не е преоразмерено.</string>
+    <string name="fake_cell_alert_detect_error">Не беше изпратено поради фалшива базова клетка</string>
     <string name="fake_cell_alert_hint">Изглежда това съобщение е изпратено от номер, различен от показания. Бъдете внимателни за съобщения, съдържащи добавена стойност.</string>
     <string name="fake_cell_checking_hint">Safety checking…</string>
     <string name="fake_cell_safe_hint">Това съобщение е безопасно</string>
@@ -178,6 +192,7 @@
     <string name="file_size">Размер:</string>
     <string name="file_title">Име:</string>
     <string name="file_width_height">Размер:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ново съобщение</string>
     <string name="forward_from">Препратено от:</string>
     <string name="forward_prefix">От:</string>
@@ -346,6 +361,9 @@
     <string name="no_subject_view">(Няма тема)</string>
     <string name="non_english_subject_limit">Максимум 13 знака</string>
     <string name="nosend_message">Не е изпратено</string>
+    <string name="notification_channel_description">Известия от съобщенията</string>
+    <string name="notification_channel_name">Съобщения</string>
+    <string name="notification_copy">Копиране на OTP</string>
     <string name="notification_failed_multiple">%s съобщения не са изпратени</string>
     <string name="notification_failed_multiple_title">Неизпратени съобщения</string>
     <string name="notification_multiple">[%s]</string>
@@ -379,7 +397,7 @@
     <string name="pref_show_blocked_messages_summary">Показване на блокираните SMS в списъка с кореспонденции</string>
     <string name="pref_show_list_avatar_summary">Покажи профилни снимки и информация за контакт като списък</string>
     <string name="pref_show_photo_word_summary">Автоматично присвояване на снимка за контакт без снимка</string>
-    <string name="pref_show_sms_template_entry_summary">Открий еднократни пароли в SMS</string>
+    <string name="pref_show_sms_template_entry_summary">Detect one-time passwords and show quick menus</string>
     <string name="pref_show_sms_template_in_summary">Автоматично засичане на OTP в SMS съобщенията</string>
     <string name="pref_show_sms_template_summary">Включете смарт функциите на Mi Message - копиране на кодове, проверка на сметката и т.н.</string>
     <string name="pref_smart_messages_settings">Тарикатски съобщения</string>
@@ -446,7 +464,7 @@
     <string name="privacy_password_title4">Паролата е подсилена</string>
     <string name="private_message">Частни съобщения</string>
     <string name="private_new_notification">Известие</string>
-    <string name="private_protect">Защита на частни съобщения</string>
+    <string name="private_protect">Защита на личните данни</string>
     <string name="private_settings">Настройки на частни съобщения</string>
     <string name="processing">Обработка...</string>
     <string name="prvate_contact">Частни контакти</string>
@@ -526,6 +544,7 @@
     <string name="send_signature_confirm_dialog_title">Изпрати подпис</string>
     <string name="send_sms">Изпрати съобщение</string>
     <string name="send_to">До:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Изпратено в: %1s</string>
     <string name="sent_label">Изпратени:</string>
     <string name="service_message_not_found">Съобщението е изтекло или не е достъпно</string>
@@ -608,13 +627,14 @@
     <string name="title_show_blocked_messages">Показване на блокирани SMS</string>
     <string name="title_show_list_avatar">Покажи профилни снимки</string>
     <string name="title_show_photo_word">Присвои снимка за контакт</string>
-    <string name="title_show_sms_template">Проверка за кодове за потвърждение в SMS-а</string>
+    <string name="title_show_sms_template">Smart Messaging</string>
     <string name="title_show_sms_template_in">Проверка на SMS за OTP</string>
     <string name="title_timed_message_dialog">Час за изпращане на съобщение</string>
     <string name="title_use_gsm_alphabet">Използвайте GSM азбука</string>
     <string name="to_address_label">До:</string>
     <string name="to_label">"До "</string>
     <string name="to_send_wrapper">Ще бъде изпратено в %s</string>
+    <string name="toast_pending_hangup_msg">Съобщението ще бъде изпратено след приключване на повикването</string>
     <string name="today">Днес</string>
     <string name="too_many_attachments">Има ограничение за %1$s прикачени файла. Ще бъде прикачен: %2$s.</string>
     <string name="too_many_recipients">Съобщението има твърде много получатели (%1$s). Максимум: %2$s получатели.</string>
@@ -637,10 +657,12 @@
     <string name="unsticked_conversation">Разговорът е откачен</string>
     <string name="unsupported_media_format">Неподдържан формат %1$s.</string>
     <string name="url_fraud_dangerous_alert">\"The website you are trying to visit is a fraud link, can be harmful to your device and your property, are you sure to move on? %s\"</string>
-    <string name="url_fraud_risky_alert">\"The website you are trying to visit may be a fraud link, are you sure to move on? %s\"</string>
+    <string name="url_fraud_risky_alert">"Уебсайтът %s, който се опитвате да отворите, може да е опасен. Искате ли все пак да го отворите?
+"</string>
     <string name="url_fraud_title">Fraud suspicious</string>
     <string name="url_fraud_visit"><u>Посещение на неиндентифицирана страница</u></string>
     <string name="url_result_safe">This url is safe</string>
+    <string name="url_scan_again">Проверете отново</string>
     <string name="url_scanning">Url scanning…</string>
     <string name="verification_code_list_title">Кодове за потвърждение</string>
     <string name="view">Преглед</string>
@@ -652,5 +674,4 @@
     <string name="wild_msg_title">Включи синхр. с облачна услуга</string>
     <string name="yes">OК</string>
     <string name="yesterday">Вчера</string>
-    <string name="fake_cell_detection_entry">Засечена е фалшива базова станция</string>
 </resources>

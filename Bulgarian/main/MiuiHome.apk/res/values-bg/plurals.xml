@@ -4,6 +4,10 @@
         <item quantity="other">Плъзгане %1$d елементи</item>
         <item quantity="one">Плъзгане %1$d елемент</item>
     </plurals>
+    <plurals name="announce_for_unread">
+        <item quantity="other">%2$s непрочетени от %1$s</item>
+        <item quantity="one">%2$s непрочетено от %1$s</item>
+    </plurals>
     <plurals name="delete_wallpapers_message">
         <item quantity="other">Да се изтрият ли избраните %1$d тапети?</item>
         <item quantity="one">Да се изтрие ли избраният %1$d тапет?</item>

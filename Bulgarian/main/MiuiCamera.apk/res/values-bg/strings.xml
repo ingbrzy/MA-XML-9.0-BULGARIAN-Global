@@ -3,6 +3,7 @@
     <string name="camera_setting">Настройки на камерата</string>
     <string name="path_settings">Системни приложения/Камера/Настройки</string>
     <string name="search_settings">Камера настройки;Качество;Снимка качество;Снимка място;Изображение място;Разпознаване лице;Камера звук</string>
+    <string name="hibernate_hint">Докоснете екрана, за да събудите Камерата</string>
     <string name="camera_error_title">Грешка на камерата</string>
     <string name="cannot_connect_camera_once">Няма връзка с камерата, затворете приложението</string>
     <string name="cannot_connect_camera_twice">Няма връзка с камерата, рестартирайте устройството</string>
@@ -31,10 +32,15 @@
     <string name="pref_front_mirror_title">Предно огледало</string>
     <string name="pref_video_quality_title">Видео резолюция</string>
     <string name="pref_video_hfr_title">Видео HFR</string>
-    <string name="pref_video_quality_entry_4kuhd">UHD 4K</string>
-    <string name="pref_video_quality_entry_1080p">FHD 1080P</string>
-    <string name="pref_video_quality_entry_720p">HD 720P</string>
-    <string name="pref_video_quality_entry_480p">SD 480P</string>
+    <string name="pref_video_quality_entry_4kuhd">UHD 4K, 30к/сек</string>
+    <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60к/сек</string>
+    <string name="pref_video_quality_entry_1080p">FHD 1080P, 30к/сек</string>
+    <string name="pref_video_quality_entry_1080p_60fps">FHD 1080P, 60к/сек</string>
+    <string name="pref_video_quality_entry_720p">HD 720P, 30к/сек</string>
+    <string name="pref_video_quality_entry_480p">SD 480P, 30к/сек</string>
+    <string name="pref_video_encoder_title">Видео енкодер</string>
+    <string name="pref_video_encoder_entry_h264">H.264 Висока съвместимост</string>
+    <string name="pref_video_encoder_entry_h265">H.265 Висока производителност</string>
     <string name="pref_video_time_lapse_frame_interval_title">\"Time lapse\" интервал</string>
     <string name="pref_video_time_lapse_frame_interval_entry_2">2X (0.06-сек интервал)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_4">4X (0.12-сек интервал)</string>
@@ -92,11 +98,6 @@
     <string name="pref_camera_coloreffect_entry_negative" />
     <string name="pref_camera_coloreffect_entry_posterize" />
     <string name="pref_camera_coloreffect_entry_aqua" />
-    <string name="pref_camera_ai_scene_title">AI камера</string>
-    <string name="pref_camera_front_ai_scene_entry_on">AI камера</string>
-    <string name="pref_camera_front_ai_scene_entry_off">AI камера е изкл</string>
-    <string name="ai_scene_mode_use_hint_text">"AI камера определя сцените автоматично
- и оптимизира вашите снимки на базата на тази информация"</string>
     <string name="pref_camera_coloreffect_entry_none">Стандартно</string>
     <string name="pref_camera_coloreffect_entry_instagram_rise">Ломо</string>
     <string name="pref_camera_coloreffect_entry_instagram_clarendon">Цветен балон</string>
@@ -217,6 +218,8 @@
     <string name="accessibility_filter_close_panel">Затворено е меню за филтри</string>
     <string name="accessibility_bokeh_normal">Режим Размит фон на предната камера е изключен</string>
     <string name="accessibility_bokeh_on">Режим Размит фон на предната камера е включен</string>
+    <string name="accessibility_ai_scene_on">AI камера е вкл</string>
+    <string name="accessibility_ai_scene_off">AI камера е изкл</string>
     <string name="accessibility_more">Още</string>
     <string name="accessibility_setting">Настройки</string>
     <string name="accessibility_protrait">Портрет</string>
@@ -408,6 +411,7 @@
     <string name="dual_camera_lens_covered_toast">Обективът е закрит.</string>
     <string name="dual_camera_use_hint">Уверете се, че обектът на заснемане не е по-далеч от 2 метра.</string>
     <string name="bokeh_use_hint">Ефект дълбочина</string>
+    <string name="back_bokeh_use_hint">Уверете се, че обектът на заснемане не е по-далеч от 1.5 метра.</string>
     <string name="pref_camera_zoom_ratio_wide">100</string>
     <string name="pref_camera_zoom_ratio_tele">200</string>
     <string name="pref_camera_zoom_mode_title">ЛЕЩИ</string>
@@ -425,6 +429,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Ефект дълбочина</string>
     <string name="portrait_mode_use_hint">"Режим Портрет замъглява задния план, 
 и по този начин лицата на хората изпъкват ясно на преден план."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">Квадрат</string>
     <string name="simple_mode_button_text_square">Изключи Квадрат</string>
     <string name="face_beauty_smart">Смарт</string>
@@ -439,6 +444,7 @@
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средно</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Режими</string>
     <string name="button_front_camera_title">Направете селфи</string>
     <string name="button_normal_video_title">Запишете видео</string>
@@ -460,6 +466,7 @@
     <string name="hint_fast_motion">Видеоклипът, който заснемате, ще се възпроизвежда по-бързо.</string>
     <string name="hint_slow_motion">Видеоклипът, който заснемате, ще се възпроизвежда по-бавно.</string>
     <string name="hunt_dual_water_mark">Водният знак на двойната камера ще се добави автоматично.</string>
+    <string name="hint_ae_af_lock">Автофокус / автоекспонирането са заключени</string>
     <string name="hint_device_water_mark">Водният знак на снимката ще бъде добавен автоматично.</string>
     <string name="module_name_fun">Кратко видео</string>
     <string name="module_name_video">Видеозапис</string>
@@ -481,11 +488,21 @@
     <string name="config_name_super_resolution">Супер резолюция</string>
     <string name="beauty_fragment_tab_name_beauty">Разкрасяване</string>
     <string name="beauty_fragment_tab_name_makeup">Разширени</string>
+    <string name="beauty_fragment_tab_name_3d_beauty">Разкрасяване</string>
+    <string name="beauty_fragment_tab_name_3d_remodeling">Ремоделиране</string>
     <string name="edit_skin_white">Цвят</string>
     <string name="edit_skin_smooth">Гладко</string>
     <string name="edit_eye_large">Големи очи</string>
     <string name="edit_face_slender">Тънко</string>
     <string name="edit_face_ruddy">Руменина</string>
+    <string name="edit_nose">Нос</string>
+    <string name="edit_risorius">Мускул на смеха</string>
+    <string name="edit_lips">Устни</string>
+    <string name="edit_chin">Брадичка</string>
+    <string name="edit_neck">Врат</string>
+    <string name="edit_smile">Усмивка</string>
+    <string name="edit_slim_nose">Нос</string>
+    <string name="popup_tip_3d_beauty_intro_text">3D Красота</string>
     <string name="sticker_tab1">Сладък</string>
     <string name="sticker_tab2">Забавен</string>
     <string name="user_agreement2">Условия за използване</string>
@@ -506,8 +523,19 @@
     <string name="front_camera_hint_text_rotate">Завъртете вашия телефон</string>
     <string name="front_camera_hint_text_place">"Правенето на селфита ще бъде много лесно
  ако завъртите вашия телефон"</string>
+    <string name="pref_camera_ai_scene_title">AI камера</string>
+    <string name="pref_camera_front_ai_scene_entry_on">AI камера</string>
+    <string name="pref_camera_front_ai_scene_entry_off">AI камера е изкл</string>
     <string name="text_ai_scene_selector_text_on">СИЛУЕТ</string>
     <string name="text_ai_scene_selector_text_off">КОНТРА-ЖУР</string>
+    <string name="ai_scene_mode_use_hint_text">"AI камера определя сцените автоматично
+ и оптимизира вашите снимки на базата на тази информация"</string>
     <string name="pref_camera_asd_popup_title">Извести когато е необходима светкавица</string>
     <string name="pref_video_captrue_ability_title">Снимка по време на запис</string>
+    <string name="face_analyze_info">Години: %2$s (%1$s)</string>
+    <string name="pref_camera_picturesize_entry_standard">Стандартно 4:3</string>
+    <string name="pref_camera_picturesize_entry_fullscreen">Широкоекранно 16:9</string>
+    <string name="lens_dirty_detected_title_back">Лещите на задната камера са замърсени</string>
+    <string name="lens_dirty_detected_title_front">Лещите на предната камера са замърсени</string>
+    <string name="lens_dirty_detected_content">Изглежда, че обективът на камерата е замърсен. Почистете го за по-качествени снимки.</string>
 </resources>

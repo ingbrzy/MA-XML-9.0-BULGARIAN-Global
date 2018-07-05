@@ -274,19 +274,9 @@
         <item>Номерът да се показва</item>
     </string-array>
     <string-array name="preferred_network_mode_choices">
-        <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
-        <item>TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
-        <item>LTE/TDSCDMA/GSM/WCDMA</item>
-        <item>LTE/TDSCDMA/WCDMA</item>
-        <item>TDSCDMA/GSM/WCDMA</item>
-        <item>LTE/TDSCDMA/GSM</item>
-        <item>TDSCDMA/GSM</item>
-        <item>LTE/TDSCDMA</item>
-        <item>TDSCDMA/WCDMA</item>
-        <item>TDSCDMA само</item>
         <item>LTE / WCDMA</item>
         <item>LTE</item>
-        <item>Глобална</item>
+        <item>Глобален</item>
         <item>GSM/WCDMA/LTE</item>
         <item>CDMA + LTE/EvDo</item>
         <item>CDMA/EvDo/GSM/WCDMA</item>

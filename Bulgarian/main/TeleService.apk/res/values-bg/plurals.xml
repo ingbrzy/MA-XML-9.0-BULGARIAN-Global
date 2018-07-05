@@ -30,8 +30,4 @@
         <item quantity="one">"
 Имате още %d оставащ опит."</item>
     </plurals>
-    <plurals name="phone_in_ecm_notification_time">
-        <item quantity="other">Няма връзка за данни в продължение на %s минути</item>
-        <item quantity="one">Няма връзка за данни в продължение на %s минута</item>
-    </plurals>
 </resources>

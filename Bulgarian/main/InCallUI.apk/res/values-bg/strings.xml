@@ -14,7 +14,7 @@
     <string name="callFailed_out_of_network">Обаждане извън мрежата</string>
     <string name="callFailed_server_error">Грешка в сървъра. Опитайте отново по-късно.</string>
     <string name="callFailed_noSignal">Няма сигнал</string>
-    <string name="callFailed_limitExceeded">Надвишено ограничение за ACM</string>
+    <string name="callFailed_limitExceeded">Надхвърлен ACM лимит</string>
     <string name="callFailed_powerOff">Антената е изключена</string>
     <string name="callFailed_simError">Няма SIM карта или грешка на SIM картата</string>
     <string name="callFailed_outOfService">Район без покритие</string>
@@ -79,7 +79,6 @@
     <string name="respond_via_sms_custom_message">Потребителски SMS</string>
     <string name="manageConferenceLabel">Управление на конферентно обаждане</string>
     <string name="emergency_call_dialog_number_for_display">Номер за спешна помощ</string>
-    <string name="call_extension_conference_mode">Конферентен режим</string>
     <string name="notification_dialing">Набиране</string>
     <string name="notification_ongoing_call">Провеждащ се разговор</string>
     <string name="notification_on_hold">Задържане на обаждането</string>
@@ -137,16 +136,17 @@
     <string name="call_recording_error_unknown">Възникна неизвестна грешка</string>
     <string name="call_recording_notification_title">Разговорът е записан</string>
     <string name="call_recording_notification_title_error">Разговорът не успя да се запише</string>
-    <string name="call_recording_notification_message">Докоснете за прослушване.</string>
+    <string name="call_recording_notification_message">Натиснете, за да чуете.</string>
     <string name="call_recording_notification_message_low_storage">Записът бе спрян, няма достатъчно място.</string>
     <string name="call_recording_notification_message_sd_unmounted">Записът спря, тъй като SD картата не е включена.</string>
     <string name="call_recording_deny_permission_msg">Нямате права за запис на разговор, не може да се запише.</string>
     <string name="call_contacts_deny_permission_msg">\"Нямате права за получаване на информация за контакт, не може да се покаже информация.</string>
+    <string name="conference_call_recorder_title">Конферентно обаждане</string>
     <string name="antispam_marked_count">Отклонени: %1$d</string>
-    <string name="antispam_local_marked">Локално маркирани</string>
+    <string name="antispam_local_marked">Маркирано локално</string>
     <string name="antispam_provider">Доставчик: %s</string>
     <string name="antispam_notification_title">Неизвестен</string>
-    <string name="suspect_info">Бъдете внимателни с личните ви данни.</string>
+    <string name="suspect_info">Бъдете внимателни с вашите лични данни.</string>
     <string name="card_title_video_call_paused">Видеообаждането е на пауза.</string>
     <string name="card_title_incoming_conference_call">Входящо конферентно обаждане.</string>
     <string name="onscreen_change_to_voice">Гласово обаждане</string>
@@ -177,7 +177,7 @@
     <string name="call_button_tools_text">Опции</string>
     <string name="call_button_dialer_text">Клавиатура</string>
     <string name="call_button_mute_text">Заглуши</string>
-    <string name="call_button_conference_manager_text">Регулиране на конф. обаждане</string>
+    <string name="call_button_conference_manager_text">Управление</string>
     <string name="select_audio_dialog_title">Please select answering mode</string>
     <string name="incoming_circle_text_reject_p">Плъзнете за отхвърляне</string>
     <string name="incoming_circle_text_reject">Отпуснете за отхвърляне</string>
@@ -195,5 +195,5 @@
     <string name="dialpad_seven">7</string>
     <string name="dialpad_eight">8</string>
     <string name="dialpad_nine">9</string>
-    <string name="prompt_no_volte_when_failed">VoLTE услугите не са достъпни.</string>
+    <string name="prompt_no_volte_when_failed">Не може да се извърши обаждане. Уверете се, че вашето устройство е свързано с 4G мрежа с VoLTE поддържка.</string>
 </resources>

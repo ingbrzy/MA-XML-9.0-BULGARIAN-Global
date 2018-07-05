@@ -13,8 +13,8 @@
         <item quantity="one">%d съобщение не е синхронизирано</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
-        <item quantity="other">Изтрий %1$sизбрани разговори?</item>
-        <item quantity="one">Изтрий %1$sизбран разговор?</item>
+        <item quantity="other">Желаете ли да изтриете %1$d избраните разговори?</item>
+        <item quantity="one">Желаете ли да изтриете %1$d избрания разговор?</item>
     </plurals>
     <plurals name="custom_select_title_items_selected">
         <item quantity="other">%d избрани</item>

@@ -57,6 +57,7 @@
     <string name="save_pic_success">Запазване на изобр. в %s</string>
     <string name="save_pic_fail">Не може да се запази изобр. Прегледайте SD-картата си</string>
     <string name="pic_not_exist">Това изобр. не съществува</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Изберете продукт</string>
     <string name="michat_skillset_business_type_title">Изберете услуга</string>
     <string name="michat_close_text">Чатът е затворен</string>
@@ -254,6 +255,12 @@
     <string name="feedback_status_jira_comment">Оставете коментар</string>
     <string name="feedback_status_forum_reply">Отговори</string>
     <string name="feedback_status_submit_attachment">Успешно прикачено</string>
+    <string name="feedback_status_collect_log_failed">Няма достъп до регистрационните файлове</string>
+    <string name="feedback_status_submit_feedback_failed">Неуспешно изпращане на отзив</string>
+    <string name="feedback_status_save_log_info_failed">Неуспешна промяна на прикачения URL файл</string>
+    <string name="feedback_status_submit_bbs_failed">Неуспешно изпращане на съдържанието на отзива</string>
+    <string name="feedback_status_get_and_save_bbs_info_failed">Няма достъп до прикачения URL файл</string>
+    <string name="feedback_status_upload_log_failed">Неуспешно качване на прикачени файлове</string>
     <string name="feedback_status_change_notification_title">Прогреса на вашия доклад е обновен</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s грешка \"%2$s\"</string>
     <string name="feedback_suggestion_status_change_notification_desc">%1$s предложения \"%2$s\"</string>

@@ -1,36 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">преди 1 час</item>
-        <item quantity="one">преди 1 час</item>
-    </plurals>
-    <plurals name="abbrev_half_hour_ago">
-        <item quantity="other">Преди половин час</item>
-        <item quantity="one">Преди половин час</item>
-    </plurals>
-    <plurals name="abbrev_in_a_hour">
-        <item quantity="other">В рамките на няколко часа</item>
-        <item quantity="one">В рамките на 1 час</item>
-    </plurals>
-    <plurals name="abbrev_in_half_hour">
-        <item quantity="other">В рамките на половин час</item>
-        <item quantity="one">В рамките на половин час</item>
-    </plurals>
     <plurals name="abbrev_in_less_than_one_minute">
         <item quantity="other">Незабавно</item>
         <item quantity="one">Веднага</item>
     </plurals>
-    <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">в рамките на %1$d мин</item>
-        <item quantity="one">в рамките на %1$d мин</item>
-    </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Сега</item>
         <item quantity="one">Сега</item>
-    </plurals>
-    <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">%1$d мин преди</item>
-        <item quantity="one">%1$d мин преди</item>
     </plurals>
     <plurals name="batch_delete_msg">
         <item quantity="other">Изтриване на %1$d контакти?</item>

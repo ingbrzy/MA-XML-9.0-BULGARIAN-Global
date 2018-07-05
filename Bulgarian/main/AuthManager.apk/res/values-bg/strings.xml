@@ -25,8 +25,6 @@
     <string name="HIPS_Perm_VideoRecorder_Desc">достъп до камерата за заснемане на снимки или видео</string>
     <string name="HIPS_Perm_AudioRecorder">Аудиозапис</string>
     <string name="HIPS_Perm_AudioRecorder_Desc">запис на обаждания и звук</string>
-    <string name="HIPS_Perm_Mobile_Connectivity">Мобилни 2G/3G данни</string>
-    <string name="HIPS_Perm_Mobile_Connectivity_Desc">включване или изключване на мобилните данни</string>
     <string name="HIPS_Perm_WIFI_Connectivity">Wi-Fi свързаност</string>
     <string name="HIPS_Perm_WIFI_Connectivity_Desc">включване или изключване на Wi-Fi</string>
     <string name="HIPS_Perm_Bluetooth_Connectivity">Bluetooth свързаност</string>

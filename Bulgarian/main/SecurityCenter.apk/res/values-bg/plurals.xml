@@ -92,6 +92,14 @@
         <item quantity="other">"%d мин. "</item>
         <item quantity="one">"%d мин. "</item>
     </plurals>
+    <plurals name="power_center_battery_volume">
+        <item quantity="other">%d mAh</item>
+        <item quantity="one">%d mAh</item>
+    </plurals>
+    <plurals name="power_center_battery_temperature">
+        <item quantity="other">%d ℃</item>
+        <item quantity="one">%d ℃</item>
+    </plurals>
     <plurals name="deep_clean_auto_memory_clean">
         <item quantity="other">На %1$d минути</item>
         <item quantity="one">На %1$d минута</item>

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Добави в работно място</string>
     <string name="activity_not_found">Приложението не е инсталирано на телефона Ви.</string>
     <string name="add_screen">Добави бутон за екрани</string>
+    <string name="announce_for_checked">%1$s, проверени</string>
     <string name="announce_for_choose_default_screen">Задайте екран %1$d за Начален екран по подразбиране</string>
     <string name="announce_for_close_default_preview">Затворени настройки по подразбиране за Начален екран</string>
     <string name="announce_for_close_folder">Затворена папка</string>
@@ -22,10 +24,13 @@
     <string name="announce_for_drop_workspace">Екран номер %1$d, ред номер %2$d, колона номер %3$d</string>
     <string name="announce_for_edit_mode">Вие сте в режим редактиране</string>
     <string name="announce_for_edit_mode_disable">Вие излязохте от режим редактиране</string>
+    <string name="announce_for_move">Преместете на %1$d ред %2$d колонка</string>
+    <string name="announce_for_move_hotseat">Преместете в док позиция %1$d</string>
     <string name="announce_for_open_default_preview">Отворени настройки по подразбиране за Начален екран</string>
     <string name="announce_for_open_folder">Отворена папка %1$s</string>
     <string name="announce_for_open_launcher_menu">Отворено меню</string>
     <string name="announce_for_show_uninstall_dialog">Появи се диалог за деинсталиране. Отменете или потвърдете.</string>
+    <string name="announce_for_unchecked">%1$s，непроверени</string>
     <string name="app_already_exist">Приложението вече съществува</string>
     <string name="app_being_backup_message">Приложението е архивирано.</string>
     <string name="app_being_restored_message">Приложението бе възстановено</string>
@@ -58,6 +63,7 @@
     <string name="aqi_quality_index_light_pollution">Леко замърсено</string>
     <string name="aqi_quality_index_moderate">Умерено</string>
     <string name="aqi_quality_index_unhealthy">Вредно</string>
+    <string name="backup_fail">Неуспешно архивиране на стартовия панел</string>
     <string name="bad_wallpaper_source_prompt">Тапетът не може да се зареди</string>
     <string name="buffering">Буфериране...</string>
     <string name="cancel_action">Отмяна</string>
@@ -87,6 +93,7 @@
     <string name="default_folder_title_microsoft">Microsoft</string>
     <string name="default_folder_title_recommend">Още приложения</string>
     <string name="default_folder_title_security">Безопасност</string>
+    <string name="default_folder_title_services">Услуги</string>
     <string name="default_folder_title_telcel">Telcel</string>
     <string name="default_folder_title_tools">Инструменти</string>
     <string name="default_screen_preview_title">Докоснете за да зададете като начален екран</string>
@@ -175,6 +182,7 @@
     <string name="guide_install_app_title">Инсталиране на приложение</string>
     <string name="guide_tips_editing_mode">Натиснете &amp; задръжте за да преместите джаджата</string>
     <string name="home_screen">Начален екран</string>
+    <string name="icon_reorganize_channel">Подреди иконите</string>
     <string name="image_too_small_message">Оригиналното изображение не е достатъчно голямо.</string>
     <string name="install">Инсталиране</string>
     <string name="invalid_contact_shortcut">Невалиден пряк път</string>
@@ -224,12 +232,14 @@
     <string name="normal_wallpaper">Тапет</string>
     <string name="notification_installed">Инсталацията е успешна</string>
     <string name="notification_open_button">Отвори</string>
+    <string name="notification_reset_title">Успешно подредени икони</string>
     <string name="online_wallpaper">Онлайн</string>
     <string name="open_personal_assistant_dialog_btn_cancel">Отмени</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Изключи</string>
     <string name="open_personal_assistant_dialog_desc">Няма да можете да използвате Трезор за приложения и да получавате неговите актуализации. Да се изключи ли сега?</string>
+    <string name="open_personal_assistant_dialog_desc_international">"You won't be able to use App vault cards (Stocks, Shortcuts, etc.) and receive updates after you turn this feature off."</string>
     <string name="open_personal_assistant_dialog_title">Изключи Трезор за приложения</string>
-    <string name="open_personal_assistant_title">Включи Трезор за приложения</string>
+    <string name="open_personal_assistant_title">App vault</string>
     <string name="out_of_space">На този екран няма свободно място.</string>
     <string name="permdesc_install_shortcut">Позволява на приложението да добавя преки пътища без намеса от потребителя.</string>
     <string name="permdesc_install_widget">Позволява на приложението да добавя джаджи без намеса от потребителя.</string>
@@ -260,6 +270,7 @@
     <string name="preferences_general_title">Основни настройки</string>
     <string name="preferences_title">Настройка на MIUI Launcher</string>
     <string name="preferred_app_settings_not_selected">Не е избрано</string>
+    <string name="quick_app">Бързи приложения</string>
     <string name="recents_config_title">Скорошни</string>
     <string name="recommend_apk_size_and_desc">%1$dМБ | %2$s</string>
     <string name="recommend_apps_default_title">Празно</string>
@@ -269,7 +280,12 @@
     <string name="recommend_apps_switch_title">Препоръчани</string>
     <string name="recommend_apps_tips">Тази функция се нуждае от връзка към интернет, за да работи нормално. Ако искате да я изключите, докоснете името на тази папка.</string>
     <string name="recommend_loading">Зареждане</string>
+    <string name="refresh">Презареди</string>
+    <string name="reset_description_first_time">You can restore the layout from %1$s within 2 hours</string>
+    <string name="reset_description_others">You can restore the layout from %1$s</string>
+    <string name="reset_fail">"Couldn't restore"</string>
     <string name="reset_scene_prompt">Сцената ще бъде възстановена до състояние по подразбиране</string>
+    <string name="reset_title">Restore</string>
     <string name="screen_cells_config_title">Схема на Начален екран</string>
     <string name="screen_locked_toast">Оформлението за начален екран е заключено.</string>
     <string name="screen_number">Екран %d</string>
